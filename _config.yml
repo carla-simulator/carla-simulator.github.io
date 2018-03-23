@@ -1,0 +1,38 @@
+title:             CARLA
+email:             carla.simulator@gmail.com
+description:       
+author:            Carla Team
+baseurl:           ""
+url:               http://carla-simulator.github.io/
+
+# Social Profiles
+twitter_username:  
+github_username:   
+intel_page:        https://www.intel.com/
+cvc_page:          http://www.cvc.uab.es/
+facebook_username: 
+
+# Build settings
+markdown:          kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+
+permalink:         pretty
+
+paginate:          100
+paginate_path:     "/posts/page:num/"
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+bibtex: |-
+  @inproceedings{Dosovitskiy17,
+  &nbsp title = {{CARLA}: {An} Open Urban Driving Simulator},
+  &nbsp author = {Alexey Dosovitskiy and German Ros and Felipe Codevilla and Antonio Lopez and Vladlen Koltun},
+  &nbsp booktitle = {Proceedings of the 1st Annual Conference on Robot Learning},
+  &nbsp pages = {1--16},
+  &nbsp year = {2017}
+  }
