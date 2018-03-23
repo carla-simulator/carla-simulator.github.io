@@ -13,9 +13,9 @@ layout: default
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>{{ site.title }}</h1>
-            {% if site.description %}
-              <span class="subheading">{{ site.description }}</span>
+            <h1 style="font-weight:700;margin:40px 0 20px;">{{ page.title }}</h1>
+            {% if page.description %}
+              <span class="subheading" style="margin:20px 0 40px;">{{ page.description }}</span>
             {% endif %}
           </div>
         </div>
@@ -28,6 +28,8 @@ layout: default
       <div class="col-lg-8 col-md-10 mx-auto">
 
         {{ content }}
+
+        {% include last_news.html %}
 
         <!-- Home Post List -->
         {% for post in site.posts limit : 5 %}

@@ -19,7 +19,11 @@ title: Posts
           <h2 class="subheading">{{ page.subtitle }}</h2>
           {% endif %}
           <span class="meta">Posted by
-            <a href="#">Start Bootstrap</a>
+            {% if page.auth_page %}
+              <a target="_blank" href="{{ page.auth_page }}">{{ page.author }}</a>
+            {% else %}
+              {{ page.author }}
+            {% endif %}
             on {{ page.date | date: '%B %d, %Y' }}</span>
         </div>
       </div>

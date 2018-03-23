@@ -4,31 +4,26 @@ title: About
 background: '/img/bg-about.jpg'
 ---
 
-
 <div class="text-center" style="display:block;">
-<!-- <div class="col-lg-8 col-md-10 mx-auto"> -->
-
-{% assign teams = "researchers,programmers,artists" | split: ',' %}
-{% for team in teams%}
-  <!-- Title -->
-  <h2 class="text-center" style="margin:50px 0 50px 0">{{ team | capitalize }}</h2>
-  <!-- Build each team image folder -->
-  {% assign team_image = 'img/team/' | append: team %}
-  <!-- For each file -->
-  {% for image in site.static_files %}
-    <!-- If the file is in the team folder -->
-    {% if image.path contains team_image %}
-      <!-- Get Name -->
-      {% assign info = image.path | replace: '_', ' ' | remove: '.png' | split: '-' %}
-
-        <div style="margin:30px;padding:0;display:inline-block;">
-          <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ info[1] }}"/>
-          <p class="text-center" style="margin:0;color:#000;font-weight: bold;">{{ info[1] }}</p>
-          <p class="text-center" style="margin:0;color:#999;font-size:15px;">{{ info[2] }}</p>
-        </div>
-            
-    {% endif %}
+  {% assign teams = "researchers,programmers,artists" | split: ',' %}
+  {% for team in teams%}
+    <h2 class="text-center" style="margin:50px 0 50px 0">
+      {{ team | capitalize }}
+    </h2>
+    {% assign team_image = 'img/team/' | append: team %}
+    {% for image in site.static_files %}
+      {% if image.path contains team_image %}
+        {% assign info = image.path | replace: '_', ' ' | remove: '.png' | split: '-' %}
+          <div style="margin:30px;padding:0;display:inline-block;">
+            <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ info[1] }}"/>
+            <p class="text-center" style="margin:0;color:#000;font-weight:bold;">
+              {{ info[1] }}
+            </p>
+            <p class="text-center" style="margin:0;color:#999;font-size:15px;">
+              {{ info[2] }}
+            </p>
+          </div>
+      {% endif %}
+    {% endfor %}
   {% endfor %}
-{% endfor %}
-
 </div>
