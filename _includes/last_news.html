@@ -1,0 +1,18 @@
+<!-- Home Post List -->
+
+<div class="last_news">
+
+  <h3>Last News</h3>
+  {% for post in site.posts limit : 5 %}
+
+    <article>
+      <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+        <h4 class="post-title">{{ post.title }}</h4>
+      </a>
+      <p>
+        Posted on {{ post.date | date: '%B %d, %Y' }}</p>
+    </article>
+
+  {% endfor %}
+
+</div>
