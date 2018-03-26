@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: About
 background: '/img/bg-about.jpg'
 ---
@@ -7,22 +7,22 @@ background: '/img/bg-about.jpg'
 <div class="text-center" style="display:block;">
   {% assign teams = "researchers,programmers,artists" | split: ',' %}
   {% for team in teams%}
-    <h2 class="text-center" style="margin:50px 0 50px 0">
+    <h2 class="text-center" style="margin:50px 0 0 0">
       {{ team | capitalize }}
     </h2>
     {% assign team_image = 'img/team/' | append: team %}
     {% for image in site.static_files %}
       {% if image.path contains team_image %}
-        {% assign info = image.path | replace: '_', ' ' | remove: '.png' | split: '-' %}
-          <div style="margin:30px;padding:0;display:inline-block;">
-            <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ info[1] }}"/>
-            <p class="text-center" style="margin:0;color:#000;font-weight:bold;">
-              {{ info[1] }}
-            </p>
-            <p class="text-center" style="margin:0;color:#999;font-size:15px;">
-              {{ info[2] }}
-            </p>
-          </div>
+        {% assign info = image.path | replace: '_', ' ' | remove: '.jpeg' | remove: '.jpg' | remove: '.png' | split: '-' %}
+        <div style="margin:30px;padding:0;display:inline-block;">
+          <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ info[1] }}" height="150" width="150"/>
+          <p class="text-center" style="margin:0;color:#000;font-weight:bold;">
+            {{ info[1] }}
+          </p>
+          <p class="text-center" style="margin:0;color:#999;font-size:15px;">
+            {{ info[2] }}
+          </p>
+        </div>
       {% endif %}
     {% endfor %}
   {% endfor %}

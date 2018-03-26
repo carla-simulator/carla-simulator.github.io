@@ -2,17 +2,23 @@
 
 <div class="last_news">
 
-  <h3>Last News</h3>
+  <h3>Latest News</h3>
   {% for post in site.posts limit : 5 %}
 
     <article>
       <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
         <h4 class="post-title">{{ post.title }}</h4>
+        <p>
+          Posted on {{ post.date | date: '%B %d, %Y' }}
+        </p>
       </a>
-      <p>
-        Posted on {{ post.date | date: '%B %d, %Y' }}</p>
     </article>
 
   {% endfor %}
 
-</div>
+  <!-- Pager -->
+  <div class="clearfix">
+    <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
+  </div>
+  
+</div> 

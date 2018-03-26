@@ -10,10 +10,10 @@
 .last_news > article {
 	padding: 5px;
 	border: 1px solid white;
+	transition: background .1s;
 }
 
 .last_news > article:hover {
-	/*border: 1px solid;*/
 	background: #f5f5f5;
 }
 
@@ -24,12 +24,11 @@
 	font-size: 20px;
 }
 
-.last_news > article > a > h4:hover {
-	font-style: none;
-	font-size: 20px;
+.last_news > article > a:hover {
+	text-decoration: none !important;
 }
 
-.last_news > article > p {
+.last_news > article > a > p {
 	font-size: 13px;
 	margin: 0;
 	color: #AAA;
