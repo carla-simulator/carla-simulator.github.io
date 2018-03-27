@@ -3,8 +3,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>
-    {% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}
-    {% else %}{{ site.title | escape }}{% endif %}
+    {% if page.title %}
+      {% if page.title == "CARLA" %}
+        {{ page.title | escape }} Simulator
+      {% else %}
+        {{ page.title | escape }} - {{ site.title | escape }}
+      {% endif %}
+    {% else %}
+      {{ site.title | escape }}
+    {% endif %}
   </title>
 
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
