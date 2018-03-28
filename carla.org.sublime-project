@@ -1,0 +1,37 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns":
+			[
+				".sass-cache",
+				"_site"
+			],
+			"file_exclude_patterns":
+			[
+				"*.sublime-workspace",
+				".tags*",
+				"core"
+			]
+		}
+	],
+	"settings":
+	{
+		"ensure_newline_at_eof_on_save": true,
+		"tab_size": 2,
+		"translate_tabs_to_spaces": true,
+		"trim_trailing_white_space_on_save": true
+	},
+	"build_systems":
+	[
+		{
+			"name": "carla - Jekyll serve",
+			"working_dir": "${project_path}",
+			"linux":
+			{
+				"shell_cmd": "gnome-terminal -e \"jekyll serve --future --drafts\""
+			}
+		}
+	]
+}
