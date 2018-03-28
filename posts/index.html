@@ -21,7 +21,11 @@ background: '/img/bg-post.jpg'
       {% else %}
         {{ site.author }}
       {% endif %}
-      on {{ post.date | date: '%B %d, %Y' }}</p>
+      on {{ post.date | date: '%B %d, %Y' }}
+      {% if post.comments %}
+      - <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}#disqus_thread"></a>
+      {% endif %}
+    </p>
   </article>
 
   <hr>
@@ -44,3 +48,5 @@ background: '/img/bg-post.jpg'
   </div>
 
 {% endif %}
+
+<script id="dsq-count-scr" src="//carla-org.disqus.com/count.js" async></script>
