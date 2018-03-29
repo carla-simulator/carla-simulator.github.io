@@ -4,26 +4,26 @@ title: About
 background: '/img/bg-about.jpg'
 ---
 
-<div class="text-center" style="display:block;">
-  {% assign teams = "researchers,programmers,artists" | split: ',' %}
-  {% for team in teams%}
-    <h2 class="text-center" style="margin:50px 0 0 0">
-      {{ team | capitalize }}
-    </h2>
-    {% assign team_image = 'img/team/' | append: team %}
-    {% for image in site.static_files %}
-      {% if image.path contains team_image %}
-        {% assign info = image.path | replace: '_', ' ' | remove: '.jpeg' | remove: '.jpg' | remove: '.png' | split: '-' %}
-        <div style="margin:30px;padding:0;display:inline-block;">
-          <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ info[1] }}" height="150" width="150"/>
-          <p class="text-center" style="margin:0;color:#000;font-weight:bold;">
-            {{ info[1] }}
-          </p>
-          <p class="text-center" style="margin:0;color:#999;font-size:15px;">
-            {{ info[2] }}
-          </p>
+<div class="team text-center">
+{% assign teams = "researchers,programmers,artists" | split: ',' %}
+{% for team in teams%}
+  <h2 class="text-center">{{ team | capitalize }}</h2>
+  {% for member in site.team %}
+    {% assign member_team = member | relative_url | split:'/' %}
+    {% if member_team[2] == team %}
+      <a href="{{member.url}}">
+        <div>
+          <div>
+            {% if member.github %}
+              {% avatar user=member.github %}
+            {% endif %}
+          </div>
+          <img src="/{{ member.portrait }}" alt="{{ member.name_ }}" height="150" width="150">
         </div>
-      {% endif %}
-    {% endfor %}
+        <p class="text-center team_name">{{ member.name_ }}</p>
+        <p class="text-center team_from">{{ member.from }}</p>
+      </a>
+    {% endif %}
   {% endfor %}
+{% endfor %}
 </div>

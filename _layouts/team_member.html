@@ -1,0 +1,67 @@
+---
+layout: default
+title: Team
+---
+
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+	{% else %}
+	<header class="masthead">
+		{% endif %}
+		<div class="overlay"></div>
+		<div class="post-heading"></div>
+	</div>
+</header>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-md-10 mx-auto">
+
+			<div class="text-center">
+				<img src="/{{ page.portrait }}">
+				<h3 class="name">{{ page.name_ }}</h3>
+			</div>
+			<hr>
+
+			{% if page.description %}
+			<p class="description">{{ page.description }}</p>
+			<hr>
+			{% endif %}
+
+			<table class="info_table">			
+				{% if page.page %}
+			  <tr>
+			    <td>Page</td>
+			    <td><a target="_blank" href="http://{{ page.page }}">{{ page.page }}</a></td>
+			  </tr>
+			  {% endif %}
+
+			  {% if page.github %}
+			  <tr>
+			    <td>GitHub</td>
+			    <td>
+						<a target="_blank" href="https://github.com/{{ page.github }}">{% avatar {{ page.github }} size=25 %} {{ page.github }}</a>
+		    	</td> 
+			  </tr>
+				{% endif %}
+
+				{% if page.from %}
+			  <tr>
+			    <td>From</td>
+			    <td>{{ page.from }}</td>
+			  </tr>
+			  {% endif %}
+
+			  {% if page.role %}
+			  <tr>
+			    <td>Role</td>
+			    <td>{{ page.role }}</td>
+			  </tr>
+			  {% endif %}
+			
+			</table>
+
+		</div>
+	</div>
+</div>
