@@ -22,6 +22,6 @@ In this one, you will see the very basics of how to use one of the releases of C
 </div>
 
 #### More tutorials?
-The making of this videos is something really time consuming for us, but we think it is really important for the community to have these extra information.
+The making of these videos is something really time consuming for us, but we think it is really important for the community to have these extra information.
 
-We'll try our best to add more videos with better content.
+We will be adding more videos with better content.
