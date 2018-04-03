@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Tutorial 00: Getting Started"
 subtitle: ""
-author: marcgpuig,felipecode
+author: marcgpuig, felipecode
 auth_page: https://github.com/marcgpuig
 date:   2018-04-03 08:00:00 +0002
 background: '/img/posts/2018-04-03/getting-started-bg.jpg'
@@ -19,6 +19,7 @@ Subscribe our new [CARLA youtube channel](https://www.youtube.com/channel/UC1llP
 to be added soon.
 
 #### Getting Started
+<br>
 
 ###### Target Public:
 
