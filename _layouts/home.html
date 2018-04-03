@@ -17,6 +17,9 @@ layout: default
             {% if page.description %}
               <span class="subheading" style="margin:20px 0 40px;">{{ page.description }}</span>
             {% endif %}
+            {% if page.getting_started %}
+              <p class="center"><a href="{{ page.getting_started }}" target="_blank" class="btn btn-primary" style="text-decoration: none;">Get Started</a></p>
+            {% endif %}
           </div>
         </div>
       </div>
