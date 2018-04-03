@@ -2,10 +2,10 @@
 <hr>
 <footer>
   <div class="container">
+    <!-- logo and sponsors -->
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <ul class="list-inline text-center">
-
           {% if site.cvc_page %}
           <li class="list-inline-item">
             <a target="_blank" href="{{ site.cvc_page }}" style="width:200px;height:100px;display:inline-block;overflow:hidden;">
@@ -20,39 +20,39 @@
             </a>
           </li>
           {% endif %}
+        </ul>
+      </div>
+    </div>
 
-          {% if site.twitter_username %}
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.twitter.com/{{ site.twitter_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.facebook_username %}
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
+    <br>
+
+    <!-- Social media and copyright -->
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
           {% if site.github_username %}
           <li class="list-inline-item">
-            <a target="_blank" href="https://github.com/{{ site.github_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-              </span>
+            <a target="_blank" style="text-decoration: none !important" href="https://github.com/{{ site.github_username }}">
+              <i class="fab fa-github fa-lg"></i>
             </a>
           </li>
           {% endif %}
+          {% if site.youtube_channel %}
+          <li class="list-inline-item">
+            <a target="_blank" style="text-decoration: none !important" href="https://www.youtube.com/channel/{{ site.youtube_channel }}">
+              <i class="fab fa-youtube fa-lg"></i>
+            </a>
+          </li>
+          {% endif %}
+          <li class="list-inline-item">
+            <a style="text-decoration: none !important" href="{{"/feed.xml" | relative_url }}">
+              <i class="fa fa-rss fa-lg" data-fa-transform="shrink-6 up-.4 right-.4" data-fa-mask="fas fa-circle"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
+          </li>
         </ul>
-        <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
       </div>
     </div>
   </div>
