@@ -2,7 +2,7 @@
 
 <div class="last_news">
 
-  <h3>Latest News</h3>
+  <h3>Latest News <a href="{{"/feed.xml" | relative_url }}"><i class="fa fa-rss-square fa-sm" ></i></a></h3>
   {% for post in site.posts limit : 5 %}
 
     <article>
@@ -20,5 +20,5 @@
   <div class="clearfix">
     <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
   </div>
-  
-</div> 
+
+</div>
