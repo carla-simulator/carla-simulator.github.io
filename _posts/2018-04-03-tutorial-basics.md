@@ -15,7 +15,7 @@ on how to use CARLA.
 In these videos, we are going to cover things like modifying the
  python client examples or how to build CARLA from source. 
 
-Subscribe our new [CARLA youtube channel](https://www.youtube.com/channel/UC1llP9ekCwt8nEJzMJBQekg) for  more  in-depth content videos
+Subscribe to our new [CARLA youtube channel](https://www.youtube.com/channel/UC1llP9ekCwt8nEJzMJBQekg) for  more  in-depth content videos
 to be added soon.
 
 <h4 style="margin: 20px 0">Getting Started</h4>
