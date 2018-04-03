@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Tutorial 00: Getting Started"
+title:  "Tutorial: Getting Started"
 subtitle: ""
 author: marcgpuig, felipecode
 auth_page: https://github.com/marcgpuig
@@ -18,8 +18,7 @@ In these videos, we are going to cover things like modifying the
 Subscribe our new [CARLA youtube channel](https://www.youtube.com/channel/UC1llP9ekCwt8nEJzMJBQekg) for  more  in-depth content videos
 to be added soon.
 
-#### Getting Started
-<br>
+<h4 style="margin: 20px 0">Getting Started</h4>
 
 ###### Target Public:
 
@@ -37,4 +36,3 @@ to be added soon.
 <div class="intrinsic-container intrinsic-container-16x9" style="margin: 30px 0">
   <iframe src="https://www.youtube.com/embed/AaJekfFR1KQ?feature=oembed&vq=hd720" frameborder="0" gesture="media" allowfullscreen="" class="fluidvids-item" data-fluidvids="loaded"></iframe>
 </div>
-
