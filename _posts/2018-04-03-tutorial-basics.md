@@ -20,7 +20,7 @@ to be added soon.
 
 #### Getting Started
 
-######Target Public:
+###### Target Public:
 
 * People just starting with CARLA that want a step by step hands on video.
 
@@ -30,7 +30,7 @@ to be added soon.
 * Executing CARLA Simulator and connecting it to a python client.
 
 
-######Tutorial Level: Basic
+###### Tutorial Level: Basic
 
 
 <div class="intrinsic-container intrinsic-container-16x9" style="margin: 30px 0">
