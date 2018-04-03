@@ -1,27 +1,39 @@
 ---
 layout: post
 comments: true
-title:  "New Video Tutorial: Getting Started"
+title:  "Tutorial 00: Getting Started"
 subtitle: ""
-author: marcgpuig
+author: marcgpuig,felipecode
 auth_page: https://github.com/marcgpuig
 date:   2018-04-03 08:00:00 +0002
 background: '/img/posts/2018-04-03/getting-started-bg.jpg'
 ---
 
-#### The very basics
-We are glad to announce the **first tutorial** of a series of video tutorials about how to use CARLA.
+We are glad to announce the **first tutorial** of a series of video tutorials 
+on how to use CARLA.
 
-In these videos, we'll try to cover things like modifying the python client examples or how to build CARLA from source. The point of this is to help people that have troubles with our documentation or does not have enough English knowledge to understand it.
+In these videos, we are going to cover things like modifying the
+ python client examples or how to build CARLA from source. 
 
-In this one, you will see the very basics of how to use one of the releases of CARLA that you can get from [here](https://github.com/carla-simulator/carla/releases).
+Subscribe our new [CARLA youtube channel](https://www.youtube.com/channel/UC1llP9ekCwt8nEJzMJBQekg) for  more  in-depth content videos
+to be added soon.
+
+#### Getting Started
+
+######Target Public:
+
+* People just starting with CARLA that want a step by step hands on video.
+
+###### What you will learn:
+* Downloading CARLA the carla [release](https://github.com/carla-simulator/carla/releases).
+* Executing CARLA Simulator.
+* Executing CARLA Simulator and connecting it to a python client.
+
+
+######Tutorial Level: Basic
 
 
 <div class="intrinsic-container intrinsic-container-16x9" style="margin: 30px 0">
   <iframe src="https://www.youtube.com/embed/AaJekfFR1KQ?feature=oembed&vq=hd720" frameborder="0" gesture="media" allowfullscreen="" class="fluidvids-item" data-fluidvids="loaded"></iframe>
 </div>
 
-#### More tutorials?
-The making of these videos is something really time consuming for us, but we think it is really important for the community to have these extra information.
-
-We will be adding more videos with better content.
