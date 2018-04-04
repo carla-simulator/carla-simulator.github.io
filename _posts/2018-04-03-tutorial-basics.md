@@ -3,17 +3,19 @@ layout: post
 comments: true
 title:  "Tutorial: Getting Started"
 subtitle: ""
+description: "We are glad to announce the first tutorial of a series of video tutorials on how to use CARLA."
 author: marcgpuig
 auth_page: https://github.com/marcgpuig
 date:   2018-04-03 08:00:00 +0002
+image: 'img/tutorial.jpg'
 background: '/img/posts/2018-04-03/getting-started-bg.jpg'
 ---
 
-We are glad to announce the **first tutorial** of a series of video tutorials 
+We are glad to announce the **first tutorial** of a series of video tutorials
 on how to use CARLA.
 
 In these videos, we are going to cover things like modifying the
- python client examples or how to build CARLA from source. 
+ python client examples or how to build CARLA from source.
 
 Subscribe to our new [CARLA youtube channel](https://www.youtube.com/channel/UC1llP9ekCwt8nEJzMJBQekg) for  more  in-depth content videos
 to be added soon.
