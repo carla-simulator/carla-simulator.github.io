@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Tutorial: Getting Started"
 subtitle: ""
-author: marcgpuig, felipecode
+author: marcgpuig
 auth_page: https://github.com/marcgpuig
 date:   2018-04-03 08:00:00 +0002
 background: '/img/posts/2018-04-03/getting-started-bg.jpg'
