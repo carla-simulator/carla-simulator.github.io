@@ -4,8 +4,7 @@ comments: true
 title:  "Tutorial: Getting Started"
 subtitle: ""
 description: "We are glad to announce the first tutorial of a series of video tutorials on how to use CARLA."
-author: marcgpuig
-auth_page: https://github.com/marcgpuig
+author: "@marcgpuig"
 date:   2018-04-03 08:00:00 +0002
 image: 'img/tutorial.jpg'
 background: '/img/posts/2018-04-03/getting-started-bg.jpg'
