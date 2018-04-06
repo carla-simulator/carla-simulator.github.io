@@ -51,6 +51,13 @@
             </a>
           </li>
           {% endif %}
+          {% if site.email %}
+          <li class="list-inline-item">
+            <a target="_blank" style="text-decoration: none !important" href="mailto:{{ site.email }}">
+              <i class="fas fa-envelope fa-lg"></i>
+            </a>
+          </li>
+          {% endif %}
           <li class="list-inline-item">
             <a style="text-decoration: none !important" href="{{"/feed.xml" | relative_url }}">
               <i class="fa fa-rss fa-lg" data-fa-transform="shrink-6 up-.4 right-.4" data-fa-mask="fas fa-circle"></i>

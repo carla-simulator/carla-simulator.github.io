@@ -1,0 +1,63 @@
+<!-- Home Post List -->
+
+<div class="last_news">
+
+  <h3>Get In Touch</h3>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <ul class="list-inline">
+        {% if site.github_username %}
+        <li class="list-inline-item">
+          <a target="_blank" style="text-decoration: none !important" href="https://github.com/{{ site.github_username }}">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </li>
+        {% endif %}
+        {% if site.twitter_username %}
+        <li class="list-inline-item">
+          <a target="_blank" style="text-decoration: none !important" href="https://twitter.com/{{ site.twitter_username }}">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+        </li>
+        {% endif %}
+        {% if site.youtube_channel %}
+        <li class="list-inline-item">
+          <a target="_blank" style="text-decoration: none !important" href="https://www.youtube.com/channel/{{ site.youtube_channel }}">
+            <i class="fab fa-youtube fa-2x"></i>
+          </a>
+        </li>
+        {% endif %}
+        {% if site.email %}
+        <li class="list-inline-item">
+          <a target="_blank" style="text-decoration: none !important" href="mailto:{{ site.email }}">
+            <i class="fas fa-envelope fa-2x"></i>
+          </a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+
+<div class="row"><div class="col-lg-12"><h6>Subscribe to our mailing list</h6></div></div>
+
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form style="text-align: left;" action="https://carla.us18.list-manage.com/subscribe/post?u=772d0acbd49f90b41a107c44c&amp;id=5efa12af60" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+  <input style="max-width: 150px;" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_772d0acbd49f90b41a107c44c_5efa12af60" tabindex="-1" value=""></div>
+    <div class="clear"><input style="max-width: 100px;" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup-->
+
+</div>
