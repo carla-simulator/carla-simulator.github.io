@@ -37,10 +37,24 @@
             </a>
           </li>
           {% endif %}
+          {% if site.twitter_username %}
+          <li class="list-inline-item">
+            <a target="_blank" style="text-decoration: none !important" href="https://twitter.com/{{ site.twitter_username }}">
+              <i class="fab fa-twitter fa-lg"></i>
+            </a>
+          </li>
+          {% endif %}
           {% if site.youtube_channel %}
           <li class="list-inline-item">
             <a target="_blank" style="text-decoration: none !important" href="https://www.youtube.com/channel/{{ site.youtube_channel }}">
               <i class="fab fa-youtube fa-lg"></i>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.email %}
+          <li class="list-inline-item">
+            <a target="_blank" style="text-decoration: none !important" href="mailto:{{ site.email }}">
+              <i class="fas fa-envelope fa-lg"></i>
             </a>
           </li>
           {% endif %}

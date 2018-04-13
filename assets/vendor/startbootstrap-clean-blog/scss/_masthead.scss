@@ -64,10 +64,16 @@ header.masthead {
     .meta {
       font-size: 20px;
       font-weight: 300;
-      font-style: italic;
-      @include serif-font;
+      font-style: normal;
+      letter-spacing: 0.2px;
+      @include sans-serif-font;
       a {
         color: $white;
+        font-weight: 500;
+        text-decoration: none;
+        &:hover {
+          color: $primary;
+        }
       }
     }
     @media only screen and (min-width: 768px) {

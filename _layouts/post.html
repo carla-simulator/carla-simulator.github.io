@@ -7,7 +7,7 @@ title: Posts
 {% if page.background %}
 <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
 {% else %}
-<header class="masthead">
+<header class="masthead" style="background-image: url('{{ site.default_background | prepend: site.baseurl | replace: '//', '/' }}')">
 {% endif %}
   <div class="overlay"></div>
   <div class="container">
@@ -18,13 +18,9 @@ title: Posts
           {% if page.subtitle %}
           <h2 class="subheading">{{ page.subtitle }}</h2>
           {% endif %}
-          <span class="meta">Posted by
-            {% if page.auth_page %}
-              <a target="_blank" href="{{ page.auth_page }}">{{ page.author }}</a>
-            {% else %}
-              {{ page.author }}
-            {% endif %}
-            on {{ page.date | date: '%B %d, %Y' }}</span>
+          <span class="meta">
+            Posted by {{ page.author }} on {{ page.date | date: '%B %d, %Y' }}
+          </span>
         </div>
       </div>
     </div>

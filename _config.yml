@@ -1,21 +1,37 @@
-title:             CARLA
-email:             carla.simulator@gmail.com
-description:
-author:            Carla Team
-baseurl:           ""
-url:               http://carla.org/ # http://carla-simulator.github.io/
+title:              CARLA Simulator
+email:              carla.simulator@gmail.com
+description:        Open-source simulator for autonomous driving research.
+author:             CARLA Team
+baseurl:            ""
+url:                http://carla.org/
+logo:               /img/logo/carla-black-m.png
+default_background: /img/bg-post.jpg
 
 # Social Profiles
 cvc_page:          http://www.cvc.uab.es/
 intel_page:        https://www.intel.com/
 github_username:   carla-simulator
+twitter_username:  carlasimulator
 youtube_channel:   UC1llP9ekCwt8nEJzMJBQekg
+
+twitter:
+  username: carlasimulator
+
+social:
+  name: CARLA Simulator
+  links:
+    - https://github.com/carla-simulator/carla
+    - https://twitter.com/carlasimulator
+    - https://www.youtube.com/channel/UC1llP9ekCwt8nEJzMJBQekg
 
 # Build settings
 markdown:          kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+jekyll-mentions:
+  base_url: https://github.com
 
 permalink:         pretty
 
@@ -24,4 +40,6 @@ paginate_path:     "/posts/page:num/"
 
 plugins:
   - jekyll-feed
+  - jekyll-mentions
   - jekyll-paginate
+  - jekyll-seo-tag
