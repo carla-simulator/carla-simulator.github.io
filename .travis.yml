@@ -1,15 +1,26 @@
 language: ruby
 sudo: false
+
 rvm:
   - 2.3.3
+  - 2.3.2 # dummy
 
-env:
-  global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+env: TEST=HtmlProofer NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 script:
   - bundle exec jekyll build
   - bundle exec htmlproofer ./_site
+
+matrix:
+  exclude:
+    - rvm: 2.3.2
+
+  include:
+    - env: TEST=CheckPosts
+      install:
+        - pip install pyyaml
+      script:
+        - ./.check_posts.py
 
 notifications:
   email: false
