@@ -39,9 +39,9 @@ The CARLA 0.8.2 release also adds a few fixes: ( NESTOR)
 #### Driving benchmark overview
 
 
-![benchmark diagram](/img/posts/2018-04-02/benchmark_diagram_small.png)
+![benchmark diagram](/img/posts/2018-04-15/benchmark_diagram_small.png)
 
-> Figure: Overview of the driving benchmark module, agents and new tasks (experiments) could easily be placed on the driving benchmark.
+> Figure: Overview of the driving benchmark module, agents and new experiment suites (tasks) could easily be placed on the driving benchmark.
 
 The driving benchmark serves as an interface to test your agent.
 This module provides a simple python interface where you just need to redefine one function to get your agent
