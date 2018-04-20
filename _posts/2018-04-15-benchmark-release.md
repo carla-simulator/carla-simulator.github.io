@@ -5,7 +5,7 @@ title:  "CARLA 0.8.2: Driving Benchmark"
 subtitle: ""
 author: "@felipecode"
 description: "We are releasing some fixes and a new module to benchmark agents."
-date:   2018-03-27 08:00:00 +0002
+date:   2018-04-20 08:00:00 +0002
 image: 'img/carla.jpg'
 background: '/img/posts/2018-03-27/release-0.8.0-header.jpg'
 ---
