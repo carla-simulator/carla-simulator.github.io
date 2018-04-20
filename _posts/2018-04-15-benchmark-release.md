@@ -39,8 +39,26 @@ Reproducible research on autonomous driving is complicated by the lack of open t
 
 [//]: <>(On this release we already provide the driving benchmark for CoRL2017 and show updated results for the Reinforcement Learning Method and the Imitation Learning Method. We also discuss the reproducibility of CARLA results, i.e, how)
 
-The CARLA 0.8.2 release also adds a few fixes: ( NESTOR)
+The CARLA 0.8.2 release also adds few other improvements and fixes
 
+  * Rolled back vehicle's location to the pivot of the mesh instead of the
+    center of the bounding box, this fixes various bugs due to the vehicle's
+    position not being always coherent. Now we send too the relative transform
+    of the bounding box which in turn also increases the flexibility in which
+    new vehicles can be incorporated.
+  * Added a _frame number_ field to each sensor measurement, this allows
+    synchronization between all the measurements based on the frame they are
+    produced. The _frame number_ steadily increases each frame and it's not
+    reset on each new episode.
+  * Walkers use now a closer angle to detect vehicles, so they don't stop moving
+    if a car passes nearby.
+  * Improved how vehicles are spawned to better handle spawning failures.
+  * Fixed lighting artefact causing the road to change its brightness depending
+    on the distance to the camera. This was especially noticeable in _Town02_.
+  * Fixed captured images overexposed in _Low_ mode.
+  * Fixed illegal character in asset name.
+  * Fixed editing sun azimuth angle in CarlaWeadther.ini had no effect.
+  * Fixed crash when using a non-standard image size in DirectX (Windows).
 
 #### Driving benchmark overview
 
