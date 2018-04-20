@@ -58,8 +58,8 @@ We currently provide two agents: trained with conditional imitation learning and
 
 We encourage everyone to use our CoRL-2017 tasks, but you can also easily create your own task suites to challenge your agent.
 The task suite definition includes the number of navigation trials, starting locations and end goals, types and properties of observations available to the agent, as well as environment properties such as the weather and the number of pedestrians and vehicles.
-Further information can be found at the [driving benchmark documentation](), where you can
-[get started]() by checking out a simple example.
+Further information can be found at the [driving benchmark documentation](http://carla.readthedocs.io/en/latest/benchmark_start/), where you can
+[get started](http://carla.readthedocs.io/en/latest/benchmark_structure/) by checking out a simple example.
 
 #### Results
 
@@ -138,7 +138,7 @@ We show mean and standard deviation over three runs.
 
 
 To run the driving benchmark for imitation learning go to the [imitation learning repository](https://github.com/carla-simulator/imitation-learning).
-To run the driving benchmark for reinforcement learning go to the [reinforcement learning repository](https://github.com/carla-simulator/a3c-agent).
+To run the driving benchmark for reinforcement learning go to the [reinforcement learning repository](https://github.com/carla-simulator/reinforcement-learning).
 
 #### Randomness in CARLA
 
