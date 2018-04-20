@@ -11,7 +11,7 @@ background: '/img/posts/2018-03-27/release-0.8.0-header.jpg'
 ---
 
 We release the new  **[CARLA 0.8.2](https://github.com/carla-simulator/carla/releases/tag/0.8.2)**, presenting a
-new redefined **driving benchmark**  and releasing the [**reinforcement learning**](https://github.com/carla-simulator/reinforcement-learning) code.
+new redefined **driving benchmark**  and releasing an agent trained with [**reinforcement learning**](https://github.com/carla-simulator/reinforcement-learning).
  The benchmark allows to easily compare autonomous driving algorithms on sets of strictly defined goal-directed navigation tasks.
   As a starting point,
   we provide the task suite studied in our CoRL-2017 paper, as well
@@ -170,7 +170,7 @@ We will be working on improving the determinism of CARLA in the future.
 
 #### Can you beat our agents ?
 
-Please post your results for the CoRL-2017 benchmark here or send your them with documentation or code to carla_driving_benchmark@gmail.com.
+Please post your results for the CoRL-2017 benchmark in the comments section below or send them with documentation or code to carla_driving_benchmark@gmail.com.
 As soon as we have enough material, we promise another blog post reviewing the best-performing agents in CARLA.
 
 #### Feedback
