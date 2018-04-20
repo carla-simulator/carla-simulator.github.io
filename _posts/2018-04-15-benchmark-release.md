@@ -11,7 +11,12 @@ background: '/img/posts/2018-03-27/release-0.8.0-header.jpg'
 ---
 
 We release the new  **[CARLA 0.8.2](https://github.com/carla-simulator/carla/releases/tag/0.8.2)**, presenting a
-new redefined **driving benchmark**. The benchmark allows to easily compare autonomous driving algorithms on sets of strictly defined goal-directed navigation tasks. As a starting point, we provide the task suite studied in our CoRL-2017 paper, as well as agents trained with [conditional imitation learning](https://github.com/carla-simulator/imitation-learning) and [reinforcement learning](https://github.com/carla-simulator/a3c-agent). Get CARLA 0.8.2 and try to [beat our driving agents](#can-you-beat-our-agents-)!
+new redefined **driving benchmark**  and releasing the [**reinforcement learning**](https://github.com/carla-simulator/reinforcement-learning) code.
+ The benchmark allows to easily compare autonomous driving algorithms on sets of strictly defined goal-directed navigation tasks.
+  As a starting point,
+  we provide the task suite studied in our CoRL-2017 paper, as well
+  as agents trained with [conditional imitation learning](https://github.com/carla-simulator/imitation-learning)
+  and [reinforcement learning](https://github.com/carla-simulator/reinforcement-learning). Get CARLA 0.8.2 and try to [beat our driving agents](#can-you-beat-our-agents-)!
 
 
 <!-- Get release button -->
@@ -143,7 +148,8 @@ We have put effort into making the experiments as reproducible as possible, yet,
 * **Different load time for textures**: In Unreal Engine, loading time of textures is not completely deterministic, which leads to minor appearance differences.
 * **Pedestrians algorithms are non-deterministic** (See  [#258](https://github.com/carla-simulator/carla/issues/258) ).
 
-To give a clearer insight, in the following video we compare the frames of two different runs in the same machine and with the same random seeds.
+To give a clearer insight, in the following video we compare the frames of two different runs
+in the same machine and with the same random seeds. The CARLA autopilot was used to drive the car.
 The pixels in red show when there is a difference between the images from the two runs.
 
 <div class="intrinsic-container intrinsic-container-16x9">
@@ -153,8 +159,9 @@ The pixels in red show when there is a difference between the images from the tw
 As we can see, until time 0:20 there are no many differences,
 except in few positions. These differences are explained by different loading texture time.
 After, at the time 0:20, there is a pedestrian crashing into another.
-This crash already changes the course of the simulation.
-TODO: How? Why? Who is driving?
+This crash already changes the course of the simulation, since it caused
+an extra wait for the agent.
+
 
 CARLA experiments are reproducible, but not entirely deterministic.
 This explains small variation between runs of the benchmark.
