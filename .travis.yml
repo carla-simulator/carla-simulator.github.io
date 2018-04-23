@@ -8,8 +8,7 @@ rvm:
 env: TEST=HtmlProofer NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 script:
-  - bundle exec jekyll build
-  - bundle exec htmlproofer ./_site
+  - ./ci/proofer.sh
 
 matrix:
   exclude:
@@ -20,7 +19,7 @@ matrix:
       install:
         - pip install pyyaml
       script:
-        - ./.check_posts.py
+        - ./ci/check_posts.py
 
 notifications:
   email: false
