@@ -44,6 +44,13 @@
             </a>
           </li>
           {% endif %}
+          {% if site.discord_invite %}
+          <li class="list-inline-item">
+            <a target="_blank" style="text-decoration: none !important" href="https://discord.gg/{{ site.discord_invite }}">
+              <i class="fab fa-discord fa-lg"></i>
+            </a>
+          </li>
+          {% endif %}
           {% if site.youtube_channel %}
           <li class="list-inline-item">
             <a target="_blank" style="text-decoration: none !important" href="https://www.youtube.com/channel/{{ site.youtube_channel }}">
