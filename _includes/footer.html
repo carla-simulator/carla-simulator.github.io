@@ -4,7 +4,7 @@
   <div class="container">
     <!-- logo and sponsors -->
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="col-lg-12 mx-auto">
         <ul class="list-inline text-center">
           {% if site.cvc_page %}
           <li class="list-inline-item">
@@ -13,10 +13,20 @@
             </a>
           </li>
           {% endif %}
+          <li class="list-inline-item"><span style="display:inline-block; width:30px;"></span></li>
           {% if site.intel_page %}
-          <li class="list-inline-item">
-            <a target="_blank" href="{{ site.intel_page }}" style="width:200px;height:100px;display:inline-block;overflow:hidden;">
+          <li class="list-inline-item" style="text-align: left">
+            <small class="text-muted" style="font-size:70%">Founding sponsor</small><br>
+            <a target="_blank" href="{{ site.intel_page }}" style="width:180px;height:90px;display:inline-block;overflow:hidden;">
               <img width="100%" src="/img/logo/intel.png" alt="Intel">
+            </a>
+          </li>
+          {% endif %}
+          {% if site.tri_page %}
+          <li class="list-inline-item" style="text-align: left">
+            <small class="text-muted" style="font-size:70%">Sponsors</small><br>
+            <a target="_blank" href="{{ site.tri_page }}" style="width:180px;height:90px;display:inline-block;overflow:hidden;">
+              <img width="100%" src="/img/logo/tri.png" alt="Toyota Research Institute">
             </a>
           </li>
           {% endif %}
