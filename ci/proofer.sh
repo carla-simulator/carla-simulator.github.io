@@ -13,9 +13,11 @@ fi
 
 bundle exec jekyll build
 
+EXTRA_ARGS="--url-ignore /www.kpit.com/"
+
 if [ "$CHECK_INTERNAL_LINKS" = true ]; then
-  bundle exec htmlproofer -t ./_site
+  bundle exec htmlproofer ${EXTRA_ARGS} -t ./_site
 else
-  bundle exec htmlproofer --external_only --internal-domains carla.org ./_site
+  bundle exec htmlproofer ${EXTRA_ARGS} --external_only --internal-domains carla.org ./_site
   echo "WARNING: Ignored internal links because we are not in 'master' branch"
 fi
