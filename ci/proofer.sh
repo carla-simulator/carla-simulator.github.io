@@ -13,7 +13,7 @@ fi
 
 bundle exec jekyll build
 
-EXTRA_ARGS="--url-ignore /www.kpit.com/"
+EXTRA_ARGS="--only-4xx"
 
 if [ "$CHECK_INTERNAL_LINKS" = true ]; then
   bundle exec htmlproofer ${EXTRA_ARGS} -t ./_site
