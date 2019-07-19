@@ -243,7 +243,7 @@ Capacity</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A piece of raw data. </p>
 <p>Note that if more capacity is needed, a new memory block is allocated and the old one is deleted. This means that by default the buffer can only grow. To release the memory use <code>clear</code> or <code>pop</code>.</p>
-<p>This is a move-only type, meant to be cheap to pass by value. If the buffer is retrieved from a <a class="el" href="../../d7/d3c/classcarla_1_1BufferPool.html" title="A pool of Buffer. ">BufferPool</a>, the memory is automatically pushed back to the pool on destruction.</p>
+<p>This is a move-only type, meant to be cheap to pass by value. If the buffer is retrieved from a <a class="el" href="../../d7/d3c/classcarla_1_1BufferPool.html" title="A pool of Buffer. ">BufferPool</a>, the memory is automatically pushed back to the pool on destruction!.</p>
 <dl class="section warning"><dt>Warning</dt><dd>Creating a buffer bigger than <a class="el" href="../../d0/d0a/classcarla_1_1Buffer.html#a1c1cb99300a40694ebe9793116a2b77f">max_size()</a> is undefined. </dd></dl>
 
 <p>Definition at line <a class="el" href="../../d2/dda/carla_2Buffer_8h_source.html#l00039">39</a> of file <a class="el" href="../../d2/dda/carla_2Buffer_8h_source.html">carla/Buffer.h</a>.</p>
