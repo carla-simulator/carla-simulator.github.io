@@ -15,12 +15,17 @@ background: '/img/bg-about.jpg'
       {% if image.path contains team_image %}
         {% assign info = image.path | replace: '_', ' ' | remove: '.jpeg' | remove: '.jpg' | remove: '.png' | split: '-' %}
         <div style="margin:30px;padding:0;display:inline-block;">
-          <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ info[1] }}" height="150" width="150"/>
+          <img style="border-radius: 50%;"src="{{ site.baseurl }}{{ image.path }}" alt="{{ info[1] }}" height="150" width="150"/>
           <p class="text-center" style="margin:0;color:#000;font-weight:bold;">
+            <a style="text-decoration:none;" href="">
             {{ info[1] }}
+            </a>
           </p>
           <p class="text-center" style="margin:0;color:#999;font-size:15px;">
             {{ info[2] }}
+          </p>
+          <p class="text-center" style="margin:0;color:#999;font-size:15px;">
+            {{ info[3] }}
           </p>
         </div>
       {% endif %}
