@@ -1,7 +1,7 @@
 var searchData=
 [
   ['r',['r',['../da/d44/classcarla_1_1rpc_1_1Color.html#afcb850bc444ccf41f6be096a3cd55657',1,'carla::rpc::Color::r()'],['../d2/dec/structcarla_1_1sensor_1_1data_1_1Color.html#a8b6887584e47cd3ac9ab62110c24e44d',1,'carla::sensor::data::Color::r()']]],
-  ['radius',['Radius',['../db/dfe/structFWheelPhysicsControl.html#a564a7371b19889c1f75b6cc325521ff0',1,'FWheelPhysicsControl::Radius()'],['../d5/d9b/classcarla_1_1rpc_1_1WheelPhysicsControl.html#a418182031b76655018868b9b0038da99',1,'carla::rpc::WheelPhysicsControl::radius()']]],
+  ['radius',['radius',['../d5/d9b/classcarla_1_1rpc_1_1WheelPhysicsControl.html#a418182031b76655018868b9b0038da99',1,'carla::rpc::WheelPhysicsControl::radius()'],['../db/dfe/structFWheelPhysicsControl.html#a564a7371b19889c1f75b6cc325521ff0',1,'FWheelPhysicsControl::Radius()']]],
   ['randomengine',['RandomEngine',['../d2/d2a/classAActorWithRandomEngine.html#aa1d73423f1ce12a3d87b3e0407a597d5',1,'AActorWithRandomEngine::RandomEngine()'],['../dd/dea/classAWheeledVehicleAIController.html#a40d5b3d142d39bb190666ce45fc3f194',1,'AWheeledVehicleAIController::RandomEngine()']]],
   ['range',['Range',['../de/d6f/structFLidarDescription.html#a6731c317ddf2b5d346d35e378e59f661',1,'FLidarDescription']]],
   ['ratio',['ratio',['../d9/d75/classcarla_1_1rpc_1_1GearPhysicsControl.html#a827364d13d2b9a95e281e86bb0e268cb',1,'carla::rpc::GearPhysicsControl::ratio()'],['../da/d0b/structFGearPhysicsControl.html#a84a5216682fe47af0784ed8233accca0',1,'FGearPhysicsControl::Ratio()']]],
