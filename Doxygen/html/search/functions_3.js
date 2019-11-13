@@ -7,6 +7,7 @@ var searchData=
   ['call',['call',['../df/d9d/classcarla_1_1rpc_1_1Client.html#ab847d2ba94b5dbe49e57e772cd2f0220',1,'carla::rpc::Client::call()'],['../d1/dff/classcarla_1_1client_1_1detail_1_1CallbackList.html#ada3b7b1c99e2433eb6a2b64d9c4d7b2d',1,'carla::client::detail::CallbackList::Call()']]],
   ['callandwait',['CallAndWait',['../dc/de1/classcarla_1_1client_1_1detail_1_1Client_1_1Pimpl.html#a72502b9e7407daf6cb5b930f9992fdc3',1,'carla::client::detail::Client::Pimpl']]],
   ['capacity',['capacity',['../d0/d0a/classcarla_1_1Buffer.html#a819b6f2c065347a6a5b54016fe42e618',1,'carla::Buffer']]],
+  ['carla_5fgetactorangularvelocityinradians',['carla_GetActorAngularVelocityInRadians',['../d7/d78/InertialMeasurementUnit_8cpp.html#a03f140e66968ed6dc0404717da6ae0b6',1,'InertialMeasurementUnit.cpp']]],
   ['carlarecorderframes',['CarlaRecorderFrames',['../d6/d4d/classCarlaRecorderFrames.html#af206c44464108aa1e109292c00469953',1,'CarlaRecorderFrames']]],
   ['carlareplayer',['CarlaReplayer',['../dc/dc6/classCarlaReplayer.html#a5ffa67457b905766aa4610a7b9b6f990',1,'CarlaReplayer']]],
   ['castdata',['CastData',['../d8/dcd/namespacecarla_1_1client_1_1detail.html#a397dcdc8ee9a529751380c891a1c4952',1,'carla::client::detail']]],

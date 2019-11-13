@@ -11,5 +11,6 @@ var searchData=
   ['gn',['gn',['../dc/d52/fresnl_8cpp.html#a17ec1b1afe903c1b199f5b7ee7882e4e',1,'fresnl.cpp']]],
   ['green_5ftime',['green_time',['../d0/d6d/structcarla_1_1sensor_1_1data_1_1detail_1_1TrafficLightData.html#a082c7539fcd1dd2a44f018aa6b09838d',1,'carla::sensor::data::detail::TrafficLightData']]],
   ['greentime',['GreenTime',['../d2/d23/classATrafficLightBase.html#acbddb327292a01c5ce1a128117befc40',1,'ATrafficLightBase']]],
-  ['grouptrafficlights',['GroupTrafficLights',['../d2/d23/classATrafficLightBase.html#a1def0d7c8e48a7e140d738f732bf1c9c',1,'ATrafficLightBase']]]
+  ['grouptrafficlights',['GroupTrafficLights',['../d2/d23/classATrafficLightBase.html#a1def0d7c8e48a7e140d738f732bf1c9c',1,'ATrafficLightBase']]],
+  ['gyroscope',['gyroscope',['../d0/df6/structcarla_1_1sensor_1_1s11n_1_1IMUSerializer_1_1Data.html#abd0b61e32b2239eec66eb0487298e453',1,'carla::sensor::s11n::IMUSerializer::Data']]]
 ];

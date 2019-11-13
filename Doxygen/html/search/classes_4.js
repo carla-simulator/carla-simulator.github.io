@@ -1,6 +1,7 @@
 var searchData=
 [
   ['data',['Data',['../df/d56/structcarla_1_1sensor_1_1s11n_1_1CollisionEventSerializer_1_1Data.html',1,'carla::sensor::s11n::CollisionEventSerializer']]],
+  ['data',['Data',['../d0/df6/structcarla_1_1sensor_1_1s11n_1_1IMUSerializer_1_1Data.html',1,'carla::sensor::s11n::IMUSerializer']]],
   ['data',['Data',['../d6/dea/structcarla_1_1sensor_1_1s11n_1_1ObstacleDetectionEventSerializer_1_1Data.html',1,'carla::sensor::s11n::ObstacleDetectionEventSerializer']]],
   ['debughelper',['DebugHelper',['../d1/d64/classcarla_1_1client_1_1DebugHelper.html',1,'carla::client']]],
   ['debugshape',['DebugShape',['../d1/d38/classcarla_1_1rpc_1_1DebugShape.html',1,'carla::rpc']]],

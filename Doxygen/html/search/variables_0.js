@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['_5faccelerometer',['_accelerometer',['../da/dac/classcarla_1_1sensor_1_1data_1_1IMUMeasurement.html#a69677ceea352341d73917aeb8529fa6d',1,'carla::sensor::data::IMUMeasurement']]],
   ['_5facceptor',['_acceptor',['../df/d4d/classcarla_1_1streaming_1_1detail_1_1tcp_1_1Server.html#ade57c90cbe3418669c88cb9eb6bb261a',1,'carla::streaming::detail::tcp::Server']]],
   ['_5factors',['_actors',['../da/d51/classcarla_1_1client_1_1ActorList.html#a5912d7c6641d5d6fe44f155dd2984e14',1,'carla::client::ActorList::_actors()'],['../de/dfc/classcarla_1_1client_1_1detail_1_1CachedActorList.html#a8e28dc3c0dd2128b5717c09c414ed4b9',1,'carla::client::detail::CachedActorList::_actors()'],['../d1/db6/classcarla_1_1client_1_1detail_1_1Episode.html#a2bba3d9c1fd1fcfc8040e93c508f4285',1,'carla::client::detail::Episode::_actors()'],['../d5/dbf/classcarla_1_1client_1_1detail_1_1EpisodeState.html#a9c297a7e26498761a3ea02a18b1054b4',1,'carla::client::detail::EpisodeState::_actors()']]],
   ['_5falloc',['_alloc',['../dc/dea/structxpath__parser.html#ac34f5b21ef406bec944286eee2f45836',1,'xpath_parser']]],
@@ -28,6 +29,7 @@ var searchData=
   ['_5fclient_5fcallback',['_client_callback',['../dc/d7d/classBenchmark.html#a9e6f7284311222f1780f55ff06620ed3',1,'Benchmark']]],
   ['_5fclients',['_clients',['../da/d83/classcarla_1_1streaming_1_1low__level_1_1Client.html#a16f2a82c55b9b9f15e744308e022e71f',1,'carla::streaming::low_level::Client']]],
   ['_5fcolor',['_color',['../d1/df9/classcarla_1_1road_1_1element_1_1RoadInfoMarkRecord.html#a73731411894f3bc71a8effa01760353f',1,'carla::road::element::RoadInfoMarkRecord']]],
+  ['_5fcompass',['_compass',['../da/dac/classcarla_1_1sensor_1_1data_1_1IMUMeasurement.html#a0fb9b4229f793545fb234e6b60ca1cdf',1,'carla::sensor::data::IMUMeasurement']]],
   ['_5fconnection_5ftimer',['_connection_timer',['../dc/d96/classcarla_1_1streaming_1_1detail_1_1tcp_1_1Client.html#a7b0384bad00b61b02b1b7c0d2595b61f',1,'carla::streaming::detail::tcp::Client']]],
   ['_5fconnections',['_connections',['../dd/dc6/classcarla_1_1road_1_1Junction.html#accef4aca0a6deecf05e8499184a35302',1,'carla::road::Junction']]],
   ['_5fcontrol',['_control',['../d9/dc6/classcarla_1_1client_1_1Vehicle.html#ad6b1d5d7aa1d7c4f7ffa8454dc915704',1,'carla::client::Vehicle::_control()'],['../de/d2b/classcarla_1_1client_1_1Walker.html#a3207a1f29bc492d3fa8ac2a7627e01cf',1,'carla::client::Walker::_control()']]],
@@ -77,6 +79,7 @@ var searchData=
   ['_5fgeo_5freference',['_geo_reference',['../d1/d2e/classcarla_1_1client_1_1GnssCallback.html#a4d7397db9dc1305f38520270b6ddd406',1,'carla::client::GnssCallback::_geo_reference()'],['../da/d3b/classcarla_1_1road_1_1MapData.html#aab6c7672a5d7ad001f9128dd840a8959',1,'carla::road::MapData::_geo_reference()']]],
   ['_5fgeom',['_geom',['../d4/dcb/classcarla_1_1road_1_1element_1_1RoadInfoGeometry.html#aec7b2010305a20b03ee1a17a13ba68d8',1,'carla::road::element::RoadInfoGeometry']]],
   ['_5fgraph',['_graph',['../d6/d23/classMapGen_1_1RoadSegmentBuilder.html#a3265b0e2427ea646e770a9119c18f2e8',1,'MapGen::RoadSegmentBuilder']]],
+  ['_5fgyroscope',['_gyroscope',['../da/dac/classcarla_1_1sensor_1_1data_1_1IMUMeasurement.html#a98c24401eeb1a45eee4e39c483af114e',1,'carla::sensor::data::IMUMeasurement']]],
   ['_5fhandlinginitial',['_handlingInitial',['../d6/d23/classMapGen_1_1RoadSegmentBuilder.html#aaaff248bec5442a95f6010c956ecc2ad',1,'MapGen::RoadSegmentBuilder']]],
   ['_5fhdg',['_hdg',['../d0/dd6/classcarla_1_1road_1_1Object.html#a9bf85d85bc6cdddefcc3929fe96b4b3d',1,'carla::road::Object']]],
   ['_5fheader',['_header',['../d0/dce/classcarla_1_1sensor_1_1s11n_1_1LidarMeasurement.html#ae90bffed7bf47c2f97a76d61bbe77b07',1,'carla::sensor::s11n::LidarMeasurement']]],
