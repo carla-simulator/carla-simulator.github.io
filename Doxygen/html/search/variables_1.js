@@ -20,6 +20,8 @@ var searchData=
   ['allocate',['allocate',['../d1/dd8/structxml__memory__management__function__storage.html#abb6865f8d07d27fd9273737c59f6e941',1,'xml_memory_management_function_storage']]],
   ['allocator',['allocator',['../d7/dd1/structxml__memory__page.html#adf8fa143123a842baa59b82fc3d83c3b',1,'xml_memory_page']]],
   ['altitude',['altitude',['../d3/df4/classcarla_1_1geom_1_1GeoLocation.html#a06f7308686621241c427d6e2a4cf406d',1,'carla::geom::GeoLocation']]],
+  ['altitudebias',['AltitudeBias',['../d0/dc3/classAGnssSensor.html#a853b3ddc17e358c918f4ead4313d7c88',1,'AGnssSensor']]],
+  ['altitudedeviation',['AltitudeDeviation',['../d0/dc3/classAGnssSensor.html#ab20164a23a6f19e2ca58264a895087ad',1,'AGnssSensor']]],
   ['angle',['Angle',['../d7/d2d/classMapGen_1_1RoadSegmentDescription.html#ae74117373caacff207d69a602bd6b4a0',1,'MapGen::RoadSegmentDescription']]],
   ['anglemask',['AngleMask',['../d9/d74/structFRoadMapPixelData.html#a4f05a2c19ccc6a2a20bc5158e3edda86',1,'FRoadMapPixelData']]],
   ['angular_5fvelocity',['angular_velocity',['../d5/d67/structcarla_1_1client_1_1ActorSnapshot.html#a3be0637031ac687f73a39ab1a5617b7e',1,'carla::client::ActorSnapshot::angular_velocity()'],['../d1/d00/structcarla_1_1rpc_1_1Command_1_1ApplyAngularVelocity.html#ad353a0b9e64803c1fb01627dad1e02c6',1,'carla::rpc::Command::ApplyAngularVelocity::angular_velocity()'],['../da/d4c/structcarla_1_1sensor_1_1data_1_1ActorDynamicState.html#a308d780ed588bd775356ccb6d030a8f1',1,'carla::sensor::data::ActorDynamicState::angular_velocity()']]],

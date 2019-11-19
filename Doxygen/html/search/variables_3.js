@@ -45,6 +45,7 @@ var searchData=
   ['cu',['cU',['../d1/d76/structcarla_1_1opendrive_1_1parser_1_1GeometryParamPoly3.html#a882a60eec41c836b38b659dc1fea793e',1,'carla::opendrive::parser::GeometryParamPoly3']]],
   ['currentepisode',['CurrentEpisode',['../dc/d49/classFCarlaEngine.html#a9761e58dcf4b7664bfe4e8a1c7835975',1,'FCarlaEngine']]],
   ['currentfilename',['CurrentFileName',['../d7/d1e/classUCarlaSettings.html#aa017a020633e2d040f9f491d7d0fc5bf',1,'UCarlaSettings']]],
+  ['currentgeoreference',['CurrentGeoReference',['../d0/dc3/classAGnssSensor.html#a095fb56e74983371bb0468f9c1101aa9',1,'AGnssSensor']]],
   ['currentproducer',['currentProducer',['../de/deb/structmoodycamel_1_1ConsumerToken.html#ab6c81d07254cfcef38ea721dc3c39239',1,'moodycamel::ConsumerToken']]],
   ['currenttime',['CurrentTime',['../dc/dc6/classCarlaReplayer.html#ae5693e5fd6c65f1d73eded1d49590bce',1,'CarlaReplayer']]],
   ['currpos',['CurrPos',['../dc/dc6/classCarlaReplayer.html#a34a096ff5a4768ec3deb6a625c4461e4',1,'CarlaReplayer']]],

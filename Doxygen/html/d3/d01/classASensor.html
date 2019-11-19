@@ -69,6 +69,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../de/dab/classASensor-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -125,6 +126,11 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:abdde70c4f5b1c247d2e398fbffb6af54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#abdde70c4f5b1c247d2e398fbffb6af54">PostActorCreated</a> () override</td></tr>
 <tr class="separator:abdde70c4f5b1c247d2e398fbffb6af54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ac45a5cb382483d3ddf3547c8dd972067"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d4b/classURandomEngine.html">URandomEngine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#ac45a5cb382483d3ddf3547c8dd972067">RandomEngine</a></td></tr>
+<tr class="separator:ac45a5cb382483d3ddf3547c8dd972067"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a9be4512c22d7b13eb0010838e3fc3516"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dc/d84/classUCarlaEpisode.html">UCarlaEpisode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a9be4512c22d7b13eb0010838e3fc3516">Episode</a> = nullptr</td></tr>
@@ -135,7 +141,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class for sensors. </p>
 
-<p>Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00020">20</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00021">21</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ae942ab9b7fc691c3c46c3deb87aeaad5"></a>
 <div class="memitem">
@@ -180,7 +186,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00054">54</a> of file <a class="el" href="../../d7/d16/Sensor_8cpp_source.html">Sensor.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00073">Stream</a>.</p>
+<p>References <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00077">Stream</a>.</p>
 
 </div>
 </div>
@@ -211,16 +217,16 @@ template&lt;typename SensorT &gt; </div>
 <p>Return the FDataStream associated with this sensor. </p>
 <p>You need to provide a reference to self, this is necessary for template deduction. </p>
 
-<p>Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00066">66</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00067">67</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00041">ACollisionSensor::OnCollisionEvent()</a>, <a class="el" href="../../d2/d70/ObstacleDetectionSensor_8cpp_source.html#l00130">AObstacleDetectionSensor::OnObstacleDetectionEvent()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00062">AInertialMeasurementUnit::Tick()</a>, and <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00061">ARayCastLidar::Tick()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00041">ACollisionSensor::OnCollisionEvent()</a>, <a class="el" href="../../d2/d70/ObstacleDetectionSensor_8cpp_source.html#l00130">AObstacleDetectionSensor::OnObstacleDetectionEvent()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00062">AInertialMeasurementUnit::Tick()</a>, <a class="el" href="../../d7/d22/GnssSensor_8cpp_source.html#l00033">AGnssSensor::Tick()</a>, and <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00061">ARayCastLidar::Tick()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_a8fa217c0d68d5c774510d5e941ae0ade_icgraph.svg" width="663" height="235"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_a8fa217c0d68d5c774510d5e941ae0ade_icgraph.svg" width="663" height="286"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -248,7 +254,7 @@ template&lt;typename SensorT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00055">55</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00056">56</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00041">ACollisionSensor::OnCollisionEvent()</a>, and <a class="el" href="../../d2/d70/ObstacleDetectionSensor_8cpp_source.html#l00130">AObstacleDetectionSensor::OnObstacleDetectionEvent()</a>.</p>
 
@@ -287,7 +293,7 @@ template&lt;typename SensorT &gt; </div>
 
 <p>Return the token that allows subscribing to this sensor's stream. </p>
 
-<p>Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00044">44</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00045">45</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
 </div>
 </div>
@@ -338,11 +344,11 @@ template&lt;typename SensorT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="../../da/dd3/classAShaderBasedSensor.html#a35a622b1b796b8e91569888c649c43d1">AShaderBasedSensor</a>, <a class="el" href="../../d4/d60/classASceneCaptureSensor.html#a1a574afa79fb5ecf6425b0f8f48aa9d0">ASceneCaptureSensor</a>, <a class="el" href="../../d5/de4/classARayCastLidar.html#aa12e8acaeea8ccc3910be9970417d5a2">ARayCastLidar</a>, <a class="el" href="../../d3/d93/classAObstacleDetectionSensor.html#a709c19236d1a296f0b067d427bb61256">AObstacleDetectionSensor</a>, and <a class="el" href="../../d5/de0/classAInertialMeasurementUnit.html#ac0fd1f47876962647b54b8607a5c4414">AInertialMeasurementUnit</a>.</p>
+<p>Reimplemented in <a class="el" href="../../da/dd3/classAShaderBasedSensor.html#a35a622b1b796b8e91569888c649c43d1">AShaderBasedSensor</a>, <a class="el" href="../../d4/d60/classASceneCaptureSensor.html#a1a574afa79fb5ecf6425b0f8f48aa9d0">ASceneCaptureSensor</a>, <a class="el" href="../../d5/de4/classARayCastLidar.html#aa12e8acaeea8ccc3910be9970417d5a2">ARayCastLidar</a>, <a class="el" href="../../d0/dc3/classAGnssSensor.html#a9670365d4f5626a4ea8ae5617556e8ef">AGnssSensor</a>, <a class="el" href="../../d3/d93/classAObstacleDetectionSensor.html#a709c19236d1a296f0b067d427bb61256">AObstacleDetectionSensor</a>, and <a class="el" href="../../d5/de0/classAInertialMeasurementUnit.html#ac0fd1f47876962647b54b8607a5c4414">AInertialMeasurementUnit</a>.</p>
 
 <p>Definition at line <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00024">24</a> of file <a class="el" href="../../d7/d16/Sensor_8cpp_source.html">Sensor.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l00947">UActorBlueprintFunctionLibrary::ActorAttributeToFloat()</a>, and <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00036">FActorDescription::Variations</a>.</p>
+<p>References <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01010">UActorBlueprintFunctionLibrary::ActorAttributeToFloat()</a>, and <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00036">FActorDescription::Variations</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -381,7 +387,7 @@ template&lt;typename SensorT &gt; </div>
 <p>Replace the FDataStream associated with this sensor. </p>
 <dl class="section warning"><dt>Warning</dt><dd>Do not change the stream after BeginPlay. It is not thread-safe. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00038">38</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00039">39</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
 </div>
 </div>
@@ -407,7 +413,7 @@ template&lt;typename SensorT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00028">28</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00029">29</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
 </div>
 </div>
@@ -430,9 +436,33 @@ template&lt;typename SensorT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00075">75</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00079">79</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00041">ACollisionSensor::OnCollisionEvent()</a>, and <a class="el" href="../../d2/d70/ObstacleDetectionSensor_8cpp_source.html#l00130">AObstacleDetectionSensor::OnObstacleDetectionEvent()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac45a5cb382483d3ddf3547c8dd972067"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d4b/classURandomEngine.html">URandomEngine</a>* ASensor::RandomEngine</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00073">73</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d7/d22/GnssSensor_8cpp_source.html#l00015">AGnssSensor::AGnssSensor()</a>, and <a class="el" href="../../d7/d22/GnssSensor_8cpp_source.html#l00033">AGnssSensor::Tick()</a>.</p>
 
 </div>
 </div>
@@ -454,9 +484,9 @@ template&lt;typename SensorT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00073">73</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00077">77</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00054">EndPlay()</a>, and <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00062">AInertialMeasurementUnit::Tick()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00054">EndPlay()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00062">AInertialMeasurementUnit::Tick()</a>, and <a class="el" href="../../d7/d22/GnssSensor_8cpp_source.html#l00033">AGnssSensor::Tick()</a>.</p>
 
 </div>
 </div>
