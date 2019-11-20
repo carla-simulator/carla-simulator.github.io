@@ -15,6 +15,7 @@ var searchData=
   ['bgenerateroadmaponsave',['bGenerateRoadMapOnSave',['../d1/ddb/classACityMapGenerator.html#a041b7150c71ad44005500e3be58820de',1,'ACityMapGenerator']]],
   ['bgenerateroads',['bGenerateRoads',['../d1/ddb/classACityMapGenerator.html#a41349f90e6289ccc92c91bd3a835137f',1,'ACityMapGenerator']]],
   ['bhandbrake',['bHandbrake',['../d8/d88/structCarlaRecorderAnimVehicle.html#adce93cc0dd8aa7bfbc32325aa57b38d9',1,'CarlaRecorderAnimVehicle::bHandbrake()'],['../d1/d4b/structFVehicleControl.html#a91a90bdbfbbb660d485cd7f8b0440a99',1,'FVehicleControl::bHandBrake()']]],
+  ['biasgyro',['BiasGyro',['../d5/de0/classAInertialMeasurementUnit.html#aa0304a09e7803659be7d99a90c049b56',1,'AInertialMeasurementUnit']]],
   ['bisintersection',['bIsIntersection',['../dc/d0f/classARoutePlanner.html#a4f9bdaaa2c6ad97b7829f2edd76cd27d',1,'ARoutePlanner']]],
   ['bisrunning',['bIsRunning',['../dc/d49/classFCarlaEngine.html#a6d54a6fbf476a4499985eb54748a6112',1,'FCarlaEngine']]],
   ['blefthandtraffic',['bLeftHandTraffic',['../d1/ddb/classACityMapGenerator.html#a78bd0499b4bad95f9d87692dda574690',1,'ACityMapGenerator']]],

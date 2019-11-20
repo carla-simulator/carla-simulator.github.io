@@ -77,14 +77,14 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d7/d7d/Carla_8h_source.html">Carla.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html">InertialMeasurementUnit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html">Carla/Sensor/InertialMeasurementUnit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/dda/ActorBlueprintFunctionLibrary_8h_source.html">Carla/Actor/ActorBlueprintFunctionLibrary.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/deb/WorldObserver_8h_source.html">Carla/Sensor/WorldObserver.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">Carla/Vehicle/CarlaWheeledVehicle.h</a>&quot;</code><br />
 <code>#include &lt;<a class="el" href="../../d2/d02/disable-ue4-macros_8h_source.html">compiler/disable-ue4-macros.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d8a/Math_8h_source.html">carla/geom/Math.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html">carla/geom/Vector3D.h</a>&quot;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/da2/enable-ue4-macros_8h_source.html">compiler/enable-ue4-macros.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">Carla/Vehicle/CarlaWheeledVehicle.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/deb/WorldObserver_8h_source.html">Carla/Sensor/WorldObserver.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/dda/ActorBlueprintFunctionLibrary_8h_source.html">Carla/Actor/ActorBlueprintFunctionLibrary.h</a>&quot;</code><br />
+<code>#include &lt;limits&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for InertialMeasurementUnit.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -98,11 +98,11 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a03f140e66968ed6dc0404717da6ae0b6"><td class="memItemLeft" align="right" valign="top">static FVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp.html#a03f140e66968ed6dc0404717da6ae0b6">carla_GetActorAngularVelocityInRadians</a> (<a class="el" href="../../d1/da4/classAActor.html">AActor</a> &amp;Actor)</td></tr>
-<tr class="separator:a03f140e66968ed6dc0404717da6ae0b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4975d0785257be624de10365d21740d"><td class="memItemLeft" align="right" valign="top">static FVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp.html#af4975d0785257be624de10365d21740d">FIMU_GetActorAngularVelocityInRadians</a> (<a class="el" href="../../d1/da4/classAActor.html">AActor</a> &amp;Actor)</td></tr>
+<tr class="separator:af4975d0785257be624de10365d21740d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a03f140e66968ed6dc0404717da6ae0b6"></a>
+<a class="anchor" id="af4975d0785257be624de10365d21740d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -110,7 +110,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static FVector carla_GetActorAngularVelocityInRadians </td>
+          <td class="memname">static FVector FIMU_GetActorAngularVelocityInRadians </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d1/da4/classAActor.html">AActor</a> &amp;&#160;</td>
           <td class="paramname"><em>Actor</em></td><td>)</td>
@@ -124,16 +124,16 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00051">51</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00054">54</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00062">AInertialMeasurementUnit::Tick()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00140">AInertialMeasurementUnit::ComputeGyroscope()</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d78/InertialMeasurementUnit_8cpp_a03f140e66968ed6dc0404717da6ae0b6_icgraph.svg" width="432" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d78/InertialMeasurementUnit_8cpp_af4975d0785257be624de10365d21740d_icgraph.svg" width="659" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
