@@ -57,6 +57,7 @@ var searchData=
   ['responseerror',['ResponseError',['../d7/d2a/classcarla_1_1rpc_1_1ResponseError.html#a030c51c87c1224bb65e99cb9dff5dfe1',1,'carla::rpc::ResponseError::ResponseError()=default'],['../d7/d2a/classcarla_1_1rpc_1_1ResponseError.html#aca76bb514db0da2e83dee03ed7ea1bf9',1,'carla::rpc::ResponseError::ResponseError(std::string message)']]],
   ['restart',['Restart',['../d3/d83/classcarla_1_1detail_1_1StopWatchTmpl.html#a5b035e35e119ce8ce27dc7333d144300',1,'carla::detail::StopWatchTmpl']]],
   ['restartplayer',['RestartPlayer',['../db/de5/classACarlaGameModeBase.html#a6432ad32a9c3868d814f51c8b96a4b83',1,'ACarlaGameModeBase']]],
+  ['restrictvehiclecontrol',['restrictVehicleControl',['../d9/deb/classcarla_1_1rss_1_1RssRestrictor.html#aaef9f4de6e82c17894eeee6bb6e7898a',1,'carla::rss::RssRestrictor']]],
   ['result',['result',['../d7/d38/classpugi_1_1xpath__query.html#a36d9bd4c41c46ee085e7cb4af8ced7d3',1,'pugi::xpath_query::result()'],['../db/db1/classpugi_1_1xpath__exception.html#a6602bbd541153f35a44c2233aa7d37de',1,'pugi::xpath_exception::result()']]],
   ['retrieveactorattributetobool',['RetrieveActorAttributeToBool',['../dd/da3/classUActorBlueprintFunctionLibrary.html#ae7e9b8e2c941f8665b7130e0f7f9844c',1,'UActorBlueprintFunctionLibrary']]],
   ['retrieveactorattributetocolor',['RetrieveActorAttributeToColor',['../dd/da3/classUActorBlueprintFunctionLibrary.html#a93ef1bca2720f7ddc783338a1d46d4e9',1,'UActorBlueprintFunctionLibrary']]],
@@ -96,6 +97,9 @@ var searchData=
   ['rotation',['Rotation',['../d8/dba/classcarla_1_1geom_1_1Rotation.html#a71c201ae786655c11847496f3a5c63db',1,'carla::geom::Rotation::Rotation()=default'],['../d8/dba/classcarla_1_1geom_1_1Rotation.html#afebd121ac590dc228e39930316835f4a',1,'carla::geom::Rotation::Rotation(float p, float y, float r)']]],
   ['round_5fnearest',['round_nearest',['../db/d20/pugixml_8cpp.html#aaeb62784a181c44f2ee34c0172e00240',1,'pugixml.cpp']]],
   ['round_5fnearest_5fnzero',['round_nearest_nzero',['../db/d20/pugixml_8cpp.html#a08148576c17009ae574e2fc8cd3d17a9',1,'pugixml.cpp']]],
+  ['rsscheck',['RssCheck',['../dc/d07/classcarla_1_1rss_1_1RssCheck.html#a777d1097b14da262717dca2d1d063b07',1,'carla::rss::RssCheck']]],
+  ['rssresponse',['RssResponse',['../da/d3a/classcarla_1_1sensor_1_1data_1_1RssResponse.html#aba2faaef48634d3cda5ccc854fcfc6f9',1,'carla::sensor::data::RssResponse']]],
+  ['rssrestrictor',['RssRestrictor',['../d9/deb/classcarla_1_1rss_1_1RssRestrictor.html#a2a3188609fde37bc14c24b8e64267491',1,'carla::rss::RssRestrictor']]],
   ['run',['Run',['../d0/daa/classcarla_1_1streaming_1_1Client.html#acb81e95fff8a46bd6beebfd037270cb9',1,'carla::streaming::Client::Run()'],['../d5/de5/classcarla_1_1streaming_1_1Server.html#ac5323504fc55606b942a4063263be643',1,'carla::streaming::Server::Run()'],['../da/d72/classcarla_1_1ThreadPool.html#a75cacb83795788d41db12ebf27a25ee3',1,'carla::ThreadPool::Run()'],['../dc/d7d/classBenchmark.html#a52a2906b47f2e68f0234c6ebbec4c584',1,'Benchmark::Run()']]],
   ['runfor',['RunFor',['../da/d72/classcarla_1_1ThreadPool.html#a7588fc07ff0c5ae8dfd85b353b58f81a',1,'carla::ThreadPool']]],
   ['runsome',['RunSome',['../da/dd6/classFCarlaServer.html#a1cab979a8d06ca16747c0fcf72dcfdc6',1,'FCarlaServer']]]

@@ -20,6 +20,7 @@ var searchData=
   ['obstacledetectioneventserializer_2eh',['ObstacleDetectionEventSerializer.h',['../d3/d5c/ObstacleDetectionEventSerializer_8h.html',1,'']]],
   ['obstacledetectionsensor_2ecpp',['ObstacleDetectionSensor.cpp',['../d2/d70/ObstacleDetectionSensor_8cpp.html',1,'']]],
   ['obstacledetectionsensor_2eh',['ObstacleDetectionSensor.h',['../d7/d55/ObstacleDetectionSensor_8h.html',1,'']]],
+  ['occupiedregionvector',['OccupiedRegionVector',['../d0/df1/namespacead__rss_1_1world.html#ad3391ab7a6987b14e26e2342d024ba97',1,'ad_rss::world']]],
   ['off',['Off',['../de/d6c/namespacecarla_1_1rpc.html#a46c3995219197dcef2980adce8d1cfbaad15305d7a4e34e02489c74a5ef542f36',1,'carla::rpc']]],
   ['offramp',['OffRamp',['../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5aef0094aa48f0429c57566e5920433b38',1,'carla::road::Lane']]],
   ['offroad',['OffRoad',['../df/d36/structFRoadMapIntersectionResult.html#ac375edecd418c551111d2e20e87ce94d',1,'FRoadMapIntersectionResult']]],
