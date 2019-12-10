@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['server',['Server',['../d6/d51/classcarla_1_1streaming_1_1detail_1_1tcp_1_1ServerSession.html#ac2055578ac48afabe5af487878450f68',1,'carla::streaming::detail::tcp::ServerSession']]],
-  ['simulator',['Simulator',['../d2/d06/classcarla_1_1client_1_1detail_1_1ActorState.html#a4ba4278eee9a6776d60f4aa6b42c3a76',1,'carla::client::detail::ActorState']]]
+  ['radarserializer',['RadarSerializer',['../d5/daf/classcarla_1_1sensor_1_1s11n_1_1RadarData.html#aae7d09a2b4866a12cba9926de03505e2',1,'carla::sensor::s11n::RadarData']]]
 ];

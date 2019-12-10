@@ -1,9 +1,10 @@
 var searchData=
 [
   ['r',['r',['../da/d44/classcarla_1_1rpc_1_1Color.html#afcb850bc444ccf41f6be096a3cd55657',1,'carla::rpc::Color::r()'],['../d2/dec/structcarla_1_1sensor_1_1data_1_1Color.html#a8b6887584e47cd3ac9ab62110c24e44d',1,'carla::sensor::data::Color::r()']]],
-  ['radius',['radius',['../d5/d9b/classcarla_1_1rpc_1_1WheelPhysicsControl.html#a418182031b76655018868b9b0038da99',1,'carla::rpc::WheelPhysicsControl::radius()'],['../db/dfe/structFWheelPhysicsControl.html#a564a7371b19889c1f75b6cc325521ff0',1,'FWheelPhysicsControl::Radius()']]],
+  ['radardata',['RadarData',['../d9/d27/classARadar.html#accbbfbbcbc3319979d3cd357659773f9',1,'ARadar']]],
+  ['radius',['Radius',['../db/dfe/structFWheelPhysicsControl.html#a564a7371b19889c1f75b6cc325521ff0',1,'FWheelPhysicsControl::Radius()'],['../d5/d9b/classcarla_1_1rpc_1_1WheelPhysicsControl.html#a418182031b76655018868b9b0038da99',1,'carla::rpc::WheelPhysicsControl::radius()']]],
   ['randomengine',['RandomEngine',['../d3/d01/classASensor.html#ac45a5cb382483d3ddf3547c8dd972067',1,'ASensor::RandomEngine()'],['../d2/d2a/classAActorWithRandomEngine.html#aa1d73423f1ce12a3d87b3e0407a597d5',1,'AActorWithRandomEngine::RandomEngine()'],['../dd/dea/classAWheeledVehicleAIController.html#a40d5b3d142d39bb190666ce45fc3f194',1,'AWheeledVehicleAIController::RandomEngine()']]],
-  ['range',['Range',['../de/d6f/structFLidarDescription.html#a6731c317ddf2b5d346d35e378e59f661',1,'FLidarDescription']]],
+  ['range',['Range',['../de/d6f/structFLidarDescription.html#a6731c317ddf2b5d346d35e378e59f661',1,'FLidarDescription::Range()'],['../d9/d27/classARadar.html#a0e1df846b1fd17b4d8c01778c7807e24',1,'ARadar::Range()']]],
   ['ratio',['ratio',['../d9/d75/classcarla_1_1rpc_1_1GearPhysicsControl.html#a827364d13d2b9a95e281e86bb0e268cb',1,'carla::rpc::GearPhysicsControl::ratio()'],['../da/d0b/structFGearPhysicsControl.html#a84a5216682fe47af0784ed8233accca0',1,'FGearPhysicsControl::Ratio()']]],
   ['recinfo',['RecInfo',['../df/d24/classCarlaRecorderQuery.html#aed85ec6996008046fb58982471c68f22',1,'CarlaRecorderQuery::RecInfo()'],['../dc/dc6/classCarlaReplayer.html#ac2f934b25ff402c7d6fcc837784726ea',1,'CarlaReplayer::RecInfo()']]],
   ['recommended_5fspawn_5fpoints',['recommended_spawn_points',['../d1/d07/classcarla_1_1rpc_1_1MapInfo.html#add4854869be339d238c18b752203a780',1,'carla::rpc::MapInfo']]],
@@ -30,7 +31,7 @@ var searchData=
   ['roadsegments',['RoadSegments',['../d0/d95/classMapGen_1_1GraphParser.html#a208d5020b7a8146fb7e66249240994aa',1,'MapGen::GraphParser']]],
   ['roll',['roll',['../d8/dba/classcarla_1_1geom_1_1Rotation.html#a1da30089c64476098fecf74395b85fa5',1,'carla::geom::Rotation']]],
   ['root',['root',['../d1/d95/structxpath__query__impl.html#ad25499e0c8391005e3a1a60633d631fe',1,'xpath_query_impl']]],
-  ['rotation',['Rotation',['../d9/dfc/structCarlaRecorderEventAdd.html#a4f203a0cf281edd71eb7c22dcdd3a928',1,'CarlaRecorderEventAdd::Rotation()'],['../d3/d16/structCarlaRecorderPosition.html#a007bba7cc0189a715e3d5c488f699dc0',1,'CarlaRecorderPosition::Rotation()'],['../de/da4/classcarla_1_1geom_1_1Transform.html#a89dcfef603363e7fb60c917b15091122',1,'carla::geom::Transform::rotation()'],['../d8/d2c/structcarla_1_1rpc_1_1DebugShape_1_1Box.html#a20faa6d14941644d73ad51ebb4c375ab',1,'carla::rpc::DebugShape::Box::rotation()']]],
+  ['rotation',['rotation',['../de/da4/classcarla_1_1geom_1_1Transform.html#a89dcfef603363e7fb60c917b15091122',1,'carla::geom::Transform::rotation()'],['../d8/d2c/structcarla_1_1rpc_1_1DebugShape_1_1Box.html#a20faa6d14941644d73ad51ebb4c375ab',1,'carla::rpc::DebugShape::Box::rotation()'],['../d9/dfc/structCarlaRecorderEventAdd.html#a4f203a0cf281edd71eb7c22dcdd3a928',1,'CarlaRecorderEventAdd::Rotation()'],['../d3/d16/structCarlaRecorderPosition.html#a007bba7cc0189a715e3d5c488f699dc0',1,'CarlaRecorderPosition::Rotation()']]],
   ['rotationfrequency',['RotationFrequency',['../de/d6f/structFLidarDescription.html#ad4ae6caa8dc144976537989b5a4624ce',1,'FLidarDescription']]],
   ['routeplanners',['RoutePlanners',['../d0/d2d/classAOpenDriveActor.html#acb496ff8711ce7e68d96f2fcceb4f290',1,'AOpenDriveActor']]],
   ['routes',['Routes',['../dc/d0f/classARoutePlanner.html#ab825e1a190e5ec97045b16c156f2e0b2',1,'ARoutePlanner']]],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['world',['World',['../da/d51/classcarla_1_1client_1_1ActorList.html#a7b4bcdf992c21ae83363f25df05b1d25',1,'carla::client::ActorList']]]
+  ['uroadmap',['URoadMap',['../d9/d74/structFRoadMapPixelData.html#a1c47239f1250ef2a2fdb86afae60412f',1,'FRoadMapPixelData']]]
 ];

@@ -37,6 +37,7 @@ var searchData=
   ['torque_5fcurve',['torque_curve',['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#ad18b06aba357d861e01cf6e652e60582',1,'carla::rpc::VehiclePhysicsControl']]],
   ['torquecurve',['TorqueCurve',['../d1/dbe/structFVehiclePhysicsControl.html#ac98dbc202f210ca5206d81cb76feef40',1,'FVehiclePhysicsControl']]],
   ['totaltime',['TotalTime',['../dc/dc6/classCarlaReplayer.html#a2915ff23601e5a0a05a7616bb06241fa',1,'CarlaReplayer']]],
+  ['traceparams',['TraceParams',['../d9/d27/classARadar.html#a69d7475e350a3ce40b8ca0ce75bd89e7',1,'ARadar']]],
   ['traffic_5flight_5fdata',['traffic_light_data',['../d0/d4a/unioncarla_1_1sensor_1_1data_1_1ActorDynamicState_1_1TypeDependentState.html#ae762a96cab06ac22823c08869217d999',1,'carla::sensor::data::ActorDynamicState::TypeDependentState']]],
   ['traffic_5flight_5fid',['traffic_light_id',['../da/dc7/structcarla_1_1sensor_1_1data_1_1detail_1_1VehicleData.html#ae0416cbade46e11f55add9c3a61960ca',1,'carla::sensor::data::detail::VehicleData']]],
   ['traffic_5flight_5fstate',['traffic_light_state',['../da/dc7/structcarla_1_1sensor_1_1data_1_1detail_1_1VehicleData.html#a1598ec087d41562fe9b43df8ec4e9ba7',1,'carla::sensor::data::detail::VehicleData']]],

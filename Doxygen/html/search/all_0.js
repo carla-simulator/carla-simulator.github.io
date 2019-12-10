@@ -58,6 +58,7 @@ var searchData=
   ['_5fdepth',['_depth',['../df/ddc/classpugi_1_1xml__tree__walker.html#a6726785913628e9388553961bd5feb32',1,'pugi::xml_tree_walker']]],
   ['_5fdescription',['_description',['../d2/d06/classcarla_1_1client_1_1detail_1_1ActorState.html#af60c96b4528c825ac4542f92df12a47d',1,'carla::client::detail::ActorState::_description()'],['../dd/d49/classcarla_1_1client_1_1Map.html#aad808008b03f8562a006769572856ecb',1,'carla::client::Map::_description()']]],
   ['_5fdestroy',['_destroy',['../d8/d8d/classpugi_1_1xml__document.html#a5ae4c55b15c15eaa0640b4969948e0ea',1,'pugi::xml_document::_destroy()'],['../de/dfa/classpugi_1_1xpath__variable__set.html#a8f211a74309b7d434b5ce708147a240a',1,'pugi::xpath_variable_set::_destroy()']]],
+  ['_5fdetections',['_detections',['../d5/daf/classcarla_1_1sensor_1_1s11n_1_1RadarData.html#a6e155ec763246a66a389ac52497ea255',1,'carla::sensor::s11n::RadarData']]],
   ['_5fdispatcher',['_dispatcher',['../d0/d7a/classcarla_1_1streaming_1_1low__level_1_1Server.html#a206aaaff23a13b475a356a79d95fceb8',1,'carla::streaming::low_level::Server']]],
   ['_5fdisplay_5fid',['_display_id',['../d2/d06/classcarla_1_1client_1_1detail_1_1ActorState.html#a5b9dffbcc4ba78a5662a714ecfe551a5',1,'carla::client::detail::ActorState']]],
   ['_5fdistance',['_distance',['../d3/d28/classcarla_1_1sensor_1_1data_1_1ObstacleDetectionEvent.html#ac0a6753bfd20bdfda6835c5fdd71467a',1,'carla::sensor::data::ObstacleDetectionEvent']]],

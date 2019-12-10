@@ -1,5 +1,9 @@
 var searchData=
 [
+  ['radardata',['RadarData',['../d5/daf/classcarla_1_1sensor_1_1s11n_1_1RadarData.html',1,'carla::sensor::s11n']]],
+  ['radardetection',['RadarDetection',['../d2/d54/structcarla_1_1sensor_1_1s11n_1_1RadarDetection.html',1,'carla::sensor::s11n']]],
+  ['radarmeasurement',['RadarMeasurement',['../d6/dfa/classcarla_1_1sensor_1_1data_1_1RadarMeasurement.html',1,'carla::sensor::data']]],
+  ['radarserializer',['RadarSerializer',['../dd/ddf/classcarla_1_1sensor_1_1s11n_1_1RadarSerializer.html',1,'carla::sensor::s11n']]],
   ['random',['Random',['../dc/de7/classutil_1_1Random.html',1,'util']]],
   ['rawdata',['RawData',['../d3/da0/classcarla_1_1sensor_1_1RawData.html',1,'carla::sensor']]],
   ['rawepisodestate',['RawEpisodeState',['../d4/d68/classcarla_1_1sensor_1_1data_1_1RawEpisodeState.html',1,'carla::sensor::data']]],
@@ -12,8 +16,8 @@ var searchData=
   ['response',['Response',['../dd/db9/classcarla_1_1rpc_1_1Response.html',1,'carla::rpc']]],
   ['response_3c_20void_20_3e',['Response&lt; void &gt;',['../d0/d65/classcarla_1_1rpc_1_1Response_3_01void_01_4.html',1,'carla::rpc']]],
   ['responseerror',['ResponseError',['../d7/d2a/classcarla_1_1rpc_1_1ResponseError.html',1,'carla::rpc']]],
-  ['road',['Road',['../dc/d17/structcarla_1_1opendrive_1_1parser_1_1Road.html',1,'carla::opendrive::parser']]],
   ['road',['Road',['../dd/de6/classcarla_1_1road_1_1Road.html',1,'carla::road']]],
+  ['road',['Road',['../dc/d17/structcarla_1_1opendrive_1_1parser_1_1Road.html',1,'carla::opendrive::parser']]],
   ['roadelementset',['RoadElementSet',['../dc/dcf/classcarla_1_1road_1_1RoadElementSet.html',1,'carla::road']]],
   ['roadelementset_3c_20std_3a_3aunique_5fptr_3c_20element_3a_3acarla_3a_3aroad_3a_3aelement_3a_3aroadinfo_20_3e_20_3e',['RoadElementSet&lt; std::unique_ptr&lt; element::carla::road::element::RoadInfo &gt; &gt;',['../dc/dcf/classcarla_1_1road_1_1RoadElementSet.html',1,'carla::road']]],
   ['roadinfo',['RoadInfo',['../d6/d0f/classcarla_1_1road_1_1element_1_1RoadInfo.html',1,'carla::road::element']]],

@@ -19,7 +19,7 @@ var searchData=
   ['alloc',['alloc',['../db/db4/structxml__parser.html#a48f48b81a9a222b8bcb79f95024faad8',1,'xml_parser::alloc()'],['../d1/d95/structxpath__query__impl.html#ae568b8642d48e729f2ccc2a50467c847',1,'xpath_query_impl::alloc()']]],
   ['allocate',['allocate',['../d1/dd8/structxml__memory__management__function__storage.html#abb6865f8d07d27fd9273737c59f6e941',1,'xml_memory_management_function_storage']]],
   ['allocator',['allocator',['../d7/dd1/structxml__memory__page.html#adf8fa143123a842baa59b82fc3d83c3b',1,'xml_memory_page']]],
-  ['altitude',['altitude',['../d3/df4/classcarla_1_1geom_1_1GeoLocation.html#a06f7308686621241c427d6e2a4cf406d',1,'carla::geom::GeoLocation']]],
+  ['altitude',['altitude',['../d3/df4/classcarla_1_1geom_1_1GeoLocation.html#a06f7308686621241c427d6e2a4cf406d',1,'carla::geom::GeoLocation::altitude()'],['../d2/d54/structcarla_1_1sensor_1_1s11n_1_1RadarDetection.html#ab74b759f96243fa8b4d5df5993bd3970',1,'carla::sensor::s11n::RadarDetection::altitude()']]],
   ['altitudebias',['AltitudeBias',['../d0/dc3/classAGnssSensor.html#a853b3ddc17e358c918f4ead4313d7c88',1,'AGnssSensor']]],
   ['altitudedeviation',['AltitudeDeviation',['../d0/dc3/classAGnssSensor.html#ab20164a23a6f19e2ca58264a895087ad',1,'AGnssSensor']]],
   ['angle',['Angle',['../d7/d2d/classMapGen_1_1RoadSegmentDescription.html#ae74117373caacff207d69a602bd6b4a0',1,'MapGen::RoadSegmentDescription']]],
@@ -35,5 +35,6 @@ var searchData=
   ['au',['aU',['../d1/d76/structcarla_1_1opendrive_1_1parser_1_1GeometryParamPoly3.html#a127aca42e079207d3914ca2495a9a34a',1,'carla::opendrive::parser::GeometryParamPoly3']]],
   ['autoplay',['Autoplay',['../dc/dc6/classCarlaReplayer.html#aa34a30c207d70548871c977a84653684',1,'CarlaReplayer']]],
   ['av',['aV',['../d1/d76/structcarla_1_1opendrive_1_1parser_1_1GeometryParamPoly3.html#a54537b7ca886eeee461f56a983e896c6',1,'carla::opendrive::parser::GeometryParamPoly3']]],
-  ['axis',['axis',['../d8/db3/structaxis__to__type.html#ac9d75681918ad98c980db0f49b570b50',1,'axis_to_type']]]
+  ['axis',['axis',['../d8/db3/structaxis__to__type.html#ac9d75681918ad98c980db0f49b570b50',1,'axis_to_type']]],
+  ['azimuth',['azimuth',['../d2/d54/structcarla_1_1sensor_1_1s11n_1_1RadarDetection.html#a032b7393b74e97a4492b66d27b8bfe9e',1,'carla::sensor::s11n::RadarDetection']]]
 ];
