@@ -2,6 +2,7 @@ var searchData=
 [
   ['object',['Object',['../d0/dd6/classcarla_1_1road_1_1Object.html',1,'carla::road']]],
   ['objectparser',['ObjectParser',['../d3/df6/classcarla_1_1opendrive_1_1parser_1_1ObjectParser.html',1,'carla::opendrive::parser']]],
+  ['objectset',['ObjectSet',['../d3/d63/classcarla_1_1road_1_1ObjectSet.html',1,'carla::road']]],
   ['obstacledetectionevent',['ObstacleDetectionEvent',['../d3/d28/classcarla_1_1sensor_1_1data_1_1ObstacleDetectionEvent.html',1,'carla::sensor::data']]],
   ['obstacledetectioneventserializer',['ObstacleDetectionEventSerializer',['../d9/d82/classcarla_1_1sensor_1_1s11n_1_1ObstacleDetectionEventSerializer.html',1,'carla::sensor::s11n']]],
   ['opendrive',['OpenDrive',['../d3/d3b/classutil_1_1OpenDrive.html',1,'util']]],

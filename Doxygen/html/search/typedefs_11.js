@@ -12,7 +12,6 @@ var searchData=
   ['sharedptr',['SharedPtr',['../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614',1,'carla']]],
   ['sharedptrtype',['SharedPtrType',['../d1/dd3/classcarla_1_1client_1_1detail_1_1EpisodeProxyImpl.html#a311ae9ef720104f2abaf4225f905d0f3',1,'carla::client::detail::EpisodeProxyImpl']]],
   ['signalid',['SignalID',['../db/dd5/namespacecarla_1_1opendrive_1_1parser.html#a82849a819f33ebf6515c37cf6f4ff604',1,'carla::opendrive::parser']]],
-  ['signalreferenceid',['SignalReferenceID',['../db/dd5/namespacecarla_1_1opendrive_1_1parser.html#a594ed70a91298b439898f3a5f70252fa',1,'carla::opendrive::parser']]],
   ['signid',['SignId',['../de/d26/namespacecarla_1_1road.html#ab15f01b8f6ff0ce3bea0ad72db221ee1',1,'carla::road']]],
   ['signrefid',['SignRefId',['../de/d26/namespacecarla_1_1road.html#a7a12d6112228f7a117a6420191b4102a',1,'carla::road']]],
   ['size_5ft',['size_t',['../d3/d55/structmoodycamel_1_1ConcurrentQueueDefaultTraits.html#aedbe74aec1f4656b054cdaccf4785f2c',1,'moodycamel::ConcurrentQueueDefaultTraits::size_t()'],['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#ac0b73313ed107d313b55c8a77be19b28',1,'moodycamel::ConcurrentQueue::size_t()']]],

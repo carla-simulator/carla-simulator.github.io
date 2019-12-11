@@ -1,17 +1,5 @@
 var searchData=
 [
-  ['sample_5fpolyarea_5fdoor',['SAMPLE_POLYAREA_DOOR',['../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5a6edc302f1c7476622f7e4a653f27dc96',1,'carla::nav']]],
-  ['sample_5fpolyarea_5fgrass',['SAMPLE_POLYAREA_GRASS',['../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5a408a158d3f4e0b2c4549d5cc53b0a6d2',1,'carla::nav']]],
-  ['sample_5fpolyarea_5fground',['SAMPLE_POLYAREA_GROUND',['../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5a6e71da659913c16dfccbd9e289f85d3c',1,'carla::nav']]],
-  ['sample_5fpolyarea_5fjump',['SAMPLE_POLYAREA_JUMP',['../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5aaa138ebe7b1f32c6500403741215a535',1,'carla::nav']]],
-  ['sample_5fpolyarea_5froad',['SAMPLE_POLYAREA_ROAD',['../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5a15836f749e7f986f0d7c488f85ca7ea1',1,'carla::nav']]],
-  ['sample_5fpolyarea_5fwater',['SAMPLE_POLYAREA_WATER',['../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5aa303ef746e17bd8d3a2bbdbc3bbcca80',1,'carla::nav']]],
-  ['sample_5fpolyflags_5fall',['SAMPLE_POLYFLAGS_ALL',['../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742aea5bdc4004392ca8e8a280ca1ee7f513',1,'carla::nav']]],
-  ['sample_5fpolyflags_5fdisabled',['SAMPLE_POLYFLAGS_DISABLED',['../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742a29373953a33e107e1405e132c2b6880c',1,'carla::nav']]],
-  ['sample_5fpolyflags_5fdoor',['SAMPLE_POLYFLAGS_DOOR',['../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742ab156af92eb19b8ead35dde5f5fdf14ac',1,'carla::nav']]],
-  ['sample_5fpolyflags_5fjump',['SAMPLE_POLYFLAGS_JUMP',['../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742af454b0e4dd9d8ea1be43126f14fed766',1,'carla::nav']]],
-  ['sample_5fpolyflags_5fswim',['SAMPLE_POLYFLAGS_SWIM',['../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742a687181929a3a1c0ebd7e6865ed142d56',1,'carla::nav']]],
-  ['sample_5fpolyflags_5fwalk',['SAMPLE_POLYFLAGS_WALK',['../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742a88987f825045c77ffd736c16a0bb22d8',1,'carla::nav']]],
   ['shoulder',['Shoulder',['../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5a83cb4c144b3d6ee1a847bee51a44b933',1,'carla::road::Lane']]],
   ['sidewalk',['Sidewalk',['../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5ac68f4e6506520a1ae5f89c48dc2fcca1',1,'carla::road::Lane']]],
   ['sidewalks',['Sidewalks',['../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0abf98f22928647b6115992a562a478d29',1,'Tagger.h']]],

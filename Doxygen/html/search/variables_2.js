@@ -31,6 +31,7 @@ var searchData=
   ['bonintersections',['bOnIntersections',['../d0/d2d/classAOpenDriveActor.html#a276fd3ea8f5c5da0ec417aa248d040ba',1,'AOpenDriveActor']]],
   ['bonlydynamics',['bOnlyDynamics',['../d3/d93/classAObstacleDetectionSensor.html#ae21f064490c2d48974527407544c53bf',1,'AObstacleDetectionSensor']]],
   ['bonlypreparemaps',['bOnlyPrepareMaps',['../d5/d34/structFPackageParams.html#a80362aa98799a3a3871e2494d36a8f4a',1,'FPackageParams']]],
+  ['bounding',['bounding',['../d4/d66/structcarla_1_1nav_1_1VehicleCollisionInfo.html#a2e56db0b1a1dadfd1ce190dfac2bc58c',1,'carla::nav::VehicleCollisionInfo']]],
   ['bounding_5fbox',['bounding_box',['../db/dfd/classcarla_1_1rpc_1_1Actor.html#ae369d4725826e1f50fef38d2417b7b60',1,'carla::rpc::Actor']]],
   ['boundingbox',['BoundingBox',['../d9/d05/structFActorInfo.html#a03d68172f4079d1609c236111641bbac',1,'FActorInfo']]],
   ['box',['box',['../d8/d2c/structcarla_1_1rpc_1_1DebugShape_1_1Box.html#a496064adcf18c625f5342cbce42c0d4b',1,'carla::rpc::DebugShape::Box']]],

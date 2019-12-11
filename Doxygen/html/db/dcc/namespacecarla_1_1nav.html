@@ -72,6 +72,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -85,28 +86,61 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc2/classcarla_1_1nav_1_1Navigation.html">Navigation</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manage the pedestrians navigation, using the Recast &amp; Detour library for low level calculations.  <a href="../../d9/dc2/classcarla_1_1nav_1_1Navigation.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d66/structcarla_1_1nav_1_1VehicleCollisionInfo.html">VehicleCollisionInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">struct to send info about vehicles to the crowd  <a href="../../d4/d66/structcarla_1_1nav_1_1VehicleCollisionInfo.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d76/structcarla_1_1nav_1_1WalkerEventIgnore.html">WalkerEventIgnore</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">empty event that just ignores  <a href="../../d2/d76/structcarla_1_1nav_1_1WalkerEventIgnore.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de9/structcarla_1_1nav_1_1WalkerEventStopAndCheck.html">WalkerEventStopAndCheck</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">event to pause and check for near vehicles  <a href="../../d5/de9/structcarla_1_1nav_1_1WalkerEventStopAndCheck.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d38/classcarla_1_1nav_1_1WalkerEventVisitor.html">WalkerEventVisitor</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">visitor class  <a href="../../d6/d38/classcarla_1_1nav_1_1WalkerEventVisitor.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d45/structcarla_1_1nav_1_1WalkerEventWait.html">WalkerEventWait</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">event to wait for a while  <a href="../../dd/d45/structcarla_1_1nav_1_1WalkerEventWait.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db4/structcarla_1_1nav_1_1WalkerInfo.html">WalkerInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5b/classcarla_1_1nav_1_1WalkerManager.html">WalkerManager</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d94/structcarla_1_1nav_1_1WalkerRoutePoint.html">WalkerRoutePoint</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:af3908221ce619e131ba1fd5133b4e0ce"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#af3908221ce619e131ba1fd5133b4e0ce">WalkerEvent</a> = boost::variant&lt; <a class="el" href="../../d2/d76/structcarla_1_1nav_1_1WalkerEventIgnore.html">WalkerEventIgnore</a>, <a class="el" href="../../dd/d45/structcarla_1_1nav_1_1WalkerEventWait.html">WalkerEventWait</a>, <a class="el" href="../../d5/de9/structcarla_1_1nav_1_1WalkerEventStopAndCheck.html">WalkerEventStopAndCheck</a> &gt;</td></tr>
+<tr class="memdesc:af3908221ce619e131ba1fd5133b4e0ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">walker event variant  <a href="#af3908221ce619e131ba1fd5133b4e0ce">More...</a><br /></td></tr>
+<tr class="separator:af3908221ce619e131ba1fd5133b4e0ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a6ff860227c29e492a077f3e306c377a5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5">SamplePolyAreas</a> { <br />
-&#160;&#160;<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5a6e71da659913c16dfccbd9e289f85d3c">SAMPLE_POLYAREA_GROUND</a>, 
-<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5aa303ef746e17bd8d3a2bbdbc3bbcca80">SAMPLE_POLYAREA_WATER</a>, 
-<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5a15836f749e7f986f0d7c488f85ca7ea1">SAMPLE_POLYAREA_ROAD</a>, 
-<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5a6edc302f1c7476622f7e4a653f27dc96">SAMPLE_POLYAREA_DOOR</a>, 
+<tr class="memitem:aaeb50f35d060ef52e7e3973ffad0fa5d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#aaeb50f35d060ef52e7e3973ffad0fa5d">EventResult</a> : uint8_t { <a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#aaeb50f35d060ef52e7e3973ffad0fa5daa0bfb8e59e6c13fc8d990781f77694fe">EventResult::Continue</a>, 
+<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#aaeb50f35d060ef52e7e3973ffad0fa5da87557f11575c0ad78e4e28abedc13b6e">EventResult::End</a>, 
+<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#aaeb50f35d060ef52e7e3973ffad0fa5da5c642867bcd564f28fbb79aec4501efa">EventResult::TimeOut</a>
+ }<tr class="memdesc:aaeb50f35d060ef52e7e3973ffad0fa5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">result of an event  <a href="../../db/dcc/namespacecarla_1_1nav.html#aaeb50f35d060ef52e7e3973ffad0fa5d">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:aaeb50f35d060ef52e7e3973ffad0fa5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a114f5d6847e336bbd3651f1e0f564d6d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a114f5d6847e336bbd3651f1e0f564d6d">NavAreas</a> { <br />
+&#160;&#160;<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a114f5d6847e336bbd3651f1e0f564d6da862251d39d03acb421ac568359718989">CARLA_AREA_BLOCK</a> = 0, 
+<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a114f5d6847e336bbd3651f1e0f564d6da7c84c4b7e0c4b8645b059e72e6914b55">CARLA_AREA_SIDEWALK</a>, 
+<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a114f5d6847e336bbd3651f1e0f564d6da577f647d80c856f74bf0a8e640b00609">CARLA_AREA_CROSSWALK</a>, 
+<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a114f5d6847e336bbd3651f1e0f564d6dab5303f539e81ab956d53b2eb1e567c68">CARLA_AREA_ROAD</a>, 
 <br />
-&#160;&#160;<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5a408a158d3f4e0b2c4549d5cc53b0a6d2">SAMPLE_POLYAREA_GRASS</a>, 
-<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5aaa138ebe7b1f32c6500403741215a535">SAMPLE_POLYAREA_JUMP</a>
+&#160;&#160;<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a114f5d6847e336bbd3651f1e0f564d6da81512722b65320b91068e4e99b9b4159">CARLA_AREA_GRASS</a>
 <br />
  }</td></tr>
-<tr class="separator:a6ff860227c29e492a077f3e306c377a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a114f5d6847e336bbd3651f1e0f564d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a329b61ddc44132187482ca1d90d47742"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742">SamplePolyFlags</a> { <br />
-&#160;&#160;<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742a88987f825045c77ffd736c16a0bb22d8">SAMPLE_POLYFLAGS_WALK</a> = 0x01, 
-<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742a687181929a3a1c0ebd7e6865ed142d56">SAMPLE_POLYFLAGS_SWIM</a> = 0x02, 
-<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742ab156af92eb19b8ead35dde5f5fdf14ac">SAMPLE_POLYFLAGS_DOOR</a> = 0x04, 
-<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742af454b0e4dd9d8ea1be43126f14fed766">SAMPLE_POLYFLAGS_JUMP</a> = 0x08, 
+&#160;&#160;<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742ad84784509b83d90e58a43ec949d92128">CARLA_TYPE_NONE</a> = 0x01, 
+<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742ab7e755795adc37b01ad5c6fd620ad8bd">CARLA_TYPE_SIDEWALK</a> = 0x02, 
+<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742a1dcb502428377b35d46cfe5c05669154">CARLA_TYPE_CROSSWALK</a> = 0x04, 
+<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742ae2cdc201ceae187817a5698a0b36e3c2">CARLA_TYPE_ROAD</a> = 0x08, 
 <br />
-&#160;&#160;<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742a29373953a33e107e1405e132c2b6880c">SAMPLE_POLYFLAGS_DISABLED</a> = 0x10, 
-<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742aea5bdc4004392ca8e8a280ca1ee7f513">SAMPLE_POLYFLAGS_ALL</a> = 0xffff
+&#160;&#160;<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742a8858364114b4471aa908b5962ac7684b">CARLA_TYPE_GRASS</a> = 0x10, 
+<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742aa1f4acd964be1c7d1855aeeda07aa13b">CARLA_TYPE_ALL</a> = 0xffff, 
+<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742a8b1617ca0d7f488ec6ffb013609ca802">CARLA_TYPE_WALKABLE</a> = CARLA_TYPE_SIDEWALK | CARLA_TYPE_CROSSWALK | CARLA_TYPE_GRASS | CARLA_TYPE_ROAD
 <br />
  }</td></tr>
 <tr class="separator:a329b61ddc44132187482ca1d90d47742"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,6 +154,12 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a05717de6dcc5544e6d7cd397fae53614"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a728644a62154379cde64f6fda094bb26"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a728644a62154379cde64f6fda094bb26">WalkerState</a> { <a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a728644a62154379cde64f6fda094bb26ad3c3ce9d18f1b8dc6869816a77b62f15">WALKER_IDLE</a>, 
+<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a728644a62154379cde64f6fda094bb26ada0ae36906a8ecc79950ac56800e3ada">WALKER_WALKING</a>, 
+<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a728644a62154379cde64f6fda094bb26ac5129ffebbc898fb0a798f6a3ab07a1c">WALKER_IN_EVENT</a>, 
+<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a728644a62154379cde64f6fda094bb26a0898307dae9998567216494e925409d6">WALKER_STOP</a>
+ }</td></tr>
+<tr class="separator:a728644a62154379cde64f6fda094bb26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -132,6 +172,16 @@ Variables</h2></td></tr>
 <tr class="separator:a7a805cccf1a0ee1589fe361a06593cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46a538583d53f054db621f82ad69b8d3"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a46a538583d53f054db621f82ad69b8d3">AGENT_RADIUS</a> = 0.3f</td></tr>
 <tr class="separator:a46a538583d53f054db621f82ad69b8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd9e1e1e2a80381d7c275eac3144039a"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#afd9e1e1e2a80381d7c275eac3144039a">AGENT_UNBLOCK_DISTANCE</a> = 0.5f</td></tr>
+<tr class="separator:afd9e1e1e2a80381d7c275eac3144039a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86c638ab96c73261e34a72ba4caca450"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a86c638ab96c73261e34a72ba4caca450">AGENT_UNBLOCK_DISTANCE_SQUARED</a> = <a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#afd9e1e1e2a80381d7c275eac3144039a">AGENT_UNBLOCK_DISTANCE</a> * <a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#afd9e1e1e2a80381d7c275eac3144039a">AGENT_UNBLOCK_DISTANCE</a></td></tr>
+<tr class="separator:a86c638ab96c73261e34a72ba4caca450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39d257a8766a711704d298f32d977c5c"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a39d257a8766a711704d298f32d977c5c">AGENT_UNBLOCK_TIME</a> = 4.0f</td></tr>
+<tr class="separator:a39d257a8766a711704d298f32d977c5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeb23376685148d8e65423320d78acc1"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#afeb23376685148d8e65423320d78acc1">AREA_GRASS_COST</a> = 1.0f</td></tr>
+<tr class="separator:afeb23376685148d8e65423320d78acc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12a78cdcda2c81946ccfe3adaf9aa823"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a12a78cdcda2c81946ccfe3adaf9aa823">AREA_ROAD_COST</a> = 10.0f</td></tr>
+<tr class="separator:a12a78cdcda2c81946ccfe3adaf9aa823"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf5e35cc94238f7bff00e333f32fedb6"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#abf5e35cc94238f7bff00e333f32fedb6">MAX_AGENTS</a> = 500</td></tr>
 <tr class="separator:abf5e35cc94238f7bff00e333f32fedb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4c81334bb27b386f82556d7fbef4172"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#af4c81334bb27b386f82556d7fbef4172">MAX_POLYS</a> = 256</td></tr>
@@ -139,32 +189,79 @@ Variables</h2></td></tr>
 <tr class="memitem:af734290d17aa84d5d5aed3feddab4bf6"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#af734290d17aa84d5d5aed3feddab4bf6">MAX_QUERY_SEARCH_NODES</a> = 2048</td></tr>
 <tr class="separator:af734290d17aa84d5d5aed3feddab4bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a class="anchor" id="a6ff860227c29e492a077f3e306c377a5"></a>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="af3908221ce619e131ba1fd5133b4e0ce"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5">carla::nav::SamplePolyAreas</a></td>
+          <td class="memname">using <a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#af3908221ce619e131ba1fd5133b4e0ce">carla::nav::WalkerEvent</a> = typedef boost::variant&lt;<a class="el" href="../../d2/d76/structcarla_1_1nav_1_1WalkerEventIgnore.html">WalkerEventIgnore</a>, <a class="el" href="../../dd/d45/structcarla_1_1nav_1_1WalkerEventWait.html">WalkerEventWait</a>, <a class="el" href="../../d5/de9/structcarla_1_1nav_1_1WalkerEventStopAndCheck.html">WalkerEventStopAndCheck</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>walker event variant </p>
+
+<p>Definition at line <a class="el" href="../../de/d25/WalkerEvent_8h_source.html#l00043">43</a> of file <a class="el" href="../../de/d25/WalkerEvent_8h_source.html">WalkerEvent.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="aaeb50f35d060ef52e7e3973ffad0fa5d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#aaeb50f35d060ef52e7e3973ffad0fa5d">carla::nav::EventResult</a> : uint8_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>result of an event </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="aaeb50f35d060ef52e7e3973ffad0fa5daa0bfb8e59e6c13fc8d990781f77694fe"></a>Continue&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aaeb50f35d060ef52e7e3973ffad0fa5da87557f11575c0ad78e4e28abedc13b6e"></a>End&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aaeb50f35d060ef52e7e3973ffad0fa5da5c642867bcd564f28fbb79aec4501efa"></a>TimeOut&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+<p>Definition at line <a class="el" href="../../de/d25/WalkerEvent_8h_source.html#l00020">20</a> of file <a class="el" href="../../de/d25/WalkerEvent_8h_source.html">WalkerEvent.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a114f5d6847e336bbd3651f1e0f564d6d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a114f5d6847e336bbd3651f1e0f564d6d">carla::nav::NavAreas</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a6ff860227c29e492a077f3e306c377a5a6e71da659913c16dfccbd9e289f85d3c"></a>SAMPLE_POLYAREA_GROUND&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a114f5d6847e336bbd3651f1e0f564d6da862251d39d03acb421ac568359718989"></a>CARLA_AREA_BLOCK&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a6ff860227c29e492a077f3e306c377a5aa303ef746e17bd8d3a2bbdbc3bbcca80"></a>SAMPLE_POLYAREA_WATER&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="a114f5d6847e336bbd3651f1e0f564d6da7c84c4b7e0c4b8645b059e72e6914b55"></a>CARLA_AREA_SIDEWALK&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a6ff860227c29e492a077f3e306c377a5a15836f749e7f986f0d7c488f85ca7ea1"></a>SAMPLE_POLYAREA_ROAD&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="a114f5d6847e336bbd3651f1e0f564d6da577f647d80c856f74bf0a8e640b00609"></a>CARLA_AREA_CROSSWALK&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a6ff860227c29e492a077f3e306c377a5a6edc302f1c7476622f7e4a653f27dc96"></a>SAMPLE_POLYAREA_DOOR&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="a114f5d6847e336bbd3651f1e0f564d6dab5303f539e81ab956d53b2eb1e567c68"></a>CARLA_AREA_ROAD&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a6ff860227c29e492a077f3e306c377a5a408a158d3f4e0b2c4549d5cc53b0a6d2"></a>SAMPLE_POLYAREA_GRASS&#160;</td><td class="fielddoc">
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a6ff860227c29e492a077f3e306c377a5aaa138ebe7b1f32c6500403741215a535"></a>SAMPLE_POLYAREA_JUMP&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="a114f5d6847e336bbd3651f1e0f564d6da81512722b65320b91068e4e99b9b4159"></a>CARLA_AREA_GRASS&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00021">21</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00026">26</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
 
 </div>
 </div>
@@ -178,21 +275,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a329b61ddc44132187482ca1d90d47742a88987f825045c77ffd736c16a0bb22d8"></a>SAMPLE_POLYFLAGS_WALK&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a329b61ddc44132187482ca1d90d47742ad84784509b83d90e58a43ec949d92128"></a>CARLA_TYPE_NONE&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a329b61ddc44132187482ca1d90d47742a687181929a3a1c0ebd7e6865ed142d56"></a>SAMPLE_POLYFLAGS_SWIM&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="a329b61ddc44132187482ca1d90d47742ab7e755795adc37b01ad5c6fd620ad8bd"></a>CARLA_TYPE_SIDEWALK&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a329b61ddc44132187482ca1d90d47742ab156af92eb19b8ead35dde5f5fdf14ac"></a>SAMPLE_POLYFLAGS_DOOR&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="a329b61ddc44132187482ca1d90d47742a1dcb502428377b35d46cfe5c05669154"></a>CARLA_TYPE_CROSSWALK&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a329b61ddc44132187482ca1d90d47742af454b0e4dd9d8ea1be43126f14fed766"></a>SAMPLE_POLYFLAGS_JUMP&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="a329b61ddc44132187482ca1d90d47742ae2cdc201ceae187817a5698a0b36e3c2"></a>CARLA_TYPE_ROAD&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a329b61ddc44132187482ca1d90d47742a29373953a33e107e1405e132c2b6880c"></a>SAMPLE_POLYFLAGS_DISABLED&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="a329b61ddc44132187482ca1d90d47742a8858364114b4471aa908b5962ac7684b"></a>CARLA_TYPE_GRASS&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a329b61ddc44132187482ca1d90d47742aea5bdc4004392ca8e8a280ca1ee7f513"></a>SAMPLE_POLYFLAGS_ALL&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><a class="anchor" id="a329b61ddc44132187482ca1d90d47742aa1f4acd964be1c7d1855aeeda07aa13b"></a>CARLA_TYPE_ALL&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a329b61ddc44132187482ca1d90d47742a8b1617ca0d7f488ec6ffb013609ca802"></a>CARLA_TYPE_WALKABLE&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00034">34</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
 
 </div>
 </div>
@@ -213,14 +312,36 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a05717de6dcc5544e6d7cd397fae53614ac9e1076cef2436a39bdc5971ec8f457c"></a>DT_CROWD_SEPARATION&#160;</td><td class="fielddoc">
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a05717de6dcc5544e6d7cd397fae53614aebcfea305bcaa049df14319bc3ab7861"></a>DT_CROWD_OPTIMIZE_VIS&#160;</td><td class="fielddoc">
-<p>Use #dtPathCorridor::optimizePathVisibility() to optimize the agent path. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a05717de6dcc5544e6d7cd397fae53614a29e95ef6cee401067912de38422ecfca"></a>DT_CROWD_OPTIMIZE_TOPO&#160;</td><td class="fielddoc">
-<p>Use dtPathCorridor::optimizePathTopology() to optimize the agent path. </p>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00040">40</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a728644a62154379cde64f6fda094bb26"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a728644a62154379cde64f6fda094bb26">carla::nav::WalkerState</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a728644a62154379cde64f6fda094bb26ad3c3ce9d18f1b8dc6869816a77b62f15"></a>WALKER_IDLE&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a728644a62154379cde64f6fda094bb26ada0ae36906a8ecc79950ac56800e3ada"></a>WALKER_WALKING&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a728644a62154379cde64f6fda094bb26ac5129ffebbc898fb0a798f6a3ab07a1c"></a>WALKER_IN_EVENT&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a728644a62154379cde64f6fda094bb26a0898307dae9998567216494e925409d6"></a>WALKER_STOP&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+<p>Definition at line <a class="el" href="../../df/d64/WalkerManager_8h_source.html#l00020">20</a> of file <a class="el" href="../../df/d64/WalkerManager_8h_source.html">WalkerManager.h</a>.</p>
 
 </div>
 </div>
@@ -246,16 +367,16 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00059">59</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00604">carla::nav::Navigation::GetRandomLocation()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00461">carla::nav::Navigation::AddWalker()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01049">carla::nav::Navigation::GetRandomLocation()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00822">carla::nav::Navigation::UpdateCrowd()</a>.</p>
 
 <p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/dcc/namespacecarla_1_1nav_a1653b74e450d94d2dcdb352875bfbf31_icgraph.svg" width="100%" height="399"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/dcc/namespacecarla_1_1nav_a1653b74e450d94d2dcdb352875bfbf31_icgraph.svg" width="100%" height="596"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -281,9 +402,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00055">55</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00328">carla::nav::Navigation::AddWalker()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00522">carla::nav::Navigation::AddOrUpdateVehicle()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00461">carla::nav::Navigation::AddWalker()</a>.</p>
 
 </div>
 </div>
@@ -305,9 +426,119 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">56</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00037">37</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00328">carla::nav::Navigation::AddWalker()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00461">carla::nav::Navigation::AddWalker()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afd9e1e1e2a80381d7c275eac3144039a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float carla::nav::AGENT_UNBLOCK_DISTANCE = 0.5f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00039">39</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a86c638ab96c73261e34a72ba4caca450"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float carla::nav::AGENT_UNBLOCK_DISTANCE_SQUARED = <a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#afd9e1e1e2a80381d7c275eac3144039a">AGENT_UNBLOCK_DISTANCE</a> * <a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#afd9e1e1e2a80381d7c275eac3144039a">AGENT_UNBLOCK_DISTANCE</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00040">40</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a39d257a8766a711704d298f32d977c5c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float carla::nav::AGENT_UNBLOCK_TIME = 4.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00041">41</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afeb23376685148d8e65423320d78acc1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float carla::nav::AREA_GRASS_COST = 1.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00043">43</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a12a78cdcda2c81946ccfe3adaf9aa823"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float carla::nav::AREA_ROAD_COST = 10.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00044">44</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
 </div>
 </div>
@@ -329,7 +560,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00053">53</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00034">34</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
 </div>
 </div>
@@ -351,9 +582,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00052">52</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00033">33</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00247">carla::nav::Navigation::GetPath()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00360">carla::nav::Navigation::GetAgentRoute()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00255">carla::nav::Navigation::GetPath()</a>.</p>
 
 </div>
 </div>
@@ -375,7 +606,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00054">54</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00035">35</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
 </div>
 </div>

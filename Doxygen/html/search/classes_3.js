@@ -31,8 +31,8 @@ var searchData=
   ['citymapmeshtag',['CityMapMeshTag',['../d6/d33/classCityMapMeshTag.html',1,'']]],
   ['cityscapespalette',['CityScapesPalette',['../dd/d68/classcarla_1_1image_1_1CityScapesPalette.html',1,'carla::image']]],
   ['cityscapespalette',['CityScapesPalette',['../dd/dd5/structcarla_1_1image_1_1ColorConverter_1_1CityScapesPalette.html',1,'carla::image::ColorConverter']]],
-  ['client',['Client',['../df/d9d/classcarla_1_1rpc_1_1Client.html',1,'carla::rpc']]],
   ['client',['Client',['../d6/d8c/classcarla_1_1client_1_1Client.html',1,'carla::client']]],
+  ['client',['Client',['../df/d9d/classcarla_1_1rpc_1_1Client.html',1,'carla::rpc']]],
   ['client',['Client',['../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html',1,'carla::client::detail']]],
   ['client',['Client',['../d0/daa/classcarla_1_1streaming_1_1Client.html',1,'carla::streaming']]],
   ['client',['Client',['../dc/d96/classcarla_1_1streaming_1_1detail_1_1tcp_1_1Client.html',1,'carla::streaming::detail::tcp']]],
@@ -72,5 +72,6 @@ var searchData=
   ['const_5fnumeric_5fmax',['const_numeric_max',['../d8/d7d/structmoodycamel_1_1details_1_1const__numeric__max.html',1,'moodycamel::details']]],
   ['consumertoken',['ConsumerToken',['../de/deb/structmoodycamel_1_1ConsumerToken.html',1,'moodycamel']]],
   ['controltickvisitor',['ControlTickVisitor',['../dd/dfb/classAWalkerController_1_1ControlTickVisitor.html',1,'AWalkerController']]],
+  ['crosswalkpoint',['CrosswalkPoint',['../d8/de6/structcarla_1_1road_1_1element_1_1CrosswalkPoint.html',1,'carla::road::element']]],
   ['cubicpolynomial',['CubicPolynomial',['../d4/db7/classcarla_1_1geom_1_1CubicPolynomial.html',1,'carla::geom']]]
 ];

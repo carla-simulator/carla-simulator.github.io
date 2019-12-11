@@ -133,7 +133,7 @@ var searchData=
   ['frictiontrigger_2eh',['FrictionTrigger.h',['../d4/d30/FrictionTrigger_8h.html',1,'']]],
   ['froadmapintersectionresult',['FRoadMapIntersectionResult',['../df/d36/structFRoadMapIntersectionResult.html',1,'']]],
   ['froadmappixeldata',['FRoadMapPixelData',['../d9/d74/structFRoadMapPixelData.html',1,'FRoadMapPixelData'],['../d9/d74/structFRoadMapPixelData.html#ae467c0cbc3fea8a0fe8ad5c88f2264ca',1,'FRoadMapPixelData::FRoadMapPixelData()']]],
-  ['from',['from',['../d0/d7d/structcarla_1_1road_1_1Junction_1_1LaneLink.html#a40a9b50c75774a8ebe7a871698bb7c03',1,'carla::road::Junction::LaneLink']]],
+  ['from',['from',['../dc/db4/structcarla_1_1nav_1_1WalkerInfo.html#acdef56b52cd12697b7d345b671d3147f',1,'carla::nav::WalkerInfo::from()'],['../d0/d7d/structcarla_1_1road_1_1Junction_1_1LaneLink.html#a40a9b50c75774a8ebe7a871698bb7c03',1,'carla::road::Junction::LaneLink::from()']]],
   ['from_5fconst',['from_const',['../dd/d5c/classxpath__string.html#a6dce01c6b3a949c3c4c886e6be44931e',1,'xpath_string']]],
   ['from_5fheap',['from_heap',['../dd/d5c/classxpath__string.html#aaf1229b7a7ae918b41bf995df16c8896',1,'xpath_string']]],
   ['from_5fheap_5fpreallocated',['from_heap_preallocated',['../dd/d5c/classxpath__string.html#a37e13c2dc384cac842cee3870e9e9e23',1,'xpath_string']]],

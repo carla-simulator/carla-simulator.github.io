@@ -46,6 +46,7 @@ var searchData=
   ['currentepisode',['CurrentEpisode',['../dc/d49/classFCarlaEngine.html#a9761e58dcf4b7664bfe4e8a1c7835975',1,'FCarlaEngine']]],
   ['currentfilename',['CurrentFileName',['../d7/d1e/classUCarlaSettings.html#aa017a020633e2d040f9f491d7d0fc5bf',1,'UCarlaSettings']]],
   ['currentgeoreference',['CurrentGeoReference',['../d0/dc3/classAGnssSensor.html#a095fb56e74983371bb0468f9c1101aa9',1,'AGnssSensor']]],
+  ['currentindex',['currentIndex',['../dc/db4/structcarla_1_1nav_1_1WalkerInfo.html#a0fb6342373ba4eeaa603d8484a3215fe',1,'carla::nav::WalkerInfo']]],
   ['currentproducer',['currentProducer',['../de/deb/structmoodycamel_1_1ConsumerToken.html#ab6c81d07254cfcef38ea721dc3c39239',1,'moodycamel::ConsumerToken']]],
   ['currenttime',['CurrentTime',['../dc/dc6/classCarlaReplayer.html#ae5693e5fd6c65f1d73eded1d49590bce',1,'CarlaReplayer']]],
   ['currentvelocity',['CurrentVelocity',['../d9/d27/classARadar.html#a328fedaaa3319c80955d49048b8aefde',1,'ARadar']]],

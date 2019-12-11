@@ -83,6 +83,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="textblock"><code>#include &lt;cmath&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../de/d87/Logging_8h_source.html">carla/Logging.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/d36/Navigation_8h_source.html">carla/nav/Navigation.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d64/WalkerManager_8h_source.html">carla/nav/WalkerManager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d8a/Math_8h_source.html">carla/geom/Math.h</a>&quot;</code><br />
 <code>#include &lt;iterator&gt;</code><br />
 <code>#include &lt;fstream&gt;</code><br />
 <code>#include &lt;mutex&gt;</code><br />
@@ -111,28 +113,6 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a6ff860227c29e492a077f3e306c377a5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5">carla::nav::SamplePolyAreas</a> { <br />
-&#160;&#160;<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5a6e71da659913c16dfccbd9e289f85d3c">carla::nav::SAMPLE_POLYAREA_GROUND</a>, 
-<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5aa303ef746e17bd8d3a2bbdbc3bbcca80">carla::nav::SAMPLE_POLYAREA_WATER</a>, 
-<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5a15836f749e7f986f0d7c488f85ca7ea1">carla::nav::SAMPLE_POLYAREA_ROAD</a>, 
-<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5a6edc302f1c7476622f7e4a653f27dc96">carla::nav::SAMPLE_POLYAREA_DOOR</a>, 
-<br />
-&#160;&#160;<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5a408a158d3f4e0b2c4549d5cc53b0a6d2">carla::nav::SAMPLE_POLYAREA_GRASS</a>, 
-<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a6ff860227c29e492a077f3e306c377a5aaa138ebe7b1f32c6500403741215a535">carla::nav::SAMPLE_POLYAREA_JUMP</a>
-<br />
- }</td></tr>
-<tr class="separator:a6ff860227c29e492a077f3e306c377a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a329b61ddc44132187482ca1d90d47742"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742">carla::nav::SamplePolyFlags</a> { <br />
-&#160;&#160;<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742a88987f825045c77ffd736c16a0bb22d8">carla::nav::SAMPLE_POLYFLAGS_WALK</a> = 0x01, 
-<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742a687181929a3a1c0ebd7e6865ed142d56">carla::nav::SAMPLE_POLYFLAGS_SWIM</a> = 0x02, 
-<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742ab156af92eb19b8ead35dde5f5fdf14ac">carla::nav::SAMPLE_POLYFLAGS_DOOR</a> = 0x04, 
-<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742af454b0e4dd9d8ea1be43126f14fed766">carla::nav::SAMPLE_POLYFLAGS_JUMP</a> = 0x08, 
-<br />
-&#160;&#160;<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742a29373953a33e107e1405e132c2b6880c">carla::nav::SAMPLE_POLYFLAGS_DISABLED</a> = 0x10, 
-<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742aea5bdc4004392ca8e8a280ca1ee7f513">carla::nav::SAMPLE_POLYFLAGS_ALL</a> = 0xffff
-<br />
- }</td></tr>
-<tr class="separator:a329b61ddc44132187482ca1d90d47742"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05717de6dcc5544e6d7cd397fae53614"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a05717de6dcc5544e6d7cd397fae53614">carla::nav::UpdateFlags</a> { <br />
 &#160;&#160;<a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a05717de6dcc5544e6d7cd397fae53614af0cbbf39836934d6a21fa0d8551c3fe6">carla::nav::DT_CROWD_ANTICIPATE_TURNS</a> = 1, 
 <a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a05717de6dcc5544e6d7cd397fae53614a57958064c1f2b4abd224f36df7467f23">carla::nav::DT_CROWD_OBSTACLE_AVOIDANCE</a> = 2, 
@@ -155,6 +135,16 @@ Variables</h2></td></tr>
 <tr class="separator:a7a805cccf1a0ee1589fe361a06593cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46a538583d53f054db621f82ad69b8d3"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a46a538583d53f054db621f82ad69b8d3">carla::nav::AGENT_RADIUS</a> = 0.3f</td></tr>
 <tr class="separator:a46a538583d53f054db621f82ad69b8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd9e1e1e2a80381d7c275eac3144039a"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#afd9e1e1e2a80381d7c275eac3144039a">carla::nav::AGENT_UNBLOCK_DISTANCE</a> = 0.5f</td></tr>
+<tr class="separator:afd9e1e1e2a80381d7c275eac3144039a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86c638ab96c73261e34a72ba4caca450"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a86c638ab96c73261e34a72ba4caca450">carla::nav::AGENT_UNBLOCK_DISTANCE_SQUARED</a> = AGENT_UNBLOCK_DISTANCE * AGENT_UNBLOCK_DISTANCE</td></tr>
+<tr class="separator:a86c638ab96c73261e34a72ba4caca450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39d257a8766a711704d298f32d977c5c"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a39d257a8766a711704d298f32d977c5c">carla::nav::AGENT_UNBLOCK_TIME</a> = 4.0f</td></tr>
+<tr class="separator:a39d257a8766a711704d298f32d977c5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeb23376685148d8e65423320d78acc1"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#afeb23376685148d8e65423320d78acc1">carla::nav::AREA_GRASS_COST</a> = 1.0f</td></tr>
+<tr class="separator:afeb23376685148d8e65423320d78acc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12a78cdcda2c81946ccfe3adaf9aa823"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#a12a78cdcda2c81946ccfe3adaf9aa823">carla::nav::AREA_ROAD_COST</a> = 10.0f</td></tr>
+<tr class="separator:a12a78cdcda2c81946ccfe3adaf9aa823"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf5e35cc94238f7bff00e333f32fedb6"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#abf5e35cc94238f7bff00e333f32fedb6">carla::nav::MAX_AGENTS</a> = 500</td></tr>
 <tr class="separator:abf5e35cc94238f7bff00e333f32fedb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4c81334bb27b386f82556d7fbef4172"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dcc/namespacecarla_1_1nav.html#af4c81334bb27b386f82556d7fbef4172">carla::nav::MAX_POLYS</a> = 256</td></tr>

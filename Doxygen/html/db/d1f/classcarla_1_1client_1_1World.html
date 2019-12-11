@@ -137,6 +137,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad8c7712a9c9cfbd77e8d138d09b69a58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1f/classcarla_1_1client_1_1World.html#ad8c7712a9c9cfbd77e8d138d09b69a58">RemoveOnTick</a> (size_t callback_id)</td></tr>
 <tr class="memdesc:ad8c7712a9c9cfbd77e8d138d09b69a58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a callback registered with OnTick.  <a href="#ad8c7712a9c9cfbd77e8d138d09b69a58">More...</a><br /></td></tr>
 <tr class="separator:ad8c7712a9c9cfbd77e8d138d09b69a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51d9f5d94e76c69c37e967467e3e96df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1f/classcarla_1_1client_1_1World.html#a51d9f5d94e76c69c37e967467e3e96df">SetPedestriansCrossFactor</a> (float percentage)</td></tr>
+<tr class="memdesc:a51d9f5d94e76c69c37e967467e3e96df"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the probability that an agent could cross the roads in its path following percentage of 0.0f means no pedestrian can cross roads percentage of 0.5f means 50% of all pedestrians can cross roads percentage of 1.0f means all pedestrians can cross roads if needed  <a href="#a51d9f5d94e76c69c37e967467e3e96df">More...</a><br /></td></tr>
+<tr class="separator:a51d9f5d94e76c69c37e967467e3e96df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afaf2d199f77ae383aaead6556d4fd4d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1f/classcarla_1_1client_1_1World.html#afaf2d199f77ae383aaead6556d4fd4d4">SetWeather</a> (const <a class="el" href="../../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html">rpc::WeatherParameters</a> &amp;weather)</td></tr>
 <tr class="memdesc:afaf2d199f77ae383aaead6556d4fd4d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the weather in the simulation.  <a href="#afaf2d199f77ae383aaead6556d4fd4d4">More...</a><br /></td></tr>
 <tr class="separator:afaf2d199f77ae383aaead6556d4fd4d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -272,7 +275,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00040">40</a> of file <a class="el" href="../../d7/dfe/World_8cpp_source.html">World.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>.</p>
 
@@ -316,7 +319,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00056">56</a> of file <a class="el" href="../../d7/dfe/World_8cpp_source.html">World.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>.</p>
 
@@ -359,7 +362,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00064">64</a> of file <a class="el" href="../../d7/dfe/World_8cpp_source.html">World.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00063">carla::client::TrafficLight::GetGroupTrafficLights()</a>, <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>, <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00062">carla::client::RssSensor::TickRssSensor()</a>, and <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html#l00403">carla::rss::RssCheck::visualizeRssResults()</a>.</p>
 
@@ -403,7 +406,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00070">70</a> of file <a class="el" href="../../d7/dfe/World_8cpp_source.html">World.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -435,7 +438,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00024">24</a> of file <a class="el" href="../../d7/dfe/World_8cpp_source.html">World.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>.</p>
 
@@ -486,7 +489,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">45</a> of file <a class="el" href="../../dd/d5b/World_8h_source.html">World.h</a>.</p>
 
-<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">_episode</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00040">ApplySettings()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00056">GetActor()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00064">GetActors()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00024">GetBlueprintLibrary()</a>, <a class="el" href="../../dc/dc2/EpisodeProxy_8h_source.html#l00042">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::GetId()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00020">GetMap()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00028">GetRandomLocationFromNavigation()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00036">GetSettings()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00052">GetSnapshot()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00032">GetSpectator()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00044">GetWeather()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00100">OnTick()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00104">RemoveOnTick()</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a3124bfdfcd62bda5c4fe5978ec668365ac7207657aba5dfd2e5b0ca3f35cd8c26">carla::rpc::Rigid</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00048">SetWeather()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00076">SpawnActor()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00108">Tick()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00084">TrySpawnActor()</a>, and <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00096">WaitForTick()</a>.</p>
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00040">ApplySettings()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00056">GetActor()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00064">GetActors()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00024">GetBlueprintLibrary()</a>, <a class="el" href="../../dc/dc2/EpisodeProxy_8h_source.html#l00042">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::GetId()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00020">GetMap()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00028">GetRandomLocationFromNavigation()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00036">GetSettings()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00052">GetSnapshot()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00032">GetSpectator()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00044">GetWeather()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00100">OnTick()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00104">RemoveOnTick()</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a3124bfdfcd62bda5c4fe5978ec668365ac7207657aba5dfd2e5b0ca3f35cd8c26">carla::rpc::Rigid</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00112">SetPedestriansCrossFactor()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00048">SetWeather()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00076">SpawnActor()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00108">Tick()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00084">TrySpawnActor()</a>, and <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00096">WaitForTick()</a>.</p>
 
 <p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -517,7 +520,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00020">20</a> of file <a class="el" href="../../d7/dfe/World_8cpp_source.html">World.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>, and <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00029">carla::client::RssSensor::Listen()</a>.</p>
 
@@ -560,7 +563,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00028">28</a> of file <a class="el" href="../../d7/dfe/World_8cpp_source.html">World.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>.</p>
 
@@ -601,7 +604,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../d7/dfe/World_8cpp_source.html">World.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>.</p>
 
@@ -644,7 +647,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00052">52</a> of file <a class="el" href="../../d7/dfe/World_8cpp_source.html">World.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>.</p>
 
@@ -688,7 +691,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00032">32</a> of file <a class="el" href="../../d7/dfe/World_8cpp_source.html">World.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>.</p>
 
@@ -731,7 +734,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00044">44</a> of file <a class="el" href="../../d7/dfe/World_8cpp_source.html">World.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>.</p>
 
@@ -778,9 +781,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d5b/World_8h_source.html#l00120">120</a> of file <a class="el" href="../../dd/d5b/World_8h_source.html">World.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">126</a> of file <a class="el" href="../../dd/d5b/World_8h_source.html">World.h</a>.</p>
 
-<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">_episode</a>.</p>
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html#l00403">carla::rss::RssCheck::visualizeRssResults()</a>.</p>
 
@@ -815,7 +818,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00100">100</a> of file <a class="el" href="../../d7/dfe/World_8cpp_source.html">World.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>.</p>
 
@@ -919,7 +922,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00104">104</a> of file <a class="el" href="../../d7/dfe/World_8cpp_source.html">World.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>.</p>
 
@@ -945,6 +948,50 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a51d9f5d94e76c69c37e967467e3e96df"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::client::World::SetPedestriansCrossFactor </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>percentage</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>set the probability that an agent could cross the roads in its path following percentage of 0.0f means no pedestrian can cross roads percentage of 0.5f means 50% of all pedestrians can cross roads percentage of 1.0f means all pedestrians can cross roads if needed </p>
+
+<p>Definition at line <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00112">112</a> of file <a class="el" href="../../d7/dfe/World_8cpp_source.html">World.cpp</a>.</p>
+
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>.</p>
+
+<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d1f/classcarla_1_1client_1_1World_a51d9f5d94e76c69c37e967467e3e96df_cgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d1f/classcarla_1_1client_1_1World_a51d9f5d94e76c69c37e967467e3e96df_icgraph.svg" width="380" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="afaf2d199f77ae383aaead6556d4fd4d4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -963,25 +1010,25 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00048">48</a> of file <a class="el" href="../../d7/dfe/World_8cpp_source.html">World.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>.</p>
 
-<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-30-content" class="dyncontent" style="display:none;">
+<div id="dynsection-32-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d1f/classcarla_1_1client_1_1World_afaf2d199f77ae383aaead6556d4fd4d4_cgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-31-content" class="dyncontent" style="display:none;">
+<div id="dynsection-33-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d1f/classcarla_1_1client_1_1World_afaf2d199f77ae383aaead6556d4fd4d4_icgraph.svg" width="320" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1030,25 +1077,25 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00076">76</a> of file <a class="el" href="../../d7/dfe/World_8cpp_source.html">World.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>, and <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00084">TrySpawnActor()</a>.</p>
 
-<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div id="dynsection-34-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d1f/classcarla_1_1client_1_1World_aa9950ea96d908b964f635013fbc5a432_cgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-33-content" class="dyncontent" style="display:none;">
+<div id="dynsection-35-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d1f/classcarla_1_1client_1_1World_aa9950ea96d908b964f635013fbc5a432_icgraph.svg" width="499" height="82"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1074,25 +1121,25 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00108">108</a> of file <a class="el" href="../../d7/dfe/World_8cpp_source.html">World.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>.</p>
 
-<p><div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-34-content" class="dyncontent" style="display:none;">
+<div id="dynsection-36-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d1f/classcarla_1_1client_1_1World_af42062d82e9f6274b9a5df296c6bef9b_cgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-35-content" class="dyncontent" style="display:none;">
+<div id="dynsection-37-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d1f/classcarla_1_1client_1_1World_af42062d82e9f6274b9a5df296c6bef9b_icgraph.svg" width="320" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1152,21 +1199,21 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>.</p>
 
-<p><div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-36-content" class="dyncontent" style="display:none;">
+<div id="dynsection-38-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d1f/classcarla_1_1client_1_1World_a505c7ec38571b8b5b2d8dc8596ced2f4_cgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-37-content" class="dyncontent" style="display:none;">
+<div id="dynsection-39-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d1f/classcarla_1_1client_1_1World_a505c7ec38571b8b5b2d8dc8596ced2f4_icgraph.svg" width="320" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1192,25 +1239,25 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00096">96</a> of file <a class="el" href="../../d7/dfe/World_8cpp_source.html">World.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+<p>References <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>.</p>
 
-<p><div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-38-content" class="dyncontent" style="display:none;">
+<div id="dynsection-40-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d1f/classcarla_1_1client_1_1World_a44288a7981417131267ceadb90a0e1ec_cgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-41-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-39-content" class="dyncontent" style="display:none;">
+<div id="dynsection-41-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d1f/classcarla_1_1client_1_1World_a44288a7981417131267ceadb90a0e1ec_icgraph.svg" width="320" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1237,9 +1284,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">126</a> of file <a class="el" href="../../dd/d5b/World_8h_source.html">World.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d5b/World_8h_source.html#l00132">132</a> of file <a class="el" href="../../dd/d5b/World_8h_source.html">World.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00040">ApplySettings()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00056">GetActor()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00064">GetActors()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00024">GetBlueprintLibrary()</a>, <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00020">GetMap()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00028">GetRandomLocationFromNavigation()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00036">GetSettings()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00052">GetSnapshot()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00032">GetSpectator()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00044">GetWeather()</a>, <a class="el" href="../../dd/d5b/World_8h_source.html#l00120">MakeDebugHelper()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00100">OnTick()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00104">RemoveOnTick()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00048">SetWeather()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00076">SpawnActor()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00108">Tick()</a>, and <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00096">WaitForTick()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00040">ApplySettings()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00056">GetActor()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00064">GetActors()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00024">GetBlueprintLibrary()</a>, <a class="el" href="../../dd/d5b/World_8h_source.html#l00045">GetId()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00020">GetMap()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00028">GetRandomLocationFromNavigation()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00036">GetSettings()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00052">GetSnapshot()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00032">GetSpectator()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00044">GetWeather()</a>, <a class="el" href="../../dd/d5b/World_8h_source.html#l00126">MakeDebugHelper()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00100">OnTick()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00104">RemoveOnTick()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00112">SetPedestriansCrossFactor()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00048">SetWeather()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00076">SpawnActor()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00108">Tick()</a>, and <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00096">WaitForTick()</a>.</p>
 
 </div>
 </div>
