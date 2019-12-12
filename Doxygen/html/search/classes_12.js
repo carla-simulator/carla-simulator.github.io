@@ -11,9 +11,13 @@ var searchData=
   ['token',['Token',['../d0/dc5/classcarla_1_1streaming_1_1Token.html',1,'carla::streaming']]],
   ['token_5fdata',['token_data',['../d9/da8/structcarla_1_1streaming_1_1detail_1_1token__data.html',1,'carla::streaming::detail']]],
   ['token_5ftype',['token_type',['../df/de1/classcarla_1_1streaming_1_1detail_1_1token__type.html',1,'carla::streaming::detail']]],
+  ['tracktraffic',['TrackTraffic',['../d8/dd6/classtraffic__manager_1_1TrackTraffic.html',1,'traffic_manager']]],
   ['trafficgroupparser',['TrafficGroupParser',['../d8/d46/classcarla_1_1opendrive_1_1parser_1_1TrafficGroupParser.html',1,'carla::opendrive::parser']]],
   ['trafficlight',['TrafficLight',['../df/def/classcarla_1_1client_1_1TrafficLight.html',1,'carla::client']]],
   ['trafficlightdata',['TrafficLightData',['../d0/d6d/structcarla_1_1sensor_1_1data_1_1detail_1_1TrafficLightData.html',1,'carla::sensor::data::detail']]],
+  ['trafficlightstage',['TrafficLightStage',['../d3/d56/classtraffic__manager_1_1TrafficLightStage.html',1,'traffic_manager']]],
+  ['trafficlighttoplannerdata',['TrafficLightToPlannerData',['../dd/d8f/structtraffic__manager_1_1TrafficLightToPlannerData.html',1,'traffic_manager']]],
+  ['trafficmanager',['TrafficManager',['../da/dec/classtraffic__manager_1_1TrafficManager.html',1,'traffic_manager']]],
   ['trafficsign',['TrafficSign',['../dc/d5c/classcarla_1_1client_1_1TrafficSign.html',1,'carla::client']]],
   ['transform',['Transform',['../de/da4/classcarla_1_1geom_1_1Transform.html',1,'carla::geom']]],
   ['typedependentstate',['TypeDependentState',['../d0/d4a/unioncarla_1_1sensor_1_1data_1_1ActorDynamicState_1_1TypeDependentState.html',1,'carla::sensor::data::ActorDynamicState']]]

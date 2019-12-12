@@ -8,6 +8,7 @@ var searchData=
   ['vehiclecontrol',['VehicleControl',['../d3/d9c/classcarla_1_1rpc_1_1VehicleControl.html',1,'carla::rpc']]],
   ['vehicledata',['VehicleData',['../da/dc7/structcarla_1_1sensor_1_1data_1_1detail_1_1VehicleData.html',1,'carla::sensor::data::detail']]],
   ['vehiclephysicscontrol',['VehiclePhysicsControl',['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html',1,'carla::rpc']]],
+  ['vicinitygrid',['VicinityGrid',['../d8/d26/classtraffic__manager_1_1VicinityGrid.html',1,'traffic_manager']]],
   ['visitor',['Visitor',['../d6/d78/structcarla_1_1client_1_1detail_1_1ActorVariant_1_1Visitor.html',1,'carla::client::detail::ActorVariant']]],
   ['void_5ftype',['void_type',['../d9/d48/structFSensorDefinitionGatherer_1_1void__type.html',1,'FSensorDefinitionGatherer']]]
 ];

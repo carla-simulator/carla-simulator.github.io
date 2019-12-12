@@ -9,6 +9,9 @@ var searchData=
   ['junction',['Junction',['../dd/dc6/classcarla_1_1road_1_1Junction.html#a978a595fd356605fdc8e41affe404a1f',1,'carla::road::Junction']]],
   ['junction_2eh',['Junction.h',['../d7/dad/Junction_8h.html',1,'']]],
   ['junction_5fid',['junction_id',['../dc/d17/structcarla_1_1opendrive_1_1parser_1_1Road.html#a638b5a1424a8c55e86fc2ecd777787ec',1,'carla::opendrive::parser::Road']]],
+  ['junction_5flast_5fticket',['junction_last_ticket',['../d3/d56/classtraffic__manager_1_1TrafficLightStage.html#ae7b1e98215b82a69fdbacdab4b9e110b',1,'traffic_manager::TrafficLightStage']]],
+  ['junction_5flook_5fahead_5fwaypoint',['junction_look_ahead_waypoint',['../d6/df7/structtraffic__manager_1_1LocalizationToTrafficLightData.html#a09e78b2d910c71e7562cba56f5826f79',1,'traffic_manager::LocalizationToTrafficLightData']]],
+  ['junctionid',['JunctionID',['../d3/d0a/namespacetraffic__manager.html#aee1770e7c374cd132869c73390be0f40',1,'traffic_manager']]],
   ['junctionparser',['JunctionParser',['../d3/d54/classcarla_1_1opendrive_1_1parser_1_1JunctionParser.html',1,'carla::opendrive::parser']]],
   ['junctionparser_2ecpp',['JunctionParser.cpp',['../d6/d98/JunctionParser_8cpp.html',1,'']]],
   ['junctionparser_2eh',['JunctionParser.h',['../d2/d60/JunctionParser_8h.html',1,'']]]
