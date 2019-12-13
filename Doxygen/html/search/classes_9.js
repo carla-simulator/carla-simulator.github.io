@@ -14,7 +14,7 @@ var searchData=
   ['imuserializer',['IMUSerializer',['../dc/da1/classcarla_1_1sensor_1_1s11n_1_1IMUSerializer.html',1,'carla::sensor::s11n']]],
   ['incomingmessage',['IncomingMessage',['../de/d76/classcarla_1_1streaming_1_1detail_1_1tcp_1_1IncomingMessage.html',1,'carla::streaming::detail::tcp']]],
   ['informationset',['InformationSet',['../d4/d28/classcarla_1_1road_1_1InformationSet.html',1,'carla::road']]],
-  ['inmemorymap',['InMemoryMap',['../da/dfb/classtraffic__manager_1_1InMemoryMap.html',1,'traffic_manager']]],
+  ['inmemorymap',['InMemoryMap',['../da/d07/classcarla_1_1traffic__manager_1_1InMemoryMap.html',1,'carla::traffic_manager']]],
   ['invalidattributevalue',['InvalidAttributeValue',['../dc/d59/classcarla_1_1client_1_1InvalidAttributeValue.html',1,'carla::client']]],
   ['io_5fany',['io_any',['../dd/d53/structcarla_1_1image_1_1io_1_1detail_1_1io__any.html',1,'carla::image::io::detail']]],
   ['io_5fany_3c_20detail_3a_3aio_5fjpeg_20_3e',['io_any&lt; detail::io_jpeg &gt;',['../dd/d53/structcarla_1_1image_1_1io_1_1detail_1_1io__any.html',1,'carla::image::io::detail']]],
