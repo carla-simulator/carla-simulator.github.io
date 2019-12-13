@@ -70,8 +70,8 @@ var searchData=
   ['episodeproxypointertype',['EpisodeProxyPointerType',['../d2/dcc/structcarla_1_1client_1_1detail_1_1EpisodeProxyPointerType.html',1,'carla::client::detail']]],
   ['episodesettings',['EpisodeSettings',['../dc/d84/classUCarlaEpisode.html#a1735fc2815aabf4a11a4f2a4653e7de2',1,'UCarlaEpisode::EpisodeSettings()'],['../de/d6d/classcarla_1_1rpc_1_1EpisodeSettings.html#a9984f37b3e851611f46ac9b5ff9a5931',1,'carla::rpc::EpisodeSettings::EpisodeSettings()=default'],['../de/d6d/classcarla_1_1rpc_1_1EpisodeSettings.html#a0ac8a887877989de18338e184cb6582c',1,'carla::rpc::EpisodeSettings::EpisodeSettings(bool synchronous_mode, bool no_rendering_mode, double fixed_delta_seconds=0.0)']]],
   ['episodesettings',['EpisodeSettings',['../de/d6d/classcarla_1_1rpc_1_1EpisodeSettings.html',1,'carla::rpc']]],
-  ['episodestate',['EpisodeState',['../d5/dbf/classcarla_1_1client_1_1detail_1_1EpisodeState.html',1,'carla::client::detail']]],
   ['episodestate',['EpisodeState',['../d5/dbf/classcarla_1_1client_1_1detail_1_1EpisodeState.html#a0b381dea983db0fdefbfb8a88c38f7b9',1,'carla::client::detail::EpisodeState::EpisodeState(uint64_t episode_id)'],['../d5/dbf/classcarla_1_1client_1_1detail_1_1EpisodeState.html#a176983fe6d1cb512c433fcd4167fd0f6',1,'carla::client::detail::EpisodeState::EpisodeState(const sensor::data::RawEpisodeState &amp;state)']]],
+  ['episodestate',['EpisodeState',['../d5/dbf/classcarla_1_1client_1_1detail_1_1EpisodeState.html',1,'carla::client::detail']]],
   ['episodestate_2ecpp',['EpisodeState.cpp',['../d9/df5/EpisodeState_8cpp.html',1,'']]],
   ['episodestate_2eh',['EpisodeState.h',['../d7/df2/EpisodeState_8h.html',1,'']]],
   ['episodestateserializer',['EpisodeStateSerializer',['../da/d5d/classcarla_1_1sensor_1_1s11n_1_1EpisodeStateSerializer.html',1,'carla::sensor::s11n']]],
@@ -81,6 +81,7 @@ var searchData=
   ['epsilon',['EPSILON',['../de/d26/namespacecarla_1_1road.html#a49c9906492987863301337ac8c490bb2',1,'carla::road']]],
   ['equal_5fto',['equal_to',['../df/d2a/structequal__to.html',1,'']]],
   ['equalitylevel',['EQualityLevel',['../dd/d49/QualityLevelUE_8h.html#a2c71f44a73bc0845d02af2b5fe4b1cab',1,'QualityLevelUE.h']]],
+  ['eraseactor',['EraseActor',['../d8/d26/classtraffic__manager_1_1VicinityGrid.html#a26232425efb76462a2d96d2bef7077fc',1,'traffic_manager::VicinityGrid']]],
   ['error',['error',['../d9/d2c/structpugi_1_1xpath__parse__result.html#ab2c625be89b995afac829012bc749fe4',1,'pugi::xpath_parse_result::error()'],['../dc/dea/structxpath__parser.html#ad17156b91b468a75af0d3dcbb672a700',1,'xpath_parser::error()']]],
   ['error_5foffset',['error_offset',['../db/db4/structxml__parser.html#a2476a71cd7e67b3f4bdbcd1323524503',1,'xml_parser']]],
   ['error_5foom',['error_oom',['../dc/dea/structxpath__parser.html#a72e60f73dc6a4b8a68e07700ec42b51c',1,'xpath_parser']]],
@@ -120,8 +121,9 @@ var searchData=
   ['explicit_5fconsumer_5fconsumption_5fquota_5fbefore_5frotate',['EXPLICIT_CONSUMER_CONSUMPTION_QUOTA_BEFORE_ROTATE',['../d3/d55/structmoodycamel_1_1ConcurrentQueueDefaultTraits.html#a41bdd69209c251641d440fa420a31ad0',1,'moodycamel::ConcurrentQueueDefaultTraits::EXPLICIT_CONSUMER_CONSUMPTION_QUOTA_BEFORE_ROTATE()'],['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a8593fb32003144c034323c8fe353c359',1,'moodycamel::ConcurrentQueue::EXPLICIT_CONSUMER_CONSUMPTION_QUOTA_BEFORE_ROTATE()']]],
   ['explicit_5fcontext',['explicit_context',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a2724abbb38a8122bb745726a7e6d483bacb4dd0ba896fb72f996845b65b637996',1,'moodycamel::ConcurrentQueue']]],
   ['explicit_5finitial_5findex_5fsize',['EXPLICIT_INITIAL_INDEX_SIZE',['../d3/d55/structmoodycamel_1_1ConcurrentQueueDefaultTraits.html#a4931905d2afbf0d2cdd3bcbb68396d62',1,'moodycamel::ConcurrentQueueDefaultTraits::EXPLICIT_INITIAL_INDEX_SIZE()'],['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#ae29231222f904afacd0c9ed55d67cd09',1,'moodycamel::ConcurrentQueue::EXPLICIT_INITIAL_INDEX_SIZE()']]],
-  ['explicitproducer',['ExplicitProducer',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a7bebbfc18b6ad306d5837467e9c05323',1,'moodycamel::ConcurrentQueue::ExplicitProducer()'],['../df/dcd/structmoodycamel_1_1ConcurrentQueue_1_1ExplicitProducer.html#aa2aa6ed450e958b57ba20b6b974974b5',1,'moodycamel::ConcurrentQueue::ExplicitProducer::ExplicitProducer()']]],
   ['explicitproducer',['ExplicitProducer',['../df/dcd/structmoodycamel_1_1ConcurrentQueue_1_1ExplicitProducer.html',1,'moodycamel::ConcurrentQueue']]],
+  ['explicitproducer',['ExplicitProducer',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a7bebbfc18b6ad306d5837467e9c05323',1,'moodycamel::ConcurrentQueue::ExplicitProducer()'],['../df/dcd/structmoodycamel_1_1ConcurrentQueue_1_1ExplicitProducer.html#aa2aa6ed450e958b57ba20b6b974974b5',1,'moodycamel::ConcurrentQueue::ExplicitProducer::ExplicitProducer()']]],
+  ['extension_5fsquare_5fpoint',['EXTENSION_SQUARE_POINT',['../d2/d2d/namespacetraffic__manager_1_1CollisionStageConstants.html#a0479f37a4bde2fec735e35363c4198da',1,'traffic_manager::CollisionStageConstants']]],
   ['extent',['extent',['../d8/d68/classcarla_1_1geom_1_1BoundingBox.html#acd5dca65e5ef24edc91e1d79e1809fb0',1,'carla::geom::BoundingBox::extent()'],['../d5/d4d/structFBoundingBox.html#adbd7984eda9ea4ae660a9356515c4a12',1,'FBoundingBox::Extent()']]],
   ['extra_5fbuffers',['extra_buffers',['../d3/dde/structxml__document__struct.html#afe3b1efd5b683c306157244496f55c4b',1,'xml_document_struct']]]
 ];

@@ -23,6 +23,7 @@ var searchData=
   ['find_5fnode',['find_node',['../db/d65/classpugi_1_1xml__node.html#a28ccb61937080e9cefe991a0c6837be6',1,'pugi::xml_node']]],
   ['find_5fsubstring',['find_substring',['../db/d20/pugixml_8cpp.html#a3dee0e9c414704e194aedeef90fdb33f',1,'pugixml.cpp']]],
   ['findactor',['FindActor',['../dc/d84/classUCarlaEpisode.html#ad5bbf0ad3db011fda0447b9bd5ab89ef',1,'UCarlaEpisode::FindActor(FActorView::IdType ActorId) const '],['../dc/d84/classUCarlaEpisode.html#a8d230c7dc136b7d99ee7bee64215a3f0',1,'UCarlaEpisode::FindActor(AActor *Actor) const ']]],
+  ['findandlinklanechange',['FindAndLinkLaneChange',['../da/dfb/classtraffic__manager_1_1InMemoryMap.html#a0715d8233f34ac53ecefce2f91925c4e',1,'traffic_manager::InMemoryMap']]],
   ['findorfake',['FindOrFake',['../df/db5/classFActorRegistry.html#aceb8bb2894120a42d680b06896a998ac',1,'FActorRegistry']]],
   ['findorfakeactor',['FindOrFakeActor',['../dc/d84/classUCarlaEpisode.html#a94bb35ef80909cc7707160c922214d8d',1,'UCarlaEpisode']]],
   ['findpathtoxodrfile',['FindPathToXODRFile',['../d1/d1b/classUOpenDrive.html#a7f5a394a7288afe860f81d296ebd496d',1,'UOpenDrive']]],

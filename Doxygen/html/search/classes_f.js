@@ -2,8 +2,13 @@ var searchData=
 [
   ['packedvehiclecontrol',['PackedVehicleControl',['../d9/d06/classcarla_1_1sensor_1_1data_1_1detail_1_1PackedVehicleControl.html',1,'carla::sensor::data::detail']]],
   ['packedwalkercontrol',['PackedWalkerControl',['../d8/df4/classcarla_1_1sensor_1_1data_1_1detail_1_1PackedWalkerControl.html',1,'carla::sensor::data::detail']]],
+  ['parameters',['Parameters',['../dc/d41/classtraffic__manager_1_1Parameters.html',1,'traffic_manager']]],
   ['partiallydefinedendpoint',['PartiallyDefinedEndPoint',['../d1/da7/structcarla_1_1streaming_1_1detail_1_1PartiallyDefinedEndPoint.html',1,'carla::streaming::detail']]],
+  ['performancediagnostics',['PerformanceDiagnostics',['../d7/df1/classtraffic__manager_1_1PerformanceDiagnostics.html',1,'traffic_manager']]],
+  ['pidcontroller',['PIDController',['../de/d94/classtraffic__manager_1_1PIDController.html',1,'traffic_manager']]],
   ['pimpl',['Pimpl',['../dc/de1/classcarla_1_1client_1_1detail_1_1Client_1_1Pimpl.html',1,'carla::client::detail::Client']]],
+  ['pipelinestage',['PipelineStage',['../de/d20/classtraffic__manager_1_1PipelineStage.html',1,'traffic_manager']]],
+  ['plannertocontroldata',['PlannerToControlData',['../dc/d48/structtraffic__manager_1_1PlannerToControlData.html',1,'traffic_manager']]],
   ['playafterloadmap',['PlayAfterLoadMap',['../de/d6e/structCarlaReplayer_1_1PlayAfterLoadMap.html',1,'CarlaReplayer']]],
   ['png',['png',['../de/d0e/structcarla_1_1image_1_1io_1_1png.html',1,'carla::image::io']]],
   ['point',['Point',['../d4/d40/structcarla_1_1rpc_1_1DebugShape_1_1Point.html',1,'carla::rpc::DebugShape']]],
