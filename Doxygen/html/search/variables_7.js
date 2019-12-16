@@ -7,13 +7,13 @@ var searchData=
   ['gear_5fswitch_5ftime',['gear_switch_time',['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#a3e8ce49dd1780a681634d9cbb4c24d63',1,'carla::rpc::VehiclePhysicsControl']]],
   ['gearswitchtime',['GearSwitchTime',['../d1/dbe/structFVehiclePhysicsControl.html#afd378c0c3d734a2f1d930af4d5e8ba90',1,'FVehiclePhysicsControl']]],
   ['gender',['Gender',['../d9/db1/structFPedestrianParameters.html#a977fba74a1443d198fe9ee86a649aba3',1,'FPedestrianParameters']]],
-  ['global_5fpercentage_5fdifference_5ffrom_5flimit',['global_percentage_difference_from_limit',['../dc/d41/classtraffic__manager_1_1Parameters.html#aadb2dfbf0116bea4e713680c5771d762',1,'traffic_manager::Parameters']]],
+  ['global_5fpercentage_5fdifference_5ffrom_5flimit',['global_percentage_difference_from_limit',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a2e761c76139e96560a9867c060aa97e8',1,'carla::traffic_manager::Parameters']]],
   ['globalexplicitconsumeroffset',['globalExplicitConsumerOffset',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a594833a3c8cc9be773c76467be743e28',1,'moodycamel::ConcurrentQueue']]],
   ['gn',['gn',['../dc/d52/fresnl_8cpp.html#a17ec1b1afe903c1b199f5b7ee7882e4e',1,'fresnl.cpp']]],
   ['green_5ftime',['green_time',['../d0/d6d/structcarla_1_1sensor_1_1data_1_1detail_1_1TrafficLightData.html#a082c7539fcd1dd2a44f018aa6b09838d',1,'carla::sensor::data::detail::TrafficLightData']]],
   ['greentime',['GreenTime',['../d2/d23/classATrafficLightBase.html#acbddb327292a01c5ce1a128117befc40',1,'ATrafficLightBase']]],
-  ['grid_5fsize',['GRID_SIZE',['../dc/d63/namespacetraffic__manager_1_1MapConstants.html#a595b7b0c89a00dd14f681f00288f66b5',1,'traffic_manager::MapConstants::GRID_SIZE()'],['../d3/d0a/namespacetraffic__manager.html#a748d758e98d72023e1cd8b8e0d374b4d',1,'traffic_manager::GRID_SIZE()']]],
-  ['grid_5fto_5factor_5fid',['grid_to_actor_id',['../d8/d26/classtraffic__manager_1_1VicinityGrid.html#ad6a985dca7e0d7e0dd16b261fa9eb588',1,'traffic_manager::VicinityGrid']]],
+  ['grid_5fsize',['GRID_SIZE',['../db/d99/namespacecarla_1_1traffic__manager_1_1MapConstants.html#adf355dd13d064c62354c4ba753b0b2c2',1,'carla::traffic_manager::MapConstants::GRID_SIZE()'],['../d0/db7/namespacecarla_1_1traffic__manager.html#a81766e08f42ba1758b254e4c8eaef180',1,'carla::traffic_manager::GRID_SIZE()']]],
+  ['grid_5fto_5factor_5fid',['grid_to_actor_id',['../dd/dc5/classcarla_1_1traffic__manager_1_1VicinityGrid.html#ae2f3a1b64b08374045cae457e2ad4df9',1,'carla::traffic_manager::VicinityGrid']]],
   ['grouptrafficlights',['GroupTrafficLights',['../d2/d23/classATrafficLightBase.html#a1def0d7c8e48a7e140d738f732bf1c9c',1,'ATrafficLightBase']]],
   ['gyroscope',['gyroscope',['../d0/df6/structcarla_1_1sensor_1_1s11n_1_1IMUSerializer_1_1Data.html#abd0b61e32b2239eec66eb0487298e453',1,'carla::sensor::s11n::IMUSerializer::Data']]]
 ];
