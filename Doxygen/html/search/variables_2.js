@@ -51,6 +51,7 @@ var searchData=
   ['bu',['bU',['../d1/d76/structcarla_1_1opendrive_1_1parser_1_1GeometryParamPoly3.html#a0512591dc6c2f2d85ef44cb3e8ba25b3',1,'carla::opendrive::parser::GeometryParamPoly3']]],
   ['buffer',['buffer',['../df/d75/structcarla_1_1traffic__manager_1_1LocalizationToCollisionData.html#ad6334806bcfa513a9c1c63aa31a81785',1,'carla::traffic_manager::LocalizationToCollisionData::buffer()'],['../dd/dc3/structxml__extra__buffer.html#ab24b191b25f92ad4d48009978ebee38c',1,'xml_extra_buffer::buffer()'],['../d3/dde/structxml__document__struct.html#a120451f29b8cc2a82a3ecc926449ea0e',1,'xml_document_struct::buffer()'],['../db/dd3/classxml__buffered__writer.html#a84c87765fbdf444d981ffb0f67899dd4',1,'xml_buffered_writer::buffer()']]],
   ['buffer_5flist',['buffer_list',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#ac55b43a91933f30766221fff94d22aee',1,'carla::traffic_manager::LocalizationStage']]],
+  ['buffer_5fstep_5fthrough',['BUFFER_STEP_THROUGH',['../d9/d5c/namespacecarla_1_1traffic__manager_1_1LocalizationConstants.html#a1caca2aca991edcec5c40f224356c357',1,'carla::traffic_manager::LocalizationConstants']]],
   ['bufsize',['bufsize',['../db/dd3/classxml__buffered__writer.html#a6bad6a93035d796939d84bee30e74ce7',1,'xml_buffered_writer']]],
   ['busecarlamapmaterials',['bUseCarlaMapMaterials',['../dc/d7f/structFMapData.html#aae769633d027c319b8e06492fd1c8aaa',1,'FMapData']]],
   ['busefixedseed',['bUseFixedSeed',['../d1/ddb/classACityMapGenerator.html#a8e74da42bd56cbfcebb99b0d5bf657fa',1,'ACityMapGenerator']]],

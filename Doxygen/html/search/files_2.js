@@ -11,8 +11,6 @@ var searchData=
   ['carlaactorfactoryblueprint_2eh',['CarlaActorFactoryBlueprint.h',['../d7/d84/CarlaActorFactoryBlueprint_8h.html',1,'']]],
   ['carlablueprintregistry_2ecpp',['CarlaBlueprintRegistry.cpp',['../d0/d3b/CarlaBlueprintRegistry_8cpp.html',1,'']]],
   ['carlablueprintregistry_2eh',['CarlaBlueprintRegistry.h',['../d5/db8/CarlaBlueprintRegistry_8h.html',1,'']]],
-  ['carladataaccesslayer_2ecpp',['CarlaDataAccessLayer.cpp',['../db/ddf/CarlaDataAccessLayer_8cpp.html',1,'']]],
-  ['carladataaccesslayer_2eh',['CarlaDataAccessLayer.h',['../dd/d7d/CarlaDataAccessLayer_8h.html',1,'']]],
   ['carlaengine_2ecpp',['CarlaEngine.cpp',['../d6/da1/CarlaEngine_8cpp.html',1,'']]],
   ['carlaengine_2eh',['CarlaEngine.h',['../d0/d11/CarlaEngine_8h.html',1,'']]],
   ['carlaepisode_2ecpp',['CarlaEpisode.cpp',['../d6/dd9/CarlaEpisode_8cpp.html',1,'']]],

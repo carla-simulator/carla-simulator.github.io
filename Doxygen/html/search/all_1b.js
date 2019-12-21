@@ -55,7 +55,6 @@ var searchData=
   ['_7etrafficlightstage',['~TrafficLightStage',['../d5/db3/classcarla_1_1traffic__manager_1_1TrafficLightStage.html#ac10ca430f487c41de1cb58f4d9341c33',1,'carla::traffic_manager::TrafficLightStage']]],
   ['_7etrafficmanager',['~TrafficManager',['../df/d5a/classcarla_1_1traffic__manager_1_1TrafficManager.html#a2aefcaedc39b261cac4ccf60e5839df4',1,'carla::traffic_manager::TrafficManager']]],
   ['_7eucarlagameinstance',['~UCarlaGameInstance',['../da/d55/classUCarlaGameInstance.html#ae93111a3833da14078916f048afd40f7',1,'UCarlaGameInstance']]],
-  ['_7evicinitygrid',['~VicinityGrid',['../dd/dc5/classcarla_1_1traffic__manager_1_1VicinityGrid.html#a0d6400143e6e28af0beaf992d2666641',1,'carla::traffic_manager::VicinityGrid']]],
   ['_7ewalkermanager',['~WalkerManager',['../dd/d5b/classcarla_1_1nav_1_1WalkerManager.html#aecc6a78f8c1c5342677f3018532dcb46',1,'carla::nav::WalkerManager']]],
   ['_7ewaypoint',['~Waypoint',['../dd/dff/classcarla_1_1client_1_1Waypoint.html#aa6a3c2ff05e0fa0351e5bb4d9afa95a6',1,'carla::client::Waypoint']]],
   ['_7exml_5fdocument',['~xml_document',['../d8/d8d/classpugi_1_1xml__document.html#af37d8a79f7465ad48d65c2bd13461580',1,'pugi::xml_document']]],

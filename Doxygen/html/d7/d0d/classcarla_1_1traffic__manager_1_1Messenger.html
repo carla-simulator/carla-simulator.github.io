@@ -79,46 +79,38 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>This class is the template for messaging functionality between different stage classes to send and receive data.  
- <a href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html#details">More...</a></p>
-
 <p><code>#include &lt;<a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for carla::traffic_manager::Messenger&lt; Data &gt;:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/df1/classcarla_1_1traffic__manager_1_1Messenger__coll__graph.svg" width="666" height="156"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/df1/classcarla_1_1traffic__manager_1_1Messenger__coll__graph.svg" width="580" height="156"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab2244a0f61512aa63a5dea2ff9aa8644"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html#ab2244a0f61512aa63a5dea2ff9aa8644">GetState</a> ()</td></tr>
-<tr class="memdesc:ab2244a0f61512aa63a5dea2ff9aa8644"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method returns the current value of the state counter.  <a href="#ab2244a0f61512aa63a5dea2ff9aa8644">More...</a><br /></td></tr>
-<tr class="separator:ab2244a0f61512aa63a5dea2ff9aa8644"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8e62e5128d3f9a61367f2c5e09a730d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html#ac8e62e5128d3f9a61367f2c5e09a730d">Messenger</a> ()</td></tr>
 <tr class="separator:ac8e62e5128d3f9a61367f2c5e09a730d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc69867ed2b94511e0753d6be2eb6ee1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/da6/structcarla_1_1traffic__manager_1_1DataPacket.html">DataPacket</a>&lt; Data &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html#afc69867ed2b94511e0753d6be2eb6ee1">ReceiveData</a> (int old_state)</td></tr>
-<tr class="memdesc:afc69867ed2b94511e0753d6be2eb6ee1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method presents stored data to the receiver and increments state.  <a href="#afc69867ed2b94511e0753d6be2eb6ee1">More...</a><br /></td></tr>
-<tr class="separator:afc69867ed2b94511e0753d6be2eb6ee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa27a02720b86f21060696adcaf23bd42"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html#aa27a02720b86f21060696adcaf23bd42">SendData</a> (<a class="el" href="../../d2/da6/structcarla_1_1traffic__manager_1_1DataPacket.html">DataPacket</a>&lt; Data &gt; packet)</td></tr>
-<tr class="memdesc:aa27a02720b86f21060696adcaf23bd42"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method receives data from a sender, stores in a member and increments state.  <a href="#aa27a02720b86f21060696adcaf23bd42">More...</a><br /></td></tr>
-<tr class="separator:aa27a02720b86f21060696adcaf23bd42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6424944c0ca107e300e19a37aa02748c"><td class="memItemLeft" align="right" valign="top">Data&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html#a6424944c0ca107e300e19a37aa02748c">Peek</a> ()</td></tr>
+<tr class="separator:a6424944c0ca107e300e19a37aa02748c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d94329a3a19fc36afb89a771968a12f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html#a6d94329a3a19fc36afb89a771968a12f">Pop</a> ()</td></tr>
+<tr class="separator:a6d94329a3a19fc36afb89a771968a12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55781c908fab30af4a1fc0cb2c558138"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html#a55781c908fab30af4a1fc0cb2c558138">Push</a> (Data data)</td></tr>
+<tr class="separator:a55781c908fab30af4a1fc0cb2c558138"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1f457a090f072f3ab222fa215bccb63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html#ac1f457a090f072f3ab222fa215bccb63">Start</a> ()</td></tr>
-<tr class="memdesc:ac1f457a090f072f3ab222fa215bccb63"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method restores regular functionality of the messenger.  <a href="#ac1f457a090f072f3ab222fa215bccb63">More...</a><br /></td></tr>
 <tr class="separator:ac1f457a090f072f3ab222fa215bccb63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a964b00c36136c99b2839e46184ec6585"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html#a964b00c36136c99b2839e46184ec6585">Stop</a> ()</td></tr>
-<tr class="memdesc:a964b00c36136c99b2839e46184ec6585"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method unblocks any waiting calls on this object.  <a href="#a964b00c36136c99b2839e46184ec6585">More...</a><br /></td></tr>
 <tr class="separator:a964b00c36136c99b2839e46184ec6585"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab77daf0c1508bfbe6c0af990d39d53f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html#ab77daf0c1508bfbe6c0af990d39d53f1">~Messenger</a> ()</td></tr>
 <tr class="separator:ab77daf0c1508bfbe6c0af990d39d53f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a7f70a7b329777b3d62d219465a814e39"><td class="memItemLeft" align="right" valign="top">Data&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html#a7f70a7b329777b3d62d219465a814e39">data</a></td></tr>
-<tr class="memdesc:a7f70a7b329777b3d62d219465a814e39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Member used to hold data sent by the sender.  <a href="#a7f70a7b329777b3d62d219465a814e39">More...</a><br /></td></tr>
-<tr class="separator:a7f70a7b329777b3d62d219465a814e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a528fb95d468a8a71c73976cc00547ac3"><td class="memItemLeft" align="right" valign="top">std::deque&lt; Data &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html#a528fb95d468a8a71c73976cc00547ac3">d_queue</a></td></tr>
+<tr class="memdesc:a528fb95d468a8a71c73976cc00547ac3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Member used to hold data sent by the sender.  <a href="#a528fb95d468a8a71c73976cc00547ac3">More...</a><br /></td></tr>
+<tr class="separator:a528fb95d468a8a71c73976cc00547ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6d98d6497d5af69342c508b3a2ed1db"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html#ac6d98d6497d5af69342c508b3a2ed1db">data_modification_mutex</a></td></tr>
 <tr class="memdesc:ac6d98d6497d5af69342c508b3a2ed1db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex used to manage contention between the sender and receiver.  <a href="#ac6d98d6497d5af69342c508b3a2ed1db">More...</a><br /></td></tr>
 <tr class="separator:ac6d98d6497d5af69342c508b3a2ed1db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,9 +120,6 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a462d35f6cab7d5964f408caff8cd79c2"><td class="memItemLeft" align="right" valign="top">std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html#a462d35f6cab7d5964f408caff8cd79c2">send_condition</a></td></tr>
 <tr class="memdesc:a462d35f6cab7d5964f408caff8cd79c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variable to conditionally block sender in case waiting for the receiver.  <a href="#a462d35f6cab7d5964f408caff8cd79c2">More...</a><br /></td></tr>
 <tr class="separator:a462d35f6cab7d5964f408caff8cd79c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25d9b86ebb53d75c09ebdd421fde1c96"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html#a25d9b86ebb53d75c09ebdd421fde1c96">state_counter</a></td></tr>
-<tr class="memdesc:a25d9b86ebb53d75c09ebdd421fde1c96"><td class="mdescLeft">&#160;</td><td class="mdescRight">State variable that will progress upon every successful communication between the sender and receiver.  <a href="#a25d9b86ebb53d75c09ebdd421fde1c96">More...</a><br /></td></tr>
-<tr class="separator:a25d9b86ebb53d75c09ebdd421fde1c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d25a583946849471b23b6e3f52be9bc"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html#a2d25a583946849471b23b6e3f52be9bc">stop_messenger</a></td></tr>
 <tr class="memdesc:a2d25a583946849471b23b6e3f52be9bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag used to wake up and join any waiting function calls on this object.  <a href="#a2d25a583946849471b23b6e3f52be9bc">More...</a><br /></td></tr>
 <tr class="separator:a2d25a583946849471b23b6e3f52be9bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,10 +128,8 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename Data&gt;<br />
 class carla::traffic_manager::Messenger&lt; Data &gt;</h3>
 
-<p>This class is the template for messaging functionality between different stage classes to send and receive data. </p>
-<p>One object of this type can only facilitate receiving data from a sender stage and passing the data onto a receiver stage. The class maintains state internally and blocks send or receive requests until data is available/successfully passed on. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00032">32</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00021">21</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac8e62e5128d3f9a61367f2c5e09a730d"></a>
 <div class="memitem">
@@ -167,7 +154,7 @@ template&lt;typename Data &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00052">52</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00038">38</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
 
 </div>
 </div>
@@ -194,12 +181,12 @@ template&lt;typename Data &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00056">56</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00041">41</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ab2244a0f61512aa63a5dea2ff9aa8644"></a>
+<a class="anchor" id="a6424944c0ca107e300e19a37aa02748c"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -209,7 +196,7 @@ template&lt;typename Data &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html">carla::traffic_manager::Messenger</a>&lt; Data &gt;::GetState </td>
+          <td class="memname">Data <a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html">carla::traffic_manager::Messenger</a>&lt; Data &gt;::Peek </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -222,13 +209,11 @@ template&lt;typename Data &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>This method returns the current value of the state counter. </p>
-
-<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00089">89</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00057">57</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="afc69867ed2b94511e0753d6be2eb6ee1"></a>
+<a class="anchor" id="a6d94329a3a19fc36afb89a771968a12f"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -238,10 +223,9 @@ template&lt;typename Data &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/da6/structcarla_1_1traffic__manager_1_1DataPacket.html">DataPacket</a>&lt;Data&gt; <a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html">carla::traffic_manager::Messenger</a>&lt; Data &gt;::ReceiveData </td>
+          <td class="memname">void <a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html">carla::traffic_manager::Messenger</a>&lt; Data &gt;::Pop </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>old_state</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -252,13 +236,11 @@ template&lt;typename Data &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>This method presents stored data to the receiver and increments state. </p>
-
-<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00075">75</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00073">73</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa27a02720b86f21060696adcaf23bd42"></a>
+<a class="anchor" id="a55781c908fab30af4a1fc0cb2c558138"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -268,10 +250,10 @@ template&lt;typename Data &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html">carla::traffic_manager::Messenger</a>&lt; Data &gt;::SendData </td>
+          <td class="memname">void <a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html">carla::traffic_manager::Messenger</a>&lt; Data &gt;::Push </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/da6/structcarla_1_1traffic__manager_1_1DataPacket.html">DataPacket</a>&lt; Data &gt;&#160;</td>
-          <td class="paramname"><em>packet</em></td><td>)</td>
+          <td class="paramtype">Data&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -282,11 +264,7 @@ template&lt;typename Data &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>This method receives data from a sender, stores in a member and increments state. </p>
-
-<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00060">60</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
-
-<p>References <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00022">carla::traffic_manager::DataPacket&lt; Data &gt;::data</a>, and <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00021">carla::traffic_manager::DataPacket&lt; Data &gt;::id</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00043">43</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
 
 </div>
 </div>
@@ -313,10 +291,7 @@ template&lt;typename Data &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>This method restores regular functionality of the messenger. </p>
-<p>This method needs to be called if the messenger has to be used again after a call to the <a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html#a964b00c36136c99b2839e46184ec6585" title="This method unblocks any waiting calls on this object. ">Stop()</a> method. </p>
-
-<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00101">101</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00082">82</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
 
 </div>
 </div>
@@ -344,14 +319,12 @@ template&lt;typename Data &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>This method unblocks any waiting calls on this object. </p>
-
-<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00094">94</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00086">86</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a7f70a7b329777b3d62d219465a814e39"></a>
+<a class="anchor" id="a528fb95d468a8a71c73976cc00547ac3"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -361,7 +334,7 @@ template&lt;typename Data &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Data <a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html">carla::traffic_manager::Messenger</a>&lt; Data &gt;::data</td>
+          <td class="memname">std::deque&lt;Data&gt; <a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html">carla::traffic_manager::Messenger</a>&lt; Data &gt;::d_queue</td>
         </tr>
       </table>
   </td>
@@ -373,7 +346,7 @@ template&lt;typename Data &gt; </div>
 
 <p>Member used to hold data sent by the sender. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00042">42</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00028">28</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
 
 </div>
 </div>
@@ -399,7 +372,7 @@ template&lt;typename Data &gt; </div>
 
 <p>Mutex used to manage contention between the sender and receiver. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00044">44</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00030">30</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
 
 </div>
 </div>
@@ -425,7 +398,7 @@ template&lt;typename Data &gt; </div>
 
 <p>Variable to conditionally block receiver in case waiting for the sender. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00048">48</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00034">34</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
 
 </div>
 </div>
@@ -451,33 +424,7 @@ template&lt;typename Data &gt; </div>
 
 <p>Variable to conditionally block sender in case waiting for the receiver. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00046">46</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a25d9b86ebb53d75c09ebdd421fde1c96"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Data &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::atomic&lt;int&gt; <a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html">carla::traffic_manager::Messenger</a>&lt; Data &gt;::state_counter</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>State variable that will progress upon every successful communication between the sender and receiver. </p>
-
-<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00040">40</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00032">32</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
 
 </div>
 </div>
@@ -503,7 +450,7 @@ template&lt;typename Data &gt; </div>
 
 <p>Flag used to wake up and join any waiting function calls on this object. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00037">37</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d3b/Messenger_8h_source.html#l00026">26</a> of file <a class="el" href="../../d2/d3b/Messenger_8h_source.html">Messenger.h</a>.</p>
 
 </div>
 </div>

@@ -13,6 +13,5 @@ var searchData=
   ['oppositelane',['OppositeLane',['../df/d36/structFRoadMapIntersectionResult.html#a60663d1a977e9492133332d3872e04ca',1,'FRoadMapIntersectionResult']]],
   ['origin',['Origin',['../d5/d4d/structFBoundingBox.html#a8d79e3d9fb8cf83b403eb1ff441c3455',1,'FBoundingBox']]],
   ['other_5factor',['other_actor',['../df/d56/structcarla_1_1sensor_1_1s11n_1_1CollisionEventSerializer_1_1Data.html#a448b18729bc1e03d0414849af16bae31',1,'carla::sensor::s11n::CollisionEventSerializer::Data::other_actor()'],['../d6/dea/structcarla_1_1sensor_1_1s11n_1_1ObstacleDetectionEventSerializer_1_1Data.html#a6f4ac2f5c5b8deba48c5fa86ee2c5e8b',1,'carla::sensor::s11n::ObstacleDetectionEventSerializer::Data::other_actor()']]],
-  ['overlapping_5factors',['overlapping_actors',['../df/d75/structcarla_1_1traffic__manager_1_1LocalizationToCollisionData.html#a08939af8d644d0f84dce9487b078a0d7',1,'carla::traffic_manager::LocalizationToCollisionData']]],
-  ['overlapping_5fvehicles',['overlapping_vehicles',['../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#ae2da3990d4e857281b991b2c21f465ce',1,'carla::traffic_manager::TrackTraffic']]]
+  ['overlapping_5factors',['overlapping_actors',['../df/d75/structcarla_1_1traffic__manager_1_1LocalizationToCollisionData.html#a41063eac7b6db156e67199fced792b62',1,'carla::traffic_manager::LocalizationToCollisionData']]]
 ];
