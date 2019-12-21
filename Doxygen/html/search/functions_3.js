@@ -1,7 +1,6 @@
 var searchData=
 [
   ['c_5fstr',['c_str',['../dd/d5c/classxpath__string.html#a0c5d08cda063f380e065f87041d20b39',1,'xpath_string']]],
-  ['calcstreeringvalue',['CalcStreeringValue',['../dd/dea/classAWheeledVehicleAIController.html#a82e30f15d43aefb74ddb4d052248714a',1,'AWheeledVehicleAIController']]],
   ['calculate',['Calculate',['../d2/d60/classcarla_1_1road_1_1element_1_1LaneCrossingCalculator.html#a589511f573df9e9c46c55a7a46c02cd6',1,'carla::road::element::LaneCrossingCalculator']]],
   ['calculateangledelta',['calculateAngleDelta',['../db/d85/namespacecarla_1_1rss.html#a25968c518012159fa07e562e2fe365cc',1,'carla::rss']]],
   ['calculatecrossedlanes',['CalculateCrossedLanes',['../dd/d49/classcarla_1_1client_1_1Map.html#ab38f325942fe41f8acce8e128404f0f4',1,'carla::client::Map::CalculateCrossedLanes()'],['../d0/d34/classcarla_1_1road_1_1Map.html#a1e606282c0bc3814dbd7cbbb23075a50',1,'carla::road::Map::CalculateCrossedLanes()']]],
@@ -13,7 +12,6 @@ var searchData=
   ['call',['call',['../df/d9d/classcarla_1_1rpc_1_1Client.html#ab847d2ba94b5dbe49e57e772cd2f0220',1,'carla::rpc::Client::call()'],['../d1/dff/classcarla_1_1client_1_1detail_1_1CallbackList.html#ada3b7b1c99e2433eb6a2b64d9c4d7b2d',1,'carla::client::detail::CallbackList::Call()']]],
   ['callandwait',['CallAndWait',['../dc/de1/classcarla_1_1client_1_1detail_1_1Client_1_1Pimpl.html#a72502b9e7407daf6cb5b930f9992fdc3',1,'carla::client::detail::Client::Pimpl']]],
   ['capacity',['capacity',['../d0/d0a/classcarla_1_1Buffer.html#a819b6f2c065347a6a5b54016fe42e618',1,'carla::Buffer']]],
-  ['carladataaccesslayer',['CarlaDataAccessLayer',['../d6/d64/classcarla_1_1traffic__manager_1_1CarlaDataAccessLayer.html#a276bac60452e42c7107fe109e2155074',1,'carla::traffic_manager::CarlaDataAccessLayer']]],
   ['carlarecorderframes',['CarlaRecorderFrames',['../d6/d4d/classCarlaRecorderFrames.html#af206c44464108aa1e109292c00469953',1,'CarlaRecorderFrames']]],
   ['carlareplayer',['CarlaReplayer',['../dc/dc6/classCarlaReplayer.html#a5ffa67457b905766aa4610a7b9b6f990',1,'CarlaReplayer']]],
   ['castdata',['CastData',['../d8/dcd/namespacecarla_1_1client_1_1detail.html#a397dcdc8ee9a529751380c891a1c4952',1,'carla::client::detail']]],
@@ -53,7 +51,7 @@ var searchData=
   ['close_5ffile',['close_file',['../db/d20/pugixml_8cpp.html#a83ced1869cf677d7517994c6abce3a1d',1,'pugixml.cpp']]],
   ['closenow',['CloseNow',['../d6/d51/classcarla_1_1streaming_1_1detail_1_1tcp_1_1ServerSession.html#a4410e2322d27a2613fec7724d3086938',1,'carla::streaming::detail::tcp::ServerSession']]],
   ['collisionevent',['CollisionEvent',['../d5/dae/classcarla_1_1sensor_1_1data_1_1CollisionEvent.html#ae5f90d7ea65ca44d33db7168752e2072',1,'carla::sensor::data::CollisionEvent']]],
-  ['collisionstage',['CollisionStage',['../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#a737d45ec67ea9a4e3b05e45151cae086',1,'carla::traffic_manager::CollisionStage']]],
+  ['collisionstage',['CollisionStage',['../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#a395d68f97265ca870d85ea69cf5f8ee5',1,'carla::traffic_manager::CollisionStage']]],
   ['color',['Color',['../da/d44/classcarla_1_1rpc_1_1Color.html#afcc0e2681d5dde6226bc5a3fe5d9d8b8',1,'carla::rpc::Color::Color()=default'],['../da/d44/classcarla_1_1rpc_1_1Color.html#a51d2e15de1b08576b955115c64c1c6c5',1,'carla::rpc::Color::Color(const Color &amp;)=default'],['../da/d44/classcarla_1_1rpc_1_1Color.html#af3ac0c8e38f032c4f01ecbc261091b27',1,'carla::rpc::Color::Color(uint8_t r, uint8_t g, uint8_t b)'],['../d2/dec/structcarla_1_1sensor_1_1data_1_1Color.html#ac682588e4eaaa9c34b121e9796bc35f4',1,'carla::sensor::data::Color::Color()=default'],['../d2/dec/structcarla_1_1sensor_1_1data_1_1Color.html#a3583360f9257a47214480b595607aa2f',1,'carla::sensor::data::Color::Color(const Color &amp;)=default'],['../d2/dec/structcarla_1_1sensor_1_1data_1_1Color.html#accefe2f61fafa740849ff8137acadeff',1,'carla::sensor::data::Color::Color(uint8_t r, uint8_t g, uint8_t b, uint8_t a=255u)']]],
   ['colortofstring',['ColorToFString',['../dd/d08/ActorBlueprintFunctionLibrary_8cpp.html#abe6e727c2c634020223b9825fb484d17',1,'ActorBlueprintFunctionLibrary.cpp']]],
   ['combine',['Combine',['../d6/de8/classFIniFile.html#a4e4824d1ceafba855daff6973bcebf05',1,'FIniFile']]],

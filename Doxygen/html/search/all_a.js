@@ -10,7 +10,7 @@ var searchData=
   ['junction_2eh',['Junction.h',['../d7/dad/Junction_8h.html',1,'']]],
   ['junction_5fid',['junction_id',['../dc/d17/structcarla_1_1opendrive_1_1parser_1_1Road.html#a638b5a1424a8c55e86fc2ecd777787ec',1,'carla::opendrive::parser::Road']]],
   ['junction_5flast_5fticket',['junction_last_ticket',['../d5/db3/classcarla_1_1traffic__manager_1_1TrafficLightStage.html#a2fc2c9fa62fad4e003867ad33da4e34e',1,'carla::traffic_manager::TrafficLightStage']]],
-  ['junction_5flook_5fahead_5fwaypoint',['junction_look_ahead_waypoint',['../d8/dec/structcarla_1_1traffic__manager_1_1LocalizationToTrafficLightData.html#a8bcd7a8354ebc5e5fd115050009900b8',1,'carla::traffic_manager::LocalizationToTrafficLightData']]],
+  ['junction_5flook_5fahead_5fwaypoint',['junction_look_ahead_waypoint',['../df/d75/structcarla_1_1traffic__manager_1_1LocalizationToCollisionData.html#aecd441f448670fb26e377f2511a6171d',1,'carla::traffic_manager::LocalizationToCollisionData::junction_look_ahead_waypoint()'],['../d8/dec/structcarla_1_1traffic__manager_1_1LocalizationToTrafficLightData.html#a8bcd7a8354ebc5e5fd115050009900b8',1,'carla::traffic_manager::LocalizationToTrafficLightData::junction_look_ahead_waypoint()']]],
   ['junctionid',['JunctionID',['../d0/db7/namespacecarla_1_1traffic__manager.html#a0ed9f2a3c9b07e059dcdd0a7f8c3c8ed',1,'carla::traffic_manager']]],
   ['junctionparser',['JunctionParser',['../d3/d54/classcarla_1_1opendrive_1_1parser_1_1JunctionParser.html',1,'carla::opendrive::parser']]],
   ['junctionparser_2ecpp',['JunctionParser.cpp',['../d6/d98/JunctionParser_8cpp.html',1,'']]],
