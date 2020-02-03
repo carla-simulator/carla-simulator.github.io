@@ -36,6 +36,8 @@ var searchData=
   ['interpolateposition',['InterpolatePosition',['../dc/dc6/classCarlaReplayer.html#a38b36d848f1ae6b12ab802b3788a734b',1,'CarlaReplayer']]],
   ['intersect',['Intersect',['../d5/db2/classURoadMap.html#a439056091e5bc0d48e8b1315d8341944',1,'URoadMap']]],
   ['invalidattributevalue',['InvalidAttributeValue',['../dc/d59/classcarla_1_1client_1_1InvalidAttributeValue.html#a2ed4baba62e09089e8980f5576755419',1,'carla::client::InvalidAttributeValue']]],
+  ['inverserotatevector',['InverseRotateVector',['../d8/dba/classcarla_1_1geom_1_1Rotation.html#a849ba201481b80ad9711c9287a755438',1,'carla::geom::Rotation']]],
+  ['inversetransformpoint',['InverseTransformPoint',['../de/da4/classcarla_1_1geom_1_1Transform.html#afc089fb20c9da10bb5d2e260cdd4fa56',1,'carla::geom::Transform']]],
   ['io_5fcontext',['io_context',['../da/d72/classcarla_1_1ThreadPool.html#a4195125816e22384961bd1cb25e0939d',1,'carla::ThreadPool']]],
   ['io_5fcontext_5frunning',['io_context_running',['../de/d8e/classio__context__running.html#ae8019f62e0ed0e44a9aaee243ef985b7',1,'io_context_running']]],
   ['is_5fattribute_5fof',['is_attribute_of',['../db/d20/pugixml_8cpp.html#a9bc36e486516d987bd802a24e9090cd8',1,'pugixml.cpp']]],

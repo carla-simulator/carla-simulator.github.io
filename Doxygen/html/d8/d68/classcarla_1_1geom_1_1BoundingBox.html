@@ -97,6 +97,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa83ac46213d40d09772e47c4de7fd581"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04909c36cec475a8520dcb780e6af6ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html#a04909c36cec475a8520dcb780e6af6ef">BoundingBox</a> (const <a class="el" href="../../d9/dfe/classcarla_1_1geom_1_1Vector3D.html">Vector3D</a> &amp;in_extent)</td></tr>
 <tr class="separator:a04909c36cec475a8520dcb780e6af6ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf4a43801b59ca274b411cf26eb786d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html#abf4a43801b59ca274b411cf26eb786d2">Contains</a> (const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">Location</a> &amp;in_world_point, const <a class="el" href="../../de/da4/classcarla_1_1geom_1_1Transform.html">Transform</a> &amp;in_bbox_to_world_transform) const </td></tr>
+<tr class="memdesc:abf4a43801b59ca274b411cf26eb786d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this <a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html">BoundingBox</a> contains <em>in_world_point</em> in world space.  <a href="#abf4a43801b59ca274b411cf26eb786d2">More...</a><br /></td></tr>
+<tr class="separator:abf4a43801b59ca274b411cf26eb786d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a716d58d2b9320e1da9d7f906430fe84d"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">Location</a>, 8 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html#a716d58d2b9320e1da9d7f906430fe84d">GetLocalVertices</a> () const </td></tr>
+<tr class="memdesc:a716d58d2b9320e1da9d7f906430fe84d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the positions of the 8 vertices of this <a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html">BoundingBox</a> in local space.  <a href="#a716d58d2b9320e1da9d7f906430fe84d">More...</a><br /></td></tr>
+<tr class="separator:a716d58d2b9320e1da9d7f906430fe84d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88ff0ff4c1a7d63c613dc55c768e6bac"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">Location</a>, 8 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html#a88ff0ff4c1a7d63c613dc55c768e6bac">GetWorldVertices</a> (const <a class="el" href="../../de/da4/classcarla_1_1geom_1_1Transform.html">Transform</a> &amp;in_bbox_to_world_tr) const </td></tr>
+<tr class="memdesc:a88ff0ff4c1a7d63c613dc55c768e6bac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the positions of the 8 vertices of this <a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html">BoundingBox</a> in world space.  <a href="#a88ff0ff4c1a7d63c613dc55c768e6bac">More...</a><br /></td></tr>
+<tr class="separator:a88ff0ff4c1a7d63c613dc55c768e6bac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a9f2462599a1700e5ea5c2025445b8c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html#a1a9f2462599a1700e5ea5c2025445b8c">MSGPACK_DEFINE_ARRAY</a> (<a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html#a669dc16e19ea4dafd72b657e424d4a0e">location</a>, <a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html#acd5dca65e5ef24edc91e1d79e1809fb0">extent</a>)</td></tr>
 <tr class="separator:a1a9f2462599a1700e5ea5c2025445b8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1be7eb8f1ee9a17aba3d0f20775c4dc3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html#a1be7eb8f1ee9a17aba3d0f20775c4dc3">operator!=</a> (const <a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html">BoundingBox</a> &amp;rhs) const </td></tr>
@@ -107,13 +116,15 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:acd5dca65e5ef24edc91e1d79e1809fb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dfe/classcarla_1_1geom_1_1Vector3D.html">Vector3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html#acd5dca65e5ef24edc91e1d79e1809fb0">extent</a></td></tr>
+<tr class="memdesc:acd5dca65e5ef24edc91e1d79e1809fb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Half the size of the <a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html">BoundingBox</a> in local space.  <a href="#acd5dca65e5ef24edc91e1d79e1809fb0">More...</a><br /></td></tr>
 <tr class="separator:acd5dca65e5ef24edc91e1d79e1809fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a669dc16e19ea4dafd72b657e424d4a0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">Location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html#a669dc16e19ea4dafd72b657e424d4a0e">location</a></td></tr>
+<tr class="memdesc:a669dc16e19ea4dafd72b657e424d4a0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Center of the <a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html">BoundingBox</a> in local space.  <a href="#a669dc16e19ea4dafd72b657e424d4a0e">More...</a><br /></td></tr>
 <tr class="separator:a669dc16e19ea4dafd72b657e424d4a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00021">21</a> of file <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html">LibCarla/source/carla/geom/BoundingBox.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00024">24</a> of file <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html">LibCarla/source/carla/geom/BoundingBox.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a34072bc73cee8414fcf08ae8dd39f23e"></a>
 <div class="memitem">
@@ -136,7 +147,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00040">operator!=()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00098">operator!=()</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -182,7 +193,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00026">26</a> of file <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html">LibCarla/source/carla/geom/BoundingBox.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00033">33</a> of file <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html">LibCarla/source/carla/geom/BoundingBox.h</a>.</p>
 
 </div>
 </div>
@@ -208,11 +219,167 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00030">30</a> of file <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html">LibCarla/source/carla/geom/BoundingBox.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00037">37</a> of file <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html">LibCarla/source/carla/geom/BoundingBox.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="abf4a43801b59ca274b411cf26eb786d2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool carla::geom::BoundingBox::Contains </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">Location</a> &amp;&#160;</td>
+          <td class="paramname"><em>in_world_point</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/da4/classcarla_1_1geom_1_1Transform.html">Transform</a> &amp;&#160;</td>
+          <td class="paramname"><em>in_bbox_to_world_transform</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether this <a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html">BoundingBox</a> contains <em>in_world_point</em> in world space. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">in_world_point</td><td>the point in world space that you want to query whether it is inside or not. </td></tr>
+    <tr><td class="paramname">in_bbox_to_world_transform</td><td>the transformation from <a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html">BoundingBox</a> space to World space. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00052">52</a> of file <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html">LibCarla/source/carla/geom/BoundingBox.h</a>.</p>
+
+<p>References <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00065">carla::geom::Transform::InverseTransformPoint()</a>, <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00040">location</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d68/classcarla_1_1geom_1_1BoundingBox_abf4a43801b59ca274b411cf26eb786d2_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a716d58d2b9320e1da9d7f906430fe84d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;<a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">Location</a>, 8&gt; carla::geom::BoundingBox::GetLocalVertices </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the positions of the 8 vertices of this <a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html">BoundingBox</a> in local space. </p>
+
+<p>Definition at line <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00065">65</a> of file <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html">LibCarla/source/carla/geom/BoundingBox.h</a>.</p>
+
+<p>References <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00082">GetWorldVertices()</a>, and <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00082">TEST()</a>.</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d68/classcarla_1_1geom_1_1BoundingBox_a716d58d2b9320e1da9d7f906430fe84d_icgraph.svg" width="512" height="82"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a88ff0ff4c1a7d63c613dc55c768e6bac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;<a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">Location</a>, 8&gt; carla::geom::BoundingBox::GetWorldVertices </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../de/da4/classcarla_1_1geom_1_1Transform.html">Transform</a> &amp;&#160;</td>
+          <td class="paramname"><em>in_bbox_to_world_tr</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the positions of the 8 vertices of this <a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html">BoundingBox</a> in world space. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">in_bbox_to_world_transform</td><td>The <a class="el" href="../../de/da4/classcarla_1_1geom_1_1Transform.html">Transform</a> from this <a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html">BoundingBox</a> space to world space. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00082">82</a> of file <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html">LibCarla/source/carla/geom/BoundingBox.h</a>.</p>
+
+<p>References <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00065">GetLocalVertices()</a>, and <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00057">carla::geom::Transform::TransformPoint()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00082">TEST()</a>.</p>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d68/classcarla_1_1geom_1_1BoundingBox_a88ff0ff4c1a7d63c613dc55c768e6bac_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d68/classcarla_1_1geom_1_1BoundingBox_a88ff0ff4c1a7d63c613dc55c768e6bac_icgraph.svg" width="290" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a1a9f2462599a1700e5ea5c2025445b8c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -237,13 +404,13 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00040">operator!=()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00098">operator!=()</a>.</p>
 
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d68/classcarla_1_1geom_1_1BoundingBox_a1a9f2462599a1700e5ea5c2025445b8c_icgraph.svg" width="442" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -273,15 +440,15 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00040">40</a> of file <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html">LibCarla/source/carla/geom/BoundingBox.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00098">98</a> of file <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html">LibCarla/source/carla/geom/BoundingBox.h</a>.</p>
 
-<p>References <a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html#a34072bc73cee8414fcf08ae8dd39f23e">BoundingBox()</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00022">FBoundingBox::Extent</a>, <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00034">extent</a>, <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00033">location</a>, <a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html#a1a9f2462599a1700e5ea5c2025445b8c">MSGPACK_DEFINE_ARRAY()</a>, and <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00018">FBoundingBox::Origin</a>.</p>
+<p>References <a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html#a34072bc73cee8414fcf08ae8dd39f23e">BoundingBox()</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00022">FBoundingBox::Extent</a>, <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00041">extent</a>, <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00040">location</a>, <a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html#a1a9f2462599a1700e5ea5c2025445b8c">MSGPACK_DEFINE_ARRAY()</a>, and <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00018">FBoundingBox::Origin</a>.</p>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d68/classcarla_1_1geom_1_1BoundingBox_a1be7eb8f1ee9a17aba3d0f20775c4dc3_cgraph.svg" width="442" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -311,9 +478,9 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00036">36</a> of file <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html">LibCarla/source/carla/geom/BoundingBox.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00094">94</a> of file <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html">LibCarla/source/carla/geom/BoundingBox.h</a>.</p>
 
-<p>References <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00034">extent</a>, and <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00033">location</a>.</p>
+<p>References <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00041">extent</a>, and <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00040">location</a>.</p>
 
 </div>
 </div>
@@ -328,9 +495,11 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00034">34</a> of file <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html">LibCarla/source/carla/geom/BoundingBox.h</a>.</p>
+<p>Half the size of the <a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html">BoundingBox</a> in local space. </p>
 
-<p>Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00522">carla::nav::Navigation::AddOrUpdateVehicle()</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00034">carla::traffic_manager::DeviationDotProduct()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00325">carla::traffic_manager::CollisionStage::GetBoundary()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00225">carla::traffic_manager::CollisionStage::GetGeodesicBoundary()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00142">carla::traffic_manager::CollisionStage::NegotiateCollision()</a>, <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00040">operator!=()</a>, <a class="el" href="../../d3/d7b/DebugShapeDrawer_8cpp_source.html#l00100">FShapeVisitor::operator()()</a>, and <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00036">operator==()</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00041">41</a> of file <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html">LibCarla/source/carla/geom/BoundingBox.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00522">carla::nav::Navigation::AddOrUpdateVehicle()</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00034">carla::traffic_manager::DeviationDotProduct()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00325">carla::traffic_manager::CollisionStage::GetBoundary()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00225">carla::traffic_manager::CollisionStage::GetGeodesicBoundary()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00142">carla::traffic_manager::CollisionStage::NegotiateCollision()</a>, <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00098">operator!=()</a>, <a class="el" href="../../d3/d7b/DebugShapeDrawer_8cpp_source.html#l00100">FShapeVisitor::operator()()</a>, and <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00094">operator==()</a>.</p>
 
 </div>
 </div>
@@ -344,9 +513,11 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00033">33</a> of file <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html">LibCarla/source/carla/geom/BoundingBox.h</a>.</p>
+<p>Center of the <a class="el" href="../../d8/d68/classcarla_1_1geom_1_1BoundingBox.html">BoundingBox</a> in local space. </p>
 
-<p>Referenced by <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00040">operator!=()</a>, <a class="el" href="../../d3/d7b/DebugShapeDrawer_8cpp_source.html#l00100">FShapeVisitor::operator()()</a>, and <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00036">operator==()</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00040">40</a> of file <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html">LibCarla/source/carla/geom/BoundingBox.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00052">Contains()</a>, <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00098">operator!=()</a>, <a class="el" href="../../d3/d7b/DebugShapeDrawer_8cpp_source.html#l00100">FShapeVisitor::operator()()</a>, and <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00094">operator==()</a>.</p>
 
 </div>
 </div>

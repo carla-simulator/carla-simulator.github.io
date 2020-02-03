@@ -113,6 +113,8 @@ var searchData=
   ['invalid_5fthread_5fid2',['invalid_thread_id2',['../d6/d0f/namespacemoodycamel_1_1details.html#a08560f3eeab113084bf32ed7b79483a0',1,'moodycamel::details']]],
   ['invalidattributevalue',['InvalidAttributeValue',['../dc/d59/classcarla_1_1client_1_1InvalidAttributeValue.html',1,'carla::client']]],
   ['invalidattributevalue',['InvalidAttributeValue',['../dc/d59/classcarla_1_1client_1_1InvalidAttributeValue.html#a2ed4baba62e09089e8980f5576755419',1,'carla::client::InvalidAttributeValue']]],
+  ['inverserotatevector',['InverseRotateVector',['../d8/dba/classcarla_1_1geom_1_1Rotation.html#a849ba201481b80ad9711c9287a755438',1,'carla::geom::Rotation']]],
+  ['inversetransformpoint',['InverseTransformPoint',['../de/da4/classcarla_1_1geom_1_1Transform.html#afc089fb20c9da10bb5d2e260cdd4fa56',1,'carla::geom::Transform']]],
   ['io_5fany',['io_any',['../dd/d53/structcarla_1_1image_1_1io_1_1detail_1_1io__any.html',1,'carla::image::io::detail']]],
   ['io_5fany_3c_20detail_3a_3aio_5fjpeg_20_3e',['io_any&lt; detail::io_jpeg &gt;',['../dd/d53/structcarla_1_1image_1_1io_1_1detail_1_1io__any.html',1,'carla::image::io::detail']]],
   ['io_5fcontext',['io_context',['../da/d72/classcarla_1_1ThreadPool.html#a4195125816e22384961bd1cb25e0939d',1,'carla::ThreadPool']]],

@@ -80,6 +80,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d2/ddc/test_8h_source.html">test.h</a>&quot;</code><br />
 <code>#include &lt;<a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html">carla/geom/Vector3D.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d8a/Math_8h_source.html">carla/geom/Math.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html">carla/geom/BoundingBox.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../de/d17/geom_2Transform_8h_source.html">carla/geom/Transform.h</a>&gt;</code><br />
 <code>#include &lt;limits&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -108,6 +109,10 @@ Functions</h2></td></tr>
 <tr class="separator:a147a9b02e2e1830ff8e51ce9091b48ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcd30219ef2a89d2ed06c3ec69411789"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd9/test__geom_8cpp.html#adcd30219ef2a89d2ed06c3ec69411789">TEST</a> (geom, single_point_translation)</td></tr>
 <tr class="separator:adcd30219ef2a89d2ed06c3ec69411789"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfbdbb2cd19d012a24efb35615b59025"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd9/test__geom_8cpp.html#acfbdbb2cd19d012a24efb35615b59025">TEST</a> (geom, single_point_transform_inverse_transform_coherence)</td></tr>
+<tr class="separator:acfbdbb2cd19d012a24efb35615b59025"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af19ccf43393a04631a4ad7e305673fdb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd9/test__geom_8cpp.html#af19ccf43393a04631a4ad7e305673fdb">TEST</a> (geom, bbox_get_local_vertices_get_world_vertices_coherence)</td></tr>
+<tr class="separator:af19ccf43393a04631a4ad7e305673fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29ec1f95f3bb8073faf95c9c008539e5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd9/test__geom_8cpp.html#a29ec1f95f3bb8073faf95c9c008539e5">TEST</a> (geom, single_point_rotation)</td></tr>
 <tr class="separator:a29ec1f95f3bb8073faf95c9c008539e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefc69fef9bdc5597b8580ba3020fc554"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd9/test__geom_8cpp.html#aefc69fef9bdc5597b8580ba3020fc554">TEST</a> (geom, single_point_translation_and_rotation)</td></tr>
@@ -146,16 +151,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00027">27</a> of file <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html">test_geom.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00028">28</a> of file <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html">test_geom.cpp</a>.</p>
 
-<p>References <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00056">carla::geom::Transform::TransformPoint()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+<p>References <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00057">carla::geom::Transform::TransformPoint()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/dd9/test__geom_8cpp_a147a9b02e2e1830ff8e51ce9091b48ac_cgraph.svg" width="455" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/dd9/test__geom_8cpp_a147a9b02e2e1830ff8e51ce9091b48ac_cgraph.svg" width="650" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -186,16 +191,96 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00044">44</a> of file <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html">test_geom.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00045">45</a> of file <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html">test_geom.cpp</a>.</p>
 
-<p>References <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00056">carla::geom::Transform::TransformPoint()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+<p>References <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00057">carla::geom::Transform::TransformPoint()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/dd9/test__geom_8cpp_adcd30219ef2a89d2ed06c3ec69411789_cgraph.svg" width="455" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/dd9/test__geom_8cpp_adcd30219ef2a89d2ed06c3ec69411789_cgraph.svg" width="650" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="acfbdbb2cd19d012a24efb35615b59025"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">geom&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">single_point_transform_inverse_transform_coherence&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00062">62</a> of file <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html">test_geom.cpp</a>.</p>
+
+<p>References <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00065">carla::geom::Transform::InverseTransformPoint()</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00057">carla::geom::Transform::TransformPoint()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/dd9/test__geom_8cpp_acfbdbb2cd19d012a24efb35615b59025_cgraph.svg" width="659" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af19ccf43393a04631a4ad7e305673fdb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">geom&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bbox_get_local_vertices_get_world_vertices_coherence&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00082">82</a> of file <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html">test_geom.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00065">carla::geom::BoundingBox::GetLocalVertices()</a>, <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00082">carla::geom::BoundingBox::GetWorldVertices()</a>, and <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00057">carla::geom::Transform::TransformPoint()</a>.</p>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/dd9/test__geom_8cpp_af19ccf43393a04631a4ad7e305673fdb_cgraph.svg" width="100%" height="398"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -226,16 +311,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00060">60</a> of file <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html">test_geom.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00108">108</a> of file <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html">test_geom.cpp</a>.</p>
 
-<p>References <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00056">carla::geom::Transform::TransformPoint()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+<p>References <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00057">carla::geom::Transform::TransformPoint()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/dd9/test__geom_8cpp_a29ec1f95f3bb8073faf95c9c008539e5_cgraph.svg" width="455" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/dd9/test__geom_8cpp_a29ec1f95f3bb8073faf95c9c008539e5_cgraph.svg" width="650" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -266,16 +351,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00075">75</a> of file <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html">test_geom.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00123">123</a> of file <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html">test_geom.cpp</a>.</p>
 
-<p>References <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00056">carla::geom::Transform::TransformPoint()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+<p>References <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00057">carla::geom::Transform::TransformPoint()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/dd9/test__geom_8cpp_aefc69fef9bdc5597b8580ba3020fc554_cgraph.svg" width="455" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/dd9/test__geom_8cpp_aefc69fef9bdc5597b8580ba3020fc554_cgraph.svg" width="650" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -306,15 +391,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00090">90</a> of file <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html">test_geom.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00138">138</a> of file <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html">test_geom.cpp</a>.</p>
 
 <p>References <a class="el" href="../../db/d8a/Math_8h_source.html#l00074">carla::geom::Math::Distance()</a>.</p>
 
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/dd9/test__geom_8cpp_a44cd75a38bbced6dfd1c0f48d59f505e_cgraph.svg" width="615" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -346,15 +431,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00103">103</a> of file <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html">test_geom.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00151">151</a> of file <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html">test_geom.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d6/d09/Math_8cpp_source.html#l00014">carla::geom::Math::DistanceSegmentToPoint()</a>.</p>
 
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/dd9/test__geom_8cpp_a4c4e7eb15fe04d55f337f192a13c69e5_cgraph.svg" width="100%" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -386,15 +471,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00151">151</a> of file <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html">test_geom.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00199">199</a> of file <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html">test_geom.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00050">carla::geom::Rotation::GetForwardVector()</a>.</p>
 
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/dd9/test__geom_8cpp_a23fa4ca2747dbb9c52e219cfea5f230f_cgraph.svg" width="627" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -426,15 +511,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00172">172</a> of file <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html">test_geom.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00220">220</a> of file <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html">test_geom.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d6/d09/Math_8cpp_source.html#l00029">carla::geom::Math::DistanceArcToPoint()</a>.</p>
 
-<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/dd9/test__geom_8cpp_a28ca4536866c48d0fd9578ec931a14da_cgraph.svg" width="100%" height="525"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>

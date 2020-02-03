@@ -106,6 +106,7 @@ var searchData=
   ['root',['root',['../db/d65/classpugi_1_1xml__node.html#a713b60fd5cddd5d8671dd76b1457e6eb',1,'pugi::xml_node']]],
   ['rotate',['Rotate',['../d2/daf/namespacecarla_1_1client.html#a96fbaf18d9f6143862b7f14d4871ea48',1,'carla::client']]],
   ['rotatepointonorigin2d',['RotatePointOnOrigin2D',['../d0/dea/classcarla_1_1geom_1_1Math.html#a87bb8efcea50103f41ff50205484d2fe',1,'carla::geom::Math']]],
+  ['rotatevector',['RotateVector',['../d8/dba/classcarla_1_1geom_1_1Rotation.html#a14ca77a1bf0622ff759142981f8283a4',1,'carla::geom::Rotation']]],
   ['rotation',['Rotation',['../d8/dba/classcarla_1_1geom_1_1Rotation.html#a71c201ae786655c11847496f3a5c63db',1,'carla::geom::Rotation::Rotation()=default'],['../d8/dba/classcarla_1_1geom_1_1Rotation.html#afebd121ac590dc228e39930316835f4a',1,'carla::geom::Rotation::Rotation(float p, float y, float r)']]],
   ['round_5fnearest',['round_nearest',['../db/d20/pugixml_8cpp.html#aaeb62784a181c44f2ee34c0172e00240',1,'pugixml.cpp']]],
   ['round_5fnearest_5fnzero',['round_nearest_nzero',['../db/d20/pugixml_8cpp.html#a08148576c17009ae574e2fc8cd3d17a9',1,'pugixml.cpp']]],
