@@ -8,7 +8,7 @@ var searchData=
   ['calculatelanesegmentid',['calculateLaneSegmentId',['../dc/d07/classcarla_1_1rss_1_1RssCheck.html#a1d24bfc2f817334fb15183582f6e3ac1',1,'carla::rss::RssCheck']]],
   ['calculatelatlonvelocities',['calculateLatLonVelocities',['../dc/d07/classcarla_1_1rss_1_1RssCheck.html#acea6d8c0c20b5ed8a0f3bdc86ce2cc7c',1,'carla::rss::RssCheck']]],
   ['calculateoccupiedregions',['calculateOccupiedRegions',['../dc/d07/classcarla_1_1rss_1_1RssCheck.html#aff1e8790fbe6df81d866570706defcad',1,'carla::rss::RssCheck']]],
-  ['calculaterelativevelocity',['CalculateRelativeVelocity',['../d9/d27/classARadar.html#ad9be9269d4e5e5d20c292c9695af8dc6',1,'ARadar']]],
+  ['calculaterelativevelocity',['CalculateRelativeVelocity',['../d9/d27/classARadar.html#a333216a4a3a3948da61c65ac8be47ed8',1,'ARadar']]],
   ['call',['call',['../df/d9d/classcarla_1_1rpc_1_1Client.html#ab847d2ba94b5dbe49e57e772cd2f0220',1,'carla::rpc::Client::call()'],['../d1/dff/classcarla_1_1client_1_1detail_1_1CallbackList.html#ada3b7b1c99e2433eb6a2b64d9c4d7b2d',1,'carla::client::detail::CallbackList::Call()']]],
   ['callandwait',['CallAndWait',['../dc/de1/classcarla_1_1client_1_1detail_1_1Client_1_1Pimpl.html#a72502b9e7407daf6cb5b930f9992fdc3',1,'carla::client::detail::Client::Pimpl']]],
   ['capacity',['capacity',['../d0/d0a/classcarla_1_1Buffer.html#a819b6f2c065347a6a5b54016fe42e618',1,'carla::Buffer']]],
