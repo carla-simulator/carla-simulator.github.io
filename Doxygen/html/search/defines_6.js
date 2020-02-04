@@ -1,29 +1,5 @@
 var searchData=
 [
-  ['libcarla_5fassert_5flevel',['LIBCARLA_ASSERT_LEVEL',['../d4/deb/Debug_8h.html#ab3b707e252ff590441517f8de6def7f8',1,'Debug.h']]],
-  ['libcarla_5fassert_5flevel_5fdebug',['LIBCARLA_ASSERT_LEVEL_DEBUG',['../d4/deb/Debug_8h.html#abde76b75702e812b2fe3ac216c4004df',1,'Debug.h']]],
-  ['libcarla_5fassert_5flevel_5fdevelopment',['LIBCARLA_ASSERT_LEVEL_DEVELOPMENT',['../d4/deb/Debug_8h.html#a1a1b3dbcbf8d48aa596864f2af72cada',1,'Debug.h']]],
-  ['libcarla_5fassert_5flevel_5frelease',['LIBCARLA_ASSERT_LEVEL_RELEASE',['../d4/deb/Debug_8h.html#acc46d4205b893dd9af05af6e64dd7ac8',1,'Debug.h']]],
-  ['libcarla_5fassert_5fthrow_5f_5f',['LIBCARLA_ASSERT_THROW__',['../d4/deb/Debug_8h.html#a2d316d613c5cc1dbaec5f2357f034182',1,'Debug.h']]],
-  ['libcarla_5fenable_5flifetime_5fprofiler',['LIBCARLA_ENABLE_LIFETIME_PROFILER',['../d1/daf/LifetimeProfiled_8cpp.html#a3158c45c920b60de42d9da5bf4aee818',1,'LifetimeProfiled.cpp']]],
-  ['libcarla_5fenable_5fprofiler',['LIBCARLA_ENABLE_PROFILER',['../d3/dea/Profiler_8cpp.html#adaf64c03415d647e0931870567d28d89',1,'Profiler.cpp']]],
-  ['libcarla_5fimage_5fwith_5fjpeg_5fsupport',['LIBCARLA_IMAGE_WITH_JPEG_SUPPORT',['../d2/d1d/ImageIOConfig_8h.html#a7e3ab8c67e5de3cfb693c313a45d3c52',1,'ImageIOConfig.h']]],
-  ['libcarla_5fimage_5fwith_5fpng_5fsupport',['LIBCARLA_IMAGE_WITH_PNG_SUPPORT',['../d2/d1d/ImageIOConfig_8h.html#aba6b20433f7b39bb5e02466427d5d242',1,'ImageIOConfig.h']]],
-  ['libcarla_5fimage_5fwith_5ftiff_5fsupport',['LIBCARLA_IMAGE_WITH_TIFF_SUPPORT',['../d2/d1d/ImageIOConfig_8h.html#a286c4b48d7878901645a8381c8e4f915',1,'ImageIOConfig.h']]],
-  ['libcarla_5fincluded_5ffrom_5fue4',['LIBCARLA_INCLUDED_FROM_UE4',['../d2/d02/disable-ue4-macros_8h.html#ac665a207757990d0d5886c940239a284',1,'disable-ue4-macros.h']]],
-  ['libcarla_5finitialize_5flifetime_5fprofiler',['LIBCARLA_INITIALIZE_LIFETIME_PROFILER',['../d9/dc4/LifetimeProfiled_8h.html#a8a9366d17dcbc7abed69e5618a87f603',1,'LifetimeProfiled.h']]],
-  ['libcarla_5flog_5flevel',['LIBCARLA_LOG_LEVEL',['../de/d87/Logging_8h.html#adee73efafbed504eeeef16d323147b33',1,'LIBCARLA_LOG_LEVEL():&#160;Logging.h'],['../d2/ddc/test_8h.html#adee73efafbed504eeeef16d323147b33',1,'LIBCARLA_LOG_LEVEL():&#160;test.h']]],
-  ['libcarla_5flog_5flevel_5fcritical',['LIBCARLA_LOG_LEVEL_CRITICAL',['../de/d87/Logging_8h.html#a208bbbf5a11c9c89af0b05c655a51eb7',1,'Logging.h']]],
-  ['libcarla_5flog_5flevel_5fdebug',['LIBCARLA_LOG_LEVEL_DEBUG',['../de/d87/Logging_8h.html#a0d2193219b75df5daae72f3602a78733',1,'Logging.h']]],
-  ['libcarla_5flog_5flevel_5ferror',['LIBCARLA_LOG_LEVEL_ERROR',['../de/d87/Logging_8h.html#aee8821e39c1bdbfc2ffa13fc08bd3562',1,'Logging.h']]],
-  ['libcarla_5flog_5flevel_5finfo',['LIBCARLA_LOG_LEVEL_INFO',['../de/d87/Logging_8h.html#a4f34c28f9f0b75372b86dffb76be224a',1,'Logging.h']]],
-  ['libcarla_5flog_5flevel_5fnone',['LIBCARLA_LOG_LEVEL_NONE',['../de/d87/Logging_8h.html#a74e3998ef669e61cc9e337410d606511',1,'Logging.h']]],
-  ['libcarla_5flog_5flevel_5fwarning',['LIBCARLA_LOG_LEVEL_WARNING',['../de/d87/Logging_8h.html#af386dade26cae5de483a429907e37f22',1,'Logging.h']]],
-  ['libcarla_5fnoinline',['LIBCARLA_NOINLINE',['../d9/dd0/Platform_8h.html#a083ef29e9bc505cdff29f0bde392a1cb',1,'Platform.h']]],
-  ['libcarla_5fsensor_5fregistry_5fwith_5fsensor_5fincludes',['LIBCARLA_SENSOR_REGISTRY_WITH_SENSOR_INCLUDES',['../d0/dde/SensorFactory_8cpp.html#aff3d6386a77e7121cc53e3e55dcd03d3',1,'SensorFactory.cpp']]],
-  ['libcarla_5fthrow_5fbad_5fvalue_5fcast',['LIBCARLA_THROW_BAD_VALUE_CAST',['../dc/d32/ActorAttribute_8cpp.html#a1d6f36abdf1869dcc45b8049b846ad8a',1,'ActorAttribute.cpp']]],
-  ['libcarla_5fthrow_5finvalid_5fvalue',['LIBCARLA_THROW_INVALID_VALUE',['../dc/d32/ActorAttribute_8cpp.html#ad1c9a1c96b5e7034a06bd6c279bb60ce',1,'ActorAttribute.cpp']]],
-  ['loctext_5fnamespace',['LOCTEXT_NAMESPACE',['../d9/d4f/Carla_8cpp.html#a0de3ae51f3a629a8e5d113f1b9390da7',1,'LOCTEXT_NAMESPACE():&#160;Carla.cpp'],['../d2/de5/RoadMap_8cpp.html#a0de3ae51f3a629a8e5d113f1b9390da7',1,'LOCTEXT_NAMESPACE():&#160;RoadMap.cpp']]],
-  ['log_5fdebug_5fonly',['LOG_DEBUG_ONLY',['../de/d87/Logging_8h.html#aaeb97c950964c81e417f797f2d2686f2',1,'Logging.h']]],
-  ['log_5finfo_5fonly',['LOG_INFO_ONLY',['../de/d87/Logging_8h.html#a96ef080c691f41567ff458b8b4037b15',1,'Logging.h']]]
+  ['inherit_5fgraph_5ftype_5fbase_5fclass',['INHERIT_GRAPH_TYPE_BASE_CLASS',['../d4/d09/GraphTypes_8h.html#a5650146792411a1e2a9a00e2ca6b07a0',1,'GraphTypes.h']]],
+  ['int_5fp_5fnull',['int_p_NULL',['../d2/d1d/ImageIOConfig_8h.html#a82a90dbcb3c65be802dccb31f909bd02',1,'ImageIOConfig.h']]]
 ];

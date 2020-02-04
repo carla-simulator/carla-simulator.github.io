@@ -2,6 +2,7 @@ var searchData=
 [
   ['laneid',['LaneId',['../db/dd5/namespacecarla_1_1opendrive_1_1parser.html#a964757e73323ea032888b4f6712b262d',1,'carla::opendrive::parser::LaneId()'],['../de/d26/namespacecarla_1_1road.html#ab04570f0655cb16bd43d7cb2b939511f',1,'carla::road::LaneId()']]],
   ['lanemarking',['LaneMarking',['../de/d3a/classcarla_1_1sensor_1_1data_1_1LaneInvasionEvent.html#a6e01f024ff35aa4d2f6b5eeb2777f111',1,'carla::sensor::data::LaneInvasionEvent']]],
+  ['lightstate',['LightState',['../d9/dc6/classcarla_1_1client_1_1Vehicle.html#acced0fbfea5b8b9d267af2e2061a7d40',1,'carla::client::Vehicle']]],
   ['listt',['ListT',['../d9/dd7/classcarla_1_1client_1_1detail_1_1AtomicList.html#aea66d2921852857924a98681956090ed',1,'carla::client::detail::AtomicList']]],
   ['localizationtocollisionframe',['LocalizationToCollisionFrame',['../d0/db7/namespacecarla_1_1traffic__manager.html#ae77c5df1f65739e8cb146ea7470237bb',1,'carla::traffic_manager']]],
   ['localizationtocollisionmessenger',['LocalizationToCollisionMessenger',['../d0/db7/namespacecarla_1_1traffic__manager.html#ad8932964b0627cb944f911f76b5e5700',1,'carla::traffic_manager']]],

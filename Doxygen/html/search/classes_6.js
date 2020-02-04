@@ -56,6 +56,7 @@ var searchData=
   ['functionwrapper_3c_20t_20_26_26_20_3e',['FunctionWrapper&lt; T &amp;&amp; &gt;',['../d3/dcb/structcarla_1_1rpc_1_1detail_1_1FunctionWrapper_3_01T_01_6_6_01_4.html',1,'carla::rpc::detail']]],
   ['functort',['FunctorT',['../d5/d37/classFunctorT.html',1,'']]],
   ['fvehiclecontrol',['FVehicleControl',['../d1/d4b/structFVehicleControl.html',1,'']]],
+  ['fvehiclelightstate',['FVehicleLightState',['../de/d9e/structFVehicleLightState.html',1,'']]],
   ['fvehicleparameters',['FVehicleParameters',['../d0/db7/structFVehicleParameters.html',1,'']]],
   ['fvehiclephysicscontrol',['FVehiclePhysicsControl',['../d1/dbe/structFVehiclePhysicsControl.html',1,'']]],
   ['fwalkerbonecontrol',['FWalkerBoneControl',['../d3/d4a/structFWalkerBoneControl.html',1,'']]],

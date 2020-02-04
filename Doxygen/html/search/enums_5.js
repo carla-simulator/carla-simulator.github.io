@@ -4,5 +4,6 @@ var searchData=
   ['lanetype',['LaneType',['../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5',1,'carla::road::Lane']]],
   ['lateralresponse',['LateralResponse',['../db/de4/namespacecarla_1_1sensor_1_1data.html#ae69212e861a8c20875f2b02dd31faae0',1,'carla::sensor::data']]],
   ['lexeme_5ft',['lexeme_t',['../db/d20/pugixml_8cpp.html#a1fdd6d0a63acbba1491ab331ddce4ac9',1,'pugixml.cpp']]],
+  ['lightstate',['LightState',['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html#a6372a8be47dbe5cd2b9c19730e5d1dc5',1,'carla::rpc::VehicleLightState']]],
   ['longitudinalresponse',['LongitudinalResponse',['../db/de4/namespacecarla_1_1sensor_1_1data.html#afb9ab5ff41a62e4f08383a2e00d1b1ae',1,'carla::sensor::data']]]
 ];
