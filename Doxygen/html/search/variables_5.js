@@ -19,6 +19,7 @@ var searchData=
   ['episode_5fid',['episode_id',['../d9/de2/structcarla_1_1sensor_1_1s11n_1_1EpisodeStateSerializer_1_1Header.html#af3af68f912126fa5913d6bf43f6a980b',1,'carla::sensor::s11n::EpisodeStateSerializer::Header']]],
   ['episodesettings',['EpisodeSettings',['../dc/d84/classUCarlaEpisode.html#a1735fc2815aabf4a11a4f2a4653e7de2',1,'UCarlaEpisode']]],
   ['epsilon',['EPSILON',['../de/d26/namespacecarla_1_1road.html#a49c9906492987863301337ac8c490bb2',1,'carla::road']]],
+  ['epsilon_5fvelocity',['EPSILON_VELOCITY',['../d5/de3/namespacecarla_1_1traffic__manager_1_1CollisionStageConstants.html#a0db527dc2fd94f22423c8ee956e93bfb',1,'carla::traffic_manager::CollisionStageConstants']]],
   ['error',['error',['../d9/d2c/structpugi_1_1xpath__parse__result.html#ab2c625be89b995afac829012bc749fe4',1,'pugi::xpath_parse_result']]],
   ['error_5foffset',['error_offset',['../db/db4/structxml__parser.html#a2476a71cd7e67b3f4bdbcd1323524503',1,'xml_parser']]],
   ['error_5fstatus',['error_status',['../db/db4/structxml__parser.html#a0555859911674e5a7a349447d6533383',1,'xml_parser']]],

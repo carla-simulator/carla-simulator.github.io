@@ -24,6 +24,7 @@ var searchData=
   ['initialimplicitproducerhashentries',['initialImplicitProducerHashEntries',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a52785bfec690380ff78d651a16e14ecc',1,'moodycamel::ConcurrentQueue']]],
   ['initialoffset',['initialOffset',['../de/deb/structmoodycamel_1_1ConsumerToken.html#af65e25dcc92a723c2a84da7a4b763ed9',1,'moodycamel::ConsumerToken']]],
   ['inputcontrol',['InputControl',['../d5/d70/classACarlaWheeledVehicle.html#a1ea613504a2ab8a5ca4d667fc076b5b0',1,'ACarlaWheeledVehicle']]],
+  ['inter_5fbbox_5fdistance_5fthreshold',['INTER_BBOX_DISTANCE_THRESHOLD',['../d5/de3/namespacecarla_1_1traffic__manager_1_1CollisionStageConstants.html#ae0198346ba877dd6762b352d622f5208',1,'carla::traffic_manager::CollisionStageConstants']]],
   ['inter_5fupdate_5fclock',['inter_update_clock',['../d5/d1a/classcarla_1_1traffic__manager_1_1PerformanceDiagnostics.html#a6e8c5ed4cc60f3732c3d28b0230ad838',1,'carla::traffic_manager::PerformanceDiagnostics']]],
   ['inter_5fupdate_5fduration',['inter_update_duration',['../d5/d1a/classcarla_1_1traffic__manager_1_1PerformanceDiagnostics.html#ae0537540269cfbced075e5b1d46fb57a',1,'carla::traffic_manager::PerformanceDiagnostics']]],
   ['interior',['Interior',['../de/d9e/structFVehicleLightState.html#a47ad7d990a8bc8b2eb47ef67d6bf358e',1,'FVehicleLightState']]],
