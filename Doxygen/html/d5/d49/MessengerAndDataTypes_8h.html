@@ -79,6 +79,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;unordered_map&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../da/d48/client_2Actor_8h_source.html">carla/client/Actor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/d5c/Memory_8h_source.html">carla/Memory.h</a>&quot;</code><br />
@@ -134,9 +135,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a174c519d16a545986273605864d9daf0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a174c519d16a545986273605864d9daf0">carla::traffic_manager::BufferList</a> = std::vector&lt; Buffer &gt;</td></tr>
-<tr class="memdesc:a174c519d16a545986273605864d9daf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias used for the list of buffers in the localization stage.  <a href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a174c519d16a545986273605864d9daf0">More...</a><br /></td></tr>
-<tr class="separator:a174c519d16a545986273605864d9daf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8e167e2943e1b5fa9597a889acc7ce1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ab8e167e2943e1b5fa9597a889acc7ce1">carla::traffic_manager::BufferList</a> = std::unordered_map&lt; <a class="el" href="../../d9/d36/namespacecarla.html#a624ab69c9ebee0e2fb8fda9a12bc061b">carla::ActorId</a>, Buffer &gt;</td></tr>
+<tr class="memdesc:ab8e167e2943e1b5fa9597a889acc7ce1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias used for the list of buffers in the localization stage.  <a href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ab8e167e2943e1b5fa9597a889acc7ce1">More...</a><br /></td></tr>
+<tr class="separator:ab8e167e2943e1b5fa9597a889acc7ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a507a268a5a9f1c925465b329d3fece95"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a507a268a5a9f1c925465b329d3fece95">carla::traffic_manager::CollisionToPlannerFrame</a> = std::vector&lt; CollisionToPlannerData &gt;</td></tr>
 <tr class="separator:a507a268a5a9f1c925465b329d3fece95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5fde971d6e41b059042ddb3d032d862"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ae5fde971d6e41b059042ddb3d032d862">carla::traffic_manager::CollisionToPlannerMessenger</a> = Messenger&lt; std::shared_ptr&lt; CollisionToPlannerFrame &gt;&gt;</td></tr>

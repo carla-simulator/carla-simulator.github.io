@@ -7,6 +7,7 @@ var searchData=
   ['gear_5fswitch_5ftime',['gear_switch_time',['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#a3e8ce49dd1780a681634d9cbb4c24d63',1,'carla::rpc::VehiclePhysicsControl']]],
   ['gearswitchtime',['GearSwitchTime',['../d1/dbe/structFVehiclePhysicsControl.html#afd378c0c3d734a2f1d930af4d5e8ba90',1,'FVehiclePhysicsControl']]],
   ['gender',['Gender',['../d9/db1/structFPedestrianParameters.html#a977fba74a1443d198fe9ee86a649aba3',1,'FPedestrianParameters']]],
+  ['geodesic_5fboundaries',['geodesic_boundaries',['../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#af247e17a9f9a2d51ff2251c70dc667b6',1,'carla::traffic_manager::CollisionStage']]],
   ['geodesic_5fgrid_5fcenter',['geodesic_grid_center',['../da/d07/classcarla_1_1traffic__manager_1_1InMemoryMap.html#a3ead5dd33d6c9ef472e696b466e99aa6',1,'carla::traffic_manager::InMemoryMap']]],
   ['geodesic_5fgrid_5fid',['geodesic_grid_id',['../dc/d04/classcarla_1_1traffic__manager_1_1SimpleWaypoint.html#a35ea7e2df38c73b71ca1b4ec64219eb3',1,'carla::traffic_manager::SimpleWaypoint']]],
   ['global_5fpercentage_5fdifference_5ffrom_5flimit',['global_percentage_difference_from_limit',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a2e761c76139e96560a9867c060aa97e8',1,'carla::traffic_manager::Parameters']]],

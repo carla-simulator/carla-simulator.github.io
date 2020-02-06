@@ -89,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/dff/classcarla_1_1traffic__manager_1_1SimpleWaypoint__coll__graph.svg" width="531" height="196"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/dff/classcarla_1_1traffic__manager_1_1SimpleWaypoint__coll__graph.svg" width="531" height="247"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -145,6 +145,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab4432a13efb95f2fe8908507f57cc87c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d04/classcarla_1_1traffic__manager_1_1SimpleWaypoint.html#ab4432a13efb95f2fe8908507f57cc87c">SetGeodesicGridId</a> (<a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a5030097952c4be1d2efb7a3292a0c809">GeoGridId</a> _geodesic_grid_id)</td></tr>
 <tr class="memdesc:ab4432a13efb95f2fe8908507f57cc87c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accessor methods for geodesic grid id.  <a href="#ab4432a13efb95f2fe8908507f57cc87c">More...</a><br /></td></tr>
 <tr class="separator:ab4432a13efb95f2fe8908507f57cc87c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a742b9e9d163007c6601caa272b3fe8f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d04/classcarla_1_1traffic__manager_1_1SimpleWaypoint.html#a742b9e9d163007c6601caa272b3fe8f4">SetIsJunction</a> (bool value)</td></tr>
+<tr class="memdesc:a742b9e9d163007c6601caa272b3fe8f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is used to set whether the waypoint belongs to a junction.  <a href="#a742b9e9d163007c6601caa272b3fe8f4">More...</a><br /></td></tr>
+<tr class="separator:a742b9e9d163007c6601caa272b3fe8f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abad458836d8c3001e14fb731098a09ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d04/classcarla_1_1traffic__manager_1_1SimpleWaypoint.html#abad458836d8c3001e14fb731098a09ab">SetLeftWaypoint</a> (<a class="el" href="../../dc/d04/classcarla_1_1traffic__manager_1_1SimpleWaypoint.html#a9dcd19c0686e1f41413841dd75539b9a">SimpleWaypointPtr</a> <a class="el" href="../../dc/d04/classcarla_1_1traffic__manager_1_1SimpleWaypoint.html#a2707bf3681bc797794d028fc94ca6e30">waypoint</a>)</td></tr>
 <tr class="memdesc:abad458836d8c3001e14fb731098a09ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is used to set the closest left waypoint for a lane change.  <a href="#abad458836d8c3001e14fb731098a09ab">More...</a><br /></td></tr>
 <tr class="separator:abad458836d8c3001e14fb731098a09ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,6 +172,8 @@ Private Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a177eaa0724276a1705ac8ef66a657474"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d04/classcarla_1_1traffic__manager_1_1SimpleWaypoint.html#a177eaa0724276a1705ac8ef66a657474">_is_junction</a> = false</td></tr>
+<tr class="separator:a177eaa0724276a1705ac8ef66a657474"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35ea7e2df38c73b71ca1b4ec64219eb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a5030097952c4be1d2efb7a3292a0c809">GeoGridId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d04/classcarla_1_1traffic__manager_1_1SimpleWaypoint.html#a35ea7e2df38c73b71ca1b4ec64219eb3">geodesic_grid_id</a> = 0</td></tr>
 <tr class="memdesc:a35ea7e2df38c73b71ca1b4ec64219eb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Integer placing the waypoint into a geodesic grid.  <a href="#a35ea7e2df38c73b71ca1b4ec64219eb3">More...</a><br /></td></tr>
 <tr class="separator:a35ea7e2df38c73b71ca1b4ec64219eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -270,7 +275,7 @@ Private Attributes</h2></td></tr>
 
 <p>Returns true if the object's waypoint belongs to an intersection (Doesn't use OpenDrive). </p>
 
-<p>Definition at line <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00109">109</a> of file <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html">SimpleWaypoint.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00113">113</a> of file <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html">SimpleWaypoint.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d7/dd3/SimpleWaypoint_8h_source.html#l00038">next_waypoints</a>.</p>
 
@@ -293,7 +298,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00105">105</a> of file <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html">SimpleWaypoint.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d7/dd3/SimpleWaypoint_8h_source.html#l00036">waypoint</a>.</p>
+<p>References <a class="el" href="../../d7/dd3/SimpleWaypoint_8h_source.html#l00048">_is_junction</a>.</p>
 
 </div>
 </div>
@@ -459,7 +464,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00117">117</a> of file <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html">SimpleWaypoint.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00121">121</a> of file <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html">SimpleWaypoint.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d7/dd3/SimpleWaypoint_8h_source.html#l00046">geodesic_grid_id</a>, and <a class="el" href="../../d7/dd3/SimpleWaypoint_8h_source.html#l00036">waypoint</a>.</p>
 
@@ -501,7 +506,7 @@ Private Attributes</h2></td></tr>
 
 <p>Metod to retreive junction id of the waypoint. </p>
 
-<p>Definition at line <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00127">127</a> of file <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html">SimpleWaypoint.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00131">131</a> of file <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html">SimpleWaypoint.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d7/dd3/SimpleWaypoint_8h_source.html#l00036">waypoint</a>.</p>
 
@@ -661,9 +666,31 @@ Private Attributes</h2></td></tr>
 
 <p>Accessor methods for geodesic grid id. </p>
 
-<p>Definition at line <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00113">113</a> of file <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html">SimpleWaypoint.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00117">117</a> of file <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html">SimpleWaypoint.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d7/dd3/SimpleWaypoint_8h_source.html#l00046">geodesic_grid_id</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a742b9e9d163007c6601caa272b3fe8f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::traffic_manager::SimpleWaypoint::SetIsJunction </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method is used to set whether the waypoint belongs to a junction. </p>
+
+<p>Definition at line <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00109">109</a> of file <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html">SimpleWaypoint.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d7/dd3/SimpleWaypoint_8h_source.html#l00048">_is_junction</a>.</p>
 
 </div>
 </div>
@@ -776,6 +803,30 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a177eaa0724276a1705ac8ef66a657474"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool carla::traffic_manager::SimpleWaypoint::_is_junction = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/dd3/SimpleWaypoint_8h_source.html#l00048">48</a> of file <a class="el" href="../../d7/dd3/SimpleWaypoint_8h_source.html">SimpleWaypoint.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00105">CheckJunction()</a>, and <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00109">SetIsJunction()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a35ea7e2df38c73b71ca1b4ec64219eb3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -798,7 +849,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dd3/SimpleWaypoint_8h_source.html#l00046">46</a> of file <a class="el" href="../../d7/dd3/SimpleWaypoint_8h_source.html">SimpleWaypoint.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00117">GetGeodesicGridId()</a>, and <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00113">SetGeodesicGridId()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00121">GetGeodesicGridId()</a>, and <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00117">SetGeodesicGridId()</a>.</p>
 
 </div>
 </div>
@@ -876,7 +927,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dd3/SimpleWaypoint_8h_source.html#l00038">38</a> of file <a class="el" href="../../d7/dd3/SimpleWaypoint_8h_source.html">SimpleWaypoint.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00109">CheckIntersection()</a>, <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00021">GetNextWaypoint()</a>, and <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00053">SetNextWaypoint()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00113">CheckIntersection()</a>, <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00021">GetNextWaypoint()</a>, and <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00053">SetNextWaypoint()</a>.</p>
 
 </div>
 </div>
@@ -928,7 +979,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dd3/SimpleWaypoint_8h_source.html#l00036">36</a> of file <a class="el" href="../../d7/dd3/SimpleWaypoint_8h_source.html">SimpleWaypoint.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00105">CheckJunction()</a>, <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00049">GetForwardVector()</a>, <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00117">GetGeodesicGridId()</a>, <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00033">GetId()</a>, <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00127">GetJunctionId()</a>, <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00045">GetLocation()</a>, <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00029">GetWaypoint()</a>, <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00067">SetLeftWaypoint()</a>, <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00078">SetRightWaypoint()</a>, and <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00014">SimpleWaypoint()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00049">GetForwardVector()</a>, <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00121">GetGeodesicGridId()</a>, <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00033">GetId()</a>, <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00131">GetJunctionId()</a>, <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00045">GetLocation()</a>, <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00029">GetWaypoint()</a>, <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00067">SetLeftWaypoint()</a>, <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00078">SetRightWaypoint()</a>, and <a class="el" href="../../da/d46/SimpleWaypoint_8cpp_source.html#l00014">SimpleWaypoint()</a>.</p>
 
 </div>
 </div>

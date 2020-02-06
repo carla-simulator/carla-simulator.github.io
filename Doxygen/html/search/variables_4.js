@@ -30,6 +30,7 @@ var searchData=
   ['definitions',['Definitions',['../d7/d90/classUActorDispatcher.html#ac472842b6456bbfd80bb47162d14bbba',1,'UActorDispatcher::Definitions()'],['../d8/d91/namespaceCommonAttributes.html#a60bb163e1b00d7401fdec1a29fc98043',1,'CommonAttributes::DEFINITIONS()']]],
   ['deleter',['deleter',['../d6/d78/structauto__deleter.html#a306ab6a225284bd12cae5374fea13fe3',1,'auto_deleter']]],
   ['delta_5fseconds',['delta_seconds',['../df/d2c/classcarla_1_1client_1_1Timestamp.html#a369a30d075d9e11cc21aae7a75f041dd',1,'carla::client::Timestamp::delta_seconds()'],['../d9/de2/structcarla_1_1sensor_1_1s11n_1_1EpisodeStateSerializer_1_1Header.html#ac64bf6444753b21c5bae1413a9474f94',1,'carla::sensor::s11n::EpisodeStateSerializer::Header::delta_seconds()']]],
+  ['delta_5ftime_5fbetween_5fdestructions',['DELTA_TIME_BETWEEN_DESTRUCTIONS',['../d9/d5c/namespacecarla_1_1traffic__manager_1_1LocalizationConstants.html#aecfde0874841a2a77d4d390fd8a874d2',1,'carla::traffic_manager::LocalizationConstants']]],
   ['dense_5ftopology',['dense_topology',['../da/d07/classcarla_1_1traffic__manager_1_1InMemoryMap.html#ae1c6e3f6f0605cdee05fc33737b47ffd',1,'carla::traffic_manager::InMemoryMap']]],
   ['depth',['depth',['../d2/d54/structcarla_1_1sensor_1_1s11n_1_1RadarDetection.html#ab4f5ea78453f141998c7c42caa28898d',1,'carla::sensor::s11n::RadarDetection']]],
   ['depthpriority',['DepthPriority',['../dd/d3c/structFShapeVisitor.html#a397b6121e3a903d770be2ec5235e0d10',1,'FShapeVisitor']]],

@@ -60,6 +60,7 @@ var searchData=
   ['crawl_5fspeed',['CRAWL_SPEED',['../d5/de3/namespacecarla_1_1traffic__manager_1_1CollisionStageConstants.html#aa11b2a8f5077a50fabf69eadaaa6d8c5',1,'carla::traffic_manager::CollisionStageConstants']]],
   ['cross',['cross',['../d5/da0/structcarla_1_1opendrive_1_1parser_1_1LateralProfile.html#a30c5ebd0c58ab327aa46a2836108c7c3',1,'carla::opendrive::parser::LateralProfile']]],
   ['cu',['cU',['../d1/d76/structcarla_1_1opendrive_1_1parser_1_1GeometryParamPoly3.html#a882a60eec41c836b38b659dc1fea793e',1,'carla::opendrive::parser::GeometryParamPoly3']]],
+  ['current_5ftimestamp',['current_timestamp',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a437d3a4540a6e65b21b6f9ded3870d03',1,'carla::traffic_manager::LocalizationStage']]],
   ['currentepisode',['CurrentEpisode',['../dc/d49/classFCarlaEngine.html#a9761e58dcf4b7664bfe4e8a1c7835975',1,'FCarlaEngine']]],
   ['currentfilename',['CurrentFileName',['../d7/d1e/classUCarlaSettings.html#aa017a020633e2d040f9f491d7d0fc5bf',1,'UCarlaSettings']]],
   ['currentgeoreference',['CurrentGeoReference',['../d0/dc3/classAGnssSensor.html#a095fb56e74983371bb0468f9c1101aa9',1,'AGnssSensor']]],

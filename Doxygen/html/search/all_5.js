@@ -9,6 +9,7 @@ var searchData=
   ['ecityobjectlabel',['ECityObjectLabel',['../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0',1,'Tagger.h']]],
   ['eintersectiontype',['EIntersectionType',['../d2/de5/namespaceMapGen.html#a3dab4b218910e62b79f0d98c7895c92a',1,'MapGen']]],
   ['elapsed',['Elapsed',['../d9/df8/structCarlaRecorderFrame.html#a62e8279f2052fcda2c90dfab4dfbe82b',1,'CarlaRecorderFrame']]],
+  ['elapsed_5flast_5factor_5fdestruction',['elapsed_last_actor_destruction',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#af694229cad1a3475120879245e84ed8c',1,'carla::traffic_manager::LocalizationStage']]],
   ['elapsed_5fseconds',['elapsed_seconds',['../df/d2c/classcarla_1_1client_1_1Timestamp.html#ae2032e248bea80b4982df3b226631779',1,'carla::client::Timestamp']]],
   ['elapsed_5ftime',['elapsed_time',['../d0/d6d/structcarla_1_1sensor_1_1data_1_1detail_1_1TrafficLightData.html#a0a81ac90591f2c60755e10f8c5dbc32d',1,'carla::sensor::data::detail::TrafficLightData']]],
   ['elapsedgametime',['ElapsedGameTime',['../dc/d84/classUCarlaEpisode.html#af5c4fba411cc61b4175d516902728168',1,'UCarlaEpisode']]],

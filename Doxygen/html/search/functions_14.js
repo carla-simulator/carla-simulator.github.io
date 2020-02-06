@@ -28,6 +28,7 @@ var searchData=
   ['update_5fcurrent_5fproducer_5fafter_5frotation',['update_current_producer_after_rotation',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a28714fc92138059523f3376af2f41572',1,'moodycamel::ConcurrentQueue']]],
   ['updatecrowd',['UpdateCrowd',['../d9/dc2/classcarla_1_1nav_1_1Navigation.html#a080cc11c843ef94c29a1537b2af62091',1,'carla::nav::Navigation']]],
   ['updategridposition',['UpdateGridPosition',['../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#a4934fa9c7b0409e9c719125003671bfc',1,'carla::traffic_manager::TrackTraffic']]],
+  ['updateidletime',['UpdateIdleTime',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#ab03e1973d84469a29fb6f040e61e54cd',1,'carla::traffic_manager::LocalizationStage']]],
   ['updatemap',['UpdateMap',['../d1/ddb/classACityMapGenerator.html#a5ad53319596101e96076a12eab41b9c1',1,'ACityMapGenerator::UpdateMap()'],['../da/d1a/classACityMapMeshHolder.html#a70d8a7d221376c2781cefd0205f3b39a',1,'ACityMapMeshHolder::UpdateMap()']]],
   ['updatemapscale',['UpdateMapScale',['../da/d1a/classACityMapMeshHolder.html#acea07429098292a4bad0105cd4220b00',1,'ACityMapMeshHolder']]],
   ['updatepassingvehicle',['UpdatePassingVehicle',['../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#a00e9170a04217225fce8d48a596f31a6',1,'carla::traffic_manager::TrackTraffic']]],
