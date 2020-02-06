@@ -113,6 +113,7 @@ var searchData=
   ['create',['create',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a989e90a8f0750c5ebce6f0be9cda584f',1,'moodycamel::ConcurrentQueue::create()'],['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a5fba26cbc20a4e9e38ed609a557f2a78',1,'moodycamel::ConcurrentQueue::create(A1 &amp;&amp;a1)'],['../dc/d16/structxml__stream__chunk.html#a92cffe33c529ff266329fd4afb59226d',1,'xml_stream_chunk::create()'],['../d1/d95/structxpath__query__impl.html#afcf45bb9a20a4117b1e963d83277aa7f',1,'xpath_query_impl::create()']]],
   ['create_5farray',['create_array',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a19c3657a5c77c1851a9ffdc1d9d59175',1,'moodycamel::ConcurrentQueue']]],
   ['createcrowd',['CreateCrowd',['../d9/dc2/classcarla_1_1nav_1_1Navigation.html#ae8bd3bb45077603e908d8608cba9f3be',1,'carla::nav::Navigation']]],
+  ['createjunctionboundingboxes',['CreateJunctionBoundingBoxes',['../de/d16/classcarla_1_1road_1_1MapBuilder.html#ab0d9fe008defb1501769cf62f8cadf14',1,'carla::road::MapBuilder']]],
   ['createlaneaccess',['CreateLaneAccess',['../de/d16/classcarla_1_1road_1_1MapBuilder.html#a514a195a88e36e8611fe69ca4ccd2c63',1,'carla::road::MapBuilder']]],
   ['createlaneborder',['CreateLaneBorder',['../de/d16/classcarla_1_1road_1_1MapBuilder.html#a611de6c7856168347fddf40228704128',1,'carla::road::MapBuilder']]],
   ['createlaneheight',['CreateLaneHeight',['../de/d16/classcarla_1_1road_1_1MapBuilder.html#a563fe0c1c965d2f01f10d4ba1aa55b9e',1,'carla::road::MapBuilder']]],

@@ -95,6 +95,7 @@ var searchData=
   ['concurrentqueue_2eh',['ConcurrentQueue.h',['../de/dad/ConcurrentQueue_8h.html',1,'']]],
   ['const_2eh',['const.h',['../da/d5a/const_8h.html',1,'']]],
   ['cubicpolynomial_2eh',['CubicPolynomial.h',['../db/dee/CubicPolynomial_8h.html',1,'']]],
+  ['junction_2eh',['Junction.h',['../dd/d55/client_2Junction_8h.html',1,'']]],
   ['map_2ecpp',['Map.cpp',['../db/da0/client_2Map_8cpp.html',1,'']]],
   ['map_2eh',['Map.h',['../d4/d9d/client_2Map_8h.html',1,'']]],
   ['waypoint_2ecpp',['Waypoint.cpp',['../d7/def/client_2Waypoint_8cpp.html',1,'']]],

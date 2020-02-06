@@ -12,7 +12,7 @@ var searchData=
   ['next_5fattribute',['next_attribute',['../de/d7c/classpugi_1_1xml__attribute.html#a71b0ee33f833781a94d6d35adfc0daac',1,'pugi::xml_attribute']]],
   ['next_5fprod',['next_prod',['../d4/dea/structmoodycamel_1_1ConcurrentQueue_1_1ProducerBase.html#a66aadc10243bf60c5e5d11a5e813c034',1,'moodycamel::ConcurrentQueue::ProducerBase']]],
   ['next_5fsibling',['next_sibling',['../db/d65/classpugi_1_1xml__node.html#a713159ab981fb3f0a325434106dc94f5',1,'pugi::xml_node::next_sibling() const '],['../db/d65/classpugi_1_1xml__node.html#a51a25d1e6f2315b65a1f969126cbc612',1,'pugi::xml_node::next_sibling(const char_t *name) const ']]],
-  ['node',['node',['../d7/d68/classpugi_1_1xpath__node.html#a5b504b06678b84eedc8467cbd39beb8f',1,'pugi::xpath_node::node()'],['../de/d6b/structMapGen_1_1DoublyConnectedEdgeList_1_1Node.html#a4ce55e4eb93ff9c94f9e550dc12a376b',1,'MapGen::DoublyConnectedEdgeList::Node::Node()']]],
+  ['node',['Node',['../de/d6b/structMapGen_1_1DoublyConnectedEdgeList_1_1Node.html#a4ce55e4eb93ff9c94f9e550dc12a376b',1,'MapGen::DoublyConnectedEdgeList::Node::Node()'],['../d7/d68/classpugi_1_1xpath__node.html#a5b504b06678b84eedc8467cbd39beb8f',1,'pugi::xpath_node::node()']]],
   ['node_5fcopy_5fattribute',['node_copy_attribute',['../db/d20/pugixml_8cpp.html#a1ebf3f9e23bb17f7cc6f4ae26e5abdb8',1,'pugixml.cpp']]],
   ['node_5fcopy_5fcontents',['node_copy_contents',['../db/d20/pugixml_8cpp.html#a2b5c5c36dd22c98e54dbe1d1269f6e9b',1,'pugixml.cpp']]],
   ['node_5fcopy_5fstring',['node_copy_string',['../db/d20/pugixml_8cpp.html#a05e81501deb4a3abe96a3da900711eb6',1,'pugixml.cpp']]],
