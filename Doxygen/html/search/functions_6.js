@@ -51,7 +51,7 @@ var searchData=
   ['freelistnode',['FreeListNode',['../d3/d4d/structmoodycamel_1_1ConcurrentQueue_1_1FreeListNode.html#a51b1a7127e0203be5808e79123155a8c',1,'moodycamel::ConcurrentQueue::FreeListNode']]],
   ['freeze',['Freeze',['../df/def/classcarla_1_1client_1_1TrafficLight.html#ac0c097425de508ca9c7a40287e3bd57d',1,'carla::client::TrafficLight']]],
   ['freezetrafficlight',['FreezeTrafficLight',['../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a714471ebd690516464405a4a7767731b',1,'carla::client::detail::Client::FreezeTrafficLight()'],['../df/df3/classcarla_1_1client_1_1detail_1_1Simulator.html#abda39380bee080b2b14cf2e17b26c6a9',1,'carla::client::detail::Simulator::FreezeTrafficLight()']]],
-  ['fresnl',['fresnl',['../df/dc8/fresnel_8h.html#a1f885f57fccfef6bc340ce6fc45e7111',1,'fresnl(double xxa, double *ssa, double *cca):&#160;fresnl.cpp'],['../dc/d52/fresnl_8cpp.html#a1f885f57fccfef6bc340ce6fc45e7111',1,'fresnl(double xxa, double *ssa, double *cca):&#160;fresnl.cpp']]],
+  ['fresnel',['fresnel',['../d3/db5/odrSpiral_8cpp.html#a73460c02a0fb9a7172fd932c181c883a',1,'odrSpiral.cpp']]],
   ['froadmappixeldata',['FRoadMapPixelData',['../d9/d74/structFRoadMapPixelData.html#ae467c0cbc3fea8a0fe8ad5c88f2264ca',1,'FRoadMapPixelData']]],
   ['from_5fconst',['from_const',['../dd/d5c/classxpath__string.html#a6dce01c6b3a949c3c4c886e6be44931e',1,'xpath_string']]],
   ['from_5fheap',['from_heap',['../dd/d5c/classxpath__string.html#aaf1229b7a7ae918b41bf995df16c8896',1,'xpath_string']]],

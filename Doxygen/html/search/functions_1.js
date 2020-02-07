@@ -41,6 +41,8 @@ var searchData=
   ['addconnection',['AddConnection',['../de/d16/classcarla_1_1road_1_1MapBuilder.html#aca70ccf621b7b40053014478bb934410',1,'carla::road::MapBuilder']]],
   ['adddependency',['AddDependency',['../d4/d4e/classcarla_1_1road_1_1signal_1_1Signal.html#a1fb6ba1e86bbb1b9255fa1e0464ca8d0',1,'carla::road::signal::Signal']]],
   ['adddependencytosignal',['AddDependencyToSignal',['../de/d16/classcarla_1_1road_1_1MapBuilder.html#a0cda5becbf5527ef51f25cd20c2b2bf1',1,'carla::road::MapBuilder']]],
+  ['addelementtortree',['AddElementToRtree',['../d0/d34/classcarla_1_1road_1_1Map.html#adbe392014331d03ee16e479c94088e6b',1,'carla::road::Map']]],
+  ['addelementtortreeandupdatetransforms',['AddElementToRtreeAndUpdateTransforms',['../d0/d34/classcarla_1_1road_1_1Map.html#a36af7faea3211dab99511c59e06c52c2',1,'carla::road::Map']]],
   ['addentry',['AddEntry',['../d7/d02/classcarla_1_1traffic__manager_1_1AtomicMap.html#aca33e055f34df3291e1e438db4b6ee95',1,'carla::traffic_manager::AtomicMap']]],
   ['addevent',['AddEvent',['../dd/db9/classACarlaRecorder.html#a2565ab46b0e9395dd1eec1922d7f0034',1,'ACarlaRecorder::AddEvent(const CarlaRecorderEventAdd &amp;Event)'],['../dd/db9/classACarlaRecorder.html#a88cc04ec0402029d125cf9c34cae507f',1,'ACarlaRecorder::AddEvent(const CarlaRecorderEventDel &amp;Event)'],['../dd/db9/classACarlaRecorder.html#af8570714f3e6052b4789fb951430ff33',1,'ACarlaRecorder::AddEvent(const CarlaRecorderEventParent &amp;Event)']]],
   ['addexistingactors',['AddExistingActors',['../dd/db9/classACarlaRecorder.html#a820569404a522e28f6c4d3d638712214',1,'ACarlaRecorder']]],

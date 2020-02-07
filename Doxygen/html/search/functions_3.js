@@ -129,6 +129,7 @@ var searchData=
   ['createroadmark',['CreateRoadMark',['../de/d16/classcarla_1_1road_1_1MapBuilder.html#ad4f4ecd2bf090c849e743302db8fde85',1,'carla::road::MapBuilder']]],
   ['createroadmarktypeline',['CreateRoadMarkTypeLine',['../de/d16/classcarla_1_1road_1_1MapBuilder.html#aa724a828b0aca026efbdc65855ee23c0',1,'carla::road::MapBuilder']]],
   ['createroadspeed',['CreateRoadSpeed',['../de/d16/classcarla_1_1road_1_1MapBuilder.html#a290e593d53d5a58895c542e3db1012f6',1,'carla::road::MapBuilder']]],
+  ['creatertree',['CreateRtree',['../d0/d34/classcarla_1_1road_1_1Map.html#ad30ed42bc1a8089df7d63ec8cdfa3e72',1,'carla::road::Map']]],
   ['createsectionoffset',['CreateSectionOffset',['../de/d16/classcarla_1_1road_1_1MapBuilder.html#a42bde86ce9e8116ad27afcf8a10cc839',1,'carla::road::MapBuilder']]],
   ['createthread',['CreateThread',['../db/d71/classcarla_1_1ThreadGroup.html#acc9d822c4e73247c9565e3c089debf4a',1,'carla::ThreadGroup']]],
   ['createthreads',['CreateThreads',['../db/d71/classcarla_1_1ThreadGroup.html#a7c76ec6db944947c149985627442434b',1,'carla::ThreadGroup']]],

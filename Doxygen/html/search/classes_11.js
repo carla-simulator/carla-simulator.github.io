@@ -1,5 +1,8 @@
 var searchData=
 [
+  ['segmentcloudrtree',['SegmentCloudRtree',['../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html',1,'carla::geom']]],
+  ['segmentcloudrtree_3c_20rtreevalue_2c_201_20_3e',['SegmentCloudRtree&lt; RtreeValue, 1 &gt;',['../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html',1,'carla::geom']]],
+  ['segmentcloudrtree_3c_20waypoint_20_3e',['SegmentCloudRtree&lt; Waypoint &gt;',['../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html',1,'carla::geom']]],
   ['sensor',['Sensor',['../da/dec/classcarla_1_1client_1_1Sensor.html',1,'carla::client']]],
   ['sensordata',['SensorData',['../df/d8c/classcarla_1_1sensor_1_1SensorData.html',1,'carla::sensor']]],
   ['sensorheaderserializer',['SensorHeaderSerializer',['../dc/df4/classcarla_1_1sensor_1_1s11n_1_1SensorHeaderSerializer.html',1,'carla::sensor::s11n']]],
