@@ -10,6 +10,7 @@ var searchData=
   ['carla_5fsettings_5fmax_5fscale_5fsize',['CARLA_SETTINGS_MAX_SCALE_SIZE',['../d1/d4c/CarlaSettingsDelegate_8cpp.html#a7d5da632012cbf6214780839b2a187c2',1,'CarlaSettingsDelegate.cpp']]],
   ['carla_5fsky_5ftag',['CARLA_SKY_TAG',['../d7/d1e/classUCarlaSettings.html#a7c6795cda63d59315b16929f19259c6c',1,'UCarlaSettings']]],
   ['carlaengine',['CarlaEngine',['../da/d55/classUCarlaGameInstance.html#adb9dce381ca79f5df352ff31ba16a074',1,'UCarlaGameInstance']]],
+  ['carlamap',['CarlaMap',['../d1/db0/classAOpenDriveGenerator.html#a5b3aebeff980f0c8b9a53f28bb6de861',1,'AOpenDriveGenerator']]],
   ['carlanorthvector',['CarlaNorthVector',['../d5/de0/classAInertialMeasurementUnit.html#a9b1a412c36a141f7632c6b4783238ff2',1,'AInertialMeasurementUnit']]],
   ['carlarecorderhelperbuffer',['CarlaRecorderHelperBuffer',['../d6/d51/CarlaRecorderHelpers_8cpp.html#a34e366c404d9ce545d5e12322f471cbf',1,'CarlaRecorderHelpers.cpp']]],
   ['carlasettings',['CarlaSettings',['../da/d55/classUCarlaGameInstance.html#af9d1c3e6c06091fe58d8987539a126ce',1,'UCarlaGameInstance::CarlaSettings()'],['../d4/d74/classUCarlaSettingsDelegate.html#a3fae2ea30ba6f4cb1afedc56c0dcd455',1,'UCarlaSettingsDelegate::CarlaSettings()']]],

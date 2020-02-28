@@ -103,6 +103,7 @@ var searchData=
   ['utf8_5fdecoder',['utf8_decoder',['../dd/d1e/structutf8__decoder.html',1,'']]],
   ['utf8_5fwriter',['utf8_writer',['../dd/d5e/structutf8__writer.html',1,'']]],
   ['util',['util',['../d6/d72/namespaceutil.html',1,'']]],
+  ['uv_5ftype',['uv_type',['../d0/d02/classcarla_1_1geom_1_1Mesh.html#af19d40dfd23df79bd7bc596ed959685d',1,'carla::geom::Mesh']]],
   ['vehiclecontrol_2eh',['VehicleControl.h',['../d4/dbd/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehicleControl_8h.html',1,'']]],
   ['vehiclelightstate_2eh',['VehicleLightState.h',['../d6/d6c/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehicleLightState_8h.html',1,'']]],
   ['vehiclephysicscontrol_2eh',['VehiclePhysicsControl.h',['../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h.html',1,'']]],
