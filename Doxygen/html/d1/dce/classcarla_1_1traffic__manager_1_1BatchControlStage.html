@@ -79,7 +79,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>This class receives actuation signals (throttle, brake, steer) from <a class="el" href="../../da/d5d/classcarla_1_1traffic__manager_1_1MotionPlannerStage.html" title="The class is responsible for aggregating information from various stages like the localization stage...">MotionPlannerStage</a> class and communicates these signals to the simulator in batches to control vehicles' movement.  
+<p>This class receives actuation signals (throttle, brake, steer) from Motion Planner Stage class and communicates these signals to the simulator in batches to control vehicles' movement.  
  <a href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>&gt;</code></p>
@@ -105,19 +105,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae43c432c00bcb182f9034f96d5ad956a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#ae43c432c00bcb182f9034f96d5ad956a">Action</a> () override</td></tr>
 <tr class="memdesc:ae43c432c00bcb182f9034f96d5ad956a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implement this method with logic to process data inside the stage.  <a href="#ae43c432c00bcb182f9034f96d5ad956a">More...</a><br /></td></tr>
 <tr class="separator:ae43c432c00bcb182f9034f96d5ad956a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d023c3d2ba94f8885d0acc69c02113d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#a4d023c3d2ba94f8885d0acc69c02113d">BatchControlStage</a> (std::string <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a3c29cf3b76cfa72055c17f3bf57784a1">stage_name</a>, std::shared_ptr&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a19e5ab0b05024734b43ac619bdd17ed9">PlannerToControlMessenger</a> &gt; <a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#af3f41d6c1e1bfd9a65d5f207dece85f2">messenger</a>, <a class="el" href="../../d6/d8c/classcarla_1_1client_1_1Client.html">cc::Client</a> &amp;<a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#af04e029b546ae5558f8fabf74e476672">carla_client</a>)</td></tr>
-<tr class="separator:a4d023c3d2ba94f8885d0acc69c02113d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac03608983560f770d57d7189f7fb6c0d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#ac03608983560f770d57d7189f7fb6c0d">BatchControlStage</a> (std::string <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a3c29cf3b76cfa72055c17f3bf57784a1">stage_name</a>, std::shared_ptr&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a19e5ab0b05024734b43ac619bdd17ed9">PlannerToControlMessenger</a> &gt; <a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#af3f41d6c1e1bfd9a65d5f207dece85f2">messenger</a>, <a class="el" href="../../d8/dcd/namespacecarla_1_1client_1_1detail.html#a73fc4fabc24f68be175250c73e1da2fc">carla::client::detail::EpisodeProxy</a> &amp;episode_proxy, <a class="el" href="../../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html">Parameters</a> &amp;<a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#a47e92b18b365552d262e7c14cf445c98">parameters</a>)</td></tr>
+<tr class="separator:ac03608983560f770d57d7189f7fb6c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c5e31ccdcbcb00ec005db72c5fce107"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#a6c5e31ccdcbcb00ec005db72c5fce107">DataReceiver</a> () override</td></tr>
 <tr class="memdesc:a6c5e31ccdcbcb00ec005db72c5fce107"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implement this method with the logic to receive data from the previous stage(s) and distribute to <a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#ae43c432c00bcb182f9034f96d5ad956a" title="Implement this method with logic to process data inside the stage. ">Action()</a> threads.  <a href="#a6c5e31ccdcbcb00ec005db72c5fce107">More...</a><br /></td></tr>
 <tr class="separator:a6c5e31ccdcbcb00ec005db72c5fce107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3bf2f1b6a2f5d8b6b4c5781e8c881cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#aa3bf2f1b6a2f5d8b6b4c5781e8c881cb">DataSender</a> () override</td></tr>
 <tr class="memdesc:aa3bf2f1b6a2f5d8b6b4c5781e8c881cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implement this method with logic to gather results from the action threads and send to next stage(s).  <a href="#aa3bf2f1b6a2f5d8b6b4c5781e8c881cb">More...</a><br /></td></tr>
 <tr class="separator:aa3bf2f1b6a2f5d8b6b4c5781e8c881cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41f480f2c21503de6312994e674673a9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#a41f480f2c21503de6312994e674673a9">RunStep</a> ()</td></tr>
+<tr class="separator:a41f480f2c21503de6312994e674673a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08ea2bdbecd1303a3ea9bd289c2284fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#a08ea2bdbecd1303a3ea9bd289c2284fc">~BatchControlStage</a> ()</td></tr>
 <tr class="separator:a08ea2bdbecd1303a3ea9bd289c2284fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html">carla::traffic_manager::PipelineStage</a></td></tr>
-<tr class="memitem:a7912caf05d288f6838675bb7c19dfb24 inherit pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a7912caf05d288f6838675bb7c19dfb24">PipelineStage</a> (std::string <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a3c29cf3b76cfa72055c17f3bf57784a1">stage_name</a>)</td></tr>
-<tr class="separator:a7912caf05d288f6838675bb7c19dfb24 inherit pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed4290c25b630328b2638f90079909f1 inherit pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#aed4290c25b630328b2638f90079909f1">PipelineStage</a> (const std::string &amp;<a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a3c29cf3b76cfa72055c17f3bf57784a1">stage_name</a>)</td></tr>
+<tr class="separator:aed4290c25b630328b2638f90079909f1 inherit pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99238e14ff431e20f2a4cf020214e8c9 inherit pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a99238e14ff431e20f2a4cf020214e8c9">Start</a> ()</td></tr>
 <tr class="separator:a99238e14ff431e20f2a4cf020214e8c9 inherit pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc93d41c331c2b40b5e3d863edb992e6 inherit pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#abc93d41c331c2b40b5e3d863edb992e6">Stop</a> ()</td></tr>
@@ -127,31 +129,50 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:af04e029b546ae5558f8fabf74e476672"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d8c/classcarla_1_1client_1_1Client.html">cc::Client</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#af04e029b546ae5558f8fabf74e476672">carla_client</a></td></tr>
-<tr class="memdesc:af04e029b546ae5558f8fabf74e476672"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to carla client connection object.  <a href="#af04e029b546ae5558f8fabf74e476672">More...</a><br /></td></tr>
-<tr class="separator:af04e029b546ae5558f8fabf74e476672"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49ca0263715c380363d8f2bd1c24822d"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; std::vector&lt; <a class="el" href="../../dd/d90/classcarla_1_1rpc_1_1Command.html">cr::Command</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#a49ca0263715c380363d8f2bd1c24822d">commands</a></td></tr>
-<tr class="memdesc:a49ca0263715c380363d8f2bd1c24822d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array to hold command batch.  <a href="#a49ca0263715c380363d8f2bd1c24822d">More...</a><br /></td></tr>
-<tr class="separator:a49ca0263715c380363d8f2bd1c24822d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9064d2a5c51461bcc36116ce6fd0e3bf"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; std::vector&lt; <a class="el" href="../../dd/d90/classcarla_1_1rpc_1_1Command.html">carla::rpc::Command</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#a9064d2a5c51461bcc36116ce6fd0e3bf">commands</a></td></tr>
+<tr class="memdesc:a9064d2a5c51461bcc36116ce6fd0e3bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array to hold command batch.  <a href="#a9064d2a5c51461bcc36116ce6fd0e3bf">More...</a><br /></td></tr>
+<tr class="separator:a9064d2a5c51461bcc36116ce6fd0e3bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfbdd436c5e3e84725d0d4aa76a593cc"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aad27efad03e397d0d0172b1e981193ae">PlannerToControlFrame</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#adfbdd436c5e3e84725d0d4aa76a593cc">data_frame</a></td></tr>
-<tr class="memdesc:adfbdd436c5e3e84725d0d4aa76a593cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to frame received from MotionPlanner.  <a href="#adfbdd436c5e3e84725d0d4aa76a593cc">More...</a><br /></td></tr>
+<tr class="memdesc:adfbdd436c5e3e84725d0d4aa76a593cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to frame received from Motion Planner.  <a href="#adfbdd436c5e3e84725d0d4aa76a593cc">More...</a><br /></td></tr>
 <tr class="separator:adfbdd436c5e3e84725d0d4aa76a593cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca815918bdf7f26c5d70c25670a013e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dcd/namespacecarla_1_1client_1_1detail.html#a73fc4fabc24f68be175250c73e1da2fc">carla::client::detail::EpisodeProxy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#aca815918bdf7f26c5d70c25670a013e3">episode_proxy_bcs</a></td></tr>
+<tr class="memdesc:aca815918bdf7f26c5d70c25670a013e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to CARLA client connection object.  <a href="#aca815918bdf7f26c5d70c25670a013e3">More...</a><br /></td></tr>
+<tr class="separator:aca815918bdf7f26c5d70c25670a013e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3f41d6c1e1bfd9a65d5f207dece85f2"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a19e5ab0b05024734b43ac619bdd17ed9">PlannerToControlMessenger</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#af3f41d6c1e1bfd9a65d5f207dece85f2">messenger</a></td></tr>
-<tr class="memdesc:af3f41d6c1e1bfd9a65d5f207dece85f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to a messenger from MotionPlanner.  <a href="#af3f41d6c1e1bfd9a65d5f207dece85f2">More...</a><br /></td></tr>
+<tr class="memdesc:af3f41d6c1e1bfd9a65d5f207dece85f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to a messenger from Motion Planner.  <a href="#af3f41d6c1e1bfd9a65d5f207dece85f2">More...</a><br /></td></tr>
 <tr class="separator:af3f41d6c1e1bfd9a65d5f207dece85f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ef4a68850834afec9584360d78c9d61"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#a3ef4a68850834afec9584360d78c9d61">number_of_vehicles</a></td></tr>
 <tr class="memdesc:a3ef4a68850834afec9584360d78c9d61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of vehicles registered with the traffic manager.  <a href="#a3ef4a68850834afec9584360d78c9d61">More...</a><br /></td></tr>
 <tr class="separator:a3ef4a68850834afec9584360d78c9d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47e92b18b365552d262e7c14cf445c98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html">Parameters</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#a47e92b18b365552d262e7c14cf445c98">parameters</a></td></tr>
+<tr class="memdesc:a47e92b18b365552d262e7c14cf445c98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter object for changing synchronous behaviour.  <a href="#a47e92b18b365552d262e7c14cf445c98">More...</a><br /></td></tr>
+<tr class="separator:a47e92b18b365552d262e7c14cf445c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb25a31ec15de83c7c9af55aa275e0a1"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#acb25a31ec15de83c7c9af55aa275e0a1">run_step</a></td></tr>
+<tr class="memdesc:acb25a31ec15de83c7c9af55aa275e0a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Step runner flag.  <a href="#acb25a31ec15de83c7c9af55aa275e0a1">More...</a><br /></td></tr>
+<tr class="separator:acb25a31ec15de83c7c9af55aa275e0a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c7eaa4fdfe8e77cee1a385c357499aa"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#a0c7eaa4fdfe8e77cee1a385c357499aa">step_execution_mutex</a></td></tr>
+<tr class="memdesc:a0c7eaa4fdfe8e77cee1a385c357499aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex for progressing synchronous execution.  <a href="#a0c7eaa4fdfe8e77cee1a385c357499aa">More...</a><br /></td></tr>
+<tr class="separator:a0c7eaa4fdfe8e77cee1a385c357499aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52d9e735126286cb24c0b9ad24a99200"><td class="memItemLeft" align="right" valign="top">std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#a52d9e735126286cb24c0b9ad24a99200">step_execution_notifier</a></td></tr>
+<tr class="memdesc:a52d9e735126286cb24c0b9ad24a99200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Condition variables for progressing synchronous execution.  <a href="#a52d9e735126286cb24c0b9ad24a99200">More...</a><br /></td></tr>
+<tr class="separator:a52d9e735126286cb24c0b9ad24a99200"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classcarla_1_1traffic__manager_1_1PipelineStage"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classcarla_1_1traffic__manager_1_1PipelineStage')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html">carla::traffic_manager::PipelineStage</a></td></tr>
+<tr class="memitem:ab915ed0001d4d196b43f76916c4274dc inherit pro_attribs_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#ab915ed0001d4d196b43f76916c4274dc">run_stage</a></td></tr>
+<tr class="memdesc:ab915ed0001d4d196b43f76916c4274dc inherit pro_attribs_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to start/stop stage.  <a href="#ab915ed0001d4d196b43f76916c4274dc">More...</a><br /></td></tr>
+<tr class="separator:ab915ed0001d4d196b43f76916c4274dc inherit pro_attribs_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c29cf3b76cfa72055c17f3bf57784a1 inherit pro_attribs_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a3c29cf3b76cfa72055c17f3bf57784a1">stage_name</a></td></tr>
+<tr class="memdesc:a3c29cf3b76cfa72055c17f3bf57784a1 inherit pro_attribs_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stage name string.  <a href="#a3c29cf3b76cfa72055c17f3bf57784a1">More...</a><br /></td></tr>
+<tr class="separator:a3c29cf3b76cfa72055c17f3bf57784a1 inherit pro_attribs_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This class receives actuation signals (throttle, brake, steer) from <a class="el" href="../../da/d5d/classcarla_1_1traffic__manager_1_1MotionPlannerStage.html" title="The class is responsible for aggregating information from various stages like the localization stage...">MotionPlannerStage</a> class and communicates these signals to the simulator in batches to control vehicles' movement. </p>
+<div class="textblock"><p>This class receives actuation signals (throttle, brake, steer) from Motion Planner Stage class and communicates these signals to the simulator in batches to control vehicles' movement. </p>
 
-<p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00029">29</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00033">33</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a4d023c3d2ba94f8885d0acc69c02113d"></a>
+<a class="anchor" id="ac03608983560f770d57d7189f7fb6c0d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -170,8 +191,14 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d6/d8c/classcarla_1_1client_1_1Client.html">cc::Client</a> &amp;&#160;</td>
-          <td class="paramname"><em>carla_client</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d8/dcd/namespacecarla_1_1client_1_1detail.html#a73fc4fabc24f68be175250c73e1da2fc">carla::client::detail::EpisodeProxy</a> &amp;&#160;</td>
+          <td class="paramname"><em>episode_proxy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html">Parameters</a> &amp;&#160;</td>
+          <td class="paramname"><em>parameters</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -183,7 +210,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00012">12</a> of file <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html">BatchControlStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00042">number_of_vehicles</a>.</p>
+<p>References <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00046">number_of_vehicles</a>.</p>
 
 </div>
 </div>
@@ -200,7 +227,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00024">24</a> of file <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html">BatchControlStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00026">26</a> of file <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html">BatchControlStage.cpp</a>.</p>
 
 </div>
 </div>
@@ -230,9 +257,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#adf3c82a4f0202967d62f0cfa91a39a10">carla::traffic_manager::PipelineStage</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00026">26</a> of file <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html">BatchControlStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00028">28</a> of file <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html">BatchControlStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00047">carla::traffic_manager::PlannerToControlData::actor</a>, <a class="el" href="../../dd/d28/LibCarla_2source_2carla_2rpc_2VehicleControl_8h_source.html#l00041">carla::rpc::VehicleControl::brake</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00049">carla::traffic_manager::PlannerToControlData::brake</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00040">commands</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00034">data_frame</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00042">number_of_vehicles</a>, <a class="el" href="../../dd/d28/LibCarla_2source_2carla_2rpc_2VehicleControl_8h_source.html#l00040">carla::rpc::VehicleControl::steer</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00050">carla::traffic_manager::PlannerToControlData::steer</a>, <a class="el" href="../../dd/d28/LibCarla_2source_2carla_2rpc_2VehicleControl_8h_source.html#l00039">carla::rpc::VehicleControl::throttle</a>, and <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00048">carla::traffic_manager::PlannerToControlData::throttle</a>.</p>
+<p>References <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00047">carla::traffic_manager::PlannerToControlData::actor</a>, <a class="el" href="../../dd/d28/LibCarla_2source_2carla_2rpc_2VehicleControl_8h_source.html#l00041">carla::rpc::VehicleControl::brake</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00049">carla::traffic_manager::PlannerToControlData::brake</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00044">commands</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00038">data_frame</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00046">number_of_vehicles</a>, <a class="el" href="../../dd/d28/LibCarla_2source_2carla_2rpc_2VehicleControl_8h_source.html#l00040">carla::rpc::VehicleControl::steer</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00050">carla::traffic_manager::PlannerToControlData::steer</a>, <a class="el" href="../../dd/d28/LibCarla_2source_2carla_2rpc_2VehicleControl_8h_source.html#l00039">carla::rpc::VehicleControl::throttle</a>, and <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00048">carla::traffic_manager::PlannerToControlData::throttle</a>.</p>
 
 </div>
 </div>
@@ -261,9 +288,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#ad86aba2b70fb683acdc32460146fd2b5">carla::traffic_manager::PipelineStage</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html">BatchControlStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00049">49</a> of file <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html">BatchControlStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00040">commands</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00034">data_frame</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00036">messenger</a>, and <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00042">number_of_vehicles</a>.</p>
+<p>References <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00044">commands</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00038">data_frame</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00040">messenger</a>, and <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00046">number_of_vehicles</a>.</p>
 
 </div>
 </div>
@@ -292,50 +319,43 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#ac2eb821bdf48b71f7319eab62ea81994">carla::traffic_manager::PipelineStage</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00062">62</a> of file <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html">BatchControlStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00063">63</a> of file <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html">BatchControlStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00099">carla::client::Client::ApplyBatch()</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00038">carla_client</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00040">commands</a>, and <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00036">messenger</a>.</p>
+<p>References <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00044">commands</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00042">episode_proxy_bcs</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00082">carla::traffic_manager::Parameters::GetSynchronousMode()</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00090">carla::traffic_manager::Parameters::GetSynchronousModeTimeOutInMiliSecond()</a>, <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00040">messenger</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00048">parameters</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00050">run_step</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00052">step_execution_mutex</a>, and <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00054">step_execution_notifier</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage_aa3bf2f1b6a2f5d8b6b4c5781e8c881cb_cgraph.svg" width="407" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage_aa3bf2f1b6a2f5d8b6b4c5781e8c881cb_cgraph.svg" width="100%" height="464"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="af04e029b546ae5558f8fabf74e476672"></a>
+<a class="anchor" id="a41f480f2c21503de6312994e674673a9"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d8c/classcarla_1_1client_1_1Client.html">cc::Client</a>&amp; carla::traffic_manager::BatchControlStage::carla_client</td>
+          <td class="memname">bool carla::traffic_manager::BatchControlStage::RunStep </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Reference to carla client connection object. </p>
+<p>Definition at line <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00087">87</a> of file <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html">BatchControlStage.cpp</a>.</p>
 
-<p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00038">38</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00062">DataSender()</a>.</p>
+<p>References <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00050">run_step</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a49ca0263715c380363d8f2bd1c24822d"></a>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a9064d2a5c51461bcc36116ce6fd0e3bf"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -343,7 +363,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;std::vector&lt;<a class="el" href="../../dd/d90/classcarla_1_1rpc_1_1Command.html">cr::Command</a>&gt; &gt; carla::traffic_manager::BatchControlStage::commands</td>
+          <td class="memname">std::shared_ptr&lt;std::vector&lt;<a class="el" href="../../dd/d90/classcarla_1_1rpc_1_1Command.html">carla::rpc::Command</a>&gt; &gt; carla::traffic_manager::BatchControlStage::commands</td>
         </tr>
       </table>
   </td>
@@ -355,9 +375,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Array to hold command batch. </p>
 
-<p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00040">40</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00044">44</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00026">Action()</a>, <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00047">DataReceiver()</a>, and <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00062">DataSender()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00028">Action()</a>, <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00049">DataReceiver()</a>, and <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00063">DataSender()</a>.</p>
 
 </div>
 </div>
@@ -379,11 +399,37 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Pointer to frame received from MotionPlanner. </p>
+<p>Pointer to frame received from Motion Planner. </p>
 
-<p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00034">34</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00038">38</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00026">Action()</a>, and <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00047">DataReceiver()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00028">Action()</a>, and <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00049">DataReceiver()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aca815918bdf7f26c5d70c25670a013e3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/dcd/namespacecarla_1_1client_1_1detail.html#a73fc4fabc24f68be175250c73e1da2fc">carla::client::detail::EpisodeProxy</a> carla::traffic_manager::BatchControlStage::episode_proxy_bcs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reference to CARLA client connection object. </p>
+
+<p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00042">42</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00063">DataSender()</a>.</p>
 
 </div>
 </div>
@@ -405,11 +451,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Pointer to a messenger from MotionPlanner. </p>
+<p>Pointer to a messenger from Motion Planner. </p>
 
-<p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00036">36</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00040">40</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00047">DataReceiver()</a>, and <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00062">DataSender()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00049">DataReceiver()</a>, and <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00063">DataSender()</a>.</p>
 
 </div>
 </div>
@@ -433,9 +479,113 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Number of vehicles registered with the traffic manager. </p>
 
-<p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00042">42</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00046">46</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00026">Action()</a>, <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00012">BatchControlStage()</a>, and <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00047">DataReceiver()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00028">Action()</a>, <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00012">BatchControlStage()</a>, and <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00049">DataReceiver()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a47e92b18b365552d262e7c14cf445c98"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html">Parameters</a>&amp; carla::traffic_manager::BatchControlStage::parameters</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Parameter object for changing synchronous behaviour. </p>
+
+<p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00048">48</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00063">DataSender()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acb25a31ec15de83c7c9af55aa275e0a1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;bool&gt; carla::traffic_manager::BatchControlStage::run_step</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Step runner flag. </p>
+
+<p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00050">50</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00063">DataSender()</a>, and <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00087">RunStep()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0c7eaa4fdfe8e77cee1a385c357499aa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex carla::traffic_manager::BatchControlStage::step_execution_mutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mutex for progressing synchronous execution. </p>
+
+<p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00052">52</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00063">DataSender()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a52d9e735126286cb24c0b9ad24a99200"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::condition_variable carla::traffic_manager::BatchControlStage::step_execution_notifier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Condition variables for progressing synchronous execution. </p>
+
+<p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00054">54</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00063">DataSender()</a>.</p>
 
 </div>
 </div>
