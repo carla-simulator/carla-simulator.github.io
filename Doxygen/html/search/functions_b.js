@@ -1,10 +1,13 @@
 var searchData=
 [
+  ['landmark',['Landmark',['../d3/dc1/classcarla_1_1client_1_1Landmark.html#a7de1f0b85041276600dc9a054cf9709a',1,'carla::client::Landmark']]],
   ['lane',['Lane',['../df/d85/classcarla_1_1road_1_1Lane.html#a468cd3a050f0b5dc2d4a96c2473317d9',1,'carla::road::Lane::Lane()=default'],['../df/d85/classcarla_1_1road_1_1Lane.html#a4bf9b3696e239c0fffc00c5bb785ad9f',1,'carla::road::Lane::Lane(LaneSection *lane_section, LaneId id, std::vector&lt; std::unique_ptr&lt; element::RoadInfo &gt;&gt; &amp;&amp;info)']]],
   ['laneinvasioncallback',['LaneInvasionCallback',['../d8/d64/classcarla_1_1client_1_1LaneInvasionCallback.html#ae04faaaa037610c4d0052acefef9bb1a',1,'carla::client::LaneInvasionCallback']]],
   ['laneinvasionevent',['LaneInvasionEvent',['../de/d3a/classcarla_1_1sensor_1_1data_1_1LaneInvasionEvent.html#a5f54543580632adffa555ce6eb31485f',1,'carla::sensor::data::LaneInvasionEvent']]],
   ['lanemarking',['LaneMarking',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#a4bf4fcc76c064c311ed5e1663419c721',1,'carla::road::element::LaneMarking']]],
   ['lanesection',['LaneSection',['../dd/d80/classcarla_1_1road_1_1LaneSection.html#a8c73b7cdf13416c6f02621555c91e23b',1,'carla::road::LaneSection']]],
+  ['lanesmerging',['LanesMerging',['../da/d1b/classcarla_1_1client_1_1LandmarkType.html#a8fed708482500253f5411e7c85ada1a7',1,'carla::client::LandmarkType']]],
+  ['lanevalidity',['LaneValidity',['../d8/d71/structcarla_1_1road_1_1LaneValidity.html#a6bfaceba02f39f4fc12c6ab0672013bc',1,'carla::road::LaneValidity']]],
   ['last_5fattribute',['last_attribute',['../db/d65/classpugi_1_1xml__node.html#a10695e006b24e726ba313d5554086802',1,'pugi::xml_node']]],
   ['last_5fchild',['last_child',['../db/d65/classpugi_1_1xml__node.html#a076b2868a97458d5abeeec9e6c433244',1,'pugi::xml_node']]],
   ['latlonaddmeters',['LatLonAddMeters',['../dc/dda/namespacecarla_1_1geom.html#ab563ac51c2d53544481217df7e8e6a35',1,'carla::geom']]],
@@ -13,6 +16,7 @@ var searchData=
   ['launchepicqualitycommands',['LaunchEpicQualityCommands',['../d4/d74/classUCarlaSettingsDelegate.html#a415cc645469a67e9f74965d5270c3dc9',1,'UCarlaSettingsDelegate']]],
   ['launchlowqualitycommands',['LaunchLowQualityCommands',['../d4/d74/classUCarlaSettingsDelegate.html#a8fc1ecfe738fa97d174ab6c3c218311d',1,'UCarlaSettingsDelegate']]],
   ['length',['Length',['../d4/d57/classcarla_1_1geom_1_1Vector2D.html#a9517f2b748074147a7e37eed42bbf075',1,'carla::geom::Vector2D::Length()'],['../d9/dfe/classcarla_1_1geom_1_1Vector3D.html#a38fb62af5286d5e41dfdf91ef2f9358f',1,'carla::geom::Vector3D::Length()'],['../dd/d5c/classxpath__string.html#a1238d6fdad0766a21965cfeb668f5a5b',1,'xpath_string::length()']]],
+  ['levelcrossing',['LevelCrossing',['../da/d1b/classcarla_1_1client_1_1LandmarkType.html#adbef9e3c5d60d7fa5fe264cb5265af45',1,'carla::client::LandmarkType']]],
   ['lidarheaderview',['LidarHeaderView',['../d7/dd4/classcarla_1_1sensor_1_1s11n_1_1LidarHeaderView.html#a30fcb270753772ca16caea579a25b1c2',1,'carla::sensor::s11n::LidarHeaderView']]],
   ['lidarmeasurement',['LidarMeasurement',['../df/d8d/classcarla_1_1sensor_1_1data_1_1LidarMeasurement.html#a25f34cfdd75c7f86735f5a57efbd5280',1,'carla::sensor::data::LidarMeasurement::LidarMeasurement()'],['../d0/dce/classcarla_1_1sensor_1_1s11n_1_1LidarMeasurement.html#ad9eb5236fd0840227bbd5ebc0fab811a',1,'carla::sensor::s11n::LidarMeasurement::LidarMeasurement()']]],
   ['lifetimeprofiled',['LifetimeProfiled',['../df/d3e/classcarla_1_1profiler_1_1LifetimeProfiled.html#aa2703a2efb22bbb9d9cff979278bfb05',1,'carla::profiler::LifetimeProfiled']]],

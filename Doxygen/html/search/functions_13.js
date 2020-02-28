@@ -81,5 +81,6 @@ var searchData=
   ['trylock',['TryLock',['../d1/dd3/classcarla_1_1client_1_1detail_1_1EpisodeProxyImpl.html#a57d267dc4db643c6293a21570e838506',1,'carla::client::detail::EpisodeProxyImpl']]],
   ['tryspawnactor',['TrySpawnActor',['../db/d1f/classcarla_1_1client_1_1World.html#a505c7ec38571b8b5b2d8dc8596ced2f4',1,'carla::client::World']]],
   ['trytocreatereplayeractor',['TryToCreateReplayerActor',['../dc/d84/classUCarlaEpisode.html#ae42af22ca23fd6d9d88e36dd789e790b',1,'UCarlaEpisode::TryToCreateReplayerActor()'],['../d8/d27/classCarlaReplayerHelper.html#a1619445f84c94fe5ae691b24d69e916c',1,'CarlaReplayerHelper::TryToCreateReplayerActor()']]],
+  ['twochoiceturndirection',['TwoChoiceTurnDirection',['../da/d1b/classcarla_1_1client_1_1LandmarkType.html#a50655e562b676d499ded8d4a81aec130',1,'carla::client::LandmarkType']]],
   ['type',['type',['../d1/daf/classxpath__node__set__raw.html#a9c1dceb2d9a8e0747380bd12968fc9d8',1,'xpath_node_set_raw::type()'],['../db/d65/classpugi_1_1xml__node.html#ab881e8c41edc84bf7507591d1ad8ead4',1,'pugi::xml_node::type()'],['../dd/d2a/classpugi_1_1xpath__variable.html#a33713853d1298ce11fb382258ffe11d4',1,'pugi::xpath_variable::type()'],['../df/d06/classpugi_1_1xpath__node__set.html#a6b3321ac9c01da5797c4120b5683dce9',1,'pugi::xpath_node_set::type()']]]
 ];

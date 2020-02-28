@@ -71,6 +71,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-types">Private Types</a> &#124;
@@ -96,10 +97,16 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/df3/classcarla_1_1road_1_1Map__coll__graph.svg" width="100%" height="563"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/df3/classcarla_1_1road_1_1Map__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d96/structcarla_1_1road_1_1Map_1_1SignalSearchData.html">SignalSearchData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data structure for the signal search.  <a href="../../d2/d96/structcarla_1_1road_1_1Map_1_1SignalSearchData.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a3fb72bee194568536140a32c6c94405e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d34/classcarla_1_1road_1_1Map.html#a3fb72bee194568536140a32c6c94405e">Waypoint</a> = <a class="el" href="../../d8/de8/structcarla_1_1road_1_1element_1_1Waypoint.html">element::Waypoint</a></td></tr>
@@ -166,6 +173,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8ba84f9f19c36c2622ad5f3f58b21f63"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="../../d0/d34/classcarla_1_1road_1_1Map.html#a3fb72bee194568536140a32c6c94405e">Waypoint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d34/classcarla_1_1road_1_1Map.html#a8ba84f9f19c36c2622ad5f3f58b21f63">GetRight</a> (<a class="el" href="../../d0/d34/classcarla_1_1road_1_1Map.html#a3fb72bee194568536140a32c6c94405e">Waypoint</a> waypoint) const </td></tr>
 <tr class="memdesc:a8ba84f9f19c36c2622ad5f3f58b21f63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a waypoint at the lane of <em>waypoint's</em> right lane.  <a href="#a8ba84f9f19c36c2622ad5f3f58b21f63">More...</a><br /></td></tr>
 <tr class="separator:a8ba84f9f19c36c2622ad5f3f58b21f63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9efb711543f68d18b70317b6cb2909cb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d2/d96/structcarla_1_1road_1_1Map_1_1SignalSearchData.html">SignalSearchData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d34/classcarla_1_1road_1_1Map.html#a9efb711543f68d18b70317b6cb2909cb">GetSignalsInDistance</a> (<a class="el" href="../../d0/d34/classcarla_1_1road_1_1Map.html#a3fb72bee194568536140a32c6c94405e">Waypoint</a> waypoint, double distance, bool stop_at_junction=false) const </td></tr>
+<tr class="memdesc:a9efb711543f68d18b70317b6cb2909cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches signals from an initial waypoint until the defined distance.  <a href="#a9efb711543f68d18b70317b6cb2909cb">More...</a><br /></td></tr>
+<tr class="separator:a9efb711543f68d18b70317b6cb2909cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae447bcc1c19c55030c6ba24d1f3ed56"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d0/d34/classcarla_1_1road_1_1Map.html#a3fb72bee194568536140a32c6c94405e">Waypoint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d34/classcarla_1_1road_1_1Map.html#aae447bcc1c19c55030c6ba24d1f3ed56">GetSuccessors</a> (<a class="el" href="../../d0/d34/classcarla_1_1road_1_1Map.html#a3fb72bee194568536140a32c6c94405e">Waypoint</a> waypoint) const </td></tr>
 <tr class="memdesc:aae447bcc1c19c55030c6ba24d1f3ed56"><td class="mdescLeft">&#160;</td><td class="mdescRight">======================================================================== </p><h1>&ndash; Waypoint generation -------------------------------------------&mdash;&mdash; </h1>
  <a href="#aae447bcc1c19c55030c6ba24d1f3ed56">More...</a><br /></td></tr>
@@ -238,7 +248,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00143">143</a> of file <a class="el" href="../../df/d64/road_2Map_8h_source.html">road/Map.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00154">154</a> of file <a class="el" href="../../df/d64/road_2Map_8h_source.html">road/Map.h</a>.</p>
 
 </div>
 </div>
@@ -284,7 +294,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00035">35</a> of file <a class="el" href="../../df/d64/road_2Map_8h_source.html">road/Map.h</a>.</p>
 
-<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00757">CreateRtree()</a>.</p>
+<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00818">CreateRtree()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -351,7 +361,7 @@ Private Attributes</h2></td></tr>
 
 <p>Helper Functions for constructing the rtree element list. </p>
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00710">710</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00771">771</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
 <p>References <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00028">carla::geom::Transform::location</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
@@ -401,7 +411,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00731">731</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00792">792</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
 </div>
 </div>
@@ -429,7 +439,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00411">411</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00472">472</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d5/da4/LaneCrossingCalculator_8cpp_source.html#l00060">carla::road::element::LaneCrossingCalculator::Calculate()</a>.</p>
 
@@ -471,11 +481,11 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00289">289</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00290">290</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d7/def/Geometry_8cpp_source.html#l00028">carla::road::element::DirectedPoint::ApplyLateralOffset()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00140">carla::road::ComputeTotalLaneWidth()</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>, <a class="el" href="../../d3/d8b/Geometry_8h_source.html#l00038">carla::road::element::DirectedPoint::location</a>, <a class="el" href="../../d4/d50/LibCarla_2source_2carla_2ListView_8h_source.html#l00078">carla::MakeListView()</a>, <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00027">carla::geom::Rotation::pitch</a>, <a class="el" href="../../d3/d8b/Geometry_8h_source.html#l00040">carla::road::element::DirectedPoint::pitch</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00020">carla::road::element::Waypoint::road_id</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00026">carla::road::element::Waypoint::s</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00022">carla::road::element::Waypoint::section_id</a>, <a class="el" href="../../d3/d8b/Geometry_8h_source.html#l00039">carla::road::element::DirectedPoint::tangent</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00037">carla::geom::Math::ToDegrees()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00029">carla::geom::Rotation::yaw</a>.</p>
+<p>References <a class="el" href="../../d7/def/Geometry_8cpp_source.html#l00028">carla::road::element::DirectedPoint::ApplyLateralOffset()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00141">carla::road::ComputeTotalLaneWidth()</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>, <a class="el" href="../../d3/d8b/Geometry_8h_source.html#l00038">carla::road::element::DirectedPoint::location</a>, <a class="el" href="../../d4/d50/LibCarla_2source_2carla_2ListView_8h_source.html#l00078">carla::MakeListView()</a>, <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00027">carla::geom::Rotation::pitch</a>, <a class="el" href="../../d3/d8b/Geometry_8h_source.html#l00040">carla::road::element::DirectedPoint::pitch</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00020">carla::road::element::Waypoint::road_id</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00026">carla::road::element::Waypoint::s</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00022">carla::road::element::Waypoint::section_id</a>, <a class="el" href="../../d3/d8b/Geometry_8h_source.html#l00039">carla::road::element::DirectedPoint::tangent</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00037">carla::geom::Math::ToDegrees()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00029">carla::geom::Rotation::yaw</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/da4/LaneCrossingCalculator_8cpp_source.html#l00060">carla::road::element::LaneCrossingCalculator::Calculate()</a>, <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html#l00314">carla::rss::RssCheck::calculateOccupiedRegions()</a>, <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00746">carla::road::MapBuilder::CreateJunctionBoundingBoxes()</a>, <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00907">carla::road::GetWaypointCornerPosition()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/da4/LaneCrossingCalculator_8cpp_source.html#l00060">carla::road::element::LaneCrossingCalculator::Calculate()</a>, <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html#l00314">carla::rss::RssCheck::calculateOccupiedRegions()</a>, <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00756">carla::road::MapBuilder::CreateJunctionBoundingBoxes()</a>, <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00968">carla::road::GetWaypointCornerPosition()</a>.</p>
 
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -520,9 +530,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00757">757</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00818">818</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5aed36a1ef76a59ee3f15180e0441188ad">carla::road::Lane::Any</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00052">carla::geom::Transform::GetForwardVector()</a>, <a class="el" href="../../d0/d8e/RoadInfoGeometry_8h_source.html#l00030">carla::road::element::RoadInfoGeometry::GetGeometry()</a>, <a class="el" href="../../db/d48/Road_8h_source.html#l00114">carla::road::Road::GetInfo()</a>, <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00038">carla::road::Road::GetLength()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00745">carla::road::GetRemainingLength()</a>, <a class="el" href="../../d3/d8b/Geometry_8h_source.html#l00058">carla::road::element::Geometry::GetStartOffset()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00030">carla::road::Lane::GetType()</a>, <a class="el" href="../../d6/d09/Math_8cpp_source.html#l00014">carla::geom::Math::GetVectorAngle()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00686">carla::road::IsLineStraight()</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>.</p>
+<p>References <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5aed36a1ef76a59ee3f15180e0441188ad">carla::road::Lane::Any</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00052">carla::geom::Transform::GetForwardVector()</a>, <a class="el" href="../../d0/d8e/RoadInfoGeometry_8h_source.html#l00030">carla::road::element::RoadInfoGeometry::GetGeometry()</a>, <a class="el" href="../../db/d48/Road_8h_source.html#l00102">carla::road::Road::GetInfo()</a>, <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00038">carla::road::Road::GetLength()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00806">carla::road::GetRemainingLength()</a>, <a class="el" href="../../d3/d8b/Geometry_8h_source.html#l00058">carla::road::element::Geometry::GetStartOffset()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00030">carla::road::Lane::GetType()</a>, <a class="el" href="../../d6/d09/Math_8cpp_source.html#l00014">carla::geom::Math::GetVectorAngle()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00747">carla::road::IsLineStraight()</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00035">Map()</a>.</p>
 
@@ -564,11 +574,9 @@ Private Attributes</h2></td></tr>
 
 <p>Buids a mesh based on the OpenDRIVE. </p>
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00932">932</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00993">993</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00054">carla::geom::Mesh::AddMaterial()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00038">carla::geom::Mesh::AddVertex()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00069">carla::geom::Mesh::EndMaterial()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00028">carla::road::EPSILON</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00878">carla::road::ExtrudeMeshEdge()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00193">carla::geom::Mesh::GetLastVertexIndex()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00907">carla::road::GetWaypointCornerPosition()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00026">carla::road::element::Waypoint::s</a>, and <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5ac68f4e6506520a1ae5f89c48dc2fcca1">carla::road::Lane::Sidewalk</a>.</p>
-
-<p>Referenced by <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>.</p>
+<p>References <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00054">carla::geom::Mesh::AddMaterial()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00038">carla::geom::Mesh::AddVertex()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00069">carla::geom::Mesh::EndMaterial()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00029">carla::road::EPSILON</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00939">carla::road::ExtrudeMeshEdge()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00193">carla::geom::Mesh::GetLastVertexIndex()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00968">carla::road::GetWaypointCornerPosition()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00026">carla::road::element::Waypoint::s</a>, and <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5ac68f4e6506520a1ae5f89c48dc2fcca1">carla::road::Lane::Sidewalk</a>.</p>
 
 <p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -576,16 +584,6 @@ Private Attributes</h2></td></tr>
 </div>
 <div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a1d761d2624c196cb86b3af66ab3844b3_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a1d761d2624c196cb86b3af66ab3844b3_icgraph.svg" width="588" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -608,28 +606,28 @@ Private Attributes</h2></td></tr>
 <p>Generate the minimum set of waypoints that define the topology of <em>map</em>. </p>
 <p>The waypoints are placed at the entrance of each lane. </p>
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00648">648</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00709">709</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00102">carla::road::ForEachDrivableLane()</a>.</p>
+<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00103">carla::road::ForEachDrivableLane()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>, and <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00067">carla::client::Map::GetTopology()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00067">carla::client::Map::GetTopology()</a>.</p>
 
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_abdc82435b148045f46846e87095ca154_cgraph.svg" width="100%" height="549"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_abdc82435b148045f46846e87095ca154_icgraph.svg" width="588" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_abdc82435b148045f46846e87095ca154_icgraph.svg" width="359" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -652,28 +650,28 @@ Private Attributes</h2></td></tr>
 
 <p>Generate all the waypoints in <em>map</em> separated by <em>approx_distance</em>. </p>
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00604">604</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00665">665</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00028">carla::road::EPSILON</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00127">carla::road::ForEachDrivableLaneAt()</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>.</p>
+<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00029">carla::road::EPSILON</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00128">carla::road::ForEachDrivableLaneAt()</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00092">carla::client::Map::GenerateWaypoints()</a>, and <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00092">carla::client::Map::GenerateWaypoints()</a>.</p>
 
-<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a8420435716aefa060b0c235c75876100_cgraph.svg" width="100%" height="596"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a8420435716aefa060b0c235c75876100_icgraph.svg" width="588" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a8420435716aefa060b0c235c75876100_icgraph.svg" width="382" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -696,19 +694,7 @@ Private Attributes</h2></td></tr>
 
 <p>Generate waypoints on each <em>lane</em> at the start of each <em>road</em>. </p>
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00618">618</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
-
-<p>Referenced by <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>.</p>
-
-<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a509a90ef93cfc2f6ea812602dd81fc07_icgraph.svg" width="588" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00679">679</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
 </div>
 </div>
@@ -725,27 +711,27 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00417">417</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00478">478</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00028">carla::geom::Transform::location</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00020">carla::road::element::Waypoint::road_id</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00030">carla::geom::Transform::rotation</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00026">carla::road::element::Waypoint::s</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00022">carla::road::element::Waypoint::section_id</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00061">carla::geom::Transform::TransformPoint()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, and <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00029">carla::geom::Rotation::yaw</a>.</p>
 
 <p>Referenced by <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00112">carla::client::Map::GetAllCrosswalkZones()</a>, and <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>.</p>
 
-<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a8578ab97a9b2159f57f58b2439d912dc_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a8578ab97a9b2159f57f58b2439d912dc_icgraph.svg" width="571" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -780,27 +766,27 @@ Private Attributes</h2></td></tr>
 <p>======================================================================== </p><h1>&ndash; Geometry ---------------------------------------------------------&mdash; </h1>
 </p>
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00180">180</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00181">181</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d6/d09/Math_8cpp_source.html#l00018">carla::geom::Math::DistanceSegmentToPoint()</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00026">carla::road::element::Waypoint::s</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/da4/LaneCrossingCalculator_8cpp_source.html#l00060">carla::road::element::LaneCrossingCalculator::Calculate()</a>, <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>, and <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00041">carla::client::Map::GetWaypoint()</a>.</p>
 
-<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_ae74d5c71d0ccdd83107894e5920f421e_cgraph.svg" width="100%" height="596"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_ae74d5c71d0ccdd83107894e5920f421e_icgraph.svg" width="100%" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -834,25 +820,25 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">43</a> of file <a class="el" href="../../df/d64/road_2Map_8h_source.html">road/Map.h</a>.</p>
 
-<p>References <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00141">_data</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00411">CalculateCrossedLanes()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00289">ComputeTransform()</a>, <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5a8060dc318b0fafb0fc2e609eb5954723">carla::road::Lane::Driving</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00932">GenerateGeometry()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00648">GenerateTopology()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00604">GenerateWaypoints()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00618">GenerateWaypointsOnRoadEntries()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00417">GetAllCrosswalkZones()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00180">GetClosestWaypointOnRoad()</a>, <a class="el" href="../../d5/db7/MapData_8h_source.html#l00030">carla::road::MapData::GetGeoReference()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00870">GetJunction()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00379">GetJunctionId()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00661">GetJunctionWaypoints()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00681">GetLane()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00362">GetLaneType()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00366">GetLaneWidth()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00592">GetLeft()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00388">GetMarkRecord()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00516">GetNext()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00498">GetPredecessors()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00549">GetPrevious()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00582">GetRight()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00480">GetSuccessors()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00227">GetWaypoint()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00383">IsJunction()</a>.</p>
+<p>References <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00152">_data</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00472">CalculateCrossedLanes()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00290">ComputeTransform()</a>, <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5a8060dc318b0fafb0fc2e609eb5954723">carla::road::Lane::Driving</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00478">GetAllCrosswalkZones()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00181">GetClosestWaypointOnRoad()</a>, <a class="el" href="../../d5/db7/MapData_8h_source.html#l00031">carla::road::MapData::GetGeoReference()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00378">GetJunctionId()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00738">GetLane()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00361">GetLaneType()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00365">GetLaneWidth()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00387">GetMarkRecord()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00228">GetWaypoint()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00382">IsJunction()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00108">carla::client::Map::GetGeoReference()</a>.</p>
 
-<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a2686993f028a6febd29a17b32b43142d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a2686993f028a6febd29a17b32b43142d_icgraph.svg" width="363" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -874,16 +860,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00870">870</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00931">931</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00746">carla::road::MapBuilder::CreateJunctionBoundingBoxes()</a>, <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>, and <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00116">carla::client::Map::GetJunction()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00756">carla::road::MapBuilder::CreateJunctionBoundingBoxes()</a>, and <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00116">carla::client::Map::GetJunction()</a>.</p>
 
-<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a8d751e36728ece2bd00ce58b945864aa_icgraph.svg" width="646" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a8d751e36728ece2bd00ce58b945864aa_icgraph.svg" width="463" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -904,7 +890,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00874">874</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00935">935</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
 </div>
 </div>
@@ -922,15 +908,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00379">379</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00378">378</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>.</p>
 
-<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_ac48d96c68f610f5bcefe30ca3c392d5b_icgraph.svg" width="616" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -964,28 +950,28 @@ Private Attributes</h2></td></tr>
 
 <p>Generate waypoints of the junction. </p>
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00661">661</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00722">722</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00114">carla::road::ForEachLane()</a>, <a class="el" href="../../d1/d3a/road_2Junction_8h_source.html#l00064">carla::road::Junction::GetConnections()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00054">carla::road::GetDistanceAtEndOfLane()</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00026">carla::road::element::Waypoint::s</a>.</p>
+<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00115">carla::road::ForEachLane()</a>, <a class="el" href="../../d1/d3a/road_2Junction_8h_source.html#l00064">carla::road::Junction::GetConnections()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00055">carla::road::GetDistanceAtEndOfLane()</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00026">carla::road::element::Waypoint::s</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00746">carla::road::MapBuilder::CreateJunctionBoundingBoxes()</a>, <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>, and <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00122">carla::client::Map::GetJunctionWaypoints()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00756">carla::road::MapBuilder::CreateJunctionBoundingBoxes()</a>, and <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00122">carla::client::Map::GetJunctionWaypoints()</a>.</p>
 
-<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a067395df8d68f9fbcdafd8751262d168_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a067395df8d68f9fbcdafd8751262d168_icgraph.svg" width="646" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a067395df8d68f9fbcdafd8751262d168_icgraph.svg" width="463" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1009,27 +995,27 @@ Private Attributes</h2></td></tr>
 <p>======================================================================== </p><h1>&ndash; <a class="el" href="../../dd/de6/classcarla_1_1road_1_1Road.html">Road</a> information -------------------------------------------------&mdash; </h1>
 </p>
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00681">681</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00738">738</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
 <p>References <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00088">carla::road::Road::GetLaneById()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00021">carla::road::Lane::GetRoad()</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00020">carla::road::element::Waypoint::road_id</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00022">carla::road::element::Waypoint::section_id</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html#l00314">carla::rss::RssCheck::calculateOccupiedRegions()</a>, and <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>.</p>
 
-<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a41c1dc9c080fc4acdbdebd431aefc608_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a41c1dc9c080fc4acdbdebd431aefc608_icgraph.svg" width="612" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1051,15 +1037,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00362">362</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00361">361</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>.</p>
 
-<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a0cf3620ea6893b3fcf742870ba7a110f_icgraph.svg" width="614" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1081,18 +1067,18 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00366">366</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00365">365</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00026">carla::road::element::Waypoint::s</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html#l00314">carla::rss::RssCheck::calculateOccupiedRegions()</a>, <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00907">carla::road::GetWaypointCornerPosition()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html#l00314">carla::rss::RssCheck::calculateOccupiedRegions()</a>, <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00968">carla::road::GetWaypointCornerPosition()</a>.</p>
 
-<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-29-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a9774bf6bcf7532a943a2e7b899198c85_icgraph.svg" width="100%" height="427"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a9774bf6bcf7532a943a2e7b899198c85_icgraph.svg" width="643" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1115,28 +1101,16 @@ Private Attributes</h2></td></tr>
 
 <p>Return a waypoint at the lane of <em>waypoint's</em> left lane. </p>
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00592">592</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00653">653</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00171">carla::road::IsLanePresent()</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>.</p>
+<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00172">carla::road::IsLanePresent()</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>.</p>
-
-<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-30-content" class="dyncontent" style="display:none;">
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_aac26f62a9a53d5813dd232886b39b4c2_cgraph.svg" width="100%" height="522"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-31-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_aac26f62a9a53d5813dd232886b39b4c2_icgraph.svg" width="578" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1157,17 +1131,17 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00388">388</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00387">387</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00026">carla::road::element::Waypoint::s</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00022">carla::road::element::Waypoint::section_id</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/da4/LaneCrossingCalculator_8cpp_source.html#l00030">carla::road::element::CrossingAtSameSection()</a>, and <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>.</p>
 
-<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_abf31d2049f464b832a1b1e58d6874a72_icgraph.svg" width="100%" height="394"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1201,28 +1175,28 @@ Private Attributes</h2></td></tr>
 
 <p>Return the list of waypoints at <em>distance</em> such that a vehicle at <em>waypoint</em> could drive to. </p>
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00516">516</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00577">577</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00035">carla::road::ConcatVectors()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00028">carla::road::EPSILON</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00020">carla::road::element::Waypoint::road_id</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00026">carla::road::element::Waypoint::s</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00022">carla::road::element::Waypoint::section_id</a>.</p>
+<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00036">carla::road::ConcatVectors()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00029">carla::road::EPSILON</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00020">carla::road::element::Waypoint::road_id</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00026">carla::road::element::Waypoint::s</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00022">carla::road::element::Waypoint::section_id</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00746">carla::road::MapBuilder::CreateJunctionBoundingBoxes()</a>, and <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00756">carla::road::MapBuilder::CreateJunctionBoundingBoxes()</a>.</p>
 
-<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-33-content" class="dyncontent" style="display:none;">
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a582e7b6c2a3fd94df420e85072b31a5d_cgraph.svg" width="411" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-34-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a582e7b6c2a3fd94df420e85072b31a5d_icgraph.svg" width="624" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a582e7b6c2a3fd94df420e85072b31a5d_icgraph.svg" width="442" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1243,28 +1217,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00498">498</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00559">559</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00054">carla::road::GetDistanceAtEndOfLane()</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>.</p>
+<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00055">carla::road::GetDistanceAtEndOfLane()</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>.</p>
-
-<p><div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-35-content" class="dyncontent" style="display:none;">
+<div id="dynsection-32-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_aa8dd0f888baac55c540a336971a8148e_cgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-36-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_aa8dd0f888baac55c540a336971a8148e_icgraph.svg" width="636" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1297,28 +1259,16 @@ Private Attributes</h2></td></tr>
 
 <p>Return the list of waypoints at <em>distance</em> in the reversed direction that a vehicle at <em>waypoint</em> could drive to. </p>
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00549">549</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00610">610</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00035">carla::road::ConcatVectors()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00028">carla::road::EPSILON</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00020">carla::road::element::Waypoint::road_id</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00026">carla::road::element::Waypoint::s</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00022">carla::road::element::Waypoint::section_id</a>.</p>
+<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00036">carla::road::ConcatVectors()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00029">carla::road::EPSILON</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00020">carla::road::element::Waypoint::road_id</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00026">carla::road::element::Waypoint::s</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00022">carla::road::element::Waypoint::section_id</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>.</p>
-
-<p><div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-37-content" class="dyncontent" style="display:none;">
+<div id="dynsection-33-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_aef938eafd39ed040a3e4d6c188c8bee8_cgraph.svg" width="434" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-38-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_aef938eafd39ed040a3e4d6c188c8bee8_icgraph.svg" width="607" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1341,28 +1291,64 @@ Private Attributes</h2></td></tr>
 
 <p>Return a waypoint at the lane of <em>waypoint's</em> right lane. </p>
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00582">582</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00643">643</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00171">carla::road::IsLanePresent()</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>.</p>
+<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00172">carla::road::IsLanePresent()</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>.</p>
-
-<p><div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-39-content" class="dyncontent" style="display:none;">
+<div id="dynsection-34-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a8ba84f9f19c36c2622ad5f3f58b21f63_cgraph.svg" width="100%" height="522"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-40-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a8ba84f9f19c36c2622ad5f3f58b21f63_icgraph.svg" width="587" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+<a class="anchor" id="a9efb711543f68d18b70317b6cb2909cb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="../../d2/d96/structcarla_1_1road_1_1Map_1_1SignalSearchData.html">Map::SignalSearchData</a> &gt; carla::road::Map::GetSignalsInDistance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d34/classcarla_1_1road_1_1Map.html#a3fb72bee194568536140a32c6c94405e">Waypoint</a>&#160;</td>
+          <td class="paramname"><em>waypoint</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>distance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>stop_at_junction</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Searches signals from an initial waypoint until the defined distance. </p>
+
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00410">410</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00036">carla::road::ConcatVectors()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../de/d3a/RoadInfo_8h_source.html#l00028">carla::road::element::RoadInfo::GetDistance()</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00020">carla::road::element::Waypoint::road_id</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00026">carla::road::element::Waypoint::s</a>.</p>
+
+<p><div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-35-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a9efb711543f68d18b70317b6cb2909cb_cgraph.svg" width="426" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1387,28 +1373,16 @@ Private Attributes</h2></td></tr>
 </p>
 <p>Return the list of waypoints placed at the entrance of each drivable successor lane; i.e., the list of each waypoint in the next road segment that a vehicle could drive from <em>waypoint</em>. </p>
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00480">480</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00541">541</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00046">carla::road::GetDistanceAtStartOfLane()</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>.</p>
+<p>References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00047">carla::road::GetDistanceAtStartOfLane()</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>.</p>
-
-<p><div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-41-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-41-content" class="dyncontent" style="display:none;">
+<div id="dynsection-36-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_aae447bcc1c19c55030c6ba24d1f3ed56_cgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-42-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-42-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-42-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_aae447bcc1c19c55030c6ba24d1f3ed56_icgraph.svg" width="626" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1439,27 +1413,27 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00227">227</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00228">228</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
 <p>References <a class="el" href="../../db/d8a/Math_8h_source.html#l00078">carla::geom::Math::Distance2D()</a>, <a class="el" href="../../db/dee/CubicPolynomial_8h_source.html#l00106">carla::geom::CubicPolynomial::Evaluate()</a>, and <a class="el" href="../../d1/d16/RoadInfoLaneWidth_8h_source.html#l00037">carla::road::element::RoadInfoLaneWidth::GetPolynomial()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html#l00314">carla::rss::RssCheck::calculateOccupiedRegions()</a>, <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00041">carla::client::Map::GetWaypoint()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00056">carla::client::Map::GetWaypointXODR()</a>, and <a class="el" href="../../d5/da4/LaneCrossingCalculator_8cpp_source.html#l00056">carla::road::element::IsOffRoad()</a>.</p>
 
-<p><div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-43-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-43-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-43-content" class="dyncontent" style="display:none;">
+<div id="dynsection-37-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a0cf8228efb07f292210daffc7da2e6ed_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-44" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-44-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-44-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-44-content" class="dyncontent" style="display:none;">
+<div id="dynsection-38-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a0cf8228efb07f292210daffc7da2e6ed_icgraph.svg" width="100%" height="525"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1497,15 +1471,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00248">248</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00249">249</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
-<p>References <a class="el" href="../../db/d48/Road_8h_source.html#l00155">carla::road::Road::GetLaneSectionsAt()</a>, <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00038">carla::road::Road::GetLength()</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00020">carla::road::element::Waypoint::road_id</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00026">carla::road::element::Waypoint::s</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00022">carla::road::element::Waypoint::section_id</a>.</p>
+<p>References <a class="el" href="../../db/d48/Road_8h_source.html#l00138">carla::road::Road::GetLaneSectionsAt()</a>, <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00038">carla::road::Road::GetLength()</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00020">carla::road::element::Waypoint::road_id</a>, <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00026">carla::road::element::Waypoint::s</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00022">carla::road::element::Waypoint::section_id</a>.</p>
 
-<p><div id="dynsection-45" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-45-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-45-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-45-content" class="dyncontent" style="display:none;">
+<div id="dynsection-39-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a4c46dfe0b124dbca68ef6b2ea184a077_cgraph.svg" width="100%" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1527,15 +1501,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00383">383</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00382">382</a> of file <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html">road/Map.cpp</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/da4/LaneCrossingCalculator_8cpp_source.html#l00060">carla::road::element::LaneCrossingCalculator::Calculate()</a>, and <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>.</p>
 
-<p><div id="dynsection-46" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-46-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-46-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-46-content" class="dyncontent" style="display:none;">
+<div id="dynsection-40-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d34/classcarla_1_1road_1_1Map_a67f8ceddfe8d57adbf1585b2c06b4ebe_icgraph.svg" width="100%" height="394"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1562,9 +1536,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00141">141</a> of file <a class="el" href="../../df/d64/road_2Map_8h_source.html">road/Map.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00152">152</a> of file <a class="el" href="../../df/d64/road_2Map_8h_source.html">road/Map.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00746">carla::road::MapBuilder::CreateJunctionBoundingBoxes()</a>, and <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00756">carla::road::MapBuilder::CreateJunctionBoundingBoxes()</a>, and <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00043">GetGeoReference()</a>.</p>
 
 </div>
 </div>
@@ -1586,7 +1560,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00144">144</a> of file <a class="el" href="../../df/d64/road_2Map_8h_source.html">road/Map.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00155">155</a> of file <a class="el" href="../../df/d64/road_2Map_8h_source.html">road/Map.h</a>.</p>
 
 </div>
 </div>
@@ -1608,7 +1582,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00140">140</a> of file <a class="el" href="../../df/d64/road_2Map_8h_source.html">road/Map.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00151">151</a> of file <a class="el" href="../../df/d64/road_2Map_8h_source.html">road/Map.h</a>.</p>
 
 </div>
 </div>

@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['lane',['Lane',['../d4/d8f/structcarla_1_1opendrive_1_1parser_1_1Lane.html',1,'carla::opendrive::parser']]],
+  ['landmark',['Landmark',['../d3/dc1/classcarla_1_1client_1_1Landmark.html',1,'carla::client']]],
+  ['landmarktype',['LandmarkType',['../da/d1b/classcarla_1_1client_1_1LandmarkType.html',1,'carla::client']]],
   ['lane',['Lane',['../df/d85/classcarla_1_1road_1_1Lane.html',1,'carla::road']]],
+  ['lane',['Lane',['../d4/d8f/structcarla_1_1opendrive_1_1parser_1_1Lane.html',1,'carla::opendrive::parser']]],
   ['lanecrossingcalculator',['LaneCrossingCalculator',['../d2/d60/classcarla_1_1road_1_1element_1_1LaneCrossingCalculator.html',1,'carla::road::element']]],
   ['laneinvasioncallback',['LaneInvasionCallback',['../d8/d64/classcarla_1_1client_1_1LaneInvasionCallback.html',1,'carla::client']]],
   ['laneinvasionevent',['LaneInvasionEvent',['../de/d3a/classcarla_1_1sensor_1_1data_1_1LaneInvasionEvent.html',1,'carla::sensor::data']]],
@@ -13,6 +15,7 @@ var searchData=
   ['lanesection',['LaneSection',['../d4/d23/structcarla_1_1opendrive_1_1parser_1_1LaneSection.html',1,'carla::opendrive::parser']]],
   ['lanesection',['LaneSection',['../dd/d80/classcarla_1_1road_1_1LaneSection.html',1,'carla::road']]],
   ['lanesectionmap',['LaneSectionMap',['../d9/dab/classcarla_1_1road_1_1LaneSectionMap.html',1,'carla::road']]],
+  ['lanevalidity',['LaneValidity',['../d8/d71/structcarla_1_1road_1_1LaneValidity.html',1,'carla::road']]],
   ['lateralcrossfall',['LateralCrossfall',['../d7/d64/structcarla_1_1opendrive_1_1parser_1_1LateralCrossfall.html',1,'carla::opendrive::parser']]],
   ['lateralprofile',['LateralProfile',['../d5/da0/structcarla_1_1opendrive_1_1parser_1_1LateralProfile.html',1,'carla::opendrive::parser']]],
   ['lateralshape',['LateralShape',['../dc/d35/structcarla_1_1opendrive_1_1parser_1_1LateralShape.html',1,'carla::opendrive::parser']]],
@@ -22,8 +25,8 @@ var searchData=
   ['less_5fequal',['less_equal',['../d3/dc3/structless__equal.html',1,'']]],
   ['lesscomp',['LessComp',['../db/d96/structcarla_1_1road_1_1RoadElementSet_1_1LessComp.html',1,'carla::road::RoadElementSet']]],
   ['lidarheaderview',['LidarHeaderView',['../d7/dd4/classcarla_1_1sensor_1_1s11n_1_1LidarHeaderView.html',1,'carla::sensor::s11n']]],
-  ['lidarmeasurement',['LidarMeasurement',['../df/d8d/classcarla_1_1sensor_1_1data_1_1LidarMeasurement.html',1,'carla::sensor::data']]],
   ['lidarmeasurement',['LidarMeasurement',['../d0/dce/classcarla_1_1sensor_1_1s11n_1_1LidarMeasurement.html',1,'carla::sensor::s11n']]],
+  ['lidarmeasurement',['LidarMeasurement',['../df/d8d/classcarla_1_1sensor_1_1data_1_1LidarMeasurement.html',1,'carla::sensor::data']]],
   ['lidarserializer',['LidarSerializer',['../dc/d6a/classcarla_1_1sensor_1_1s11n_1_1LidarSerializer.html',1,'carla::sensor::s11n']]],
   ['lifetimeprofiled',['LifetimeProfiled',['../df/d3e/classcarla_1_1profiler_1_1LifetimeProfiled.html',1,'carla::profiler']]],
   ['lifetimeprofiler',['LifetimeProfiler',['../d6/df2/classcarla_1_1profiler_1_1LifetimeProfiler.html',1,'carla::profiler']]],

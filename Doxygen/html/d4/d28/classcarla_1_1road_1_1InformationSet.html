@@ -107,6 +107,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a32260ccd4a86111f3ce7b72de3088271"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; const T * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d28/classcarla_1_1road_1_1InformationSet.html#a32260ccd4a86111f3ce7b72de3088271">GetInfos</a> () const </td></tr>
 <tr class="memdesc:a32260ccd4a86111f3ce7b72de3088271"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all infos given a type from the start of the road.  <a href="#a32260ccd4a86111f3ce7b72de3088271">More...</a><br /></td></tr>
 <tr class="separator:a32260ccd4a86111f3ce7b72de3088271"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeec5de524120c46d18df61382e27d5c6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aeec5de524120c46d18df61382e27d5c6"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; const T * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d28/classcarla_1_1road_1_1InformationSet.html#aeec5de524120c46d18df61382e27d5c6">GetInfos</a> (const double min_s, const double max_s) const </td></tr>
+<tr class="memdesc:aeec5de524120c46d18df61382e27d5c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all infos given a type in a given range of the road.  <a href="#aeec5de524120c46d18df61382e27d5c6">More...</a><br /></td></tr>
+<tr class="separator:aeec5de524120c46d18df61382e27d5c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cc86b22c3b8891616b61a65bfcf0fb9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d28/classcarla_1_1road_1_1InformationSet.html#a0cc86b22c3b8891616b61a65bfcf0fb9">InformationSet</a> ()=default</td></tr>
 <tr class="separator:a0cc86b22c3b8891616b61a65bfcf0fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91c313271980060fa97477118a622200"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d28/classcarla_1_1road_1_1InformationSet.html#a91c313271980060fa97477118a622200">InformationSet</a> (std::vector&lt; std::unique_ptr&lt; <a class="el" href="../../d6/d0f/classcarla_1_1road_1_1element_1_1RoadInfo.html">element::RoadInfo</a> &gt;&gt; &amp;&amp;vec)</td></tr>
@@ -213,9 +217,9 @@ template&lt;typename T &gt; </div>
 
 <p>Definition at line <a class="el" href="../../d2/d56/InformationSet_8h_source.html#l00042">42</a> of file <a class="el" href="../../d2/d56/InformationSet_8h_source.html">InformationSet.h</a>.</p>
 
-<p>References <a class="el" href="../../d2/d56/InformationSet_8h_source.html#l00049">_road_set</a>.</p>
+<p>References <a class="el" href="../../d2/d56/InformationSet_8h_source.html#l00069">_road_set</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00182">carla::road::Road::GetDirectedPointIn()</a>, <a class="el" href="../../d8/d27/Lane_8h_source.html#l00077">carla::road::Lane::GetInfo()</a>, and <a class="el" href="../../db/d48/Road_8h_source.html#l00114">carla::road::Road::GetInfo()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00158">carla::road::Road::GetDirectedPointIn()</a>, <a class="el" href="../../d8/d27/Lane_8h_source.html#l00077">carla::road::Lane::GetInfo()</a>, and <a class="el" href="../../db/d48/Road_8h_source.html#l00102">carla::road::Road::GetInfo()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -256,19 +260,61 @@ template&lt;typename T &gt; </div>
 
 <p>Definition at line <a class="el" href="../../d2/d56/InformationSet_8h_source.html#l00030">30</a> of file <a class="el" href="../../d2/d56/InformationSet_8h_source.html">InformationSet.h</a>.</p>
 
-<p>References <a class="el" href="../../d2/d56/InformationSet_8h_source.html#l00049">_road_set</a>.</p>
+<p>References <a class="el" href="../../d2/d56/InformationSet_8h_source.html#l00069">_road_set</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d27/Lane_8h_source.html#l00083">carla::road::Lane::GetInfos()</a>, <a class="el" href="../../db/d48/Road_8h_source.html#l00119">carla::road::Road::GetInfos()</a>, and <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00204">carla::road::Road::GetNearestPoint()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/d27/Lane_8h_source.html#l00083">carla::road::Lane::GetInfos()</a>, <a class="el" href="../../db/d48/Road_8h_source.html#l00107">carla::road::Road::GetInfos()</a>, <a class="el" href="../../db/d48/Road_8h_source.html#l00112">carla::road::Road::GetInfosInRange()</a>, and <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00180">carla::road::Road::GetNearestPoint()</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/d28/classcarla_1_1road_1_1InformationSet_a32260ccd4a86111f3ce7b72de3088271_icgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/d28/classcarla_1_1road_1_1InformationSet_a32260ccd4a86111f3ce7b72de3088271_icgraph.svg" width="100%" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="aeec5de524120c46d18df61382e27d5c6"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;const T *&gt; carla::road::InformationSet::GetInfos </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>min_s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>max_s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return all infos given a type in a given range of the road. </p>
+
+<p>Definition at line <a class="el" href="../../d2/d56/InformationSet_8h_source.html#l00049">49</a> of file <a class="el" href="../../d2/d56/InformationSet_8h_source.html">InformationSet.h</a>.</p>
+
+<p>References <a class="el" href="../../d2/d56/InformationSet_8h_source.html#l00069">_road_set</a>.</p>
 
 </div>
 </div>
@@ -291,7 +337,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d56/InformationSet_8h_source.html#l00049">49</a> of file <a class="el" href="../../d2/d56/InformationSet_8h_source.html">InformationSet.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d56/InformationSet_8h_source.html#l00069">69</a> of file <a class="el" href="../../d2/d56/InformationSet_8h_source.html">InformationSet.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/d56/InformationSet_8h_source.html#l00042">GetInfo()</a>, and <a class="el" href="../../d2/d56/InformationSet_8h_source.html#l00030">GetInfos()</a>.</p>
 
