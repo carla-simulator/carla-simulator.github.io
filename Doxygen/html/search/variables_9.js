@@ -4,6 +4,7 @@ var searchData=
   ['idle_5ftime',['idle_time',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a74297662c0d9b9656f7c2e6829be7914',1,'carla::traffic_manager::LocalizationStage']]],
   ['ids',['Ids',['../df/db5/classFActorRegistry.html#a19652161bfcbb3ec79b6694112480886',1,'FActorRegistry']]],
   ['ignore_5fcollision',['ignore_collision',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a9e3cdac14020126cb7dc5de7b763869e',1,'carla::traffic_manager::Parameters']]],
+  ['ignorehero',['IgnoreHero',['../dc/dc6/classCarlaReplayer.html#a735ddad196fdf49fd281dc1f6b7546ae',1,'CarlaReplayer']]],
   ['imageheight',['ImageHeight',['../d4/d60/classASceneCaptureSensor.html#a9bc599e6f9f71a54598352e3095cc159',1,'ASceneCaptureSensor']]],
   ['imagewidth',['ImageWidth',['../d4/d60/classASceneCaptureSensor.html#a523637fd3b3a9dcb605316aac4ae44cc',1,'ASceneCaptureSensor']]],
   ['implicit_5finitial_5findex_5fsize',['IMPLICIT_INITIAL_INDEX_SIZE',['../d3/d55/structmoodycamel_1_1ConcurrentQueueDefaultTraits.html#a5498b7a21628f555cbd2fecfc118a609',1,'moodycamel::ConcurrentQueueDefaultTraits::IMPLICIT_INITIAL_INDEX_SIZE()'],['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a9a25b761a75bd2c3cd1f58037f9da89f',1,'moodycamel::ConcurrentQueue::IMPLICIT_INITIAL_INDEX_SIZE()']]],
@@ -14,6 +15,8 @@ var searchData=
   ['inactive',['inactive',['../d2/ddf/structmoodycamel_1_1details_1_1ConcurrentQueueProducerTypelessBase.html#a084765e7e00d6ae481b59da7276cebba',1,'moodycamel::details::ConcurrentQueueProducerTypelessBase']]],
   ['incoming_5froad',['incoming_road',['../d1/d9e/structcarla_1_1road_1_1Junction_1_1Connection.html#a52279077cf1ff39d47e83f1c145e717c',1,'carla::road::Junction::Connection']]],
   ['index',['index',['../d2/d39/structcarla_1_1sensor_1_1detail_1_1CompileTimeTypeMapImpl_3_01Size_01_4_1_1get.html#a78f56fccd5499ee6d5676d49f91f8dd0',1,'carla::sensor::detail::CompileTimeTypeMapImpl&lt; Size &gt;::get::index()'],['../d0/dbd/structcarla_1_1sensor_1_1detail_1_1CompileTimeTypeMapImpl_3_01Size_00_01std_1_1pair_3_01Key_00_0e552f3f96a300bebe3253346ba078f31.html#aec75818896b0fc5d166b4577053eb102',1,'carla::sensor::detail::CompileTimeTypeMapImpl&lt; Size, std::pair&lt; Key, Value &gt;, Rest... &gt;::get::index()'],['../d9/d83/structmoodycamel_1_1ConcurrentQueue_1_1ImplicitProducer_1_1BlockIndexHeader.html#a609489bd5e77ad8b928975088a388c8f',1,'moodycamel::ConcurrentQueue::ImplicitProducer::BlockIndexHeader::index()']]],
+  ['index_5fend',['index_end',['../dc/d90/structcarla_1_1geom_1_1MeshMaterial.html#aad38571dbb33555a05af3329689776e4',1,'carla::geom::MeshMaterial']]],
+  ['index_5fstart',['index_start',['../dc/d90/structcarla_1_1geom_1_1MeshMaterial.html#a8cbd1765c8e32d19c4b192a25df6ea9c',1,'carla::geom::MeshMaterial']]],
   ['infinite_5fdistance',['INFINITE_DISTANCE',['../db/d99/namespacecarla_1_1traffic__manager_1_1MapConstants.html#a2be21e0b33a0f322be93d5df3e15e4f6',1,'carla::traffic_manager::MapConstants']]],
   ['info',['Info',['../da/db0/classFActorView.html#ae2aa6f4e35cd37592069d9be90bdc3de',1,'FActorView::Info()'],['../dd/db9/classACarlaRecorder.html#a98dc7735b9529e1505f6c3f842eb138c',1,'ACarlaRecorder::Info()']]],
   ['initial_5fimplicit_5fproducer_5fhash_5fsize',['INITIAL_IMPLICIT_PRODUCER_HASH_SIZE',['../d3/d55/structmoodycamel_1_1ConcurrentQueueDefaultTraits.html#a06cfdb838c9d3fefae40690c3c5f9c4a',1,'moodycamel::ConcurrentQueueDefaultTraits::INITIAL_IMPLICIT_PRODUCER_HASH_SIZE()'],['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a52f4615c06da9bca3be093123c7cc160',1,'moodycamel::ConcurrentQueue::INITIAL_IMPLICIT_PRODUCER_HASH_SIZE()']]],
@@ -37,6 +40,7 @@ var searchData=
   ['isactor2hero',['IsActor2Hero',['../d6/d25/structCarlaRecorderCollision.html#ac9a658b00d422eb847deebbc8d13036a',1,'CarlaRecorderCollision']]],
   ['isexplicit',['isExplicit',['../d4/dea/structmoodycamel_1_1ConcurrentQueue_1_1ProducerBase.html#a93bf04a6bf40382a92b63c3b3a859787',1,'moodycamel::ConcurrentQueue::ProducerBase']]],
   ['isfrozen',['IsFrozen',['../d1/dc9/structCarlaRecorderStateTrafficLight.html#a0f21b31eb4699b79b89080a516f3068c',1,'CarlaRecorderStateTrafficLight']]],
+  ['isheromap',['IsHeroMap',['../dc/dc6/classCarlaReplayer.html#adf8576bf7cfea305962e1259bbbec1d7',1,'CarlaReplayer']]],
   ['isroadrow',['IsRoadRow',['../d9/d74/structFRoadMapPixelData.html#ae6037eb6986ca098822f8da4f64da8af',1,'FRoadMapPixelData']]],
   ['itemsconsumedfromcurrent',['itemsConsumedFromCurrent',['../de/deb/structmoodycamel_1_1ConsumerToken.html#a325bbb4f3a69a4deefb9e0982fe369f8',1,'moodycamel::ConsumerToken']]]
 ];

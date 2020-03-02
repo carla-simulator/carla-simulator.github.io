@@ -85,8 +85,9 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <code>#include &quot;<a class="el" href="../../d1/d16/RoadInfoLaneWidth_8h_source.html">carla/road/element/RoadInfoLaneWidth.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dd/d32/RoadInfoMarkRecord_8h_source.html">carla/road/element/RoadInfoMarkRecord.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d26/RoadInfoLaneOffset_8h_source.html">carla/road/element/RoadInfoLaneOffset.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/da7/RoadObjectCrosswalk_8h_source.html">carla/road/element/RoadObjectCrosswalk.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/dd7/RoadInfoCrosswalk_8h_source.html">carla/road/element/RoadInfoCrosswalk.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d7/d90/RoadInfoElevation_8h_source.html">carla/road/element/RoadInfoElevation.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d1d/RoadInfoSignal_8h_source.html">carla/road/element/RoadInfoSignal.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d8a/Math_8h_source.html">carla/geom/Math.h</a>&quot;</code><br />
 <code>#include &lt;stdexcept&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -116,6 +117,8 @@ Functions</h2></td></tr>
 <tr class="memitem:add2613fe0707caeb0b760da8002d71bd"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:add2613fe0707caeb0b760da8002d71bd"><td class="memTemplItemLeft" align="right" valign="top">static std::vector&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d26/namespacecarla_1_1road.html#add2613fe0707caeb0b760da8002d71bd">carla::road::ConcatVectors</a> (std::vector&lt; T &gt; dst, std::vector&lt; T &gt; src)</td></tr>
 <tr class="separator:add2613fe0707caeb0b760da8002d71bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45c6547472c96cd5777a072dc8fc53b1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d26/namespacecarla_1_1road.html#a45c6547472c96cd5777a072dc8fc53b1">carla::road::ExtrudeMeshEdge</a> (geom::Mesh &amp;mesh, geom::Vector3D new_vertex1, geom::Vector3D new_vertex2, size_t connection_index_1, size_t connection_index_2)</td></tr>
+<tr class="separator:a45c6547472c96cd5777a072dc8fc53b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a42ef4bdbd89afe9f2ca742b102a288"><td class="memTemplParams" colspan="2">template&lt;typename FuncT &gt; </td></tr>
 <tr class="memitem:a3a42ef4bdbd89afe9f2ca742b102a288"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d26/namespacecarla_1_1road.html#a3a42ef4bdbd89afe9f2ca742b102a288">carla::road::ForEachDrivableLane</a> (const Road &amp;road, FuncT &amp;&amp;func)</td></tr>
 <tr class="memdesc:a3a42ef4bdbd89afe9f2ca742b102a288"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a waypoint for each drivable lane on each lane section of <em>road</em>.  <a href="../../de/d26/namespacecarla_1_1road.html#a3a42ef4bdbd89afe9f2ca742b102a288">More...</a><br /></td></tr>
@@ -141,6 +144,9 @@ Functions</h2></td></tr>
 <tr class="separator:aa758d1155efabd76bd25f2178c6e25e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06c131934a3e01fe98fc0fc9fbf67e34"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d26/namespacecarla_1_1road.html#a06c131934a3e01fe98fc0fc9fbf67e34">carla::road::GetRemainingLength</a> (const Lane &amp;lane, double geometry_start_s, double geometry_end_s, double current_s)</td></tr>
 <tr class="separator:a06c131934a3e01fe98fc0fc9fbf67e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a176231ce186aa68f3d6085c70f10fe"><td class="memItemLeft" align="right" valign="top">static std::pair&lt; geom::Vector3D, geom::Vector3D &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d26/namespacecarla_1_1road.html#a7a176231ce186aa68f3d6085c70f10fe">carla::road::GetWaypointCornerPosition</a> (const Map &amp;map, const <a class="el" href="../../d8/de8/structcarla_1_1road_1_1element_1_1Waypoint.html">Waypoint</a> &amp;waypoint, const Lane &amp;lane)</td></tr>
+<tr class="memdesc:a7a176231ce186aa68f3d6085c70f10fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the location of the edges of the current lane at the current waypoint.  <a href="../../de/d26/namespacecarla_1_1road.html#a7a176231ce186aa68f3d6085c70f10fe">More...</a><br /></td></tr>
+<tr class="separator:a7a176231ce186aa68f3d6085c70f10fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ecd44cf0915faa4721092185974318d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d26/namespacecarla_1_1road.html#a7ecd44cf0915faa4721092185974318d">carla::road::IsLanePresent</a> (const MapData &amp;data, <a class="el" href="../../d8/de8/structcarla_1_1road_1_1element_1_1Waypoint.html">Waypoint</a> waypoint)</td></tr>
 <tr class="memdesc:a7ecd44cf0915faa4721092185974318d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assumes road_id and section_id are valid.  <a href="../../de/d26/namespacecarla_1_1road.html#a7ecd44cf0915faa4721092185974318d">More...</a><br /></td></tr>
 <tr class="separator:a7ecd44cf0915faa4721092185974318d"><td class="memSeparator" colspan="2">&#160;</td></tr>

@@ -80,7 +80,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>This class is the thread executable for the collision detection stage.  
+<p>This class is the thread executable for the collision detection stage and is responsible for checking possible collisions with other cars along the vehicle's trajectory.  
  <a href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>&gt;</code></p>
@@ -117,8 +117,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0c6f7d87d9210f35dc14b52b2b81652c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#a0c6f7d87d9210f35dc14b52b2b81652c">~CollisionStage</a> ()</td></tr>
 <tr class="separator:a0c6f7d87d9210f35dc14b52b2b81652c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html">carla::traffic_manager::PipelineStage</a></td></tr>
-<tr class="memitem:a7912caf05d288f6838675bb7c19dfb24 inherit pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a7912caf05d288f6838675bb7c19dfb24">PipelineStage</a> (std::string <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a3c29cf3b76cfa72055c17f3bf57784a1">stage_name</a>)</td></tr>
-<tr class="separator:a7912caf05d288f6838675bb7c19dfb24 inherit pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed4290c25b630328b2638f90079909f1 inherit pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#aed4290c25b630328b2638f90079909f1">PipelineStage</a> (const std::string &amp;<a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a3c29cf3b76cfa72055c17f3bf57784a1">stage_name</a>)</td></tr>
+<tr class="separator:aed4290c25b630328b2638f90079909f1 inherit pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99238e14ff431e20f2a4cf020214e8c9 inherit pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a99238e14ff431e20f2a4cf020214e8c9">Start</a> ()</td></tr>
 <tr class="separator:a99238e14ff431e20f2a4cf020214e8c9 inherit pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc93d41c331c2b40b5e3d863edb992e6 inherit pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#abc93d41c331c2b40b5e3d863edb992e6">Stop</a> ()</td></tr>
@@ -131,24 +131,24 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a0033c32f5200847708d0b3918cb986c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#a0033c32f5200847708d0b3918cb986c9">DrawBoundary</a> (const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a2c1040352e115609075d5aeb046b1b75">LocationList</a> &amp;boundary)</td></tr>
 <tr class="memdesc:a0033c32f5200847708d0b3918cb986c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">A simple method used to draw bounding boxes around vehicles.  <a href="#a0033c32f5200847708d0b3918cb986c9">More...</a><br /></td></tr>
 <tr class="separator:a0033c32f5200847708d0b3918cb986c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada159b05b5b04274b008c62d2598a3a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a2c1040352e115609075d5aeb046b1b75">LocationList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#ada159b05b5b04274b008c62d2598a3a4">GetBoundary</a> (const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> &amp;actor)</td></tr>
-<tr class="memdesc:ada159b05b5b04274b008c62d2598a3a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bounding box corners of the vehicle passed to the method.  <a href="#ada159b05b5b04274b008c62d2598a3a4">More...</a><br /></td></tr>
-<tr class="separator:ada159b05b5b04274b008c62d2598a3a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad74b8ba42603ce2a3b9480e8f5e49237"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a2c1040352e115609075d5aeb046b1b75">LocationList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#ad74b8ba42603ce2a3b9480e8f5e49237">GetBoundary</a> (const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> &amp;actor, const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;location)</td></tr>
+<tr class="memdesc:ad74b8ba42603ce2a3b9480e8f5e49237"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bounding box corners of the vehicle passed to the method.  <a href="#ad74b8ba42603ce2a3b9480e8f5e49237">More...</a><br /></td></tr>
+<tr class="separator:ad74b8ba42603ce2a3b9480e8f5e49237"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8864fafcb5888e945cfa767a896d1762"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#a8864fafcb5888e945cfa767a896d1762">GetBoundingBoxExtention</a> (const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> &amp;ego_vehicle)</td></tr>
 <tr class="memdesc:a8864fafcb5888e945cfa767a896d1762"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to calculate the speed dependent bounding box extention for a vehicle.  <a href="#a8864fafcb5888e945cfa767a896d1762">More...</a><br /></td></tr>
 <tr class="separator:a8864fafcb5888e945cfa767a896d1762"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad743dd39eae0f7dd6173d268a01dcdd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a2c1040352e115609075d5aeb046b1b75">LocationList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#ad743dd39eae0f7dd6173d268a01dcdd6">GetGeodesicBoundary</a> (const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> &amp;actor)</td></tr>
-<tr class="memdesc:ad743dd39eae0f7dd6173d268a01dcdd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the extrapolated bounding box of the vehicle along its trajectory.  <a href="#ad743dd39eae0f7dd6173d268a01dcdd6">More...</a><br /></td></tr>
-<tr class="separator:ad743dd39eae0f7dd6173d268a01dcdd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bdef81e17d12f1dd16962f61f4c1963"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a2c1040352e115609075d5aeb046b1b75">LocationList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#a4bdef81e17d12f1dd16962f61f4c1963">GetGeodesicBoundary</a> (const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> &amp;actor, const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;location)</td></tr>
+<tr class="memdesc:a4bdef81e17d12f1dd16962f61f4c1963"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the extrapolated bounding box of the vehicle along its trajectory.  <a href="#a4bdef81e17d12f1dd16962f61f4c1963">More...</a><br /></td></tr>
+<tr class="separator:a4bdef81e17d12f1dd16962f61f4c1963"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9e10df23e4e644369f94e428c83b949"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ab01e0f733f34d71ff0580aa663b768df">Polygon</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#ae9e10df23e4e644369f94e428c83b949">GetPolygon</a> (const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a2c1040352e115609075d5aeb046b1b75">LocationList</a> &amp;boundary)</td></tr>
 <tr class="memdesc:ae9e10df23e4e644369f94e428c83b949"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to construct a boost polygon object.  <a href="#ae9e10df23e4e644369f94e428c83b949">More...</a><br /></td></tr>
 <tr class="separator:ae9e10df23e4e644369f94e428c83b949"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3885f2335a0f9b2ffa1afc87995ea671"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#a3885f2335a0f9b2ffa1afc87995ea671">IsLocationAfterJunctionSafe</a> (const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> &amp;ego_actor, const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> &amp;overlapped_actor, const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aee461a5a490f4fccca9a4aef84fab3b5">SimpleWaypointPtr</a> safe_point)</td></tr>
-<tr class="memdesc:a3885f2335a0f9b2ffa1afc87995ea671"><td class="mdescLeft">&#160;</td><td class="mdescRight">At intersections, used to see if there is space after the junction.  <a href="#a3885f2335a0f9b2ffa1afc87995ea671">More...</a><br /></td></tr>
-<tr class="separator:a3885f2335a0f9b2ffa1afc87995ea671"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a496e2ddc0fedbe61fc7b15238c88c5fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#a496e2ddc0fedbe61fc7b15238c88c5fb">NegotiateCollision</a> (const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> &amp;ego_vehicle, const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> &amp;other_vehicle, const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aee461a5a490f4fccca9a4aef84fab3b5">SimpleWaypointPtr</a> &amp;closest_point, const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aee461a5a490f4fccca9a4aef84fab3b5">SimpleWaypointPtr</a> &amp;junction_look_ahead)</td></tr>
-<tr class="memdesc:a496e2ddc0fedbe61fc7b15238c88c5fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The method returns true if ego_vehicle should stop and wait for other_vehicle to pass.  <a href="#a496e2ddc0fedbe61fc7b15238c88c5fb">More...</a><br /></td></tr>
-<tr class="separator:a496e2ddc0fedbe61fc7b15238c88c5fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b42d9a77090ed2fcc42da08ff7628ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#a4b42d9a77090ed2fcc42da08ff7628ed">IsLocationAfterJunctionSafe</a> (const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> &amp;ego_actor, const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> &amp;overlapped_actor, const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aee461a5a490f4fccca9a4aef84fab3b5">SimpleWaypointPtr</a> safe_point, const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;other_location)</td></tr>
+<tr class="memdesc:a4b42d9a77090ed2fcc42da08ff7628ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">At intersections, used to see if there is space after the junction.  <a href="#a4b42d9a77090ed2fcc42da08ff7628ed">More...</a><br /></td></tr>
+<tr class="separator:a4b42d9a77090ed2fcc42da08ff7628ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c774723c3112b0ddb9cb5780f9c8cd7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#a5c774723c3112b0ddb9cb5780f9c8cd7">NegotiateCollision</a> (const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> &amp;ego_vehicle, const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> &amp;other_vehicle, const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;reference_location, const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;other_location, const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aee461a5a490f4fccca9a4aef84fab3b5">SimpleWaypointPtr</a> &amp;closest_point, const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aee461a5a490f4fccca9a4aef84fab3b5">SimpleWaypointPtr</a> &amp;junction_look_ahead)</td></tr>
+<tr class="memdesc:a5c774723c3112b0ddb9cb5780f9c8cd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The method returns true if ego_vehicle should stop and wait for other_vehicle to pass.  <a href="#a5c774723c3112b0ddb9cb5780f9c8cd7">More...</a><br /></td></tr>
+<tr class="separator:a5c774723c3112b0ddb9cb5780f9c8cd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -192,12 +192,18 @@ Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classcarla_1_1traffic__manager_1_1PipelineStage"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classcarla_1_1traffic__manager_1_1PipelineStage')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html">carla::traffic_manager::PipelineStage</a></td></tr>
+<tr class="memitem:ab915ed0001d4d196b43f76916c4274dc inherit pro_attribs_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#ab915ed0001d4d196b43f76916c4274dc">run_stage</a></td></tr>
+<tr class="memdesc:ab915ed0001d4d196b43f76916c4274dc inherit pro_attribs_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to start/stop stage.  <a href="#ab915ed0001d4d196b43f76916c4274dc">More...</a><br /></td></tr>
+<tr class="separator:ab915ed0001d4d196b43f76916c4274dc inherit pro_attribs_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c29cf3b76cfa72055c17f3bf57784a1 inherit pro_attribs_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a3c29cf3b76cfa72055c17f3bf57784a1">stage_name</a></td></tr>
+<tr class="memdesc:a3c29cf3b76cfa72055c17f3bf57784a1 inherit pro_attribs_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stage name string.  <a href="#a3c29cf3b76cfa72055c17f3bf57784a1">More...</a><br /></td></tr>
+<tr class="separator:a3c29cf3b76cfa72055c17f3bf57784a1 inherit pro_attribs_classcarla_1_1traffic__manager_1_1PipelineStage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This class is the thread executable for the collision detection stage. </p>
-<p>The class is responsible for checking possible collisions with other vehicles along the vehicle's trajectory. </p>
+<div class="textblock"><p>This class is the thread executable for the collision detection stage and is responsible for checking possible collisions with other cars along the vehicle's trajectory. </p>
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00055">55</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00054">54</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a395d68f97265ca870d85ea69cf5f8ee5"></a>
 <div class="memitem">
@@ -241,9 +247,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00031">31</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00032">32</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00060">frame_selector</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00077">last_world_actors_pass_instance</a>, and <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00079">number_of_vehicles</a>.</p>
+<p>References <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00059">frame_selector</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00076">last_world_actors_pass_instance</a>, and <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00078">number_of_vehicles</a>.</p>
 
 </div>
 </div>
@@ -260,7 +266,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00051">51</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00054">54</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
 
 </div>
 </div>
@@ -290,9 +296,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#adf3c82a4f0202967d62f0cfa91a39a10">carla::traffic_manager::PipelineStage</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00053">53</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00056">56</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00055">carla::traffic_manager::LocalizationToCollisionData::actor</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00049">carla::geom::Math::Clamp()</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00059">carla::traffic_manager::LocalizationToCollisionData::closest_waypoint</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00066">carla::geom::Math::DistanceSquared()</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00060">frame_selector</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00094">carla::traffic_manager::Parameters::GetCollisionDetection()</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00172">carla::traffic_manager::Parameters::GetPercentageIgnoreActors()</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00065">carla::traffic_manager::CollisionToPlannerData::hazard</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00392">IsLocationAfterJunctionSafe()</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00060">carla::traffic_manager::LocalizationToCollisionData::junction_look_ahead_waypoint</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00062">localization_frame</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00082">carla::log_info()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00022">carla::traffic_manager::CollisionStageConstants::MAX_COLLISION_RADIUS</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00023">carla::traffic_manager::CollisionStageConstants::MIN_COLLISION_RADIUS</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00165">NegotiateCollision()</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00079">number_of_vehicles</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00057">carla::traffic_manager::LocalizationToCollisionData::overlapping_actors</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00070">parameters</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00064">planner_frame_a</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00065">planner_frame_b</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00074">vehicle_id_to_index</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00014">carla::traffic_manager::CollisionStageConstants::VERTICAL_OVERLAP_THRESHOLD</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+<p>References <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00055">carla::traffic_manager::LocalizationToCollisionData::actor</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00049">carla::geom::Math::Clamp()</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00059">carla::traffic_manager::LocalizationToCollisionData::closest_waypoint</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00066">carla::geom::Math::DistanceSquared()</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00059">frame_selector</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00112">carla::traffic_manager::Parameters::GetCollisionDetection()</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00228">carla::traffic_manager::Parameters::GetPercentageIgnoreVehicles()</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00216">carla::traffic_manager::Parameters::GetPercentageIgnoreWalkers()</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00065">carla::traffic_manager::CollisionToPlannerData::hazard</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00393">IsLocationAfterJunctionSafe()</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00060">carla::traffic_manager::LocalizationToCollisionData::junction_look_ahead_waypoint</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00061">localization_frame</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00082">carla::log_info()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00022">carla::traffic_manager::CollisionStageConstants::MAX_COLLISION_RADIUS</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00023">carla::traffic_manager::CollisionStageConstants::MIN_COLLISION_RADIUS</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00165">NegotiateCollision()</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00078">number_of_vehicles</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00057">carla::traffic_manager::LocalizationToCollisionData::overlapping_actors</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00069">parameters</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00063">planner_frame_a</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00064">planner_frame_b</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00073">vehicle_id_to_index</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00014">carla::traffic_manager::CollisionStageConstants::VERTICAL_OVERLAP_THRESHOLD</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -331,9 +337,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#ad86aba2b70fb683acdc32460146fd2b5">carla::traffic_manager::PipelineStage</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00128">128</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00125">125</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00081">geodesic_boundaries</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00062">localization_frame</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00067">localization_messenger</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00079">number_of_vehicles</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00064">planner_frame_a</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00065">planner_frame_b</a>, and <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00074">vehicle_id_to_index</a>.</p>
+<p>References <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00080">geodesic_boundaries</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00061">localization_frame</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00066">localization_messenger</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00078">number_of_vehicles</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00063">planner_frame_a</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00064">planner_frame_b</a>, and <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00073">vehicle_id_to_index</a>.</p>
 
 </div>
 </div>
@@ -364,7 +370,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00157">157</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00060">frame_selector</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00067">localization_messenger</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00064">planner_frame_a</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00065">planner_frame_b</a>, and <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00068">planner_messenger</a>.</p>
+<p>References <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00059">frame_selector</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00066">localization_messenger</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00063">planner_frame_a</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00064">planner_frame_b</a>, and <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00067">planner_messenger</a>.</p>
 
 </div>
 </div>
@@ -392,9 +398,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>A simple method used to draw bounding boxes around vehicles. </p>
 
-<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00432">432</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00433">433</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00072">debug_helper</a>, and <a class="el" href="../../d2/d01/DebugHelper_8cpp_source.html#l00038">carla::client::DebugHelper::DrawLine()</a>.</p>
+<p>References <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00071">debug_helper</a>, and <a class="el" href="../../d2/d01/DebugHelper_8cpp_source.html#l00038">carla::client::DebugHelper::DrawLine()</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -408,7 +414,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ada159b05b5b04274b008c62d2598a3a4"></a>
+<a class="anchor" id="ad74b8ba42603ce2a3b9480e8f5e49237"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -419,8 +425,18 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a2c1040352e115609075d5aeb046b1b75">LocationList</a> carla::traffic_manager::CollisionStage::GetBoundary </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> &amp;&#160;</td>
-          <td class="paramname"><em>actor</em></td><td>)</td>
+          <td class="paramname"><em>actor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;&#160;</td>
+          <td class="paramname"><em>location</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -432,18 +448,18 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns the bounding box corners of the vehicle passed to the method. </p>
 
-<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00354">354</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00356">356</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00041">carla::geom::BoundingBox::extent</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00053">carla::geom::Vector3D::MakeUnitVector()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00024">carla::traffic_manager::CollisionStageConstants::WALKER_TIME_EXTENSION</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00248">GetGeodesicBoundary()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00392">IsLocationAfterJunctionSafe()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00165">NegotiateCollision()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00252">GetGeodesicBoundary()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00393">IsLocationAfterJunctionSafe()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00165">NegotiateCollision()</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage_ada159b05b5b04274b008c62d2598a3a4_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage_ad74b8ba42603ce2a3b9480e8f5e49237_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -453,7 +469,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage_ada159b05b5b04274b008c62d2598a3a4_icgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage_ad74b8ba42603ce2a3b9480e8f5e49237_icgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -484,11 +500,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Method to calculate the speed dependent bounding box extention for a vehicle. </p>
 
-<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00336">336</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00338">338</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
 
 <p>References <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00015">carla::traffic_manager::CollisionStageConstants::BOUNDARY_EXTENSION_MINIMUM</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00020">carla::traffic_manager::CollisionStageConstants::CRAWL_SPEED</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00016">carla::traffic_manager::CollisionStageConstants::EXTENSION_SQUARE_POINT</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00018">carla::traffic_manager::CollisionStageConstants::HIGHWAY_SPEED</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00019">carla::traffic_manager::CollisionStageConstants::HIGHWAY_TIME_HORIZON</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00017">carla::traffic_manager::CollisionStageConstants::TIME_HORIZON</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00248">GetGeodesicBoundary()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00165">NegotiateCollision()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00252">GetGeodesicBoundary()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00165">NegotiateCollision()</a>.</p>
 
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -502,7 +518,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad743dd39eae0f7dd6173d268a01dcdd6"></a>
+<a class="anchor" id="a4bdef81e17d12f1dd16962f61f4c1963"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -513,8 +529,18 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a2c1040352e115609075d5aeb046b1b75">LocationList</a> carla::traffic_manager::CollisionStage::GetGeodesicBoundary </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> &amp;&#160;</td>
-          <td class="paramname"><em>actor</em></td><td>)</td>
+          <td class="paramname"><em>actor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;&#160;</td>
+          <td class="paramname"><em>location</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -526,9 +552,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns the extrapolated bounding box of the vehicle along its trajectory. </p>
 
-<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00248">248</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00252">252</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00021">carla::traffic_manager::CollisionStageConstants::BOUNDARY_EDGE_LENGTH</a>, <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00041">carla::geom::BoundingBox::extent</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00081">geodesic_boundaries</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00354">GetBoundary()</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00060">carla::client::detail::ActorState::GetBoundingBox()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00336">GetBoundingBoxExtention()</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00134">carla::traffic_manager::Parameters::GetDistanceToLeadingVehicle()</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00062">localization_frame</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00053">carla::geom::Vector3D::MakeUnitVector()</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00070">parameters</a>, <a class="el" href="../../db/d20/pugixml_8cpp_source.html#l07358">reverse()</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00074">vehicle_id_to_index</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>.</p>
+<p>References <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00021">carla::traffic_manager::CollisionStageConstants::BOUNDARY_EDGE_LENGTH</a>, <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00041">carla::geom::BoundingBox::extent</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00080">geodesic_boundaries</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00356">GetBoundary()</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00060">carla::client::detail::ActorState::GetBoundingBox()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00338">GetBoundingBoxExtention()</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00152">carla::traffic_manager::Parameters::GetDistanceToLeadingVehicle()</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00061">localization_frame</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00053">carla::geom::Vector3D::MakeUnitVector()</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00069">parameters</a>, <a class="el" href="../../db/d20/pugixml_8cpp_source.html#l07358">reverse()</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00073">vehicle_id_to_index</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>.</p>
 
 <p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00165">NegotiateCollision()</a>.</p>
 
@@ -537,7 +563,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage_ad743dd39eae0f7dd6173d268a01dcdd6_cgraph.svg" width="100%" height="588"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage_a4bdef81e17d12f1dd16962f61f4c1963_cgraph.svg" width="100%" height="588"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -547,7 +573,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage_ad743dd39eae0f7dd6173d268a01dcdd6_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage_a4bdef81e17d12f1dd16962f61f4c1963_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -578,9 +604,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Method to construct a boost polygon object. </p>
 
-<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00234">234</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00237">237</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00392">IsLocationAfterJunctionSafe()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00165">NegotiateCollision()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00393">IsLocationAfterJunctionSafe()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00165">NegotiateCollision()</a>.</p>
 
 <p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -594,7 +620,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3885f2335a0f9b2ffa1afc87995ea671"></a>
+<a class="anchor" id="a4b42d9a77090ed2fcc42da08ff7628ed"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -617,7 +643,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aee461a5a490f4fccca9a4aef84fab3b5">SimpleWaypointPtr</a>&#160;</td>
-          <td class="paramname"><em>safe_point</em>&#160;</td>
+          <td class="paramname"><em>safe_point</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;&#160;</td>
+          <td class="paramname"><em>other_location</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -634,18 +666,18 @@ Additional Inherited Members</h2></td></tr>
 
 <p>At intersections, used to see if there is space after the junction. </p>
 
-<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00392">392</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00393">393</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00025">carla::traffic_manager::CollisionStageConstants::EPSILON_VELOCITY</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00354">GetBoundary()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00234">GetPolygon()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00026">carla::traffic_manager::CollisionStageConstants::INTER_BBOX_DISTANCE_THRESHOLD</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00053">carla::geom::Vector3D::MakeUnitVector()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+<p>References <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00025">carla::traffic_manager::CollisionStageConstants::EPSILON_VELOCITY</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00356">GetBoundary()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00237">GetPolygon()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00026">carla::traffic_manager::CollisionStageConstants::INTER_BBOX_DISTANCE_THRESHOLD</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00053">carla::geom::Vector3D::MakeUnitVector()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00053">Action()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00056">Action()</a>.</p>
 
 <p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage_a3885f2335a0f9b2ffa1afc87995ea671_cgraph.svg" width="100%" height="430"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage_a4b42d9a77090ed2fcc42da08ff7628ed_cgraph.svg" width="100%" height="430"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -655,14 +687,14 @@ Additional Inherited Members</h2></td></tr>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-11-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage_a3885f2335a0f9b2ffa1afc87995ea671_icgraph.svg" width="400" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage_a4b42d9a77090ed2fcc42da08ff7628ed_icgraph.svg" width="400" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a496e2ddc0fedbe61fc7b15238c88c5fb"></a>
+<a class="anchor" id="a5c774723c3112b0ddb9cb5780f9c8cd7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -680,6 +712,18 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
           <td class="paramtype">const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> &amp;&#160;</td>
           <td class="paramname"><em>other_vehicle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;&#160;</td>
+          <td class="paramname"><em>reference_location</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;&#160;</td>
+          <td class="paramname"><em>other_location</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -710,16 +754,16 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00165">165</a> of file <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html">CollisionStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../db/d8a/Math_8h_source.html#l00066">carla::geom::Math::DistanceSquared()</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00058">carla::geom::Math::Dot()</a>, <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00041">carla::geom::BoundingBox::extent</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00354">GetBoundary()</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00060">carla::client::detail::ActorState::GetBoundingBox()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00336">GetBoundingBoxExtention()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00248">GetGeodesicBoundary()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00234">GetPolygon()</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a46c3995219197dcef2980adce8d1cfbaad382816a3cbeed082c9e216e7392eed1">carla::rpc::Green</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00062">localization_frame</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00053">carla::geom::Vector3D::MakeUnitVector()</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00074">vehicle_id_to_index</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>.</p>
+<p>References <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00027">carla::traffic_manager::CollisionStageConstants::BBOX_EXTENT_MULTIPLIER</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00066">carla::geom::Math::DistanceSquared()</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00058">carla::geom::Math::Dot()</a>, <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00041">carla::geom::BoundingBox::extent</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00356">GetBoundary()</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00060">carla::client::detail::ActorState::GetBoundingBox()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00338">GetBoundingBoxExtention()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00252">GetGeodesicBoundary()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00237">GetPolygon()</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a46c3995219197dcef2980adce8d1cfbaad382816a3cbeed082c9e216e7392eed1">carla::rpc::Green</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00061">localization_frame</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00053">carla::geom::Vector3D::MakeUnitVector()</a>, <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00073">vehicle_id_to_index</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00053">Action()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00056">Action()</a>.</p>
 
 <p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-12-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage_a496e2ddc0fedbe61fc7b15238c88c5fb_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage_a5c774723c3112b0ddb9cb5780f9c8cd7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -729,7 +773,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-13-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage_a496e2ddc0fedbe61fc7b15238c88c5fb_icgraph.svg" width="446" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage_a5c774723c3112b0ddb9cb5780f9c8cd7_icgraph.svg" width="446" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -757,9 +801,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reference to Carla's debug helper object. </p>
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00072">72</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00071">71</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00432">DrawBoundary()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00433">DrawBoundary()</a>.</p>
 
 </div>
 </div>
@@ -783,9 +827,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Selection key for switching between output frames. </p>
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00060">60</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00059">59</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00053">Action()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00031">CollisionStage()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00157">DataSender()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00056">Action()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00032">CollisionStage()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00157">DataSender()</a>.</p>
 
 </div>
 </div>
@@ -809,9 +853,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Structure to hold the geodesic boundaries during one iteration. </p>
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00081">81</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00080">80</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00128">DataReceiver()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00248">GetGeodesicBoundary()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00125">DataReceiver()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00252">GetGeodesicBoundary()</a>.</p>
 
 </div>
 </div>
@@ -835,9 +879,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>An object used to keep track of time between checking for all world actors. </p>
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00077">77</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00076">76</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00031">CollisionStage()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00032">CollisionStage()</a>.</p>
 
 </div>
 </div>
@@ -861,9 +905,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Pointer to data received from localization stage. </p>
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00062">62</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00061">61</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00053">Action()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00128">DataReceiver()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00248">GetGeodesicBoundary()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00165">NegotiateCollision()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00056">Action()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00125">DataReceiver()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00252">GetGeodesicBoundary()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00165">NegotiateCollision()</a>.</p>
 
 </div>
 </div>
@@ -887,9 +931,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Pointers to messenger objects. </p>
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00067">67</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00066">66</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00128">DataReceiver()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00157">DataSender()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00125">DataReceiver()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00157">DataSender()</a>.</p>
 
 </div>
 </div>
@@ -913,9 +957,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Number of vehicles registered with the traffic manager. </p>
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00079">79</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00078">78</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00053">Action()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00031">CollisionStage()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00128">DataReceiver()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00056">Action()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00032">CollisionStage()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00125">DataReceiver()</a>.</p>
 
 </div>
 </div>
@@ -939,9 +983,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Runtime parameterization object. </p>
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00070">70</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00069">69</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00053">Action()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00248">GetGeodesicBoundary()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00056">Action()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00252">GetGeodesicBoundary()</a>.</p>
 
 </div>
 </div>
@@ -965,9 +1009,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Pointers to output frames to be shared with motion planner stage. </p>
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00064">64</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00063">63</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00053">Action()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00128">DataReceiver()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00157">DataSender()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00056">Action()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00125">DataReceiver()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00157">DataSender()</a>.</p>
 
 </div>
 </div>
@@ -989,9 +1033,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00065">65</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00064">64</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00053">Action()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00128">DataReceiver()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00157">DataSender()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00056">Action()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00125">DataReceiver()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00157">DataSender()</a>.</p>
 
 </div>
 </div>
@@ -1013,7 +1057,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00068">68</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00067">67</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00157">DataSender()</a>.</p>
 
@@ -1039,7 +1083,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Snippet profiler for measuring execution time. </p>
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00083">83</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00082">82</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
 </div>
 </div>
@@ -1063,9 +1107,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The map used to connect actor ids to the array index of data frames. </p>
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00074">74</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00073">73</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00053">Action()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00128">DataReceiver()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00248">GetGeodesicBoundary()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00165">NegotiateCollision()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00056">Action()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00125">DataReceiver()</a>, <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00252">GetGeodesicBoundary()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00165">NegotiateCollision()</a>.</p>
 
 </div>
 </div>

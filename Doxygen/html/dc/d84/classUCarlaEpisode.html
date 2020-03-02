@@ -149,6 +149,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad22c09ef36de8ee8d1c84219c78c9787"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d84/classUCarlaEpisode.html#ad22c09ef36de8ee8d1c84219c78c9787">LoadNewEpisode</a> (const FString &amp;MapString)</td></tr>
 <tr class="memdesc:ad22c09ef36de8ee8d1c84219c78c9787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a new map and start a new episode.  <a href="#ad22c09ef36de8ee8d1c84219c78c9787">More...</a><br /></td></tr>
 <tr class="separator:ad22c09ef36de8ee8d1c84219c78c9787"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab4cecf082fe278f719b2676047350c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d84/classUCarlaEpisode.html#aab4cecf082fe278f719b2676047350c0">LoadNewOpendriveEpisode</a> (const FString &amp;OpenDriveString)</td></tr>
+<tr class="memdesc:aab4cecf082fe278f719b2676047350c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a new map generating the mesh from OpenDRIVE data and start a new episode.  <a href="#aab4cecf082fe278f719b2676047350c0">More...</a><br /></td></tr>
+<tr class="separator:aab4cecf082fe278f719b2676047350c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7d9bad3bafe7dd70d2db7df6b8d2931"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dfd/classcarla_1_1rpc_1_1Actor.html">carla::rpc::Actor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d84/classUCarlaEpisode.html#ad7d9bad3bafe7dd70d2db7df6b8d2931">SerializeActor</a> (<a class="el" href="../../da/db0/classFActorView.html">FActorView</a> ActorView) const </td></tr>
 <tr class="memdesc:ad7d9bad3bafe7dd70d2db7df6b8d2931"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a serializable object describing the actor.  <a href="#ad7d9bad3bafe7dd70d2db7df6b8d2931">More...</a><br /></td></tr>
 <tr class="separator:ad7d9bad3bafe7dd70d2db7df6b8d2931"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,9 +231,9 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00044">44</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
 
-<p>References <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00314">ActorDispatcher</a>.</p>
+<p>References <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00321">ActorDispatcher</a>.</p>
 
 </div>
 </div>
@@ -249,11 +252,11 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00103">103</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00122">122</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
 
-<p>References <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00311">EpisodeSettings</a>, and <a class="el" href="../../d5/d20/CarlaStaticDelegates_8h_source.html#l00016">FCarlaStaticDelegates::OnEpisodeSettingsChange</a>.</p>
+<p>References <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00318">EpisodeSettings</a>, and <a class="el" href="../../d5/d20/CarlaStaticDelegates_8h_source.html#l00016">FCarlaStaticDelegates::OnEpisodeSettingsChange</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00150">FCarlaServer::FPimpl::BindActions()</a>, and <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00049">LoadNewEpisode()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00154">FCarlaServer::FPimpl::BindActions()</a>, and <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00051">LoadNewEpisode()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -300,11 +303,11 @@ Friends</h2></td></tr>
 <p>Attach <em>Child</em> to <em>Parent</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd>Actors cannot be null. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00138">138</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00157">157</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
 
-<p>References <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00304">ACarlaRecorder::AddEvent()</a>, <a class="el" href="../../d1/d4c/ActorAttacher_8cpp_source.html#l00054">UActorAttacher::AttachActors()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00148">FindActor()</a>, <a class="el" href="../../d4/d0c/ActorView_8h_source.html#l00038">FActorView::GetActorId()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h_source.html#l00058">ACarlaRecorder::IsEnabled()</a>, and <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00322">Recorder</a>.</p>
+<p>References <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00309">ACarlaRecorder::AddEvent()</a>, <a class="el" href="../../d1/d4c/ActorAttacher_8cpp_source.html#l00054">UActorAttacher::AttachActors()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00155">FindActor()</a>, <a class="el" href="../../d4/d0c/ActorView_8h_source.html#l00038">FActorView::GetActorId()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h_source.html#l00058">ACarlaRecorder::IsEnabled()</a>, and <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00329">Recorder</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00150">FCarlaServer::FPimpl::BindActions()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00154">FCarlaServer::FPimpl::BindActions()</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -352,9 +355,9 @@ Friends</h2></td></tr>
 
 <p></p>
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00231">231</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00238">238</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00150">FCarlaServer::FPimpl::BindActions()</a>, and <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00192">CarlaReplayerHelper::ProcessReplayerEventDel()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00154">FCarlaServer::FPimpl::BindActions()</a>, and <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00206">CarlaReplayerHelper::ProcessReplayerEventDel()</a>.</p>
 
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -390,9 +393,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00206">206</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00225">225</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/d6a/CarlaRecorder_8h_source.html#l00106">ACarlaRecorder::GetReplayer()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00063">CarlaReplayer::IsEnabled()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00322">Recorder</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00016">CarlaReplayer::Stop()</a>, and <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00244">ACarlaRecorder::Stop()</a>.</p>
+<p>References <a class="el" href="../../d9/d6a/CarlaRecorder_8h_source.html#l00106">ACarlaRecorder::GetReplayer()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00063">CarlaReplayer::IsEnabled()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00329">Recorder</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00016">CarlaReplayer::Stop()</a>, and <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00249">ACarlaRecorder::Stop()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00155">ACarlaGameModeBase::EndPlay()</a>.</p>
 
@@ -443,9 +446,9 @@ Friends</h2></td></tr>
 <p>Find a Carla actor by id. </p>
 <p>If the actor is not found or is pending kill, the returned view is invalid. </p>
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00148">148</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00155">155</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00138">AttachActors()</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00150">FCarlaServer::FPimpl::BindActions()</a>, <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00119">SerializeActor()</a>, and <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00255">CarlaReplayerHelper::SetCameraPosition()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00157">AttachActors()</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00154">FCarlaServer::FPimpl::BindActions()</a>, <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00138">SerializeActor()</a>, and <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00269">CarlaReplayerHelper::SetCameraPosition()</a>.</p>
 
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -484,7 +487,7 @@ Friends</h2></td></tr>
 <p>Find the actor view of <em>Actor</em>. </p>
 <p>If the actor is not found or is pending kill, the returned view is invalid. </p>
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00157">157</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00164">164</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
 </div>
 </div>
@@ -514,7 +517,7 @@ Friends</h2></td></tr>
 <p>If the actor is not found, a "fake" view is returned emulating an existing Carla actor. Use this to return views over static actors present in the map.</p>
 <p>If the actor is pending kill, the returned view is invalid. </p>
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00167">167</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00174">174</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00041">ACollisionSensor::OnCollisionEvent()</a>, and <a class="el" href="../../d2/d70/ObstacleDetectionSensor_8cpp_source.html#l00130">AObstacleDetectionSensor::OnObstacleDetectionEvent()</a>.</p>
 
@@ -553,9 +556,9 @@ Friends</h2></td></tr>
 
 <p>Return the list of actor definitions that are available to be spawned this episode. </p>
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00100">100</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00107">107</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00150">FCarlaServer::FPimpl::BindActions()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00154">FCarlaServer::FPimpl::BindActions()</a>.</p>
 
 <p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -590,9 +593,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00133">133</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00140">140</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00328">ACarlaRecorder::AddCollision()</a>, <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00385">ACarlaRecorder::AddExistingActors()</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00150">FCarlaServer::FPimpl::BindActions()</a>, <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00102">FWorldObserver_Serialize()</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00296">CarlaReplayerHelper::ProcessReplayerAnimVehicle()</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00192">CarlaReplayerHelper::ProcessReplayerEventDel()</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00206">CarlaReplayerHelper::ProcessReplayerEventParent()</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00327">CarlaReplayerHelper::ProcessReplayerFinish()</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00225">CarlaReplayerHelper::ProcessReplayerPosition()</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00277">CarlaReplayerHelper::ProcessReplayerStateTrafficLight()</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00374">CarlaReplayerHelper::SetWalkerSpeed()</a>, <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00057">ACarlaRecorder::Tick()</a>, and <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00017">CarlaReplayerHelper::TryToCreateReplayerActor()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00333">ACarlaRecorder::AddCollision()</a>, <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00390">ACarlaRecorder::AddExistingActors()</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00154">FCarlaServer::FPimpl::BindActions()</a>, <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00102">FWorldObserver_Serialize()</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00310">CarlaReplayerHelper::ProcessReplayerAnimVehicle()</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00206">CarlaReplayerHelper::ProcessReplayerEventDel()</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00220">CarlaReplayerHelper::ProcessReplayerEventParent()</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00341">CarlaReplayerHelper::ProcessReplayerFinish()</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00239">CarlaReplayerHelper::ProcessReplayerPosition()</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00291">CarlaReplayerHelper::ProcessReplayerStateTrafficLight()</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00392">CarlaReplayerHelper::SetWalkerSpeed()</a>, <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00062">ACarlaRecorder::Tick()</a>, and <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00017">CarlaReplayerHelper::TryToCreateReplayerActor()</a>.</p>
 
 <p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -629,7 +632,7 @@ Friends</h2></td></tr>
 
 <p>Game seconds since the start of this episode. </p>
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00092">92</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00099">99</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00150">FWorldObserver::BroadcastTick()</a>.</p>
 
@@ -668,7 +671,7 @@ Friends</h2></td></tr>
 
 <p>Return the GeoLocation point of the map loaded. </p>
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00110">110</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00117">117</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d22/GnssSensor_8cpp_source.html#l00111">AGnssSensor::BeginPlay()</a>.</p>
 
@@ -707,9 +710,9 @@ Friends</h2></td></tr>
 
 <p>Return the unique id of this episode. </p>
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00079">79</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00086">86</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00150">FCarlaServer::FPimpl::BindActions()</a>, and <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00102">FWorldObserver_Serialize()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00154">FCarlaServer::FPimpl::BindActions()</a>, and <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00102">FWorldObserver_Serialize()</a>.</p>
 
 <p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -746,9 +749,9 @@ Friends</h2></td></tr>
 
 <p>Return the name of the map loaded in this episode. </p>
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00086">86</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00093">93</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00150">FCarlaServer::FPimpl::BindActions()</a>, <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00049">LoadNewEpisode()</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l01008">FCarlaServer::NotifyBeginEpisode()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00103">CarlaReplayer::ReplayFile()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00154">FCarlaServer::FPimpl::BindActions()</a>, <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00051">LoadNewEpisode()</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l01068">FCarlaServer::NotifyBeginEpisode()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00104">CarlaReplayer::ReplayFile()</a>.</p>
 
 <p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -777,9 +780,9 @@ Friends</h2></td></tr>
 
 <p>Return the list of recommended spawn points for vehicles. </p>
 
-<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00109">109</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00128">128</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00150">FCarlaServer::FPimpl::BindActions()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00154">FCarlaServer::FPimpl::BindActions()</a>.</p>
 
 <p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -814,9 +817,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00259">259</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00266">266</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00150">FCarlaServer::FPimpl::BindActions()</a>, and <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00041">ACollisionSensor::OnCollisionEvent()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00154">FCarlaServer::FPimpl::BindActions()</a>, and <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00041">ACollisionSensor::OnCollisionEvent()</a>.</p>
 
 <p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -851,9 +854,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00269">269</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00276">276</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00057">ACarlaRecorder::Tick()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00062">ACarlaRecorder::Tick()</a>.</p>
 
 <p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -888,9 +891,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00064">64</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00071">71</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00150">FCarlaServer::FPimpl::BindActions()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00154">FCarlaServer::FPimpl::BindActions()</a>.</p>
 
 <p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -925,9 +928,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00122">122</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00129">129</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00150">FCarlaServer::FPimpl::BindActions()</a>, and <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00255">CarlaReplayerHelper::SetCameraPosition()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00154">FCarlaServer::FPimpl::BindActions()</a>, and <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00269">CarlaReplayerHelper::SetCameraPosition()</a>.</p>
 
 <p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -962,9 +965,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00128">128</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00135">135</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00150">FCarlaServer::FPimpl::BindActions()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00154">FCarlaServer::FPimpl::BindActions()</a>.</p>
 
 <p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -999,9 +1002,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00157">157</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00176">176</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
 
-<p>References <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00314">ActorDispatcher</a>, <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00028">FActorDescription::Class</a>, <a class="el" href="../../d5/dc5/TrafficSignBase_8h_source.html#l00043">ATrafficSignBase::GetTrafficSignState()</a>, <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00024">FActorDescription::Id</a>, <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00112">UActorDispatcher::RegisterActor()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00317">Spectator</a>, and <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00020">UCarlaEpisode_GetTrafficSignId()</a>.</p>
+<p>References <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00321">ActorDispatcher</a>, <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00028">FActorDescription::Class</a>, <a class="el" href="../../d5/dc5/TrafficSignBase_8h_source.html#l00043">ATrafficSignBase::GetTrafficSignState()</a>, <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00024">FActorDescription::Id</a>, <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00112">UActorDispatcher::RegisterActor()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00324">Spectator</a>, and <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00022">UCarlaEpisode_GetTrafficSignId()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00118">ACarlaGameModeBase::BeginPlay()</a>.</p>
 
@@ -1044,11 +1047,11 @@ Friends</h2></td></tr>
 <p>Load a new map and start a new episode. </p>
 <p>If <em>MapString</em> is empty, the current map is reloaded. </p>
 
-<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00049">49</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00051">51</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00103">ApplySettings()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00032">carla::client::detail::Get()</a>, and <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00086">GetMapName()</a>.</p>
+<p>References <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00122">ApplySettings()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00032">carla::client::detail::Get()</a>, and <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00093">GetMapName()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00150">FCarlaServer::FPimpl::BindActions()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00103">CarlaReplayer::ReplayFile()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00154">FCarlaServer::FPimpl::BindActions()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00104">CarlaReplayer::ReplayFile()</a>.</p>
 
 <p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1066,6 +1069,51 @@ Friends</h2></td></tr>
 </div>
 <div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d84/classUCarlaEpisode_ad22c09ef36de8ee8d1c84219c78c9787_icgraph.svg" width="100%" height="391"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aab4cecf082fe278f719b2676047350c0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UCarlaEpisode::LoadNewOpendriveEpisode </td>
+          <td>(</td>
+          <td class="paramtype">const FString &amp;&#160;</td>
+          <td class="paramname"><em>OpenDriveString</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load a new map generating the mesh from OpenDRIVE data and start a new episode. </p>
+<p>If <em>MapString</em> is empty, it fails. </p>
+
+<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00105">105</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
+
+<p>References <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00032">carla::client::detail::Get()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00154">FCarlaServer::FPimpl::BindActions()</a>.</p>
+
+<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d84/classUCarlaEpisode_aab4cecf082fe278f719b2676047350c0_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d84/classUCarlaEpisode_aab4cecf082fe278f719b2676047350c0_icgraph.svg" width="635" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1094,15 +1142,15 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00285">285</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00292">292</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00168">ACarlaGameModeBase::SpawnActorFactories()</a>.</p>
 
-<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d84/classUCarlaEpisode_a72b2207c8c55b717d6a674268f45a67f_icgraph.svg" width="623" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1126,27 +1174,27 @@ Friends</h2></td></tr>
 
 <p>Create a serializable object describing the actor. </p>
 
-<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00119">119</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00138">138</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
 
-<p>References <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00148">FindActor()</a>, <a class="el" href="../../d4/d0c/ActorView_8h_source.html#l00048">FActorView::GetActor()</a>, <a class="el" href="../../d4/d0c/ActorView_8h_source.html#l00038">FActorView::GetActorId()</a>, <a class="el" href="../../d4/d0c/ActorView_8h_source.html#l00058">FActorView::GetActorInfo()</a>, <a class="el" href="../../d4/d0c/ActorView_8h_source.html#l00033">FActorView::IsValid()</a>, <a class="el" href="../../d8/d73/rpc_2Actor_8h_source.html#l00027">carla::rpc::Actor::parent_id</a>, and <a class="el" href="../../d0/d4e/ActorInfo_8h_source.html#l00027">FActorInfo::SerializedData</a>.</p>
+<p>References <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00155">FindActor()</a>, <a class="el" href="../../d4/d0c/ActorView_8h_source.html#l00048">FActorView::GetActor()</a>, <a class="el" href="../../d4/d0c/ActorView_8h_source.html#l00038">FActorView::GetActorId()</a>, <a class="el" href="../../d4/d0c/ActorView_8h_source.html#l00058">FActorView::GetActorInfo()</a>, <a class="el" href="../../d4/d0c/ActorView_8h_source.html#l00033">FActorView::IsValid()</a>, <a class="el" href="../../d8/d73/rpc_2Actor_8h_source.html#l00027">carla::rpc::Actor::parent_id</a>, and <a class="el" href="../../d0/d4e/ActorInfo_8h_source.html#l00027">FActorInfo::SerializedData</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00150">FCarlaServer::FPimpl::BindActions()</a>, <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00041">ACollisionSensor::OnCollisionEvent()</a>, and <a class="el" href="../../d2/d70/ObstacleDetectionSensor_8cpp_source.html#l00130">AObstacleDetectionSensor::OnObstacleDetectionEvent()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00154">FCarlaServer::FPimpl::BindActions()</a>, <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00041">ACollisionSensor::OnCollisionEvent()</a>, and <a class="el" href="../../d2/d70/ObstacleDetectionSensor_8cpp_source.html#l00130">AObstacleDetectionSensor::OnObstacleDetectionEvent()</a>.</p>
 
-<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d84/classUCarlaEpisode_ad7d9bad3bafe7dd70d2db7df6b8d2931_cgraph.svg" width="402" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d84/classUCarlaEpisode_ad7d9bad3bafe7dd70d2db7df6b8d2931_icgraph.svg" width="660" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1210,15 +1258,15 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00264">264</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00271">271</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00036">ACarlaGameModeBase::InitGame()</a>.</p>
 
-<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-29-content" class="dyncontent" style="display:none;">
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d84/classUCarlaEpisode_a97b6aaf22177103f06de673ce739face_icgraph.svg" width="408" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1263,7 +1311,7 @@ Friends</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>nullptr on failure.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Special overload for blueprints. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00213">213</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00220">220</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
 <p>References <a class="el" href="../../d6/d68/ActorAttacher_8h.html#a9cf55c1af321cd2ac28b5097b5e4aa4eac7207657aba5dfd2e5b0ca3f35cd8c26">Rigid</a>.</p>
 
@@ -1311,15 +1359,15 @@ Friends</h2></td></tr>
 <p>To properly despawn an actor created with this function call DestroyActor.</p>
 <dl class="section return"><dt>Returns</dt><dd>A pair containing the result of the spawn function and a view over the actor and its properties. If the status is different of Success the view is invalid. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00184">184</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00191">191</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00150">FCarlaServer::FPimpl::BindActions()</a>, and <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00017">CarlaReplayerHelper::TryToCreateReplayerActor()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00154">FCarlaServer::FPimpl::BindActions()</a>, and <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00017">CarlaReplayerHelper::TryToCreateReplayerActor()</a>.</p>
 
-<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-30-content" class="dyncontent" style="display:none;">
+<div id="dynsection-32-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d84/classUCarlaEpisode_a70a247e4701217c7d5e881d2842b83b7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1341,27 +1389,27 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00219">219</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00238">238</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
 
-<p>References <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00308">MapName</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00322">Recorder</a>, and <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00203">ACarlaRecorder::Start()</a>.</p>
+<p>References <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00315">MapName</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00329">Recorder</a>, and <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00208">ACarlaRecorder::Start()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00150">FCarlaServer::FPimpl::BindActions()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00154">FCarlaServer::FPimpl::BindActions()</a>.</p>
 
-<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-31-content" class="dyncontent" style="display:none;">
+<div id="dynsection-33-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d84/classUCarlaEpisode_a74547d3e3536fe8d1b30b1db8e1c7704_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div id="dynsection-34-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d84/classUCarlaEpisode_a74547d3e3536fe8d1b30b1db8e1c7704_icgraph.svg" width="602" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1391,15 +1439,15 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00298">298</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00305">305</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00090">FCarlaEngine::OnPreTick()</a>.</p>
 
-<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-33-content" class="dyncontent" style="display:none;">
+<div id="dynsection-35-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d84/classUCarlaEpisode_ab8cabe13a599054ed68f0cfeb0275f4e_icgraph.svg" width="658" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1472,7 +1520,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00278">278</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00285">285</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
 </div>
 </div>
@@ -1494,7 +1542,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00279">279</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00286">286</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
 </div>
 </div>
@@ -1517,9 +1565,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00314">314</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00321">321</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00157">InitializeAtBeginPlay()</a>, and <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00042">UCarlaEpisode()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00176">InitializeAtBeginPlay()</a>, and <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00044">UCarlaEpisode()</a>.</p>
 
 </div>
 </div>
@@ -1541,7 +1589,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00305">305</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00312">312</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
 </div>
 </div>
@@ -1563,9 +1611,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00311">311</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00318">318</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00103">ApplySettings()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00077">FCarlaEngine::NotifyBeginEpisode()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00122">ApplySettings()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00077">FCarlaEngine::NotifyBeginEpisode()</a>.</p>
 
 </div>
 </div>
@@ -1587,7 +1635,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00303">303</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00310">310</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
 </div>
 </div>
@@ -1609,7 +1657,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00324">324</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00331">331</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00036">ACarlaGameModeBase::InitGame()</a>.</p>
 
@@ -1633,9 +1681,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00308">308</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00315">315</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00012">UOpenDrive::FindPathToXODRFile()</a>, <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00036">ACarlaGameModeBase::InitGame()</a>, and <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00219">StartRecorder()</a>.</p>
+<p>Referenced by <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00012">UOpenDrive::FindPathToXODRFile()</a>, <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00036">ACarlaGameModeBase::InitGame()</a>, and <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00238">StartRecorder()</a>.</p>
 
 </div>
 </div>
@@ -1657,9 +1705,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00322">322</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00329">329</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00138">AttachActors()</a>, <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00206">EndPlay()</a>, and <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00219">StartRecorder()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00157">AttachActors()</a>, <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00225">EndPlay()</a>, and <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00238">StartRecorder()</a>.</p>
 
 </div>
 </div>
@@ -1681,9 +1729,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00317">317</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00324">324</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00157">InitializeAtBeginPlay()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00176">InitializeAtBeginPlay()</a>.</p>
 
 </div>
 </div>
@@ -1705,7 +1753,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00320">320</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00327">327</a> of file <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">CarlaEpisode.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00118">ACarlaGameModeBase::BeginPlay()</a>, and <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00036">ACarlaGameModeBase::InitGame()</a>.</p>
 

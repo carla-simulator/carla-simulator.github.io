@@ -77,7 +77,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="title">LocalizationStage.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">carla/trafficmanager/LocalizationStage.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/dbe/DebugHelper_8h_source.html">carla/client/DebugHelper.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for LocalizationStage.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -104,7 +105,7 @@ Variables</h2></td></tr>
 <tr class="separator:a814cd1b199bbeca2673e60e804f6befa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecfde0874841a2a77d4d390fd8a874d2"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5c/namespacecarla_1_1traffic__manager_1_1LocalizationConstants.html#aecfde0874841a2a77d4d390fd8a874d2">carla::traffic_manager::LocalizationConstants::DELTA_TIME_BETWEEN_DESTRUCTIONS</a> = 10.0f</td></tr>
 <tr class="separator:aecfde0874841a2a77d4d390fd8a874d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeffe6357ada5745e40760b1efd1c00e6"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5c/namespacecarla_1_1traffic__manager_1_1LocalizationConstants.html#aeffe6357ada5745e40760b1efd1c00e6">carla::traffic_manager::LocalizationConstants::HIGHWAY_SPEED</a> = 50 / 3.6f</td></tr>
+<tr class="memitem:aeffe6357ada5745e40760b1efd1c00e6"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5c/namespacecarla_1_1traffic__manager_1_1LocalizationConstants.html#aeffe6357ada5745e40760b1efd1c00e6">carla::traffic_manager::LocalizationConstants::HIGHWAY_SPEED</a> = 50.0f / 3.6f</td></tr>
 <tr class="separator:aeffe6357ada5745e40760b1efd1c00e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad28e4ee564cf166b2d45da43709ddb21"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5c/namespacecarla_1_1traffic__manager_1_1LocalizationConstants.html#ad28e4ee564cf166b2d45da43709ddb21">carla::traffic_manager::LocalizationConstants::MAXIMUM_LANE_OBSTACLE_CURVATURE</a> = 0.6f</td></tr>
 <tr class="separator:ad28e4ee564cf166b2d45da43709ddb21"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -114,7 +115,7 @@ Variables</h2></td></tr>
 <tr class="separator:a3e38d01014f608e2942ae6932ac864b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b6d47986679e7fd743596e9b204e745"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5c/namespacecarla_1_1traffic__manager_1_1LocalizationConstants.html#a6b6d47986679e7fd743596e9b204e745">carla::traffic_manager::LocalizationConstants::MINIMUM_LANE_CHANGE_DISTANCE</a> = 50.0f</td></tr>
 <tr class="separator:a6b6d47986679e7fd743596e9b204e745"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9dce82845b43f7bda9d8967db77683f6"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5c/namespacecarla_1_1traffic__manager_1_1LocalizationConstants.html#a9dce82845b43f7bda9d8967db77683f6">carla::traffic_manager::LocalizationConstants::STOPPED_VELOCITY_THRESHOLD</a> = 0.4f</td></tr>
+<tr class="memitem:a9dce82845b43f7bda9d8967db77683f6"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5c/namespacecarla_1_1traffic__manager_1_1LocalizationConstants.html#a9dce82845b43f7bda9d8967db77683f6">carla::traffic_manager::LocalizationConstants::STOPPED_VELOCITY_THRESHOLD</a> = 0.8f</td></tr>
 <tr class="separator:a9dce82845b43f7bda9d8967db77683f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61323580cf8f73a996d0acdc82b13ef5"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5c/namespacecarla_1_1traffic__manager_1_1LocalizationConstants.html#a61323580cf8f73a996d0acdc82b13ef5">carla::traffic_manager::LocalizationConstants::TARGET_WAYPOINT_HORIZON_LENGTH</a> = 5.0f</td></tr>
 <tr class="separator:a61323580cf8f73a996d0acdc82b13ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>

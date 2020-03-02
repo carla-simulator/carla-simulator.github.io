@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['negative',['Negative',['../de/d26/namespacecarla_1_1road.html#a819c473e6007333e3a037a76220707d8a81dda9bac0450f020afb784dc5fb0196',1,'carla::road']]],
   ['node_5fcdata',['node_cdata',['../d3/d68/namespacepugi.html#a137e94a038e4ab0ada6477cf7f6153a9adf13d60a4dfd047be0700e1711aeb1ea',1,'pugi']]],
   ['node_5fcomment',['node_comment',['../d3/d68/namespacepugi.html#a137e94a038e4ab0ada6477cf7f6153a9a445fef674a66777dfd28dbd6bab14fed',1,'pugi']]],
   ['node_5fdeclaration',['node_declaration',['../d3/d68/namespacepugi.html#a137e94a038e4ab0ada6477cf7f6153a9aad8024cc4a4afbc68c871f3826a00616',1,'pugi']]],

@@ -5,6 +5,7 @@ var searchData=
   ['base',['base',['../df/d6c/structmoodycamel_1_1ConcurrentQueue_1_1ExplicitProducer_1_1BlockIndexEntry.html#a1517aa089442fed9227686a08543b201',1,'moodycamel::ConcurrentQueue::ExplicitProducer::BlockIndexEntry']]],
   ['base_5fpath',['BASE_PATH',['../d1/dc0/test__opendrive_8cpp.html#a0423f4cb393331ce0b9f6b3a43adcaae',1,'test_opendrive.cpp']]],
   ['bautopilotenabled',['bAutopilotEnabled',['../dd/dea/classAWheeledVehicleAIController.html#a18a99f64732b72fdb29e5bbfb3295348',1,'AWheeledVehicleAIController']]],
+  ['bbox_5fextent_5fmultiplier',['BBOX_EXTENT_MULTIPLIER',['../d5/de3/namespacecarla_1_1traffic__manager_1_1CollisionStageConstants.html#ab29e4377cc223b314c13ae83221ed263',1,'carla::traffic_manager::CollisionStageConstants']]],
   ['bcontrolissticky',['bControlIsSticky',['../dd/dea/classAWheeledVehicleAIController.html#a9d8d35f5cbf67d2c307106d567f6de56',1,'AWheeledVehicleAIController']]],
   ['bdebuglinetrace',['bDebugLineTrace',['../d3/d93/classAObstacleDetectionSensor.html#a248e7201277c9e9200c92a93b53d5a64',1,'AObstacleDetectionSensor']]],
   ['bdisablerendering',['bDisableRendering',['../d7/d1e/classUCarlaSettings.html#a4fa4cce8efcb504454adce0b12e0aa62',1,'UCarlaSettings']]],
