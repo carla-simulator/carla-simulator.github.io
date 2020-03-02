@@ -101,6 +101,9 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a463df943a1724aa82c1f4a1f0bad7d0d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">SharedPtr</a>&lt; <a class="el" href="../../d3/dc1/classcarla_1_1client_1_1Landmark.html">Landmark</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dff/classcarla_1_1client_1_1Waypoint.html#a463df943a1724aa82c1f4a1f0bad7d0d">GetAllLandmakrsInDistance</a> (double distance, bool stop_at_junction=false) const </td></tr>
+<tr class="memdesc:a463df943a1724aa82c1f4a1f0bad7d0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of landmarks from the current position to a certain distance.  <a href="#a463df943a1724aa82c1f4a1f0bad7d0d">More...</a><br /></td></tr>
+<tr class="separator:a463df943a1724aa82c1f4a1f0bad7d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae00fa5287d5002ad1458b5f452ee5b19"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dff/classcarla_1_1client_1_1Waypoint.html#ae00fa5287d5002ad1458b5f452ee5b19">GetDistance</a> () const </td></tr>
 <tr class="separator:ae00fa5287d5002ad1458b5f452ee5b19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54bf2c350693f62b3809f12170f19f90"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dff/classcarla_1_1client_1_1Waypoint.html#a54bf2c350693f62b3809f12170f19f90">GetId</a> () const </td></tr>
@@ -110,6 +113,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab1b832c7b2a1f5cd7c492d7042fa26bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88f886f33777aeed86601e91d7e3a3bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d26/namespacecarla_1_1road.html#a459e3705665dbc8b48b8ed053e15f6f7">road::JuncId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dff/classcarla_1_1client_1_1Waypoint.html#a88f886f33777aeed86601e91d7e3a3bc">GetJunctionId</a> () const </td></tr>
 <tr class="separator:a88f886f33777aeed86601e91d7e3a3bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab27ae0c3a10f8bbd08c9a7aa93482733"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">SharedPtr</a>&lt; <a class="el" href="../../d3/dc1/classcarla_1_1client_1_1Landmark.html">Landmark</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dff/classcarla_1_1client_1_1Waypoint.html#ab27ae0c3a10f8bbd08c9a7aa93482733">GetLandmakrsOfTypeInDistance</a> (double distance, std::string filter_type, bool stop_at_junction=false) const </td></tr>
+<tr class="memdesc:ab27ae0c3a10f8bbd08c9a7aa93482733"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list of landmarks from the current position to a certain distance Filters by specified type.  <a href="#ab27ae0c3a10f8bbd08c9a7aa93482733">More...</a><br /></td></tr>
+<tr class="separator:ab27ae0c3a10f8bbd08c9a7aa93482733"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef583da2298a368be92fc3d5da1f4d23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#a1ae031503b72620fa5c60d0b8bc7b71f">road::element::LaneMarking::LaneChange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dff/classcarla_1_1client_1_1Waypoint.html#aef583da2298a368be92fc3d5da1f4d23">GetLaneChange</a> () const </td></tr>
 <tr class="separator:aef583da2298a368be92fc3d5da1f4d23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a723deefdb93f5feb7676772e95617bbc"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dff/classcarla_1_1client_1_1Waypoint.html#a723deefdb93f5feb7676772e95617bbc">GetLaneId</a> () const </td></tr>
@@ -181,7 +187,7 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00026">26</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00027">27</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aa6a3c2ff05e0fa0351e5bb4d9afa95a6"></a>
 <div class="memitem">
@@ -204,14 +210,14 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00015">Waypoint()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00018">Waypoint()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_aa6a3c2ff05e0fa0351e5bb4d9afa95a6_icgraph.svg" width="100%" height="556"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_aa6a3c2ff05e0fa0351e5bb4d9afa95a6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -250,11 +256,11 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00015">15</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00018">18</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
 
 <p>References <a class="el" href="../../dd/dff/classcarla_1_1client_1_1Waypoint.html#aa6a3c2ff05e0fa0351e5bb4d9afa95a6">~Waypoint()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00128">GetLeft()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00047">GetNext()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00057">GetPrevious()</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00119">GetRight()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00210">GetAllLandmakrsInDistance()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00228">GetLandmakrsOfTypeInDistance()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00131">GetLeft()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00050">GetNext()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00060">GetPrevious()</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00122">GetRight()</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -271,7 +277,7 @@ Friends</h2></td></tr>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_ac5a9fb0c886223ea013338ff1320c1d1_icgraph.svg" width="100%" height="542"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_ac5a9fb0c886223ea013338ff1320c1d1_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -279,6 +285,60 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a463df943a1724aa82c1f4a1f0bad7d0d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">SharedPtr</a>&lt; <a class="el" href="../../d3/dc1/classcarla_1_1client_1_1Landmark.html">Landmark</a> &gt; &gt; carla::client::Waypoint::GetAllLandmakrsInDistance </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>distance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>stop_at_junction</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a list of landmarks from the current position to a certain distance. </p>
+
+<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00210">210</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00109">_parent</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00111">_waypoint</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00018">Waypoint()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00058">GetTransform()</a>.</p>
+
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_a463df943a1724aa82c1f4a1f0bad7d0d_cgraph.svg" width="604" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_a463df943a1724aa82c1f4a1f0bad7d0d_icgraph.svg" width="404" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="ae00fa5287d5002ad1458b5f452ee5b19"></a>
 <div class="memitem">
 <div class="memproto">
@@ -300,17 +360,17 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00053">53</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00054">54</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00101">_waypoint</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00026">carla::road::element::Waypoint::s</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00111">_waypoint</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00026">carla::road::element::Waypoint::s</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00067">GetNextUntilLaneEnd()</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00092">GetPreviousUntilLaneStart()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00070">GetNextUntilLaneEnd()</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00095">GetPreviousUntilLaneStart()</a>.</p>
 
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_ae00fa5287d5002ad1458b5f452ee5b19_icgraph.svg" width="596" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -342,9 +402,9 @@ Friends</h2></td></tr>
 <p>Returns an unique Id identifying this waypoint. </p>
 <p>The Id takes into account OpenDrive's road Id, lane Id, and s distance on its road segment up to half-centimetre precision. </p>
 
-<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00037">37</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00038">38</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00101">_waypoint</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00111">_waypoint</a>.</p>
 
 </div>
 </div>
@@ -361,27 +421,27 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00031">31</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00034">34</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00099">_parent</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00027">IsJunction()</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00109">_parent</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00030">IsJunction()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00057">GetTransform()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00058">GetTransform()</a>.</p>
 
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_ab1b832c7b2a1f5cd7c492d7042fa26bd_cgraph.svg" width="363" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_ab1b832c7b2a1f5cd7c492d7042fa26bd_icgraph.svg" width="363" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -402,18 +462,78 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00026">26</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00099">_parent</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00101">_waypoint</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00020">carla::road::element::Waypoint::road_id</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00109">_parent</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00111">_waypoint</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00020">carla::road::element::Waypoint::road_id</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00116">carla::client::Map::GetJunction()</a>, and <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00057">GetTransform()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00116">carla::client::Map::GetJunction()</a>, and <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00058">GetTransform()</a>.</p>
 
-<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_a88f886f33777aeed86601e91d7e3a3bc_icgraph.svg" width="363" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab27ae0c3a10f8bbd08c9a7aa93482733"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">SharedPtr</a>&lt; <a class="el" href="../../d3/dc1/classcarla_1_1client_1_1Landmark.html">Landmark</a> &gt; &gt; carla::client::Waypoint::GetLandmakrsOfTypeInDistance </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>distance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>filter_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>stop_at_junction</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a list of landmarks from the current position to a certain distance Filters by specified type. </p>
+
+<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00228">228</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00109">_parent</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00111">_waypoint</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00018">Waypoint()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00058">GetTransform()</a>.</p>
+
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_ab27ae0c3a10f8bbd08c9a7aa93482733_cgraph.svg" width="632" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_ab27ae0c3a10f8bbd08c9a7aa93482733_icgraph.svg" width="432" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -433,17 +553,17 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00165">165</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00168">168</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00108">_mark_record</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00101">_waypoint</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00118">_mark_record</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00111">_waypoint</a>, <a class="el" href="../../d0/def/Signal_8h_source.html#l00024">carla::road::Both</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00057">GetTransform()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00058">GetTransform()</a>.</p>
 
-<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_aef583da2298a368be92fc3d5da1f4d23_icgraph.svg" width="363" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -472,9 +592,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00049">49</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00050">50</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00101">_waypoint</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00111">_waypoint</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>.</p>
 
 </div>
 </div>
@@ -491,17 +611,17 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00038">38</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00041">41</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00099">_parent</a>, and <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00101">_waypoint</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00109">_parent</a>, and <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00111">_waypoint</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00057">GetTransform()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00058">GetTransform()</a>.</p>
 
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_a4cd27da21278be88c80b7e56fae4eb17_icgraph.svg" width="363" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -522,27 +642,27 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00128">128</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00131">131</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00099">_parent</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00101">_waypoint</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00015">Waypoint()</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00109">_parent</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00111">_waypoint</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00018">Waypoint()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00057">GetTransform()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00058">GetTransform()</a>.</p>
 
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_a208aabf412b68147967d6818e2471c11_cgraph.svg" width="563" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_a208aabf412b68147967d6818e2471c11_icgraph.svg" width="363" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -563,17 +683,17 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00144">144</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00147">147</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00108">_mark_record</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00118">_mark_record</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00057">GetTransform()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00058">GetTransform()</a>.</p>
 
-<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_af906acf169710a7cd9b3b2c322de9a0c_icgraph.svg" width="363" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -595,27 +715,27 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00050">50</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00099">_parent</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00101">_waypoint</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00015">Waypoint()</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00109">_parent</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00111">_waypoint</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00018">Waypoint()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00067">GetNextUntilLaneEnd()</a>, and <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00057">GetTransform()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00070">GetNextUntilLaneEnd()</a>, and <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00058">GetTransform()</a>.</p>
 
-<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_a1123ae39b959cc33429e2cd41e176dab_cgraph.svg" width="563" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_a1123ae39b959cc33429e2cd41e176dab_icgraph.svg" width="568" height="82"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -639,27 +759,27 @@ Friends</h2></td></tr>
 
 <p>Returns a list of waypoints separated by distance from the current waypoint to the end of the lane. </p>
 
-<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00067">67</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00070">70</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00099">_parent</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00101">_waypoint</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00053">GetDistance()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00047">GetNext()</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00041">GetRoadId()</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00109">_parent</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00111">_waypoint</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00054">GetDistance()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00050">GetNext()</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00042">GetRoadId()</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00057">GetTransform()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00058">GetTransform()</a>.</p>
 
-<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_a3e8b3403ec25c04fb45769eb60e51df3_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_a3e8b3403ec25c04fb45769eb60e51df3_icgraph.svg" width="368" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -681,27 +801,27 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00057">57</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00060">60</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00099">_parent</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00101">_waypoint</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00015">Waypoint()</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00109">_parent</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00111">_waypoint</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00018">Waypoint()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00092">GetPreviousUntilLaneStart()</a>, and <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00057">GetTransform()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00095">GetPreviousUntilLaneStart()</a>, and <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00058">GetTransform()</a>.</p>
 
-<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_ab56c112f8bd915fb270ca9cc41869819_cgraph.svg" width="563" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_ab56c112f8bd915fb270ca9cc41869819_icgraph.svg" width="596" height="82"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -725,27 +845,27 @@ Friends</h2></td></tr>
 
 <p>Returns a list of waypoints separated by distance from the current waypoint to the start of the lane. </p>
 
-<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00092">92</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00095">95</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00099">_parent</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00101">_waypoint</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00053">GetDistance()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00057">GetPrevious()</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00041">GetRoadId()</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00109">_parent</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00111">_waypoint</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00054">GetDistance()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00060">GetPrevious()</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00042">GetRoadId()</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00024">carla::road::element::Waypoint::lane_id</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00057">GetTransform()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00058">GetTransform()</a>.</p>
 
-<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_af2e9a3510a04259f1117a36ad60aba90_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_af2e9a3510a04259f1117a36ad60aba90_icgraph.svg" width="396" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -766,27 +886,27 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00119">119</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00122">122</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00099">_parent</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00101">_waypoint</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00015">Waypoint()</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00109">_parent</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00111">_waypoint</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00018">Waypoint()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00057">GetTransform()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00058">GetTransform()</a>.</p>
 
-<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_a606d081d0eef678de73861a2fc5879fb_cgraph.svg" width="563" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_a606d081d0eef678de73861a2fc5879fb_icgraph.svg" width="363" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -807,17 +927,17 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00137">137</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00140">140</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00108">_mark_record</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00118">_mark_record</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00057">GetTransform()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00058">GetTransform()</a>.</p>
 
-<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_a07fea1adb2d57bf9cdb28fc7c9c2bbcb_icgraph.svg" width="367" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -846,17 +966,17 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00041">41</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00042">42</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00101">_waypoint</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00020">carla::road::element::Waypoint::road_id</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00111">_waypoint</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00020">carla::road::element::Waypoint::road_id</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00067">GetNextUntilLaneEnd()</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00092">GetPreviousUntilLaneStart()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00070">GetNextUntilLaneEnd()</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00095">GetPreviousUntilLaneStart()</a>.</p>
 
-<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_abaecd19c8175df1eeba00880ab9312d6_icgraph.svg" width="596" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -885,9 +1005,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00045">45</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00046">46</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00101">_waypoint</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00022">carla::road::element::Waypoint::section_id</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00111">_waypoint</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00022">carla::road::element::Waypoint::section_id</a>.</p>
 
 </div>
 </div>
@@ -912,15 +1032,15 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00057">57</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00058">58</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00103">_transform</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00031">GetJunction()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00023">GetJunctionId()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00165">GetLaneChange()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00038">GetLaneWidth()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00128">GetLeft()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00144">GetLeftLaneMarking()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00047">GetNext()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00067">GetNextUntilLaneEnd()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00057">GetPrevious()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00092">GetPreviousUntilLaneStart()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00119">GetRight()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00137">GetRightLaneMarking()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00043">GetType()</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00027">IsJunction()</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00113">_transform</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00210">GetAllLandmakrsInDistance()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00034">GetJunction()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00026">GetJunctionId()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00228">GetLandmakrsOfTypeInDistance()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00168">GetLaneChange()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00041">GetLaneWidth()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00131">GetLeft()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00147">GetLeftLaneMarking()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00050">GetNext()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00070">GetNextUntilLaneEnd()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00060">GetPrevious()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00095">GetPreviousUntilLaneStart()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00122">GetRight()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00140">GetRightLaneMarking()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00046">GetType()</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00030">IsJunction()</a>.</p>
 
-<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_a2320e40b86bf318ab80faf697feaa25a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -941,17 +1061,17 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00043">43</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00046">46</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00099">_parent</a>, and <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00101">_waypoint</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00109">_parent</a>, and <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00111">_waypoint</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00057">GetTransform()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00058">GetTransform()</a>.</p>
 
-<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_af0bf483ccb6630331314efb4b22a0dff_icgraph.svg" width="363" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -972,17 +1092,17 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00027">27</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html">client/Waypoint.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00099">_parent</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00101">_waypoint</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00020">carla::road::element::Waypoint::road_id</a>.</p>
+<p>References <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00109">_parent</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00111">_waypoint</a>, and <a class="el" href="../../d3/dbb/road_2element_2Waypoint_8h_source.html#l00020">carla::road::element::Waypoint::road_id</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00031">GetJunction()</a>, and <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00057">GetTransform()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00034">GetJunction()</a>, and <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00058">GetTransform()</a>.</p>
 
-<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div id="dynsection-32-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dff/classcarla_1_1client_1_1Waypoint_a0f8586989b4170c5a7fcf155c1b097ea_icgraph.svg" width="563" height="82"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1009,7 +1129,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00095">95</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00105">105</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
 
 </div>
 </div>
@@ -1032,9 +1152,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00108">108</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00118">118</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00165">GetLaneChange()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00144">GetLeftLaneMarking()</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00137">GetRightLaneMarking()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00168">GetLaneChange()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00147">GetLeftLaneMarking()</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00140">GetRightLaneMarking()</a>.</p>
 
 </div>
 </div>
@@ -1056,9 +1176,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00099">99</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00109">109</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00031">GetJunction()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00023">GetJunctionId()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00038">GetLaneWidth()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00128">GetLeft()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00047">GetNext()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00067">GetNextUntilLaneEnd()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00057">GetPrevious()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00092">GetPreviousUntilLaneStart()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00119">GetRight()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00043">GetType()</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00027">IsJunction()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00210">GetAllLandmakrsInDistance()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00034">GetJunction()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00026">GetJunctionId()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00228">GetLandmakrsOfTypeInDistance()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00041">GetLaneWidth()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00131">GetLeft()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00050">GetNext()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00070">GetNextUntilLaneEnd()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00060">GetPrevious()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00095">GetPreviousUntilLaneStart()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00122">GetRight()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00046">GetType()</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00030">IsJunction()</a>.</p>
 
 </div>
 </div>
@@ -1080,9 +1200,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00103">103</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00113">113</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00057">GetTransform()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00058">GetTransform()</a>.</p>
 
 </div>
 </div>
@@ -1104,9 +1224,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00101">101</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00111">111</a> of file <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">client/Waypoint.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00053">GetDistance()</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00037">GetId()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00023">GetJunctionId()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00165">GetLaneChange()</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00049">GetLaneId()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00038">GetLaneWidth()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00128">GetLeft()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00047">GetNext()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00067">GetNextUntilLaneEnd()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00057">GetPrevious()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00092">GetPreviousUntilLaneStart()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00119">GetRight()</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00041">GetRoadId()</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00045">GetSectionId()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00043">GetType()</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00027">IsJunction()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00210">GetAllLandmakrsInDistance()</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00054">GetDistance()</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00038">GetId()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00026">GetJunctionId()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00228">GetLandmakrsOfTypeInDistance()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00168">GetLaneChange()</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00050">GetLaneId()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00041">GetLaneWidth()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00131">GetLeft()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00050">GetNext()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00070">GetNextUntilLaneEnd()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00060">GetPrevious()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00095">GetPreviousUntilLaneStart()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00122">GetRight()</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00042">GetRoadId()</a>, <a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html#l00046">GetSectionId()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00046">GetType()</a>, and <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00030">IsJunction()</a>.</p>
 
 </div>
 </div>

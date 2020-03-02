@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['half_5fpi_5ffresnel',['HALF_PI_FRESNEL',['../da/d5a/const_8h.html#a2f2c3e669551fbd7a4f7d25760fb3309',1,'const.h']]],
   ['halfedge',['HalfEdge',['../dd/d77/structMapGen_1_1DoublyConnectedEdgeList_1_1Face.html#a23f0734d72381ffcfbc259eea61f1d94',1,'MapGen::DoublyConnectedEdgeList::Face']]],
   ['halfedges',['HalfEdges',['../d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#a2e918620a11d2755dfe6556f508fa220',1,'MapGen::DoublyConnectedEdgeList']]],
   ['hand_5fbrake',['hand_brake',['../d3/d9c/classcarla_1_1rpc_1_1VehicleControl.html#ae96185791079f775aa179c1982263fe3',1,'carla::rpc::VehicleControl::hand_brake()'],['../d9/d06/classcarla_1_1sensor_1_1data_1_1detail_1_1PackedVehicleControl.html#a6169ddde355b461a527952c073654b21',1,'carla::sensor::data::detail::PackedVehicleControl::hand_brake()']]],

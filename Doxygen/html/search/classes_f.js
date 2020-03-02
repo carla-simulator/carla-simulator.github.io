@@ -13,6 +13,7 @@ var searchData=
   ['png',['png',['../de/d0e/structcarla_1_1image_1_1io_1_1png.html',1,'carla::image::io']]],
   ['point',['Point',['../d4/d40/structcarla_1_1rpc_1_1DebugShape_1_1Point.html',1,'carla::rpc::DebugShape']]],
   ['pointcloudio',['PointCloudIO',['../d2/d02/classcarla_1_1pointcloud_1_1PointCloudIO.html',1,'carla::pointcloud']]],
+  ['pointcloudrtree',['PointCloudRtree',['../d0/d0f/classcarla_1_1geom_1_1PointCloudRtree.html',1,'carla::geom']]],
   ['polynomial',['Polynomial',['../d1/d20/structcarla_1_1opendrive_1_1parser_1_1Polynomial.html',1,'carla::opendrive::parser']]],
   ['position',['Position',['../d0/dd4/classMapGen_1_1Position.html',1,'MapGen']]],
   ['position_3c_20int32_20_3e',['Position&lt; int32 &gt;',['../d0/dd4/classMapGen_1_1Position.html',1,'MapGen']]],

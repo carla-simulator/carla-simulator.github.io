@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['validity',['Validity',['../df/df9/classcarla_1_1road_1_1general_1_1Validity.html',1,'carla::road::general']]],
   ['vector2d',['Vector2D',['../d4/d57/classcarla_1_1geom_1_1Vector2D.html',1,'carla::geom']]],
   ['vector3d',['Vector3D',['../d9/dfe/classcarla_1_1geom_1_1Vector3D.html',1,'carla::geom']]],
   ['vehicle',['Vehicle',['../d9/dc6/classcarla_1_1client_1_1Vehicle.html',1,'carla::client']]],

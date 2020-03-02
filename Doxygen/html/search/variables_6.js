@@ -2,7 +2,7 @@ var searchData=
 [
   ['face',['Face',['../da/d88/structMapGen_1_1DoublyConnectedEdgeList_1_1HalfEdge.html#af902c6dc867de0d4dfaf9d3dca5a48e5',1,'MapGen::DoublyConnectedEdgeList::HalfEdge']]],
   ['faces',['Faces',['../d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#a516d813d34d55fa8b9f4663596f5204b',1,'MapGen::DoublyConnectedEdgeList']]],
-  ['fd',['fd',['../dc/d52/fresnl_8cpp.html#a1e5f292c27becd20ab2ca3825072a885',1,'fresnl.cpp']]],
+  ['fd',['fd',['../d3/db5/odrSpiral_8cpp.html#a1e5f292c27becd20ab2ca3825072a885',1,'odrSpiral.cpp']]],
   ['file',['File',['../dd/db9/classACarlaRecorder.html#acfa3dd845e4e17cf42c87c95ee9c261a',1,'ACarlaRecorder::File()'],['../df/d24/classCarlaRecorderQuery.html#a94c3a9dfe0e49ec2a952587563e277ab',1,'CarlaRecorderQuery::File()'],['../dc/dc6/classCarlaReplayer.html#aa939136e012271b0ae7a7b7ee2c25b35',1,'CarlaReplayer::File()'],['../df/d5e/classpugi_1_1xml__writer__file.html#af931f4d5628813f8661704d7e8be25e6',1,'pugi::xml_writer_file::file()']]],
   ['filename',['Filename',['../de/d6e/structCarlaReplayer_1_1PlayAfterLoadMap.html#a310caf6844cfa7e47b203d6226d83bcb',1,'CarlaReplayer::PlayAfterLoadMap']]],
   ['final_5fratio',['final_ratio',['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#adbb974d2981cc0e27050f04a656f29e2',1,'carla::rpc::VehiclePhysicsControl']]],
@@ -14,7 +14,7 @@ var searchData=
   ['fixeddeltaseconds',['FixedDeltaSeconds',['../da/d6e/structFEpisodeSettings.html#aa82f0af615f3498f76a2d6911ec3871a',1,'FEpisodeSettings']]],
   ['flags',['FLAGS',['../df/dc1/namespacecarla_1_1road_1_1element.html#aba4e85b686bb8c88ebf8cbbb570fd4fa',1,'carla::road::element']]],
   ['floatshaderparams',['FloatShaderParams',['../da/dd3/classAShaderBasedSensor.html#a9f456f96a7fd58941839e90984a59c30',1,'AShaderBasedSensor']]],
-  ['fn',['fn',['../dc/d52/fresnl_8cpp.html#a869724f9f1c3ee6c49da55268fb36d0e',1,'fresnl.cpp']]],
+  ['fn',['fn',['../d3/db5/odrSpiral_8cpp.html#a869724f9f1c3ee6c49da55268fb36d0e',1,'odrSpiral.cpp']]],
   ['fog',['Fog',['../de/d9e/structFVehicleLightState.html#adf5ff0c31df9229d0a1b98ecacd928f0',1,'FVehicleLightState']]],
   ['fog_5fdensity',['fog_density',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#ac97ff3a5f60a32124342ad79a51086a2',1,'carla::rpc::WeatherParameters']]],
   ['fog_5fdistance',['fog_distance',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#a162db2b5183a2f352c360c709bbddabd',1,'carla::rpc::WeatherParameters']]],
@@ -45,6 +45,5 @@ var searchData=
   ['friction',['Friction',['../dc/db9/classAFrictionTrigger.html#af555dfd3d0cd7128446f49876c24ad31',1,'AFrictionTrigger']]],
   ['from',['from',['../dc/db4/structcarla_1_1nav_1_1WalkerInfo.html#acdef56b52cd12697b7d345b671d3147f',1,'carla::nav::WalkerInfo::from()'],['../d0/d7d/structcarla_1_1road_1_1Junction_1_1LaneLink.html#a40a9b50c75774a8ebe7a871698bb7c03',1,'carla::road::Junction::LaneLink::from()']]],
   ['front',['front',['../d8/ded/structmoodycamel_1_1ConcurrentQueue_1_1ExplicitProducer_1_1BlockIndexHeader.html#aaebda15bd7cc9bab696c064bec587da2',1,'moodycamel::ConcurrentQueue::ExplicitProducer::BlockIndexHeader']]],
-  ['full_5fpi_5ffresnel',['FULL_PI_FRESNEL',['../da/d5a/const_8h.html#a7273e277f2669630e5d1b5ebf3726a5e',1,'const.h']]],
   ['full_5fsize',['full_size',['../dc/d81/structxml__memory__string__header.html#abbb48a709081e6610dffad322499e3f7',1,'xml_memory_string_header']]]
 ];

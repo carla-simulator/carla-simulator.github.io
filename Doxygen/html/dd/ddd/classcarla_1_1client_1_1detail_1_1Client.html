@@ -110,6 +110,9 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af63d63f5ce9410961d717fd687ba88cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#af63d63f5ce9410961d717fd687ba88cf">AddActorImpulse</a> (<a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a8a3d3e920d321eca7eac112a8cacd747">rpc::ActorId</a> actor, const <a class="el" href="../../d9/dfe/classcarla_1_1geom_1_1Vector3D.html">geom::Vector3D</a> &amp;vector)</td></tr>
 <tr class="separator:af63d63f5ce9410961d717fd687ba88cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a686181ff974699d227c7366abaf40668"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a686181ff974699d227c7366abaf40668">AddTrafficManagerRunning</a> (std::pair&lt; std::string, uint16_t &gt; trafficManagerInfo) const </td></tr>
+<tr class="memdesc:a686181ff974699d227c7366abaf40668"><td class="mdescLeft">&#160;</td><td class="mdescRight">Informs the server that a Traffic Manager is running on &lt;IP, port&gt;  <a href="#a686181ff974699d227c7366abaf40668">More...</a><br /></td></tr>
+<tr class="separator:a686181ff974699d227c7366abaf40668"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ce7a529980d2973bdd59f1812e13705"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a6ce7a529980d2973bdd59f1812e13705">ApplyBatch</a> (std::vector&lt; <a class="el" href="../../dd/d90/classcarla_1_1rpc_1_1Command.html">rpc::Command</a> &gt; commands, bool do_tick_cue)</td></tr>
 <tr class="separator:a6ce7a529980d2973bdd59f1812e13705"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39f0a6aeabae4d992405b6ddde502d88"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a8f99a493e9a2535c7d6caa83d0da33a1">rpc::CommandResponse</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a39f0a6aeabae4d992405b6ddde502d88">ApplyBatchSync</a> (std::vector&lt; <a class="el" href="../../dd/d90/classcarla_1_1rpc_1_1Command.html">rpc::Command</a> &gt; commands, bool do_tick_cue)</td></tr>
@@ -124,27 +127,31 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a579c36c103a2136c0eb0e12989ea4c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa59338fe7daaebe9e456dfde13ed69e7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#aa59338fe7daaebe9e456dfde13ed69e7">Client</a> (const std::string &amp;host, uint16_t port, size_t worker_threads=0u)</td></tr>
 <tr class="separator:aa59338fe7daaebe9e456dfde13ed69e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae27207de1d6e6ddbb4c1aa5fae983e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#aae27207de1d6e6ddbb4c1aa5fae983e2">CopyOpenDriveToServer</a> (std::string opendrive)</td></tr>
+<tr class="separator:aae27207de1d6e6ddbb4c1aa5fae983e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a767bce329455d4018180177676345a47"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a767bce329455d4018180177676345a47">DestroyActor</a> (<a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a8a3d3e920d321eca7eac112a8cacd747">rpc::ActorId</a> actor)</td></tr>
 <tr class="separator:a767bce329455d4018180177676345a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6d629b8e752b3b2f4b0fad1a8c7eb8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#af6d629b8e752b3b2f4b0fad1a8c7eb8d">DestroyTrafficManager</a> (uint16_t port) const </td></tr>
+<tr class="separator:af6d629b8e752b3b2f4b0fad1a8c7eb8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6af7aadcbad7e3204b561b355b0d108a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a6af7aadcbad7e3204b561b355b0d108a">DrawDebugShape</a> (const <a class="el" href="../../d1/d38/classcarla_1_1rpc_1_1DebugShape.html">rpc::DebugShape</a> &amp;shape)</td></tr>
 <tr class="separator:a6af7aadcbad7e3204b561b355b0d108a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a714471ebd690516464405a4a7767731b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a714471ebd690516464405a4a7767731b">FreezeTrafficLight</a> (<a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a8a3d3e920d321eca7eac112a8cacd747">rpc::ActorId</a> traffic_light, bool freeze)</td></tr>
 <tr class="separator:a714471ebd690516464405a4a7767731b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab22d0850a5ca10f107c09ecc043fffa3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d8/d68/classcarla_1_1rpc_1_1ActorDefinition.html">rpc::ActorDefinition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#ab22d0850a5ca10f107c09ecc043fffa3">GetActorDefinitions</a> ()</td></tr>
 <tr class="separator:ab22d0850a5ca10f107c09ecc043fffa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a604d4a47f7f3ced2c9cd09d3aa7d6c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../db/dfd/classcarla_1_1rpc_1_1Actor.html">rpc::Actor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a2a604d4a47f7f3ced2c9cd09d3aa7d6c">GetActorsById</a> (const std::vector&lt; <a class="el" href="../../d9/d36/namespacecarla.html#a624ab69c9ebee0e2fb8fda9a12bc061b">ActorId</a> &gt; &amp;ids)</td></tr>
+<tr class="memitem:a2a604d4a47f7f3ced2c9cd09d3aa7d6c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../db/dfd/classcarla_1_1rpc_1_1Actor.html">rpc::Actor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a2a604d4a47f7f3ced2c9cd09d3aa7d6c">GetActorsById</a> (const std::vector&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a0031b3f566c364872121f8a79f27f174">ActorId</a> &gt; &amp;ids)</td></tr>
 <tr class="separator:a2a604d4a47f7f3ced2c9cd09d3aa7d6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f44518b827a2023aa9cac0f197d71eb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a1f44518b827a2023aa9cac0f197d71eb">GetAvailableMaps</a> ()</td></tr>
 <tr class="separator:a1f44518b827a2023aa9cac0f197d71eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a083c9ce60bfce3cad7b237e1706abc60"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a083c9ce60bfce3cad7b237e1706abc60">GetClientVersion</a> ()</td></tr>
 <tr class="separator:a083c9ce60bfce3cad7b237e1706abc60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa6dfcf357e5a02061d2907139f6fb1f"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#afa6dfcf357e5a02061d2907139f6fb1f">GetEndpoint</a> () const </td></tr>
-<tr class="separator:afa6dfcf357e5a02061d2907139f6fb1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9ff438fdced8b84b489321a63bbbcac"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#ad9ff438fdced8b84b489321a63bbbcac">GetEndpoint</a> () const </td></tr>
+<tr class="separator:ad9ff438fdced8b84b489321a63bbbcac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27671091b6bc3275593bd1eb8fe3c388"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d00/classcarla_1_1rpc_1_1EpisodeInfo.html">rpc::EpisodeInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a27671091b6bc3275593bd1eb8fe3c388">GetEpisodeInfo</a> ()</td></tr>
 <tr class="separator:a27671091b6bc3275593bd1eb8fe3c388"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af24b90fee0483f3819213b2513406099"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d6d/classcarla_1_1rpc_1_1EpisodeSettings.html">rpc::EpisodeSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#af24b90fee0483f3819213b2513406099">GetEpisodeSettings</a> ()</td></tr>
 <tr class="separator:af24b90fee0483f3819213b2513406099"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71ee08ce15ed49615752e838076a7425"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d9/d36/namespacecarla.html#a624ab69c9ebee0e2fb8fda9a12bc061b">ActorId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a71ee08ce15ed49615752e838076a7425">GetGroupTrafficLights</a> (const <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a8a3d3e920d321eca7eac112a8cacd747">rpc::ActorId</a> &amp;traffic_light)</td></tr>
+<tr class="memitem:a71ee08ce15ed49615752e838076a7425"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a0031b3f566c364872121f8a79f27f174">ActorId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a71ee08ce15ed49615752e838076a7425">GetGroupTrafficLights</a> (const <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a8a3d3e920d321eca7eac112a8cacd747">rpc::ActorId</a> &amp;traffic_light)</td></tr>
 <tr class="separator:a71ee08ce15ed49615752e838076a7425"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5ddb20dcf3ae43a441d63f05092cf81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d07/classcarla_1_1rpc_1_1MapInfo.html">rpc::MapInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#ae5ddb20dcf3ae43a441d63f05092cf81">GetMapInfo</a> ()</td></tr>
 <tr class="separator:ae5ddb20dcf3ae43a441d63f05092cf81"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,12 +163,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9c7dfba54fba9a77cb24ed6eeadedef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada5a992f509d6f064e11222fe12bbf55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d2e/classcarla_1_1time__duration.html">time_duration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#ada5a992f509d6f064e11222fe12bbf55">GetTimeout</a> () const </td></tr>
 <tr class="separator:ada5a992f509d6f064e11222fe12bbf55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50d0698b37aa482f5b35b52b18832b4a"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::string, uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a50d0698b37aa482f5b35b52b18832b4a">GetTrafficManagerRunning</a> (uint16_t port) const </td></tr>
+<tr class="memdesc:a50d0698b37aa482f5b35b52b18832b4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a pair filled with the &lt;IP, port&gt; of the Trafic Manager running on port.  <a href="#a50d0698b37aa482f5b35b52b18832b4a">More...</a><br /></td></tr>
+<tr class="separator:a50d0698b37aa482f5b35b52b18832b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac35e8476f997f2211adc68bd3f864fa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html">rpc::VehicleLightState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#ac35e8476f997f2211adc68bd3f864fa3">GetVehicleLightState</a> (const <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a8a3d3e920d321eca7eac112a8cacd747">rpc::ActorId</a> &amp;vehicle) const </td></tr>
 <tr class="separator:ac35e8476f997f2211adc68bd3f864fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab14f4be4ab87eb98abb9f43cc91eb6b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html">rpc::VehiclePhysicsControl</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#ab14f4be4ab87eb98abb9f43cc91eb6b6">GetVehiclePhysicsControl</a> (const <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a8a3d3e920d321eca7eac112a8cacd747">rpc::ActorId</a> &amp;vehicle) const </td></tr>
 <tr class="separator:ab14f4be4ab87eb98abb9f43cc91eb6b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11af8202a3e01450d0d5b9d95a392cca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html">rpc::WeatherParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a11af8202a3e01450d0d5b9d95a392cca">GetWeatherParameters</a> ()</td></tr>
 <tr class="separator:a11af8202a3e01450d0d5b9d95a392cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af40bce772238551a6d6a1cbdf3c2a6e3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#af40bce772238551a6d6a1cbdf3c2a6e3">IsTrafficManagerRunning</a> (uint16_t port) const </td></tr>
+<tr class="memdesc:af40bce772238551a6d6a1cbdf3c2a6e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Querry to know if a Traffic Manager is running on port.  <a href="#af40bce772238551a6d6a1cbdf3c2a6e3">More...</a><br /></td></tr>
+<tr class="separator:af40bce772238551a6d6a1cbdf3c2a6e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46e6dae5df3207f448787ef9a289c652"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a46e6dae5df3207f448787ef9a289c652">LoadEpisode</a> (std::string map_name)</td></tr>
 <tr class="separator:a46e6dae5df3207f448787ef9a289c652"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad90925de318483913d369ae94eb4cf69"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#ad90925de318483913d369ae94eb4cf69">ReplayFile</a> (std::string name, double start, double duration, uint32_t follow_id)</td></tr>
@@ -184,6 +197,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a55868beb61f377d53d6a87a939c23fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f92caeb3a342459db463a3839b05fc3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a8f92caeb3a342459db463a3839b05fc3">SetLightStateToVehicle</a> (const <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a8a3d3e920d321eca7eac112a8cacd747">rpc::ActorId</a> &amp;vehicle, const <a class="el" href="../../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html">rpc::VehicleLightState</a> &amp;light_state)</td></tr>
 <tr class="separator:a8f92caeb3a342459db463a3839b05fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00eb04635e9854dba8262661462bd299"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a00eb04635e9854dba8262661462bd299">SetReplayerIgnoreHero</a> (bool ignore_hero)</td></tr>
+<tr class="separator:a00eb04635e9854dba8262661462bd299"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab46e40ab50723a293fdb6d2f390add3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#ab46e40ab50723a293fdb6d2f390add3d">SetReplayerTimeFactor</a> (double time_factor)</td></tr>
 <tr class="separator:ab46e40ab50723a293fdb6d2f390add3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa22e0ff05f8a788766119d68dbb790d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#aa22e0ff05f8a788766119d68dbb790d1">SetTimeout</a> (<a class="el" href="../../d2/d2e/classcarla_1_1time__duration.html">time_duration</a> timeout)</td></tr>
@@ -212,7 +227,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa93411a6f4accd00afa9a26610003e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa255ce158450d9ea8ee26451f23ac033"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#aa255ce158450d9ea8ee26451f23ac033">StopRecorder</a> ()</td></tr>
 <tr class="separator:aa255ce158450d9ea8ee26451f23ac033"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a2c188ed3b5a3c40aa9d1a80428a518"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a5a2c188ed3b5a3c40aa9d1a80428a518">SubscribeToStream</a> (const <a class="el" href="../../d0/dc5/classcarla_1_1streaming_1_1Token.html">streaming::Token</a> &amp;token, std::function&lt; void(<a class="el" href="../../d0/d0a/classcarla_1_1Buffer.html">Buffer</a>)&gt; callback)</td></tr>
+<tr class="memitem:a5a2c188ed3b5a3c40aa9d1a80428a518"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a5a2c188ed3b5a3c40aa9d1a80428a518">SubscribeToStream</a> (const <a class="el" href="../../d0/dc5/classcarla_1_1streaming_1_1Token.html">streaming::Token</a> &amp;token, std::function&lt; void(<a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a0a2a81f90a54846d67d46596536697e2">Buffer</a>)&gt; callback)</td></tr>
 <tr class="separator:a5a2c188ed3b5a3c40aa9d1a80428a518"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47675d8d967a68f2ff71ed7e3763be24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a47675d8d967a68f2ff71ed7e3763be24">UnSubscribeFromStream</a> (const <a class="el" href="../../d0/dc5/classcarla_1_1streaming_1_1Token.html">streaming::Token</a> &amp;token)</td></tr>
 <tr class="separator:a47675d8d967a68f2ff71ed7e3763be24"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -283,18 +298,6 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00099">99</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#acbe6787efa42835b784d7bb5ec752e96">~Client()</a>.</p>
-
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_aa59338fe7daaebe9e456dfde13ed69e7_cgraph.svg" width="315" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="acbe6787efa42835b784d7bb5ec752e96"></a>
@@ -318,14 +321,14 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00099">Client()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00117">DestroyTrafficManager()</a>.</p>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_acbe6787efa42835b784d7bb5ec752e96_icgraph.svg" width="315" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_acbe6787efa42835b784d7bb5ec752e96_icgraph.svg" width="616" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -357,18 +360,52 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00243">243</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00264">264</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00287">carla::client::detail::Simulator::AddActorImpulse()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00321">carla::client::detail::Simulator::AddActorImpulse()</a>.</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_af63d63f5ce9410961d717fd687ba88cf_icgraph.svg" width="424" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a686181ff974699d227c7366abaf40668"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool carla::client::detail::Client::AddTrafficManagerRunning </td>
+          <td>(</td>
+          <td class="paramtype">std::pair&lt; std::string, uint16_t &gt;&#160;</td>
+          <td class="paramname"><em>trafficManagerInfo</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Informs the server that a Traffic Manager is running on &lt;IP, port&gt; </p>
+
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00113">113</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00183">carla::client::detail::Simulator::AddTrafficManagerRunning()</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_af63d63f5ce9410961d717fd687ba88cf_icgraph.svg" width="424" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a686181ff974699d227c7366abaf40668_icgraph.svg" width="444" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -399,11 +436,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00336">336</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00361">361</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00433">carla::client::detail::Simulator::ApplyBatch()</a>, and <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00028">carla::client::detail::WalkerNavigation::Tick()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00471">carla::client::detail::Simulator::ApplyBatch()</a>, and <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00028">carla::client::detail::WalkerNavigation::Tick()</a>.</p>
 
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -441,11 +478,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00340">340</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00365">365</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00437">carla::client::detail::Simulator::ApplyBatchSync()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00475">carla::client::detail::Simulator::ApplyBatchSync()</a>.</p>
 
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -483,11 +520,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00263">263</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00284">284</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00329">carla::client::detail::Simulator::ApplyBoneControlToWalker()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00363">carla::client::detail::Simulator::ApplyBoneControlToWalker()</a>.</p>
 
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -525,11 +562,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00255">255</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00276">276</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00321">carla::client::detail::Simulator::ApplyControlToVehicle()</a>, and <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00317">carla::client::detail::Simulator::SetLightsToVehicle()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00355">carla::client::detail::Simulator::ApplyControlToVehicle()</a>, and <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00351">carla::client::detail::Simulator::SetLightsToVehicle()</a>.</p>
 
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -567,11 +604,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00259">259</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00280">280</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00325">carla::client::detail::Simulator::ApplyControlToWalker()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00359">carla::client::detail::Simulator::ApplyControlToWalker()</a>.</p>
 
 <p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -609,11 +646,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00188">188</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00209">209</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00333">carla::client::detail::Simulator::ApplyPhysicsControlToVehicle()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00367">carla::client::detail::Simulator::ApplyPhysicsControlToVehicle()</a>.</p>
 
 <p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -621,6 +658,38 @@ Additional Inherited Members</h2></td></tr>
 </div>
 <div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a579c36c103a2136c0eb0e12989ea4c20_icgraph.svg" width="468" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aae27207de1d6e6ddbb4c1aa5fae983e2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::client::detail::Client::CopyOpenDriveToServer </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>opendrive</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00148">148</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00087">carla::client::detail::Simulator::LoadOpenDriveEpisode()</a>.</p>
+
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_aae27207de1d6e6ddbb4c1aa5fae983e2_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -641,28 +710,70 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00218">218</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00239">239</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>, and <a class="el" href="../../de/d87/Logging_8h_source.html#l00110">carla::log_error()</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>, and <a class="el" href="../../de/d87/Logging_8h_source.html#l00110">carla::log_error()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00061">carla::client::detail::WalkerNavigation::CheckIfWalkerExist()</a>, and <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00226">carla::client::detail::Simulator::DestroyActor()</a>.</p>
+<p>Referenced by <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00061">carla::client::detail::WalkerNavigation::CheckIfWalkerExist()</a>, and <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00236">carla::client::detail::Simulator::DestroyActor()</a>.</p>
 
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a767bce329455d4018180177676345a47_cgraph.svg" width="499" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a767bce329455d4018180177676345a47_icgraph.svg" width="100%" height="399"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af6d629b8e752b3b2f4b0fad1a8c7eb8d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::client::detail::Client::DestroyTrafficManager </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>port</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00117">117</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>, and <a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#acbe6787efa42835b784d7bb5ec752e96">~Client()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00187">carla::client::detail::Simulator::DestroyTrafficManager()</a>.</p>
+
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_af6d629b8e752b3b2f4b0fad1a8c7eb8d_cgraph.svg" width="392" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_af6d629b8e752b3b2f4b0fad1a8c7eb8d_icgraph.svg" width="440" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -683,17 +794,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00332">332</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00357">357</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00423">carla::client::detail::Simulator::DrawDebugShape()</a>, and <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00082">carla::client::detail::WalkerNavigation::UpdateVehiclesInCrowd()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00461">carla::client::detail::Simulator::DrawDebugShape()</a>, and <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00082">carla::client::detail::WalkerNavigation::UpdateVehiclesInCrowd()</a>.</p>
 
-<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a6af7aadcbad7e3204b561b355b0d108a_icgraph.svg" width="100%" height="399"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -725,17 +836,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00285">285</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00306">306</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00409">carla::client::detail::Simulator::FreezeTrafficLight()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00447">carla::client::detail::Simulator::FreezeTrafficLight()</a>.</p>
 
-<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a714471ebd690516464405a4a7767731b_icgraph.svg" width="435" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -756,17 +867,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00148">148</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00169">169</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00130">carla::client::detail::Simulator::GetBlueprintLibrary()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00140">carla::client::detail::Simulator::GetBlueprintLibrary()</a>.</p>
 
-<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_ab22d0850a5ca10f107c09ecc043fffa3_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -781,24 +892,24 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">std::vector&lt; <a class="el" href="../../db/dfd/classcarla_1_1rpc_1_1Actor.html">rpc::Actor</a> &gt; carla::client::detail::Client::GetActorsById </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="../../d9/d36/namespacecarla.html#a624ab69c9ebee0e2fb8fda9a12bc061b">ActorId</a> &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a0031b3f566c364872121f8a79f27f174">ActorId</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>ids</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00172">172</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00193">193</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00085">carla::client::detail::Episode::GetActorById()</a>, and <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00026">carla::client::detail::GetActorsById_Impl()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00107">carla::client::detail::Episode::GetActorById()</a>, and <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00029">carla::client::detail::GetActorsById_Impl()</a>.</p>
 
-<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a2a604d4a47f7f3ced2c9cd09d3aa7d6c_icgraph.svg" width="100%" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -819,17 +930,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00144">144</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00165">165</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00103">carla::client::detail::Simulator::GetAvailableMaps()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00105">carla::client::detail::Simulator::GetAvailableMaps()</a>.</p>
 
-<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a1f44518b827a2023aa9cac0f197d71eb_icgraph.svg" width="436" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -850,28 +961,28 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00119">119</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00135">135</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00127">carla::client::detail::Simulator::GetClientVersion()</a>, and <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00034">carla::client::detail::ValidateVersions()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00133">carla::client::detail::Simulator::GetClientVersion()</a>, and <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00035">carla::client::detail::ValidateVersions()</a>.</p>
 
-<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a083c9ce60bfce3cad7b237e1706abc60_icgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a083c9ce60bfce3cad7b237e1706abc60_icgraph.svg" width="100%" height="496"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="afa6dfcf357e5a02061d2907139f6fb1f"></a>
+<a class="anchor" id="ad9ff438fdced8b84b489321a63bbbcac"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const std::string &amp; carla::client::detail::Client::GetEndpoint </td>
+          <td class="memname">const std::string carla::client::detail::Client::GetEndpoint </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -879,18 +990,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00115">115</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00131">131</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00109">carla::client::detail::Simulator::WaitForTick()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00167">carla::client::detail::Simulator::GetEndpoint()</a>, and <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00120">carla::client::detail::Simulator::WaitForTick()</a>.</p>
 
-<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_afa6dfcf357e5a02061d2907139f6fb1f_icgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_ad9ff438fdced8b84b489321a63bbbcac_icgraph.svg" width="100%" height="496"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -910,9 +1021,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00132">132</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00153">153</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
 </div>
 </div>
@@ -929,18 +1040,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00156">156</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00177">177</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00165">carla::client::detail::Simulator::GetEpisodeSettings()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00199">carla::client::detail::Simulator::GetEpisodeSettings()</a>.</p>
 
-<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_af24b90fee0483f3819213b2513406099_icgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_af24b90fee0483f3819213b2513406099_icgraph.svg" width="100%" height="496"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -952,7 +1063,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="../../d9/d36/namespacecarla.html#a624ab69c9ebee0e2fb8fda9a12bc061b">ActorId</a> &gt; carla::client::detail::Client::GetGroupTrafficLights </td>
+          <td class="memname">std::vector&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a0031b3f566c364872121f8a79f27f174">ActorId</a> &gt; carla::client::detail::Client::GetGroupTrafficLights </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a8a3d3e920d321eca7eac112a8cacd747">rpc::ActorId</a> &amp;&#160;</td>
           <td class="paramname"><em>traffic_light</em></td><td>)</td>
@@ -961,17 +1072,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00289">289</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00310">310</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00413">carla::client::detail::Simulator::GetGroupTrafficLights()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00451">carla::client::detail::Simulator::GetGroupTrafficLights()</a>.</p>
 
-<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a71ee08ce15ed49615752e838076a7425_icgraph.svg" width="446" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -992,17 +1103,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00136">136</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00157">157</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00101">carla::client::detail::Simulator::GetCurrentMap()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00112">carla::client::detail::Simulator::GetCurrentMap()</a>.</p>
 
-<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_ae5ddb20dcf3ae43a441d63f05092cf81_icgraph.svg" width="632" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1023,17 +1134,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00140">140</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00161">161</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00023">carla::client::detail::WalkerNavigation::WalkerNavigation()</a>.</p>
 
-<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a97fb014456ce55c1197edaee07e41c3c_icgraph.svg" width="490" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1054,18 +1165,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00123">123</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00139">139</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00131">carla::client::detail::Simulator::GetServerVersion()</a>, and <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00034">carla::client::detail::ValidateVersions()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00137">carla::client::detail::Simulator::GetServerVersion()</a>, and <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00035">carla::client::detail::ValidateVersions()</a>.</p>
 
-<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_abec87413d3549054d3e18d9ca041529d_icgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_abec87413d3549054d3e18d9ca041529d_icgraph.svg" width="100%" height="496"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -1085,18 +1196,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00152">152</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00173">173</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00135">carla::client::detail::Simulator::GetSpectator()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00145">carla::client::detail::Simulator::GetSpectator()</a>.</p>
 
-<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a9c7dfba54fba9a77cb24ed6eeadedef4_icgraph.svg" width="646" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a9c7dfba54fba9a77cb24ed6eeadedef4_icgraph.svg" width="648" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1116,18 +1227,53 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00111">111</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00127">127</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00089">carla::client::detail::Simulator::GetCurrentEpisode()</a>, and <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00070">carla::client::detail::Simulator::LoadEpisode()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00100">carla::client::detail::Simulator::GetCurrentEpisode()</a>, <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00129">carla::client::detail::Simulator::GetNetworkingTimeout()</a>, and <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00072">carla::client::detail::Simulator::LoadEpisode()</a>.</p>
 
-<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-26-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_ada5a992f509d6f064e11222fe12bbf55_icgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_ada5a992f509d6f064e11222fe12bbf55_icgraph.svg" width="100%" height="496"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a50d0698b37aa482f5b35b52b18832b4a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; std::string, uint16_t &gt; carla::client::detail::Client::GetTrafficManagerRunning </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>port</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a pair filled with the &lt;IP, port&gt; of the Trafic Manager running on port. </p>
+<p>If there is no Traffic Manager running the pair will be ("", 0) </p>
+
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00109">109</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00178">carla::client::detail::Simulator::GetTrafficManagerRunning()</a>.</p>
+
+<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a50d0698b37aa482f5b35b52b18832b4a_icgraph.svg" width="440" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1148,17 +1294,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00183">183</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00204">204</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00183">carla::client::detail::Simulator::GetVehicleLightState()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00217">carla::client::detail::Simulator::GetVehicleLightState()</a>.</p>
 
-<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_ac35e8476f997f2211adc68bd3f864fa3_icgraph.svg" width="439" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1180,17 +1326,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00178">178</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00199">199</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00179">carla::client::detail::Simulator::GetVehiclePhysicsControl()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00213">carla::client::detail::Simulator::GetVehiclePhysicsControl()</a>.</p>
 
-<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div id="dynsection-32-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_ab14f4be4ab87eb98abb9f43cc91eb6b6_icgraph.svg" width="446" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1211,18 +1357,52 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00164">164</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00185">185</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00171">carla::client::detail::Simulator::GetWeatherParameters()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00205">carla::client::detail::Simulator::GetWeatherParameters()</a>.</p>
 
-<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-29-content" class="dyncontent" style="display:none;">
+<div id="dynsection-33-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a11af8202a3e01450d0d5b9d95a392cca_icgraph.svg" width="499" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="af40bce772238551a6d6a1cbdf3c2a6e3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool carla::client::detail::Client::IsTrafficManagerRunning </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>port</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Querry to know if a Traffic Manager is running on port. </p>
+
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00105">105</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00172">carla::client::detail::Simulator::IsTrafficManagerRunning()</a>.</p>
+
+<p><div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-34-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_af40bce772238551a6d6a1cbdf3c2a6e3_icgraph.svg" width="468" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1243,18 +1423,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00127">127</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00143">143</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00070">carla::client::detail::Simulator::LoadEpisode()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00072">carla::client::detail::Simulator::LoadEpisode()</a>.</p>
 
-<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-30-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a46e6dae5df3207f448787ef9a289c652_icgraph.svg" width="603" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-35-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a46e6dae5df3207f448787ef9a289c652_icgraph.svg" width="100%" height="361"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -1297,17 +1477,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00314">314</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00335">335</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00367">carla::client::detail::Simulator::ReplayFile()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00401">carla::client::detail::Simulator::ReplayFile()</a>.</p>
 
-<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-31-content" class="dyncontent" style="display:none;">
+<div id="dynsection-36-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_ad90925de318483913d369ae94eb4cf69_icgraph.svg" width="348" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1328,17 +1508,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00347">347</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00372">372</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00118">carla::client::detail::Simulator::Tick()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00129">carla::client::detail::Simulator::Tick()</a>.</p>
 
-<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div id="dynsection-37-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a9c7822b89a8fc0b9841219d53189a669_icgraph.svg" width="604" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1370,17 +1550,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00239">239</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00260">260</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00283">carla::client::detail::Simulator::SetActorAngularVelocity()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00317">carla::client::detail::Simulator::SetActorAngularVelocity()</a>.</p>
 
-<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-33-content" class="dyncontent" style="display:none;">
+<div id="dynsection-38-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a70f5bf439cd020ab93e5bb43c210150f_icgraph.svg" width="462" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1412,17 +1592,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00251">251</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00272">272</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00313">carla::client::detail::Simulator::SetVehicleAutopilot()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00347">carla::client::detail::Simulator::SetVehicleAutopilot()</a>.</p>
 
-<p><div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-34-content" class="dyncontent" style="display:none;">
+<div id="dynsection-39-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a473d439d2c37c45b16e6e18e02ff8f2a_icgraph.svg" width="440" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1454,17 +1634,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00227">227</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00248">248</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00295">carla::client::detail::Simulator::SetActorLocation()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00329">carla::client::detail::Simulator::SetActorLocation()</a>.</p>
 
-<p><div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-35-content" class="dyncontent" style="display:none;">
+<div id="dynsection-40-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a53a678ae68285217344ffaf2f6bad7df_icgraph.svg" width="424" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1496,17 +1676,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00247">247</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00268">268</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00303">carla::client::detail::Simulator::SetActorSimulatePhysics()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00337">carla::client::detail::Simulator::SetActorSimulatePhysics()</a>.</p>
 
-<p><div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-41-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-36-content" class="dyncontent" style="display:none;">
+<div id="dynsection-41-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_aae4d6e98aaa49eecc54de1d597fc685f_icgraph.svg" width="475" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1538,17 +1718,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00231">231</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00252">252</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00299">carla::client::detail::Simulator::SetActorTransform()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00333">carla::client::detail::Simulator::SetActorTransform()</a>.</p>
 
-<p><div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-42-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-42-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-37-content" class="dyncontent" style="display:none;">
+<div id="dynsection-42-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a6bfd22d373b559c741219815e152404a_icgraph.svg" width="444" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1580,17 +1760,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00235">235</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00256">256</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00275">carla::client::detail::Simulator::SetActorVelocity()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00309">carla::client::detail::Simulator::SetActorVelocity()</a>.</p>
 
-<p><div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-43-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-43-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-38-content" class="dyncontent" style="display:none;">
+<div id="dynsection-43-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a519b02a6c1a8611a785e8d3d701184af_icgraph.svg" width="420" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1612,18 +1792,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00160">160</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00181">181</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00139">carla::client::detail::Simulator::SetEpisodeSettings()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00149">carla::client::detail::Simulator::SetEpisodeSettings()</a>.</p>
 
-<p><div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-44" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-44-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-44-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-39-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a55868beb61f377d53d6a87a939c23fd1_icgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-44-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a55868beb61f377d53d6a87a939c23fd1_icgraph.svg" width="100%" height="496"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -1654,18 +1834,50 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00194">194</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00215">215</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00337">carla::client::detail::Simulator::SetLightStateToVehicle()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00371">carla::client::detail::Simulator::SetLightStateToVehicle()</a>.</p>
 
-<p><div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-45" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-45-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-45-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-40-content" class="dyncontent" style="display:none;">
+<div id="dynsection-45-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a8f92caeb3a342459db463a3839b05fc3_icgraph.svg" width="455" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a00eb04635e9854dba8262661462bd299"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::client::detail::Client::SetReplayerIgnoreHero </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>ignore_hero</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00343">343</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00409">carla::client::detail::Simulator::SetReplayerIgnoreHero()</a>.</p>
+
+<p><div id="dynsection-46" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-46-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-46-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-46-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a00eb04635e9854dba8262661462bd299_icgraph.svg" width="496" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1686,17 +1898,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00318">318</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00339">339</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00371">carla::client::detail::Simulator::SetReplayerTimeFactor()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00405">carla::client::detail::Simulator::SetReplayerTimeFactor()</a>.</p>
 
-<p><div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-41-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-47" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-47-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-47-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-41-content" class="dyncontent" style="display:none;">
+<div id="dynsection-47-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_ab46e40ab50723a293fdb6d2f390add3d_icgraph.svg" width="464" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1718,27 +1930,27 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00107">107</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00123">123</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>, and <a class="el" href="../../d2/d33/Time_8h_source.html#l00026">carla::time_duration::milliseconds()</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>, and <a class="el" href="../../d2/d33/Time_8h_source.html#l00026">carla::time_duration::milliseconds()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00123">carla::client::detail::Simulator::SetNetworkingTimeout()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00125">carla::client::detail::Simulator::SetNetworkingTimeout()</a>.</p>
 
-<p><div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-42-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-42-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-48" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-48-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-48-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-42-content" class="dyncontent" style="display:none;">
+<div id="dynsection-48-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_aa22e0ff05f8a788766119d68dbb790d1_cgraph.svg" width="334" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-43-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-43-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-49" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-49-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-49-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-43-content" class="dyncontent" style="display:none;">
+<div id="dynsection-49-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_aa22e0ff05f8a788766119d68dbb790d1_icgraph.svg" width="424" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1770,17 +1982,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00273">273</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00294">294</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00397">carla::client::detail::Simulator::SetTrafficLightGreenTime()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00435">carla::client::detail::Simulator::SetTrafficLightGreenTime()</a>.</p>
 
-<p><div id="dynsection-44" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-44-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-44-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-50" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-50-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-50-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-44-content" class="dyncontent" style="display:none;">
+<div id="dynsection-50-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a6fb35043cacb8582ad92d2ede6c616c4_icgraph.svg" width="459" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1812,17 +2024,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00281">281</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00302">302</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00405">carla::client::detail::Simulator::SetTrafficLightRedTime()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00443">carla::client::detail::Simulator::SetTrafficLightRedTime()</a>.</p>
 
-<p><div id="dynsection-45" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-45-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-45-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-51" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-51-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-51-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-45-content" class="dyncontent" style="display:none;">
+<div id="dynsection-51-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a04c8734375496bb11034f2a3e6e60bea_icgraph.svg" width="448" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1854,17 +2066,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00267">267</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00288">288</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00393">carla::client::detail::Simulator::SetTrafficLightState()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00431">carla::client::detail::Simulator::SetTrafficLightState()</a>.</p>
 
-<p><div id="dynsection-46" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-46-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-46-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-52" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-52-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-52-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-46-content" class="dyncontent" style="display:none;">
+<div id="dynsection-52-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_ab64282a8822af54ff0d5b094861e0ae6_icgraph.svg" width="426" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1896,17 +2108,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00277">277</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00298">298</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00401">carla::client::detail::Simulator::SetTrafficLightYellowTime()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00439">carla::client::detail::Simulator::SetTrafficLightYellowTime()</a>.</p>
 
-<p><div id="dynsection-47" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-47-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-47-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-53" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-53-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-53-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-47-content" class="dyncontent" style="display:none;">
+<div id="dynsection-53-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a5c4fd6effbedb4283766d9aa9314e37b_icgraph.svg" width="463" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1928,17 +2140,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00168">168</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00189">189</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00175">carla::client::detail::Simulator::SetWeatherParameters()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00209">carla::client::detail::Simulator::SetWeatherParameters()</a>.</p>
 
-<p><div id="dynsection-48" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-48-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-48-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-54" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-54-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-54-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-48-content" class="dyncontent" style="display:none;">
+<div id="dynsection-54-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a70d685ccaad56393673a1e07f302e105_icgraph.svg" width="496" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1976,17 +2188,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00310">310</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00331">331</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00363">carla::client::detail::Simulator::ShowRecorderActorsBlocked()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00397">carla::client::detail::Simulator::ShowRecorderActorsBlocked()</a>.</p>
 
-<p><div id="dynsection-49" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-49-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-49-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-55" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-55-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-55-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-49-content" class="dyncontent" style="display:none;">
+<div id="dynsection-55-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a37632f6122975565e064762dd5f76366_icgraph.svg" width="472" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2024,17 +2236,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00306">306</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00327">327</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00359">carla::client::detail::Simulator::ShowRecorderCollisions()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00393">carla::client::detail::Simulator::ShowRecorderCollisions()</a>.</p>
 
-<p><div id="dynsection-50" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-50-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-50-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-56" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-56-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-56-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-50-content" class="dyncontent" style="display:none;">
+<div id="dynsection-56-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a851a05cef7c862826be6ff9d430784d3_icgraph.svg" width="510" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2066,17 +2278,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00302">302</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00323">323</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00355">carla::client::detail::Simulator::ShowRecorderFileInfo()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00389">carla::client::detail::Simulator::ShowRecorderFileInfo()</a>.</p>
 
-<p><div id="dynsection-51" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-51-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-51-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-57" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-57-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-57-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-51-content" class="dyncontent" style="display:none;">
+<div id="dynsection-57-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_ab225b8fbd8e6714d5a7d8fe3e294b2ad_icgraph.svg" width="483" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2108,17 +2320,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00200">200</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00221">221</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00196">carla::client::detail::Simulator::SpawnActor()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00206">carla::client::detail::Simulator::SpawnActor()</a>.</p>
 
-<p><div id="dynsection-52" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-52-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-52-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-58" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-58-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-58-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-52-content" class="dyncontent" style="display:none;">
+<div id="dynsection-58-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_afc0a650bf0849577f19662a649121bcb_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2162,17 +2374,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00206">206</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00227">227</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00196">carla::client::detail::Simulator::SpawnActor()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00206">carla::client::detail::Simulator::SpawnActor()</a>.</p>
 
-<p><div id="dynsection-53" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-53-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-53-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-59" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-59-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-59-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-53-content" class="dyncontent" style="display:none;">
+<div id="dynsection-59-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_aebe1741f21d935965b420cb682359892_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2194,17 +2406,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00294">294</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00315">315</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00347">carla::client::detail::Simulator::StartRecorder()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00381">carla::client::detail::Simulator::StartRecorder()</a>.</p>
 
-<p><div id="dynsection-54" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-54-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-54-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-60" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-60-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-60-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-54-content" class="dyncontent" style="display:none;">
+<div id="dynsection-60-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_aa93411a6f4accd00afa9a26610003e21_icgraph.svg" width="387" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2226,17 +2438,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00298">298</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00319">319</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00351">carla::client::detail::Simulator::StopRecorder()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00385">carla::client::detail::Simulator::StopRecorder()</a>.</p>
 
-<p><div id="dynsection-55" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-55-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-55-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-61" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-61-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-61-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-55-content" class="dyncontent" style="display:none;">
+<div id="dynsection-61-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_aa255ce158450d9ea8ee26451f23ac033_icgraph.svg" width="384" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2257,7 +2469,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; void(<a class="el" href="../../d0/d0a/classcarla_1_1Buffer.html">Buffer</a>)&gt;&#160;</td>
+          <td class="paramtype">std::function&lt; void(<a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a0a2a81f90a54846d67d46596536697e2">Buffer</a>)&gt;&#160;</td>
           <td class="paramname"><em>callback</em>&#160;</td>
         </tr>
         <tr>
@@ -2268,18 +2480,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00322">322</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00347">347</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00050">carla::client::detail::Episode::Listen()</a>, and <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00243">carla::client::detail::Simulator::SubscribeToSensor()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00053">carla::client::detail::Episode::Listen()</a>, and <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00253">carla::client::detail::Simulator::SubscribeToSensor()</a>.</p>
 
-<p><div id="dynsection-56" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-56-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-56-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-62" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-62-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-62-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-56-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a5a2c188ed3b5a3c40aa9d1a80428a518_icgraph.svg" width="100%" height="394"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-62-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a5a2c188ed3b5a3c40aa9d1a80428a518_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -2300,17 +2512,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00328">328</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00353">353</a> of file <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html">client/detail/Client.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">_pimpl</a>.</p>
+<p>References <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">_pimpl</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00256">carla::client::detail::Simulator::UnSubscribeFromSensor()</a>, and <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00042">carla::client::detail::Episode::~Episode()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00266">carla::client::detail::Simulator::UnSubscribeFromSensor()</a>, and <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00045">carla::client::detail::Episode::~Episode()</a>.</p>
 
-<p><div id="dynsection-57" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-57-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-57-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-63" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-63-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-63-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-57-content" class="dyncontent" style="display:none;">
+<div id="dynsection-63-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client_a47675d8d967a68f2ff71ed7e3763be24_icgraph.svg" width="100%" height="399"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2337,9 +2549,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00222">222</a> of file <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html">client/detail/Client.h</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html#l00238">238</a> of file <a class="el" href="../../df/d8b/client_2detail_2Client_8h_source.html">client/detail/Client.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00243">AddActorImpulse()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00336">ApplyBatch()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00340">ApplyBatchSync()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00263">ApplyBoneControlToWalker()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00255">ApplyControlToVehicle()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00259">ApplyControlToWalker()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00188">ApplyPhysicsControlToVehicle()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00218">DestroyActor()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00332">DrawDebugShape()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00285">FreezeTrafficLight()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00148">GetActorDefinitions()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00172">GetActorsById()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00144">GetAvailableMaps()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00115">GetEndpoint()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00132">GetEpisodeInfo()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00156">GetEpisodeSettings()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00289">GetGroupTrafficLights()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00136">GetMapInfo()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00140">GetNavigationMesh()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00123">GetServerVersion()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00152">GetSpectator()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00111">GetTimeout()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00183">GetVehicleLightState()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00178">GetVehiclePhysicsControl()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00164">GetWeatherParameters()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00127">LoadEpisode()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00314">ReplayFile()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00347">SendTickCue()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00239">SetActorAngularVelocity()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00251">SetActorAutopilot()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00227">SetActorLocation()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00247">SetActorSimulatePhysics()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00231">SetActorTransform()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00235">SetActorVelocity()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00160">SetEpisodeSettings()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00194">SetLightStateToVehicle()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00318">SetReplayerTimeFactor()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00107">SetTimeout()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00273">SetTrafficLightGreenTime()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00281">SetTrafficLightRedTime()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00267">SetTrafficLightState()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00277">SetTrafficLightYellowTime()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00168">SetWeatherParameters()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00310">ShowRecorderActorsBlocked()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00306">ShowRecorderCollisions()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00302">ShowRecorderFileInfo()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00200">SpawnActor()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00206">SpawnActorWithParent()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00294">StartRecorder()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00298">StopRecorder()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00322">SubscribeToStream()</a>, and <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00328">UnSubscribeFromStream()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00264">AddActorImpulse()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00113">AddTrafficManagerRunning()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00361">ApplyBatch()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00365">ApplyBatchSync()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00284">ApplyBoneControlToWalker()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00276">ApplyControlToVehicle()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00280">ApplyControlToWalker()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00209">ApplyPhysicsControlToVehicle()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00148">CopyOpenDriveToServer()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00239">DestroyActor()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00117">DestroyTrafficManager()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00357">DrawDebugShape()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00306">FreezeTrafficLight()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00169">GetActorDefinitions()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00193">GetActorsById()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00165">GetAvailableMaps()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00131">GetEndpoint()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00153">GetEpisodeInfo()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00177">GetEpisodeSettings()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00310">GetGroupTrafficLights()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00157">GetMapInfo()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00161">GetNavigationMesh()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00139">GetServerVersion()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00173">GetSpectator()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00127">GetTimeout()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00109">GetTrafficManagerRunning()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00204">GetVehicleLightState()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00199">GetVehiclePhysicsControl()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00185">GetWeatherParameters()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00105">IsTrafficManagerRunning()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00143">LoadEpisode()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00335">ReplayFile()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00372">SendTickCue()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00260">SetActorAngularVelocity()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00272">SetActorAutopilot()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00248">SetActorLocation()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00268">SetActorSimulatePhysics()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00252">SetActorTransform()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00256">SetActorVelocity()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00181">SetEpisodeSettings()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00215">SetLightStateToVehicle()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00343">SetReplayerIgnoreHero()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00339">SetReplayerTimeFactor()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00123">SetTimeout()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00294">SetTrafficLightGreenTime()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00302">SetTrafficLightRedTime()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00288">SetTrafficLightState()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00298">SetTrafficLightYellowTime()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00189">SetWeatherParameters()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00331">ShowRecorderActorsBlocked()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00327">ShowRecorderCollisions()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00323">ShowRecorderFileInfo()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00221">SpawnActor()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00227">SpawnActorWithParent()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00315">StartRecorder()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00319">StopRecorder()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00347">SubscribeToStream()</a>, and <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00353">UnSubscribeFromStream()</a>.</p>
 
 </div>
 </div>
