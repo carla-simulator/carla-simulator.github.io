@@ -73,6 +73,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d8/d44/classcarla_1_1traffic__manager_1_1PipelineStage-members.html">List of all members</a>  </div>
@@ -104,8 +105,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7912caf05d288f6838675bb7c19dfb24"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a7912caf05d288f6838675bb7c19dfb24">PipelineStage</a> (std::string <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a3c29cf3b76cfa72055c17f3bf57784a1">stage_name</a>)</td></tr>
-<tr class="separator:a7912caf05d288f6838675bb7c19dfb24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed4290c25b630328b2638f90079909f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#aed4290c25b630328b2638f90079909f1">PipelineStage</a> (const std::string &amp;<a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a3c29cf3b76cfa72055c17f3bf57784a1">stage_name</a>)</td></tr>
+<tr class="separator:aed4290c25b630328b2638f90079909f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99238e14ff431e20f2a4cf020214e8c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a99238e14ff431e20f2a4cf020214e8c9">Start</a> ()</td></tr>
 <tr class="separator:a99238e14ff431e20f2a4cf020214e8c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc93d41c331c2b40b5e3d863edb992e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#abc93d41c331c2b40b5e3d863edb992e6">Stop</a> ()</td></tr>
@@ -125,6 +126,15 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:ac2eb821bdf48b71f7319eab62ea81994"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implement this method with logic to gather results from the action threads and send to next stage(s).  <a href="#ac2eb821bdf48b71f7319eab62ea81994">More...</a><br /></td></tr>
 <tr class="separator:ac2eb821bdf48b71f7319eab62ea81994"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ab915ed0001d4d196b43f76916c4274dc"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#ab915ed0001d4d196b43f76916c4274dc">run_stage</a></td></tr>
+<tr class="memdesc:ab915ed0001d4d196b43f76916c4274dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to start/stop stage.  <a href="#ab915ed0001d4d196b43f76916c4274dc">More...</a><br /></td></tr>
+<tr class="separator:ab915ed0001d4d196b43f76916c4274dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c29cf3b76cfa72055c17f3bf57784a1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a3c29cf3b76cfa72055c17f3bf57784a1">stage_name</a></td></tr>
+<tr class="memdesc:a3c29cf3b76cfa72055c17f3bf57784a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stage name string.  <a href="#a3c29cf3b76cfa72055c17f3bf57784a1">More...</a><br /></td></tr>
+<tr class="separator:a3c29cf3b76cfa72055c17f3bf57784a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a7b5792b4debcc3266a20c9dc20d62b99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a7b5792b4debcc3266a20c9dc20d62b99">Update</a> ()</td></tr>
@@ -135,12 +145,6 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a1a857aa747abae96075c7ffaea87af9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d1a/classcarla_1_1traffic__manager_1_1PerformanceDiagnostics.html">PerformanceDiagnostics</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a1a857aa747abae96075c7ffaea87af9c">performance_diagnostics</a></td></tr>
 <tr class="memdesc:a1a857aa747abae96075c7ffaea87af9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object to track stage performance.  <a href="#a1a857aa747abae96075c7ffaea87af9c">More...</a><br /></td></tr>
 <tr class="separator:a1a857aa747abae96075c7ffaea87af9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab915ed0001d4d196b43f76916c4274dc"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#ab915ed0001d4d196b43f76916c4274dc">run_stage</a></td></tr>
-<tr class="memdesc:ab915ed0001d4d196b43f76916c4274dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to start/stop stage.  <a href="#ab915ed0001d4d196b43f76916c4274dc">More...</a><br /></td></tr>
-<tr class="separator:ab915ed0001d4d196b43f76916c4274dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c29cf3b76cfa72055c17f3bf57784a1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a3c29cf3b76cfa72055c17f3bf57784a1">stage_name</a></td></tr>
-<tr class="memdesc:a3c29cf3b76cfa72055c17f3bf57784a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stage name string.  <a href="#a3c29cf3b76cfa72055c17f3bf57784a1">More...</a><br /></td></tr>
-<tr class="separator:a3c29cf3b76cfa72055c17f3bf57784a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e78a9546f86644565596fd80c0c7c07"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; std::thread &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a3e78a9546f86644565596fd80c0c7c07">worker_thread</a></td></tr>
 <tr class="separator:a3e78a9546f86644565596fd80c0c7c07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -149,14 +153,14 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00034">34</a> of file <a class="el" href="../../d9/da3/PipelineStage_8h_source.html">PipelineStage.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a7912caf05d288f6838675bb7c19dfb24"></a>
+<a class="anchor" id="aed4290c25b630328b2638f90079909f1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">carla::traffic_manager::PipelineStage::PipelineStage </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>stage_name</em></td><td>)</td>
           <td></td>
         </tr>
@@ -165,7 +169,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00012">12</a> of file <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html">PipelineStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00040">run_stage</a>.</p>
+<p>References <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00041">run_stage</a>.</p>
 
 </div>
 </div>
@@ -190,9 +194,19 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00018">18</a> of file <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html">PipelineStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00019">19</a> of file <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html">PipelineStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00038">worker_thread</a>.</p>
+<p>References <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00031">Stop()</a>.</p>
+
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage_ade5928704b9da8c80683eabb10a7aa6e_cgraph.svg" width="414" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -222,13 +236,13 @@ Private Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a5d4109a46221cba4fe8d2f852f277205">carla::traffic_manager::LocalizationStage</a>, <a class="el" href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#a879ddb5b8d339cfd25cf6bee0c661ae9">carla::traffic_manager::CollisionStage</a>, <a class="el" href="../../da/d5d/classcarla_1_1traffic__manager_1_1MotionPlannerStage.html#a5e63c81130f5a953afa921138dbc3950">carla::traffic_manager::MotionPlannerStage</a>, <a class="el" href="../../d5/db3/classcarla_1_1traffic__manager_1_1TrafficLightStage.html#aa2c072f12b91e6e1cfa97bc6d4fe6956">carla::traffic_manager::TrafficLightStage</a>, and <a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#ae43c432c00bcb182f9034f96d5ad956a">carla::traffic_manager::BatchControlStage</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00032">Update()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00041">Update()</a>.</p>
 
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage_adf3c82a4f0202967d62f0cfa91a39a10_icgraph.svg" width="570" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -261,13 +275,13 @@ Private Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#ab859b24b7750e3ef5c316957e2a32199">carla::traffic_manager::LocalizationStage</a>, <a class="el" href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#ae3b8664a9367a6f4f840bdeebeaef758">carla::traffic_manager::CollisionStage</a>, <a class="el" href="../../da/d5d/classcarla_1_1traffic__manager_1_1MotionPlannerStage.html#ad2dab74f662eb0730f12dc4689cdf7da">carla::traffic_manager::MotionPlannerStage</a>, <a class="el" href="../../d5/db3/classcarla_1_1traffic__manager_1_1TrafficLightStage.html#a83d10441630e4115e39bed60f8b93a8f">carla::traffic_manager::TrafficLightStage</a>, and <a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#a6c5e31ccdcbcb00ec005db72c5fce107">carla::traffic_manager::BatchControlStage</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00032">Update()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00041">Update()</a>.</p>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage_ad86aba2b70fb683acdc32460146fd2b5_icgraph.svg" width="614" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -300,13 +314,13 @@ Private Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a884d76e6a899577bb31b3374619edf31">carla::traffic_manager::LocalizationStage</a>, <a class="el" href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#a92e692b33ba1d881ad001364c5a70793">carla::traffic_manager::CollisionStage</a>, <a class="el" href="../../da/d5d/classcarla_1_1traffic__manager_1_1MotionPlannerStage.html#afe317b963d6aacc8510d6adcde0e4c69">carla::traffic_manager::MotionPlannerStage</a>, <a class="el" href="../../d5/db3/classcarla_1_1traffic__manager_1_1TrafficLightStage.html#ac8becfd03fe2ec6a16aa2b691e4b83cd">carla::traffic_manager::TrafficLightStage</a>, and <a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#aa3bf2f1b6a2f5d8b6b4c5781e8c881cb">carla::traffic_manager::BatchControlStage</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00032">Update()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00041">Update()</a>.</p>
 
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage_ac2eb821bdf48b71f7319eab62ea81994_icgraph.svg" width="602" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -329,13 +343,13 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html">PipelineStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00040">run_stage</a>, <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00032">Update()</a>, and <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00038">worker_thread</a>.</p>
+<p>References <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00041">run_stage</a>, <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00031">Stop()</a>, <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00041">Update()</a>, and <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00037">worker_thread</a>.</p>
 
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage_a99238e14ff431e20f2a4cf020214e8c9_cgraph.svg" width="614" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -357,9 +371,21 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00028">28</a> of file <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html">PipelineStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00031">31</a> of file <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html">PipelineStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00040">run_stage</a>.</p>
+<p>References <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00041">run_stage</a>, and <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00037">worker_thread</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00023">Start()</a>, and <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00019">~PipelineStage()</a>.</p>
+
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage_abc93d41c331c2b40b5e3d863edb992e6_icgraph.svg" width="414" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -384,27 +410,27 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00032">32</a> of file <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html">PipelineStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00041">41</a> of file <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html">PipelineStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#adf3c82a4f0202967d62f0cfa91a39a10">Action()</a>, <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#ad86aba2b70fb683acdc32460146fd2b5">DataReceiver()</a>, <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#ac2eb821bdf48b71f7319eab62ea81994">DataSender()</a>, <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00046">performance_diagnostics</a>, <a class="el" href="../../da/d44/PerformanceDiagnostics_8cpp_source.html#l00021">carla::traffic_manager::PerformanceDiagnostics::RegisterUpdate()</a>, and <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00040">run_stage</a>.</p>
+<p>References <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#adf3c82a4f0202967d62f0cfa91a39a10">Action()</a>, <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#ad86aba2b70fb683acdc32460146fd2b5">DataReceiver()</a>, <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#ac2eb821bdf48b71f7319eab62ea81994">DataSender()</a>, <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00047">performance_diagnostics</a>, <a class="el" href="../../da/d44/PerformanceDiagnostics_8cpp_source.html#l00021">carla::traffic_manager::PerformanceDiagnostics::RegisterUpdate()</a>, and <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00041">run_stage</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00023">Start()</a>.</p>
 
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage_a7b5792b4debcc3266a20c9dc20d62b99_cgraph.svg" width="418" height="263"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage_a7b5792b4debcc3266a20c9dc20d62b99_icgraph.svg" width="367" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -433,9 +459,9 @@ Private Attributes</h2></td></tr>
 
 <p>Object to track stage performance. </p>
 
-<p>Definition at line <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00046">46</a> of file <a class="el" href="../../d9/da3/PipelineStage_8h_source.html">PipelineStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00047">47</a> of file <a class="el" href="../../d9/da3/PipelineStage_8h_source.html">PipelineStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00032">Update()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00041">Update()</a>.</p>
 
 </div>
 </div>
@@ -452,16 +478,16 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Flag to start/stop stage. </p>
 
-<p>Definition at line <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00040">40</a> of file <a class="el" href="../../d9/da3/PipelineStage_8h_source.html">PipelineStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00041">41</a> of file <a class="el" href="../../d9/da3/PipelineStage_8h_source.html">PipelineStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00012">PipelineStage()</a>, <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00023">Start()</a>, <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00028">Stop()</a>, and <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00032">Update()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00012">PipelineStage()</a>, <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00023">Start()</a>, <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00031">Stop()</a>, and <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00041">Update()</a>.</p>
 
 </div>
 </div>
@@ -478,14 +504,14 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Stage name string. </p>
 
-<p>Definition at line <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00042">42</a> of file <a class="el" href="../../d9/da3/PipelineStage_8h_source.html">PipelineStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00043">43</a> of file <a class="el" href="../../d9/da3/PipelineStage_8h_source.html">PipelineStage.h</a>.</p>
 
 </div>
 </div>
@@ -507,9 +533,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00038">38</a> of file <a class="el" href="../../d9/da3/PipelineStage_8h_source.html">PipelineStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/da3/PipelineStage_8h_source.html#l00037">37</a> of file <a class="el" href="../../d9/da3/PipelineStage_8h_source.html">PipelineStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00023">Start()</a>, and <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00018">~PipelineStage()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00023">Start()</a>, and <a class="el" href="../../d2/d31/PipelineStage_8cpp_source.html#l00031">Stop()</a>.</p>
 
 </div>
 </div>

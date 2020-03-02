@@ -18,6 +18,11 @@ var searchData=
   ['trafficlightstage',['TrafficLightStage',['../d5/db3/classcarla_1_1traffic__manager_1_1TrafficLightStage.html',1,'carla::traffic_manager']]],
   ['trafficlighttoplannerdata',['TrafficLightToPlannerData',['../d4/d0f/structcarla_1_1traffic__manager_1_1TrafficLightToPlannerData.html',1,'carla::traffic_manager']]],
   ['trafficmanager',['TrafficManager',['../df/d5a/classcarla_1_1traffic__manager_1_1TrafficManager.html',1,'carla::traffic_manager']]],
+  ['trafficmanagerbase',['TrafficManagerBase',['../dc/d92/classcarla_1_1traffic__manager_1_1TrafficManagerBase.html',1,'carla::traffic_manager']]],
+  ['trafficmanagerclient',['TrafficManagerClient',['../da/daa/classcarla_1_1traffic__manager_1_1TrafficManagerClient.html',1,'carla::traffic_manager']]],
+  ['trafficmanagerlocal',['TrafficManagerLocal',['../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal.html',1,'carla::traffic_manager']]],
+  ['trafficmanagerremote',['TrafficManagerRemote',['../d7/d5c/classcarla_1_1traffic__manager_1_1TrafficManagerRemote.html',1,'carla::traffic_manager']]],
+  ['trafficmanagerserver',['TrafficManagerServer',['../db/d80/classcarla_1_1traffic__manager_1_1TrafficManagerServer.html',1,'carla::traffic_manager']]],
   ['trafficsign',['TrafficSign',['../dc/d5c/classcarla_1_1client_1_1TrafficSign.html',1,'carla::client']]],
   ['transform',['Transform',['../de/da4/classcarla_1_1geom_1_1Transform.html',1,'carla::geom']]],
   ['typedependentstate',['TypeDependentState',['../d0/d4a/unioncarla_1_1sensor_1_1data_1_1ActorDynamicState_1_1TypeDependentState.html',1,'carla::sensor::data::ActorDynamicState']]]

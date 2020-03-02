@@ -104,12 +104,12 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d02/classcarla_1_1traffic__manager_1_1AtomicMap.html">AtomicMap</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html">BatchControlStage</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class receives actuation signals (throttle, brake, steer) from <a class="el" href="../../da/d5d/classcarla_1_1traffic__manager_1_1MotionPlannerStage.html" title="The class is responsible for aggregating information from various stages like the localization stage...">MotionPlannerStage</a> class and communicates these signals to the simulator in batches to control vehicles' movement.  <a href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class receives actuation signals (throttle, brake, steer) from Motion Planner Stage class and communicates these signals to the simulator in batches to control vehicles' movement.  <a href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de5/structcarla_1_1traffic__manager_1_1ChangeLaneInfo.html">ChangeLaneInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html">CollisionStage</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class is the thread executable for the collision detection stage.  <a href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class is the thread executable for the collision detection stage and is responsible for checking possible collisions with other cars along the vehicle's trajectory.  <a href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d23/structcarla_1_1traffic__manager_1_1CollisionToPlannerData.html">CollisionToPlannerData</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of data sent by the collision stage to the motion planner stage.  <a href="../../d8/d23/structcarla_1_1traffic__manager_1_1CollisionToPlannerData.html#details">More...</a><br /></td></tr>
@@ -164,7 +164,21 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of data sent by the traffic light stage to the motion planner stage.  <a href="../../d4/d0f/structcarla_1_1traffic__manager_1_1TrafficLightToPlannerData.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d5a/classcarla_1_1traffic__manager_1_1TrafficManager.html">TrafficManager</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function of this class is to integrate all the various stages of the traffic manager appropriately using messengers.  <a href="../../df/d5a/classcarla_1_1traffic__manager_1_1TrafficManager.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class integrates all the various stages of the traffic manager appropriately using messengers.  <a href="../../df/d5a/classcarla_1_1traffic__manager_1_1TrafficManager.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d92/classcarla_1_1traffic__manager_1_1TrafficManagerBase.html">TrafficManagerBase</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function of this class is to integrate all the various stages of the traffic manager appropriately using messengers.  <a href="../../dc/d92/classcarla_1_1traffic__manager_1_1TrafficManagerBase.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/daa/classcarla_1_1traffic__manager_1_1TrafficManagerClient.html">TrafficManagerClient</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides communication with the rpc of <a class="el" href="../../db/d80/classcarla_1_1traffic__manager_1_1TrafficManagerServer.html">TrafficManagerServer</a>.  <a href="../../da/daa/classcarla_1_1traffic__manager_1_1TrafficManagerClient.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal.html">TrafficManagerLocal</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function of this class is to integrate all the various stages of the traffic manager appropriately using messengers.  <a href="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5c/classcarla_1_1traffic__manager_1_1TrafficManagerRemote.html">TrafficManagerRemote</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function of this class is to integrate all the various stages of the traffic manager appropriately using messengers.  <a href="../../d7/d5c/classcarla_1_1traffic__manager_1_1TrafficManagerRemote.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d80/classcarla_1_1traffic__manager_1_1TrafficManagerServer.html">TrafficManagerServer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -175,8 +189,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a0031b3f566c364872121f8a79f27f174"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36e144174a4524310723dee7ddb8e286"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a36e144174a4524310723dee7ddb8e286">ActorIdSet</a> = std::unordered_set&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a0031b3f566c364872121f8a79f27f174">ActorId</a> &gt;</td></tr>
 <tr class="separator:a36e144174a4524310723dee7ddb8e286"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd0ce06a96c8adfa91b2d903809b98a1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#abd0ce06a96c8adfa91b2d903809b98a1">ActorPtr</a> = <a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">carla::SharedPtr</a>&lt; <a class="el" href="../../d6/da5/classcarla_1_1client_1_1Actor.html">cc::Actor</a> &gt;</td></tr>
-<tr class="separator:abd0ce06a96c8adfa91b2d903809b98a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae044fb807468d2ab451698aa2ecea64a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ae044fb807468d2ab451698aa2ecea64a">ActorPtr</a> = <a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">carla::SharedPtr</a>&lt; <a class="el" href="../../d6/da5/classcarla_1_1client_1_1Actor.html">cc::Actor</a> &gt;</td></tr>
+<tr class="separator:ae044fb807468d2ab451698aa2ecea64a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a2a81f90a54846d67d46596536697e2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a0a2a81f90a54846d67d46596536697e2">Buffer</a> = std::deque&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aee461a5a490f4fccca9a4aef84fab3b5">SimpleWaypointPtr</a> &gt;</td></tr>
 <tr class="memdesc:a0a2a81f90a54846d67d46596536697e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience typing.  <a href="#a0a2a81f90a54846d67d46596536697e2">More...</a><br /></td></tr>
 <tr class="separator:a0a2a81f90a54846d67d46596536697e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,8 +243,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a9cb56be4a1f8a8f977615f7ae21b84fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac071e30883def488f00ae6ecc2f9b8f5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ac071e30883def488f00ae6ecc2f9b8f5">TimePoint</a> = chr::time_point&lt; chr::system_clock, chr::nanoseconds &gt;</td></tr>
 <tr class="separator:ac071e30883def488f00ae6ecc2f9b8f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa4b4b10baa3f091e83f3862405c657e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#afa4b4b10baa3f091e83f3862405c657e">TLGroup</a> = std::vector&lt; <a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">carla::SharedPtr</a>&lt; <a class="el" href="../../df/def/classcarla_1_1client_1_1TrafficLight.html">cc::TrafficLight</a> &gt;&gt;</td></tr>
-<tr class="separator:afa4b4b10baa3f091e83f3862405c657e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44c8e9401a29eb6ebfffd710926513b7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a44c8e9401a29eb6ebfffd710926513b7">TLGroup</a> = std::vector&lt; <a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">carla::SharedPtr</a>&lt; <a class="el" href="../../df/def/classcarla_1_1client_1_1TrafficLight.html">carla::client::TrafficLight</a> &gt;&gt;</td></tr>
+<tr class="separator:a44c8e9401a29eb6ebfffd710926513b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b9d8e108c17eb14b262e6314736b3a5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a0b9d8e108c17eb14b262e6314736b3a5">TLS</a> = <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a46c3995219197dcef2980adce8d1cfba">carla::rpc::TrafficLightState</a></td></tr>
 <tr class="separator:a0b9d8e108c17eb14b262e6314736b3a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea8c8b3e06fbc6995e223351d1910bcb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aea8c8b3e06fbc6995e223351d1910bcb">TopologyList</a> = std::vector&lt; std::pair&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a5b9eab09b2fe25556855f77e34156251">WaypointPtr</a>, <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a5b9eab09b2fe25556855f77e34156251">WaypointPtr</a> &gt;&gt;</td></tr>
@@ -252,12 +266,12 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a409fadc688ad51ccc955ea2f5ad31e32"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a409fadc688ad51ccc955ea2f5ad31e32">DeviationCrossProduct</a> (<a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> actor, const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;target_location)</td></tr>
-<tr class="memdesc:a409fadc688ad51ccc955ea2f5ad31e32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cross product (z component value) between the vehicle's heading vector and the vector along the direction to the next target waypoint on the horizon.  <a href="#a409fadc688ad51ccc955ea2f5ad31e32">More...</a><br /></td></tr>
-<tr class="separator:a409fadc688ad51ccc955ea2f5ad31e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee5abdaff538f2ec9c30905ef79237b7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aee5abdaff538f2ec9c30905ef79237b7">DeviationDotProduct</a> (<a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> actor, const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;target_location, bool rear_offset=false)</td></tr>
-<tr class="memdesc:aee5abdaff538f2ec9c30905ef79237b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot product between the vehicle's heading vector and the vector along the direction to the next target waypoint on the horizon.  <a href="#aee5abdaff538f2ec9c30905ef79237b7">More...</a><br /></td></tr>
-<tr class="separator:aee5abdaff538f2ec9c30905ef79237b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5bbba7764001ac97a771b59569e6040"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ae5bbba7764001ac97a771b59569e6040">DeviationCrossProduct</a> (<a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> actor, const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;vehicle_location, const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;target_location)</td></tr>
+<tr class="memdesc:ae5bbba7764001ac97a771b59569e6040"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cross product (z component value) between the vehicle's heading vector and the vector along the direction to the next target waypoint on the horizon.  <a href="#ae5bbba7764001ac97a771b59569e6040">More...</a><br /></td></tr>
+<tr class="separator:ae5bbba7764001ac97a771b59569e6040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16f245658a7840b8c78f050917f7d2f7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a16f245658a7840b8c78f050917f7d2f7">DeviationDotProduct</a> (<a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a> actor, const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;vehicle_location, const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;target_location, bool rear_offset=false)</td></tr>
+<tr class="memdesc:a16f245658a7840b8c78f050917f7d2f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot product between the vehicle's heading vector and the vector along the direction to the next target waypoint on the horizon.  <a href="#a16f245658a7840b8c78f050917f7d2f7">More...</a><br /></td></tr>
+<tr class="separator:a16f245658a7840b8c78f050917f7d2f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -275,7 +289,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00046">46</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00045">45</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
 </div>
 </div>
@@ -303,16 +317,16 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00044">44</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00050">50</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="abd0ce06a96c8adfa91b2d903809b98a1"></a>
+<a class="anchor" id="ae044fb807468d2ab451698aa2ecea64a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">carla::SharedPtr</a>&lt; <a class="el" href="../../d6/da5/classcarla_1_1client_1_1Actor.html">cc::Actor</a> &gt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#abd0ce06a96c8adfa91b2d903809b98a1">carla::traffic_manager::ActorPtr</a></td>
+          <td class="memname">typedef <a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">carla::SharedPtr</a>&lt; <a class="el" href="../../d6/da5/classcarla_1_1client_1_1Actor.html">carla::client::Actor</a> &gt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ae044fb807468d2ab451698aa2ecea64a">carla::traffic_manager::ActorPtr</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -509,7 +523,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00048">48</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00047">47</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
 </div>
 </div>
@@ -565,7 +579,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00047">47</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00046">46</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
 </div>
 </div>
@@ -635,7 +649,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00049">49</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00048">48</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
 </div>
 </div>
@@ -667,17 +681,17 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afa4b4b10baa3f091e83f3862405c657e"></a>
+<a class="anchor" id="a44c8e9401a29eb6ebfffd710926513b7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#afa4b4b10baa3f091e83f3862405c657e">carla::traffic_manager::TLGroup</a> = typedef std::vector&lt;<a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">carla::SharedPtr</a>&lt;<a class="el" href="../../df/def/classcarla_1_1client_1_1TrafficLight.html">cc::TrafficLight</a>&gt;&gt;</td>
+          <td class="memname">using <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a44c8e9401a29eb6ebfffd710926513b7">carla::traffic_manager::TLGroup</a> = typedef std::vector&lt;<a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">carla::SharedPtr</a>&lt;<a class="el" href="../../df/def/classcarla_1_1client_1_1TrafficLight.html">carla::client::TrafficLight</a>&gt;&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/dfd/TrafficManager_8h_source.html#l00040">40</a> of file <a class="el" href="../../da/dfd/TrafficManager_8h_source.html">TrafficManager.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00046">46</a> of file <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html">TrafficManagerLocal.h</a>.</p>
 
 </div>
 </div>
@@ -691,7 +705,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00050">50</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00049">49</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
 </div>
 </div>
@@ -761,7 +775,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00042">42</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00048">48</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
 </div>
 </div>
@@ -808,7 +822,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a409fadc688ad51ccc955ea2f5ad31e32"></a>
+<a class="anchor" id="ae5bbba7764001ac97a771b59569e6040"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -817,6 +831,12 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a>&#160;</td>
           <td class="paramname"><em>actor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;&#160;</td>
+          <td class="paramname"><em>vehicle_location</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -838,14 +858,14 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00049">carla::geom::Vector3D::Length()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00053">carla::geom::Vector3D::MakeUnitVector()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00070">carla::traffic_manager::LocalizationStage::Action()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00071">carla::traffic_manager::LocalizationStage::Action()</a>.</p>
 
 <p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/db7/namespacecarla_1_1traffic__manager_a409fadc688ad51ccc955ea2f5ad31e32_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/db7/namespacecarla_1_1traffic__manager_ae5bbba7764001ac97a771b59569e6040_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -855,14 +875,14 @@ Variables</h2></td></tr>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/db7/namespacecarla_1_1traffic__manager_a409fadc688ad51ccc955ea2f5ad31e32_icgraph.svg" width="403" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/db7/namespacecarla_1_1traffic__manager_ae5bbba7764001ac97a771b59569e6040_icgraph.svg" width="403" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="aee5abdaff538f2ec9c30905ef79237b7"></a>
+<a class="anchor" id="a16f245658a7840b8c78f050917f7d2f7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -871,6 +891,12 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a20b30ae4f7fe9ac292978ff8b21226ca">Actor</a>&#160;</td>
           <td class="paramname"><em>actor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;&#160;</td>
+          <td class="paramname"><em>vehicle_location</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -894,18 +920,18 @@ Variables</h2></td></tr>
 
 <p>Returns the dot product between the vehicle's heading vector and the vector along the direction to the next target waypoint on the horizon. </p>
 
-<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00034">34</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00035">35</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
 
 <p>References <a class="el" href="../../db/d8a/Math_8h_source.html#l00058">carla::geom::Math::Dot()</a>, <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00041">carla::geom::BoundingBox::extent</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00060">carla::client::detail::ActorState::GetBoundingBox()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00049">carla::geom::Vector3D::Length()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00053">carla::geom::Vector3D::MakeUnitVector()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00070">carla::traffic_manager::LocalizationStage::Action()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00415">carla::traffic_manager::LocalizationStage::AssignLaneChange()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00071">carla::traffic_manager::LocalizationStage::Action()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00481">carla::traffic_manager::LocalizationStage::AssignLaneChange()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/db7/namespacecarla_1_1traffic__manager_aee5abdaff538f2ec9c30905ef79237b7_cgraph.svg" width="100%" height="471"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/db7/namespacecarla_1_1traffic__manager_a16f245658a7840b8c78f050917f7d2f7_cgraph.svg" width="100%" height="471"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -915,7 +941,7 @@ Variables</h2></td></tr>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/db7/namespacecarla_1_1traffic__manager_aee5abdaff538f2ec9c30905ef79237b7_icgraph.svg" width="646" height="92"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/db7/namespacecarla_1_1traffic__manager_a16f245658a7840b8c78f050917f7d2f7_icgraph.svg" width="646" height="92"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -943,7 +969,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d13/TrafficLightStage_8cpp_source.html#l00014">14</a> of file <a class="el" href="../../dc/d13/TrafficLightStage_8cpp_source.html">TrafficLightStage.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/d13/TrafficLightStage_8cpp_source.html#l00037">carla::traffic_manager::TrafficLightStage::Action()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/d13/TrafficLightStage_8cpp_source.html#l00040">carla::traffic_manager::TrafficLightStage::Action()</a>.</p>
 
 </div>
 </div>

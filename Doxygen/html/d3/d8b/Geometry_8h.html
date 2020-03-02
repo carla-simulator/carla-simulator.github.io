@@ -80,6 +80,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d9/d8b/geom_2Location_8h_source.html">carla/geom/Location.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../db/d8a/Math_8h_source.html">carla/geom/Math.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/dee/CubicPolynomial_8h_source.html">carla/geom/CubicPolynomial.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d30/Rtree_8h_source.html">carla/geom/Rtree.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for Geometry.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -109,7 +111,15 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da7/classcarla_1_1road_1_1element_1_1GeometryLine.html">carla::road::element::GeometryLine</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dfa/classcarla_1_1road_1_1element_1_1GeometryParamPoly3.html">carla::road::element::GeometryParamPoly3</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dee/classcarla_1_1road_1_1element_1_1GeometryPoly3.html">carla::road::element::GeometryPoly3</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d24/classcarla_1_1road_1_1element_1_1GeometrySpiral.html">carla::road::element::GeometrySpiral</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d18/structcarla_1_1road_1_1element_1_1GeometryParamPoly3_1_1RtreeValue.html">carla::road::element::GeometryParamPoly3::RtreeValue</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de2/structcarla_1_1road_1_1element_1_1GeometryPoly3_1_1RtreeValue.html">carla::road::element::GeometryPoly3::RtreeValue</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -123,9 +133,14 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:af813ce133ab9e826a05831cf2970133e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc1/namespacecarla_1_1road_1_1element.html#af813ce133ab9e826a05831cf2970133e">carla::road::element::GeometryType</a> : unsigned int { <a class="el" href="../../df/dc1/namespacecarla_1_1road_1_1element.html#af813ce133ab9e826a05831cf2970133ea17b8ef2c330f1430e00c9de5469fc7e7">carla::road::element::GeometryType::LINE</a>, 
+<tr class="memitem:af813ce133ab9e826a05831cf2970133e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc1/namespacecarla_1_1road_1_1element.html#af813ce133ab9e826a05831cf2970133e">carla::road::element::GeometryType</a> : unsigned int { <br />
+&#160;&#160;<a class="el" href="../../df/dc1/namespacecarla_1_1road_1_1element.html#af813ce133ab9e826a05831cf2970133ea17b8ef2c330f1430e00c9de5469fc7e7">carla::road::element::GeometryType::LINE</a>, 
 <a class="el" href="../../df/dc1/namespacecarla_1_1road_1_1element.html#af813ce133ab9e826a05831cf2970133ead72a48a8ebd238e1497a911e938f46e8">carla::road::element::GeometryType::ARC</a>, 
-<a class="el" href="../../df/dc1/namespacecarla_1_1road_1_1element.html#af813ce133ab9e826a05831cf2970133ea550c81f476de2243dc93872a898ea918">carla::road::element::GeometryType::SPIRAL</a>
+<a class="el" href="../../df/dc1/namespacecarla_1_1road_1_1element.html#af813ce133ab9e826a05831cf2970133ea550c81f476de2243dc93872a898ea918">carla::road::element::GeometryType::SPIRAL</a>, 
+<a class="el" href="../../df/dc1/namespacecarla_1_1road_1_1element.html#af813ce133ab9e826a05831cf2970133eae1b601534c2c991b69548e15c54fbf46">carla::road::element::GeometryType::POLY3</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../df/dc1/namespacecarla_1_1road_1_1element.html#af813ce133ab9e826a05831cf2970133ea235c59c2ea3af114b4707d4cb208a705">carla::road::element::GeometryType::POLY3PARAM</a>
+<br />
  }</td></tr>
 <tr class="separator:af813ce133ab9e826a05831cf2970133e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
