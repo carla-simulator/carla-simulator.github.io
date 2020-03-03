@@ -5,5 +5,5 @@ var searchData=
   ['yellow',['Yellow',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#adcc9f0cd0b5b4be0cc07be4bf5df30aca51e6cd92b6c45f9affdc158ecca2b8b8',1,'carla::road::element::LaneMarking::Yellow()'],['../de/d6c/namespacecarla_1_1rpc.html#a46c3995219197dcef2980adce8d1cfbaa51e6cd92b6c45f9affdc158ecca2b8b8',1,'carla::rpc::Yellow()']]],
   ['yellow_5ftime',['yellow_time',['../d0/d6d/structcarla_1_1sensor_1_1data_1_1detail_1_1TrafficLightData.html#a7e06da06438771c5db01e6aa37250d71',1,'carla::sensor::data::detail::TrafficLightData']]],
   ['yellowtime',['YellowTime',['../d2/d23/classATrafficLightBase.html#a4436770e46d77ab657e4ab8dc31289b0',1,'ATrafficLightBase']]],
-  ['yield',['Yield',['../da/d1b/classcarla_1_1client_1_1LandmarkType.html#a5d4eec915dc9145d25f85ac46cd79bee',1,'carla::client::LandmarkType']]]
+  ['yieldsign',['YieldSign',['../da/d1b/classcarla_1_1client_1_1LandmarkType.html#a0937a75e6cf49752fdee5c0757d5c6c0',1,'carla::client::LandmarkType']]]
 ];

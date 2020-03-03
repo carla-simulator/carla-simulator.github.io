@@ -21,7 +21,7 @@ var searchData=
   ['radarserializer',['RadarSerializer',['../d5/daf/classcarla_1_1sensor_1_1s11n_1_1RadarData.html#aae7d09a2b4866a12cba9926de03505e2',1,'carla::sensor::s11n::RadarData']]],
   ['radarserializer_2ecpp',['RadarSerializer.cpp',['../da/da1/RadarSerializer_8cpp.html',1,'']]],
   ['radarserializer_2eh',['RadarSerializer.h',['../db/d71/RadarSerializer_8h.html',1,'']]],
-  ['radius',['radius',['../d5/d9b/classcarla_1_1rpc_1_1WheelPhysicsControl.html#a418182031b76655018868b9b0038da99',1,'carla::rpc::WheelPhysicsControl::radius()'],['../db/dfe/structFWheelPhysicsControl.html#a564a7371b19889c1f75b6cc325521ff0',1,'FWheelPhysicsControl::Radius()']]],
+  ['radius',['Radius',['../db/dfe/structFWheelPhysicsControl.html#a564a7371b19889c1f75b6cc325521ff0',1,'FWheelPhysicsControl::Radius()'],['../d5/d9b/classcarla_1_1rpc_1_1WheelPhysicsControl.html#a418182031b76655018868b9b0038da99',1,'carla::rpc::WheelPhysicsControl::radius()']]],
   ['rail',['Rail',['../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5a569cfa311dfdfa035b1e7d4b38dc9ca0',1,'carla::road::Lane']]],
   ['random',['Random',['../dc/de7/classutil_1_1Random.html',1,'util']]],
   ['random_2eh',['Random.h',['../dd/d6d/Random_8h.html',1,'']]],
