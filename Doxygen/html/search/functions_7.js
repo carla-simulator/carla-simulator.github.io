@@ -397,7 +397,7 @@ var searchData=
   ['getredtime',['GetRedTime',['../d2/d23/classATrafficLightBase.html#abd196e4724143f36703155b54ec4c939',1,'ATrafficLightBase::GetRedTime()'],['../df/def/classcarla_1_1client_1_1TrafficLight.html#aae6ccdc16a946f509672b754c09c942f',1,'carla::client::TrafficLight::GetRedTime()']]],
   ['getregisteredvehiclesids',['GetRegisteredVehiclesIDs',['../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal.html#a9a7ce35514e5cfb41006f847d40d8266',1,'carla::traffic_manager::TrafficManagerLocal']]],
   ['getrelevanttagasstring',['GetRelevantTagAsString',['../d3/df3/ActorRegistry_8cpp.html#a8e48b3ef8d3e6ec6b570d117842348d9',1,'ActorRegistry.cpp']]],
-  ['getremaininglength',['GetRemainingLength',['../de/d26/namespacecarla_1_1road.html#a06c131934a3e01fe98fc0fc9fbf67e34',1,'carla::road']]],
+  ['getremaininglength',['GetRemainingLength',['../de/d26/namespacecarla_1_1road.html#a071a794ce07f7769fce67c03a18c02e6',1,'carla::road']]],
   ['getreplayer',['GetReplayer',['../dc/d84/classUCarlaEpisode.html#a858026e2325e41768bf34668f8d435d5',1,'UCarlaEpisode::GetReplayer()'],['../dd/db9/classACarlaRecorder.html#a5e86cef71749a885970064e9682a0288',1,'ACarlaRecorder::GetReplayer()']]],
   ['getresponsevalid',['GetResponseValid',['../da/d3a/classcarla_1_1sensor_1_1data_1_1RssResponse.html#ad421bd2ab4c8a9ac5c55a3f98526d483',1,'carla::sensor::data::RssResponse']]],
   ['getrestriction',['GetRestriction',['../d1/dc1/classcarla_1_1road_1_1element_1_1RoadInfoLaneAccess.html#aca2479cc86811cb36566b3e495e84308',1,'carla::road::element::RoadInfoLaneAccess']]],
