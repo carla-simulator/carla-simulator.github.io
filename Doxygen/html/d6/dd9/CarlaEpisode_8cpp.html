@@ -78,13 +78,18 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d7/d7d/Carla_8h_source.html">Carla.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/db8/CarlaEpisode_8h_source.html">Carla/Game/CarlaEpisode.h</a>&quot;</code><br />
+<code>#include &lt;<a class="el" href="../../d2/d02/disable-ue4-macros_8h_source.html">compiler/disable-ue4-macros.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d1/dd9/OpenDriveParser_8h_source.html">carla/opendrive/OpenDriveParser.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d9/dba/String_8h_source.html">carla/rpc/String.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d9/da2/enable-ue4-macros_8h_source.html">compiler/enable-ue4-macros.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Carla/Sensor/Sensor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/dca/BoundingBoxCalculator_8h_source.html">Carla/Util/BoundingBoxCalculator.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/daa/RandomEngine_8h_source.html">Carla/Util/RandomEngine.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/d67/VehicleSpawnPoint_8h_source.html">Carla/Vehicle/VehicleSpawnPoint.h</a>&quot;</code><br />
-<code>#include &quot;EngineUtils.h&quot;</code><br />
 <code>#include &quot;Engine/StaticMeshActor.h&quot;</code><br />
+<code>#include &quot;EngineUtils.h&quot;</code><br />
 <code>#include &quot;GameFramework/SpectatorPawn.h&quot;</code><br />
+<code>#include &quot;GenericPlatform/GenericPlatformProcess.h&quot;</code><br />
 <code>#include &quot;Kismet/GameplayStatics.h&quot;</code><br />
 <code>#include &quot;Misc/FileHelper.h&quot;</code><br />
 <code>#include &quot;Misc/Paths.h&quot;</code><br />
@@ -101,10 +106,49 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ab730883826556cf902845c735c898300"><td class="memItemLeft" align="right" valign="top">static FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd9/CarlaEpisode_8cpp.html#ab730883826556cf902845c735c898300">BuildRecastBuilderFile</a> ()</td></tr>
+<tr class="separator:ab730883826556cf902845c735c898300"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9626820441bd7303706356f62d414849"><td class="memItemLeft" align="right" valign="top">static FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd9/CarlaEpisode_8cpp.html#a9626820441bd7303706356f62d414849">UCarlaEpisode_GetTrafficSignId</a> (<a class="el" href="../../d5/dc5/TrafficSignBase_8h.html#a4057cf972679f3cd597a1e5cc94ee53a">ETrafficSignState</a> State)</td></tr>
 <tr class="separator:a9626820441bd7303706356f62d414849"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ab730883826556cf902845c735c898300"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static FString BuildRecastBuilderFile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00111">111</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00131">UCarlaEpisode::LoadNewOpendriveEpisode()</a>.</p>
+
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/dd9/CarlaEpisode_8cpp_ab730883826556cf902845c735c898300_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a9626820441bd7303706356f62d414849"></a>
 <div class="memitem">
 <div class="memproto">
@@ -127,15 +171,15 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00022">22</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00028">28</a> of file <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html">CarlaEpisode.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00176">UCarlaEpisode::InitializeAtBeginPlay()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00253">UCarlaEpisode::InitializeAtBeginPlay()</a>.</p>
 
-<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/dd9/CarlaEpisode_8cpp_a9626820441bd7303706356f62d414849_icgraph.svg" width="634" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
