@@ -148,9 +148,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa9950ea96d908b964f635013fbc5a432"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">SharedPtr</a>&lt; <a class="el" href="../../d6/da5/classcarla_1_1client_1_1Actor.html">Actor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1f/classcarla_1_1client_1_1World.html#aa9950ea96d908b964f635013fbc5a432">SpawnActor</a> (const <a class="el" href="../../d8/dd9/classcarla_1_1client_1_1ActorBlueprint.html">ActorBlueprint</a> &amp;blueprint, const <a class="el" href="../../de/da4/classcarla_1_1geom_1_1Transform.html">geom::Transform</a> &amp;transform, <a class="el" href="../../d6/da5/classcarla_1_1client_1_1Actor.html">Actor</a> *parent=nullptr, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a3124bfdfcd62bda5c4fe5978ec668365">rpc::AttachmentType</a> attachment_type=<a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a3124bfdfcd62bda5c4fe5978ec668365ac7207657aba5dfd2e5b0ca3f35cd8c26">rpc::AttachmentType::Rigid</a>)</td></tr>
 <tr class="memdesc:aa9950ea96d908b964f635013fbc5a432"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spawn an actor into the world based on the <em>blueprint</em> provided at <em>transform</em>.  <a href="#aa9950ea96d908b964f635013fbc5a432">More...</a><br /></td></tr>
 <tr class="separator:aa9950ea96d908b964f635013fbc5a432"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af42062d82e9f6274b9a5df296c6bef9b"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1f/classcarla_1_1client_1_1World.html#af42062d82e9f6274b9a5df296c6bef9b">Tick</a> ()</td></tr>
-<tr class="memdesc:af42062d82e9f6274b9a5df296c6bef9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signal the simulator to continue to next tick (only has effect on synchronous mode).  <a href="#af42062d82e9f6274b9a5df296c6bef9b">More...</a><br /></td></tr>
-<tr class="separator:af42062d82e9f6274b9a5df296c6bef9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54001b9b89732b277c38f0682164499d"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1f/classcarla_1_1client_1_1World.html#a54001b9b89732b277c38f0682164499d">Tick</a> (<a class="el" href="../../d2/d2e/classcarla_1_1time__duration.html">time_duration</a> timeout)</td></tr>
+<tr class="memdesc:a54001b9b89732b277c38f0682164499d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signal the simulator to continue to next tick (only has effect on synchronous mode).  <a href="#a54001b9b89732b277c38f0682164499d">More...</a><br /></td></tr>
+<tr class="separator:a54001b9b89732b277c38f0682164499d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a505c7ec38571b8b5b2d8dc8596ced2f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">SharedPtr</a>&lt; <a class="el" href="../../d6/da5/classcarla_1_1client_1_1Actor.html">Actor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1f/classcarla_1_1client_1_1World.html#a505c7ec38571b8b5b2d8dc8596ced2f4">TrySpawnActor</a> (const <a class="el" href="../../d8/dd9/classcarla_1_1client_1_1ActorBlueprint.html">ActorBlueprint</a> &amp;blueprint, const <a class="el" href="../../de/da4/classcarla_1_1geom_1_1Transform.html">geom::Transform</a> &amp;transform, <a class="el" href="../../d6/da5/classcarla_1_1client_1_1Actor.html">Actor</a> *parent=nullptr, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a3124bfdfcd62bda5c4fe5978ec668365">rpc::AttachmentType</a> attachment_type=<a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a3124bfdfcd62bda5c4fe5978ec668365ac7207657aba5dfd2e5b0ca3f35cd8c26">rpc::AttachmentType::Rigid</a>) noexcept</td></tr>
 <tr class="memdesc:a505c7ec38571b8b5b2d8dc8596ced2f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as SpawnActor but return nullptr on failure instead of throwing an exception.  <a href="#a505c7ec38571b8b5b2d8dc8596ced2f4">More...</a><br /></td></tr>
 <tr class="separator:a505c7ec38571b8b5b2d8dc8596ced2f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1171,14 +1171,15 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af42062d82e9f6274b9a5df296c6bef9b"></a>
+<a class="anchor" id="a54001b9b89732b277c38f0682164499d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">uint64_t carla::client::World::Tick </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d2/d2e/classcarla_1_1time__duration.html">time_duration</a>&#160;</td>
+          <td class="paramname"><em>timeout</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1198,7 +1199,7 @@ Private Attributes</h2></td></tr>
 <div id="dynsection-37-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-37-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d1f/classcarla_1_1client_1_1World_af42062d82e9f6274b9a5df296c6bef9b_cgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d1f/classcarla_1_1client_1_1World_a54001b9b89732b277c38f0682164499d_cgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -1208,7 +1209,7 @@ Private Attributes</h2></td></tr>
 <div id="dynsection-38-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-38-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d1f/classcarla_1_1client_1_1World_af42062d82e9f6274b9a5df296c6bef9b_icgraph.svg" width="334" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d1f/classcarla_1_1client_1_1World_a54001b9b89732b277c38f0682164499d_icgraph.svg" width="334" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>

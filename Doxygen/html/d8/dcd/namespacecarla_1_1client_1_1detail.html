@@ -147,8 +147,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ae9b6aba4695df8a1b67cb27d97139f14"><td class="memTemplParams" colspan="2">template&lt;typename ActorT &gt; </td></tr>
 <tr class="memitem:ae9b6aba4695df8a1b67cb27d97139f14"><td class="memTemplItemLeft" align="right" valign="top">static auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/dcd/namespacecarla_1_1client_1_1detail.html#ae9b6aba4695df8a1b67cb27d97139f14">MakeActorImpl</a> (<a class="el" href="../../d9/dea/classcarla_1_1client_1_1ActorInitializer.html">ActorInitializer</a> init, <a class="el" href="../../d2/daf/namespacecarla_1_1client.html#ad1cd8b4654ee7b590ce8d6ef27a6aa9e">GarbageCollectionPolicy</a> gc)</td></tr>
 <tr class="separator:ae9b6aba4695df8a1b67cb27d97139f14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa008867c2874aa8192589c3f6959eec2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dcd/namespacecarla_1_1client_1_1detail.html#aa008867c2874aa8192589c3f6959eec2">SynchronizeFrame</a> (uint64_t frame, const <a class="el" href="../../d1/db6/classcarla_1_1client_1_1detail_1_1Episode.html">Episode</a> &amp;episode)</td></tr>
-<tr class="separator:aa008867c2874aa8192589c3f6959eec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7ddfc27eda1358995eda21f325892ca"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dcd/namespacecarla_1_1client_1_1detail.html#aa7ddfc27eda1358995eda21f325892ca">SynchronizeFrame</a> (uint64_t frame, const <a class="el" href="../../d1/db6/classcarla_1_1client_1_1detail_1_1Episode.html">Episode</a> &amp;episode, <a class="el" href="../../d2/d2e/classcarla_1_1time__duration.html">time_duration</a> timeout)</td></tr>
+<tr class="separator:aa7ddfc27eda1358995eda21f325892ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a097188ada46523ae4f48d6e1b2add828"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dcd/namespacecarla_1_1client_1_1detail.html#a097188ada46523ae4f48d6e1b2add828">ValidateVersions</a> (<a class="el" href="../../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html">Client</a> &amp;client)</td></tr>
 <tr class="separator:a097188ada46523ae4f48d6e1b2add828"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -510,7 +510,7 @@ template&lt;typename ActorT &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aa008867c2874aa8192589c3f6959eec2"></a>
+<a class="anchor" id="aa7ddfc27eda1358995eda21f325892ca"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -518,7 +518,7 @@ template&lt;typename ActorT &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void carla::client::detail::SynchronizeFrame </td>
+          <td class="memname">static bool carla::client::detail::SynchronizeFrame </td>
           <td>(</td>
           <td class="paramtype">uint64_t&#160;</td>
           <td class="paramname"><em>frame</em>, </td>
@@ -527,7 +527,13 @@ template&lt;typename ActorT &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="../../d1/db6/classcarla_1_1client_1_1detail_1_1Episode.html">Episode</a> &amp;&#160;</td>
-          <td class="paramname"><em>episode</em>&#160;</td>
+          <td class="paramname"><em>episode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/d2e/classcarla_1_1time__duration.html">time_duration</a>&#160;</td>
+          <td class="paramname"><em>timeout</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -544,16 +550,16 @@ template&lt;typename ActorT &gt; </div>
 
 <p>Definition at line <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html">Simulator.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00048">carla::client::detail::Episode::GetState()</a>, and <a class="el" href="../../db/d04/TrafficManager_8cpp_source.html#l00052">carla::traffic_manager::TrafficManager::Tick()</a>.</p>
+<p>References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00048">carla::client::detail::Episode::GetState()</a>, <a class="el" href="../../db/d04/TrafficManager_8cpp_source.html#l00052">carla::traffic_manager::TrafficManager::Tick()</a>, and <a class="el" href="../../d2/d33/Time_8h_source.html#l00050">carla::time_duration::to_chrono()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00149">carla::client::detail::Simulator::SetEpisodeSettings()</a>, and <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00129">carla::client::detail::Simulator::Tick()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00164">carla::client::detail::Simulator::SetEpisodeSettings()</a>, and <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00141">carla::client::detail::Simulator::Tick()</a>.</p>
 
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/dcd/namespacecarla_1_1client_1_1detail_aa008867c2874aa8192589c3f6959eec2_cgraph.svg" width="616" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/dcd/namespacecarla_1_1client_1_1detail_aa7ddfc27eda1358995eda21f325892ca_cgraph.svg" width="616" height="191"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -563,7 +569,7 @@ template&lt;typename ActorT &gt; </div>
 <div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/dcd/namespacecarla_1_1client_1_1detail_aa008867c2874aa8192589c3f6959eec2_icgraph.svg" width="100%" height="496"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/dcd/namespacecarla_1_1client_1_1detail_aa7ddfc27eda1358995eda21f325892ca_icgraph.svg" width="100%" height="496"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -596,7 +602,7 @@ template&lt;typename ActorT &gt; </div>
 
 <p>References <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00135">carla::client::detail::Client::GetClientVersion()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00139">carla::client::detail::Client::GetServerVersion()</a>, and <a class="el" href="../../de/d87/Logging_8h_source.html#l00096">carla::log_warning()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00100">carla::client::detail::Simulator::GetCurrentEpisode()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00112">carla::client::detail::Simulator::GetCurrentEpisode()</a>.</p>
 
 <p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
