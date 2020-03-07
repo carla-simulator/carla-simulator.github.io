@@ -5,6 +5,7 @@ var searchData=
   ['lane_5flinks',['lane_links',['../d1/d9e/structcarla_1_1road_1_1Junction_1_1Connection.html#ac5d4d15326b7617d161a7e49a7ae909f',1,'carla::road::Junction::Connection']]],
   ['lanes',['lanes',['../d4/d23/structcarla_1_1opendrive_1_1parser_1_1LaneSection.html#af09d6b8b9d1d5200a91503d6b4e0829d',1,'carla::opendrive::parser::LaneSection']]],
   ['laserangles',['LaserAngles',['../d5/de4/classARayCastLidar.html#ab5d30344c082725d2275cd9377dc49b1',1,'ARayCastLidar']]],
+  ['last_5flane_5fchange_5flocation',['last_lane_change_location',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#ab15930f320d4fccce14d9c3c9a1c4f6e',1,'carla::traffic_manager::LocalizationStage']]],
   ['last_5fworld_5factors_5fpass_5finstance',['last_world_actors_pass_instance',['../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#ac35900b9ece994772148c262e1f7e8bd',1,'carla::traffic_manager::CollisionStage']]],
   ['lastappliedcontrol',['LastAppliedControl',['../d5/d70/classACarlaWheeledVehicle.html#a432183d8f8bcb122f2b95ec60699bdc6',1,'ACarlaWheeledVehicle']]],
   ['lastknownglobaloffset',['lastKnownGlobalOffset',['../de/deb/structmoodycamel_1_1ConsumerToken.html#a87122da7757b646f32bc06ede03040f8',1,'moodycamel::ConsumerToken']]],

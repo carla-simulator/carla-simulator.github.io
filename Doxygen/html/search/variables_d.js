@@ -40,6 +40,7 @@ var searchData=
   ['maxhandbraketorque',['MaxHandBrakeTorque',['../db/dfe/structFWheelPhysicsControl.html#a89c9cc96534e82e0f59779e431c4e31d',1,'FWheelPhysicsControl']]],
   ['maximum_5fidle_5ftime',['maximum_idle_time',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#ad726b94aa09bb05969697a92d4aaa155',1,'carla::traffic_manager::LocalizationStage']]],
   ['maximum_5flane_5fobstacle_5fcurvature',['MAXIMUM_LANE_OBSTACLE_CURVATURE',['../d9/d5c/namespacecarla_1_1traffic__manager_1_1LocalizationConstants.html#ad28e4ee564cf166b2d45da43709ddb21',1,'carla::traffic_manager::LocalizationConstants']]],
+  ['maximum_5flane_5fobstacle_5fdistance',['MAXIMUM_LANE_OBSTACLE_DISTANCE',['../d9/d5c/namespacecarla_1_1traffic__manager_1_1LocalizationConstants.html#a005e7ec863809afb3300657dbf76f91b',1,'carla::traffic_manager::LocalizationConstants']]],
   ['maximumencodedangle',['MaximumEncodedAngle',['../d9/d74/structFRoadMapPixelData.html#a7acc3df48c1a9a2762ab8635a38d1bca',1,'FRoadMapPixelData']]],
   ['maximumsteerangle',['MaximumSteerAngle',['../dd/dea/classAWheeledVehicleAIController.html#a65eab1ce2eccde3e86e55b67741f9f6c',1,'AWheeledVehicleAIController']]],
   ['maxrpm',['MaxRPM',['../d1/dbe/structFVehiclePhysicsControl.html#a6e9a82e4977a911eda74940b487c2ca3',1,'FVehiclePhysicsControl']]],

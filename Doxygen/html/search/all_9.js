@@ -108,6 +108,7 @@ var searchData=
   ['int_5fp_5fnull',['int_p_NULL',['../d2/d1d/ImageIOConfig_8h.html#a82a90dbcb3c65be802dccb31f909bd02',1,'ImageIOConfig.h']]],
   ['integer_5fto_5fstring',['integer_to_string',['../db/d20/pugixml_8cpp.html#afa361f26fc182d3db33b9bcf424f60d3',1,'pugixml.cpp']]],
   ['inter_5fbbox_5fdistance_5fthreshold',['INTER_BBOX_DISTANCE_THRESHOLD',['../d5/de3/namespacecarla_1_1traffic__manager_1_1CollisionStageConstants.html#ae0198346ba877dd6762b352d622f5208',1,'carla::traffic_manager::CollisionStageConstants']]],
+  ['inter_5flane_5fchange_5fdistance',['INTER_LANE_CHANGE_DISTANCE',['../d9/d5c/namespacecarla_1_1traffic__manager_1_1LocalizationConstants.html#a6c2a24ef2ed000711f09e6a955004ac1',1,'carla::traffic_manager::LocalizationConstants']]],
   ['inter_5fupdate_5fclock',['inter_update_clock',['../d5/d1a/classcarla_1_1traffic__manager_1_1PerformanceDiagnostics.html#a6e8c5ed4cc60f3732c3d28b0230ad838',1,'carla::traffic_manager::PerformanceDiagnostics']]],
   ['inter_5fupdate_5fduration',['inter_update_duration',['../d5/d1a/classcarla_1_1traffic__manager_1_1PerformanceDiagnostics.html#ae0537540269cfbced075e5b1d46fb57a',1,'carla::traffic_manager::PerformanceDiagnostics']]],
   ['interior',['Interior',['../de/d9e/structFVehicleLightState.html#a47ad7d990a8bc8b2eb47ef67d6bf358e',1,'FVehicleLightState::Interior()'],['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html#a6372a8be47dbe5cd2b9c19730e5d1dc5aebbcc9b3b8fc5c7d79d0126910b82a69',1,'carla::rpc::VehicleLightState::Interior()']]],

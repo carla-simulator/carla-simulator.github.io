@@ -309,6 +309,7 @@ var searchData=
   ['getjunctionlanes',['GetJunctionLanes',['../de/d16/classcarla_1_1road_1_1MapBuilder.html#a9f7acb42642bed1a1bf1a21c2b1c9931',1,'carla::road::MapBuilder']]],
   ['getjunctions',['GetJunctions',['../da/d3b/classcarla_1_1road_1_1MapData.html#ada1ec7c5f6908e9b4cebc302aa4ec466',1,'carla::road::MapData']]],
   ['getjunctionwaypoints',['GetJunctionWaypoints',['../dd/d49/classcarla_1_1client_1_1Map.html#acd0021d67773e7eee0cafb664ae9fb87',1,'carla::client::Map::GetJunctionWaypoints()'],['../d0/d34/classcarla_1_1road_1_1Map.html#a067395df8d68f9fbcdafd8751262d168',1,'carla::road::Map::GetJunctionWaypoints()']]],
+  ['getkeeprightpercentage',['GetKeepRightPercentage',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#ac6cd3ee9f79fe45d34847b8a3b70a819',1,'carla::traffic_manager::Parameters']]],
   ['getlabelbyfoldername',['GetLabelByFolderName',['../d2/d35/Tagger_8cpp.html#a00abb31a5ebe52e7ff9106ecd76642b1',1,'Tagger.cpp']]],
   ['getlabelbypath',['GetLabelByPath',['../d2/d35/Tagger_8cpp.html#afab9c9ad15659b3504c69651c3fe9305',1,'Tagger.cpp']]],
   ['getlandmakrsoftypeindistance',['GetLandmakrsOfTypeInDistance',['../dd/dff/classcarla_1_1client_1_1Waypoint.html#ab27ae0c3a10f8bbd08c9a7aa93482733',1,'carla::client::Waypoint']]],

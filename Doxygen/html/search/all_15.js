@@ -41,7 +41,7 @@ var searchData=
   ['uniform',['Uniform',['../dc/de7/classutil_1_1Random.html#a459a588a5cf0d253dd347c33fd9dce7c',1,'util::Random']]],
   ['unique',['unique',['../db/d20/pugixml_8cpp.html#a50d3fa6d38fd850cdc7842683e656a11',1,'pugixml.cpp']]],
   ['unit',['unit',['../db/d19/structcarla_1_1opendrive_1_1parser_1_1RoadTypeSpeed.html#a75c894acf78c3aabfa1336e1eff277d0',1,'carla::opendrive::parser::RoadTypeSpeed']]],
-  ['unknown',['Unknown',['../de/d6c/namespacecarla_1_1rpc.html#a46c3995219197dcef2980adce8d1cfbaa88183b946cc5f0e8c96b2e66e1c74a7e',1,'carla::rpc::Unknown()'],['../d5/dc5/TrafficSignBase_8h.html#a4057cf972679f3cd597a1e5cc94ee53aa696b031073e74bf2cb98e5ef201d4aa3',1,'UNKNOWN():&#160;TrafficSignBase.h']]],
+  ['unknown',['UNKNOWN',['../d5/dc5/TrafficSignBase_8h.html#a4057cf972679f3cd597a1e5cc94ee53aa696b031073e74bf2cb98e5ef201d4aa3',1,'UNKNOWN():&#160;TrafficSignBase.h'],['../de/d6c/namespacecarla_1_1rpc.html#a46c3995219197dcef2980adce8d1cfbaa88183b946cc5f0e8c96b2e66e1c74a7e',1,'carla::rpc::Unknown()']]],
   ['unlikely',['unlikely',['../d6/d0f/namespacemoodycamel_1_1details.html#aa5927baf54594051335e9d3e858fc08e',1,'moodycamel::details']]],
   ['unnotifywheeledvehicle',['UnNotifyWheeledVehicle',['../d2/d23/classATrafficLightBase.html#ac9e6dfcf453aec6e534a80c1bea284a2',1,'ATrafficLightBase']]],
   ['unpack',['UnPack',['../db/d00/classcarla_1_1MsgPack.html#a14fdcf24dcb2db0582fd07e2a8c79551',1,'carla::MsgPack::UnPack(const Buffer &amp;buffer)'],['../db/d00/classcarla_1_1MsgPack.html#a9f7f7a514bfab5f767153bec5e81401a',1,'carla::MsgPack::UnPack(const unsigned char *data, size_t size)']]],

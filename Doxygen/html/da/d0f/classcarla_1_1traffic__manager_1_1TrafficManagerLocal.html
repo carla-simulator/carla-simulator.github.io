@@ -133,9 +133,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a37cc1e74a94455ba8eaed885b6da3c7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal.html#a37cc1e74a94455ba8eaed885b6da3c7c">SetForceLaneChange</a> (const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ae044fb807468d2ab451698aa2ecea64a">ActorPtr</a> &amp;actor, const bool direction)</td></tr>
 <tr class="memdesc:a37cc1e74a94455ba8eaed885b6da3c7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to force lane change on a vehicle.  <a href="#a37cc1e74a94455ba8eaed885b6da3c7c">More...</a><br /></td></tr>
 <tr class="separator:a37cc1e74a94455ba8eaed885b6da3c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab09032b120ada566749d44a020b70657"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal.html#ab09032b120ada566749d44a020b70657">SetGlobalDistanceToLeadingVehicle</a> (const float distance)</td></tr>
+<tr class="memdesc:ab09032b120ada566749d44a020b70657"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to specify how much distance a vehicle should maintain to the Global leading vehicle.  <a href="#ab09032b120ada566749d44a020b70657">More...</a><br /></td></tr>
+<tr class="separator:ab09032b120ada566749d44a020b70657"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dafa6ae8463609730e5b5241d411af6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal.html#a1dafa6ae8463609730e5b5241d411af6">SetGlobalPercentageSpeedDifference</a> (float const percentage)</td></tr>
 <tr class="memdesc:a1dafa6ae8463609730e5b5241d411af6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Methos to set a global % decrease in velocity with respect to the speed limit.  <a href="#a1dafa6ae8463609730e5b5241d411af6">More...</a><br /></td></tr>
 <tr class="separator:a1dafa6ae8463609730e5b5241d411af6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99248235e46ee4161ebcc9f7d4ba5085"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal.html#a99248235e46ee4161ebcc9f7d4ba5085">SetKeepRightPercentage</a> (const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ae044fb807468d2ab451698aa2ecea64a">ActorPtr</a> &amp;actor, const float percentage)</td></tr>
+<tr class="memdesc:a99248235e46ee4161ebcc9f7d4ba5085"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to set probabilistic preference to keep on the right lane.  <a href="#a99248235e46ee4161ebcc9f7d4ba5085">More...</a><br /></td></tr>
+<tr class="separator:a99248235e46ee4161ebcc9f7d4ba5085"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a364d079752b5c6bb8ca06f857912353e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal.html#a364d079752b5c6bb8ca06f857912353e">SetPercentageIgnoreVehicles</a> (const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ae044fb807468d2ab451698aa2ecea64a">ActorPtr</a> &amp;actor, const float perc)</td></tr>
 <tr class="memdesc:a364d079752b5c6bb8ca06f857912353e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to specify the % chance of ignoring collisions with any vehicle.  <a href="#a364d079752b5c6bb8ca06f857912353e">More...</a><br /></td></tr>
 <tr class="separator:a364d079752b5c6bb8ca06f857912353e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -345,7 +351,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00038">38</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
 
-<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00067">episodeProxyTM</a>, <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>, <a class="el" href="../../d1/da0/TrafficManagerServer_8h_source.html#l00180">carla::traffic_manager::TrafficManagerServer::port()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00123">Release()</a>, and <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00091">server</a>.</p>
+<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00067">episodeProxyTM</a>, <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>, <a class="el" href="../../d1/da0/TrafficManagerServer_8h_source.html#l00191">carla::traffic_manager::TrafficManagerServer::port()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00123">Release()</a>, and <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00091">server</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -384,11 +390,11 @@ Private Attributes</h2></td></tr>
 
 <p>Method to check if all traffic lights are frozen in a group. </p>
 
-<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00196">196</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00204">204</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
 
 <p>References <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a46c3995219197dcef2980adce8d1cfbaaee38e4d5dd68c4e440825018d549cb47">carla::rpc::Red</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00205">ResetAllTrafficLights()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00213">ResetAllTrafficLights()</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -427,7 +433,7 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../dc/d92/classcarla_1_1traffic__manager_1_1TrafficManagerBase.html#ae2b30d224c96003ac66ed72a95d8397e">carla::traffic_manager::TrafficManagerBase</a>.</p>
 
-<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00267">267</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00275">275</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
 
 <p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00067">episodeProxyTM</a>.</p>
 
@@ -448,7 +454,7 @@ Private Attributes</h2></td></tr>
 
 <p>Get list of all registered vehicles. </p>
 
-<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00271">271</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00279">279</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
 
 <p>References <a class="el" href="../../dd/dfa/AtomicActorSet_8h_source.html#l00045">carla::traffic_manager::AtomicActorSet::GetIDList()</a>, and <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00061">registered_actors</a>.</p>
 
@@ -626,9 +632,9 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../dc/d92/classcarla_1_1traffic__manager_1_1TrafficManagerBase.html#a3b5818e75361fab979f5f1541e1cd494">carla::traffic_manager::TrafficManagerBase</a>.</p>
 
-<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00205">205</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00213">213</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
 
-<p>References <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00196">CheckAllFrozen()</a>, <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00067">episodeProxyTM</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a46c3995219197dcef2980adce8d1cfbaad382816a3cbeed082c9e216e7392eed1">carla::rpc::Green</a>, <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>, <a class="el" href="../../da/dfc/StringUtil_8cpp_source.html#l00017">carla::StringUtil::Match()</a>, and <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a46c3995219197dcef2980adce8d1cfbaaee38e4d5dd68c4e440825018d549cb47">carla::rpc::Red</a>.</p>
+<p>References <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00204">CheckAllFrozen()</a>, <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00067">episodeProxyTM</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a46c3995219197dcef2980adce8d1cfbaad382816a3cbeed082c9e216e7392eed1">carla::rpc::Green</a>, <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>, <a class="el" href="../../da/dfc/StringUtil_8cpp_source.html#l00017">carla::StringUtil::Match()</a>, and <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a46c3995219197dcef2980adce8d1cfbaaee38e4d5dd68c4e440825018d549cb47">carla::rpc::Red</a>.</p>
 
 <p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -680,7 +686,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00172">172</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
 
-<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00069">carla::traffic_manager::Parameters::SetAutoLaneChange()</a>.</p>
+<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00075">carla::traffic_manager::Parameters::SetAutoLaneChange()</a>.</p>
 
 <p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -790,7 +796,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00176">176</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
 
-<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00075">carla::traffic_manager::Parameters::SetDistanceToLeadingVehicle()</a>.</p>
+<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00081">carla::traffic_manager::Parameters::SetDistanceToLeadingVehicle()</a>.</p>
 
 <p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -857,6 +863,48 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab09032b120ada566749d44a020b70657"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::traffic_manager::TrafficManagerLocal::SetGlobalDistanceToLeadingVehicle </td>
+          <td>(</td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>distance</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Method to specify how much distance a vehicle should maintain to the Global leading vehicle. </p>
+
+<p>Implements <a class="el" href="../../dc/d92/classcarla_1_1traffic__manager_1_1TrafficManagerBase.html#af19fc0f04dc995000477cbd23fd37d88">carla::traffic_manager::TrafficManagerBase</a>.</p>
+
+<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00180">180</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
+
+<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00185">carla::traffic_manager::Parameters::SetGlobalDistanceToLeadingVehicle()</a>.</p>
+
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal_ab09032b120ada566749d44a020b70657_cgraph.svg" width="546" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a1dafa6ae8463609730e5b5241d411af6"></a>
 <div class="memitem">
 <div class="memproto">
@@ -888,12 +936,64 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00031">carla::traffic_manager::Parameters::SetGlobalPercentageSpeedDifference()</a>.</p>
 
-<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal_a1dafa6ae8463609730e5b5241d411af6_cgraph.svg" width="576" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a99248235e46ee4161ebcc9f7d4ba5085"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::traffic_manager::TrafficManagerLocal::SetKeepRightPercentage </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ae044fb807468d2ab451698aa2ecea64a">ActorPtr</a> &amp;&#160;</td>
+          <td class="paramname"><em>actor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>percentage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Method to set probabilistic preference to keep on the right lane. </p>
+
+<p>Implements <a class="el" href="../../dc/d92/classcarla_1_1traffic__manager_1_1TrafficManagerBase.html#a7403e90dcd62c6c1598cb32268f8c100">carla::traffic_manager::TrafficManagerBase</a>.</p>
+
+<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00200">200</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
+
+<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00069">carla::traffic_manager::Parameters::SetKeepRightPercentage()</a>.</p>
+
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal_a99248235e46ee4161ebcc9f7d4ba5085_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -936,15 +1036,15 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../dc/d92/classcarla_1_1traffic__manager_1_1TrafficManagerBase.html#a60d8821c0f9a3f841b9bf7f03b0b3c8b">carla::traffic_manager::TrafficManagerBase</a>.</p>
 
-<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00184">184</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00188">188</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
 
-<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00178">carla::traffic_manager::Parameters::SetPercentageIgnoreVehicles()</a>.</p>
+<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00204">carla::traffic_manager::Parameters::SetPercentageIgnoreVehicles()</a>.</p>
 
-<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal_a364d079752b5c6bb8ca06f857912353e_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -988,15 +1088,15 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../dc/d92/classcarla_1_1traffic__manager_1_1TrafficManagerBase.html#a2181f9357eb2e2a3a29ba693627267f8">carla::traffic_manager::TrafficManagerBase</a>.</p>
 
-<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00180">180</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00184">184</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
 
-<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00185">carla::traffic_manager::Parameters::SetPercentageIgnoreWalkers()</a>.</p>
+<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00211">carla::traffic_manager::Parameters::SetPercentageIgnoreWalkers()</a>.</p>
 
-<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal_aca64bbe8a40f08dcaa3b3afd2b9fe968_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1040,15 +1140,15 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../dc/d92/classcarla_1_1traffic__manager_1_1TrafficManagerBase.html#ae51db5a72bc6412a224bc90faa9712a9">carla::traffic_manager::TrafficManagerBase</a>.</p>
 
-<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00188">188</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00192">192</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
 
-<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00164">carla::traffic_manager::Parameters::SetPercentageRunningLight()</a>.</p>
+<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00190">carla::traffic_manager::Parameters::SetPercentageRunningLight()</a>.</p>
 
-<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal_a7666a083f62d49f3cba16b104b290026_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1092,15 +1192,15 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../dc/d92/classcarla_1_1traffic__manager_1_1TrafficManagerBase.html#a233159121daff8735aab83288c28d467">carla::traffic_manager::TrafficManagerBase</a>.</p>
 
-<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00192">192</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00196">196</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
 
-<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00171">carla::traffic_manager::Parameters::SetPercentageRunningSign()</a>.</p>
+<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00197">carla::traffic_manager::Parameters::SetPercentageRunningSign()</a>.</p>
 
-<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal_a79042b07116bf64fb1369326a48ac072_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1149,11 +1249,11 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00025">carla::traffic_manager::Parameters::SetPercentageSpeedDifference()</a>.</p>
 
-<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal_a9fa947e3a07b6066e8fbeb0d2ddc81f3_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1187,15 +1287,15 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../dc/d92/classcarla_1_1traffic__manager_1_1TrafficManagerBase.html#a750c963a93172f125a7e103b8240fd00">carla::traffic_manager::TrafficManagerBase</a>.</p>
 
-<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00255">255</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00263">263</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
 
-<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00094">carla::traffic_manager::Parameters::SetSynchronousMode()</a>.</p>
+<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00100">carla::traffic_manager::Parameters::SetSynchronousMode()</a>.</p>
 
-<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal_af626f21c43ce83169f44af05697df005_cgraph.svg" width="482" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1229,15 +1329,15 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../dc/d92/classcarla_1_1traffic__manager_1_1TrafficManagerBase.html#a7f201e70ddf58a872ebd1b892f8f8972">carla::traffic_manager::TrafficManagerBase</a>.</p>
 
-<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00259">259</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00267">267</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
 
-<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00086">carla::traffic_manager::Parameters::SetSynchronousModeTimeOutInMiliSecond()</a>.</p>
+<p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">parameters</a>, and <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00092">carla::traffic_manager::Parameters::SetSynchronousModeTimeOutInMiliSecond()</a>.</p>
 
-<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal_aff11fc1d3ab880c22dd568834cd65790_cgraph.svg" width="531" height="82"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1276,21 +1376,21 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00138">Reset()</a>, and <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00016">TrafficManagerLocal()</a>.</p>
 
-<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal_a1ffbdb0bed64f385437d2820a90286d0_cgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal_a1ffbdb0bed64f385437d2820a90286d0_icgraph.svg" width="384" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1330,11 +1430,11 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00123">Release()</a>.</p>
 
-<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal_ad2b17f923adfa432e90f5d88cbce7d17_icgraph.svg" width="630" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1367,7 +1467,7 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="../../dc/d92/classcarla_1_1traffic__manager_1_1TrafficManagerBase.html#a398fdf8d332454879becdbdf8d19a13a">carla::traffic_manager::TrafficManagerBase</a>.</p>
 
-<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00263">263</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00271">271</a> of file <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html">TrafficManagerLocal.cpp</a>.</p>
 
 <p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00082">control_stage</a>.</p>
 
@@ -1403,11 +1503,11 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00061">registered_actors</a>, and <a class="el" href="../../dd/dfa/AtomicActorSet_8h_source.html#l00064">carla::traffic_manager::AtomicActorSet::Remove()</a>.</p>
 
-<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal_ae7455c9a77ddb136af81c78cf69ba646_cgraph.svg" width="412" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1488,7 +1588,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00082">82</a> of file <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html">TrafficManagerLocal.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00123">Release()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00043">Start()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00108">Stop()</a>, and <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00263">SynchronousTick()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00123">Release()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00043">Start()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00108">Stop()</a>, and <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00271">SynchronousTick()</a>.</p>
 
 </div>
 </div>
@@ -1540,7 +1640,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00067">67</a> of file <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html">TrafficManagerLocal.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00267">GetEpisodeProxy()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00138">Reset()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00205">ResetAllTrafficLights()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00043">Start()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00016">TrafficManagerLocal()</a>, and <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00038">~TrafficManagerLocal()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00275">GetEpisodeProxy()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00138">Reset()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00213">ResetAllTrafficLights()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00043">Start()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00016">TrafficManagerLocal()</a>, and <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00038">~TrafficManagerLocal()</a>.</p>
 
 </div>
 </div>
@@ -1786,7 +1886,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00088">88</a> of file <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html">TrafficManagerLocal.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00172">SetAutoLaneChange()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00164">SetCollisionDetection()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00176">SetDistanceToLeadingVehicle()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00168">SetForceLaneChange()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00160">SetGlobalPercentageSpeedDifference()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00184">SetPercentageIgnoreVehicles()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00180">SetPercentageIgnoreWalkers()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00188">SetPercentageRunningLight()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00192">SetPercentageRunningSign()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00156">SetPercentageSpeedDifference()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00255">SetSynchronousMode()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00259">SetSynchronousModeTimeOutInMiliSecond()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00043">Start()</a>, and <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00016">TrafficManagerLocal()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00172">SetAutoLaneChange()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00164">SetCollisionDetection()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00176">SetDistanceToLeadingVehicle()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00168">SetForceLaneChange()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00180">SetGlobalDistanceToLeadingVehicle()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00160">SetGlobalPercentageSpeedDifference()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00200">SetKeepRightPercentage()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00188">SetPercentageIgnoreVehicles()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00184">SetPercentageIgnoreWalkers()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00192">SetPercentageRunningLight()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00196">SetPercentageRunningSign()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00156">SetPercentageSpeedDifference()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00263">SetSynchronousMode()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00267">SetSynchronousModeTimeOutInMiliSecond()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00043">Start()</a>, and <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00016">TrafficManagerLocal()</a>.</p>
 
 </div>
 </div>
@@ -1860,7 +1960,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html#l00061">61</a> of file <a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html">TrafficManagerLocal.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00271">GetRegisteredVehiclesIDs()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00148">RegisterVehicles()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00043">Start()</a>, and <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00152">UnregisterVehicles()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00279">GetRegisteredVehiclesIDs()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00148">RegisterVehicles()</a>, <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00043">Start()</a>, and <a class="el" href="../../da/d53/TrafficManagerLocal_8cpp_source.html#l00152">UnregisterVehicles()</a>.</p>
 
 </div>
 </div>
