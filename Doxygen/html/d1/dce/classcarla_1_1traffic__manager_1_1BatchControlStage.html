@@ -147,9 +147,11 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a47e92b18b365552d262e7c14cf445c98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html">Parameters</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#a47e92b18b365552d262e7c14cf445c98">parameters</a></td></tr>
 <tr class="memdesc:a47e92b18b365552d262e7c14cf445c98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter object for changing synchronous behaviour.  <a href="#a47e92b18b365552d262e7c14cf445c98">More...</a><br /></td></tr>
 <tr class="separator:a47e92b18b365552d262e7c14cf445c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb25a31ec15de83c7c9af55aa275e0a1"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#acb25a31ec15de83c7c9af55aa275e0a1">run_step</a></td></tr>
+<tr class="memitem:acb25a31ec15de83c7c9af55aa275e0a1"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#acb25a31ec15de83c7c9af55aa275e0a1">run_step</a> {false}</td></tr>
 <tr class="memdesc:acb25a31ec15de83c7c9af55aa275e0a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Step runner flag.  <a href="#acb25a31ec15de83c7c9af55aa275e0a1">More...</a><br /></td></tr>
 <tr class="separator:acb25a31ec15de83c7c9af55aa275e0a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab27695fd3c87d0a2531630b2b69717ef"><td class="memItemLeft" align="right" valign="top">std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#ab27695fd3c87d0a2531630b2b69717ef">step_complete_notifier</a></td></tr>
+<tr class="separator:ab27695fd3c87d0a2531630b2b69717ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c7eaa4fdfe8e77cee1a385c357499aa"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#a0c7eaa4fdfe8e77cee1a385c357499aa">step_execution_mutex</a></td></tr>
 <tr class="memdesc:a0c7eaa4fdfe8e77cee1a385c357499aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex for progressing synchronous execution.  <a href="#a0c7eaa4fdfe8e77cee1a385c357499aa">More...</a><br /></td></tr>
 <tr class="separator:a0c7eaa4fdfe8e77cee1a385c357499aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -321,14 +323,14 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00063">63</a> of file <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html">BatchControlStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00044">commands</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00042">episode_proxy_bcs</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00088">carla::traffic_manager::Parameters::GetSynchronousMode()</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00096">carla::traffic_manager::Parameters::GetSynchronousModeTimeOutInMiliSecond()</a>, <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00040">messenger</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00048">parameters</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00050">run_step</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00052">step_execution_mutex</a>, and <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00054">step_execution_notifier</a>.</p>
+<p>References <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00044">commands</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00042">episode_proxy_bcs</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00085">carla::traffic_manager::Parameters::GetSynchronousMode()</a>, <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00040">messenger</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00048">parameters</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00050">run_step</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00055">step_complete_notifier</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00052">step_execution_mutex</a>, and <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00054">step_execution_notifier</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage_aa3bf2f1b6a2f5d8b6b4c5781e8c881cb_cgraph.svg" width="100%" height="464"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage_aa3bf2f1b6a2f5d8b6b4c5781e8c881cb_cgraph.svg" width="100%" height="405"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -348,9 +350,19 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00087">87</a> of file <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html">BatchControlStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00096">96</a> of file <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html">BatchControlStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00050">run_step</a>.</p>
+<p>References <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00085">carla::traffic_manager::Parameters::GetSynchronousMode()</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00048">parameters</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00050">run_step</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00055">step_complete_notifier</a>, <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00052">step_execution_mutex</a>, and <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00054">step_execution_notifier</a>.</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage_a41f480f2c21503de6312994e674673a9_cgraph.svg" width="524" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -507,7 +519,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00048">48</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00063">DataSender()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00063">DataSender()</a>, and <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00096">RunStep()</a>.</p>
 
 </div>
 </div>
@@ -519,7 +531,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::atomic&lt;bool&gt; carla::traffic_manager::BatchControlStage::run_step</td>
+          <td class="memname">std::atomic&lt;bool&gt; carla::traffic_manager::BatchControlStage::run_step {false}</td>
         </tr>
       </table>
   </td>
@@ -533,7 +545,31 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00050">50</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00063">DataSender()</a>, and <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00087">RunStep()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00063">DataSender()</a>, and <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00096">RunStep()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab27695fd3c87d0a2531630b2b69717ef"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::condition_variable carla::traffic_manager::BatchControlStage::step_complete_notifier</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00055">55</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00063">DataSender()</a>, and <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00096">RunStep()</a>.</p>
 
 </div>
 </div>
@@ -559,7 +595,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00052">52</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00063">DataSender()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00063">DataSender()</a>, and <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00096">RunStep()</a>.</p>
 
 </div>
 </div>
@@ -585,7 +621,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html#l00054">54</a> of file <a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">BatchControlStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00063">DataSender()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00063">DataSender()</a>, and <a class="el" href="../../d8/df3/BatchControlStage_8cpp_source.html#l00096">RunStep()</a>.</p>
 
 </div>
 </div>
