@@ -90,6 +90,8 @@ var searchData=
   ['atomicsharedptr_3c_20const_20carla_3a_3aclient_3a_3alaneinvasioncallback_3a_3abounds_20_3e',['AtomicSharedPtr&lt; const carla::client::LaneInvasionCallback::Bounds &gt;',['../d2/dcf/classcarla_1_1AtomicSharedPtr.html',1,'carla']]],
   ['atomicsharedptr_3c_20const_20listt_20_3e',['AtomicSharedPtr&lt; const ListT &gt;',['../d2/dcf/classcarla_1_1AtomicSharedPtr.html',1,'carla']]],
   ['atrafficlightbase',['ATrafficLightBase',['../d2/d23/classATrafficLightBase.html',1,'']]],
+  ['atrafficlightgroup',['ATrafficLightGroup',['../dd/d12/classATrafficLightGroup.html',1,'']]],
+  ['atrafficlightmanager',['ATrafficLightManager',['../df/da5/classATrafficLightManager.html',1,'']]],
   ['atrafficsignbase',['ATrafficSignBase',['../d3/df1/classATrafficSignBase.html',1,'']]],
   ['atriggerfactory',['ATriggerFactory',['../d0/df9/classATriggerFactory.html',1,'']]],
   ['auto_5fdeleter',['auto_deleter',['../d6/d78/structauto__deleter.html',1,'']]],

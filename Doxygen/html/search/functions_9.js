@@ -56,6 +56,7 @@ var searchData=
   ['isatend',['IsAtEnd',['../d8/da6/classcarla_1_1road_1_1element_1_1RoadInfoIterator.html#a3adf4a304398abaf0b798651e2d1ce1c',1,'carla::road::element::RoadInfoIterator']]],
   ['isattrafficlight',['IsAtTrafficLight',['../d9/dc6/classcarla_1_1client_1_1Vehicle.html#a4f8efa30ea7aeb0bfce0b6c764ca2db6',1,'carla::client::Vehicle']]],
   ['isautopilotenabled',['IsAutopilotEnabled',['../dd/dea/classAWheeledVehicleAIController.html#ac7fa578673f858519e6727778346a55e',1,'AWheeledVehicleAIController']]],
+  ['iscyclefinished',['IsCycleFinished',['../d3/d08/classUTrafficLightController.html#a3c0370244944f5bf6ff21652ae377e67',1,'UTrafficLightController']]],
   ['isdynamic',['IsDynamic',['../d3/dc1/classcarla_1_1client_1_1Landmark.html#a6a8d65a9abdda03b3d7b3e18ca1da49c',1,'carla::client::Landmark::IsDynamic()'],['../d5/d51/classcarla_1_1road_1_1element_1_1RoadInfoSignal.html#ab0742cec694b2de33558b6b459a57050',1,'carla::road::element::RoadInfoSignal::IsDynamic()']]],
   ['isempty',['IsEmpty',['../df/db5/classFActorRegistry.html#abcd609d14b0f4bdd7c9121e934afa3e8',1,'FActorRegistry']]],
   ['isenabled',['IsEnabled',['../dd/db9/classACarlaRecorder.html#a108ec0290436ace8c053d4ddf996eda8',1,'ACarlaRecorder::IsEnabled()'],['../dc/dc6/classCarlaReplayer.html#abac623a720ac5295c2b395aa3cc0d1f1',1,'CarlaReplayer::IsEnabled()']]],

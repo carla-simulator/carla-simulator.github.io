@@ -24,6 +24,7 @@ var searchData=
   ['lifetime',['LifeTime',['../dd/d3c/structFShapeVisitor.html#adf2032e085133654b3a973cf61e46acd',1,'FShapeVisitor']]],
   ['light_5fstate',['light_state',['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html#aa526c9d0cc5e3839cd04b8dd55de2a42',1,'carla::rpc::VehicleLightState']]],
   ['lightstate',['LightState',['../d5/d70/classACarlaWheeledVehicle.html#a093e89427411717aa47eabdacd4e6a28',1,'ACarlaWheeledVehicle']]],
+  ['lightstates',['LightStates',['../d3/d08/classUTrafficLightController.html#a4805252b7bf1e72402823d379535db79',1,'UTrafficLightController']]],
   ['line',['line',['../d1/d06/structcarla_1_1rpc_1_1DebugShape_1_1Arrow.html#a16ec3933cb82ba959a129f649b7abee9',1,'carla::rpc::DebugShape::Arrow']]],
   ['local_5fmap',['local_map',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#ae9e47f5a6ef7b7342653c73019dca56a',1,'carla::traffic_manager::LocalizationStage::local_map()'],['../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal.html#a8df9dce7f9d647db5bfecfa5f64ad696',1,'carla::traffic_manager::TrafficManagerLocal::local_map()']]],
   ['localization_5fcollision_5fmessenger',['localization_collision_messenger',['../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal.html#a0d44fab13872f32cd741ee88b084101a',1,'carla::traffic_manager::TrafficManagerLocal']]],

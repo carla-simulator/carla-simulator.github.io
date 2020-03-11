@@ -19,8 +19,8 @@ var searchData=
   ['imageserializer',['ImageSerializer',['../db/dba/classcarla_1_1sensor_1_1s11n_1_1ImageSerializer.html',1,'carla::sensor::s11n']]],
   ['imageserializer_2ecpp',['ImageSerializer.cpp',['../d2/d47/ImageSerializer_8cpp.html',1,'']]],
   ['imageserializer_2eh',['ImageSerializer.h',['../de/dbf/ImageSerializer_8h.html',1,'']]],
-  ['imagetmpl',['ImageTmpl',['../df/d55/classcarla_1_1sensor_1_1data_1_1ImageTmpl.html',1,'carla::sensor::data']]],
   ['imagetmpl',['ImageTmpl',['../df/d55/classcarla_1_1sensor_1_1data_1_1ImageTmpl.html#a4137f6066b44971b2f69c89ba1001d5f',1,'carla::sensor::data::ImageTmpl']]],
+  ['imagetmpl',['ImageTmpl',['../df/d55/classcarla_1_1sensor_1_1data_1_1ImageTmpl.html',1,'carla::sensor::data']]],
   ['imagetmpl_2eh',['ImageTmpl.h',['../d5/dca/ImageTmpl_8h.html',1,'']]],
   ['imageview',['ImageView',['../d3/dcd/classcarla_1_1image_1_1ImageView.html',1,'carla::image']]],
   ['imageview_2eh',['ImageView.h',['../db/dac/ImageView_8h.html',1,'']]],
@@ -167,6 +167,7 @@ var searchData=
   ['isatend',['IsAtEnd',['../d8/da6/classcarla_1_1road_1_1element_1_1RoadInfoIterator.html#a3adf4a304398abaf0b798651e2d1ce1c',1,'carla::road::element::RoadInfoIterator']]],
   ['isattrafficlight',['IsAtTrafficLight',['../d9/dc6/classcarla_1_1client_1_1Vehicle.html#a4f8efa30ea7aeb0bfce0b6c764ca2db6',1,'carla::client::Vehicle']]],
   ['isautopilotenabled',['IsAutopilotEnabled',['../dd/dea/classAWheeledVehicleAIController.html#ac7fa578673f858519e6727778346a55e',1,'AWheeledVehicleAIController']]],
+  ['iscyclefinished',['IsCycleFinished',['../d3/d08/classUTrafficLightController.html#a3c0370244944f5bf6ff21652ae377e67',1,'UTrafficLightController']]],
   ['isdynamic',['IsDynamic',['../d3/dc1/classcarla_1_1client_1_1Landmark.html#a6a8d65a9abdda03b3d7b3e18ca1da49c',1,'carla::client::Landmark::IsDynamic()'],['../d5/d51/classcarla_1_1road_1_1element_1_1RoadInfoSignal.html#ab0742cec694b2de33558b6b459a57050',1,'carla::road::element::RoadInfoSignal::IsDynamic()']]],
   ['isempty',['IsEmpty',['../df/db5/classFActorRegistry.html#abcd609d14b0f4bdd7c9121e934afa3e8',1,'FActorRegistry']]],
   ['isenabled',['IsEnabled',['../dd/db9/classACarlaRecorder.html#a108ec0290436ace8c053d4ddf996eda8',1,'ACarlaRecorder::IsEnabled()'],['../dc/dc6/classCarlaReplayer.html#abac623a720ac5295c2b395aa3cc0d1f1',1,'CarlaReplayer::IsEnabled()']]],
@@ -197,5 +198,6 @@ var searchData=
   ['itemsconsumedfromcurrent',['itemsConsumedFromCurrent',['../de/deb/structmoodycamel_1_1ConsumerToken.html#a325bbb4f3a69a4deefb9e0982fe369f8',1,'moodycamel::ConsumerToken']]],
   ['iterator',['iterator',['../d5/d90/classListView.html#a75ca0da433126178f3072397793266ac',1,'ListView::iterator()'],['../d0/d0a/classcarla_1_1Buffer.html#ad4ae2047d9eb00f18d78a15b02025f60',1,'carla::Buffer::iterator()'],['../d2/d97/classcarla_1_1ListView.html#a8456d87e7defae93d242e6ae5b3a0b46',1,'carla::ListView::iterator()'],['../d2/dcc/classcarla_1_1sensor_1_1data_1_1Array.html#a2b5e235eb5c47ac2b1876bed429a9389',1,'carla::sensor::data::Array::iterator()'],['../d5/d2a/classpugi_1_1xml__object__range.html#a024ce5292d3b9f2164c1230855fdb501',1,'pugi::xml_object_range::iterator()'],['../db/d65/classpugi_1_1xml__node.html#ae053ea39add5a64de584f7a81212e388',1,'pugi::xml_node::iterator()'],['../df/d06/classpugi_1_1xpath__node__set.html#aa3a2497c2ad7d557672fdc92954ba210',1,'pugi::xpath_node_set::iterator()']]],
   ['iterator_2eh',['Iterator.h',['../d7/ddd/Iterator_8h.html',1,'']]],
-  ['iterator_5fcategory',['iterator_category',['../da/d9a/classpugi_1_1xml__node__iterator.html#ac65c62a919aa8818f0f1204ef0ab24c1',1,'pugi::xml_node_iterator::iterator_category()'],['../de/d8a/classpugi_1_1xml__attribute__iterator.html#aad988273a3e4cdc5fa3eb879dbdc8d35',1,'pugi::xml_attribute_iterator::iterator_category()'],['../d3/de2/classpugi_1_1xml__named__node__iterator.html#ab7dad0df34f043a9458b2a6b309a227f',1,'pugi::xml_named_node_iterator::iterator_category()']]]
+  ['iterator_5fcategory',['iterator_category',['../da/d9a/classpugi_1_1xml__node__iterator.html#ac65c62a919aa8818f0f1204ef0ab24c1',1,'pugi::xml_node_iterator::iterator_category()'],['../de/d8a/classpugi_1_1xml__attribute__iterator.html#aad988273a3e4cdc5fa3eb879dbdc8d35',1,'pugi::xml_attribute_iterator::iterator_category()'],['../d3/de2/classpugi_1_1xml__named__node__iterator.html#ab7dad0df34f043a9458b2a6b309a227f',1,'pugi::xml_named_node_iterator::iterator_category()']]],
+  ['itrafficlightinterface',['ITrafficLightInterface',['../de/de1/classITrafficLightInterface.html',1,'']]]
 ];

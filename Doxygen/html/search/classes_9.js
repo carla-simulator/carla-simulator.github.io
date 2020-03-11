@@ -35,5 +35,6 @@ var searchData=
   ['is_5fspawnable_3c_20t_2c_20typename_20void_5ftype_3c_20typename_20t_3a_3anot_5fspawnable_20_3e_3a_3atype_20_3e',['is_spawnable&lt; T, typename void_type&lt; typename T::not_spawnable &gt;::type &gt;',['../d3/dbe/structFSensorDefinitionGatherer_1_1is__spawnable_3_01T_00_01typename_01void__type_3_01typename_062569ce9bdf24f5ca2602fb8d8ac72fc.html',1,'FSensorDefinitionGatherer']]],
   ['is_5ftrivially_5fdestructible',['is_trivially_destructible',['../d8/d2c/structmoodycamel_1_1details_1_1is__trivially__destructible.html',1,'moodycamel::details']]],
   ['is_5fwrite_5fsupported',['is_write_supported',['../df/d39/structcarla_1_1image_1_1io_1_1detail_1_1is__write__supported.html',1,'carla::image::io::detail']]],
-  ['item',['Item',['../dd/d21/structcarla_1_1client_1_1detail_1_1CallbackList_1_1Item.html',1,'carla::client::detail::CallbackList']]]
+  ['item',['Item',['../dd/d21/structcarla_1_1client_1_1detail_1_1CallbackList_1_1Item.html',1,'carla::client::detail::CallbackList']]],
+  ['itrafficlightinterface',['ITrafficLightInterface',['../de/de1/classITrafficLightInterface.html',1,'']]]
 ];
