@@ -57,6 +57,6 @@ var searchData=
   ['minimum_5flane_5fchange_5fdistance',['MINIMUM_LANE_CHANGE_DISTANCE',['../d9/d5c/namespacecarla_1_1traffic__manager_1_1LocalizationConstants.html#a6b6d47986679e7fd743596e9b204e745',1,'carla::traffic_manager::LocalizationConstants']]],
   ['model',['Model',['../d0/db7/structFVehicleParameters.html#a2c2b7d67eb95b4bd15ae0e273718eaa1',1,'FVehicleParameters']]],
   ['modification_5fmutex',['modification_mutex',['../d6/d8c/classcarla_1_1traffic__manager_1_1AtomicActorSet.html#a5d419c62ead3da42b59936767c25429d',1,'carla::traffic_manager::AtomicActorSet']]],
-  ['moi',['moi',['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#a33a1b09cca84e1620e7a81de4c9a99bb',1,'carla::rpc::VehiclePhysicsControl::moi()'],['../d1/dbe/structFVehiclePhysicsControl.html#a312bac8131292bacca700aa46ca96df0',1,'FVehiclePhysicsControl::MOI()']]],
+  ['moi',['MOI',['../d1/dbe/structFVehiclePhysicsControl.html#a312bac8131292bacca700aa46ca96df0',1,'FVehiclePhysicsControl::MOI()'],['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#a33a1b09cca84e1620e7a81de4c9a99bb',1,'carla::rpc::VehiclePhysicsControl::moi()']]],
   ['mrsscheck',['mRssCheck',['../d7/db6/classcarla_1_1client_1_1RssSensor.html#a27954d3d5e35937bf1088c1cb4f57986',1,'carla::client::RssSensor']]]
 ];
