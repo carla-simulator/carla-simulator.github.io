@@ -150,6 +150,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>GenerateSeed()
 : <a class="el" href="d2/d4b/classURandomEngine.html#aedda03333ff95145dd4798d545193538">URandomEngine</a>
 </li>
+<li>GenerateSignalsAndTrafficLights()
+: <a class="el" href="df/da5/classATrafficLightManager.html#ae473e1bb0e60e5c2db5684efc72a1e89">ATrafficLightManager</a>
+</li>
 <li>GenerateSpawnPoints()
 : <a class="el" href="d1/db0/classAOpenDriveGenerator.html#aee04fefe736484cf24f7df698cb8dfd3">AOpenDriveGenerator</a>
 </li>
@@ -157,8 +160,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="d0/d34/classcarla_1_1road_1_1Map.html#abdc82435b148045f46846e87095ca154">carla::road::Map</a>
 , <a class="el" href="d8/dfe/classUOpenDriveMap.html#af783a52ea44b3425d0a7e4a683a19b3f">UOpenDriveMap</a>
 </li>
-<li>GenerateTrafficLights()
-: <a class="el" href="df/da5/classATrafficLightManager.html#a438fb707dccdd33a1cf9ee4395fa572e">ATrafficLightManager</a>
+<li>GenerateTriggerBox()
+: <a class="el" href="df/da5/classATrafficLightManager.html#a53b3ceb17c3c9204924836331a440a0e">ATrafficLightManager</a>
+</li>
+<li>GenerateTriggerBoxesForTrafficLights()
+: <a class="el" href="df/da5/classATrafficLightManager.html#a5ad94ae5130a66011869bab507aafa52">ATrafficLightManager</a>
 </li>
 <li>GenerateWaypoints()
 : <a class="el" href="dd/d49/classcarla_1_1client_1_1Map.html#ad6167ecd55805b9d5d39064e2ad62d62">carla::client::Map</a>
@@ -1487,7 +1493,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="da/da9/classcarla_1_1road_1_1element_1_1RoadInfoMarkTypeLine.html#aac336a74b8346f2f64025338236ba22d">carla::road::element::RoadInfoMarkTypeLine</a>
 </li>
 <li>GetRoads()
-: <a class="el" href="da/d3b/classcarla_1_1road_1_1MapData.html#a55f640e9a3f5930e5d1d8fd4e07f1e9e">carla::road::MapData</a>
+: <a class="el" href="da/d3b/classcarla_1_1road_1_1MapData.html#a8f66b77f27fa86041d8b06d9eeb1844c">carla::road::MapData</a>
 </li>
 <li>GetRoadSegmentAt()
 : <a class="el" href="d0/d95/classMapGen_1_1GraphParser.html#ac65e1cb2bc13b15225d966d895881f47">MapGen::GraphParser</a>
@@ -1591,7 +1597,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="db/d1f/classcarla_1_1client_1_1World.html#ac063b9da8bbc18b397761e0a9446f46b">carla::client::World</a>
 </li>
 <li>GetSource()
-: <a class="el" href="d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#a596c5fe9abb207b64b886c513178aa54">MapGen::DoublyConnectedEdgeList</a>
+: <a class="el" href="d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#afe754dbc5ffdfb28fc20111f96d64970">MapGen::DoublyConnectedEdgeList</a>
 </li>
 <li>GetSpace()
 : <a class="el" href="da/da9/classcarla_1_1road_1_1element_1_1RoadInfoMarkTypeLine.html#aca99c2597d7352438fc4fc17bfcc4ef3">carla::road::element::RoadInfoMarkTypeLine</a>
@@ -1629,7 +1635,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="d3/d08/classUTrafficLightController.html#a99be1bc576e357f31ddaf7e8e7e57f22">UTrafficLightController</a>
 </li>
 <li>GetStaticMesh()
-: <a class="el" href="da/d1a/classACityMapMeshHolder.html#ac5db4ee9f869b579ffc0412cac90093f">ACityMapMeshHolder</a>
+: <a class="el" href="da/d1a/classACityMapMeshHolder.html#a78376ac2d229c2a73b52dc094e2513af">ACityMapMeshHolder</a>
 </li>
 <li>GetSteeringCurve()
 : <a class="el" href="da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#ac28020210b3a8a734e9929e35071b5d8">carla::rpc::VehiclePhysicsControl</a>
@@ -1694,7 +1700,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="d4/dea/structmoodycamel_1_1ConcurrentQueue_1_1ProducerBase.html#ac13982fbdeae51b7d02f83e1036e431b">moodycamel::ConcurrentQueue&lt; T, Traits &gt;::ProducerBase</a>
 </li>
 <li>GetTarget()
-: <a class="el" href="d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#ad942f32fb6e2b56140c178a4ea16baa1">MapGen::DoublyConnectedEdgeList</a>
+: <a class="el" href="d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#a6b63a568984ed2935427ca195d32a65a">MapGen::DoublyConnectedEdgeList</a>
 </li>
 <li>GetTargetGamma()
 : <a class="el" href="d4/d60/classASceneCaptureSensor.html#a6dcced45cc7e1756524f91792666dd82">ASceneCaptureSensor</a>
@@ -1745,8 +1751,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="df/da5/classATrafficLightManager.html#a59308e7afcb244ba2684de6d1154c68a">ATrafficLightManager</a>
 </li>
 <li>GetTrafficLight()
-: <a class="el" href="df/da5/classATrafficLightManager.html#a0fca44ce7ec7f8cce1184e50114e732f">ATrafficLightManager</a>
-, <a class="el" href="dd/dea/classAWheeledVehicleAIController.html#afeb5205918b3e5b04f5bee4548f6ae33">AWheeledVehicleAIController</a>
+: <a class="el" href="dd/dea/classAWheeledVehicleAIController.html#afeb5205918b3e5b04f5bee4548f6ae33">AWheeledVehicleAIController</a>
 , <a class="el" href="d9/dc6/classcarla_1_1client_1_1Vehicle.html#a89c68173dc09cae6f492d894c17c1df1">carla::client::Vehicle</a>
 </li>
 <li>GetTrafficLights()
@@ -1760,6 +1765,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>GetTrafficManagerRunning()
 : <a class="el" href="dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a50d0698b37aa482f5b35b52b18832b4a">carla::client::detail::Client</a>
 , <a class="el" href="df/df3/classcarla_1_1client_1_1detail_1_1Simulator.html#aa83a1a754ee1548cd1c60ae459a35c37">carla::client::detail::Simulator</a>
+</li>
+<li>GetTrafficSign()
+: <a class="el" href="df/da5/classATrafficLightManager.html#a8392b61709f7baf8f490c955dde7c6fa">ATrafficLightManager</a>
 </li>
 <li>GetTrafficSignState()
 : <a class="el" href="d3/df1/classATrafficSignBase.html#a0758a5a2304dd47b10287b9d4b02604b">ATrafficSignBase</a>
@@ -1902,7 +1910,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>GetWaypoint()
 : <a class="el" href="d3/dc1/classcarla_1_1client_1_1Landmark.html#aa05dc8d6dc20bf098a461392402b2283">carla::client::Landmark</a>
 , <a class="el" href="dd/d49/classcarla_1_1client_1_1Map.html#a09398f35d22fe98cd49211a3c70c99f2">carla::client::Map</a>
-, <a class="el" href="d0/d34/classcarla_1_1road_1_1Map.html#a4c46dfe0b124dbca68ef6b2ea184a077">carla::road::Map</a>
+, <a class="el" href="d0/d34/classcarla_1_1road_1_1Map.html#a0cf8228efb07f292210daffc7da2e6ed">carla::road::Map</a>
 , <a class="el" href="da/d07/classcarla_1_1traffic__manager_1_1InMemoryMap.html#aa7e18325d1ed14232b1b744f755a5e5a">carla::traffic_manager::InMemoryMap</a>
 , <a class="el" href="dc/d04/classcarla_1_1traffic__manager_1_1SimpleWaypoint.html#acee9b3c6774945faba5fbe18dc03ae76">carla::traffic_manager::SimpleWaypoint</a>
 </li>

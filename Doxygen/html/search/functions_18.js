@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['yieldsign',['YieldSign',['../da/d1b/classcarla_1_1client_1_1LandmarkType.html#a0937a75e6cf49752fdee5c0757d5c6c0',1,'carla::client::LandmarkType']]]
+  ['yieldsign',['YieldSign',['../db/d47/classcarla_1_1road_1_1SignalType.html#a6cc1ce7a236875fb4f6dc1d4fcf37bc1',1,'carla::road::SignalType']]]
 ];
