@@ -103,6 +103,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3adb9b6a9631adabe8ca3fc68ffbe7fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f00a9d08c36617cc586ebd729e292d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a36e144174a4524310723dee7ddb8e286">ActorIdSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#a3f00a9d08c36617cc586ebd729e292d6">GetPassingVehicles</a> (uint64_t waypoint_id)</td></tr>
 <tr class="separator:a3f00a9d08c36617cc586ebd729e292d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac05b02e50f7d7a2acb4d61fded2b5c0"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aee461a5a490f4fccca9a4aef84fab3b5">SimpleWaypointPtr</a>, uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#aac05b02e50f7d7a2acb4d61fded2b5c0">GetTargetWaypoint</a> (const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a0a2a81f90a54846d67d46596536697e2">Buffer</a> &amp;waypoint_buffer, const float &amp;target_point_distance)</td></tr>
+<tr class="memdesc:aac05b02e50f7d7a2acb4d61fded2b5c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to return the wayPoints from the waypoint <a class="el" href="../../d0/d0a/classcarla_1_1Buffer.html" title="A piece of raw data. ">Buffer</a> by using target point distance.  <a href="#aac05b02e50f7d7a2acb4d61fded2b5c0">More...</a><br /></td></tr>
+<tr class="separator:aac05b02e50f7d7a2acb4d61fded2b5c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa605ab90a2903ac80fae61f3eb5c159"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#aaa605ab90a2903ac80fae61f3eb5c159">RemovePassingVehicle</a> (uint64_t waypoint_id, <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a0031b3f566c364872121f8a79f27f174">ActorId</a> actor_id)</td></tr>
 <tr class="separator:aaa605ab90a2903ac80fae61f3eb5c159"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad4b59981c7c83ef869f881e783963b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#aad4b59981c7c83ef869f881e783963b5">TrackTraffic</a> ()</td></tr>
@@ -177,7 +180,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00062">62</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00063">63</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
 
 </div>
 </div>
@@ -198,9 +201,9 @@ Private Attributes</h2></td></tr>
 
 <p>Method to delete actor data from tracking. </p>
 
-<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00166">166</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00167">167</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00763">carla::traffic_manager::LocalizationStage::CleanActor()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00320">carla::traffic_manager::LocalizationStage::DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00435">carla::traffic_manager::LocalizationStage::ScanUnregisteredVehicles()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00747">carla::traffic_manager::LocalizationStage::CleanActor()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00304">carla::traffic_manager::LocalizationStage::DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00419">carla::traffic_manager::LocalizationStage::ScanUnregisteredVehicles()</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -227,7 +230,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00193">193</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00194">194</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
 
 </div>
 </div>
@@ -245,7 +248,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00182">182</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00183">183</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
 
 </div>
 </div>
@@ -263,9 +266,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00149">149</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00150">150</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00073">carla::traffic_manager::LocalizationStage::Action()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00505">carla::traffic_manager::LocalizationStage::AssignLaneChange()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00072">carla::traffic_manager::LocalizationStage::Action()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00489">carla::traffic_manager::LocalizationStage::AssignLaneChange()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -293,9 +296,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00226">226</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00227">227</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00505">carla::traffic_manager::LocalizationStage::AssignLaneChange()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00489">carla::traffic_manager::LocalizationStage::AssignLaneChange()</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -303,6 +306,51 @@ Private Attributes</h2></td></tr>
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic_a3f00a9d08c36617cc586ebd729e292d6_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aac05b02e50f7d7a2acb4d61fded2b5c0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aee461a5a490f4fccca9a4aef84fab3b5">SimpleWaypointPtr</a>, uint64_t &gt; carla::traffic_manager::TrackTraffic::GetTargetWaypoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a0a2a81f90a54846d67d46596536697e2">Buffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>waypoint_buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float &amp;&#160;</td>
+          <td class="paramname"><em>target_point_distance</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Method to return the wayPoints from the waypoint <a class="el" href="../../d0/d0a/classcarla_1_1Buffer.html" title="A piece of raw data. ">Buffer</a> by using target point distance. </p>
+<p>Condition to determine forward or backward scanning of WayPoint <a class="el" href="../../d0/d0a/classcarla_1_1Buffer.html" title="A piece of raw data. ">Buffer</a>. </p>
+
+<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00237">237</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00014">carla::traffic_manager::LocalizationConstants::SAMPLING_RESOLUTION</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00072">carla::traffic_manager::LocalizationStage::Action()</a>.</p>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic_aac05b02e50f7d7a2acb4d61fded2b5c0_icgraph.svg" width="475" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -333,15 +381,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00211">211</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00212">212</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00763">carla::traffic_manager::LocalizationStage::CleanActor()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00426">carla::traffic_manager::LocalizationStage::PopWaypoint()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00747">carla::traffic_manager::LocalizationStage::CleanActor()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00410">carla::traffic_manager::LocalizationStage::PopWaypoint()</a>.</p>
 
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic_aaa605ab90a2903ac80fae61f3eb5c159_icgraph.svg" width="100%" height="399"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -373,17 +421,17 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00105">105</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00106">106</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00013">carla::traffic_manager::LocalizationConstants::BUFFER_STEP_THROUGH</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00073">carla::traffic_manager::LocalizationStage::Action()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00072">carla::traffic_manager::LocalizationStage::Action()</a>.</p>
 
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic_a4934fa9c7b0409e9c719125003671bfc_icgraph.svg" width="479" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -417,15 +465,15 @@ Private Attributes</h2></td></tr>
 
 <p>Methods to update, remove and retrieve vehicles passing through a waypoint. </p>
 
-<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00197">197</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00198">198</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00419">carla::traffic_manager::LocalizationStage::PushWaypoint()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00403">carla::traffic_manager::LocalizationStage::PushWaypoint()</a>.</p>
 
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic_a00e9170a04217225fce8d48a596f31a6_icgraph.svg" width="100%" height="374"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -457,15 +505,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00064">64</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00065">65</a> of file <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html">LocalizationUtils.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00435">carla::traffic_manager::LocalizationStage::ScanUnregisteredVehicles()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00419">carla::traffic_manager::LocalizationStage::ScanUnregisteredVehicles()</a>.</p>
 
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic_a98b495e4f5c3d6b7612303f609fff72c_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>

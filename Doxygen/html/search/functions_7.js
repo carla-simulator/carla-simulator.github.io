@@ -488,6 +488,7 @@ var searchData=
   ['gettarget',['GetTarget',['../d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#a6b63a568984ed2935427ca195d32a65a',1,'MapGen::DoublyConnectedEdgeList::GetTarget(HalfEdge &amp;halfEdge)'],['../d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#ad942f32fb6e2b56140c178a4ea16baa1',1,'MapGen::DoublyConnectedEdgeList::GetTarget(const HalfEdge &amp;halfEdge)']]],
   ['gettargetgamma',['GetTargetGamma',['../d4/d60/classASceneCaptureSensor.html#a6dcced45cc7e1756524f91792666dd82',1,'ASceneCaptureSensor']]],
   ['gettargetposition',['getTargetPosition',['../d2/de5/namespaceMapGen.html#a3b1fdf6f214687c73b1dcfde9d79d43f',1,'MapGen']]],
+  ['gettargetwaypoint',['GetTargetWaypoint',['../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#aac05b02e50f7d7a2acb4d61fded2b5c0',1,'carla::traffic_manager::TrackTraffic']]],
   ['gettext',['GetText',['../d3/dc1/classcarla_1_1client_1_1Landmark.html#a70569b9d8512a35688eae771cb95e975',1,'carla::client::Landmark::GetText()'],['../da/da8/classcarla_1_1road_1_1Signal.html#a450ab370253d4de1d9f40aa3e905d1e2',1,'carla::road::Signal::GetText()']]],
   ['gettilelocation',['GetTileLocation',['../da/d1a/classACityMapMeshHolder.html#aa5314faef69e81933166546085b7de8b',1,'ACityMapMeshHolder']]],
   ['gettimeisfrozen',['GetTimeIsFrozen',['../d2/d23/classATrafficLightBase.html#a5fb4e8b15d03d59c6051e5112b3b2293',1,'ATrafficLightBase']]],
