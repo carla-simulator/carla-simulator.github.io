@@ -208,7 +208,7 @@ var searchData=
   ['setleftwaypoint',['SetLeftWaypoint',['../dc/d04/classcarla_1_1traffic__manager_1_1SimpleWaypoint.html#abad458836d8c3001e14fb731098a09ab',1,'carla::traffic_manager::SimpleWaypoint']]],
   ['setlidar',['SetLidar',['../dd/da3/classUActorBlueprintFunctionLibrary.html#a0ac14016bd271f575f9eb78ea3dc8cd3',1,'UActorBlueprintFunctionLibrary']]],
   ['setlightstate',['SetLightState',['../d9/dc6/classcarla_1_1client_1_1Vehicle.html#adecb262b97138aa6ff0d882628a08aa5',1,'carla::client::Vehicle']]],
-  ['setlightstatetovehicle',['SetLightStateToVehicle',['../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a8f92caeb3a342459db463a3839b05fc3',1,'carla::client::detail::Client::SetLightStateToVehicle()'],['../df/df3/classcarla_1_1client_1_1detail_1_1Simulator.html#a88733f7e779e179999a3eaf769e4812f',1,'carla::client::detail::Simulator::SetLightStateToVehicle()']]],
+  ['setlightstatetovehicle',['SetLightStateToVehicle',['../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a87f890e0b8f08d3950bc827f91dff5e6',1,'carla::client::detail::Client::SetLightStateToVehicle()'],['../df/df3/classcarla_1_1client_1_1detail_1_1Simulator.html#a88733f7e779e179999a3eaf769e4812f',1,'carla::client::detail::Simulator::SetLightStateToVehicle()']]],
   ['setlightstovehicle',['SetLightsToVehicle',['../df/df3/classcarla_1_1client_1_1detail_1_1Simulator.html#a72ed046c4a9b8dd7e0754d788944abf1',1,'carla::client::detail::Simulator']]],
   ['setlinearcolor',['SetLinearColor',['../d6/de8/classFIniFile.html#a1cf51e71d535cf6216e948bbb941558d',1,'FIniFile']]],
   ['setlocation',['SetLocation',['../d6/da5/classcarla_1_1client_1_1Actor.html#a855810b7b15238a5aca6d778fdd0df86',1,'carla::client::Actor']]],
