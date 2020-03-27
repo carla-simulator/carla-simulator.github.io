@@ -84,11 +84,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>GenerateDefinitions()
 : <a class="el" href="d3/ddb/classACarlaActorFactoryBlueprint.html#a879779d7a9116a852f9b45a661da0c3e">ACarlaActorFactoryBlueprint</a>
 </li>
-<li>GenerateGeometry()
-: <a class="el" href="d0/d34/classcarla_1_1road_1_1Map.html#a1d761d2624c196cb86b3af66ab3844b3">carla::road::Map</a>
-</li>
 <li>GenerateGraph()
 : <a class="el" href="d1/ddb/classACityMapGenerator.html#a2b16ca4cb297f67893132bad83a2b4da">ACityMapGenerator</a>
+</li>
+<li>GenerateMesh()
+: <a class="el" href="d0/d34/classcarla_1_1road_1_1Map.html#a18f85fdfdf0a55a1af0b8af860d59ea7">carla::road::Map</a>
 </li>
 <li>GenerateOBJ()
 : <a class="el" href="d0/d02/classcarla_1_1geom_1_1Mesh.html#a2520264aeea3d18905a2153352cd6f5f">carla::geom::Mesh</a>
@@ -315,6 +315,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>GetAll()
 : <a class="el" href="dc/dcf/classcarla_1_1road_1_1RoadElementSet.html#a16ddc7f41df1016d02355a175dbea005">carla::road::RoadElementSet&lt; T &gt;</a>
+</li>
+<li>GetAllCrosswalkMesh()
+: <a class="el" href="d0/d34/classcarla_1_1road_1_1Map.html#ad85ba903ec985c9a6afdedbff473b5fb">carla::road::Map</a>
 </li>
 <li>GetAllCrosswalkZones()
 : <a class="el" href="dd/d49/classcarla_1_1client_1_1Map.html#a021d30759022c2a7d7bb19f6d00f2257">carla::client::Map</a>
@@ -907,6 +910,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>GetIndexes()
 : <a class="el" href="d0/d02/classcarla_1_1geom_1_1Mesh.html#af736845c596e02c3b3ab868584878e92">carla::geom::Mesh</a>
 </li>
+<li>GetIndexesNum()
+: <a class="el" href="d0/d02/classcarla_1_1geom_1_1Mesh.html#a63ff5e5d5e3185780c4b08527d663c9d">carla::geom::Mesh</a>
+</li>
 <li>GetInfo()
 : <a class="el" href="d4/d28/classcarla_1_1road_1_1InformationSet.html#a2d40f1273e58e566dbdfcc9336fdb43c">carla::road::InformationSet</a>
 , <a class="el" href="df/d85/classcarla_1_1road_1_1Lane.html#a8da36a6cb2419090aca0d7e39639fdb7">carla::road::Lane</a>
@@ -1188,10 +1194,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="d8/dfe/classUOpenDriveMap.html#a355e4c539b2c6955e2c3a6bcfec2d167">UOpenDriveMap</a>
 </li>
 <li>GetNextInFace()
-: <a class="el" href="d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#ae51c12470eeae66d51712610ea806399">MapGen::DoublyConnectedEdgeList</a>
+: <a class="el" href="d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#afd585f2b589a550496c99add5704e4c1">MapGen::DoublyConnectedEdgeList</a>
 </li>
 <li>GetNextInNode()
-: <a class="el" href="d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#ab4082dd9cdb65e6f180587361b51b127">MapGen::DoublyConnectedEdgeList</a>
+: <a class="el" href="d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#a469fe4952e0e5dfe53cf176cb83a681f">MapGen::DoublyConnectedEdgeList</a>
 </li>
 <li>GetNextLane()
 : <a class="el" href="dd/de6/classcarla_1_1road_1_1Road.html#a7e9150dc29a3ab8b9a529ffb11205980">carla::road::Road</a>
@@ -1595,7 +1601,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="d3/d08/classUTrafficLightController.html#a99be1bc576e357f31ddaf7e8e7e57f22">UTrafficLightController</a>
 </li>
 <li>GetStaticMesh()
-: <a class="el" href="da/d1a/classACityMapMeshHolder.html#a78376ac2d229c2a73b52dc094e2513af">ACityMapMeshHolder</a>
+: <a class="el" href="da/d1a/classACityMapMeshHolder.html#ac5db4ee9f869b579ffc0412cac90093f">ACityMapMeshHolder</a>
 </li>
 <li>GetSteeringCurve()
 : <a class="el" href="da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#ac28020210b3a8a734e9929e35071b5d8">carla::rpc::VehiclePhysicsControl</a>
@@ -1660,7 +1666,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="d4/dea/structmoodycamel_1_1ConcurrentQueue_1_1ProducerBase.html#ac13982fbdeae51b7d02f83e1036e431b">moodycamel::ConcurrentQueue&lt; T, Traits &gt;::ProducerBase</a>
 </li>
 <li>GetTarget()
-: <a class="el" href="d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#ad942f32fb6e2b56140c178a4ea16baa1">MapGen::DoublyConnectedEdgeList</a>
+: <a class="el" href="d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#a6b63a568984ed2935427ca195d32a65a">MapGen::DoublyConnectedEdgeList</a>
 </li>
 <li>GetTargetGamma()
 : <a class="el" href="d4/d60/classASceneCaptureSensor.html#a6dcced45cc7e1756524f91792666dd82">ASceneCaptureSensor</a>
@@ -1850,6 +1856,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>GetVertices()
 : <a class="el" href="d0/d02/classcarla_1_1geom_1_1Mesh.html#a25b445b2878bc11a9c6a3e0978dec725">carla::geom::Mesh</a>
+</li>
+<li>GetVerticesNum()
+: <a class="el" href="d0/d02/classcarla_1_1geom_1_1Mesh.html#a5d467b124f7c95198a1d07814dff59dc">carla::geom::Mesh</a>
 </li>
 <li>GetWalkerControl()
 : <a class="el" href="de/d2e/classAWalkerController.html#a66bd96d1bd4ce6687783d3da3fc8317f">AWalkerController</a>
