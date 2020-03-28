@@ -108,6 +108,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de5/structcarla_1_1traffic__manager_1_1ChangeLaneInfo.html">ChangeLaneInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbc/structcarla_1_1traffic__manager_1_1CollisionLock.html">CollisionLock</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure to hold data about collision locking with a lead vehicle.  <a href="../../d4/dbc/structcarla_1_1traffic__manager_1_1CollisionLock.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html">CollisionStage</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class is the thread executable for the collision detection stage and is responsible for checking possible collisions with other cars along the vehicle's trajectory.  <a href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -230,6 +233,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:aad27efad03e397d0d0172b1e981193ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19e5ab0b05024734b43ac619bdd17ed9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a19e5ab0b05024734b43ac619bdd17ed9">PlannerToControlMessenger</a> = <a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html">Messenger</a>&lt; std::shared_ptr&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aad27efad03e397d0d0172b1e981193ae">PlannerToControlFrame</a> &gt;&gt;</td></tr>
 <tr class="separator:a19e5ab0b05024734b43ac619bdd17ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add2c84777c0bae0819d24b7f205583ff"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#add2c84777c0bae0819d24b7f205583ff">Point2D</a> = bg::model::point&lt; double, 2, bg::cs::cartesian &gt;</td></tr>
+<tr class="separator:add2c84777c0bae0819d24b7f205583ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab01e0f733f34d71ff0580aa663b768df"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ab01e0f733f34d71ff0580aa663b768df">Polygon</a> = bg::model::polygon&lt; bg::model::d2::point_xy&lt; double &gt;&gt;</td></tr>
 <tr class="separator:ab01e0f733f34d71ff0580aa663b768df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed8120d9b5c8c6904e095d68b6c2ada6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aed8120d9b5c8c6904e095d68b6c2ada6">RawNodeList</a> = std::vector&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a5b9eab09b2fe25556855f77e34156251">WaypointPtr</a> &gt;</td></tr>
@@ -292,7 +297,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00045">45</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00046">46</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
 </div>
 </div>
@@ -367,7 +372,7 @@ Variables</h2></td></tr>
 
 <p>Alias used for the list of buffers in the localization stage. </p>
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00030">30</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00031">31</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
 
 </div>
 </div>
@@ -381,7 +386,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00088">88</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00091">91</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
 
 </div>
 </div>
@@ -395,7 +400,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00097">97</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00100">100</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
 
 </div>
 </div>
@@ -437,7 +442,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00086">86</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00089">89</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
 
 </div>
 </div>
@@ -451,7 +456,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00095">95</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00098">98</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
 
 </div>
 </div>
@@ -468,7 +473,7 @@ Variables</h2></td></tr>
 <p>Data frame types. </p>
 <p>Array types of data flowing between stages. </p>
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00084">84</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00087">87</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
 
 </div>
 </div>
@@ -484,7 +489,7 @@ Variables</h2></td></tr>
 
 <p><a class="el" href="../../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html">Messenger</a> types. </p>
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00093">93</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00096">96</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
 
 </div>
 </div>
@@ -498,7 +503,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00087">87</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00090">90</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
 
 </div>
 </div>
@@ -512,7 +517,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00096">96</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00099">99</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
 
 </div>
 </div>
@@ -526,7 +531,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00047">47</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00049">49</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
 </div>
 </div>
@@ -554,7 +559,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00085">85</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00088">88</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
 
 </div>
 </div>
@@ -568,7 +573,21 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00094">94</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00097">97</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="add2c84777c0bae0819d24b7f205583ff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#add2c84777c0bae0819d24b7f205583ff">carla::traffic_manager::Point2D</a> = typedef bg::model::point&lt;double, 2, bg::cs::cartesian&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00047">47</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
 </div>
 </div>
@@ -582,7 +601,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00046">46</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00048">48</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
 </div>
 </div>
@@ -652,7 +671,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00048">48</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00050">50</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
 </div>
 </div>
@@ -708,7 +727,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00049">49</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00051">51</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
 
 </div>
 </div>
@@ -750,7 +769,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00089">89</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00092">92</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
 
 </div>
 </div>
@@ -764,7 +783,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00098">98</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00101">101</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
 
 </div>
 </div>
@@ -861,7 +880,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00049">carla::geom::Vector3D::Length()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00053">carla::geom::Vector3D::MakeUnitVector()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00072">carla::traffic_manager::LocalizationStage::Action()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00074">carla::traffic_manager::LocalizationStage::Action()</a>.</p>
 
 <p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -927,7 +946,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../db/d8a/Math_8h_source.html#l00058">carla::geom::Math::Dot()</a>, <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00041">carla::geom::BoundingBox::extent</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00060">carla::client::detail::ActorState::GetBoundingBox()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00049">carla::geom::Vector3D::Length()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00053">carla::geom::Vector3D::MakeUnitVector()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00072">carla::traffic_manager::LocalizationStage::Action()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00074">carla::traffic_manager::LocalizationStage::Action()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>

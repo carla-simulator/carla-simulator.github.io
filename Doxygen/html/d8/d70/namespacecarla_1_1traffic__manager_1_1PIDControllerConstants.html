@@ -85,6 +85,10 @@ Variables</h2></td></tr>
 <tr class="separator:a575e9fc75e1c8cfe163c77526c571bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a102e0313adbf4240c8daf6862973f0d1"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d70/namespacecarla_1_1traffic__manager_1_1PIDControllerConstants.html#a102e0313adbf4240c8daf6862973f0d1">MAX_THROTTLE</a> = 0.7f</td></tr>
 <tr class="separator:a102e0313adbf4240c8daf6862973f0d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c5c22825f53ce1b25a436567d44b5fc"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d70/namespacecarla_1_1traffic__manager_1_1PIDControllerConstants.html#a7c5c22825f53ce1b25a436567d44b5fc">VELOCITY_INTEGRAL_MAX</a> = 5.0f</td></tr>
+<tr class="separator:a7c5c22825f53ce1b25a436567d44b5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa326e9c6b47f1962e1c149c8a14df25a"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d70/namespacecarla_1_1traffic__manager_1_1PIDControllerConstants.html#aa326e9c6b47f1962e1c149c8a14df25a">VELOCITY_INTEGRAL_MIN</a> = -5.0f</td></tr>
+<tr class="separator:aa326e9c6b47f1962e1c149c8a14df25a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
 <a class="anchor" id="a6528dc12f02386921737f39aab72a164"></a>
@@ -97,9 +101,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00020">20</a> of file <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html">PIDController.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html">PIDController.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00054">carla::traffic_manager::PIDController::RunStep()</a>, and <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00029">carla::traffic_manager::PIDController::StateUpdate()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00062">carla::traffic_manager::PIDController::RunStep()</a>, and <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00032">carla::traffic_manager::PIDController::StateUpdate()</a>.</p>
 
 </div>
 </div>
@@ -113,9 +117,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00017">17</a> of file <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html">PIDController.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00019">19</a> of file <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html">PIDController.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00054">carla::traffic_manager::PIDController::RunStep()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00062">carla::traffic_manager::PIDController::RunStep()</a>.</p>
 
 </div>
 </div>
@@ -129,9 +133,41 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00016">16</a> of file <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html">PIDController.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00018">18</a> of file <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html">PIDController.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00054">carla::traffic_manager::PIDController::RunStep()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00062">carla::traffic_manager::PIDController::RunStep()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7c5c22825f53ce1b25a436567d44b5fc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float carla::traffic_manager::PIDControllerConstants::VELOCITY_INTEGRAL_MAX = 5.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00020">20</a> of file <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html">PIDController.cpp</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00032">carla::traffic_manager::PIDController::StateUpdate()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa326e9c6b47f1962e1c149c8a14df25a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float carla::traffic_manager::PIDControllerConstants::VELOCITY_INTEGRAL_MIN = -5.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00021">21</a> of file <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html">PIDController.cpp</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00032">carla::traffic_manager::PIDController::StateUpdate()</a>.</p>
 
 </div>
 </div>

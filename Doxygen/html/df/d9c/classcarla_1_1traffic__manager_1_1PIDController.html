@@ -112,7 +112,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00026">26</a> of file <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html">PIDController.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html">PIDController.cpp</a>.</p>
 
 </div>
 </div>
@@ -155,11 +155,11 @@ Public Member Functions</h2></td></tr>
 
 <p>This method calculates the actuation signals based on the resent state change of the vehicle to minimize PID error. </p>
 
-<p>Definition at line <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00054">54</a> of file <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html">PIDController.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00062">62</a> of file <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html">PIDController.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dc/d75/PIDController_8h_source.html#l00028">carla::traffic_manager::StateEntry::deviation</a>, <a class="el" href="../../dc/d75/PIDController_8h_source.html#l00032">carla::traffic_manager::StateEntry::deviation_integral</a>, <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00020">carla::traffic_manager::PIDControllerConstants::dt</a>, <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00017">carla::traffic_manager::PIDControllerConstants::MAX_BRAKE</a>, <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00016">carla::traffic_manager::PIDControllerConstants::MAX_THROTTLE</a>, <a class="el" href="../../dc/d75/PIDController_8h_source.html#l00030">carla::traffic_manager::StateEntry::velocity</a>, and <a class="el" href="../../dc/d75/PIDController_8h_source.html#l00034">carla::traffic_manager::StateEntry::velocity_integral</a>.</p>
+<p>References <a class="el" href="../../dc/d75/PIDController_8h_source.html#l00028">carla::traffic_manager::StateEntry::deviation</a>, <a class="el" href="../../dc/d75/PIDController_8h_source.html#l00032">carla::traffic_manager::StateEntry::deviation_integral</a>, <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00023">carla::traffic_manager::PIDControllerConstants::dt</a>, <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00019">carla::traffic_manager::PIDControllerConstants::MAX_BRAKE</a>, <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00018">carla::traffic_manager::PIDControllerConstants::MAX_THROTTLE</a>, <a class="el" href="../../dc/d75/PIDController_8h_source.html#l00030">carla::traffic_manager::StateEntry::velocity</a>, and <a class="el" href="../../dc/d75/PIDController_8h_source.html#l00034">carla::traffic_manager::StateEntry::velocity_integral</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/d96/MotionPlannerStage_8cpp_source.html#l00053">carla::traffic_manager::MotionPlannerStage::Action()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/d96/MotionPlannerStage_8cpp_source.html#l00058">carla::traffic_manager::MotionPlannerStage::Action()</a>.</p>
 
 <p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -223,11 +223,11 @@ Public Member Functions</h2></td></tr>
 
 <p>This method calculates the present state of the vehicle including the accumulated integral component of the PID system. </p>
 
-<p>Definition at line <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html">PIDController.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00032">32</a> of file <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html">PIDController.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dc/d75/PIDController_8h_source.html#l00032">carla::traffic_manager::StateEntry::deviation_integral</a>, <a class="el" href="../../dc/d75/PIDController_8h_source.html#l00033">carla::traffic_manager::StateEntry::distance_integral</a>, <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00020">carla::traffic_manager::PIDControllerConstants::dt</a>, <a class="el" href="../../dc/d75/PIDController_8h_source.html#l00030">carla::traffic_manager::StateEntry::velocity</a>, and <a class="el" href="../../dc/d75/PIDController_8h_source.html#l00034">carla::traffic_manager::StateEntry::velocity_integral</a>.</p>
+<p>References <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00011">CLAMP</a>, <a class="el" href="../../dc/d75/PIDController_8h_source.html#l00032">carla::traffic_manager::StateEntry::deviation_integral</a>, <a class="el" href="../../dc/d75/PIDController_8h_source.html#l00033">carla::traffic_manager::StateEntry::distance_integral</a>, <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00023">carla::traffic_manager::PIDControllerConstants::dt</a>, <a class="el" href="../../dc/d75/PIDController_8h_source.html#l00030">carla::traffic_manager::StateEntry::velocity</a>, <a class="el" href="../../dc/d75/PIDController_8h_source.html#l00034">carla::traffic_manager::StateEntry::velocity_integral</a>, <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00020">carla::traffic_manager::PIDControllerConstants::VELOCITY_INTEGRAL_MAX</a>, and <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00021">carla::traffic_manager::PIDControllerConstants::VELOCITY_INTEGRAL_MIN</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/d96/MotionPlannerStage_8cpp_source.html#l00053">carla::traffic_manager::MotionPlannerStage::Action()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/d96/MotionPlannerStage_8cpp_source.html#l00058">carla::traffic_manager::MotionPlannerStage::Action()</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>

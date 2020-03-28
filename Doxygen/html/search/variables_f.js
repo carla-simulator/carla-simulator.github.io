@@ -15,5 +15,6 @@ var searchData=
   ['origin',['Origin',['../d5/d4d/structFBoundingBox.html#a8d79e3d9fb8cf83b403eb1ff441c3455',1,'FBoundingBox']]],
   ['other_5factor',['other_actor',['../df/d56/structcarla_1_1sensor_1_1s11n_1_1CollisionEventSerializer_1_1Data.html#a448b18729bc1e03d0414849af16bae31',1,'carla::sensor::s11n::CollisionEventSerializer::Data::other_actor()'],['../d6/dea/structcarla_1_1sensor_1_1s11n_1_1ObstacleDetectionEventSerializer_1_1Data.html#a6f4ac2f5c5b8deba48c5fa86ee2c5e8b',1,'carla::sensor::s11n::ObstacleDetectionEventSerializer::Data::other_actor()']]],
   ['other_5fvehicle_5fto_5freference_5fgeodesic',['other_vehicle_to_reference_geodesic',['../d1/d51/structcarla_1_1traffic__manager_1_1GeometryComparisonCache.html#a6665127e11cfac9f97876a17199729f9',1,'carla::traffic_manager::GeometryComparisonCache']]],
-  ['overlapping_5factors',['overlapping_actors',['../df/d75/structcarla_1_1traffic__manager_1_1LocalizationToCollisionData.html#a41063eac7b6db156e67199fced792b62',1,'carla::traffic_manager::LocalizationToCollisionData']]]
+  ['other_5fvehicle_5fvelocity',['other_vehicle_velocity',['../d8/d23/structcarla_1_1traffic__manager_1_1CollisionToPlannerData.html#ad435636d7ef8b7ece755dd9e8159c3c0',1,'carla::traffic_manager::CollisionToPlannerData']]],
+  ['overlapping_5factors',['overlapping_actors',['../df/d75/structcarla_1_1traffic__manager_1_1LocalizationToCollisionData.html#a5de93db061434639def054cb267eb527',1,'carla::traffic_manager::LocalizationToCollisionData']]]
 ];

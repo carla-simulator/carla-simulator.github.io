@@ -20,6 +20,7 @@ var searchData=
   ['infinite_5fdistance',['INFINITE_DISTANCE',['../db/d99/namespacecarla_1_1traffic__manager_1_1MapConstants.html#a2be21e0b33a0f322be93d5df3e15e4f6',1,'carla::traffic_manager::MapConstants']]],
   ['info',['Info',['../da/db0/classFActorView.html#ae2aa6f4e35cd37592069d9be90bdc3de',1,'FActorView::Info()'],['../dd/db9/classACarlaRecorder.html#a98dc7735b9529e1505f6c3f842eb138c',1,'ACarlaRecorder::Info()']]],
   ['initial_5fimplicit_5fproducer_5fhash_5fsize',['INITIAL_IMPLICIT_PRODUCER_HASH_SIZE',['../d3/d55/structmoodycamel_1_1ConcurrentQueueDefaultTraits.html#a06cfdb838c9d3fefae40690c3c5f9c4a',1,'moodycamel::ConcurrentQueueDefaultTraits::INITIAL_IMPLICIT_PRODUCER_HASH_SIZE()'],['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a52f4615c06da9bca3be093123c7cc160',1,'moodycamel::ConcurrentQueue::INITIAL_IMPLICIT_PRODUCER_HASH_SIZE()']]],
+  ['initial_5flock_5fdistance',['initial_lock_distance',['../d4/dbc/structcarla_1_1traffic__manager_1_1CollisionLock.html#ae7cc3a26ff5c9045e7c3f03d708ab6bc',1,'carla::traffic_manager::CollisionLock']]],
   ['initialblockpool',['initialBlockPool',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a90f66db25719961fa59546e8c1081c11',1,'moodycamel::ConcurrentQueue']]],
   ['initialblockpoolindex',['initialBlockPoolIndex',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#aa499de692b70d71ae73479eda8a0ed3f',1,'moodycamel::ConcurrentQueue']]],
   ['initialblockpoolsize',['initialBlockPoolSize',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a25397df70b1ff07b8218cd09fcc09f28',1,'moodycamel::ConcurrentQueue']]],

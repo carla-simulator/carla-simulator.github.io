@@ -86,6 +86,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <code>#include &lt;unordered_map&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &quot;boost/geometry.hpp&quot;</code><br />
+<code>#include &quot;boost/geometry/geometries/geometries.hpp&quot;</code><br />
 <code>#include &quot;boost/geometry/geometries/point_xy.hpp&quot;</code><br />
 <code>#include &quot;boost/geometry/geometries/polygon.hpp&quot;</code><br />
 <code>#include &quot;boost/pointer_cast.hpp&quot;</code><br />
@@ -123,6 +124,9 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbc/structcarla_1_1traffic__manager_1_1CollisionLock.html">carla::traffic_manager::CollisionLock</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure to hold data about collision locking with a lead vehicle.  <a href="../../d4/dbc/structcarla_1_1traffic__manager_1_1CollisionLock.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html">carla::traffic_manager::CollisionStage</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class is the thread executable for the collision detection stage and is responsible for checking possible collisions with other cars along the vehicle's trajectory.  <a href="../../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,6 +147,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a20b30ae4f7fe9ac292978ff8b21226ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c1040352e115609075d5aeb046b1b75"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a2c1040352e115609075d5aeb046b1b75">carla::traffic_manager::LocationList</a> = std::vector&lt; <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &gt;</td></tr>
 <tr class="separator:a2c1040352e115609075d5aeb046b1b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add2c84777c0bae0819d24b7f205583ff"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#add2c84777c0bae0819d24b7f205583ff">carla::traffic_manager::Point2D</a> = bg::model::point&lt; double, 2, bg::cs::cartesian &gt;</td></tr>
+<tr class="separator:add2c84777c0bae0819d24b7f205583ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab01e0f733f34d71ff0580aa663b768df"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ab01e0f733f34d71ff0580aa663b768df">carla::traffic_manager::Polygon</a> = bg::model::polygon&lt; bg::model::d2::point_xy&lt; double &gt;&gt;</td></tr>
 <tr class="separator:ab01e0f733f34d71ff0580aa663b768df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee461a5a490f4fccca9a4aef84fab3b5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aee461a5a490f4fccca9a4aef84fab3b5">carla::traffic_manager::SimpleWaypointPtr</a> = std::shared_ptr&lt; SimpleWaypoint &gt;</td></tr>

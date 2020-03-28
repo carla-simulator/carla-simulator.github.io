@@ -72,6 +72,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">PIDController.cpp File Reference</div>  </div>
@@ -99,6 +100,11 @@ Namespaces</h2></td></tr>
 <tr class="memitem:d8/d70/namespacecarla_1_1traffic__manager_1_1PIDControllerConstants"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d70/namespacecarla_1_1traffic__manager_1_1PIDControllerConstants.html">carla::traffic_manager::PIDControllerConstants</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a559e14fe69303ad96f193ebf132b33ab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc8/PIDController_8cpp.html#a559e14fe69303ad96f193ebf132b33ab">CLAMP</a>(__v,  __hi,  __lo)&#160;&#160;&#160;(__v &gt; __hi? __hi : (__v &lt; __lo? __lo: __v))</td></tr>
+<tr class="separator:a559e14fe69303ad96f193ebf132b33ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a6528dc12f02386921737f39aab72a164"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d70/namespacecarla_1_1traffic__manager_1_1PIDControllerConstants.html#a6528dc12f02386921737f39aab72a164">carla::traffic_manager::PIDControllerConstants::dt</a> = 1/20.0f</td></tr>
@@ -107,7 +113,48 @@ Variables</h2></td></tr>
 <tr class="separator:a575e9fc75e1c8cfe163c77526c571bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a102e0313adbf4240c8daf6862973f0d1"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d70/namespacecarla_1_1traffic__manager_1_1PIDControllerConstants.html#a102e0313adbf4240c8daf6862973f0d1">carla::traffic_manager::PIDControllerConstants::MAX_THROTTLE</a> = 0.7f</td></tr>
 <tr class="separator:a102e0313adbf4240c8daf6862973f0d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c5c22825f53ce1b25a436567d44b5fc"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d70/namespacecarla_1_1traffic__manager_1_1PIDControllerConstants.html#a7c5c22825f53ce1b25a436567d44b5fc">carla::traffic_manager::PIDControllerConstants::VELOCITY_INTEGRAL_MAX</a> = 5.0f</td></tr>
+<tr class="separator:a7c5c22825f53ce1b25a436567d44b5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa326e9c6b47f1962e1c149c8a14df25a"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d70/namespacecarla_1_1traffic__manager_1_1PIDControllerConstants.html#aa326e9c6b47f1962e1c149c8a14df25a">carla::traffic_manager::PIDControllerConstants::VELOCITY_INTEGRAL_MIN</a> = -5.0f</td></tr>
+<tr class="separator:aa326e9c6b47f1962e1c149c8a14df25a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="a559e14fe69303ad96f193ebf132b33ab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CLAMP</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">__v, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">__hi, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">__lo&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;(__v &gt; __hi? __hi : (__v &lt; __lo? __lo: __v))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00011">11</a> of file <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html">PIDController.cpp</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00032">carla::traffic_manager::PIDController::StateUpdate()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

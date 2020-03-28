@@ -87,20 +87,40 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d9d/structcarla_1_1traffic__manager_1_1CollisionToPlannerData__coll__graph.svg" width="186" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d9d/structcarla_1_1traffic__manager_1_1CollisionToPlannerData__coll__graph.svg" width="471" height="260"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a78ca7318b7807ae9173ec49c3db763a9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d23/structcarla_1_1traffic__manager_1_1CollisionToPlannerData.html#a78ca7318b7807ae9173ec49c3db763a9">distance_to_other_vehicle</a></td></tr>
+<tr class="separator:a78ca7318b7807ae9173ec49c3db763a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a2f9daf2a6c563fc78c5f66c05e450b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d23/structcarla_1_1traffic__manager_1_1CollisionToPlannerData.html#a2a2f9daf2a6c563fc78c5f66c05e450b">hazard</a></td></tr>
 <tr class="separator:a2a2f9daf2a6c563fc78c5f66c05e450b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad435636d7ef8b7ece755dd9e8159c3c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dfe/classcarla_1_1geom_1_1Vector3D.html">cg::Vector3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d23/structcarla_1_1traffic__manager_1_1CollisionToPlannerData.html#ad435636d7ef8b7ece755dd9e8159c3c0">other_vehicle_velocity</a></td></tr>
+<tr class="separator:ad435636d7ef8b7ece755dd9e8159c3c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Type of data sent by the collision stage to the motion planner stage. </p>
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00064">64</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00065">65</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a78ca7318b7807ae9173ec49c3db763a9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float carla::traffic_manager::CollisionToPlannerData::distance_to_other_vehicle</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00067">67</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../dc/d96/MotionPlannerStage_8cpp_source.html#l00058">carla::traffic_manager::MotionPlannerStage::Action()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00058">carla::traffic_manager::CollisionStage::Action()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a2a2f9daf2a6c563fc78c5f66c05e450b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -111,9 +131,25 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00065">65</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00066">66</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00057">carla::traffic_manager::CollisionStage::Action()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/d96/MotionPlannerStage_8cpp_source.html#l00058">carla::traffic_manager::MotionPlannerStage::Action()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00058">carla::traffic_manager::CollisionStage::Action()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad435636d7ef8b7ece755dd9e8159c3c0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/dfe/classcarla_1_1geom_1_1Vector3D.html">cg::Vector3D</a> carla::traffic_manager::CollisionToPlannerData::other_vehicle_velocity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00068">68</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../dc/d96/MotionPlannerStage_8cpp_source.html#l00058">carla::traffic_manager::MotionPlannerStage::Action()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00058">carla::traffic_manager::CollisionStage::Action()</a>.</p>
 
 </div>
 </div>
