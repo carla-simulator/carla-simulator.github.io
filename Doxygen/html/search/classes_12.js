@@ -24,7 +24,7 @@ var searchData=
   ['trafficmanagerremote',['TrafficManagerRemote',['../d7/d5c/classcarla_1_1traffic__manager_1_1TrafficManagerRemote.html',1,'carla::traffic_manager']]],
   ['trafficmanagerserver',['TrafficManagerServer',['../db/d80/classcarla_1_1traffic__manager_1_1TrafficManagerServer.html',1,'carla::traffic_manager']]],
   ['trafficsign',['TrafficSign',['../dc/d5c/classcarla_1_1client_1_1TrafficSign.html',1,'carla::client']]],
+  ['trafficsigndata',['TrafficSignData',['../d1/d33/structcarla_1_1sensor_1_1data_1_1detail_1_1TrafficSignData.html',1,'carla::sensor::data::detail']]],
   ['transform',['Transform',['../de/da4/classcarla_1_1geom_1_1Transform.html',1,'carla::geom']]],
-  ['typedependentstate',['TypeDependentState',['../d0/d4a/unioncarla_1_1sensor_1_1data_1_1ActorDynamicState_1_1TypeDependentState.html',1,'carla::sensor::data::ActorDynamicState']]],
-  ['typedependentstate',['TypeDependentState',['../d0/d2e/unioncarla_1_1sensor_1_1data_1_1ComponentDynamicState_1_1TypeDependentState.html',1,'carla::sensor::data::ComponentDynamicState']]]
+  ['typedependentstate',['TypeDependentState',['../d0/d4a/unioncarla_1_1sensor_1_1data_1_1ActorDynamicState_1_1TypeDependentState.html',1,'carla::sensor::data::ActorDynamicState']]]
 ];

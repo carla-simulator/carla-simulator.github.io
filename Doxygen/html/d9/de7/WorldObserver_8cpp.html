@@ -82,9 +82,12 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <code>#include &quot;<a class="el" href="../../d8/dde/TrafficLightComponent_8h_source.html">Carla/Traffic/TrafficLightComponent.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dd/d67/TrafficLightController_8h_source.html">Carla/Traffic/TrafficLightController.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/da0/TrafficLightGroup_8h_source.html">Carla/Traffic/TrafficLightGroup.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/dc5/TrafficSignBase_8h_source.html">Carla/Traffic/TrafficSignBase.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/d8e/SignComponent_8h_source.html">Carla/Traffic/SignComponent.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../da/d52/WalkerController_8h_source.html">Carla/Walker/WalkerController.h</a>&quot;</code><br />
 <code>#include &quot;CoreGlobals.h&quot;</code><br />
 <code>#include &lt;<a class="el" href="../../d2/d02/disable-ue4-macros_8h_source.html">compiler/disable-ue4-macros.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d9/dba/String_8h_source.html">carla/rpc/String.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/d03/SensorRegistry_8h_source.html">carla/sensor/SensorRegistry.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html">carla/sensor/data/ActorDynamicState.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/da2/enable-ue4-macros_8h_source.html">compiler/enable-ue4-macros.h</a>&gt;</code><br />
@@ -103,8 +106,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 Functions</h2></td></tr>
 <tr class="memitem:ad9f5f0e8efde2e3c43fc7f586701d12e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/dfe/classcarla_1_1geom_1_1Vector3D.html">carla::geom::Vector3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de7/WorldObserver_8cpp.html#ad9f5f0e8efde2e3c43fc7f586701d12e">FWorldObserver_GetAcceleration</a> (const <a class="el" href="../../da/db0/classFActorView.html">FActorView</a> &amp;View, const FVector &amp;Velocity, const float DeltaSeconds)</td></tr>
 <tr class="separator:ad9f5f0e8efde2e3c43fc7f586701d12e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a147532d499a88741e5a53d68976d83b9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de7/WorldObserver_8cpp.html#a147532d499a88741e5a53d68976d83b9">FWorldObserver_GetActorComponentsState</a> (const <a class="el" href="../../da/db0/classFActorView.html">FActorView</a> &amp;View, const <a class="el" href="../../df/db5/classFActorRegistry.html">FActorRegistry</a> &amp;Registry, TArray&lt; <a class="el" href="../../d8/dc3/structcarla_1_1sensor_1_1data_1_1ComponentDynamicState.html">carla::sensor::data::ComponentDynamicState</a> &gt; &amp;Out)</td></tr>
-<tr class="separator:a147532d499a88741e5a53d68976d83b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04a2a121cbd41b048a0d47f5e06888d9"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de7/WorldObserver_8cpp.html#a04a2a121cbd41b048a0d47f5e06888d9">FWorldObserver_GetActorState</a> (const <a class="el" href="../../da/db0/classFActorView.html">FActorView</a> &amp;View, const <a class="el" href="../../df/db5/classFActorRegistry.html">FActorRegistry</a> &amp;Registry)</td></tr>
 <tr class="separator:a04a2a121cbd41b048a0d47f5e06888d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad66c97b3125865e6ad13ad814ca632b1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/dfe/classcarla_1_1geom_1_1Vector3D.html">carla::geom::Vector3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de7/WorldObserver_8cpp.html#ad66c97b3125865e6ad13ad814ca632b1">FWorldObserver_GetAngularVelocity</a> (const <a class="el" href="../../d1/da4/classAActor.html">AActor</a> &amp;Actor)</td></tr>
@@ -151,11 +152,11 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00165">165</a> of file <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html">WorldObserver.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00164">164</a> of file <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html">WorldObserver.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/ActorView_8h_source.html#l00058">FActorView::GetActorInfo()</a>, and <a class="el" href="../../d0/d4e/ActorInfo_8h_source.html#l00030">FActorInfo::Velocity</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/ActorView_8h_source.html#l00059">FActorView::GetActorInfo()</a>, and <a class="el" href="../../d0/d4e/ActorInfo_8h_source.html#l00030">FActorInfo::Velocity</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00176">FWorldObserver_Serialize()</a>.</p>
+<p>Referenced by <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00175">FWorldObserver_Serialize()</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -173,60 +174,6 @@ Functions</h2></td></tr>
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/de7/WorldObserver_8cpp_ad9f5f0e8efde2e3c43fc7f586701d12e_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a147532d499a88741e5a53d68976d83b9"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void FWorldObserver_GetActorComponentsState </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../da/db0/classFActorView.html">FActorView</a> &amp;&#160;</td>
-          <td class="paramname"><em>View</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../df/db5/classFActorRegistry.html">FActorRegistry</a> &amp;&#160;</td>
-          <td class="paramname"><em>Registry</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">TArray&lt; <a class="el" href="../../d8/dc3/structcarla_1_1sensor_1_1data_1_1ComponentDynamicState.html">carla::sensor::data::ComponentDynamicState</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>Out</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00114">114</a> of file <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html">WorldObserver.cpp</a>.</p>
-
-<p>References <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00100">carla::sensor::data::detail::TrafficLightData::elapsed_time</a>, <a class="el" href="../../d4/d0c/ActorView_8h_source.html#l00048">FActorView::GetActor()</a>, <a class="el" href="../../d4/d0c/ActorView_8h_source.html#l00043">FActorView::GetActorType()</a>, <a class="el" href="../../db/d9a/TrafficLightGroup_8cpp_source.html#l00045">ATrafficLightGroup::GetElapsedTime()</a>, <a class="el" href="../../d7/d63/TrafficLightController_8cpp_source.html#l00101">UTrafficLightController::GetGreenTime()</a>, <a class="el" href="../../d7/d63/TrafficLightController_8cpp_source.html#l00111">UTrafficLightController::GetRedTime()</a>, <a class="el" href="../../d7/d63/TrafficLightController_8cpp_source.html#l00106">UTrafficLightController::GetYellowTime()</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00097">carla::sensor::data::detail::TrafficLightData::green_time</a>, <a class="el" href="../../db/d9a/TrafficLightGroup_8cpp_source.html#l00025">ATrafficLightGroup::IsFrozen()</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00102">carla::sensor::data::detail::TrafficLightData::pole_index</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00099">carla::sensor::data::detail::TrafficLightData::red_time</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00096">carla::sensor::data::detail::TrafficLightData::state</a>, <a class="el" href="../../d8/dc3/structcarla_1_1sensor_1_1data_1_1ComponentDynamicState.html#a29b80c4a70baff2a6c6f6babae204dad">carla::sensor::data::ComponentDynamicState::state</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00101">carla::sensor::data::detail::TrafficLightData::time_is_frozen</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00147">carla::sensor::data::ComponentDynamicState::TypeDependentState::traffic_light_data</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00144">carla::sensor::data::ComponentDynamicState::transform</a>, and <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00098">carla::sensor::data::detail::TrafficLightData::yellow_time</a>.</p>
-
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/de7/WorldObserver_8cpp_a147532d499a88741e5a53d68976d83b9_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -265,27 +212,27 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html">WorldObserver.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00026">26</a> of file <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html">WorldObserver.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00060">carla::sensor::data::detail::VehicleData::control</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00100">carla::sensor::data::detail::TrafficLightData::elapsed_time</a>, <a class="el" href="../../da/de4/ActorRegistry_8h_source.html#l00067">FActorRegistry::Find()</a>, <a class="el" href="../../d4/d0c/ActorView_8h_source.html#l00048">FActorView::GetActor()</a>, <a class="el" href="../../d4/d0c/ActorView_8h_source.html#l00043">FActorView::GetActorType()</a>, <a class="el" href="../../db/d9a/TrafficLightGroup_8cpp_source.html#l00045">ATrafficLightGroup::GetElapsedTime()</a>, <a class="el" href="../../d7/d63/TrafficLightController_8cpp_source.html#l00101">UTrafficLightController::GetGreenTime()</a>, <a class="el" href="../../d7/d63/TrafficLightController_8cpp_source.html#l00111">UTrafficLightController::GetRedTime()</a>, <a class="el" href="../../d7/d63/TrafficLightController_8cpp_source.html#l00106">UTrafficLightController::GetYellowTime()</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00097">carla::sensor::data::detail::TrafficLightData::green_time</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00063">carla::sensor::data::detail::VehicleData::has_traffic_light</a>, <a class="el" href="../../db/d9a/TrafficLightGroup_8cpp_source.html#l00025">ATrafficLightGroup::IsFrozen()</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00102">carla::sensor::data::detail::TrafficLightData::pole_index</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00099">carla::sensor::data::detail::TrafficLightData::red_time</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00061">carla::sensor::data::detail::VehicleData::speed_limit</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00096">carla::sensor::data::detail::TrafficLightData::state</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00101">carla::sensor::data::detail::TrafficLightData::time_is_frozen</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00123">carla::sensor::data::ActorDynamicState::TypeDependentState::traffic_light_data</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00064">carla::sensor::data::detail::VehicleData::traffic_light_id</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00062">carla::sensor::data::detail::VehicleData::traffic_light_state</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00124">carla::sensor::data::ActorDynamicState::TypeDependentState::vehicle_data</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00125">carla::sensor::data::ActorDynamicState::TypeDependentState::walker_control</a>, and <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00098">carla::sensor::data::detail::TrafficLightData::yellow_time</a>.</p>
+<p>References <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00060">carla::sensor::data::detail::VehicleData::control</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00101">carla::sensor::data::detail::TrafficLightData::elapsed_time</a>, <a class="el" href="../../da/de4/ActorRegistry_8h_source.html#l00067">FActorRegistry::Find()</a>, <a class="el" href="../../d4/d0c/ActorView_8h_source.html#l00049">FActorView::GetActor()</a>, <a class="el" href="../../d4/d0c/ActorView_8h_source.html#l00044">FActorView::GetActorType()</a>, <a class="el" href="../../db/d9a/TrafficLightGroup_8cpp_source.html#l00045">ATrafficLightGroup::GetElapsedTime()</a>, <a class="el" href="../../d7/d63/TrafficLightController_8cpp_source.html#l00101">UTrafficLightController::GetGreenTime()</a>, <a class="el" href="../../d7/d63/TrafficLightController_8cpp_source.html#l00111">UTrafficLightController::GetRedTime()</a>, <a class="el" href="../../d7/d63/TrafficLightController_8cpp_source.html#l00106">UTrafficLightController::GetYellowTime()</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00098">carla::sensor::data::detail::TrafficLightData::green_time</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00063">carla::sensor::data::detail::VehicleData::has_traffic_light</a>, <a class="el" href="../../db/d9a/TrafficLightGroup_8cpp_source.html#l00025">ATrafficLightGroup::IsFrozen()</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00102">carla::sensor::data::detail::TrafficLightData::pole_index</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00100">carla::sensor::data::detail::TrafficLightData::red_time</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00097">carla::sensor::data::detail::TrafficLightData::sign_id</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00113">carla::sensor::data::detail::TrafficSignData::sign_id</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00061">carla::sensor::data::detail::VehicleData::speed_limit</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00104">carla::sensor::data::detail::TrafficLightData::state</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00103">carla::sensor::data::detail::TrafficLightData::time_is_frozen</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00134">carla::sensor::data::ActorDynamicState::TypeDependentState::traffic_light_data</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00064">carla::sensor::data::detail::VehicleData::traffic_light_id</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00062">carla::sensor::data::detail::VehicleData::traffic_light_state</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00135">carla::sensor::data::ActorDynamicState::TypeDependentState::traffic_sign_data</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00136">carla::sensor::data::ActorDynamicState::TypeDependentState::vehicle_data</a>, <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00137">carla::sensor::data::ActorDynamicState::TypeDependentState::walker_control</a>, and <a class="el" href="../../d6/d60/ActorDynamicState_8h_source.html#l00099">carla::sensor::data::detail::TrafficLightData::yellow_time</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00176">FWorldObserver_Serialize()</a>.</p>
+<p>Referenced by <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00175">FWorldObserver_Serialize()</a>.</p>
 
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/de7/WorldObserver_8cpp_a04a2a121cbd41b048a0d47f5e06888d9_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/de7/WorldObserver_8cpp_a04a2a121cbd41b048a0d47f5e06888d9_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -315,15 +262,15 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00155">155</a> of file <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html">WorldObserver.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00154">154</a> of file <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html">WorldObserver.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00176">FWorldObserver_Serialize()</a>.</p>
+<p>Referenced by <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00175">FWorldObserver_Serialize()</a>.</p>
 
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/de7/WorldObserver_8cpp_ad66c97b3125865e6ad13ad814ca632b1_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -369,27 +316,27 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00176">176</a> of file <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html">WorldObserver.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00175">175</a> of file <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html">WorldObserver.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00165">FWorldObserver_GetAcceleration()</a>, <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00023">FWorldObserver_GetActorState()</a>, <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00155">FWorldObserver_GetAngularVelocity()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00140">UCarlaEpisode::GetActorRegistry()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00086">UCarlaEpisode::GetId()</a>, and <a class="el" href="../../da/de4/ActorRegistry_8h_source.html#l00052">FActorRegistry::Num()</a>.</p>
+<p>References <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00164">FWorldObserver_GetAcceleration()</a>, <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00026">FWorldObserver_GetActorState()</a>, <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00154">FWorldObserver_GetAngularVelocity()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00140">UCarlaEpisode::GetActorRegistry()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00086">UCarlaEpisode::GetId()</a>, and <a class="el" href="../../da/de4/ActorRegistry_8h_source.html#l00052">FActorRegistry::Num()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00232">FWorldObserver::BroadcastTick()</a>.</p>
+<p>Referenced by <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00230">FWorldObserver::BroadcastTick()</a>.</p>
 
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/de7/WorldObserver_8cpp_a3c4fad73e40a0909e730c342c2aa594a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/de7/WorldObserver_8cpp_a3c4fad73e40a0909e730c342c2aa594a_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>

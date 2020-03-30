@@ -7,6 +7,7 @@ var searchData=
   ['trafficlightgreen',['TrafficLightGreen',['../d5/dc5/TrafficSignBase_8h.html#a4057cf972679f3cd597a1e5cc94ee53aa1f23f703841712e33c0f152dcfdad7f4',1,'TrafficSignBase.h']]],
   ['trafficlightred',['TrafficLightRed',['../d5/dc5/TrafficSignBase_8h.html#a4057cf972679f3cd597a1e5cc94ee53aa0b3b03afd07a660e5abd8589af58a4b5',1,'TrafficSignBase.h']]],
   ['trafficlightyellow',['TrafficLightYellow',['../d5/dc5/TrafficSignBase_8h.html#a4057cf972679f3cd597a1e5cc94ee53aa1ab15fa75c45a78f8e574f14fbfb28d4',1,'TrafficSignBase.h']]],
+  ['trafficsign',['TrafficSign',['../da/db0/classFActorView.html#a34c70567d6721709a3765addbae22dbdacf2604c5e6922e73ffa77da5dc026d9d',1,'FActorView']]],
   ['trafficsigns',['TrafficSigns',['../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0aaa1de8b64f579514b72bc89e8cece1ae',1,'Tagger.h']]],
   ['tram',['Tram',['../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5a8f95e20d7297046ebf984ba8d54fcb91',1,'carla::road::Lane']]],
   ['turn90deg',['Turn90Deg',['../d2/de5/namespaceMapGen.html#a3dab4b218910e62b79f0d98c7895c92aa340d0b83567e3a159bfcb03c7a3ae615',1,'MapGen']]],
