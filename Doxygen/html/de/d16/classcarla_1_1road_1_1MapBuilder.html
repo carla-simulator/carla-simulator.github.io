@@ -169,12 +169,18 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a681b6b968d9fc6a9477dca966ec3e09e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d16/classcarla_1_1road_1_1MapBuilder.html#a681b6b968d9fc6a9477dca966ec3e09e">ComputeJunctionRoadConflicts</a> (<a class="el" href="../../d0/d34/classcarla_1_1road_1_1Map.html">Map</a> &amp;map)</td></tr>
+<tr class="memdesc:a681b6b968d9fc6a9477dca966ec3e09e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the conflicts of the roads (intersecting roads)  <a href="#a681b6b968d9fc6a9477dca966ec3e09e">More...</a><br /></td></tr>
+<tr class="separator:a681b6b968d9fc6a9477dca966ec3e09e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0d9fe008defb1501769cf62f8cadf14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d16/classcarla_1_1road_1_1MapBuilder.html#ab0d9fe008defb1501769cf62f8cadf14">CreateJunctionBoundingBoxes</a> (<a class="el" href="../../d0/d34/classcarla_1_1road_1_1Map.html">Map</a> &amp;map)</td></tr>
 <tr class="memdesc:ab0d9fe008defb1501769cf62f8cadf14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the bounding boxes of each junction.  <a href="#ab0d9fe008defb1501769cf62f8cadf14">More...</a><br /></td></tr>
 <tr class="separator:ab0d9fe008defb1501769cf62f8cadf14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3f4192b6f1b0737a5d12923fc8da239"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d16/classcarla_1_1road_1_1MapBuilder.html#ae3f4192b6f1b0737a5d12923fc8da239">CreatePointersBetweenRoadSegments</a> ()</td></tr>
 <tr class="memdesc:ae3f4192b6f1b0737a5d12923fc8da239"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the pointers between RoadSegments based on the ids.  <a href="#ae3f4192b6f1b0737a5d12923fc8da239">More...</a><br /></td></tr>
 <tr class="separator:ae3f4192b6f1b0737a5d12923fc8da239"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5ab2aea311a2bb6e43258c73bd57b49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d16/classcarla_1_1road_1_1MapBuilder.html#ac5ab2aea311a2bb6e43258c73bd57b49">GenerateDefaultValiditiesForSignalReferences</a> ()</td></tr>
+<tr class="memdesc:ac5ab2aea311a2bb6e43258c73bd57b49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a default validity field for signal references with missing validity record in OpenDRIVE.  <a href="#ac5ab2aea311a2bb6e43258c73bd57b49">More...</a><br /></td></tr>
+<tr class="separator:ac5ab2aea311a2bb6e43258c73bd57b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7818fa90e4281abc159f08e31a9fb00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html">Lane</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d16/classcarla_1_1road_1_1MapBuilder.html#af7818fa90e4281abc159f08e31a9fb00">GetEdgeLanePointer</a> (<a class="el" href="../../de/d26/namespacecarla_1_1road.html#a9fa6f293e66647bffc1d64d59084eed7">RoadId</a> road_id, bool from_start, <a class="el" href="../../de/d26/namespacecarla_1_1road.html#ab04570f0655cb16bd43d7cb2b939511f">LaneId</a> lane_id)</td></tr>
 <tr class="memdesc:af7818fa90e4281abc159f08e31a9fb00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the pointer to a lane object.  <a href="#af7818fa90e4281abc159f08e31a9fb00">More...</a><br /></td></tr>
 <tr class="separator:af7818fa90e4281abc159f08e31a9fb00"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -494,7 +500,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00309">309</a> of file <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html">MapBuilder.cpp</a>.</p>
 
-<p>References <a class="el" href="../../db/d48/Road_8h_source.html#l00174">carla::road::Road::_map_data</a>.</p>
+<p>References <a class="el" href="../../db/d48/Road_8h_source.html#l00181">carla::road::Road::_map_data</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d69/RoadParser_8cpp_source.html#l00113">carla::opendrive::parser::RoadParser::Parse()</a>.</p>
 
@@ -1136,7 +1142,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00334">334</a> of file <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html">MapBuilder.cpp</a>.</p>
 
-<p>References <a class="el" href="../../db/d48/Road_8h_source.html#l00186">carla::road::Road::_lane_sections</a>, <a class="el" href="../../d6/dfd/LaneSection_8h_source.html#l00055">carla::road::LaneSection::_road</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, and <a class="el" href="../../df/d60/LaneSectionMap_8h_source.html#l00024">carla::road::LaneSectionMap::Emplace()</a>.</p>
+<p>References <a class="el" href="../../db/d48/Road_8h_source.html#l00193">carla::road::Road::_lane_sections</a>, <a class="el" href="../../d6/dfd/LaneSection_8h_source.html#l00055">carla::road::LaneSection::_road</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, and <a class="el" href="../../df/d60/LaneSectionMap_8h_source.html#l00024">carla::road::LaneSectionMap::Emplace()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d69/RoadParser_8cpp_source.html#l00113">carla::opendrive::parser::RoadParser::Parse()</a>.</p>
 
@@ -1482,13 +1488,25 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00278">278</a> of file <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html">MapBuilder.cpp</a>.</p>
 
+<p>References <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00030">carla::road::Road::GetId()</a>.</p>
+
 <p>Referenced by <a class="el" href="../../d1/d01/SignalParser_8cpp_source.html#l00031">carla::opendrive::parser::SignalParser::Parse()</a>.</p>
 
 <p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_ab572d01d8dc4f2d4dbbecbc382b9e4ed_cgraph.svg" width="366" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_ab572d01d8dc4f2d4dbbecbc382b9e4ed_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1528,15 +1546,15 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00293">293</a> of file <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html">MapBuilder.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d1/d1d/RoadInfoSignal_8h_source.html#l00094">carla::road::element::RoadInfoSignal::_validities</a>.</p>
+<p>References <a class="el" href="../../d1/d1d/RoadInfoSignal_8h_source.html#l00104">carla::road::element::RoadInfoSignal::_validities</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d01/SignalParser_8cpp_source.html#l00017">carla::opendrive::parser::AddValidity()</a>.</p>
 
-<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_a687e51ee805d2daecf80de5523f8ee79_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1563,12 +1581,52 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../da/d5a/OpenDriveParser_8cpp_source.html#l00027">carla::opendrive::OpenDriveParser::Load()</a>.</p>
 
-<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_a7b0bb12125e15fd246924aee12327e7e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a681b6b968d9fc6a9477dca966ec3e09e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::road::MapBuilder::ComputeJunctionRoadConflicts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d34/classcarla_1_1road_1_1Map.html">Map</a> &amp;&#160;</td>
+          <td class="paramname"><em>map</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compute the conflicts of the roads (intersecting roads) </p>
+
+<p>Definition at line <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00875">875</a> of file <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html">MapBuilder.cpp</a>.</p>
+
+<p>References <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00171">carla::road::Map::_data</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00777">carla::road::Map::ComputeJunctionConflicts()</a>, and <a class="el" href="../../d9/d71/MapData_8cpp_source.html#l00017">carla::road::MapData::GetJunctions()</a>.</p>
+
+<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_a681b6b968d9fc6a9477dca966ec3e09e_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -1611,17 +1669,17 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00845">845</a> of file <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html">MapBuilder.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00847">847</a> of file <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html">MapBuilder.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d60/ControllerParser_8cpp_source.html#l00017">carla::opendrive::parser::ControllerParser::Parse()</a>.</p>
 
-<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_a1431466dd1dff00318a1de6ee3fa2e6f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1653,15 +1711,15 @@ Private Attributes</h2></td></tr>
 
 <p>Create the bounding boxes of each junction. </p>
 
-<p>Definition at line <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00780">780</a> of file <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html">MapBuilder.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00782">782</a> of file <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html">MapBuilder.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00165">carla::road::Map::_data</a>, <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5aed36a1ef76a59ee3f15180e0441188ad">carla::road::Lane::Any</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00296">carla::road::Map::ComputeTransform()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00936">carla::road::Map::GetJunction()</a>, <a class="el" href="../../d9/d71/MapData_8cpp_source.html#l00017">carla::road::MapData::GetJunctions()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00728">carla::road::Map::GetJunctionWaypoints()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00583">carla::road::Map::GetNext()</a>, and <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00028">carla::geom::Transform::location</a>.</p>
+<p>References <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00171">carla::road::Map::_data</a>, <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5aed36a1ef76a59ee3f15180e0441188ad">carla::road::Lane::Any</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00296">carla::road::Map::ComputeTransform()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01039">carla::road::Map::GetJunction()</a>, <a class="el" href="../../d9/d71/MapData_8cpp_source.html#l00017">carla::road::MapData::GetJunctions()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00760">carla::road::Map::GetJunctionWaypoints()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00583">carla::road::Map::GetNext()</a>, and <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00028">carla::geom::Transform::location</a>.</p>
 
-<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_ab0d9fe008defb1501769cf62f8cadf14_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1705,11 +1763,11 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d0/d2e/LaneParser_8cpp_source.html#l00017">carla::opendrive::parser::ParseLanes()</a>.</p>
 
-<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_a514a195a88e36e8611fe69ca4ccd2c63_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1771,11 +1829,11 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d0/d2e/LaneParser_8cpp_source.html#l00017">carla::opendrive::parser::ParseLanes()</a>.</p>
 
-<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_a611de6c7856168347fddf40228704128_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1825,11 +1883,11 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d0/d2e/LaneParser_8cpp_source.html#l00017">carla::opendrive::parser::ParseLanes()</a>.</p>
 
-<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_a563fe0c1c965d2f01f10d4ba1aa55b9e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1885,11 +1943,11 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d0/d2e/LaneParser_8cpp_source.html#l00017">carla::opendrive::parser::ParseLanes()</a>.</p>
 
-<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_af1f3d98883d99feb88d4b94535b39f8b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1933,11 +1991,11 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d0/d2e/LaneParser_8cpp_source.html#l00017">carla::opendrive::parser::ParseLanes()</a>.</p>
 
-<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_a720e10d05c31b993837d6446bf68b54a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1987,11 +2045,11 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d0/d2e/LaneParser_8cpp_source.html#l00017">carla::opendrive::parser::ParseLanes()</a>.</p>
 
-<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-29-content" class="dyncontent" style="display:none;">
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_a8562b5754037a8096bff3c51c84691ae_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2053,11 +2111,11 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d0/d2e/LaneParser_8cpp_source.html#l00017">carla::opendrive::parser::ParseLanes()</a>.</p>
 
-<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-30-content" class="dyncontent" style="display:none;">
+<div id="dynsection-32-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_ae13dbbe72540773614b4e89898582530_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2119,11 +2177,11 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d0/d2e/LaneParser_8cpp_source.html#l00017">carla::opendrive::parser::ParseLanes()</a>.</p>
 
-<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-31-content" class="dyncontent" style="display:none;">
+<div id="dynsection-33-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_add044e6ce2e3342454af48e9db6a7876_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2251,21 +2309,21 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d0/d2e/LaneParser_8cpp_source.html#l00017">carla::opendrive::parser::ParseLanes()</a>.</p>
 
-<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div id="dynsection-34-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_ad4f4ecd2bf090c849e743302db8fde85_cgraph.svg" width="356" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-33-content" class="dyncontent" style="display:none;">
+<div id="dynsection-35-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_ad4f4ecd2bf090c849e743302db8fde85_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2339,11 +2397,11 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d0/d2e/LaneParser_8cpp_source.html#l00017">carla::opendrive::parser::ParseLanes()</a>.</p>
 
-<p><div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-34-content" class="dyncontent" style="display:none;">
+<div id="dynsection-36-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_aa724a828b0aca026efbdc65855ee23c0_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2399,11 +2457,11 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d7/d69/RoadParser_8cpp_source.html#l00113">carla::opendrive::parser::RoadParser::Parse()</a>.</p>
 
-<p><div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-35-content" class="dyncontent" style="display:none;">
+<div id="dynsection-37-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_a290e593d53d5a58895c542e3db1012f6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2465,12 +2523,51 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d7/d69/RoadParser_8cpp_source.html#l00113">carla::opendrive::parser::RoadParser::Parse()</a>.</p>
 
-<p><div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-36-content" class="dyncontent" style="display:none;">
+<div id="dynsection-38-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_a42bde86ce9e8116ad27afcf8a10cc839_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac5ab2aea311a2bb6e43258c73bd57b49"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::road::MapBuilder::GenerateDefaultValiditiesForSignalReferences </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generates a default validity field for signal references with missing validity record in OpenDRIVE. </p>
+
+<p>Definition at line <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00882">882</a> of file <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html">MapBuilder.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d0/def/Signal_8h_source.html#l00024">carla::road::Both</a>, <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00088">carla::road::Road::GetLanesByDistance()</a>, <a class="el" href="../../d0/def/Signal_8h_source.html#l00023">carla::road::Negative</a>, and <a class="el" href="../../d0/def/Signal_8h_source.html#l00022">carla::road::Positive</a>.</p>
+
+<p><div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-39-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_ac5ab2aea311a2bb6e43258c73bd57b49_cgraph.svg" width="100%" height="427"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -2519,13 +2616,13 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00565">565</a> of file <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html">MapBuilder.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00145">carla::road::Road::GetEndSection()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00024">carla::road::LaneSection::GetLane()</a>, and <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00132">carla::road::Road::GetStartSection()</a>.</p>
+<p>References <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00167">carla::road::Road::GetEndSection()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00024">carla::road::LaneSection::GetLane()</a>, and <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00154">carla::road::Road::GetStartSection()</a>.</p>
 
-<p><div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-37-content" class="dyncontent" style="display:none;">
+<div id="dynsection-40-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_af7818fa90e4281abc159f08e31a9fb00_cgraph.svg" width="406" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2573,7 +2670,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00653">653</a> of file <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html">MapBuilder.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d1/d3a/road_2Junction_8h_source.html#l00084">carla::road::Junction::_connections</a>.</p>
+<p>References <a class="el" href="../../d1/d3a/road_2Junction_8h_source.html#l00093">carla::road::Junction::_connections</a>.</p>
 
 </div>
 </div>
@@ -2613,21 +2710,21 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d0/d2e/LaneParser_8cpp_source.html#l00017">carla::opendrive::parser::ParseLanes()</a>.</p>
 
-<p><div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-41-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-38-content" class="dyncontent" style="display:none;">
+<div id="dynsection-41-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_a60adfc4b42c04342acfea8b0acd67516_cgraph.svg" width="100%" height="473"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-42-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-42-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-39-content" class="dyncontent" style="display:none;">
+<div id="dynsection-42-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_a60adfc4b42c04342acfea8b0acd67516_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2678,13 +2775,13 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00587">587</a> of file <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html">MapBuilder.cpp</a>.</p>
 
-<p>References <a class="el" href="../../db/d48/Road_8h_source.html#l00186">carla::road::Road::_lane_sections</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../df/d60/LaneSectionMap_8h_source.html#l00030">carla::road::LaneSectionMap::GetById()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00012">carla::road::LaneSection::GetDistance()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00024">carla::road::LaneSection::GetLane()</a>, <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00097">carla::road::Road::GetNextLane()</a>, <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00054">carla::road::Road::GetPredecessor()</a>, <a class="el" href="../../d8/d27/Lane_8h_source.html#l00100">carla::road::Lane::GetPredecessor()</a>, <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00114">carla::road::Road::GetPrevLane()</a>, <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00050">carla::road::Road::GetSuccessor()</a>, and <a class="el" href="../../d8/d27/Lane_8h_source.html#l00096">carla::road::Lane::GetSuccessor()</a>.</p>
+<p>References <a class="el" href="../../db/d48/Road_8h_source.html#l00193">carla::road::Road::_lane_sections</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../df/d60/LaneSectionMap_8h_source.html#l00030">carla::road::LaneSectionMap::GetById()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00012">carla::road::LaneSection::GetDistance()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00024">carla::road::LaneSection::GetLane()</a>, <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00119">carla::road::Road::GetNextLane()</a>, <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00054">carla::road::Road::GetPredecessor()</a>, <a class="el" href="../../d8/d27/Lane_8h_source.html#l00100">carla::road::Lane::GetPredecessor()</a>, <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00136">carla::road::Road::GetPrevLane()</a>, <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00050">carla::road::Road::GetSuccessor()</a>, and <a class="el" href="../../d8/d27/Lane_8h_source.html#l00096">carla::road::Lane::GetSuccessor()</a>.</p>
 
-<p><div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-43-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-43-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-40-content" class="dyncontent" style="display:none;">
+<div id="dynsection-43-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_ad84a5423baee8d92269aab9d8723c68a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2710,11 +2807,11 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d8/d49/GeometryParser_8cpp_source.html#l00061">carla::opendrive::parser::GeometryParser::Parse()</a>, <a class="el" href="../../d1/d01/SignalParser_8cpp_source.html#l00031">carla::opendrive::parser::SignalParser::Parse()</a>, <a class="el" href="../../d4/d6a/ProfilesParser_8cpp_source.html#l00046">carla::opendrive::parser::ProfilesParser::Parse()</a>, and <a class="el" href="../../d9/df7/ObjectParser_8cpp_source.html#l00019">carla::opendrive::parser::ObjectParser::Parse()</a>.</p>
 
-<p><div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-41-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-44" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-44-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-44-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-41-content" class="dyncontent" style="display:none;">
+<div id="dynsection-44-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_ae78c5880d7bd9edde4764d054037164d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2750,11 +2847,11 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d9/d3e/GeoReferenceParser_8cpp_source.html#l00062">carla::opendrive::parser::GeoReferenceParser::Parse()</a>.</p>
 
-<p><div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-42-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-42-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-45" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-45-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-45-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-42-content" class="dyncontent" style="display:none;">
+<div id="dynsection-45-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_a75d300f0ca8924c2dc23370f1448dbe6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2841,7 +2938,7 @@ Private Attributes</h2></td></tr>
 
 <p>Solve the references between Controllers and Juntions. </p>
 
-<p>Definition at line <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00766">766</a> of file <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html">MapBuilder.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00768">768</a> of file <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html">MapBuilder.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>.</p>
 
@@ -2874,11 +2971,11 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="../../d7/def/Geometry_8cpp_source.html#l00028">carla::road::element::DirectedPoint::ApplyLateralOffset()</a>, <a class="el" href="../../d3/d8b/Geometry_8h_source.html#l00038">carla::road::element::DirectedPoint::location</a>, <a class="el" href="../../d3/d8b/Geometry_8h_source.html#l00039">carla::road::element::DirectedPoint::tangent</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00037">carla::geom::Math::ToDegrees()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
-<p><div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-43-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-43-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-46" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-46-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-46-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-43-content" class="dyncontent" style="display:none;">
+<div id="dynsection-46-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d16/classcarla_1_1road_1_1MapBuilder_ae08e6f0bdd3b6efe2e30ca19effd3a97_cgraph.svg" width="531" height="132"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2929,7 +3026,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d3b/MapBuilder_8h_source.html#l00383">383</a> of file <a class="el" href="../../de/d3b/MapBuilder_8h_source.html">MapBuilder.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d3b/MapBuilder_8h_source.html#l00389">389</a> of file <a class="el" href="../../de/d3b/MapBuilder_8h_source.html">MapBuilder.h</a>.</p>
 
 </div>
 </div>
@@ -2953,7 +3050,7 @@ Private Attributes</h2></td></tr>
 
 <p><a class="el" href="../../d0/d34/classcarla_1_1road_1_1Map.html">Map</a> to temporary store all the road and lane infos until the map is built, so they can be added all together. </p>
 
-<p>Definition at line <a class="el" href="../../de/d3b/MapBuilder_8h_source.html#l00380">380</a> of file <a class="el" href="../../de/d3b/MapBuilder_8h_source.html">MapBuilder.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d3b/MapBuilder_8h_source.html#l00386">386</a> of file <a class="el" href="../../de/d3b/MapBuilder_8h_source.html">MapBuilder.h</a>.</p>
 
 </div>
 </div>
@@ -2975,7 +3072,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d3b/MapBuilder_8h_source.html#l00386">386</a> of file <a class="el" href="../../de/d3b/MapBuilder_8h_source.html">MapBuilder.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d3b/MapBuilder_8h_source.html#l00392">392</a> of file <a class="el" href="../../de/d3b/MapBuilder_8h_source.html">MapBuilder.h</a>.</p>
 
 </div>
 </div>
@@ -2997,7 +3094,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d3b/MapBuilder_8h_source.html#l00388">388</a> of file <a class="el" href="../../de/d3b/MapBuilder_8h_source.html">MapBuilder.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d3b/MapBuilder_8h_source.html#l00394">394</a> of file <a class="el" href="../../de/d3b/MapBuilder_8h_source.html">MapBuilder.h</a>.</p>
 
 </div>
 </div>

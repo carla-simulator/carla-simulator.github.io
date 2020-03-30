@@ -112,12 +112,17 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa5a1dfafef68a04b62490cfedff29eaa"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#aa9f5f5c95e74dc30bfbc4464f09d16b2">TreeElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#aa5a1dfafef68a04b62490cfedff29eaa">GetNearestNeighbours</a> (const <a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#a053d289f7e1bf71ec19c80ec38ddc614">BPoint</a> &amp;point, size_t number_neighbours=1) const </td></tr>
-<tr class="separator:aa5a1dfafef68a04b62490cfedff29eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7efd90ab3bdc5e2e453a4ac2ca6642aa"><td class="memTemplParams" colspan="2">template&lt;typename Filter &gt; </td></tr>
-<tr class="memitem:a7efd90ab3bdc5e2e453a4ac2ca6642aa"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#aa9f5f5c95e74dc30bfbc4464f09d16b2">TreeElement</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#a7efd90ab3bdc5e2e453a4ac2ca6642aa">GetNearestNeighboursWithFilter</a> (const <a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#a053d289f7e1bf71ec19c80ec38ddc614">BPoint</a> &amp;point, Filter filter, size_t number_neighbours=1) const </td></tr>
-<tr class="memdesc:a7efd90ab3bdc5e2e453a4ac2ca6642aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return nearest neighbors with a user defined filter.  <a href="#a7efd90ab3bdc5e2e453a4ac2ca6642aa">More...</a><br /></td></tr>
-<tr class="separator:a7efd90ab3bdc5e2e453a4ac2ca6642aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9355ed507bf7c2630f5ea554e930f1d"><td class="memTemplParams" colspan="2">template&lt;typename Geometry &gt; </td></tr>
+<tr class="memitem:ab9355ed507bf7c2630f5ea554e930f1d"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#aa9f5f5c95e74dc30bfbc4464f09d16b2">TreeElement</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#ab9355ed507bf7c2630f5ea554e930f1d">GetIntersections</a> (const Geometry &amp;geometry) const </td></tr>
+<tr class="memdesc:ab9355ed507bf7c2630f5ea554e930f1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns segments that intersec the specified geometry Warning: intersection between 3D segments is not implemented by boost.  <a href="#ab9355ed507bf7c2630f5ea554e930f1d">More...</a><br /></td></tr>
+<tr class="separator:ab9355ed507bf7c2630f5ea554e930f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44e62d1fa46b0e6a559a660aab102445"><td class="memTemplParams" colspan="2">template&lt;typename Geometry &gt; </td></tr>
+<tr class="memitem:a44e62d1fa46b0e6a559a660aab102445"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#aa9f5f5c95e74dc30bfbc4464f09d16b2">TreeElement</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#a44e62d1fa46b0e6a559a660aab102445">GetNearestNeighbours</a> (const Geometry &amp;geometry, size_t number_neighbours=1) const </td></tr>
+<tr class="separator:a44e62d1fa46b0e6a559a660aab102445"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81cbfffdaa26fe8950283787a2162054"><td class="memTemplParams" colspan="2">template&lt;typename Geometry , typename Filter &gt; </td></tr>
+<tr class="memitem:a81cbfffdaa26fe8950283787a2162054"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#aa9f5f5c95e74dc30bfbc4464f09d16b2">TreeElement</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#a81cbfffdaa26fe8950283787a2162054">GetNearestNeighboursWithFilter</a> (const Geometry &amp;geometry, Filter filter, size_t number_neighbours=1) const </td></tr>
+<tr class="memdesc:a81cbfffdaa26fe8950283787a2162054"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return nearest neighbors with a user defined filter.  <a href="#a81cbfffdaa26fe8950283787a2162054">More...</a><br /></td></tr>
+<tr class="separator:a81cbfffdaa26fe8950283787a2162054"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07e5b50bec67c84d32a4656d2f82e1be"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#a07e5b50bec67c84d32a4656d2f82e1be">GetTreeSize</a> () const </td></tr>
 <tr class="separator:a07e5b50bec67c84d32a4656d2f82e1be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90a0c1cdcf9c693cb27816c5639b2747"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#a90a0c1cdcf9c693cb27816c5639b2747">InsertElement</a> (const <a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#a431e6cfc82539de6b7b743c983b1d6ba">BSegment</a> &amp;segment, const T &amp;element_start, const T &amp;element_end)</td></tr>
@@ -190,11 +195,45 @@ template&lt;typename T, size_t Dimension = 3&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aa5a1dfafef68a04b62490cfedff29eaa"></a>
+<a class="anchor" id="ab9355ed507bf7c2630f5ea554e930f1d"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T, size_t Dimension = 3&gt; </div>
+<div class="memtemplate">
+template&lt;typename Geometry &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#aa9f5f5c95e74dc30bfbc4464f09d16b2">TreeElement</a>&gt; <a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html">carla::geom::SegmentCloudRtree</a>&lt; T, Dimension &gt;::GetIntersections </td>
+          <td>(</td>
+          <td class="paramtype">const Geometry &amp;&#160;</td>
+          <td class="paramname"><em>geometry</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns segments that intersec the specified geometry Warning: intersection between 3D segments is not implemented by boost. </p>
+
+<p>Definition at line <a class="el" href="../../d5/d30/Rtree_8h_source.html#l00125">125</a> of file <a class="el" href="../../d5/d30/Rtree_8h_source.html">Rtree.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a44e62d1fa46b0e6a559a660aab102445"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, size_t Dimension = 3&gt; </div>
+<div class="memtemplate">
+template&lt;typename Geometry &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -202,8 +241,8 @@ template&lt;typename T, size_t Dimension = 3&gt; </div>
         <tr>
           <td class="memname">std::vector&lt;<a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#aa9f5f5c95e74dc30bfbc4464f09d16b2">TreeElement</a>&gt; <a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html">carla::geom::SegmentCloudRtree</a>&lt; T, Dimension &gt;::GetNearestNeighbours </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#a053d289f7e1bf71ec19c80ec38ddc614">BPoint</a> &amp;&#160;</td>
-          <td class="paramname"><em>point</em>, </td>
+          <td class="paramtype">const Geometry &amp;&#160;</td>
+          <td class="paramname"><em>geometry</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -224,17 +263,17 @@ template&lt;typename T, size_t Dimension = 3&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d30/Rtree_8h_source.html#l00113">113</a> of file <a class="el" href="../../d5/d30/Rtree_8h_source.html">Rtree.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d30/Rtree_8h_source.html#l00114">114</a> of file <a class="el" href="../../d5/d30/Rtree_8h_source.html">Rtree.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a7efd90ab3bdc5e2e453a4ac2ca6642aa"></a>
+<a class="anchor" id="a81cbfffdaa26fe8950283787a2162054"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T, size_t Dimension = 3&gt; </div>
 <div class="memtemplate">
-template&lt;typename Filter &gt; </div>
+template&lt;typename Geometry , typename Filter &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -242,8 +281,8 @@ template&lt;typename Filter &gt; </div>
         <tr>
           <td class="memname">std::vector&lt;<a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#aa9f5f5c95e74dc30bfbc4464f09d16b2">TreeElement</a>&gt; <a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html">carla::geom::SegmentCloudRtree</a>&lt; T, Dimension &gt;::GetNearestNeighboursWithFilter </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#a053d289f7e1bf71ec19c80ec38ddc614">BPoint</a> &amp;&#160;</td>
-          <td class="paramname"><em>point</em>, </td>
+          <td class="paramtype">const Geometry &amp;&#160;</td>
+          <td class="paramname"><em>geometry</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -300,7 +339,7 @@ template&lt;typename T, size_t Dimension = 3&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d30/Rtree_8h_source.html#l00121">121</a> of file <a class="el" href="../../d5/d30/Rtree_8h_source.html">Rtree.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d30/Rtree_8h_source.html#l00133">133</a> of file <a class="el" href="../../d5/d30/Rtree_8h_source.html">Rtree.h</a>.</p>
 
 </div>
 </div>
@@ -425,7 +464,7 @@ template&lt;typename T, size_t Dimension = 3&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d30/Rtree_8h_source.html#l00127">127</a> of file <a class="el" href="../../d5/d30/Rtree_8h_source.html">Rtree.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d30/Rtree_8h_source.html#l00139">139</a> of file <a class="el" href="../../d5/d30/Rtree_8h_source.html">Rtree.h</a>.</p>
 
 </div>
 </div>

@@ -68,6 +68,8 @@ var searchData=
   ['computecompass',['ComputeCompass',['../d5/de0/classAInertialMeasurementUnit.html#a01cd59bbd1a52c3a138ff031e5e45697',1,'AInertialMeasurementUnit']]],
   ['computegyroscope',['ComputeGyroscope',['../d5/de0/classAInertialMeasurementUnit.html#aa74f616bf7d03f2f8a7642ab073d2561',1,'AInertialMeasurementUnit']]],
   ['computegyroscopenoise',['ComputeGyroscopeNoise',['../d5/de0/classAInertialMeasurementUnit.html#a5f1b18b10c2c4a24254642f7499cb315',1,'AInertialMeasurementUnit']]],
+  ['computejunctionconflicts',['ComputeJunctionConflicts',['../d0/d34/classcarla_1_1road_1_1Map.html#aef6fc1383e1697aeb3771daa0e6a6563',1,'carla::road::Map']]],
+  ['computejunctionroadconflicts',['ComputeJunctionRoadConflicts',['../de/d16/classcarla_1_1road_1_1MapBuilder.html#a681b6b968d9fc6a9477dca966ec3e09e',1,'carla::road::MapBuilder']]],
   ['computelocation',['ComputeLocation',['../d8/dfe/classUOpenDriveMap.html#a1003f4385322c5c46beab4127882b6cf',1,'UOpenDriveMap']]],
   ['computelocations',['ComputeLocations',['../d8/dfe/classUOpenDriveMap.html#a5c06cd811c71ad842695925473b94696',1,'UOpenDriveMap']]],
   ['computetotallanewidth',['ComputeTotalLaneWidth',['../de/d26/namespacecarla_1_1road.html#ae93a30c597f650f87af02020466a7916',1,'carla::road']]],
