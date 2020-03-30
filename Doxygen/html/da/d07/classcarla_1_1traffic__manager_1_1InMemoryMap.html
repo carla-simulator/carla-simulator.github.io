@@ -222,10 +222,17 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This method is used to find and place lane change links. </p>
+<p>Cheack for transits</p>
+<p>Left transit way point present only</p>
+<p>Right transit way point present only</p>
+<p>Both left and right transit present</p>
+<p>Right transit way point</p>
+<p>Left transit way point</p>
+<p>For no transit waypoint (left or right) </p>
 
 <p>Definition at line <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00338">338</a> of file <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html">InMemoryMap.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d0/def/Signal_8h_source.html#l00024">carla::road::Both</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00320">GetWaypoint()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00250">GetWaypointInVicinity()</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00082">carla::log_info()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+<p>References <a class="el" href="../../d0/def/Signal_8h_source.html#l00024">carla::road::Both</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00320">GetWaypoint()</a>, and <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00250">GetWaypointInVicinity()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00071">SetUp()</a>.</p>
 
@@ -234,7 +241,7 @@ Private Attributes</h2></td></tr>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d07/classcarla_1_1traffic__manager_1_1InMemoryMap_a3e468ba555815640c939fc4177fc1ca1_cgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d07/classcarla_1_1traffic__manager_1_1InMemoryMap_a3e468ba555815640c939fc4177fc1ca1_cgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -286,7 +293,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00400">400</a> of file <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html">InMemoryMap.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00432">432</a> of file <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html">InMemoryMap.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d3/d89/InMemoryMap_8h_source.html#l00063">geodesic_grid_center</a>.</p>
 
@@ -310,7 +317,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00014">carla::traffic_manager::MapConstants::INFINITE_DISTANCE</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00237">MakeGridId()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00246">MakeGridKey()</a>, <a class="el" href="../../d3/d89/InMemoryMap_8h_source.html#l00061">ped_waypoint_grid</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00459">carla::traffic_manager::LocalizationStage::ScanUnregisteredVehicles()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00526">carla::traffic_manager::LocalizationStage::ScanUnregisteredVehicles()</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -525,7 +532,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="../../d3/d89/InMemoryMap_8h_source.html#l00057">dense_topology</a>, and <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00014">carla::traffic_manager::MapConstants::INFINITE_DISTANCE</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00074">carla::traffic_manager::LocalizationStage::Action()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00338">FindAndLinkLaneChange()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00459">carla::traffic_manager::LocalizationStage::ScanUnregisteredVehicles()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00077">carla::traffic_manager::LocalizationStage::Action()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00338">FindAndLinkLaneChange()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00526">carla::traffic_manager::LocalizationStage::ScanUnregisteredVehicles()</a>.</p>
 
 <p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -559,7 +566,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00014">carla::traffic_manager::MapConstants::INFINITE_DISTANCE</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00237">MakeGridId()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00246">MakeGridKey()</a>, <a class="el" href="../../d3/d89/InMemoryMap_8h_source.html#l00059">waypoint_grid</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00074">carla::traffic_manager::LocalizationStage::Action()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00338">FindAndLinkLaneChange()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00459">carla::traffic_manager::LocalizationStage::ScanUnregisteredVehicles()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00077">carla::traffic_manager::LocalizationStage::Action()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00338">FindAndLinkLaneChange()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00526">carla::traffic_manager::LocalizationStage::ScanUnregisteredVehicles()</a>.</p>
 
 <p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -596,7 +603,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00388">388</a> of file <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html">InMemoryMap.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00420">420</a> of file <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html">InMemoryMap.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d3/d89/InMemoryMap_8h_source.html#l00057">dense_topology</a>, and <a class="el" href="../../d3/d89/InMemoryMap_8h_source.html#l00063">geodesic_grid_center</a>.</p>
 
@@ -729,7 +736,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00071">71</a> of file <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html">InMemoryMap.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d3/d89/InMemoryMap_8h_source.html#l00054">_world_map</a>, <a class="el" href="../../d3/d89/InMemoryMap_8h_source.html#l00057">dense_topology</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00066">carla::geom::Math::DistanceSquared()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00338">FindAndLinkLaneChange()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00053">GetPredecessors()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00027">GetSegmentId()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00035">GetSuccessors()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00388">MakeGeodesiGridCenters()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00237">MakeGridId()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00246">MakeGridKey()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00017">carla::traffic_manager::MapConstants::MAX_GEODESIC_GRID_LENGTH</a>, <a class="el" href="../../d3/d89/InMemoryMap_8h_source.html#l00061">ped_waypoint_grid</a>, <a class="el" href="../../db/d20/pugixml_8cpp_source.html#l07358">reverse()</a>, <a class="el" href="../../db/d20/pugixml_8cpp_source.html#l07444">sort()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00018">carla::traffic_manager::MapConstants::TOPOLOGY_DISTANCE</a>, <a class="el" href="../../d3/d89/InMemoryMap_8h_source.html#l00059">waypoint_grid</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>.</p>
+<p>References <a class="el" href="../../d3/d89/InMemoryMap_8h_source.html#l00054">_world_map</a>, <a class="el" href="../../d3/d89/InMemoryMap_8h_source.html#l00057">dense_topology</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00066">carla::geom::Math::DistanceSquared()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00338">FindAndLinkLaneChange()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00053">GetPredecessors()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00027">GetSegmentId()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00035">GetSuccessors()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00420">MakeGeodesiGridCenters()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00237">MakeGridId()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00246">MakeGridKey()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00017">carla::traffic_manager::MapConstants::MAX_GEODESIC_GRID_LENGTH</a>, <a class="el" href="../../d3/d89/InMemoryMap_8h_source.html#l00061">ped_waypoint_grid</a>, <a class="el" href="../../db/d20/pugixml_8cpp_source.html#l07358">reverse()</a>, <a class="el" href="../../db/d20/pugixml_8cpp_source.html#l07444">sort()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00018">carla::traffic_manager::MapConstants::TOPOLOGY_DISTANCE</a>, <a class="el" href="../../d3/d89/InMemoryMap_8h_source.html#l00059">waypoint_grid</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>.</p>
 
 <p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -792,7 +799,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/d89/InMemoryMap_8h_source.html#l00057">57</a> of file <a class="el" href="../../d3/d89/InMemoryMap_8h_source.html">InMemoryMap.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00334">GetDenseTopology()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00320">GetWaypoint()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00388">MakeGeodesiGridCenters()</a>, and <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00071">SetUp()</a>.</p>
+<p>Referenced by <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00334">GetDenseTopology()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00320">GetWaypoint()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00420">MakeGeodesiGridCenters()</a>, and <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00071">SetUp()</a>.</p>
 
 </div>
 </div>
@@ -818,7 +825,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/d89/InMemoryMap_8h_source.html#l00063">63</a> of file <a class="el" href="../../d3/d89/InMemoryMap_8h_source.html">InMemoryMap.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00400">GetGeodesicGridCenter()</a>, and <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00388">MakeGeodesiGridCenters()</a>.</p>
+<p>Referenced by <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00432">GetGeodesicGridCenter()</a>, and <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00420">MakeGeodesiGridCenters()</a>.</p>
 
 </div>
 </div>

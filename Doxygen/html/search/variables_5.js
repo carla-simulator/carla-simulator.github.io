@@ -23,7 +23,7 @@ var searchData=
   ['episodeproxytm',['episodeProxyTM',['../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal.html#ab28aff95f2fb82f561bb18e1b99abc43',1,'carla::traffic_manager::TrafficManagerLocal::episodeProxyTM()'],['../d7/d5c/classcarla_1_1traffic__manager_1_1TrafficManagerRemote.html#a158d0eecaf9ff6d3b0b033a0da76558f',1,'carla::traffic_manager::TrafficManagerRemote::episodeProxyTM()']]],
   ['episodesettings',['EpisodeSettings',['../dc/d84/classUCarlaEpisode.html#a1735fc2815aabf4a11a4f2a4653e7de2',1,'UCarlaEpisode']]],
   ['epsilon',['EPSILON',['../de/d26/namespacecarla_1_1road.html#a49c9906492987863301337ac8c490bb2',1,'carla::road']]],
-  ['epsilon_5fvelocity',['EPSILON_VELOCITY',['../d5/de3/namespacecarla_1_1traffic__manager_1_1CollisionStageConstants.html#a0db527dc2fd94f22423c8ee956e93bfb',1,'carla::traffic_manager::CollisionStageConstants']]],
+  ['epsilon_5fvelocity',['EPSILON_VELOCITY',['../d5/de3/namespacecarla_1_1traffic__manager_1_1CollisionStageConstants.html#a0db527dc2fd94f22423c8ee956e93bfb',1,'carla::traffic_manager::CollisionStageConstants::EPSILON_VELOCITY()'],['../de/db6/namespacecarla_1_1traffic__manager_1_1PlannerConstants.html#ad0332631a7bfe613ac82767dd6da1ffe',1,'carla::traffic_manager::PlannerConstants::EPSILON_VELOCITY()']]],
   ['error',['error',['../d9/d2c/structpugi_1_1xpath__parse__result.html#ab2c625be89b995afac829012bc749fe4',1,'pugi::xpath_parse_result']]],
   ['error_5foffset',['error_offset',['../db/db4/structxml__parser.html#a2476a71cd7e67b3f4bdbcd1323524503',1,'xml_parser']]],
   ['error_5fstatus',['error_status',['../db/db4/structxml__parser.html#a0555859911674e5a7a349447d6533383',1,'xml_parser']]],

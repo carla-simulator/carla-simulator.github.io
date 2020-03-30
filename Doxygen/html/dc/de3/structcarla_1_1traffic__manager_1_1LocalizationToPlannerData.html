@@ -87,7 +87,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d63/structcarla_1_1traffic__manager_1_1LocalizationToPlannerData__coll__graph.svg" width="488" height="156"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d63/structcarla_1_1traffic__manager_1_1LocalizationToPlannerData__coll__graph.svg" width="100%" height="522"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -101,12 +101,18 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ab1f72364816fb1324bded45aee4bf937"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cbf1271b6e8654b22a51529546b315f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de3/structcarla_1_1traffic__manager_1_1LocalizationToPlannerData.html#a6cbf1271b6e8654b22a51529546b315f">distance</a></td></tr>
 <tr class="separator:a6cbf1271b6e8654b22a51529546b315f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16598ecc09becf80b6791d91a7980884"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de3/structcarla_1_1traffic__manager_1_1LocalizationToPlannerData.html#a16598ecc09becf80b6791d91a7980884">physics_enabled</a></td></tr>
+<tr class="separator:a16598ecc09becf80b6791d91a7980884"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a4cb7c70be0f3071d92451068254bd0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="../../dc/d04/classcarla_1_1traffic__manager_1_1SimpleWaypoint.html">SimpleWaypoint</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de3/structcarla_1_1traffic__manager_1_1LocalizationToPlannerData.html#a9a4cb7c70be0f3071d92451068254bd0">position_window</a></td></tr>
+<tr class="separator:a9a4cb7c70be0f3071d92451068254bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a242830084a1206a950eaa1f60d98f33d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dfe/classcarla_1_1geom_1_1Vector3D.html">cg::Vector3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de3/structcarla_1_1traffic__manager_1_1LocalizationToPlannerData.html#a242830084a1206a950eaa1f60d98f33d">velocity</a></td></tr>
+<tr class="separator:a242830084a1206a950eaa1f60d98f33d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Data types. </p>
 <p>Type of data sent by the localization stage to the motion planner stage. </p>
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00039">39</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00042">42</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a44c82ad603b192889a9e2aa93a229978"></a>
 <div class="memitem">
@@ -118,9 +124,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00040">40</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00043">43</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/d96/MotionPlannerStage_8cpp_source.html#l00058">carla::traffic_manager::MotionPlannerStage::Action()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00074">carla::traffic_manager::LocalizationStage::Action()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/d96/MotionPlannerStage_8cpp_source.html#l00060">carla::traffic_manager::MotionPlannerStage::Action()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00077">carla::traffic_manager::LocalizationStage::Action()</a>.</p>
 
 </div>
 </div>
@@ -134,7 +140,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00043">43</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00046">46</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00077">carla::traffic_manager::LocalizationStage::Action()</a>.</p>
 
 </div>
 </div>
@@ -148,9 +156,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00041">41</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00044">44</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/d96/MotionPlannerStage_8cpp_source.html#l00058">carla::traffic_manager::MotionPlannerStage::Action()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/d96/MotionPlannerStage_8cpp_source.html#l00060">carla::traffic_manager::MotionPlannerStage::Action()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00077">carla::traffic_manager::LocalizationStage::Action()</a>.</p>
 
 </div>
 </div>
@@ -164,9 +172,57 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00042">42</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00045">45</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/d96/MotionPlannerStage_8cpp_source.html#l00058">carla::traffic_manager::MotionPlannerStage::Action()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/d96/MotionPlannerStage_8cpp_source.html#l00060">carla::traffic_manager::MotionPlannerStage::Action()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00077">carla::traffic_manager::LocalizationStage::Action()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a16598ecc09becf80b6791d91a7980884"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool carla::traffic_manager::LocalizationToPlannerData::physics_enabled</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00048">48</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../dc/d96/MotionPlannerStage_8cpp_source.html#l00060">carla::traffic_manager::MotionPlannerStage::Action()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00077">carla::traffic_manager::LocalizationStage::Action()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9a4cb7c70be0f3071d92451068254bd0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::shared_ptr&lt;<a class="el" href="../../dc/d04/classcarla_1_1traffic__manager_1_1SimpleWaypoint.html">SimpleWaypoint</a>&gt; &gt; carla::traffic_manager::LocalizationToPlannerData::position_window</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00049">49</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../dc/d96/MotionPlannerStage_8cpp_source.html#l00060">carla::traffic_manager::MotionPlannerStage::Action()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00077">carla::traffic_manager::LocalizationStage::Action()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a242830084a1206a950eaa1f60d98f33d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/dfe/classcarla_1_1geom_1_1Vector3D.html">cg::Vector3D</a> carla::traffic_manager::LocalizationToPlannerData::velocity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00047">47</a> of file <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html">MessengerAndDataTypes.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../dc/d96/MotionPlannerStage_8cpp_source.html#l00060">carla::traffic_manager::MotionPlannerStage::Action()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00077">carla::traffic_manager::LocalizationStage::Action()</a>.</p>
 
 </div>
 </div>
