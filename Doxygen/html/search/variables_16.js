@@ -20,6 +20,7 @@ var searchData=
   ['velocity_5fintegral_5fmax',['VELOCITY_INTEGRAL_MAX',['../d8/d70/namespacecarla_1_1traffic__manager_1_1PIDControllerConstants.html#a7c5c22825f53ce1b25a436567d44b5fc',1,'carla::traffic_manager::PIDControllerConstants']]],
   ['velocity_5fintegral_5fmin',['VELOCITY_INTEGRAL_MIN',['../d8/d70/namespacecarla_1_1traffic__manager_1_1PIDControllerConstants.html#aa326e9c6b47f1962e1c149c8a14df25a',1,'carla::traffic_manager::PIDControllerConstants']]],
   ['version',['Version',['../da/dab/structCarlaRecorderInfo.html#a760c851c7e670744e947d3b79a7b69b5',1,'CarlaRecorderInfo']]],
+  ['vertical_5foffset',['VERTICAL_OFFSET',['../de/db6/namespacecarla_1_1traffic__manager_1_1PlannerConstants.html#af0d3f23f7b536961619c29eafea6142f',1,'carla::traffic_manager::PlannerConstants']]],
   ['vertical_5foverlap_5fthreshold',['VERTICAL_OVERLAP_THRESHOLD',['../d5/de3/namespacecarla_1_1traffic__manager_1_1CollisionStageConstants.html#a3e0c0cfb00efa7470d5788c8147d5f52',1,'carla::traffic_manager::CollisionStageConstants']]],
   ['verticalfov',['VerticalFOV',['../d9/d27/classARadar.html#a0f989ff763ed158e2180396c7ef6fbaa',1,'ARadar']]],
   ['view',['view',['../d0/d45/structTestImage.html#a87bc521071a7df70c1efecb1f47d7a31',1,'TestImage']]],

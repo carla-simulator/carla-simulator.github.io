@@ -57,6 +57,7 @@ var searchData=
   ['highway_5fspeed',['HIGHWAY_SPEED',['../d9/d5c/namespacecarla_1_1traffic__manager_1_1LocalizationConstants.html#aeffe6357ada5745e40760b1efd1c00e6',1,'carla::traffic_manager::LocalizationConstants::HIGHWAY_SPEED()'],['../de/db6/namespacecarla_1_1traffic__manager_1_1PlannerConstants.html#a409102239b092bb31c7c509da7b6edfc',1,'carla::traffic_manager::PlannerConstants::HIGHWAY_SPEED()']]],
   ['hitradius',['HitRadius',['../d3/d93/classAObstacleDetectionSensor.html#a8ce19ce9f4ff018c4e212b420f8a9a1e',1,'AObstacleDetectionSensor']]],
   ['holdhandbrake',['HoldHandbrake',['../d5/d70/classACarlaWheeledVehicle.html#a0609185a0104a6408e74cbd1bda60575',1,'ACarlaWheeledVehicle']]],
+  ['horizon_5frate',['HORIZON_RATE',['../d9/d5c/namespacecarla_1_1traffic__manager_1_1LocalizationConstants.html#a6d4e403e891ef98855bdba61906d96ce',1,'carla::traffic_manager::LocalizationConstants']]],
   ['horizontalangle',['HorizontalAngle',['../d0/dce/classcarla_1_1sensor_1_1s11n_1_1LidarMeasurement.html#a0e9863d182455f20f237ae7c2eb06be2af09f4fa61260df287d629a151271752f',1,'carla::sensor::s11n::LidarMeasurement']]],
   ['horizontalfov',['HorizontalFOV',['../d9/d27/classARadar.html#ac61afd5ce10bc41ae3789a1dd1240a6a',1,'ARadar']]],
   ['hudstring',['HUDString',['../dc/da2/structHUDString.html',1,'']]],
