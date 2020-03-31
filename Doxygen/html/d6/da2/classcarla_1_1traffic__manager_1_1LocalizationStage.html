@@ -114,6 +114,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a884d76e6a899577bb31b3374619edf31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bb7312b7509a82b11d85990ed6226c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a5bb7312b7509a82b11d85990ed6226c8">LocalizationStage</a> (std::string <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#a3c29cf3b76cfa72055c17f3bf57784a1">stage_name</a>, std::shared_ptr&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ad49d3c770c3da2dc73dc2ce1fe186a41">LocalizationToPlannerMessenger</a> &gt; <a class="el" href="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#ab04ae309ff1250d0f2295590792aa5b1">planner_messenger</a>, std::shared_ptr&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ad8932964b0627cb944f911f76b5e5700">LocalizationToCollisionMessenger</a> &gt; <a class="el" href="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#ae61cc536fab1b01f25e07d0a61739f0c">collision_messenger</a>, std::shared_ptr&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ac4f10de7b7dc24acecfd4324aed52d90">LocalizationToTrafficLightMessenger</a> &gt; <a class="el" href="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#aeeb82d89281fe4822ba82b6e45c11a6e">traffic_light_messenger</a>, <a class="el" href="../../d6/d8c/classcarla_1_1traffic__manager_1_1AtomicActorSet.html">AtomicActorSet</a> &amp;<a class="el" href="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a5596d790e2f4eb3c68d7b811abfac679">registered_actors</a>, <a class="el" href="../../da/d07/classcarla_1_1traffic__manager_1_1InMemoryMap.html">InMemoryMap</a> &amp;<a class="el" href="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#ae9e47f5a6ef7b7342653c73019dca56a">local_map</a>, <a class="el" href="../../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html">Parameters</a> &amp;<a class="el" href="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a7d1ee7ab5d16a62b4431c1b3bb350b9c">parameters</a>, <a class="el" href="../../d1/d64/classcarla_1_1client_1_1DebugHelper.html">carla::client::DebugHelper</a> &amp;<a class="el" href="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a12055b07900e58a6aa07761b7e809da3">debug_helper</a>, <a class="el" href="../../d8/dcd/namespacecarla_1_1client_1_1detail.html#a73fc4fabc24f68be175250c73e1da2fc">carla::client::detail::EpisodeProxy</a> &amp;episodeProxy)</td></tr>
 <tr class="separator:a5bb7312b7509a82b11d85990ed6226c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae147c5ea400b9d174c16973bc3fbd544"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#ae147c5ea400b9d174c16973bc3fbd544">RunStep</a> ()</td></tr>
+<tr class="memdesc:ae147c5ea400b9d174c16973bc3fbd544"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to trigger initiation of pipeline in synchronous mode.  <a href="#ae147c5ea400b9d174c16973bc3fbd544">More...</a><br /></td></tr>
+<tr class="separator:ae147c5ea400b9d174c16973bc3fbd544"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b4ad4e752450949cc2c45bae371b8cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a4b4ad4e752450949cc2c45bae371b8cf">~LocalizationStage</a> ()</td></tr>
 <tr class="separator:a4b4ad4e752450949cc2c45bae371b8cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classcarla_1_1traffic__manager_1_1PipelineStage')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html">carla::traffic_manager::PipelineStage</a></td></tr>
@@ -244,9 +247,18 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a94ff0d9e0338426579f04afa25068ff9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a94ff0d9e0338426579f04afa25068ff9">registered_actors_state</a></td></tr>
 <tr class="memdesc:a94ff0d9e0338426579f04afa25068ff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">State counter to track changes in registered actors.  <a href="#a94ff0d9e0338426579f04afa25068ff9">More...</a><br /></td></tr>
 <tr class="separator:a94ff0d9e0338426579f04afa25068ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1cf57b6e51ae9ef573b33a937d4bd42"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#ad1cf57b6e51ae9ef573b33a937d4bd42">run_step</a> {false}</td></tr>
+<tr class="memdesc:ad1cf57b6e51ae9ef573b33a937d4bd42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Step runner flag.  <a href="#ad1cf57b6e51ae9ef573b33a937d4bd42">More...</a><br /></td></tr>
+<tr class="separator:ad1cf57b6e51ae9ef573b33a937d4bd42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c29adbdf9e932cfcd03ce8950322dfd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d84/classcarla_1_1traffic__manager_1_1SnippetProfiler.html">SnippetProfiler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a5c29adbdf9e932cfcd03ce8950322dfd">snippet_profiler</a></td></tr>
 <tr class="memdesc:a5c29adbdf9e932cfcd03ce8950322dfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Code snippet execution time profiler.  <a href="#a5c29adbdf9e932cfcd03ce8950322dfd">More...</a><br /></td></tr>
 <tr class="separator:a5c29adbdf9e932cfcd03ce8950322dfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96fecbfc91a0aee65c9c7223c9c2cba9"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a96fecbfc91a0aee65c9c7223c9c2cba9">step_execution_mutex</a></td></tr>
+<tr class="memdesc:a96fecbfc91a0aee65c9c7223c9c2cba9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex for progressing synchronous execution.  <a href="#a96fecbfc91a0aee65c9c7223c9c2cba9">More...</a><br /></td></tr>
+<tr class="separator:a96fecbfc91a0aee65c9c7223c9c2cba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6092a75dedac624107eb79f31af07d9f"><td class="memItemLeft" align="right" valign="top">std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a6092a75dedac624107eb79f31af07d9f">step_execution_trigger</a></td></tr>
+<tr class="memdesc:a6092a75dedac624107eb79f31af07d9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Condition variables for progressing synchronous execution.  <a href="#a6092a75dedac624107eb79f31af07d9f">More...</a><br /></td></tr>
+<tr class="separator:a6092a75dedac624107eb79f31af07d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96d4e9ed028257c1d54d46aa9ab03b7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html">TrackTraffic</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a96d4e9ed028257c1d54d46aa9ab03b7c">track_traffic</a></td></tr>
 <tr class="memdesc:a96d4e9ed028257c1d54d46aa9ab03b7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object for tracking paths of the traffic vehicles.  <a href="#a96d4e9ed028257c1d54d46aa9ab03b7c">More...</a><br /></td></tr>
 <tr class="separator:a96d4e9ed028257c1d54d46aa9ab03b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -403,7 +415,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">79</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00043">carla::traffic_manager::LocalizationToPlannerData::actor</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00064">carla::traffic_manager::LocalizationToCollisionData::actor</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00082">carla::traffic_manager::LocalizationToTrafficLightData::actor</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00094">actor_list</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00113">approached</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00046">carla::traffic_manager::LocalizationToPlannerData::approaching_true_junction</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00605">AssignLaneChange()</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00065">carla::traffic_manager::LocalizationToCollisionData::buffer</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00107">buffer_list</a>, <a class="el" href="../../d9/dd7/Parameters_8h_source.html#l00029">carla::traffic_manager::ChangeLaneInfo::change_lane</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00068">carla::traffic_manager::LocalizationToCollisionData::closest_waypoint</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00083">carla::traffic_manager::LocalizationToTrafficLightData::closest_waypoint</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00079">collision_frame_a</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00080">collision_frame_b</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00073">collision_frame_selector</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00123">current_timestamp</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00044">carla::traffic_manager::LocalizationToPlannerData::deviation</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00019">carla::traffic_manager::DeviationCrossProduct()</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00036">carla::traffic_manager::DeviationDotProduct()</a>, <a class="el" href="../../d9/dd7/Parameters_8h_source.html#l00030">carla::traffic_manager::ChangeLaneInfo::direction</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00045">carla::traffic_manager::LocalizationToPlannerData::distance</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00066">carla::geom::Math::DistanceSquared()</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00058">carla::geom::Math::Dot()</a>, <a class="el" href="../../d7/d66/Timestamp_8h_source.html#l00033">carla::client::Timestamp::elapsed_seconds</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00104">episode_proxy_ls</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00115">final_safe_points</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00162">carla::traffic_manager::Parameters::GetAutoLaneChange()</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00134">carla::traffic_manager::Parameters::GetForceLaneChange()</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00148">carla::traffic_manager::Parameters::GetKeepRightPercentage()</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00150">carla::traffic_manager::TrackTraffic::GetOverlappingVehicles()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00744">GetSafeLocationAfterJunction()</a>, <a class="el" href="../../d0/d27/Vehicle_8cpp_source.html#l00072">carla::client::Vehicle::GetSpeedLimit()</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00237">carla::traffic_manager::TrackTraffic::GetTargetWaypoint()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00958">GetVelocity()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00320">carla::traffic_manager::InMemoryMap::GetWaypoint()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00250">carla::traffic_manager::InMemoryMap::GetWaypointInVicinity()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00020">carla::traffic_manager::LocalizationConstants::HIGHWAY_SPEED</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00022">carla::traffic_manager::LocalizationConstants::HORIZON_RATE</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00138">hybrid_physics_mode</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00119">idle_time</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00030">carla::traffic_manager::LocalizationConstants::INTER_LANE_CHANGE_DISTANCE</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00968">IsPhysicsEnabled()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00850">IsVehicleStuck()</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00069">carla::traffic_manager::LocalizationToCollisionData::junction_look_ahead_waypoint</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00084">carla::traffic_manager::LocalizationToTrafficLightData::junction_look_ahead_waypoint</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00134">last_lane_change_location</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00049">carla::geom::Vector3D::Length()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00098">local_map</a>, <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00031">carla::traffic_manager::LocalizationConstants::MAX_COLLISION_RADIUS</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00016">carla::traffic_manager::LocalizationConstants::MAXIMUM_HORIZON_LENGTH</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00121">maximum_idle_time</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00015">carla::traffic_manager::LocalizationConstants::MINIMUM_HORIZON_LENGTH</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00019">carla::traffic_manager::LocalizationConstants::MINIMUM_JUNCTION_LOOK_AHEAD</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00066">carla::traffic_manager::LocalizationToCollisionData::overlapping_actors</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00100">parameters</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00048">carla::traffic_manager::LocalizationToPlannerData::physics_enabled</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00076">planner_frame_a</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00077">planner_frame_b</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00072">planner_frame_selector</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00523">PopWaypoint()</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00049">carla::traffic_manager::LocalizationToPlannerData::position_window</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00033">carla::traffic_manager::LocalizationConstants::POSITION_WINDOW_SIZE</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00516">PushWaypoint()</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00067">carla::traffic_manager::LocalizationToCollisionData::safe_point_after_junction</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00535">ScanUnregisteredVehicles()</a>, <a class="el" href="../../db/d20/pugixml_8cpp_source.html#l07444">sort()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00018">carla::traffic_manager::LocalizationConstants::TARGET_WAYPOINT_HORIZON_LENGTH</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00017">carla::traffic_manager::LocalizationConstants::TARGET_WAYPOINT_TIME_HORIZON</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00117">track_traffic</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00082">traffic_light_frame_a</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00083">traffic_light_frame_b</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00074">traffic_light_frame_selector</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00874">TryDestroyVehicle()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00130">unregistered_actors</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00106">carla::traffic_manager::TrackTraffic::UpdateGridPosition()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00833">UpdateIdleTime()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00895">UpdateSwarmVelocities()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00109">vehicle_id_to_index</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00047">carla::traffic_manager::LocalizationToPlannerData::velocity</a>, and <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00070">carla::traffic_manager::LocalizationToCollisionData::velocity</a>.</p>
+<p>References <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00043">carla::traffic_manager::LocalizationToPlannerData::actor</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00064">carla::traffic_manager::LocalizationToCollisionData::actor</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00082">carla::traffic_manager::LocalizationToTrafficLightData::actor</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00094">actor_list</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00113">approached</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00046">carla::traffic_manager::LocalizationToPlannerData::approaching_true_junction</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00627">AssignLaneChange()</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00065">carla::traffic_manager::LocalizationToCollisionData::buffer</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00107">buffer_list</a>, <a class="el" href="../../d9/dd7/Parameters_8h_source.html#l00029">carla::traffic_manager::ChangeLaneInfo::change_lane</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00068">carla::traffic_manager::LocalizationToCollisionData::closest_waypoint</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00083">carla::traffic_manager::LocalizationToTrafficLightData::closest_waypoint</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00079">collision_frame_a</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00080">collision_frame_b</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00073">collision_frame_selector</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00123">current_timestamp</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00044">carla::traffic_manager::LocalizationToPlannerData::deviation</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00019">carla::traffic_manager::DeviationCrossProduct()</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00036">carla::traffic_manager::DeviationDotProduct()</a>, <a class="el" href="../../d9/dd7/Parameters_8h_source.html#l00030">carla::traffic_manager::ChangeLaneInfo::direction</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00045">carla::traffic_manager::LocalizationToPlannerData::distance</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00066">carla::geom::Math::DistanceSquared()</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00058">carla::geom::Math::Dot()</a>, <a class="el" href="../../d7/d66/Timestamp_8h_source.html#l00033">carla::client::Timestamp::elapsed_seconds</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00104">episode_proxy_ls</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00115">final_safe_points</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00162">carla::traffic_manager::Parameters::GetAutoLaneChange()</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00134">carla::traffic_manager::Parameters::GetForceLaneChange()</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00148">carla::traffic_manager::Parameters::GetKeepRightPercentage()</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00150">carla::traffic_manager::TrackTraffic::GetOverlappingVehicles()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00766">GetSafeLocationAfterJunction()</a>, <a class="el" href="../../d0/d27/Vehicle_8cpp_source.html#l00072">carla::client::Vehicle::GetSpeedLimit()</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00237">carla::traffic_manager::TrackTraffic::GetTargetWaypoint()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00980">GetVelocity()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00320">carla::traffic_manager::InMemoryMap::GetWaypoint()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00250">carla::traffic_manager::InMemoryMap::GetWaypointInVicinity()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00020">carla::traffic_manager::LocalizationConstants::HIGHWAY_SPEED</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00022">carla::traffic_manager::LocalizationConstants::HORIZON_RATE</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00138">hybrid_physics_mode</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00119">idle_time</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00030">carla::traffic_manager::LocalizationConstants::INTER_LANE_CHANGE_DISTANCE</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00990">IsPhysicsEnabled()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00872">IsVehicleStuck()</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00069">carla::traffic_manager::LocalizationToCollisionData::junction_look_ahead_waypoint</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00084">carla::traffic_manager::LocalizationToTrafficLightData::junction_look_ahead_waypoint</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00134">last_lane_change_location</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00049">carla::geom::Vector3D::Length()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00098">local_map</a>, <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00031">carla::traffic_manager::LocalizationConstants::MAX_COLLISION_RADIUS</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00016">carla::traffic_manager::LocalizationConstants::MAXIMUM_HORIZON_LENGTH</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00121">maximum_idle_time</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00015">carla::traffic_manager::LocalizationConstants::MINIMUM_HORIZON_LENGTH</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00019">carla::traffic_manager::LocalizationConstants::MINIMUM_JUNCTION_LOOK_AHEAD</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00066">carla::traffic_manager::LocalizationToCollisionData::overlapping_actors</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00100">parameters</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00048">carla::traffic_manager::LocalizationToPlannerData::physics_enabled</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00076">planner_frame_a</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00077">planner_frame_b</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00072">planner_frame_selector</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00545">PopWaypoint()</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00049">carla::traffic_manager::LocalizationToPlannerData::position_window</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00033">carla::traffic_manager::LocalizationConstants::POSITION_WINDOW_SIZE</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00538">PushWaypoint()</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00067">carla::traffic_manager::LocalizationToCollisionData::safe_point_after_junction</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00557">ScanUnregisteredVehicles()</a>, <a class="el" href="../../db/d20/pugixml_8cpp_source.html#l07444">sort()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00018">carla::traffic_manager::LocalizationConstants::TARGET_WAYPOINT_HORIZON_LENGTH</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00017">carla::traffic_manager::LocalizationConstants::TARGET_WAYPOINT_TIME_HORIZON</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00117">track_traffic</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00082">traffic_light_frame_a</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00083">traffic_light_frame_b</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00074">traffic_light_frame_selector</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00896">TryDestroyVehicle()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00130">unregistered_actors</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00106">carla::traffic_manager::TrackTraffic::UpdateGridPosition()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00855">UpdateIdleTime()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00917">UpdateSwarmVelocities()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00109">vehicle_id_to_index</a>, <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00047">carla::traffic_manager::LocalizationToPlannerData::velocity</a>, and <a class="el" href="../../d5/d49/MessengerAndDataTypes_8h_source.html#l00070">carla::traffic_manager::LocalizationToCollisionData::velocity</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -463,9 +475,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Method to determine lane change and obtain target lane waypoint. </p>
 
-<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00605">605</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00627">627</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00113">approached</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00107">buffer_list</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00049">carla::geom::Math::Clamp()</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00066">carla::geom::Math::DistanceSquared()</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00058">carla::geom::Math::Dot()</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00150">carla::traffic_manager::TrackTraffic::GetOverlappingVehicles()</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00227">carla::traffic_manager::TrackTraffic::GetPassingVehicles()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00958">GetVelocity()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00049">carla::geom::Vector3D::Length()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00025">carla::traffic_manager::LocalizationConstants::MAXIMUM_LANE_OBSTACLE_CURVATURE</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00024">carla::traffic_manager::LocalizationConstants::MAXIMUM_LANE_OBSTACLE_DISTANCE</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00023">carla::traffic_manager::LocalizationConstants::MINIMUM_LANE_CHANGE_DISTANCE</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00117">track_traffic</a>, and <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00109">vehicle_id_to_index</a>.</p>
+<p>References <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00113">approached</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00107">buffer_list</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00049">carla::geom::Math::Clamp()</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00066">carla::geom::Math::DistanceSquared()</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00058">carla::geom::Math::Dot()</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00150">carla::traffic_manager::TrackTraffic::GetOverlappingVehicles()</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00227">carla::traffic_manager::TrackTraffic::GetPassingVehicles()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00980">GetVelocity()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00049">carla::geom::Vector3D::Length()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00025">carla::traffic_manager::LocalizationConstants::MAXIMUM_LANE_OBSTACLE_CURVATURE</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00024">carla::traffic_manager::LocalizationConstants::MAXIMUM_LANE_OBSTACLE_DISTANCE</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00023">carla::traffic_manager::LocalizationConstants::MINIMUM_LANE_CHANGE_DISTANCE</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00117">track_traffic</a>, and <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00109">vehicle_id_to_index</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>.</p>
 
@@ -513,11 +525,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00864">864</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00886">886</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00107">buffer_list</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00167">carla::traffic_manager::TrackTraffic::DeleteActor()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00119">idle_time</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00212">carla::traffic_manager::TrackTraffic::RemovePassingVehicle()</a>, and <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00117">track_traffic</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00874">TryDestroyVehicle()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00896">TryDestroyVehicle()</a>.</p>
 
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -566,9 +578,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#ad86aba2b70fb683acdc32460146fd2b5">carla::traffic_manager::PipelineStage</a>.</p>
 
-<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">394</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">406</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00094">actor_list</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00079">collision_frame_a</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00080">collision_frame_b</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00167">carla::traffic_manager::TrackTraffic::DeleteActor()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00104">episode_proxy_ls</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00268">carla::traffic_manager::Parameters::GetHybridPhysicsMode()</a>, <a class="el" href="../../dd/dfa/AtomicActorSet_8h_source.html#l00035">carla::traffic_manager::AtomicActorSet::GetList()</a>, <a class="el" href="../../dd/dfa/AtomicActorSet_8h_source.html#l00081">carla::traffic_manager::AtomicActorSet::GetState()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00136">hero_actor</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00138">hybrid_physics_mode</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00140">kinematic_state_map</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00134">last_lane_change_location</a>, <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>, <a class="el" href="../../da/dfc/StringUtil_8cpp_source.html#l00017">carla::StringUtil::Match()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00111">number_of_vehicles</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00100">parameters</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00076">planner_frame_a</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00077">planner_frame_b</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00091">registered_actors</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00096">registered_actors_state</a>, <a class="el" href="../../dd/dfa/AtomicActorSet_8h_source.html#l00064">carla::traffic_manager::AtomicActorSet::Remove()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00117">track_traffic</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00082">traffic_light_frame_a</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00083">traffic_light_frame_b</a>, and <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00109">vehicle_id_to_index</a>.</p>
+<p>References <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00094">actor_list</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00079">collision_frame_a</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00080">collision_frame_b</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00167">carla::traffic_manager::TrackTraffic::DeleteActor()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00104">episode_proxy_ls</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00268">carla::traffic_manager::Parameters::GetHybridPhysicsMode()</a>, <a class="el" href="../../dd/dfa/AtomicActorSet_8h_source.html#l00035">carla::traffic_manager::AtomicActorSet::GetList()</a>, <a class="el" href="../../dd/dfa/AtomicActorSet_8h_source.html#l00081">carla::traffic_manager::AtomicActorSet::GetState()</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00090">carla::traffic_manager::Parameters::GetSynchronousMode()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00136">hero_actor</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00138">hybrid_physics_mode</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00140">kinematic_state_map</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00134">last_lane_change_location</a>, <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>, <a class="el" href="../../da/dfc/StringUtil_8cpp_source.html#l00017">carla::StringUtil::Match()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00111">number_of_vehicles</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00100">parameters</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00076">planner_frame_a</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00077">planner_frame_b</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00091">registered_actors</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00096">registered_actors_state</a>, <a class="el" href="../../dd/dfa/AtomicActorSet_8h_source.html#l00064">carla::traffic_manager::AtomicActorSet::Remove()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00144">run_step</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00146">step_execution_mutex</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00148">step_execution_trigger</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00117">track_traffic</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00082">traffic_light_frame_a</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00083">traffic_light_frame_b</a>, and <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00109">vehicle_id_to_index</a>.</p>
 
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -607,7 +619,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#ac2eb821bdf48b71f7319eab62ea81994">carla::traffic_manager::PipelineStage</a>.</p>
 
-<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00493">493</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00515">515</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00079">collision_frame_a</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00080">collision_frame_b</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00073">collision_frame_selector</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00087">collision_messenger</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00076">planner_frame_a</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00077">planner_frame_b</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00072">planner_frame_selector</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00085">planner_messenger</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00082">traffic_light_frame_a</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00083">traffic_light_frame_b</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00074">traffic_light_frame_selector</a>, and <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00089">traffic_light_messenger</a>.</p>
 
@@ -637,7 +649,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>A simple method used to draw waypoint buffer ahead of a vehicle. </p>
 
-<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00506">506</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00528">528</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00102">debug_helper</a>, and <a class="el" href="../../d2/d01/DebugHelper_8cpp_source.html#l00038">carla::client::DebugHelper::DrawLine()</a>.</p>
 
@@ -685,9 +697,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00744">744</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00766">766</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00516">PushWaypoint()</a>.</p>
+<p>References <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00538">PushWaypoint()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>.</p>
 
@@ -735,11 +747,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00958">958</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00980">980</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00140">kinematic_state_map</a>, and <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00130">unregistered_actors</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00605">AssignLaneChange()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00833">UpdateIdleTime()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00627">AssignLaneChange()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00855">UpdateIdleTime()</a>.</p>
 
 <p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -775,7 +787,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00968">968</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00990">990</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00140">kinematic_state_map</a>.</p>
 
@@ -815,7 +827,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00850">850</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00872">872</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
 
 <p>References <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00027">carla::traffic_manager::LocalizationConstants::BLOCKED_TIME_THRESHOLD</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00123">current_timestamp</a>, <a class="el" href="../../d7/d66/Timestamp_8h_source.html#l00033">carla::client::Timestamp::elapsed_seconds</a>, and <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00119">idle_time</a>.</p>
 
@@ -871,7 +883,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00523">523</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00545">545</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00212">carla::traffic_manager::TrackTraffic::RemovePassingVehicle()</a>, and <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00117">track_traffic</a>.</p>
 
@@ -939,11 +951,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Methods to modify waypoint buffer and track traffic. </p>
 
-<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00516">516</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00538">538</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00117">track_traffic</a>, and <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00198">carla::traffic_manager::TrackTraffic::UpdatePassingVehicle()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00744">GetSafeLocationAfterJunction()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00766">GetSafeLocationAfterJunction()</a>.</p>
 
 <p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -961,6 +973,37 @@ Additional Inherited Members</h2></td></tr>
 </div>
 <div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage_a549f9beeb6d34253f00e782f9c9d3f62_icgraph.svg" width="100%" height="369"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae147c5ea400b9d174c16973bc3fbd544"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool carla::traffic_manager::LocalizationStage::RunStep </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Method to trigger initiation of pipeline in synchronous mode. </p>
+
+<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">394</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00090">carla::traffic_manager::Parameters::GetSynchronousMode()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00100">parameters</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00144">run_step</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00146">step_execution_mutex</a>, and <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00148">step_execution_trigger</a>.</p>
+
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage_ae147c5ea400b9d174c16973bc3fbd544_cgraph.svg" width="516" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -992,27 +1035,27 @@ Additional Inherited Members</h2></td></tr>
 <p>Get all actors of the world</p>
 <p>Filter based on wildcard_pattern </p>
 
-<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00535">535</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00557">557</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
 
 <p>References <a class="el" href="../../dd/dfa/AtomicActorSet_8h_source.html#l00087">carla::traffic_manager::AtomicActorSet::Contains()</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00167">carla::traffic_manager::TrackTraffic::DeleteActor()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00104">episode_proxy_ls</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00288">carla::traffic_manager::InMemoryMap::GetPedWaypoint()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00320">carla::traffic_manager::InMemoryMap::GetWaypoint()</a>, <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00250">carla::traffic_manager::InMemoryMap::GetWaypointInVicinity()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00098">local_map</a>, <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>, <a class="el" href="../../da/dfc/StringUtil_8cpp_source.html#l00017">carla::StringUtil::Match()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00091">registered_actors</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00117">track_traffic</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00130">unregistered_actors</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00026">carla::traffic_manager::LocalizationConstants::UNREGISTERED_ACTORS_SCAN_INTERVAL</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00127">unregistered_scan_duration</a>, <a class="el" href="../../d1/dd6/LocalizationUtils_8cpp_source.html#l00065">carla::traffic_manager::TrackTraffic::UpdateUnregisteredGridPosition()</a>, and <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00109">vehicle_id_to_index</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>.</p>
 
-<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage_a1d47d833e5d7c2fc58ec0da3b83927ac_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage_a1d47d833e5d7c2fc58ec0da3b83927ac_icgraph.svg" width="516" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1042,27 +1085,27 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00874">874</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00896">896</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00864">CleanActor()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00123">current_timestamp</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00028">carla::traffic_manager::LocalizationConstants::DELTA_TIME_BETWEEN_DESTRUCTIONS</a>, <a class="el" href="../../dd/dfa/AtomicActorSet_8h_source.html#l00073">carla::traffic_manager::AtomicActorSet::Destroy()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00125">elapsed_last_actor_destruction</a>, <a class="el" href="../../d7/d66/Timestamp_8h_source.html#l00033">carla::client::Timestamp::elapsed_seconds</a>, and <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00091">registered_actors</a>.</p>
+<p>References <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00886">CleanActor()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00123">current_timestamp</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00028">carla::traffic_manager::LocalizationConstants::DELTA_TIME_BETWEEN_DESTRUCTIONS</a>, <a class="el" href="../../dd/dfa/AtomicActorSet_8h_source.html#l00073">carla::traffic_manager::AtomicActorSet::Destroy()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00125">elapsed_last_actor_destruction</a>, <a class="el" href="../../d7/d66/Timestamp_8h_source.html#l00033">carla::client::Timestamp::elapsed_seconds</a>, and <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00091">registered_actors</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>.</p>
 
-<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage_aa23e11326c0ca8e8fecef1a67cd5901f_cgraph.svg" width="100%" height="415"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage_aa23e11326c0ca8e8fecef1a67cd5901f_icgraph.svg" width="468" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1094,27 +1137,27 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Methods for idle vehicle elimination. </p>
 
-<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00833">833</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00855">855</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00123">current_timestamp</a>, <a class="el" href="../../d7/d66/Timestamp_8h_source.html#l00033">carla::client::Timestamp::elapsed_seconds</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00958">GetVelocity()</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a46c3995219197dcef2980adce8d1cfbaad382816a3cbeed082c9e216e7392eed1">carla::rpc::Green</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00119">idle_time</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00121">maximum_idle_time</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00029">carla::traffic_manager::LocalizationConstants::STOPPED_VELOCITY_THRESHOLD</a>.</p>
+<p>References <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00123">current_timestamp</a>, <a class="el" href="../../d7/d66/Timestamp_8h_source.html#l00033">carla::client::Timestamp::elapsed_seconds</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00980">GetVelocity()</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a46c3995219197dcef2980adce8d1cfbaad382816a3cbeed082c9e216e7392eed1">carla::rpc::Green</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00119">idle_time</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00121">maximum_idle_time</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00029">carla::traffic_manager::LocalizationConstants::STOPPED_VELOCITY_THRESHOLD</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>.</p>
 
-<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage_ab03e1973d84469a29fb6f040e61e54cd_cgraph.svg" width="532" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage_ab03e1973d84469a29fb6f040e61e54cd_icgraph.svg" width="500" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1145,27 +1188,27 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Methods for actor state management. </p>
 
-<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00895">895</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00917">917</a> of file <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html">LocalizationStage.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00094">actor_list</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00066">carla::geom::Math::DistanceSquared()</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00058">carla::geom::Math::Dot()</a>, <a class="el" href="../../d0/dc8/PIDController_8cpp_source.html#l00023">carla::traffic_manager::PIDControllerConstants::dt</a>, <a class="el" href="../../d9/dbc/Parameters_8cpp_source.html#l00090">carla::traffic_manager::Parameters::GetSynchronousMode()</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00136">hero_actor</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00034">carla::traffic_manager::LocalizationConstants::HYBRID_MODE_DT</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00138">hybrid_physics_mode</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00140">kinematic_state_map</a>, <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00100">parameters</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00032">carla::traffic_manager::LocalizationConstants::PHYSICS_RADIUS</a>, and <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00142">previous_update_instance</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>.</p>
 
-<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage_a9fd1c19ac150ab564430b48bdfd87ca3_cgraph.svg" width="100%" height="427"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage_a9fd1c19ac150ab564430b48bdfd87ca3_icgraph.svg" width="492" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1196,7 +1239,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00094">94</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00895">UpdateSwarmVelocities()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00917">UpdateSwarmVelocities()</a>.</p>
 
 </div>
 </div>
@@ -1222,7 +1265,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00113">113</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00605">AssignLaneChange()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00627">AssignLaneChange()</a>.</p>
 
 </div>
 </div>
@@ -1249,7 +1292,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00107">107</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00605">AssignLaneChange()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00864">CleanActor()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00039">LocalizationStage()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00627">AssignLaneChange()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00886">CleanActor()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00039">LocalizationStage()</a>.</p>
 
 </div>
 </div>
@@ -1275,7 +1318,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00079">79</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00493">DataSender()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00515">DataSender()</a>.</p>
 
 </div>
 </div>
@@ -1299,7 +1342,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00080">80</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00493">DataSender()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00515">DataSender()</a>.</p>
 
 </div>
 </div>
@@ -1323,7 +1366,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00073">73</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00493">DataSender()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00039">LocalizationStage()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00515">DataSender()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00039">LocalizationStage()</a>.</p>
 
 </div>
 </div>
@@ -1349,7 +1392,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00087">87</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00493">DataSender()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00515">DataSender()</a>.</p>
 
 </div>
 </div>
@@ -1375,7 +1418,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00123">123</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00850">IsVehicleStuck()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00874">TryDestroyVehicle()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00833">UpdateIdleTime()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00872">IsVehicleStuck()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00896">TryDestroyVehicle()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00855">UpdateIdleTime()</a>.</p>
 
 </div>
 </div>
@@ -1401,7 +1444,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00102">102</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00506">DrawBuffer()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00528">DrawBuffer()</a>.</p>
 
 </div>
 </div>
@@ -1427,7 +1470,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00125">125</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00874">TryDestroyVehicle()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00896">TryDestroyVehicle()</a>.</p>
 
 </div>
 </div>
@@ -1453,7 +1496,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00104">104</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00535">ScanUnregisteredVehicles()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00557">ScanUnregisteredVehicles()</a>.</p>
 
 </div>
 </div>
@@ -1505,7 +1548,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00136">136</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00895">UpdateSwarmVelocities()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00917">UpdateSwarmVelocities()</a>.</p>
 
 </div>
 </div>
@@ -1531,7 +1574,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00138">138</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00895">UpdateSwarmVelocities()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00917">UpdateSwarmVelocities()</a>.</p>
 
 </div>
 </div>
@@ -1557,7 +1600,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00119">119</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00864">CleanActor()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00850">IsVehicleStuck()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00833">UpdateIdleTime()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00886">CleanActor()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00872">IsVehicleStuck()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00855">UpdateIdleTime()</a>.</p>
 
 </div>
 </div>
@@ -1583,7 +1626,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00140">140</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">DataReceiver()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00958">GetVelocity()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00968">IsPhysicsEnabled()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00895">UpdateSwarmVelocities()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00980">GetVelocity()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00990">IsPhysicsEnabled()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00917">UpdateSwarmVelocities()</a>.</p>
 
 </div>
 </div>
@@ -1609,7 +1652,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00134">134</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">DataReceiver()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>.</p>
 
 </div>
 </div>
@@ -1635,7 +1678,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00098">98</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00535">ScanUnregisteredVehicles()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00557">ScanUnregisteredVehicles()</a>.</p>
 
 </div>
 </div>
@@ -1661,7 +1704,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00121">121</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00039">LocalizationStage()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00833">UpdateIdleTime()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00039">LocalizationStage()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00855">UpdateIdleTime()</a>.</p>
 
 </div>
 </div>
@@ -1687,7 +1730,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00111">111</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00039">LocalizationStage()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00039">LocalizationStage()</a>.</p>
 
 </div>
 </div>
@@ -1713,7 +1756,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00100">100</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00895">UpdateSwarmVelocities()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">RunStep()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00917">UpdateSwarmVelocities()</a>.</p>
 
 </div>
 </div>
@@ -1739,7 +1782,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00076">76</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00493">DataSender()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00515">DataSender()</a>.</p>
 
 </div>
 </div>
@@ -1763,7 +1806,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00077">77</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00493">DataSender()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00515">DataSender()</a>.</p>
 
 </div>
 </div>
@@ -1789,7 +1832,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00072">72</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00493">DataSender()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00039">LocalizationStage()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00515">DataSender()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00039">LocalizationStage()</a>.</p>
 
 </div>
 </div>
@@ -1815,7 +1858,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00085">85</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00493">DataSender()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00515">DataSender()</a>.</p>
 
 </div>
 </div>
@@ -1841,7 +1884,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00142">142</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00039">LocalizationStage()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00895">UpdateSwarmVelocities()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00039">LocalizationStage()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00917">UpdateSwarmVelocities()</a>.</p>
 
 </div>
 </div>
@@ -1867,7 +1910,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00091">91</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">DataReceiver()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00535">ScanUnregisteredVehicles()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00874">TryDestroyVehicle()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00557">ScanUnregisteredVehicles()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00896">TryDestroyVehicle()</a>.</p>
 
 </div>
 </div>
@@ -1893,7 +1936,33 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00096">96</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00039">LocalizationStage()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00039">LocalizationStage()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad1cf57b6e51ae9ef573b33a937d4bd42"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;bool&gt; carla::traffic_manager::LocalizationStage::run_step {false}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Step runner flag. </p>
+
+<p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00144">144</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">RunStep()</a>.</p>
 
 </div>
 </div>
@@ -1921,6 +1990,58 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a96fecbfc91a0aee65c9c7223c9c2cba9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex carla::traffic_manager::LocalizationStage::step_execution_mutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mutex for progressing synchronous execution. </p>
+
+<p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00146">146</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">RunStep()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6092a75dedac624107eb79f31af07d9f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::condition_variable carla::traffic_manager::LocalizationStage::step_execution_trigger</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Condition variables for progressing synchronous execution. </p>
+
+<p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00148">148</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">RunStep()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a96d4e9ed028257c1d54d46aa9ab03b7c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1943,7 +2064,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00117">117</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00605">AssignLaneChange()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00864">CleanActor()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">DataReceiver()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00523">PopWaypoint()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00516">PushWaypoint()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00535">ScanUnregisteredVehicles()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00627">AssignLaneChange()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00886">CleanActor()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00545">PopWaypoint()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00538">PushWaypoint()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00557">ScanUnregisteredVehicles()</a>.</p>
 
 </div>
 </div>
@@ -1969,7 +2090,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00082">82</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00493">DataSender()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00515">DataSender()</a>.</p>
 
 </div>
 </div>
@@ -1993,7 +2114,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00083">83</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00493">DataSender()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00515">DataSender()</a>.</p>
 
 </div>
 </div>
@@ -2017,7 +2138,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00074">74</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00493">DataSender()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00039">LocalizationStage()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00515">DataSender()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00039">LocalizationStage()</a>.</p>
 
 </div>
 </div>
@@ -2043,7 +2164,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00089">89</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00493">DataSender()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00515">DataSender()</a>.</p>
 
 </div>
 </div>
@@ -2069,7 +2190,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00130">130</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00958">GetVelocity()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00535">ScanUnregisteredVehicles()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00980">GetVelocity()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00557">ScanUnregisteredVehicles()</a>.</p>
 
 </div>
 </div>
@@ -2095,7 +2216,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00127">127</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00535">ScanUnregisteredVehicles()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00557">ScanUnregisteredVehicles()</a>.</p>
 
 </div>
 </div>
@@ -2121,7 +2242,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html#l00109">109</a> of file <a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">LocalizationStage.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00605">AssignLaneChange()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00394">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00535">ScanUnregisteredVehicles()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00079">Action()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00627">AssignLaneChange()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00406">DataReceiver()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00557">ScanUnregisteredVehicles()</a>.</p>
 
 </div>
 </div>
