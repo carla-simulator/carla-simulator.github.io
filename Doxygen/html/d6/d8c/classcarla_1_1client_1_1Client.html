@@ -98,8 +98,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4463e68e0176bc652ca54e96151670de"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8c/classcarla_1_1client_1_1Client.html#a4463e68e0176bc652ca54e96151670de">Client</a> (const std::string &amp;host, uint16_t port, size_t worker_threads=0u)</td></tr>
 <tr class="memdesc:a4463e68e0176bc652ca54e96151670de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a carla client.  <a href="#a4463e68e0176bc652ca54e96151670de">More...</a><br /></td></tr>
 <tr class="separator:a4463e68e0176bc652ca54e96151670de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a882cce4041db12f2470ea26da8b423e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d1f/classcarla_1_1client_1_1World.html">World</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8c/classcarla_1_1client_1_1Client.html#a882cce4041db12f2470ea26da8b423e4">GenerateOpenDriveWorld</a> (std::string opendrive) const </td></tr>
-<tr class="separator:a882cce4041db12f2470ea26da8b423e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3d5db635c5221aaa8e392aaa94c6dce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d1f/classcarla_1_1client_1_1World.html">World</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8c/classcarla_1_1client_1_1Client.html#ac3d5db635c5221aaa8e392aaa94c6dce">GenerateOpenDriveWorld</a> (std::string opendrive, double resolution=2.f, double wall_height=1.f, double additional_width=.6f) const </td></tr>
+<tr class="separator:ac3d5db635c5221aaa8e392aaa94c6dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae289f47cbc51bee4e69d51ccab17b9cb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8c/classcarla_1_1client_1_1Client.html#ae289f47cbc51bee4e69d51ccab17b9cb">GetAvailableMaps</a> () const </td></tr>
 <tr class="separator:ae289f47cbc51bee4e69d51ccab17b9cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afaa029428abb085f5ec355fe172a242c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d8c/classcarla_1_1client_1_1Client.html#afaa029428abb085f5ec355fe172a242c">GetClientVersion</a> () const </td></tr>
@@ -200,7 +200,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00134">134</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00142">142</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
 
 </div>
 </div>
@@ -237,7 +237,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00116">116</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00124">124</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
 
 </div>
 </div>
@@ -273,11 +273,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00122">122</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00130">130</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a882cce4041db12f2470ea26da8b423e4"></a>
+<a class="anchor" id="ac3d5db635c5221aaa8e392aaa94c6dce"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -288,8 +288,30 @@ Private Attributes</h2></td></tr>
           <td class="memname"><a class="el" href="../../db/d1f/classcarla_1_1client_1_1World.html">World</a> carla::client::Client::GenerateOpenDriveWorld </td>
           <td>(</td>
           <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>opendrive</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>opendrive</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>resolution</em> = <code>2.f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>wall_height</em> = <code>1.f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>additional_width</em> = <code>.6f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -378,7 +400,7 @@ Private Attributes</h2></td></tr>
 
 <p>Return an instance of the Episode currently active in the simulator. </p>
 
-<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00080">80</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00088">88</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
 
 </div>
 </div>
@@ -406,7 +428,7 @@ Private Attributes</h2></td></tr>
 
 <p>Return an instance of the TrafficManager currently active in the simulator. </p>
 
-<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00075">75</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00083">83</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
 
 </div>
 </div>
@@ -485,7 +507,7 @@ Private Attributes</h2></td></tr>
 
 <p>Return an instance of the world currently active in the simulator. </p>
 
-<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00070">70</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00078">78</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
 
 </div>
 </div>
@@ -584,7 +606,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00104">104</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00112">112</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
 
 </div>
 </div>
@@ -610,7 +632,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00112">112</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00120">120</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
 
 </div>
 </div>
@@ -636,7 +658,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00108">108</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00116">116</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
 
 </div>
 </div>
@@ -707,7 +729,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00100">100</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00108">108</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
 
 </div>
 </div>
@@ -749,7 +771,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00096">96</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00104">104</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
 
 </div>
 </div>
@@ -785,7 +807,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00092">92</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00100">100</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
 
 </div>
 </div>
@@ -811,7 +833,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00084">84</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00092">92</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
 
 </div>
 </div>
@@ -837,7 +859,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00088">88</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00096">96</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
 
 </div>
 </div>
@@ -860,7 +882,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00130">130</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/de3/client_2Client_8h_source.html#l00138">138</a> of file <a class="el" href="../../dd/de3/client_2Client_8h_source.html">client/Client.h</a>.</p>
 
 </div>
 </div>
