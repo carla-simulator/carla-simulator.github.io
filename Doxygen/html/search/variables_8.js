@@ -14,7 +14,7 @@ var searchData=
   ['headindex',['headIndex',['../d4/dea/structmoodycamel_1_1ConcurrentQueue_1_1ProducerBase.html#af1eeef14eaabdf2f095adf69bec68555',1,'moodycamel::ConcurrentQueue::ProducerBase']]],
   ['height',['Height',['../d5/db2/classURoadMap.html#a197d33a7c9d7947e67b511c15781fccf',1,'URoadMap::Height()'],['../d2/d05/structcarla_1_1sensor_1_1s11n_1_1ImageSerializer_1_1ImageHeader.html#a804fe87291355b356a8c24b30fae4a63',1,'carla::sensor::s11n::ImageSerializer::ImageHeader::height()']]],
   ['helper',['Helper',['../dc/dc6/classCarlaReplayer.html#ac39e2e5c4ad5152b9e1e98da3712b3b5',1,'CarlaReplayer']]],
-  ['hero_5factor',['hero_actor',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a085f34bd14f67ffc3574d2db2adcb960',1,'carla::traffic_manager::LocalizationStage']]],
+  ['hero_5factors',['hero_actors',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#aa7e4e284abf6523a8070a7188149f7e6',1,'carla::traffic_manager::LocalizationStage']]],
   ['highbeam',['HighBeam',['../de/d9e/structFVehicleLightState.html#ab9d1ccfd8d685cca21b9e3e0d009ae1c',1,'FVehicleLightState']]],
   ['highway_5flateral_5fparameters',['highway_lateral_parameters',['../da/d5d/classcarla_1_1traffic__manager_1_1MotionPlannerStage.html#ae4fc03f05f80c9ce895a7cb2eb0a2691',1,'carla::traffic_manager::MotionPlannerStage']]],
   ['highway_5flongitudinal_5fparameters',['highway_longitudinal_parameters',['../da/d5d/classcarla_1_1traffic__manager_1_1MotionPlannerStage.html#a3d168a2de63e26156179ed3038fe8b61',1,'carla::traffic_manager::MotionPlannerStage']]],

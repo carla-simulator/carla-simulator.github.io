@@ -80,7 +80,7 @@ var searchData=
   ['updatepositions',['UpdatePositions',['../dc/dc6/classCarlaReplayer.html#a90bb49a890e2a2cd8b85152f17ca8fed',1,'CarlaReplayer']]],
   ['updateseeds',['UpdateSeeds',['../d1/ddb/classACityMapGenerator.html#aa35286117be937f54d1c6c9a44380311',1,'ACityMapGenerator']]],
   ['updateswarmvelocities',['UpdateSwarmVelocities',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a9fd1c19ac150ab564430b48bdfd87ca3',1,'carla::traffic_manager::LocalizationStage']]],
-  ['updateunregisteredgridposition',['UpdateUnregisteredGridPosition',['../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#a98b495e4f5c3d6b7612303f609fff72c',1,'carla::traffic_manager::TrackTraffic']]],
+  ['updateunregisteredgridposition',['UpdateUnregisteredGridPosition',['../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#aa77bd9457c2a55f1c566a68d3a12604b',1,'carla::traffic_manager::TrackTraffic']]],
   ['updatevehicles',['UpdateVehicles',['../d9/dc2/classcarla_1_1nav_1_1Navigation.html#a6b7d72d6c0d11bd88a5b9fae3e230ed2',1,'carla::nav::Navigation']]],
   ['updatevehiclesincrowd',['UpdateVehiclesInCrowd',['../d1/d83/classcarla_1_1client_1_1detail_1_1WalkerNavigation.html#a109552fa675fe65e281e3ed6f3c75204',1,'carla::client::detail::WalkerNavigation']]],
   ['updatewheelsfriction',['UpdateWheelsFriction',['../dc/db9/classAFrictionTrigger.html#a2e8031d646547a9308c5654d7d71deba',1,'AFrictionTrigger']]],
