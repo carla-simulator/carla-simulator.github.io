@@ -128,6 +128,10 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a53b3ceb17c3c9204924836331a440a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ad94ae5130a66011869bab507aafa52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/classATrafficLightManager.html#a5ad94ae5130a66011869bab507aafa52">GenerateTriggerBoxesForTrafficLights</a> ()</td></tr>
 <tr class="separator:a5ad94ae5130a66011869bab507aafa52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeb71011301ca700c43e297642d52168"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/classATrafficLightManager.html#adeb71011301ca700c43e297642d52168">RemoveAttachedProps</a> (TArray&lt; <a class="el" href="../../d1/da4/classAActor.html">AActor</a> * &gt; Actors) const </td></tr>
+<tr class="separator:adeb71011301ca700c43e297642d52168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac094919cdd30e0e6da0deecc49719405"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/classATrafficLightManager.html#ac094919cdd30e0e6da0deecc49719405">RemoveRoadrunnerProps</a> () const </td></tr>
+<tr class="separator:ac094919cdd30e0e6da0deecc49719405"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10e0e7b8640c0665fa1cef32939c0437"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/classATrafficLightManager.html#a10e0e7b8640c0665fa1cef32939c0437">ResetTrafficLightObjects</a> ()</td></tr>
 <tr class="separator:a10e0e7b8640c0665fa1cef32939c0437"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ed532138f13a06c64aaa7b513114832"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/da5/classATrafficLightManager.html#a1ed532138f13a06c64aaa7b513114832">SpawnSignals</a> ()</td></tr>
@@ -180,7 +184,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00019">19</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
 
-<p>References <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00095">SceneComponent</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00092">SignComponentModels</a>, <a class="el" href="../../d5/dfc/SignalType_8cpp_source.html#l00033">carla::road::SignalType::StopSign()</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00085">TrafficLightModel</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00089">TrafficSignsModels</a>, and <a class="el" href="../../d5/dfc/SignalType_8cpp_source.html#l00030">carla::road::SignalType::YieldSign()</a>.</p>
+<p>References <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00099">SceneComponent</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00096">SignComponentModels</a>, <a class="el" href="../../d5/dfc/SignalType_8cpp_source.html#l00033">carla::road::SignalType::StopSign()</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00089">TrafficLightModel</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00093">TrafficSignsModels</a>, and <a class="el" href="../../d5/dfc/SignalType_8cpp_source.html#l00030">carla::road::SignalType::YieldSign()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -216,9 +220,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00168">168</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00170">170</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00129">GenerateSignalsAndTrafficLights()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00183">ResetTrafficLightObjects()</a>, and <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00100">TrafficLightsGenerated</a>.</p>
+<p>References <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00129">GenerateSignalsAndTrafficLights()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00185">ResetTrafficLightObjects()</a>, and <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00104">TrafficLightsGenerated</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -247,9 +251,9 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00129">129</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00374">GenerateTriggerBoxesForTrafficLights()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00290">SpawnSignals()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00223">SpawnTrafficLights()</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00085">TrafficLightModel</a>, and <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00100">TrafficLightsGenerated</a>.</p>
+<p>References <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00376">GenerateTriggerBoxesForTrafficLights()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00471">RemoveRoadrunnerProps()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00292">SpawnSignals()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00225">SpawnTrafficLights()</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00089">TrafficLightModel</a>, and <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00104">TrafficLightsGenerated</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00168">BeginPlay()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00170">BeginPlay()</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -311,11 +315,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00355">355</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00357">357</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00115">GetMap()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00374">GenerateTriggerBoxesForTrafficLights()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00376">GenerateTriggerBoxesForTrafficLights()</a>.</p>
 
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -360,9 +364,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00374">374</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00376">376</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d6/d09/Math_8cpp_source.html#l00138">carla::geom::Math::GenerateRange()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00355">GenerateTriggerBox()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00115">GetMap()</a>, and <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00079">TrafficSignComponents</a>.</p>
+<p>References <a class="el" href="../../d6/d09/Math_8cpp_source.html#l00138">carla::geom::Math::GenerateRange()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00357">GenerateTriggerBox()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00115">GetMap()</a>, and <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00083">TrafficSignComponents</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00129">GenerateSignalsAndTrafficLights()</a>.</p>
 
@@ -402,9 +406,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00451">451</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00453">453</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
 
-<p>References <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00075">TrafficControllers</a>.</p>
+<p>References <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00079">TrafficControllers</a>.</p>
 
 </div>
 </div>
@@ -423,9 +427,9 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00115">115</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
 
-<p>References <a class="el" href="../../da/d5a/OpenDriveParser_8cpp_source.html#l00027">carla::opendrive::OpenDriveParser::Load()</a>, <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00053">UOpenDrive::LoadXODR()</a>, and <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00097">Map</a>.</p>
+<p>References <a class="el" href="../../da/d5a/OpenDriveParser_8cpp_source.html#l00027">carla::opendrive::OpenDriveParser::Load()</a>, <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00053">UOpenDrive::LoadXODR()</a>, and <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00101">Map</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00355">GenerateTriggerBox()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00374">GenerateTriggerBoxesForTrafficLights()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00052">RegisterLightComponent()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00290">SpawnSignals()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00223">SpawnTrafficLights()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00357">GenerateTriggerBox()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00376">GenerateTriggerBoxesForTrafficLights()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00052">RegisterLightComponent()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00292">SpawnSignals()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00225">SpawnTrafficLights()</a>.</p>
 
 <p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -463,9 +467,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00441">441</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00443">443</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
 
-<p>References <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00071">TrafficGroups</a>.</p>
+<p>References <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00075">TrafficGroups</a>.</p>
 
 </div>
 </div>
@@ -483,9 +487,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00460">460</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00462">462</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
 
-<p>References <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00079">TrafficSignComponents</a>.</p>
+<p>References <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00083">TrafficSignComponents</a>.</p>
 
 </div>
 </div>
@@ -505,9 +509,9 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00052">52</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00115">GetMap()</a>, <a class="el" href="../../de/da0/TrafficLightGroup_8h_source.html#l00082">ATrafficLightGroup::JunctionId</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00075">TrafficControllers</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00071">TrafficGroups</a>, and <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00079">TrafficSignComponents</a>.</p>
+<p>References <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00115">GetMap()</a>, <a class="el" href="../../de/da0/TrafficLightGroup_8h_source.html#l00082">ATrafficLightGroup::JunctionId</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00079">TrafficControllers</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00075">TrafficGroups</a>, and <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00083">TrafficSignComponents</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00183">ResetTrafficLightObjects()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00223">SpawnTrafficLights()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00185">ResetTrafficLightObjects()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00225">SpawnTrafficLights()</a>.</p>
 
 <p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -531,6 +535,44 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="adeb71011301ca700c43e297642d52168"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ATrafficLightManager::RemoveAttachedProps </td>
+          <td>(</td>
+          <td class="paramtype">TArray&lt; <a class="el" href="../../d1/da4/classAActor.html">AActor</a> * &gt;&#160;</td>
+          <td class="paramname"><em>Actors</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00497">497</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00471">RemoveRoadrunnerProps()</a>.</p>
+
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/da5/classATrafficLightManager_adeb71011301ca700c43e297642d52168_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="af948ce0f133fe34b4be739b00e2fa0fd"></a>
 <div class="memitem">
 <div class="memproto">
@@ -544,9 +586,58 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00148">148</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00150">150</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
 
-<p>References <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00075">TrafficControllers</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00071">TrafficGroups</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00100">TrafficLightsGenerated</a>, and <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00082">TrafficSigns</a>.</p>
+<p>References <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00079">TrafficControllers</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00075">TrafficGroups</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00104">TrafficLightsGenerated</a>, and <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00086">TrafficSigns</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac094919cdd30e0e6da0deecc49719405"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ATrafficLightManager::RemoveRoadrunnerProps </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00471">471</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00497">RemoveAttachedProps()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00129">GenerateSignalsAndTrafficLights()</a>.</p>
+
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/da5/classATrafficLightManager_ac094919cdd30e0e6da0deecc49719405_cgraph.svg" width="424" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/da5/classATrafficLightManager_ac094919cdd30e0e6da0deecc49719405_icgraph.svg" width="648" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -571,27 +662,27 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00183">183</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00185">185</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d7/d63/TrafficLightController_8cpp_source.html#l00037">UTrafficLightController::EmptyTrafficLights()</a>, <a class="el" href="../../de/da0/TrafficLightGroup_8h_source.html#l00029">ATrafficLightGroup::GetControllers()</a>, <a class="el" href="../../de/da0/TrafficLightGroup_8h_source.html#l00082">ATrafficLightGroup::JunctionId</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00052">RegisterLightComponent()</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00075">TrafficControllers</a>, and <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00071">TrafficGroups</a>.</p>
+<p>References <a class="el" href="../../d7/d63/TrafficLightController_8cpp_source.html#l00037">UTrafficLightController::EmptyTrafficLights()</a>, <a class="el" href="../../de/da0/TrafficLightGroup_8h_source.html#l00029">ATrafficLightGroup::GetControllers()</a>, <a class="el" href="../../de/da0/TrafficLightGroup_8h_source.html#l00082">ATrafficLightGroup::JunctionId</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00052">RegisterLightComponent()</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00079">TrafficControllers</a>, and <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00075">TrafficGroups</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00168">BeginPlay()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00170">BeginPlay()</a>.</p>
 
-<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/da5/classATrafficLightManager_a10e0e7b8640c0665fa1cef32939c0437_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/da5/classATrafficLightManager_a10e0e7b8640c0665fa1cef32939c0437_icgraph.svg" width="392" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -620,27 +711,27 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00290">290</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00292">292</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00115">GetMap()</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00096">carla::log_warning()</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00092">SignComponentModels</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00079">TrafficSignComponents</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00082">TrafficSigns</a>, and <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00089">TrafficSignsModels</a>.</p>
+<p>References <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00115">GetMap()</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00096">carla::log_warning()</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00096">SignComponentModels</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00083">TrafficSignComponents</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00086">TrafficSigns</a>, and <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00093">TrafficSignsModels</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00129">GenerateSignalsAndTrafficLights()</a>.</p>
 
-<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/da5/classATrafficLightManager_a1ed532138f13a06c64aaa7b513114832_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/da5/classATrafficLightManager_a1ed532138f13a06c64aaa7b513114832_icgraph.svg" width="611" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -669,27 +760,27 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00223">223</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00225">225</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00115">GetMap()</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00096">carla::log_warning()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00052">RegisterLightComponent()</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00257">ATrafficLightBase::SetTimeIsFrozen()</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00085">TrafficLightModel</a>, and <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00082">TrafficSigns</a>.</p>
+<p>References <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00115">GetMap()</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00096">carla::log_warning()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00052">RegisterLightComponent()</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00257">ATrafficLightBase::SetTimeIsFrozen()</a>, <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00089">TrafficLightModel</a>, and <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00086">TrafficSigns</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00129">GenerateSignalsAndTrafficLights()</a>.</p>
 
-<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/da5/classATrafficLightManager_a86d8da5023cf7523924fa33e0feb2e0f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/da5/classATrafficLightManager_a86d8da5023cf7523924fa33e0feb2e0f_icgraph.svg" width="611" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -716,7 +807,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00067">67</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00071">71</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
 
 </div>
 </div>
@@ -738,7 +829,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00097">97</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00101">101</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00115">GetMap()</a>.</p>
 
@@ -762,7 +853,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00095">95</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00099">99</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00019">ATrafficLightManager()</a>.</p>
 
@@ -786,9 +877,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00092">92</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00096">96</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00019">ATrafficLightManager()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00290">SpawnSignals()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00019">ATrafficLightManager()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00292">SpawnSignals()</a>.</p>
 
 </div>
 </div>
@@ -810,9 +901,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00075">75</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00079">79</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00451">GetController()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00052">RegisterLightComponent()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00148">RemoveGeneratedSignalsAndTrafficLights()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00183">ResetTrafficLightObjects()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00453">GetController()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00052">RegisterLightComponent()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00150">RemoveGeneratedSignalsAndTrafficLights()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00185">ResetTrafficLightObjects()</a>.</p>
 
 </div>
 </div>
@@ -834,9 +925,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00071">71</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00075">75</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00441">GetTrafficGroup()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00052">RegisterLightComponent()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00148">RemoveGeneratedSignalsAndTrafficLights()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00183">ResetTrafficLightObjects()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00443">GetTrafficGroup()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00052">RegisterLightComponent()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00150">RemoveGeneratedSignalsAndTrafficLights()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00185">ResetTrafficLightObjects()</a>.</p>
 
 </div>
 </div>
@@ -858,9 +949,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00085">85</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00089">89</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00019">ATrafficLightManager()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00129">GenerateSignalsAndTrafficLights()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00223">SpawnTrafficLights()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00019">ATrafficLightManager()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00129">GenerateSignalsAndTrafficLights()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00225">SpawnTrafficLights()</a>.</p>
 
 </div>
 </div>
@@ -882,9 +973,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00100">100</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00104">104</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00168">BeginPlay()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00129">GenerateSignalsAndTrafficLights()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00148">RemoveGeneratedSignalsAndTrafficLights()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00170">BeginPlay()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00129">GenerateSignalsAndTrafficLights()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00150">RemoveGeneratedSignalsAndTrafficLights()</a>.</p>
 
 </div>
 </div>
@@ -906,9 +997,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00079">79</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00083">83</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00374">GenerateTriggerBoxesForTrafficLights()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00460">GetTrafficSign()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00052">RegisterLightComponent()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00290">SpawnSignals()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00376">GenerateTriggerBoxesForTrafficLights()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00462">GetTrafficSign()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00052">RegisterLightComponent()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00292">SpawnSignals()</a>.</p>
 
 </div>
 </div>
@@ -930,9 +1021,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00082">82</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00086">86</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00148">RemoveGeneratedSignalsAndTrafficLights()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00290">SpawnSignals()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00223">SpawnTrafficLights()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00150">RemoveGeneratedSignalsAndTrafficLights()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00292">SpawnSignals()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00225">SpawnTrafficLights()</a>.</p>
 
 </div>
 </div>
@@ -954,9 +1045,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00089">89</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
+<p>Definition at line <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html#l00093">93</a> of file <a class="el" href="../../da/ddb/TrafficLightManager_8h_source.html">TrafficLightManager.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00019">ATrafficLightManager()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00290">SpawnSignals()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00019">ATrafficLightManager()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00292">SpawnSignals()</a>.</p>
 
 </div>
 </div>
