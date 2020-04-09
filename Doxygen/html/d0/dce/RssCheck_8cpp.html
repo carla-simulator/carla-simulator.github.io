@@ -72,6 +72,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -79,18 +80,26 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d8/dab/RssCheck_8h_source.html">carla/rss/RssCheck.h</a>&quot;</code><br />
+<code>#include &lt;spdlog/sinks/stdout_color_sinks.h&gt;</code><br />
+<code>#include &lt;ad/map/access/Logging.hpp&gt;</code><br />
+<code>#include &lt;ad/map/access/Operation.hpp&gt;</code><br />
+<code>#include &lt;ad/map/intersection/Intersection.hpp&gt;</code><br />
+<code>#include &lt;ad/map/lane/Operation.hpp&gt;</code><br />
+<code>#include &lt;ad/map/match/AdMapMatching.hpp&gt;</code><br />
+<code>#include &lt;ad/map/match/MapMatchedOperation.hpp&gt;</code><br />
+<code>#include &lt;ad/map/route/LaneIntervalOperation.hpp&gt;</code><br />
+<code>#include &lt;ad/map/route/Operation.hpp&gt;</code><br />
+<code>#include &lt;ad/map/route/Planning.hpp&gt;</code><br />
+<code>#include &lt;ad/rss/map/Logging.hpp&gt;</code><br />
+<code>#include &lt;ad/rss/map/RssObjectConversion.hpp&gt;</code><br />
+<code>#include &lt;ad/rss/map/RssSceneCreator.hpp&gt;</code><br />
+<code>#include &lt;ad/rss/state/RssStateOperation.hpp&gt;</code><br />
+<code>#include &lt;chrono&gt;</code><br />
+<code>#include &lt;tuple&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/d9d/client_2Map_8h_source.html">carla/client/Map.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d9e/TrafficLight_8h_source.html">carla/client/TrafficLight.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/d18/Vehicle_8h_source.html">carla/client/Vehicle.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/d47/client_2Waypoint_8h_source.html">carla/client/Waypoint.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d16/RoadInfoLaneWidth_8h_source.html">carla/road/element/RoadInfoLaneWidth.h</a>&quot;</code><br />
-<code>#include &quot;ad_rss/core/RssResponseResolving.hpp&quot;</code><br />
-<code>#include &quot;ad_rss/core/RssResponseTransformation.hpp&quot;</code><br />
-<code>#include &quot;ad_rss/core/RssSituationChecking.hpp&quot;</code><br />
-<code>#include &quot;ad_rss/core/RssSituationExtraction.hpp&quot;</code><br />
-<code>#include &quot;ad_rss/state/RssStateOperation.hpp&quot;</code><br />
-<code>#include &lt;algorithm&gt;</code><br />
-<code>#include &lt;cmath&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for RssCheck.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -109,16 +118,40 @@ Namespaces</h2></td></tr>
 <tr class="memitem:db/d85/namespacecarla_1_1rss"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d85/namespacecarla_1_1rss.html">carla::rss</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a61b7f892537f43083cabfd0a96997c92"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dce/RssCheck_8cpp.html#a61b7f892537f43083cabfd0a96997c92">DEBUG_TIMING</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a61b7f892537f43083cabfd0a96997c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a25968c518012159fa07e562e2fe365cc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d85/namespacecarla_1_1rss.html#a25968c518012159fa07e562e2fe365cc">carla::rss::calculateAngleDelta</a> (const float angle1, const float angle2)</td></tr>
-<tr class="separator:a25968c518012159fa07e562e2fe365cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51d7cfb869026e38c232993012ea5d1e"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; spdlog::logger &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d85/namespacecarla_1_1rss.html#a51d7cfb869026e38c232993012ea5d1e">carla::rss::getLogger</a> ()</td></tr>
+<tr class="separator:a51d7cfb869026e38c232993012ea5d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a476f39d7c5c5fcb244976d949e895e96"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; spdlog::logger &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d85/namespacecarla_1_1rss.html#a476f39d7c5c5fcb244976d949e895e96">carla::rss::getTimingLogger</a> ()</td></tr>
+<tr class="separator:a476f39d7c5c5fcb244976d949e895e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adce39ecbdc52f219868d10f049912772"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d85/namespacecarla_1_1rss.html#adce39ecbdc52f219868d10f049912772">carla::rss::printRoute</a> (std::string const &amp;route_descr,::ad::map::route::FullRoute const &amp;route)</td></tr>
+<tr class="separator:adce39ecbdc52f219868d10f049912772"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a857a1d9de7eb79f8ec9bd417d63f3a49"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d85/namespacecarla_1_1rss.html#a857a1d9de7eb79f8ec9bd417d63f3a49">carla::rss::toRadians</a> = static_cast&lt;float&gt;(M_PI) / 180.0f</td></tr>
-<tr class="separator:a857a1d9de7eb79f8ec9bd417d63f3a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabf1fc9c5589075674de807a1114f3ea"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d85/namespacecarla_1_1rss.html#aabf1fc9c5589075674de807a1114f3ea">carla::rss::to_radians</a> = static_cast&lt;float&gt;(M_PI) / 180.0f</td></tr>
+<tr class="separator:aabf1fc9c5589075674de807a1114f3ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="a61b7f892537f43083cabfd0a96997c92"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEBUG_TIMING&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html#l00033">33</a> of file <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html">RssCheck.cpp</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

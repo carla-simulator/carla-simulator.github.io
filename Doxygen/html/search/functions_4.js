@@ -71,6 +71,7 @@ var searchData=
   ['drawroutes',['DrawRoutes',['../dc/d0f/classARoutePlanner.html#a0c358859f66ead053941cc8951651d84',1,'ARoutePlanner']]],
   ['drawshape',['DrawShape',['../d2/daf/namespacecarla_1_1client.html#ad6a9ef8264bd149ac81f419941ed3ffe',1,'carla::client']]],
   ['drawstring',['DrawString',['../d1/d64/classcarla_1_1client_1_1DebugHelper.html#a5376a0a43a2ebe3b0a7c8b30a912adba',1,'carla::client::DebugHelper']]],
+  ['droproute',['DropRoute',['../dc/d07/classcarla_1_1rss_1_1RssCheck.html#acd7e97540e3d4e7bbce5dce1c70deeef',1,'carla::rss::RssCheck::DropRoute()'],['../d7/db6/classcarla_1_1client_1_1RssSensor.html#a5ca1012d4914348947c2e2e7b86bdda4',1,'carla::client::RssSensor::DropRoute()']]],
   ['dump',['Dump',['../d2/d02/classcarla_1_1pointcloud_1_1PointCloudIO.html#acdb01caa32e20e3f6169cd72d6f68837',1,'carla::pointcloud::PointCloudIO']]],
   ['dumppixels',['DumpPixels',['../dd/d11/classFPixelReader.html#aafcd002853bb8dff7881ae341474d9a2',1,'FPixelReader']]],
   ['duplicate_5fstring',['duplicate_string',['../dd/d5c/classxpath__string.html#a57c53a0b67fecb1845c31215d8ee206b',1,'xpath_string']]]

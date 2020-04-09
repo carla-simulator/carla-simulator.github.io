@@ -56,11 +56,11 @@ var searchData=
   ['midrainynoon',['MidRainyNoon',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#ab28709608639fc0ce20704b283ac75e8',1,'carla::rpc::WeatherParameters']]],
   ['min_5fcollision_5fradius',['MIN_COLLISION_RADIUS',['../d5/de3/namespacecarla_1_1traffic__manager_1_1CollisionStageConstants.html#a813ed84fb3d8c17c3af4cb06f9ee0045',1,'carla::traffic_manager::CollisionStageConstants']]],
   ['min_5ffollow_5flead_5fdistance',['MIN_FOLLOW_LEAD_DISTANCE',['../de/db6/namespacecarla_1_1traffic__manager_1_1PlannerConstants.html#acbaed9ffe4db4188161e402844d586ec',1,'carla::traffic_manager::PlannerConstants']]],
+  ['min_5fstopping_5fdistance',['min_stopping_distance',['../d1/d1b/structcarla_1_1rss_1_1EgoDynamicsOnRoute.html#a0b86f2865f61d17cd653367a2a565f3c',1,'carla::rss::EgoDynamicsOnRoute']]],
   ['minimum_5fhorizon_5flength',['MINIMUM_HORIZON_LENGTH',['../d9/d5c/namespacecarla_1_1traffic__manager_1_1LocalizationConstants.html#a14d7c1ce3357dc1bb4957bde1d26b48a',1,'carla::traffic_manager::LocalizationConstants']]],
   ['minimum_5fjunction_5flook_5fahead',['MINIMUM_JUNCTION_LOOK_AHEAD',['../d9/d5c/namespacecarla_1_1traffic__manager_1_1LocalizationConstants.html#a3e38d01014f608e2942ae6932ac864b9',1,'carla::traffic_manager::LocalizationConstants']]],
   ['minimum_5flane_5fchange_5fdistance',['MINIMUM_LANE_CHANGE_DISTANCE',['../d9/d5c/namespacecarla_1_1traffic__manager_1_1LocalizationConstants.html#a6b6d47986679e7fd743596e9b204e745',1,'carla::traffic_manager::LocalizationConstants']]],
   ['model',['Model',['../d0/db7/structFVehicleParameters.html#a2c2b7d67eb95b4bd15ae0e273718eaa1',1,'FVehicleParameters']]],
   ['modification_5fmutex',['modification_mutex',['../d6/d8c/classcarla_1_1traffic__manager_1_1AtomicActorSet.html#a5d419c62ead3da42b59936767c25429d',1,'carla::traffic_manager::AtomicActorSet']]],
-  ['moi',['moi',['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#a33a1b09cca84e1620e7a81de4c9a99bb',1,'carla::rpc::VehiclePhysicsControl::moi()'],['../d1/dbe/structFVehiclePhysicsControl.html#a312bac8131292bacca700aa46ca96df0',1,'FVehiclePhysicsControl::MOI()']]],
-  ['mrsscheck',['mRssCheck',['../d7/db6/classcarla_1_1client_1_1RssSensor.html#a27954d3d5e35937bf1088c1cb4f57986',1,'carla::client::RssSensor']]]
+  ['moi',['moi',['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#a33a1b09cca84e1620e7a81de4c9a99bb',1,'carla::rpc::VehiclePhysicsControl::moi()'],['../d1/dbe/structFVehiclePhysicsControl.html#a312bac8131292bacca700aa46ca96df0',1,'FVehiclePhysicsControl::MOI()']]]
 ];

@@ -63,6 +63,7 @@ var searchData=
   ['cos_5f10_5fdegrees',['COS_10_DEGREES',['../d5/de3/namespacecarla_1_1traffic__manager_1_1CollisionStageConstants.html#a589497c8a61b75a9a42611ff34b547d4',1,'carla::traffic_manager::CollisionStageConstants']]],
   ['critical_5fbraking_5fmargin',['CRITICAL_BRAKING_MARGIN',['../de/db6/namespacecarla_1_1traffic__manager_1_1PlannerConstants.html#ad7a549faa18607ebf9cc98276bf83299',1,'carla::traffic_manager::PlannerConstants']]],
   ['cross',['cross',['../d5/da0/structcarla_1_1opendrive_1_1parser_1_1LateralProfile.html#a30c5ebd0c58ab327aa46a2836108c7c3',1,'carla::opendrive::parser::LateralProfile']]],
+  ['crossing_5fborder',['crossing_border',['../d1/d1b/structcarla_1_1rss_1_1EgoDynamicsOnRoute.html#a4c1eeb743476ecf23374e57b5e47b52f',1,'carla::rss::EgoDynamicsOnRoute']]],
   ['cu',['cU',['../d1/d76/structcarla_1_1opendrive_1_1parser_1_1GeometryParamPoly3.html#a882a60eec41c836b38b659dc1fea793e',1,'carla::opendrive::parser::GeometryParamPoly3']]],
   ['current_5ftimestamp',['current_timestamp',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a437d3a4540a6e65b21b6f9ded3870d03',1,'carla::traffic_manager::LocalizationStage']]],
   ['currentcontroller',['CurrentController',['../dd/d12/classATrafficLightGroup.html#ad1712294c743de5f872f8ee3cf5a608a',1,'ATrafficLightGroup']]],

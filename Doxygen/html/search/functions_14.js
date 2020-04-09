@@ -34,6 +34,7 @@ var searchData=
   ['updatemapscale',['UpdateMapScale',['../da/d1a/classACityMapMeshHolder.html#acea07429098292a4bad0105cd4220b00',1,'ACityMapMeshHolder']]],
   ['updatepassingvehicle',['UpdatePassingVehicle',['../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#a00e9170a04217225fce8d48a596f31a6',1,'carla::traffic_manager::TrackTraffic']]],
   ['updatepositions',['UpdatePositions',['../dc/dc6/classCarlaReplayer.html#a90bb49a890e2a2cd8b85152f17ca8fed',1,'CarlaReplayer']]],
+  ['updateroute',['UpdateRoute',['../dc/d07/classcarla_1_1rss_1_1RssCheck.html#a9b5193c0633fca116bcbbd468c900ea9',1,'carla::rss::RssCheck']]],
   ['updateseeds',['UpdateSeeds',['../d1/ddb/classACityMapGenerator.html#aa35286117be937f54d1c6c9a44380311',1,'ACityMapGenerator']]],
   ['updateswarmvelocities',['UpdateSwarmVelocities',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a9fd1c19ac150ab564430b48bdfd87ca3',1,'carla::traffic_manager::LocalizationStage']]],
   ['updateunregisteredgridposition',['UpdateUnregisteredGridPosition',['../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#aa77bd9457c2a55f1c566a68d3a12604b',1,'carla::traffic_manager::TrackTraffic']]],

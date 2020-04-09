@@ -72,14 +72,16 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d7/dfa/classcarla_1_1client_1_1RssSensor-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">carla::client::RssSensor Class Reference<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
+<div class="title">carla::client::RssSensor Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>The RSS <a class="el" href="../../da/dec/classcarla_1_1client_1_1Sensor.html">Sensor</a> class implementing the <a class="el" href="../../da/dec/classcarla_1_1client_1_1Sensor.html">carla::client::Sensor</a> interface This class is a proxy to the RssCheck class.  
+ <a href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html">RssSensor.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -101,24 +103,51 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab86a6ed20ee4b70319fb372a510f5f05"><td class="memItemLeft" align="right" valign="top">const ::ad_rss::world::RssDynamics &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#ab86a6ed20ee4b70319fb372a510f5f05">GetEgoVehicleDynamics</a> () const </td></tr>
-<tr class="separator:ab86a6ed20ee4b70319fb372a510f5f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a954aef541367882c3a2fede61d96670f"><td class="memItemLeft" align="right" valign="top">const ::ad_rss::world::RssDynamics &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a954aef541367882c3a2fede61d96670f">GetOtherVehicleDynamics</a> () const </td></tr>
-<tr class="separator:a954aef541367882c3a2fede61d96670f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac445573909a9236ad5a554d6937d3a6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#ac445573909a9236ad5a554d6937d3a6e">AppendRoutingTarget</a> (const ::<a class="el" href="../../de/da4/classcarla_1_1geom_1_1Transform.html">carla::geom::Transform</a> &amp;routing_target)</td></tr>
+<tr class="memdesc:ac445573909a9236ad5a554d6937d3a6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends a routing target to the current routing target list (  <a href="#ac445573909a9236ad5a554d6937d3a6e">More...</a><br /></td></tr>
+<tr class="separator:ac445573909a9236ad5a554d6937d3a6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ca1012d4914348947c2e2e7b86bdda4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a5ca1012d4914348947c2e2e7b86bdda4">DropRoute</a> ()</td></tr>
+<tr class="memdesc:a5ca1012d4914348947c2e2e7b86bdda4"><td class="mdescLeft">&#160;</td><td class="mdescRight">drop the current route (  <a href="#a5ca1012d4914348947c2e2e7b86bdda4">More...</a><br /></td></tr>
+<tr class="separator:a5ca1012d4914348947c2e2e7b86bdda4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af165a3423ca5d787ab09003f933b220d"><td class="memItemLeft" align="right" valign="top">const ::ad::rss::world::RssDynamics &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#af165a3423ca5d787ab09003f933b220d">GetEgoVehicleDynamics</a> () const </td></tr>
+<tr class="separator:af165a3423ca5d787ab09003f933b220d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a644cc04bd436fcb7cd395fd218337d8f"><td class="memItemLeft" align="right" valign="top">const ::ad::rss::world::RssDynamics &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a644cc04bd436fcb7cd395fd218337d8f">GetOtherVehicleDynamics</a> () const </td></tr>
+<tr class="separator:a644cc04bd436fcb7cd395fd218337d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b3e4fea924445c9a8c01663f2036434"><td class="memItemLeft" align="right" valign="top">const ::<a class="el" href="../../db/d85/namespacecarla_1_1rss.html#a28d7e06be0ca33af00c6e19c5c36a671">carla::rss::RoadBoundariesMode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a8b3e4fea924445c9a8c01663f2036434">GetRoadBoundariesMode</a> () const </td></tr>
+<tr class="separator:a8b3e4fea924445c9a8c01663f2036434"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03ba270bf0b599676d10b8b9fc56fa60"><td class="memItemLeft" align="right" valign="top">const std::vector&lt;::<a class="el" href="../../de/da4/classcarla_1_1geom_1_1Transform.html">carla::geom::Transform</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a03ba270bf0b599676d10b8b9fc56fa60">GetRoutingTargets</a> () const </td></tr>
+<tr class="separator:a03ba270bf0b599676d10b8b9fc56fa60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac4e83c25c5c18295aaaab10910a4df8"><td class="memItemLeft" align="right" valign="top">const ::<a class="el" href="../../db/d85/namespacecarla_1_1rss.html#a6b4f20553f050f57bbec51ea79784e14">carla::rss::VisualizationMode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#aac4e83c25c5c18295aaaab10910a4df8">GetVisualizationMode</a> () const </td></tr>
+<tr class="separator:aac4e83c25c5c18295aaaab10910a4df8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4de185e37508b6932b1f4a017726ca71"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a4de185e37508b6932b1f4a017726ca71">IsListening</a> () const override</td></tr>
 <tr class="memdesc:a4de185e37508b6932b1f4a017726ca71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether this <a class="el" href="../../da/dec/classcarla_1_1client_1_1Sensor.html">Sensor</a> instance is currently listening to the associated sensor in the simulator.  <a href="#a4de185e37508b6932b1f4a017726ca71">More...</a><br /></td></tr>
 <tr class="separator:a4de185e37508b6932b1f4a017726ca71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2dcc2b1ee4a52dbc8e1e7727e3653c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#af2dcc2b1ee4a52dbc8e1e7727e3653c4">Listen</a> (<a class="el" href="../../da/dec/classcarla_1_1client_1_1Sensor.html#ad7f3b7005eb200b9099181749c5699ab">CallbackFunctionType</a> callback) override</td></tr>
 <tr class="memdesc:af2dcc2b1ee4a52dbc8e1e7727e3653c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a <em>callback</em> to be executed each time a new measurement is received.  <a href="#af2dcc2b1ee4a52dbc8e1e7727e3653c4">More...</a><br /></td></tr>
 <tr class="separator:af2dcc2b1ee4a52dbc8e1e7727e3653c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3ad263ef265b8eb5f3753f5cfc5846c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#ad3ad263ef265b8eb5f3753f5cfc5846c">SetEgoVehicleDynamics</a> (const ::ad_rss::world::RssDynamics &amp;egoDynamics)</td></tr>
-<tr class="separator:ad3ad263ef265b8eb5f3753f5cfc5846c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bc2b0447bfdbb0c51cc32411d1c45d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a1bc2b0447bfdbb0c51cc32411d1c45d1">SetOtherVehicleDynamics</a> (const ::ad_rss::world::RssDynamics &amp;otherVehicleDynamics)</td></tr>
-<tr class="separator:a1bc2b0447bfdbb0c51cc32411d1c45d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a205b330869e72dbf3e1b86d4d2b0ad15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a205b330869e72dbf3e1b86d4d2b0ad15">ResetRoutingTargets</a> ()</td></tr>
+<tr class="memdesc:a205b330869e72dbf3e1b86d4d2b0ad15"><td class="mdescLeft">&#160;</td><td class="mdescRight">resets the current routing target (  <a href="#a205b330869e72dbf3e1b86d4d2b0ad15">More...</a><br /></td></tr>
+<tr class="separator:a205b330869e72dbf3e1b86d4d2b0ad15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac33d4b2c12040ebda29a6153114b4040"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#ac33d4b2c12040ebda29a6153114b4040">RssSensor</a> (<a class="el" href="../../d9/dea/classcarla_1_1client_1_1ActorInitializer.html">ActorInitializer</a> init)</td></tr>
+<tr class="memdesc:ac33d4b2c12040ebda29a6153114b4040"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <a href="#ac33d4b2c12040ebda29a6153114b4040">More...</a><br /></td></tr>
+<tr class="separator:ac33d4b2c12040ebda29a6153114b4040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59c753d75ccc40906c28de0a099f594f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a59c753d75ccc40906c28de0a099f594f">SetEgoVehicleDynamics</a> (const ::ad::rss::world::RssDynamics &amp;ego_dynamics)</td></tr>
+<tr class="memdesc:a59c753d75ccc40906c28de0a099f594f"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the ego vehicle dynamics to be used by the ego vehicle (  <a href="#a59c753d75ccc40906c28de0a099f594f">More...</a><br /></td></tr>
+<tr class="separator:a59c753d75ccc40906c28de0a099f594f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8daf2300175fe66497ada5415c88ce3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a8daf2300175fe66497ada5415c88ce3d">SetOtherVehicleDynamics</a> (const ::ad::rss::world::RssDynamics &amp;other_vehicle_dynamics)</td></tr>
+<tr class="memdesc:a8daf2300175fe66497ada5415c88ce3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the ego vehicle dynamics to be used by other vehicles (  <a href="#a8daf2300175fe66497ada5415c88ce3d">More...</a><br /></td></tr>
+<tr class="separator:a8daf2300175fe66497ada5415c88ce3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf5726bb8aad25b9e2dbb83b75c5904a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#acf5726bb8aad25b9e2dbb83b75c5904a">SetRoadBoundariesMode</a> (const ::<a class="el" href="../../db/d85/namespacecarla_1_1rss.html#a28d7e06be0ca33af00c6e19c5c36a671">carla::rss::RoadBoundariesMode</a> &amp;road_boundaries_mode)</td></tr>
+<tr class="memdesc:acf5726bb8aad25b9e2dbb83b75c5904a"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the current mode for respecting the road boundaries (  <a href="#acf5726bb8aad25b9e2dbb83b75c5904a">More...</a><br /></td></tr>
+<tr class="separator:acf5726bb8aad25b9e2dbb83b75c5904a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3d23c3afb707a83874f240562e3e9a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#ad3d23c3afb707a83874f240562e3e9a7">SetVisualizationMode</a> (const ::<a class="el" href="../../db/d85/namespacecarla_1_1rss.html#a6b4f20553f050f57bbec51ea79784e14">carla::rss::VisualizationMode</a> &amp;visualization_mode)</td></tr>
+<tr class="memdesc:ad3d23c3afb707a83874f240562e3e9a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the visualization mode (  <a href="#ad3d23c3afb707a83874f240562e3e9a7">More...</a><br /></td></tr>
+<tr class="separator:ad3d23c3afb707a83874f240562e3e9a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84708b0cda6793b54a1df34c90050962"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a84708b0cda6793b54a1df34c90050962">Stop</a> () override</td></tr>
 <tr class="memdesc:a84708b0cda6793b54a1df34c90050962"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop listening for new measurements.  <a href="#a84708b0cda6793b54a1df34c90050962">More...</a><br /></td></tr>
 <tr class="separator:a84708b0cda6793b54a1df34c90050962"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4374f932e9cc6e726d7cbf98a7006cc9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a4374f932e9cc6e726d7cbf98a7006cc9">~RssSensor</a> ()</td></tr>
+<tr class="memdesc:a4374f932e9cc6e726d7cbf98a7006cc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <a href="#a4374f932e9cc6e726d7cbf98a7006cc9">More...</a><br /></td></tr>
 <tr class="separator:a4374f932e9cc6e726d7cbf98a7006cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classcarla_1_1client_1_1Actor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classcarla_1_1client_1_1Actor')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d6/da5/classcarla_1_1client_1_1Actor.html">carla::client::Actor</a></td></tr>
 <tr class="memitem:a7b649e581262363e6466782b780a29df inherit pub_methods_classcarla_1_1client_1_1Actor"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da5/classcarla_1_1client_1_1Actor.html#a7b649e581262363e6466782b780a29df">Actor</a> (<a class="el" href="../../d9/dea/classcarla_1_1client_1_1ActorInitializer.html">ActorInitializer</a> init)</td></tr>
@@ -183,26 +212,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af9d79dcc7f1ec89d0202f3086c79cd6e inherit pub_methods_classcarla_1_1client_1_1detail_1_1ActorState"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d1f/classcarla_1_1client_1_1World.html">World</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d06/classcarla_1_1client_1_1detail_1_1ActorState.html#af9d79dcc7f1ec89d0202f3086c79cd6e">GetWorld</a> () const </td></tr>
 <tr class="separator:af9d79dcc7f1ec89d0202f3086c79cd6e inherit pub_methods_classcarla_1_1client_1_1detail_1_1ActorState"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a58b1dcea988c70216ae562782c59458a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a58b1dcea988c70216ae562782c59458a">visualize_results</a> = false</td></tr>
-<tr class="separator:a58b1dcea988c70216ae562782c59458a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a2031ce47489be453ded058a2de2c4fcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">SharedPtr</a>&lt; <a class="el" href="../../df/d8c/classcarla_1_1sensor_1_1SensorData.html">sensor::SensorData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a2031ce47489be453ded058a2de2c4fcd">TickRssSensor</a> (const <a class="el" href="../../df/d2c/classcarla_1_1client_1_1Timestamp.html">Timestamp</a> &amp;timestamp)</td></tr>
+<tr class="memdesc:a2031ce47489be453ded058a2de2c4fcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the acutal sensor tick callback function  <a href="#a2031ce47489be453ded058a2de2c4fcd">More...</a><br /></td></tr>
 <tr class="separator:a2031ce47489be453ded058a2de2c4fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:af8de7bdda0997f5079ee2f588dd0123b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#af8de7bdda0997f5079ee2f588dd0123b">_is_listening</a> = false</td></tr>
-<tr class="separator:af8de7bdda0997f5079ee2f588dd0123b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68ac3972bf0b7d144e0553693e7bda8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">SharedPtr</a>&lt; <a class="el" href="../../dd/d49/classcarla_1_1client_1_1Map.html">Map</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a68ac3972bf0b7d144e0553693e7bda8a">_map</a></td></tr>
-<tr class="separator:a68ac3972bf0b7d144e0553693e7bda8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3b94e0f336d2d5a67508d71540002c9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#af3b94e0f336d2d5a67508d71540002c9">_drop_route</a></td></tr>
+<tr class="memdesc:af3b94e0f336d2d5a67508d71540002c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">reqired to store <a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a5ca1012d4914348947c2e2e7b86bdda4" title="drop the current route ( ">DropRoute()</a> requests until next sensor tick  <a href="#af3b94e0f336d2d5a67508d71540002c9">More...</a><br /></td></tr>
+<tr class="separator:af3b94e0f336d2d5a67508d71540002c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b02fd2bf974dc36a9a51e2548c8c038"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a2b02fd2bf974dc36a9a51e2548c8c038">_on_tick_register_id</a></td></tr>
+<tr class="memdesc:a2b02fd2bf974dc36a9a51e2548c8c038"><td class="mdescLeft">&#160;</td><td class="mdescRight">the id got when registering for the on tick event  <a href="#a2b02fd2bf974dc36a9a51e2548c8c038">More...</a><br /></td></tr>
+<tr class="separator:a2b02fd2bf974dc36a9a51e2548c8c038"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acba620bcda2186ffc04846ea141e8731"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#acba620bcda2186ffc04846ea141e8731">_processing_lock</a></td></tr>
+<tr class="memdesc:acba620bcda2186ffc04846ea141e8731"><td class="mdescLeft">&#160;</td><td class="mdescRight">the mutex to protect the actual RSS processing and decouple the (slow) visualization  <a href="#acba620bcda2186ffc04846ea141e8731">More...</a><br /></td></tr>
 <tr class="separator:acba620bcda2186ffc04846ea141e8731"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27954d3d5e35937bf1088c1cb4f57986"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../dc/d07/classcarla_1_1rss_1_1RssCheck.html">carla::rss::RssCheck</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a27954d3d5e35937bf1088c1cb4f57986">mRssCheck</a></td></tr>
-<tr class="separator:a27954d3d5e35937bf1088c1cb4f57986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a69f929f95044323cc2925ba4b78748"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt;::<a class="el" href="../../dc/d07/classcarla_1_1rss_1_1RssCheck.html">carla::rss::RssCheck</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a5a69f929f95044323cc2925ba4b78748">_rss_check</a></td></tr>
+<tr class="separator:a5a69f929f95044323cc2925ba4b78748"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -222,9 +250,50 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ae4e91c6f9b754598dfe853fb8922ac35 inherit pro_methods_classcarla_1_1client_1_1detail_1_1ActorState"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00023">23</a> of file <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html">LibCarla/source/carla/rss/RssSensor.h</a>.</p>
+<div class="textblock"><p>The RSS <a class="el" href="../../da/dec/classcarla_1_1client_1_1Sensor.html">Sensor</a> class implementing the <a class="el" href="../../da/dec/classcarla_1_1client_1_1Sensor.html">carla::client::Sensor</a> interface This class is a proxy to the RssCheck class. </p>
+
+<p>Definition at line <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00041">41</a> of file <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html">LibCarla/source/carla/rss/RssSensor.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ac33d4b2c12040ebda29a6153114b4040"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">carla::client::RssSensor::RssSensor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/dea/classcarla_1_1client_1_1ActorInitializer.html">ActorInitializer</a>&#160;</td>
+          <td class="paramname"><em>init</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructor </p>
+
+<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00025">25</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a4374f932e9cc6e726d7cbf98a7006cc9">~RssSensor()</a>.</p>
+
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/db6/classcarla_1_1client_1_1RssSensor_ac33d4b2c12040ebda29a6153114b4040_cgraph.svg" width="400" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a4374f932e9cc6e726d7cbf98a7006cc9"></a>
 <div class="memitem">
 <div class="memproto">
@@ -246,44 +315,210 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>destructor </p>
+
+<p>Referenced by <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00025">RssSensor()</a>.</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/db6/classcarla_1_1client_1_1RssSensor_a4374f932e9cc6e726d7cbf98a7006cc9_icgraph.svg" width="400" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ab86a6ed20ee4b70319fb372a510f5f05"></a>
+<a class="anchor" id="ac445573909a9236ad5a554d6937d3a6e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const ::ad_rss::world::RssDynamics &amp; carla::client::RssSensor::GetEgoVehicleDynamics </td>
+          <td class="memname">void carla::client::RssSensor::AppendRoutingTarget </td>
+          <td>(</td>
+          <td class="paramtype">const ::<a class="el" href="../../de/da4/classcarla_1_1geom_1_1Transform.html">carla::geom::Transform</a> &amp;&#160;</td>
+          <td class="paramname"><em>routing_target</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>appends a routing target to the current routing target list ( </p>
+<dl class="section see"><dt>See also</dt><dd>also RssCheck::AppendRoutingTarget()) </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00127">127</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00122">_rss_check</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5ca1012d4914348947c2e2e7b86bdda4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::client::RssSensor::DropRoute </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>drop the current route ( </p>
+<dl class="section see"><dt>See also</dt><dd>also RssCheck::DropRoute()) </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00162">162</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00125">_drop_route</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af165a3423ca5d787ab09003f933b220d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const ::ad::rss::world::RssDynamics &amp; carla::client::RssSensor::GetEgoVehicleDynamics </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>the currently used dynamics of the ego vehicle (</dd></dl>
+<dl class="section see"><dt>See also</dt><dd>also RssCheck::GetEgoVehicleDynamics()) </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00129">129</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00082">82</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00064">mRssCheck</a>.</p>
+<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00122">_rss_check</a>, and <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html#l00097">carla::rss::RssCheck::GetDefaultVehicleDynamics()</a>.</p>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/db6/classcarla_1_1client_1_1RssSensor_af165a3423ca5d787ab09003f933b220d_cgraph.svg" width="451" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
-<a class="anchor" id="a954aef541367882c3a2fede61d96670f"></a>
+<a class="anchor" id="a644cc04bd436fcb7cd395fd218337d8f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const ::ad_rss::world::RssDynamics &amp; carla::client::RssSensor::GetOtherVehicleDynamics </td>
+          <td class="memname">const ::ad::rss::world::RssDynamics &amp; carla::client::RssSensor::GetOtherVehicleDynamics </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>the currently used dynamics of other vehicles (</dd></dl>
+<dl class="section see"><dt>See also</dt><dd>also RssCheck::GetOtherVehicleDynamics()) </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00137">137</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00097">97</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00064">mRssCheck</a>.</p>
+<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00122">_rss_check</a>, and <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html#l00097">carla::rss::RssCheck::GetDefaultVehicleDynamics()</a>.</p>
+
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/db6/classcarla_1_1client_1_1RssSensor_a644cc04bd436fcb7cd395fd218337d8f_cgraph.svg" width="463" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a8b3e4fea924445c9a8c01663f2036434"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const ::<a class="el" href="../../db/d85/namespacecarla_1_1rss.html#a28d7e06be0ca33af00c6e19c5c36a671">carla::rss::RoadBoundariesMode</a> &amp; carla::client::RssSensor::GetRoadBoundariesMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>the current mode for respecting the road boundaries (</dd></dl>
+<dl class="section see"><dt>See also</dt><dd>also RssCheck::GetRoadBoundariesMode()) </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00112">112</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00122">_rss_check</a>, and <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00176">carla::rss::RssCheck::GetDefaultRoadBoundariesMode()</a>.</p>
+
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/db6/classcarla_1_1client_1_1RssSensor_a8b3e4fea924445c9a8c01663f2036434_cgraph.svg" width="487" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a03ba270bf0b599676d10b8b9fc56fa60"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt;::<a class="el" href="../../de/da4/classcarla_1_1geom_1_1Transform.html">carla::geom::Transform</a> &gt; carla::client::RssSensor::GetRoutingTargets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>the current routing targets (</dd></dl>
+<dl class="section see"><dt>See also</dt><dd>also RssCheck::GetRoutingTargets()) </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00133">133</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00122">_rss_check</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aac4e83c25c5c18295aaaab10910a4df8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const ::<a class="el" href="../../db/d85/namespacecarla_1_1rss.html#a6b4f20553f050f57bbec51ea79784e14">carla::rss::VisualizationMode</a> &amp; carla::client::RssSensor::GetVisualizationMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>get the current visualization mode (</dd></dl>
+<dl class="section see"><dt>See also</dt><dd>also RssCheck::GetVisualizationMode()) </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00153">153</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00122">_rss_check</a>, and <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00181">carla::rss::RssCheck::GetDefaultVisualizationMode()</a>.</p>
+
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/db6/classcarla_1_1client_1_1RssSensor_aac4e83c25c5c18295aaaab10910a4df8_cgraph.svg" width="444" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -312,7 +547,19 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../da/dec/classcarla_1_1client_1_1Sensor.html#a6f8f02f33c912989f9a9c851c770c3c1">carla::client::Sensor</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00044">44</a> of file <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html">LibCarla/source/carla/rss/RssSensor.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00065">65</a> of file <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html">LibCarla/source/carla/rss/RssSensor.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00029">Listen()</a>, and <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00066">Stop()</a>.</p>
+
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/db6/classcarla_1_1client_1_1RssSensor_a4de185e37508b6932b1f4a017726ca71_icgraph.svg" width="400" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -345,13 +592,13 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00060">_is_listening</a>, <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00062">_map</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00033">carla::client::detail::ActorState::GetDisplayId()</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00068">carla::client::detail::ActorState::GetEpisode()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00021">carla::client::World::GetMap()</a>, <a class="el" href="../../d6/de7/ActorState_8cpp_source.html#l00031">carla::client::detail::ActorState::GetParent()</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00047">carla::client::detail::ActorState::GetWorld()</a>, <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00075">carla::log_debug()</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00110">carla::log_error()</a>, <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00064">mRssCheck</a>, and <a class="el" href="../../d9/d4f/Carla_8cpp_source.html#l00101">carla::throw_exception()</a>.</p>
+<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00115">_on_tick_register_id</a>, <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00122">_rss_check</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00033">carla::client::detail::ActorState::GetDisplayId()</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00068">carla::client::detail::ActorState::GetEpisode()</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00021">carla::client::World::GetMap()</a>, <a class="el" href="../../d6/de7/ActorState_8cpp_source.html#l00031">carla::client::detail::ActorState::GetParent()</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00047">carla::client::detail::ActorState::GetWorld()</a>, <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00065">IsListening()</a>, <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00075">carla::log_debug()</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00110">carla::log_error()</a>, and <a class="el" href="../../d9/d4f/Carla_8cpp_source.html#l00101">carla::throw_exception()</a>.</p>
 
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/db6/classcarla_1_1client_1_1RssSensor_af2dcc2b1ee4a52dbc8e1e7727e3653c4_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -359,43 +606,117 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad3ad263ef265b8eb5f3753f5cfc5846c"></a>
+<a class="anchor" id="a205b330869e72dbf3e1b86d4d2b0ad15"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::client::RssSensor::ResetRoutingTargets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>resets the current routing target ( </p>
+<dl class="section see"><dt>See also</dt><dd>also RssCheck::ResetRoutingTargets()) </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00141">141</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00122">_rss_check</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a59c753d75ccc40906c28de0a099f594f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void carla::client::RssSensor::SetEgoVehicleDynamics </td>
           <td>(</td>
-          <td class="paramtype">const ::ad_rss::world::RssDynamics &amp;&#160;</td>
-          <td class="paramname"><em>egoDynamics</em></td><td>)</td>
+          <td class="paramtype">const ::ad::rss::world::RssDynamics &amp;&#160;</td>
+          <td class="paramname"><em>ego_dynamics</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00133">133</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
+<p>sets the ego vehicle dynamics to be used by the ego vehicle ( </p>
+<dl class="section see"><dt>See also</dt><dd>also RssCheck::SetEgoVehicleDynamics()) </dd></dl>
 
-<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00064">mRssCheck</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00091">91</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00122">_rss_check</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a1bc2b0447bfdbb0c51cc32411d1c45d1"></a>
+<a class="anchor" id="a8daf2300175fe66497ada5415c88ce3d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void carla::client::RssSensor::SetOtherVehicleDynamics </td>
           <td>(</td>
-          <td class="paramtype">const ::ad_rss::world::RssDynamics &amp;&#160;</td>
-          <td class="paramname"><em>otherVehicleDynamics</em></td><td>)</td>
+          <td class="paramtype">const ::ad::rss::world::RssDynamics &amp;&#160;</td>
+          <td class="paramname"><em>other_vehicle_dynamics</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00141">141</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
+<p>sets the ego vehicle dynamics to be used by other vehicles ( </p>
+<dl class="section see"><dt>See also</dt><dd>also RssCheck::SetOtherVehicleDynamics()) </dd></dl>
 
-<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00064">mRssCheck</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00106">106</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00122">_rss_check</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acf5726bb8aad25b9e2dbb83b75c5904a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::client::RssSensor::SetRoadBoundariesMode </td>
+          <td>(</td>
+          <td class="paramtype">const ::<a class="el" href="../../db/d85/namespacecarla_1_1rss.html#a28d7e06be0ca33af00c6e19c5c36a671">carla::rss::RoadBoundariesMode</a> &amp;&#160;</td>
+          <td class="paramname"><em>road_boundaries_mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>sets the current mode for respecting the road boundaries ( </p>
+<dl class="section see"><dt>See also</dt><dd>also RssCheck::SetRoadBoundariesMode()) </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00121">121</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00122">_rss_check</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad3d23c3afb707a83874f240562e3e9a7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::client::RssSensor::SetVisualizationMode </td>
+          <td>(</td>
+          <td class="paramtype">const ::<a class="el" href="../../db/d85/namespacecarla_1_1rss.html#a6b4f20553f050f57bbec51ea79784e14">carla::rss::VisualizationMode</a> &amp;&#160;</td>
+          <td class="paramname"><em>visualization_mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>sets the visualization mode ( </p>
+<dl class="section see"><dt>See also</dt><dd>also RssCheck::SetVisualizationMode()) </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00147">147</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00122">_rss_check</a>.</p>
 
 </div>
 </div>
@@ -425,9 +746,19 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../da/dec/classcarla_1_1client_1_1Sensor.html#ac5f9be9d6043c183b5bb2b4022980eb2">carla::client::Sensor</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00125">125</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00066">66</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00060">_is_listening</a>.</p>
+<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00115">_on_tick_register_id</a>, <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00119">_processing_lock</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00033">carla::client::detail::ActorState::GetDisplayId()</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00068">carla::client::detail::ActorState::GetEpisode()</a>, <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00065">IsListening()</a>, <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00075">carla::log_debug()</a>, and <a class="el" href="../../de/d87/Logging_8h_source.html#l00110">carla::log_error()</a>.</p>
+
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/db6/classcarla_1_1client_1_1RssSensor_a84708b0cda6793b54a1df34c90050962_cgraph.svg" width="100%" height="568"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -453,15 +784,18 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00062">62</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
+<p>the acutal sensor tick callback function </p>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000040">Todo:</a></b></dt><dd>do we need to unsubscribe the sensor here? </dd></dl>
 
-<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00062">_map</a>, <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00058">_processing_lock</a>, <a class="el" href="../../d7/d66/Timestamp_8h_source.html#l00033">carla::client::Timestamp::elapsed_seconds</a>, <a class="el" href="../../d7/d66/Timestamp_8h_source.html#l00030">carla::client::Timestamp::frame</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00065">carla::client::World::GetActors()</a>, <a class="el" href="../../d6/de7/ActorState_8cpp_source.html#l00031">carla::client::detail::ActorState::GetParent()</a>, <a class="el" href="../../d4/d34/Actor_8cpp_source.html#l00019">carla::client::Actor::GetTransform()</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00047">carla::client::detail::ActorState::GetWorld()</a>, <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00064">mRssCheck</a>, <a class="el" href="../../db/de4/namespacecarla_1_1sensor_1_1data.html#afb9ab5ff41a62e4f08383a2e00d1b1aea6adf97f83acf6453d4a6a4b1070f3754">carla::sensor::data::None</a>, and <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00047">visualize_results</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00168">168</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00125">_drop_route</a>, <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00119">_processing_lock</a>, <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00122">_rss_check</a>, <a class="el" href="../../d7/d66/Timestamp_8h_source.html#l00033">carla::client::Timestamp::elapsed_seconds</a>, <a class="el" href="../../d7/d66/Timestamp_8h_source.html#l00030">carla::client::Timestamp::frame</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00065">carla::client::World::GetActors()</a>, <a class="el" href="../../d6/de7/ActorState_8cpp_source.html#l00031">carla::client::detail::ActorState::GetParent()</a>, <a class="el" href="../../d4/d34/Actor_8cpp_source.html#l00019">carla::client::Actor::GetTransform()</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00047">carla::client::detail::ActorState::GetWorld()</a>, <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00067">carla::rss::EgoDynamicsOnRoute::time_since_epoch_check_end_ms</a>, and <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00065">carla::rss::EgoDynamicsOnRoute::time_since_epoch_check_start_ms</a>.</p>
+
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/db6/classcarla_1_1client_1_1RssSensor_a2031ce47489be453ded058a2de2c4fcd_cgraph.svg" width="100%" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -470,7 +804,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="af8de7bdda0997f5079ee2f588dd0123b"></a>
+<a class="anchor" id="af3b94e0f336d2d5a67508d71540002c9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -478,7 +812,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool carla::client::RssSensor::_is_listening = false</td>
+          <td class="memname">bool carla::client::RssSensor::_drop_route</td>
         </tr>
       </table>
   </td>
@@ -488,13 +822,15 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00060">60</a> of file <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html">LibCarla/source/carla/rss/RssSensor.h</a>.</p>
+<p>reqired to store <a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a5ca1012d4914348947c2e2e7b86bdda4" title="drop the current route ( ">DropRoute()</a> requests until next sensor tick </p>
 
-<p>Referenced by <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00029">Listen()</a>, and <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00125">Stop()</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00125">125</a> of file <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html">LibCarla/source/carla/rss/RssSensor.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00162">DropRoute()</a>, and <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00168">TickRssSensor()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a68ac3972bf0b7d144e0553693e7bda8a"></a>
+<a class="anchor" id="a2b02fd2bf974dc36a9a51e2548c8c038"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -502,7 +838,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">SharedPtr</a>&lt;<a class="el" href="../../dd/d49/classcarla_1_1client_1_1Map.html">Map</a>&gt; carla::client::RssSensor::_map</td>
+          <td class="memname">std::size_t carla::client::RssSensor::_on_tick_register_id</td>
         </tr>
       </table>
   </td>
@@ -512,9 +848,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00062">62</a> of file <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html">LibCarla/source/carla/rss/RssSensor.h</a>.</p>
+<p>the id got when registering for the on tick event </p>
 
-<p>Referenced by <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00029">Listen()</a>, and <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00062">TickRssSensor()</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00115">115</a> of file <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html">LibCarla/source/carla/rss/RssSensor.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00029">Listen()</a>, and <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00066">Stop()</a>.</p>
 
 </div>
 </div>
@@ -536,13 +874,15 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00058">58</a> of file <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html">LibCarla/source/carla/rss/RssSensor.h</a>.</p>
+<p>the mutex to protect the actual RSS processing and decouple the (slow) visualization </p>
 
-<p>Referenced by <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00062">TickRssSensor()</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00119">119</a> of file <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html">LibCarla/source/carla/rss/RssSensor.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00066">Stop()</a>, and <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00168">TickRssSensor()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a27954d3d5e35937bf1088c1cb4f57986"></a>
+<a class="anchor" id="a5a69f929f95044323cc2925ba4b78748"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -550,7 +890,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../dc/d07/classcarla_1_1rss_1_1RssCheck.html">carla::rss::RssCheck</a>&gt; carla::client::RssSensor::mRssCheck</td>
+          <td class="memname">std::shared_ptr&lt;::<a class="el" href="../../dc/d07/classcarla_1_1rss_1_1RssCheck.html">carla::rss::RssCheck</a>&gt; carla::client::RssSensor::_rss_check</td>
         </tr>
       </table>
   </td>
@@ -560,25 +900,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00064">64</a> of file <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html">LibCarla/source/carla/rss/RssSensor.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00122">122</a> of file <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html">LibCarla/source/carla/rss/RssSensor.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00129">GetEgoVehicleDynamics()</a>, <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00137">GetOtherVehicleDynamics()</a>, <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00029">Listen()</a>, <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00133">SetEgoVehicleDynamics()</a>, <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00141">SetOtherVehicleDynamics()</a>, and <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00062">TickRssSensor()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a58b1dcea988c70216ae562782c59458a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool carla::client::RssSensor::visualize_results = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00047">47</a> of file <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html">LibCarla/source/carla/rss/RssSensor.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00062">TickRssSensor()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00127">AppendRoutingTarget()</a>, <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00082">GetEgoVehicleDynamics()</a>, <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00097">GetOtherVehicleDynamics()</a>, <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00112">GetRoadBoundariesMode()</a>, <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00133">GetRoutingTargets()</a>, <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00153">GetVisualizationMode()</a>, <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00029">Listen()</a>, <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00141">ResetRoutingTargets()</a>, <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00091">SetEgoVehicleDynamics()</a>, <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00106">SetOtherVehicleDynamics()</a>, <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00121">SetRoadBoundariesMode()</a>, <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00147">SetVisualizationMode()</a>, and <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00168">TickRssSensor()</a>.</p>
 
 </div>
 </div>

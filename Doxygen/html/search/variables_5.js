@@ -1,6 +1,13 @@
 var searchData=
 [
   ['earth_5fradius_5fequa',['EARTH_RADIUS_EQUA',['../dc/dda/namespacecarla_1_1geom.html#a8b63440862d55a28d404f5dac4b4692c',1,'carla::geom']]],
+  ['ego_5fcenter',['ego_center',['../d1/d1b/structcarla_1_1rss_1_1EgoDynamicsOnRoute.html#a42552757980c0f5252ff4f28ecda7816',1,'carla::rss::EgoDynamicsOnRoute']]],
+  ['ego_5fcenter_5fwithin_5froute',['ego_center_within_route',['../d1/d1b/structcarla_1_1rss_1_1EgoDynamicsOnRoute.html#aa679ffe13ed94b23a1f6eb6a68360d32',1,'carla::rss::EgoDynamicsOnRoute']]],
+  ['ego_5fdynamics_5fon_5froute',['ego_dynamics_on_route',['../d0/d03/structcarla_1_1rss_1_1RssCheck_1_1CarlaRssState.html#a0d97113e210a4da692e998d98a33d920',1,'carla::rss::RssCheck::CarlaRssState']]],
+  ['ego_5fheading',['ego_heading',['../d1/d1b/structcarla_1_1rss_1_1EgoDynamicsOnRoute.html#aa25cd07a02bbb7ea5847c18c377b1641',1,'carla::rss::EgoDynamicsOnRoute']]],
+  ['ego_5fmatch_5fobject',['ego_match_object',['../d0/d03/structcarla_1_1rss_1_1RssCheck_1_1CarlaRssState.html#a400e310254793764bfe483b5e22ad43c',1,'carla::rss::RssCheck::CarlaRssState']]],
+  ['ego_5froute',['ego_route',['../d0/d03/structcarla_1_1rss_1_1RssCheck_1_1CarlaRssState.html#a15b4b3a96ef085b2260feff50c60aa72',1,'carla::rss::RssCheck::CarlaRssState']]],
+  ['ego_5fspeed',['ego_speed',['../d1/d1b/structcarla_1_1rss_1_1EgoDynamicsOnRoute.html#ada028c0598f4e4ce40e874864bc9fe3e',1,'carla::rss::EgoDynamicsOnRoute']]],
   ['elapsed',['Elapsed',['../d9/df8/structCarlaRecorderFrame.html#a62e8279f2052fcda2c90dfab4dfbe82b',1,'CarlaRecorderFrame']]],
   ['elapsed_5flast_5factor_5fdestruction',['elapsed_last_actor_destruction',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#af694229cad1a3475120879245e84ed8c',1,'carla::traffic_manager::LocalizationStage']]],
   ['elapsed_5fseconds',['elapsed_seconds',['../df/d2c/classcarla_1_1client_1_1Timestamp.html#ae2032e248bea80b4982df3b226631779',1,'carla::client::Timestamp']]],

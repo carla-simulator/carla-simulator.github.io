@@ -41,10 +41,18 @@ var searchData=
   ['rotation',['Rotation',['../d9/dfc/structCarlaRecorderEventAdd.html#a4f203a0cf281edd71eb7c22dcdd3a928',1,'CarlaRecorderEventAdd::Rotation()'],['../d3/d16/structCarlaRecorderPosition.html#a007bba7cc0189a715e3d5c488f699dc0',1,'CarlaRecorderPosition::Rotation()'],['../de/da4/classcarla_1_1geom_1_1Transform.html#a89dcfef603363e7fb60c917b15091122',1,'carla::geom::Transform::rotation()'],['../d8/d2c/structcarla_1_1rpc_1_1DebugShape_1_1Box.html#a20faa6d14941644d73ad51ebb4c375ab',1,'carla::rpc::DebugShape::Box::rotation()']]],
   ['rotationfrequency',['RotationFrequency',['../de/d6f/structFLidarDescription.html#ad4ae6caa8dc144976537989b5a4624ce',1,'FLidarDescription']]],
   ['route',['route',['../dc/db4/structcarla_1_1nav_1_1WalkerInfo.html#a65e6763eed7b1ebe1ca848a5d8d864f6',1,'carla::nav::WalkerInfo']]],
+  ['route_5faccel_5flat',['route_accel_lat',['../d1/d1b/structcarla_1_1rss_1_1EgoDynamicsOnRoute.html#a013035479a7247808ab94459c37367c1',1,'carla::rss::EgoDynamicsOnRoute']]],
+  ['route_5faccel_5flon',['route_accel_lon',['../d1/d1b/structcarla_1_1rss_1_1EgoDynamicsOnRoute.html#a4f69fc092b87e865ae1d142eae01425b',1,'carla::rss::EgoDynamicsOnRoute']]],
+  ['route_5fheading',['route_heading',['../d1/d1b/structcarla_1_1rss_1_1EgoDynamicsOnRoute.html#a9cf49722fc02f0e87bec6d69f776b08f',1,'carla::rss::EgoDynamicsOnRoute']]],
+  ['route_5fnominal_5fcenter',['route_nominal_center',['../d1/d1b/structcarla_1_1rss_1_1EgoDynamicsOnRoute.html#a107a0fac663164ddabda04ea6d14c576',1,'carla::rss::EgoDynamicsOnRoute']]],
+  ['route_5fspeed_5flat',['route_speed_lat',['../d1/d1b/structcarla_1_1rss_1_1EgoDynamicsOnRoute.html#aedd722b8d702a1cf14f78197993a0639',1,'carla::rss::EgoDynamicsOnRoute']]],
+  ['route_5fspeed_5flon',['route_speed_lon',['../d1/d1b/structcarla_1_1rss_1_1EgoDynamicsOnRoute.html#ab9511daa73c265c0d4188ad02c9344bd',1,'carla::rss::EgoDynamicsOnRoute']]],
   ['routeplanners',['RoutePlanners',['../d0/d2d/classAOpenDriveActor.html#acb496ff8711ce7e68d96f2fcceb4f290',1,'AOpenDriveActor']]],
   ['routes',['Routes',['../dc/d0f/classARoutePlanner.html#ab825e1a190e5ec97045b16c156f2e0b2',1,'ARoutePlanner']]],
   ['rpc_5fclient',['rpc_client',['../dc/de1/classcarla_1_1client_1_1detail_1_1Client_1_1Pimpl.html#af5243c98a522bb6f62bfb0ec5bb042cb',1,'carla::client::detail::Client::Pimpl']]],
   ['rpcport',['RPCPort',['../d7/d1e/classUCarlaSettings.html#a77a4b7f85a68c898706950c0996ca5e8',1,'UCarlaSettings']]],
+  ['rss_5fcheck',['rss_check',['../d0/d03/structcarla_1_1rss_1_1RssCheck_1_1CarlaRssState.html#a14a304472271198d5213b2470d049208',1,'carla::rss::RssCheck::CarlaRssState']]],
+  ['rss_5fstate_5fsnapshot',['rss_state_snapshot',['../d0/d03/structcarla_1_1rss_1_1RssCheck_1_1CarlaRssState.html#a7e5d176cee3ac98e84dc1420184fcf33',1,'carla::rss::RssCheck::CarlaRssState']]],
   ['run_5fstage',['run_stage',['../d2/d97/classcarla_1_1traffic__manager_1_1PipelineStage.html#ab915ed0001d4d196b43f76916c4274dc',1,'carla::traffic_manager::PipelineStage']]],
   ['run_5fstep',['run_step',['../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html#acb25a31ec15de83c7c9af55aa275e0a1',1,'carla::traffic_manager::BatchControlStage::run_step()'],['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#ad1cf57b6e51ae9ef573b33a937d4bd42',1,'carla::traffic_manager::LocalizationStage::run_step()']]]
 ];
