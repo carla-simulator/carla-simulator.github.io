@@ -38,6 +38,7 @@ var searchData=
   ['roadinfosignal',['RoadInfoSignal',['../d5/d51/classcarla_1_1road_1_1element_1_1RoadInfoSignal.html',1,'carla::road::element']]],
   ['roadinfospeed',['RoadInfoSpeed',['../da/d67/classcarla_1_1road_1_1element_1_1RoadInfoSpeed.html',1,'carla::road::element']]],
   ['roadinfovisitor',['RoadInfoVisitor',['../df/d3e/classcarla_1_1road_1_1element_1_1RoadInfoVisitor.html',1,'carla::road::element']]],
+  ['roadparameters',['RoadParameters',['../d6/d60/structcarla_1_1geom_1_1MeshFactory_1_1RoadParameters.html',1,'carla::geom::MeshFactory']]],
   ['roadparser',['RoadParser',['../df/d67/classcarla_1_1opendrive_1_1parser_1_1RoadParser.html',1,'carla::opendrive::parser']]],
   ['roadsegmentbuilder',['RoadSegmentBuilder',['../d6/d23/classMapGen_1_1RoadSegmentBuilder.html',1,'MapGen']]],
   ['roadsegmentdescription',['RoadSegmentDescription',['../d7/d2d/classMapGen_1_1RoadSegmentDescription.html',1,'MapGen']]],
