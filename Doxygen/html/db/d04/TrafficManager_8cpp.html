@@ -77,11 +77,11 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="title">TrafficManager.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../dd/de3/client_2Client_8h_source.html">carla/client/Client.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d5b/World_8h_source.html">carla/client/World.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d5/d1b/Sockets_8h_source.html">carla/Sockets.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../da/dfd/TrafficManager_8h_source.html">carla/trafficmanager/TrafficManager.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/d55/TrafficManagerBase_8h_source.html">carla/trafficmanager/TrafficManagerBase.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d8/d8a/Exception_8h_source.html">carla/Exception.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/ddf/TrafficManagerLocal_8h_source.html">carla/trafficmanager/TrafficManagerLocal.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/df6/TrafficManagerRemote_8h_source.html">carla/trafficmanager/TrafficManagerRemote.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for TrafficManager.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -104,6 +104,11 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:a2c54b5ddbc14324ab9e6c1cbdf0c11ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d04/TrafficManager_8cpp.html#a2c54b5ddbc14324ab9e6c1cbdf0c11ef">DEBUG_PRINT_TM</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a2c54b5ddbc14324ab9e6c1cbdf0c11ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4848fcfd35f4df8c94aa6484533db803"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d04/TrafficManager_8cpp.html#a4848fcfd35f4df8c94aa6484533db803">IP_DATA_BUFFER_SIZE</a>&#160;&#160;&#160;80</td></tr>
+<tr class="separator:a4848fcfd35f4df8c94aa6484533db803"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa07ae02804bbec23c27c7d957ae7b228"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d04/TrafficManager_8cpp.html#aa07ae02804bbec23c27c7d957ae7b228">SOCK_INVALID_INDEX</a>&#160;&#160;&#160;-1</td></tr>
+<tr class="memdesc:aa07ae02804bbec23c27c7d957ae7b228"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; socket sockaddr_in  <a href="#aa07ae02804bbec23c27c7d957ae7b228">More...</a><br /></td></tr>
+<tr class="separator:aa07ae02804bbec23c27c7d957ae7b228"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a2c54b5ddbc14324ab9e6c1cbdf0c11ef"></a>
@@ -116,7 +121,42 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d04/TrafficManager_8cpp_source.html#l00013">13</a> of file <a class="el" href="../../db/d04/TrafficManager_8cpp_source.html">TrafficManager.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d04/TrafficManager_8cpp_source.html#l00016">16</a> of file <a class="el" href="../../db/d04/TrafficManager_8cpp_source.html">TrafficManager.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4848fcfd35f4df8c94aa6484533db803"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP_DATA_BUFFER_SIZE&#160;&#160;&#160;80</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d04/TrafficManager_8cpp_source.html#l00017">17</a> of file <a class="el" href="../../db/d04/TrafficManager_8cpp_source.html">TrafficManager.cpp</a>.</p>
+
+<p>Referenced by <a class="el" href="../../db/d04/TrafficManager_8cpp_source.html#l00063">carla::traffic_manager::TrafficManager::CreateTrafficManagerServer()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa07ae02804bbec23c27c7d957ae7b228"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SOCK_INVALID_INDEX&#160;&#160;&#160;-1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>&lt; socket sockaddr_in </p>
+<p>&lt; getsockname &lt; close </p>
+
+<p>Definition at line <a class="el" href="../../d5/d1b/Sockets_8h_source.html#l00019">19</a> of file <a class="el" href="../../d5/d1b/Sockets_8h_source.html">Sockets.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../db/d04/TrafficManager_8cpp_source.html#l00063">carla::traffic_manager::TrafficManager::CreateTrafficManagerServer()</a>.</p>
 
 </div>
 </div>
