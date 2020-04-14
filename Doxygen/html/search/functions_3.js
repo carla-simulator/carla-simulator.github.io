@@ -70,6 +70,7 @@ var searchData=
   ['computejunctionroadconflicts',['ComputeJunctionRoadConflicts',['../de/d16/classcarla_1_1road_1_1MapBuilder.html#a681b6b968d9fc6a9477dca966ec3e09e',1,'carla::road::MapBuilder']]],
   ['computelocation',['ComputeLocation',['../d8/dfe/classUOpenDriveMap.html#a1003f4385322c5c46beab4127882b6cf',1,'UOpenDriveMap']]],
   ['computelocations',['ComputeLocations',['../d8/dfe/classUOpenDriveMap.html#a5c06cd811c71ad842695925473b94696',1,'UOpenDriveMap']]],
+  ['computesignaltransform',['ComputeSignalTransform',['../de/d16/classcarla_1_1road_1_1MapBuilder.html#a59c3796375f1ca76276763f94b923afc',1,'carla::road::MapBuilder']]],
   ['computetotallanewidth',['ComputeTotalLaneWidth',['../de/d26/namespacecarla_1_1road.html#ae93a30c597f650f87af02020466a7916',1,'carla::road']]],
   ['computetransform',['ComputeTransform',['../d8/dfe/classUOpenDriveMap.html#aeb6c4541090c498b5c7eab7161822771',1,'UOpenDriveMap::ComputeTransform()'],['../df/d85/classcarla_1_1road_1_1Lane.html#a03b4a17884560c1f7de741125fe813fc',1,'carla::road::Lane::ComputeTransform()'],['../d0/d34/classcarla_1_1road_1_1Map.html#aef2b6e4da7011f284780ec3496f1df0f',1,'carla::road::Map::ComputeTransform()']]],
   ['computetransforms',['ComputeTransforms',['../d8/dfe/classUOpenDriveMap.html#a8565e880b3b517a5185f1ea59dbe894b',1,'UOpenDriveMap']]],
