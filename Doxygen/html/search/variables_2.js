@@ -47,6 +47,7 @@ var searchData=
   ['broadcaststream',['BroadcastStream',['../d7/d97/classFCarlaServer_1_1FPimpl.html#a31f2b70699a47f8303120dded4d7f91c',1,'FCarlaServer::FPimpl']]],
   ['bsaveroadmaptodisk',['bSaveRoadMapToDisk',['../d1/ddb/classACityMapGenerator.html#ae4ec78d006aaa284afbcc243662f8ea3',1,'ACityMapGenerator']]],
   ['bsemanticsegmentationenabled',['bSemanticSegmentationEnabled',['../df/dad/classUTaggerDelegate.html#aebb3f546d87f3e891b8904460dcd672c',1,'UTaggerDelegate']]],
+  ['bshouldloadlevel',['bShouldLoadLevel',['../da/d55/classUCarlaGameInstance.html#abe9b573ded3ba50c1d43ab9ed14fc0ce',1,'UCarlaGameInstance']]],
   ['bsynchronousmode',['bSynchronousMode',['../dc/d49/classFCarlaEngine.html#ad729cb99b49284780f119fdbdf574ecf',1,'FCarlaEngine::bSynchronousMode()'],['../d7/d1e/classUCarlaSettings.html#aa52eba3377619b24f3c67963df34f07b',1,'UCarlaSettings::bSynchronousMode()'],['../da/d6e/structFEpisodeSettings.html#af03af1e311d804c136efa362c494d7ea',1,'FEpisodeSettings::bSynchronousMode()']]],
   ['btagforsemanticsegmentation',['bTagForSemanticSegmentation',['../d1/ddb/classACityMapGenerator.html#af5a910a7b289aee3e337b3176d80253d',1,'ACityMapGenerator::bTagForSemanticSegmentation()'],['../da/d86/classATagger.html#acc5560af1bc30fcf8984e18378661122',1,'ATagger::bTagForSemanticSegmentation()']]],
   ['btriggerroadmapgeneration',['bTriggerRoadMapGeneration',['../d1/ddb/classACityMapGenerator.html#aa9a5c292041dad595fb556193d277ff2',1,'ACityMapGenerator']]],
