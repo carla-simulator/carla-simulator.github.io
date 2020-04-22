@@ -72,6 +72,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="../../df/d1b/classcarla_1_1sensor_1_1s11n_1_1EpisodeStateSerializer-members.html">List of all members</a>  </div>
@@ -98,6 +99,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de2/structcarla_1_1sensor_1_1s11n_1_1EpisodeStateSerializer_1_1Header.html">Header</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a168a331cd795ab383f2a228241bd74aa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5d/classcarla_1_1sensor_1_1s11n_1_1EpisodeStateSerializer.html#a168a331cd795ab383f2a228241bd74aa">SimulationState</a> { <a class="el" href="../../da/d5d/classcarla_1_1sensor_1_1s11n_1_1EpisodeStateSerializer.html#a168a331cd795ab383f2a228241bd74aaa56f8ae73d7d8d3f9c1164cb852eaa958">None</a> = (0x0 &lt;&lt; 0), 
+<a class="el" href="../../da/d5d/classcarla_1_1sensor_1_1s11n_1_1EpisodeStateSerializer.html#a168a331cd795ab383f2a228241bd74aaacee868c309946c7e03df13e3f1682c78">MapChange</a> = (0x1 &lt;&lt; 0), 
+<a class="el" href="../../da/d5d/classcarla_1_1sensor_1_1s11n_1_1EpisodeStateSerializer.html#a168a331cd795ab383f2a228241bd74aaa996c22279887cc23bae038a50318b92f">PendingLightUpdate</a> = (0x1 &lt;&lt; 1)
+ }</td></tr>
+<tr class="separator:a168a331cd795ab383f2a228241bd74aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aed0113366ac2ab26e841dfadb90fa4c7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">SharedPtr</a>&lt; <a class="el" href="../../df/d8c/classcarla_1_1sensor_1_1SensorData.html">SensorData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5d/classcarla_1_1sensor_1_1s11n_1_1EpisodeStateSerializer.html#aed0113366ac2ab26e841dfadb90fa4c7">Deserialize</a> (<a class="el" href="../../d3/da0/classcarla_1_1sensor_1_1RawData.html">RawData</a> &amp;&amp;data)</td></tr>
@@ -117,7 +126,30 @@ Static Public Attributes</h2></td></tr>
 <div class="textblock"><p>Serializes the current state of the whole episode. </p>
 
 <p>Definition at line <a class="el" href="../../dd/dd8/EpisodeStateSerializer_8h_source.html#l00027">27</a> of file <a class="el" href="../../dd/dd8/EpisodeStateSerializer_8h_source.html">EpisodeStateSerializer.h</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="a168a331cd795ab383f2a228241bd74aa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../da/d5d/classcarla_1_1sensor_1_1s11n_1_1EpisodeStateSerializer.html#a168a331cd795ab383f2a228241bd74aa">carla::sensor::s11n::EpisodeStateSerializer::SimulationState</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a168a331cd795ab383f2a228241bd74aaa56f8ae73d7d8d3f9c1164cb852eaa958"></a>None&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a168a331cd795ab383f2a228241bd74aaacee868c309946c7e03df13e3f1682c78"></a>MapChange&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a168a331cd795ab383f2a228241bd74aaa996c22279887cc23bae038a50318b92f"></a>PendingLightUpdate&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+<p>Definition at line <a class="el" href="../../dd/dd8/EpisodeStateSerializer_8h_source.html#l00030">30</a> of file <a class="el" href="../../dd/dd8/EpisodeStateSerializer_8h_source.html">EpisodeStateSerializer.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="aed0113366ac2ab26e841dfadb90fa4c7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -142,7 +174,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/d34/EpisodeStateSerializer_8cpp_source.html#l00015">15</a> of file <a class="el" href="../../de/d34/EpisodeStateSerializer_8cpp_source.html">EpisodeStateSerializer.cpp</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/dd8/EpisodeStateSerializer_8h_source.html#l00045">Serialize()</a>.</p>
+<p>Referenced by <a class="el" href="../../dd/dd8/EpisodeStateSerializer_8h_source.html#l00052">Serialize()</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -178,7 +210,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/dd8/EpisodeStateSerializer_8h_source.html#l00040">40</a> of file <a class="el" href="../../dd/dd8/EpisodeStateSerializer_8h_source.html">EpisodeStateSerializer.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/dd8/EpisodeStateSerializer_8h_source.html#l00047">47</a> of file <a class="el" href="../../dd/dd8/EpisodeStateSerializer_8h_source.html">EpisodeStateSerializer.h</a>.</p>
 
 <p>References <a class="el" href="../../dc/d62/RawData_8h_source.html#l00051">carla::sensor::RawData::begin()</a>.</p>
 
@@ -199,7 +231,7 @@ Static Public Attributes</h2></td></tr>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d5d/classcarla_1_1sensor_1_1s11n_1_1EpisodeStateSerializer_ac8ade815c62726ca0636eec4afe9ce29_icgraph.svg" width="100%" height="458"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d5d/classcarla_1_1sensor_1_1s11n_1_1EpisodeStateSerializer_ac8ade815c62726ca0636eec4afe9ce29_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -240,7 +272,7 @@ template&lt;typename SensorT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/dd8/EpisodeStateSerializer_8h_source.html#l00045">45</a> of file <a class="el" href="../../dd/dd8/EpisodeStateSerializer_8h_source.html">EpisodeStateSerializer.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/dd8/EpisodeStateSerializer_8h_source.html#l00052">52</a> of file <a class="el" href="../../dd/dd8/EpisodeStateSerializer_8h_source.html">EpisodeStateSerializer.h</a>.</p>
 
 <p>References <a class="el" href="../../de/d34/EpisodeStateSerializer_8cpp_source.html#l00015">Deserialize()</a>.</p>
 
@@ -275,7 +307,7 @@ template&lt;typename SensorT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/dd8/EpisodeStateSerializer_8h_source.html#l00038">38</a> of file <a class="el" href="../../dd/dd8/EpisodeStateSerializer_8h_source.html">EpisodeStateSerializer.h</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/dd8/EpisodeStateSerializer_8h_source.html#l00045">45</a> of file <a class="el" href="../../dd/dd8/EpisodeStateSerializer_8h_source.html">EpisodeStateSerializer.h</a>.</p>
 
 </div>
 </div>

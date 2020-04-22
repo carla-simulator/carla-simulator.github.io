@@ -75,7 +75,7 @@ var searchData=
   ['fixeddeltaseconds',['FixedDeltaSeconds',['../da/d6e/structFEpisodeSettings.html#aa82f0af615f3498f76a2d6911ec3871a',1,'FEpisodeSettings']]],
   ['fixgraphdata',['fixGraphData',['../d2/de5/namespaceMapGen.html#a61ea18de27aac306fc04cf4ebf8038c3',1,'MapGen']]],
   ['flag_5fenabled',['FLAG_ENABLED',['../d8/d64/LibCarla_2source_2carla_2rpc_2VehicleLightState_8h.html#ac6d1e600e803c39ddff74452565e1cd1',1,'VehicleLightState.h']]],
-  ['flag_5ftype',['flag_type',['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html#a329829e09c163b4a5cdbecca7e9294bb',1,'carla::rpc::VehicleLightState']]],
+  ['flag_5ftype',['flag_type',['../d3/d13/classcarla_1_1rpc_1_1LightState.html#aa7bf3d9ac5d2c220aa49abe4ab66f209',1,'carla::rpc::LightState::flag_type()'],['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html#a329829e09c163b4a5cdbecca7e9294bb',1,'carla::rpc::VehicleLightState::flag_type()']]],
   ['flags',['FLAGS',['../df/dc1/namespacecarla_1_1road_1_1element.html#aba4e85b686bb8c88ebf8cbbb570fd4fa',1,'carla::road::element']]],
   ['flidardescription',['FLidarDescription',['../de/d6f/structFLidarDescription.html',1,'']]],
   ['flidarmeasurement',['FLidarMeasurement',['../d5/de4/classARayCastLidar.html#aa4e04182d4582ae04f32c0e65af63f92',1,'ARayCastLidar']]],
@@ -187,5 +187,5 @@ var searchData=
   ['fworldobserver_5fgetacceleration',['FWorldObserver_GetAcceleration',['../d9/de7/WorldObserver_8cpp.html#ad9f5f0e8efde2e3c43fc7f586701d12e',1,'WorldObserver.cpp']]],
   ['fworldobserver_5fgetactorstate',['FWorldObserver_GetActorState',['../d9/de7/WorldObserver_8cpp.html#a04a2a121cbd41b048a0d47f5e06888d9',1,'WorldObserver.cpp']]],
   ['fworldobserver_5fgetangularvelocity',['FWorldObserver_GetAngularVelocity',['../d9/de7/WorldObserver_8cpp.html#ad66c97b3125865e6ad13ad814ca632b1',1,'WorldObserver.cpp']]],
-  ['fworldobserver_5fserialize',['FWorldObserver_Serialize',['../d9/de7/WorldObserver_8cpp.html#a3c4fad73e40a0909e730c342c2aa594a',1,'WorldObserver.cpp']]]
+  ['fworldobserver_5fserialize',['FWorldObserver_Serialize',['../d9/de7/WorldObserver_8cpp.html#a55e677eb5bd393082eef8383920b2fde',1,'WorldObserver.cpp']]]
 ];

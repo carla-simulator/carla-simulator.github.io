@@ -15,7 +15,7 @@ var searchData=
   ['nextcontroller',['NextController',['../dd/d12/classATrafficLightGroup.html#aa120ed6d23965c93f901c194dee41a83',1,'ATrafficLightGroup']]],
   ['nextcyclestep',['NextCycleStep',['../dd/d12/classATrafficLightGroup.html#af10e34333516a05733b35cf74765f27e',1,'ATrafficLightGroup']]],
   ['nextstate',['NextState',['../d3/d08/classUTrafficLightController.html#a2d83a8d193284ecce0cb08507e4c01ae',1,'UTrafficLightController']]],
-  ['node',['Node',['../de/d6b/structMapGen_1_1DoublyConnectedEdgeList_1_1Node.html#a4ce55e4eb93ff9c94f9e550dc12a376b',1,'MapGen::DoublyConnectedEdgeList::Node::Node()'],['../d7/d68/classpugi_1_1xpath__node.html#a5b504b06678b84eedc8467cbd39beb8f',1,'pugi::xpath_node::node()']]],
+  ['node',['node',['../d7/d68/classpugi_1_1xpath__node.html#a5b504b06678b84eedc8467cbd39beb8f',1,'pugi::xpath_node::node()'],['../de/d6b/structMapGen_1_1DoublyConnectedEdgeList_1_1Node.html#a4ce55e4eb93ff9c94f9e550dc12a376b',1,'MapGen::DoublyConnectedEdgeList::Node::Node()']]],
   ['node_5fcopy_5fattribute',['node_copy_attribute',['../db/d20/pugixml_8cpp.html#a1ebf3f9e23bb17f7cc6f4ae26e5abdb8',1,'pugixml.cpp']]],
   ['node_5fcopy_5fcontents',['node_copy_contents',['../db/d20/pugixml_8cpp.html#a2b5c5c36dd22c98e54dbe1d1269f6e9b',1,'pugixml.cpp']]],
   ['node_5fcopy_5fstring',['node_copy_string',['../db/d20/pugixml_8cpp.html#a05e81501deb4a3abe96a3da900711eb6',1,'pugixml.cpp']]],
@@ -38,5 +38,6 @@ var searchData=
   ['notifyendepisode',['NotifyEndEpisode',['../dc/d49/classFCarlaEngine.html#a5a15c6c031258d1764309d4898d9b2a3',1,'FCarlaEngine::NotifyEndEpisode()'],['../da/d55/classUCarlaGameInstance.html#af380dafc0ddd04ea326515c60218b555',1,'UCarlaGameInstance::NotifyEndEpisode()'],['../da/dd6/classFCarlaServer.html#a67989eb680c76616ad1ee031211244a0',1,'FCarlaServer::NotifyEndEpisode()']]],
   ['notifyinitgame',['NotifyInitGame',['../dc/d49/classFCarlaEngine.html#ab8d13063cde985781237dd7da308227e',1,'FCarlaEngine::NotifyInitGame()'],['../da/d55/classUCarlaGameInstance.html#a11df5d28294a4caaf314e7f3af68bc69',1,'UCarlaGameInstance::NotifyInitGame()']]],
   ['notifywheeledvehicle',['NotifyWheeledVehicle',['../d2/d23/classATrafficLightBase.html#a8c5d573bf23c2c894f8aaf35daa3b909',1,'ATrafficLightBase']]],
-  ['num',['Num',['../df/db5/classFActorRegistry.html#a9ee7fa7db40b020094d7d740225ec352',1,'FActorRegistry']]]
+  ['num',['Num',['../df/db5/classFActorRegistry.html#a9ee7fa7db40b020094d7d740225ec352',1,'FActorRegistry']]],
+  ['numlights',['NumLights',['../db/df0/classUCarlaLightSubsystem.html#abccceca4d4e262ff2e13ed6fbeb25a27',1,'UCarlaLightSubsystem']]]
 ];

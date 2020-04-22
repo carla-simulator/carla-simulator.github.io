@@ -17,6 +17,7 @@ var searchData=
   ['default_5fallocate',['default_allocate',['../db/d20/pugixml_8cpp.html#a5c5a3cf417e46e0b3f5207fb9c6a5c18',1,'pugixml.cpp']]],
   ['default_5fdeallocate',['default_deallocate',['../db/d20/pugixml_8cpp.html#a04da64bb4806c0b7491d5d9d73d50100',1,'pugixml.cpp']]],
   ['define_5flog_5fcategory',['DEFINE_LOG_CATEGORY',['../d9/d4f/Carla_8cpp.html#a7ba8691e3037436b49318c7847241c1a',1,'DEFINE_LOG_CATEGORY(LogCarla):&#160;Carla.cpp'],['../d9/d4f/Carla_8cpp.html#a2728661b04240cdd03f6a44b464d16e1',1,'DEFINE_LOG_CATEGORY(LogCarlaServer):&#160;Carla.cpp']]],
+  ['deinitialize',['Deinitialize',['../db/df0/classUCarlaLightSubsystem.html#a55d880a75a21784161549dbb6493b746',1,'UCarlaLightSubsystem']]],
   ['delete_5fxpath_5fvariable',['delete_xpath_variable',['../db/d20/pugixml_8cpp.html#aa9eac4e01f2efcc207d5c31cc308cad3',1,'delete_xpath_variable(T *var):&#160;pugixml.cpp'],['../db/d20/pugixml_8cpp.html#a7849f92cf1fb611f65e35760fe040998',1,'delete_xpath_variable(xpath_value_type type, xpath_variable *var):&#160;pugixml.cpp']]],
   ['deleteactor',['DeleteActor',['../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#ad3f8304d51ae8e9bcf278ec1fc1caa73',1,'carla::traffic_manager::TrackTraffic']]],
   ['deletebyindex',['DeleteByIndex',['../d9/dd7/classcarla_1_1client_1_1detail_1_1AtomicList.html#a9ce39d3219c035cb48ded7bf998f66f7',1,'carla::client::detail::AtomicList']]],
