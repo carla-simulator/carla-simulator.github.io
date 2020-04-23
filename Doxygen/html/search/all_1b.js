@@ -27,6 +27,7 @@ var searchData=
   ['_7eio_5fcontext_5frunning',['~io_context_running',['../de/d8e/classio__context__running.html#afee6c5bc3deb01828a1284f1c5614ba6',1,'io_context_running']]],
   ['_7elaneinvasionsensor',['~LaneInvasionSensor',['../dc/d47/classcarla_1_1client_1_1LaneInvasionSensor.html#a5895868346cda88c54291c06781b4d01',1,'carla::client::LaneInvasionSensor']]],
   ['_7elifetimeprofiler',['~LifetimeProfiler',['../d6/df2/classcarla_1_1profiler_1_1LifetimeProfiler.html#a15975d28adb22d7a09fb7be243cefc4a',1,'carla::profiler::LifetimeProfiler']]],
+  ['_7elightmanager',['~LightManager',['../d8/d26/classcarla_1_1client_1_1LightManager.html#a7923be7ce670ddc637e863dfbe0998d2',1,'carla::client::LightManager']]],
   ['_7elocalizationstage',['~LocalizationStage',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a4b4ad4e752450949cc2c45bae371b8cf',1,'carla::traffic_manager::LocalizationStage']]],
   ['_7elocktexture',['~LockTexture',['../de/d83/structLockTexture.html#ab40fea3072e5fa2ce61c8ac85a6f557a',1,'LockTexture']]],
   ['_7emap',['~Map',['../dd/d49/classcarla_1_1client_1_1Map.html#ae0abef736f330c0c7c343f06bab2d932',1,'carla::client::Map']]],

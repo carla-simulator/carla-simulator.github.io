@@ -38,5 +38,6 @@ var searchData=
   ['notifyendepisode',['NotifyEndEpisode',['../dc/d49/classFCarlaEngine.html#a5a15c6c031258d1764309d4898d9b2a3',1,'FCarlaEngine::NotifyEndEpisode()'],['../da/d55/classUCarlaGameInstance.html#af380dafc0ddd04ea326515c60218b555',1,'UCarlaGameInstance::NotifyEndEpisode()'],['../da/dd6/classFCarlaServer.html#a67989eb680c76616ad1ee031211244a0',1,'FCarlaServer::NotifyEndEpisode()']]],
   ['notifyinitgame',['NotifyInitGame',['../dc/d49/classFCarlaEngine.html#ab8d13063cde985781237dd7da308227e',1,'FCarlaEngine::NotifyInitGame()'],['../da/d55/classUCarlaGameInstance.html#a11df5d28294a4caaf314e7f3af68bc69',1,'UCarlaGameInstance::NotifyInitGame()']]],
   ['notifywheeledvehicle',['NotifyWheeledVehicle',['../d2/d23/classATrafficLightBase.html#a8c5d573bf23c2c894f8aaf35daa3b909',1,'ATrafficLightBase']]],
-  ['num',['Num',['../df/db5/classFActorRegistry.html#a9ee7fa7db40b020094d7d740225ec352',1,'FActorRegistry']]]
+  ['num',['Num',['../df/db5/classFActorRegistry.html#a9ee7fa7db40b020094d7d740225ec352',1,'FActorRegistry']]],
+  ['numlights',['NumLights',['../db/df0/classUCarlaLightSubsystem.html#abccceca4d4e262ff2e13ed6fbeb25a27',1,'UCarlaLightSubsystem']]]
 ];

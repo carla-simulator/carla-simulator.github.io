@@ -8,7 +8,7 @@ var searchData=
   ['clock',['clock',['../d3/d83/classcarla_1_1detail_1_1StopWatchTmpl.html#aa1e36b59409118465df3156534e74c07',1,'carla::detail::StopWatchTmpl']]],
   ['collisiontoplannerframe',['CollisionToPlannerFrame',['../d0/db7/namespacecarla_1_1traffic__manager.html#a507a268a5a9f1c925465b329d3fece95',1,'carla::traffic_manager']]],
   ['collisiontoplannermessenger',['CollisionToPlannerMessenger',['../d0/db7/namespacecarla_1_1traffic__manager.html#ae5fde971d6e41b059042ddb3d032d862',1,'carla::traffic_manager']]],
-  ['color',['Color',['../d1/d64/classcarla_1_1client_1_1DebugHelper.html#aebc0c2ed713fe08c6a4748744038b16b',1,'carla::client::DebugHelper']]],
+  ['color',['Color',['../d1/d64/classcarla_1_1client_1_1DebugHelper.html#aebc0c2ed713fe08c6a4748744038b16b',1,'carla::client::DebugHelper::Color()'],['../d2/daf/namespacecarla_1_1client.html#a246b857fe12b7efd8a1d4be79d4f4d1a',1,'carla::client::Color()']]],
   ['commandresponse',['CommandResponse',['../de/d6c/namespacecarla_1_1rpc.html#a8f99a493e9a2535c7d6caa83d0da33a1',1,'carla::rpc']]],
   ['commandtype',['CommandType',['../dd/d90/classcarla_1_1rpc_1_1Command.html#a627c69928f5503937db0007a67a1faeb',1,'carla::rpc::Command']]],
   ['conid',['ConId',['../de/d26/namespacecarla_1_1road.html#ac0f85ef63f4e0ddafe8fea0b44532e55',1,'carla::road']]],

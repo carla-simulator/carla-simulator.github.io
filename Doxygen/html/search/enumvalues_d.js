@@ -2,6 +2,7 @@ var searchData=
 [
   ['parking',['Parking',['../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5abaaacd7280e91aface947a1cc19d0f79',1,'carla::road::Lane']]],
   ['pedestrians',['Pedestrians',['../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0aa7acbbafc14f96195b93e9b59d1b1143',1,'Tagger.h']]],
+  ['pendinglightupdate',['PendingLightUpdate',['../da/d5d/classcarla_1_1sensor_1_1s11n_1_1EpisodeStateSerializer.html#a168a331cd795ab383f2a228241bd74aaa996c22279887cc23bae038a50318b92f',1,'carla::sensor::s11n::EpisodeStateSerializer']]],
   ['poles',['Poles',['../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a81679595e7eddf97059c8751d80fe5b0',1,'Tagger.h']]],
   ['poly3',['POLY3',['../df/dc1/namespacecarla_1_1road_1_1element.html#af813ce133ab9e826a05831cf2970133eae1b601534c2c991b69548e15c54fbf46',1,'carla::road::element']]],
   ['poly3param',['POLY3PARAM',['../df/dc1/namespacecarla_1_1road_1_1element.html#af813ce133ab9e826a05831cf2970133ea235c59c2ea3af114b4707d4cb208a705',1,'carla::road::element']]],

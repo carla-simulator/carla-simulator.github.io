@@ -110,8 +110,8 @@ Functions</h2></td></tr>
 <tr class="separator:a04a2a121cbd41b048a0d47f5e06888d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad66c97b3125865e6ad13ad814ca632b1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/dfe/classcarla_1_1geom_1_1Vector3D.html">carla::geom::Vector3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de7/WorldObserver_8cpp.html#ad66c97b3125865e6ad13ad814ca632b1">FWorldObserver_GetAngularVelocity</a> (const <a class="el" href="../../d1/da4/classAActor.html">AActor</a> &amp;Actor)</td></tr>
 <tr class="separator:ad66c97b3125865e6ad13ad814ca632b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c4fad73e40a0909e730c342c2aa594a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d0/d0a/classcarla_1_1Buffer.html">carla::Buffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de7/WorldObserver_8cpp.html#a3c4fad73e40a0909e730c342c2aa594a">FWorldObserver_Serialize</a> (<a class="el" href="../../d0/d0a/classcarla_1_1Buffer.html">carla::Buffer</a> &amp;&amp;buffer, const <a class="el" href="../../dc/d84/classUCarlaEpisode.html">UCarlaEpisode</a> &amp;Episode, float DeltaSeconds)</td></tr>
-<tr class="separator:a3c4fad73e40a0909e730c342c2aa594a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55e677eb5bd393082eef8383920b2fde"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d0/d0a/classcarla_1_1Buffer.html">carla::Buffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de7/WorldObserver_8cpp.html#a55e677eb5bd393082eef8383920b2fde">FWorldObserver_Serialize</a> (<a class="el" href="../../d0/d0a/classcarla_1_1Buffer.html">carla::Buffer</a> &amp;&amp;buffer, const <a class="el" href="../../dc/d84/classUCarlaEpisode.html">UCarlaEpisode</a> &amp;Episode, float DeltaSeconds, bool MapChange, bool PendingLightUpdates)</td></tr>
+<tr class="separator:a55e677eb5bd393082eef8383920b2fde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ad9f5f0e8efde2e3c43fc7f586701d12e"></a>
@@ -278,7 +278,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3c4fad73e40a0909e730c342c2aa594a"></a>
+<a class="anchor" id="a55e677eb5bd393082eef8383920b2fde"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -301,7 +301,19 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>DeltaSeconds</em>&#160;</td>
+          <td class="paramname"><em>DeltaSeconds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>MapChange</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>PendingLightUpdates</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -320,14 +332,14 @@ Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00164">FWorldObserver_GetAcceleration()</a>, <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00026">FWorldObserver_GetActorState()</a>, <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00154">FWorldObserver_GetAngularVelocity()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00142">UCarlaEpisode::GetActorRegistry()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00088">UCarlaEpisode::GetId()</a>, and <a class="el" href="../../da/de4/ActorRegistry_8h_source.html#l00052">FActorRegistry::Num()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00230">FWorldObserver::BroadcastTick()</a>.</p>
+<p>Referenced by <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00240">FWorldObserver::BroadcastTick()</a>.</p>
 
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/de7/WorldObserver_8cpp_a3c4fad73e40a0909e730c342c2aa594a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/de7/WorldObserver_8cpp_a55e677eb5bd393082eef8383920b2fde_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -337,7 +349,7 @@ Functions</h2></td></tr>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/de7/WorldObserver_8cpp_a3c4fad73e40a0909e730c342c2aa594a_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/de7/WorldObserver_8cpp_a55e677eb5bd393082eef8383920b2fde_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>

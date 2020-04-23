@@ -28,6 +28,7 @@ var searchData=
   ['clearnoon',['ClearNoon',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#a9983982526217a8a1936d5c3e92e9c24',1,'carla::rpc::WeatherParameters']]],
   ['clearsunset',['ClearSunset',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#a4f915ec9a548355dbdedd99a3fce3fac',1,'carla::rpc::WeatherParameters']]],
   ['client',['client',['../d7/d5c/classcarla_1_1traffic__manager_1_1TrafficManagerRemote.html#a708a4822893737d20797145384fa1ad4',1,'carla::traffic_manager::TrafficManagerRemote']]],
+  ['clientstates',['ClientStates',['../db/df0/classUCarlaLightSubsystem.html#a5de6e1cef74b7870381a4d869544607c',1,'UCarlaLightSubsystem']]],
   ['closest_5fwaypoint',['closest_waypoint',['../df/d75/structcarla_1_1traffic__manager_1_1LocalizationToCollisionData.html#aac0b829c42088cf6fc036faced959719',1,'carla::traffic_manager::LocalizationToCollisionData::closest_waypoint()'],['../d8/dec/structcarla_1_1traffic__manager_1_1LocalizationToTrafficLightData.html#a13f567a8423ec6a4d35397b3b73e1a0d',1,'carla::traffic_manager::LocalizationToTrafficLightData::closest_waypoint()']]],
   ['cloudiness',['Cloudiness',['../dd/d9b/structFWeatherParameters.html#a934a82b8b8ee6e1db8087a7a77344dd9',1,'FWeatherParameters::Cloudiness()'],['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#a183023f6cc7267b424917619f5525711',1,'carla::rpc::WeatherParameters::cloudiness()']]],
   ['cloudynoon',['CloudyNoon',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#ad3e232d6b4835d4a610ab55ff145262b',1,'carla::rpc::WeatherParameters']]],

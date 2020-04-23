@@ -13,5 +13,6 @@ var searchData=
   ['brokensolid',['BrokenSolid',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#ad5910e4c561a99cf13fbb61702060cf2a8afcb6f7c5b3a2a6b5f6b1bb6018efe9',1,'carla::road::element::LaneMarking']]],
   ['bufcapacity',['bufcapacity',['../db/dd3/classxml__buffered__writer.html#abc1932fc3d1b3f076be5f4d3c7e5b0f7ab8b49b73105796783607f1f1ddd382cd',1,'xml_buffered_writer']]],
   ['bufcapacitybytes',['bufcapacitybytes',['../db/dd3/classxml__buffered__writer.html#abc1932fc3d1b3f076be5f4d3c7e5b0f7a9021e7b22ef17fba93b80380f0ffbbc8',1,'xml_buffered_writer']]],
+  ['building',['Building',['../d3/d13/classcarla_1_1rpc_1_1LightState.html#a0dd6e7e658f888d53b9f134359d03bffac39b56d4489fb2507289e7ae19567b80',1,'carla::rpc::LightState::Building()'],['../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ac39b56d4489fb2507289e7ae19567b80',1,'Building():&#160;CarlaLight.h']]],
   ['buildings',['Buildings',['../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a9fdd5aad7ea528df6738692b788cee0a',1,'Tagger.h']]]
 ];

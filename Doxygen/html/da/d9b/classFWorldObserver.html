@@ -97,9 +97,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4727a39f69b777e0279aeee8fda8de90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d9b/classFWorldObserver.html#a4727a39f69b777e0279aeee8fda8de90">BroadcastTick</a> (const <a class="el" href="../../dc/d84/classUCarlaEpisode.html">UCarlaEpisode</a> &amp;Episode, float DeltaSeconds)</td></tr>
-<tr class="memdesc:a4727a39f69b777e0279aeee8fda8de90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a message to every connected client with the info about the given <em>Episode</em>.  <a href="#a4727a39f69b777e0279aeee8fda8de90">More...</a><br /></td></tr>
-<tr class="separator:a4727a39f69b777e0279aeee8fda8de90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad866b204499b7d2252661e39bcff1811"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d9b/classFWorldObserver.html#ad866b204499b7d2252661e39bcff1811">BroadcastTick</a> (const <a class="el" href="../../dc/d84/classUCarlaEpisode.html">UCarlaEpisode</a> &amp;Episode, float DeltaSeconds, bool MapChange, bool PendingLightUpdate)</td></tr>
+<tr class="memdesc:ad866b204499b7d2252661e39bcff1811"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a message to every connected client with the info about the given <em>Episode</em>.  <a href="#ad866b204499b7d2252661e39bcff1811">More...</a><br /></td></tr>
+<tr class="separator:ad866b204499b7d2252661e39bcff1811"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a917fa824a65580971a9ac97cf94f127e"><td class="memItemLeft" align="right" valign="top">FTransform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d9b/classFWorldObserver.html#a917fa824a65580971a9ac97cf94f127e">GetActorTransform</a> () const </td></tr>
 <tr class="memdesc:a917fa824a65580971a9ac97cf94f127e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dummy. Required for compatibility with other sensors only.  <a href="#a917fa824a65580971a9ac97cf94f127e">More...</a><br /></td></tr>
 <tr class="separator:a917fa824a65580971a9ac97cf94f127e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,7 +137,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a4727a39f69b777e0279aeee8fda8de90"></a>
+<a class="anchor" id="ad866b204499b7d2252661e39bcff1811"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -151,7 +151,19 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>DeltaSeconds</em>&#160;</td>
+          <td class="paramname"><em>DeltaSeconds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>MapChange</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>PendingLightUpdate</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -163,18 +175,18 @@ Private Attributes</h2></td></tr>
 
 <p>Send a message to every connected client with the info about the given <em>Episode</em>. </p>
 
-<p>Definition at line <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00230">230</a> of file <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html">WorldObserver.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00240">240</a> of file <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html">WorldObserver.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00175">FWorldObserver_Serialize()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00101">UCarlaEpisode::GetElapsedGameTime()</a>, <a class="el" href="../../da/dd9/DataStream_8h_source.html#l00040">FDataStreamTmpl&lt; T &gt;::MakeAsyncDataStream()</a>, and <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00045">Stream</a>.</p>
+<p>References <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00175">FWorldObserver_Serialize()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00101">UCarlaEpisode::GetElapsedGameTime()</a>, <a class="el" href="../../da/dd9/DataStream_8h_source.html#l00040">FDataStreamTmpl&lt; T &gt;::MakeAsyncDataStream()</a>, and <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00049">Stream</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00028">GetToken()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00090">FCarlaEngine::OnPreTick()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00028">GetToken()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00094">FCarlaEngine::OnPreTick()</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d9b/classFWorldObserver_a4727a39f69b777e0279aeee8fda8de90_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d9b/classFWorldObserver_ad866b204499b7d2252661e39bcff1811_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -184,7 +196,7 @@ Private Attributes</h2></td></tr>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d9b/classFWorldObserver_a4727a39f69b777e0279aeee8fda8de90_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d9b/classFWorldObserver_ad866b204499b7d2252661e39bcff1811_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -214,7 +226,7 @@ Private Attributes</h2></td></tr>
 
 <p>Dummy. Required for compatibility with other sensors only. </p>
 
-<p>Definition at line <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00038">38</a> of file <a class="el" href="../../d8/deb/WorldObserver_8h_source.html">WorldObserver.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00042">42</a> of file <a class="el" href="../../d8/deb/WorldObserver_8h_source.html">WorldObserver.h</a>.</p>
 
 </div>
 </div>
@@ -243,7 +255,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00028">28</a> of file <a class="el" href="../../d8/deb/WorldObserver_8h_source.html">WorldObserver.h</a>.</p>
 
-<p>References <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00230">BroadcastTick()</a>, <a class="el" href="../../da/dd9/DataStream_8h_source.html#l00047">FDataStreamTmpl&lt; T &gt;::GetToken()</a>, and <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00045">Stream</a>.</p>
+<p>References <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00240">BroadcastTick()</a>, <a class="el" href="../../da/dd9/DataStream_8h_source.html#l00047">FDataStreamTmpl&lt; T &gt;::GetToken()</a>, and <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00049">Stream</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -283,9 +295,9 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00022">22</a> of file <a class="el" href="../../d8/deb/WorldObserver_8h_source.html">WorldObserver.h</a>.</p>
 
-<p>References <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00045">Stream</a>.</p>
+<p>References <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00049">Stream</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00053">FCarlaEngine::NotifyInitGame()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00054">FCarlaEngine::NotifyInitGame()</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -318,9 +330,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00045">45</a> of file <a class="el" href="../../d8/deb/WorldObserver_8h_source.html">WorldObserver.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00049">49</a> of file <a class="el" href="../../d8/deb/WorldObserver_8h_source.html">WorldObserver.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00230">BroadcastTick()</a>, <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00028">GetToken()</a>, and <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00022">SetStream()</a>.</p>
+<p>Referenced by <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00240">BroadcastTick()</a>, <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00028">GetToken()</a>, and <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00022">SetStream()</a>.</p>
 
 </div>
 </div>
