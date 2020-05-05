@@ -52,6 +52,7 @@ var searchData=
   ['colorconverter',['ColorConverter',['../da/da0/classcarla_1_1image_1_1ColorConverter.html',1,'carla::image']]],
   ['command',['Command',['../dd/d90/classcarla_1_1rpc_1_1Command.html',1,'carla::rpc']]],
   ['commandbase',['CommandBase',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
+  ['commandbase_3c_20applyangularimpulse_20_3e',['CommandBase&lt; ApplyAngularImpulse &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['commandbase_3c_20applyangularvelocity_20_3e',['CommandBase&lt; ApplyAngularVelocity &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['commandbase_3c_20applyimpulse_20_3e',['CommandBase&lt; ApplyImpulse &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['commandbase_3c_20applytransform_20_3e',['CommandBase&lt; ApplyTransform &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],

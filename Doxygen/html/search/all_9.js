@@ -37,7 +37,7 @@ var searchData=
   ['implicitproducerhashresizeinprogress',['implicitProducerHashResizeInProgress',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#abb675e5c403e8e746f5bf39f01f07985',1,'moodycamel::ConcurrentQueue']]],
   ['implicitproducerkvp',['ImplicitProducerKVP',['../d3/dde/structmoodycamel_1_1ConcurrentQueue_1_1ImplicitProducerKVP.html#a510a2ad38e76354aad070e9d7fc835f3',1,'moodycamel::ConcurrentQueue::ImplicitProducerKVP::ImplicitProducerKVP()'],['../d3/dde/structmoodycamel_1_1ConcurrentQueue_1_1ImplicitProducerKVP.html#a65c17935af4b52ebd02ec4768318d251',1,'moodycamel::ConcurrentQueue::ImplicitProducerKVP::ImplicitProducerKVP(ImplicitProducerKVP &amp;&amp;other) MOODYCAMEL_NOEXCEPT']]],
   ['implicitproducerkvp',['ImplicitProducerKVP',['../d3/dde/structmoodycamel_1_1ConcurrentQueue_1_1ImplicitProducerKVP.html',1,'moodycamel::ConcurrentQueue']]],
-  ['impulse',['impulse',['../d9/db4/structcarla_1_1rpc_1_1Command_1_1ApplyImpulse.html#aa174b90edaa54a710d943e9d2e564354',1,'carla::rpc::Command::ApplyImpulse']]],
+  ['impulse',['impulse',['../d9/db4/structcarla_1_1rpc_1_1Command_1_1ApplyImpulse.html#aa174b90edaa54a710d943e9d2e564354',1,'carla::rpc::Command::ApplyImpulse::impulse()'],['../d3/d47/structcarla_1_1rpc_1_1Command_1_1ApplyAngularImpulse.html#ab54526a35c3041a583b819cc0489e75f',1,'carla::rpc::Command::ApplyAngularImpulse::impulse()']]],
   ['imumeasurement',['IMUMeasurement',['../da/dac/classcarla_1_1sensor_1_1data_1_1IMUMeasurement.html#a59e23031304d782fa6505ed3b9002959',1,'carla::sensor::data::IMUMeasurement']]],
   ['imumeasurement',['IMUMeasurement',['../da/dac/classcarla_1_1sensor_1_1data_1_1IMUMeasurement.html',1,'carla::sensor::data']]],
   ['imumeasurement_2eh',['IMUMeasurement.h',['../d1/d36/IMUMeasurement_8h.html',1,'']]],

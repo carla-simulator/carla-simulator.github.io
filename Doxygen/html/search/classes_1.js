@@ -45,6 +45,7 @@ var searchData=
   ['aobstacledetectionsensor',['AObstacleDetectionSensor',['../d3/d93/classAObstacleDetectionSensor.html',1,'']]],
   ['aopendriveactor',['AOpenDriveActor',['../d0/d2d/classAOpenDriveActor.html',1,'']]],
   ['aopendrivegenerator',['AOpenDriveGenerator',['../d1/db0/classAOpenDriveGenerator.html',1,'']]],
+  ['applyangularimpulse',['ApplyAngularImpulse',['../d3/d47/structcarla_1_1rpc_1_1Command_1_1ApplyAngularImpulse.html',1,'carla::rpc::Command']]],
   ['applyangularvelocity',['ApplyAngularVelocity',['../d1/d00/structcarla_1_1rpc_1_1Command_1_1ApplyAngularVelocity.html',1,'carla::rpc::Command']]],
   ['applyimpulse',['ApplyImpulse',['../d9/db4/structcarla_1_1rpc_1_1Command_1_1ApplyImpulse.html',1,'carla::rpc::Command']]],
   ['applytransform',['ApplyTransform',['../dd/d78/structcarla_1_1rpc_1_1Command_1_1ApplyTransform.html',1,'carla::rpc::Command']]],
