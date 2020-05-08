@@ -98,6 +98,7 @@ var searchData=
   ['urban_5flongitudinal_5fparameters',['urban_longitudinal_parameters',['../da/d5d/classcarla_1_1traffic__manager_1_1MotionPlannerStage.html#a602b9224efce49b84dfa111fa64cc2d7',1,'carla::traffic_manager::MotionPlannerStage']]],
   ['uroadmap',['URoadMap',['../d5/db2/classURoadMap.html',1,'URoadMap'],['../d9/d74/structFRoadMapPixelData.html#a1c47239f1250ef2a2fdb86afae60412f',1,'FRoadMapPixelData::URoadMap()'],['../d5/db2/classURoadMap.html#a626ed954d838a41b2dc9d1916453504b',1,'URoadMap::URoadMap()']]],
   ['use_5fgear_5fautobox',['use_gear_autobox',['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#ad46e8739a79959adfec1e382edf48903',1,'carla::rpc::VehiclePhysicsControl']]],
+  ['use_5flog',['use_log',['../de/d22/structdvs_1_1Config.html#a736673abf1d6cb898c3ff44cedb5fca3',1,'dvs::Config']]],
   ['uses_5fheap',['uses_heap',['../dd/d5c/classxpath__string.html#ac8cab48475690223df758e5ab2368533',1,'xpath_string']]],
   ['utaggerdelegate',['UTaggerDelegate',['../df/dad/classUTaggerDelegate.html',1,'UTaggerDelegate'],['../df/dad/classUTaggerDelegate.html#af85a56a0dea84f4d8107f7f9fc39f9f6',1,'UTaggerDelegate::UTaggerDelegate()']]],
   ['utf16_5fcounter',['utf16_counter',['../d0/df6/structutf16__counter.html',1,'']]],

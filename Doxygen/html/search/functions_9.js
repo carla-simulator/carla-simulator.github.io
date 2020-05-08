@@ -1,6 +1,8 @@
 var searchData=
 [
   ['imagetmpl',['ImageTmpl',['../df/d55/classcarla_1_1sensor_1_1data_1_1ImageTmpl.html#a4137f6066b44971b2f69c89ba1001d5f',1,'carla::sensor::data::ImageTmpl']]],
+  ['imagetogray',['imageToGray',['../d2/daf/classADVSCamera.html#a7e5511a0aa13db200bde5588543f369c',1,'ADVSCamera']]],
+  ['imagetologgray',['imageToLogGray',['../d2/daf/classADVSCamera.html#a37f04524dd1911b285edc82f73b5b4d7',1,'ADVSCamera']]],
   ['implement_5fprimary_5fgame_5fmodule',['IMPLEMENT_PRIMARY_GAME_MODULE',['../d6/da2/CarlaUE4_8cpp.html#a26a6358f33b054b915720f12904a8941',1,'CarlaUE4.cpp']]],
   ['implicitproducer',['ImplicitProducer',['../d4/d1f/structmoodycamel_1_1ConcurrentQueue_1_1ImplicitProducer.html#aa5a917edfe3a045654b20e14a0a9fd8a',1,'moodycamel::ConcurrentQueue::ImplicitProducer']]],
   ['implicitproducerkvp',['ImplicitProducerKVP',['../d3/dde/structmoodycamel_1_1ConcurrentQueue_1_1ImplicitProducerKVP.html#a510a2ad38e76354aad070e9d7fc835f3',1,'moodycamel::ConcurrentQueue::ImplicitProducerKVP::ImplicitProducerKVP()'],['../d3/dde/structmoodycamel_1_1ConcurrentQueue_1_1ImplicitProducerKVP.html#a65c17935af4b52ebd02ec4768318d251',1,'moodycamel::ConcurrentQueue::ImplicitProducerKVP::ImplicitProducerKVP(ImplicitProducerKVP &amp;&amp;other) MOODYCAMEL_NOEXCEPT']]],

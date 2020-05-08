@@ -116,7 +116,7 @@ var searchData=
   ['format_5fwrite_5fbom',['format_write_bom',['../d3/d68/namespacepugi.html#ab863bcafd203aeaa98953df3a998243f',1,'pugi']]],
   ['forward_5fgears',['forward_gears',['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#a766a46982172481193653e1baab12e1c',1,'carla::rpc::VehiclePhysicsControl']]],
   ['forwardgears',['ForwardGears',['../d1/dbe/structFVehiclePhysicsControl.html#ab93885ebdeaa65ff81f730c2ce4cd5fd',1,'FVehiclePhysicsControl']]],
-  ['fov_5fangle',['fov_angle',['../d2/d05/structcarla_1_1sensor_1_1s11n_1_1ImageSerializer_1_1ImageHeader.html#a50c84d3ccb63af9988a91579765bb73f',1,'carla::sensor::s11n::ImageSerializer::ImageHeader']]],
+  ['fov_5fangle',['fov_angle',['../d1/d18/structcarla_1_1sensor_1_1s11n_1_1DVSEventArraySerializer_1_1DVSHeader.html#ab697ba6d1cec0b1e7f1cdffabe5dd0e8',1,'carla::sensor::s11n::DVSEventArraySerializer::DVSHeader::fov_angle()'],['../d2/d05/structcarla_1_1sensor_1_1s11n_1_1ImageSerializer_1_1ImageHeader.html#a50c84d3ccb63af9988a91579765bb73f',1,'carla::sensor::s11n::ImageSerializer::ImageHeader::fov_angle()']]],
   ['fpackageparams',['FPackageParams',['../d5/d34/structFPackageParams.html',1,'']]],
   ['fpedestrianparameters',['FPedestrianParameters',['../d9/db1/structFPedestrianParameters.html',1,'']]],
   ['fpimpl',['FPimpl',['../d7/d97/classFCarlaServer_1_1FPimpl.html',1,'FCarlaServer']]],
