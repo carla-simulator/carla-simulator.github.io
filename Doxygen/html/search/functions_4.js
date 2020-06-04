@@ -77,5 +77,5 @@ var searchData=
   ['dumppixels',['DumpPixels',['../dd/d11/classFPixelReader.html#aafcd002853bb8dff7881ae341474d9a2',1,'FPixelReader']]],
   ['duplicate_5fstring',['duplicate_string',['../dd/d5c/classxpath__string.html#a57c53a0b67fecb1845c31215d8ee206b',1,'xpath_string']]],
   ['dvsevent',['DVSEvent',['../de/d6a/structcarla_1_1sensor_1_1data_1_1DVSEvent.html#a75d0dbae960b9da1f0769ff5e6016c77',1,'carla::sensor::data::DVSEvent::DVSEvent()=default'],['../de/d6a/structcarla_1_1sensor_1_1data_1_1DVSEvent.html#a8f608d12174a22ee17fd35bbd89127eb',1,'carla::sensor::data::DVSEvent::DVSEvent(const DVSEvent &amp;arg)'],['../de/d6a/structcarla_1_1sensor_1_1data_1_1DVSEvent.html#a3203707eafe7ad3129cedd11f15fcb00',1,'carla::sensor::data::DVSEvent::DVSEvent(const DVSEvent &amp;&amp;arg)'],['../de/d6a/structcarla_1_1sensor_1_1data_1_1DVSEvent.html#a8aac757c51e6de9d307793f6708870b7',1,'carla::sensor::data::DVSEvent::DVSEvent(std::uint16_t x, std::uint16_t y, std::int64_t t, bool pol)']]],
-  ['dvseventarray',['DVSEventArray',['../df/dc1/classcarla_1_1sensor_1_1data_1_1DVSEventArray.html#a67859524112cecfd251ff03e6878b9b9',1,'carla::sensor::data::DVSEventArray']]]
+  ['dvseventarray',['DVSEventArray',['../df/dc1/classcarla_1_1sensor_1_1data_1_1DVSEventArray.html#a99f84a58058d54515626c25086e32a67',1,'carla::sensor::data::DVSEventArray']]]
 ];

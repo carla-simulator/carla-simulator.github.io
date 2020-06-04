@@ -83,13 +83,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <dd>This function should be private to <a class="el" href="dd/dea/classAWheeledVehicleAIController.html" title="Wheeled vehicle controller with optional AI. ">AWheeledVehicleAIController</a>.  </dd>
 <dt><a class="anchor" id="_todo000018"></a>Member <a class="el" href="d8/de9/classACollisionSensor.html#a182d28935eb0b680bf28bf2a85e21355">ACollisionSensor::SetOwner</a>  (<a class="el" href="d1/da4/classAActor.html">AActor</a> *NewOwner) override</dt>
 <dd>Deregister previous owner if there was one.  </dd>
-<dt><a class="anchor" id="_todo000041"></a>Namespace <a class="el" href="d9/d36/namespacecarla.html">carla</a>  </dt>
+<dt><a class="anchor" id="_todo000042"></a>Namespace <a class="el" href="d9/d36/namespacecarla.html">carla</a>  </dt>
 <dd>This shouldn't be exposed in this namespace.  </dd>
 <dt><a class="anchor" id="_todo000025"></a>Class <a class="el" href="df/dcc/classcarla_1_1client_1_1BlueprintLibrary.html">carla::client::BlueprintLibrary</a>  </dt>
 <dd>Works as a list but its actually a map. </dd>
 <dt><a class="anchor" id="_todo000026"></a>Class <a class="el" href="de/dfc/classcarla_1_1client_1_1detail_1_1CachedActorList.html">carla::client::detail::CachedActorList</a>  </dt>
 <dd>Dead actors are never removed from the list.  </dd>
-<dt><a class="anchor" id="_todo000040"></a>Member <a class="el" href="d7/db6/classcarla_1_1client_1_1RssSensor.html#a2031ce47489be453ded058a2de2c4fcd">carla::client::RssSensor::TickRssSensor</a>  (const <a class="el" href="df/d2c/classcarla_1_1client_1_1Timestamp.html">Timestamp</a> &amp;timestamp)</dt>
+<dt><a class="anchor" id="_todo000041"></a>Member <a class="el" href="d7/db6/classcarla_1_1client_1_1RssSensor.html#a2031ce47489be453ded058a2de2c4fcd">carla::client::RssSensor::TickRssSensor</a>  (const <a class="el" href="df/d2c/classcarla_1_1client_1_1Timestamp.html">Timestamp</a> &amp;timestamp)</dt>
 <dd>do we need to unsubscribe the sensor here?  </dd>
 <dt><a class="anchor" id="_todo000027"></a>Member <a class="el" href="d2/d21/classcarla_1_1FileSystem.html#a0c350a74f452877560a7ac63c37a7b94">carla::FileSystem::ListFolder</a>  (const std::string &amp;folder_path, const std::string &amp;wildcard_pattern)</dt>
 <dd>Do permission check.  </dd>
@@ -113,11 +113,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <dd>Is it correct to use a road id as section id? (NS: I just added this cast to avoid compiler warnings).  </dd>
 <dt><a class="anchor" id="_todo000039"></a>Class <a class="el" href="db/d00/classcarla_1_1rpc_1_1EpisodeInfo.html">carla::rpc::EpisodeInfo</a>  </dt>
 <dd>Rename, does not represent the episode info anymore.  </dd>
-<dt><a class="anchor" id="_todo000042"></a>Member <a class="el" href="df/d8c/classcarla_1_1sensor_1_1SensorData.html#a30efb437f286d0d4a2845e8f82ab1556">carla::sensor::SensorData::client::detail::Simulator</a>  </dt>
+<dt><a class="anchor" id="_todo000040"></a>Member <a class="el" href="d7/d2a/classcarla_1_1rpc_1_1ResponseError.html#aab79ca464bc7bced77908d858e8cc9c5">carla::rpc::ResponseError::_what</a>  </dt>
+<dd>Needs initialization, empty strings end up calling memcpy on a nullptr. </dd>
+<dt><a class="anchor" id="_todo000043"></a>Member <a class="el" href="df/d8c/classcarla_1_1sensor_1_1SensorData.html#a30efb437f286d0d4a2845e8f82ab1556">carla::sensor::SensorData::client::detail::Simulator</a>  </dt>
 <dd>This shouldn't be exposed in this namespace.  </dd>
-<dt><a class="anchor" id="_todo000043"></a>Class <a class="el" href="d1/d43/classcarla_1_1streaming_1_1detail_1_1MultiStreamState.html">carla::streaming::detail::MultiStreamState</a>  </dt>
+<dt><a class="anchor" id="_todo000044"></a>Class <a class="el" href="d1/d43/classcarla_1_1streaming_1_1detail_1_1MultiStreamState.html">carla::streaming::detail::MultiStreamState</a>  </dt>
 <dd>Lacking some optimization.  </dd>
-<dt><a class="anchor" id="_todo000044"></a>Member <a class="el" href="d5/db3/classcarla_1_1traffic__manager_1_1TrafficLightStage.html#a882edfe9b2848f36644ae0b04edde65d">carla::traffic_manager::TrafficLightStage::TrafficLightStage</a>  (std::string stage_name, std::shared_ptr&lt; LocalizationToTrafficLightMessenger &gt; localization_messenger, std::shared_ptr&lt; TrafficLightToPlannerMessenger &gt; planner_messenger, <a class="el" href="d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html">Parameters</a> &amp;parameters, cc::DebugHelper &amp;debug_helper)</dt>
+<dt><a class="anchor" id="_todo000045"></a>Member <a class="el" href="d5/db3/classcarla_1_1traffic__manager_1_1TrafficLightStage.html#a882edfe9b2848f36644ae0b04edde65d">carla::traffic_manager::TrafficLightStage::TrafficLightStage</a>  (std::string stage_name, std::shared_ptr&lt; LocalizationToTrafficLightMessenger &gt; localization_messenger, std::shared_ptr&lt; TrafficLightToPlannerMessenger &gt; planner_messenger, <a class="el" href="d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html">Parameters</a> &amp;parameters, cc::DebugHelper &amp;debug_helper)</dt>
 <dd>: replace with RandomEngine  </dd>
 <dt><a class="anchor" id="_todo000030"></a>Member <a class="el" href="df/d00/namespaceclmdep__msgpack.html#ad99ad3bb5c4d0080d2ac17ba658c80be">clmdep_msgpack::MSGPACK_API_VERSION_NAMESPACE</a>  (MSGPACK_DEFAULT_API_NS)</dt>
 <dd>Workaround for finding the type.  </dd>
