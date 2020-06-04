@@ -16,7 +16,7 @@ var searchData=
   ['trafficlight',['TrafficLight',['../df/def/classcarla_1_1client_1_1TrafficLight.html',1,'carla::client']]],
   ['trafficlightdata',['TrafficLightData',['../d0/d6d/structcarla_1_1sensor_1_1data_1_1detail_1_1TrafficLightData.html',1,'carla::sensor::data::detail']]],
   ['trafficlightstage',['TrafficLightStage',['../d5/db3/classcarla_1_1traffic__manager_1_1TrafficLightStage.html',1,'carla::traffic_manager']]],
-  ['trafficlighttoplannerdata',['TrafficLightToPlannerData',['../d4/d0f/structcarla_1_1traffic__manager_1_1TrafficLightToPlannerData.html',1,'carla::traffic_manager']]],
+  ['trafficlightstate',['TrafficLightState',['../d3/d47/structcarla_1_1traffic__manager_1_1TrafficLightState.html',1,'carla::traffic_manager']]],
   ['trafficmanager',['TrafficManager',['../df/d5a/classcarla_1_1traffic__manager_1_1TrafficManager.html',1,'carla::traffic_manager']]],
   ['trafficmanagerbase',['TrafficManagerBase',['../dc/d92/classcarla_1_1traffic__manager_1_1TrafficManagerBase.html',1,'carla::traffic_manager']]],
   ['trafficmanagerclient',['TrafficManagerClient',['../da/daa/classcarla_1_1traffic__manager_1_1TrafficManagerClient.html',1,'carla::traffic_manager']]],

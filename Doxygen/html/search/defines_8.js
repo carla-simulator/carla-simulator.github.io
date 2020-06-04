@@ -1,8 +1,6 @@
 var searchData=
 [
   ['make_5fresult',['MAKE_RESULT',['../db/d6c/CarlaServer_8cpp.html#a627185d8086eddbbdc84400c3d81fef0',1,'CarlaServer.cpp']]],
-  ['max',['MAX',['../db/da2/CollisionStage_8cpp.html#a58bf50f8a546cd399f2154fa40076d7b',1,'CollisionStage.cpp']]],
-  ['min_5ftry_5fcount',['MIN_TRY_COUNT',['../d0/d55/TrafficManagerBase_8h.html#a920e8d5a41f2990a982e874974b599f2',1,'TrafficManagerBase.h']]],
   ['moodycamel_5fcatch',['MOODYCAMEL_CATCH',['../de/dad/ConcurrentQueue_8h.html#a9fdbd46c505d59733bbf3e206ed5c604',1,'ConcurrentQueue.h']]],
   ['moodycamel_5fdelete_5ffunction',['MOODYCAMEL_DELETE_FUNCTION',['../de/dad/ConcurrentQueue_8h.html#a967f46a809b842ffccc5058223140ca0',1,'ConcurrentQueue.h']]],
   ['moodycamel_5fexceptions_5fenabled',['MOODYCAMEL_EXCEPTIONS_ENABLED',['../de/dad/ConcurrentQueue_8h.html#a1226d95caca076ed7139cf21547ebf9f',1,'ConcurrentQueue.h']]],

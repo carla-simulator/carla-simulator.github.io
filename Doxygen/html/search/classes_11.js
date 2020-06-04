@@ -5,6 +5,7 @@ var searchData=
   ['radarmeasurement',['RadarMeasurement',['../d6/dfa/classcarla_1_1sensor_1_1data_1_1RadarMeasurement.html',1,'carla::sensor::data']]],
   ['radarserializer',['RadarSerializer',['../dd/ddf/classcarla_1_1sensor_1_1s11n_1_1RadarSerializer.html',1,'carla::sensor::s11n']]],
   ['random',['Random',['../dc/de7/classutil_1_1Random.html',1,'util']]],
+  ['randomgenerator',['RandomGenerator',['../d2/df0/classcarla_1_1traffic__manager_1_1RandomGenerator.html',1,'carla::traffic_manager']]],
   ['rawdata',['RawData',['../d3/da0/classcarla_1_1sensor_1_1RawData.html',1,'carla::sensor']]],
   ['rawepisodestate',['RawEpisodeState',['../d4/d68/classcarla_1_1sensor_1_1data_1_1RawEpisodeState.html',1,'carla::sensor::data']]],
   ['recurrentsharedfuture',['RecurrentSharedFuture',['../d0/df9/classcarla_1_1RecurrentSharedFuture.html',1,'carla']]],

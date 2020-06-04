@@ -78,19 +78,28 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="title">TrafficManagerLocal.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/d4a/Simulator_8h_source.html">carla/client/detail/Simulator.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;atomic&gt;</code><br />
+<code>#include &lt;chrono&gt;</code><br />
+<code>#include &lt;thread&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/dbe/DebugHelper_8h_source.html">carla/client/DebugHelper.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/dc2/EpisodeProxy_8h_source.html">carla/client/detail/EpisodeProxy.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d9e/TrafficLight_8h_source.html">carla/client/TrafficLight.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d5b/World_8h_source.html">carla/client/World.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/d5c/Memory_8h_source.html">carla/Memory.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d55/Command_8h_source.html">carla/rpc/Command.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dd/dfa/AtomicActorSet_8h_source.html">carla/trafficmanager/AtomicActorSet.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/d99/BatchControlStage_8h_source.html">carla/trafficmanager/BatchControlStage.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d67/CollisionStage_8h_source.html">carla/trafficmanager/CollisionStage.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/d89/InMemoryMap_8h_source.html">carla/trafficmanager/InMemoryMap.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">carla/trafficmanager/LocalizationStage.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dd/dbe/MotionPlannerStage_8h_source.html">carla/trafficmanager/MotionPlannerStage.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/dd7/Parameters_8h_source.html">carla/trafficmanager/Parameters.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d12/TrafficLightStage_8h_source.html">carla/trafficmanager/TrafficLightStage.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d5/d3b/SimulationState_8h_source.html">carla/trafficmanager/SimulationState.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d67/TrackTraffic_8h_source.html">carla/trafficmanager/TrackTraffic.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/d55/TrafficManagerBase_8h_source.html">carla/trafficmanager/TrafficManagerBase.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/da0/TrafficManagerServer_8h_source.html">carla/trafficmanager/TrafficManagerServer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d2c/ALSM_8h_source.html">carla/trafficmanager/ALSM.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/df4/LocalizationStage_8h_source.html">carla/trafficmanager/LocalizationStage.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d67/CollisionStage_8h_source.html">carla/trafficmanager/CollisionStage.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d12/TrafficLightStage_8h_source.html">carla/trafficmanager/TrafficLightStage.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/d00/MotionPlanStage_8h_source.html">carla/trafficmanager/MotionPlanStage.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for TrafficManagerLocal.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -119,6 +128,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:d9/d36/namespacecarla"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d36/namespacecarla.html">carla</a></td></tr>
+<tr class="memdesc:d9/d36/namespacecarla"><td class="mdescLeft">&#160;</td><td class="mdescRight">This file contains definitions of common data structures used in traffic manager. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d0/db7/namespacecarla_1_1traffic__manager"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html">carla::traffic_manager</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>

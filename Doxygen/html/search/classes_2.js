@@ -1,7 +1,6 @@
 var searchData=
 [
   ['badattributecast',['BadAttributeCast',['../d1/dc9/classcarla_1_1client_1_1BadAttributeCast.html',1,'carla::client']]],
-  ['batchcontrolstage',['BatchControlStage',['../d1/dce/classcarla_1_1traffic__manager_1_1BatchControlStage.html',1,'carla::traffic_manager']]],
   ['benchmark',['Benchmark',['../dc/d7d/classBenchmark.html',1,'']]],
   ['binary_5fop_5ft',['binary_op_t',['../d9/db3/structxpath__parser_1_1binary__op__t.html',1,'xpath_parser']]],
   ['block',['Block',['../dc/dde/structmoodycamel_1_1ConcurrentQueue_1_1Block.html',1,'moodycamel::ConcurrentQueue']]],

@@ -8,7 +8,7 @@ var searchData=
   ['geometry',['Geometry',['../d6/db0/classcarla_1_1road_1_1element_1_1Geometry.html',1,'carla::road::element']]],
   ['geometryarc',['GeometryArc',['../d2/d63/classcarla_1_1road_1_1element_1_1GeometryArc.html',1,'carla::road::element']]],
   ['geometryarc',['GeometryArc',['../dd/df2/structcarla_1_1opendrive_1_1parser_1_1GeometryArc.html',1,'carla::opendrive::parser']]],
-  ['geometrycomparisoncache',['GeometryComparisonCache',['../d1/d51/structcarla_1_1traffic__manager_1_1GeometryComparisonCache.html',1,'carla::traffic_manager']]],
+  ['geometrycomparison',['GeometryComparison',['../dc/d21/structcarla_1_1traffic__manager_1_1GeometryComparison.html',1,'carla::traffic_manager']]],
   ['geometryline',['GeometryLine',['../d2/da7/classcarla_1_1road_1_1element_1_1GeometryLine.html',1,'carla::road::element']]],
   ['geometryparampoly3',['GeometryParamPoly3',['../d1/d76/structcarla_1_1opendrive_1_1parser_1_1GeometryParamPoly3.html',1,'carla::opendrive::parser']]],
   ['geometryparampoly3',['GeometryParamPoly3',['../da/dfa/classcarla_1_1road_1_1element_1_1GeometryParamPoly3.html',1,'carla::road::element']]],

@@ -6,8 +6,8 @@ var searchData=
   ['char_5ft',['char_t',['../d3/d68/namespacepugi.html#aef5a7a62cba0507542220ea15afe39df',1,'pugi']]],
   ['cityarealist',['CityAreaList',['../d0/d95/classMapGen_1_1GraphParser.html#ab11e316035c8e622169bd2cf14641ca9',1,'MapGen::GraphParser']]],
   ['clock',['clock',['../d3/d83/classcarla_1_1detail_1_1StopWatchTmpl.html#aa1e36b59409118465df3156534e74c07',1,'carla::detail::StopWatchTmpl']]],
-  ['collisiontoplannerframe',['CollisionToPlannerFrame',['../d0/db7/namespacecarla_1_1traffic__manager.html#a507a268a5a9f1c925465b329d3fece95',1,'carla::traffic_manager']]],
-  ['collisiontoplannermessenger',['CollisionToPlannerMessenger',['../d0/db7/namespacecarla_1_1traffic__manager.html#ae5fde971d6e41b059042ddb3d032d862',1,'carla::traffic_manager']]],
+  ['collisionframe',['CollisionFrame',['../d0/db7/namespacecarla_1_1traffic__manager.html#a901051dbd85b147ed6c9199af6d3146f',1,'carla::traffic_manager']]],
+  ['collisionlockmap',['CollisionLockMap',['../d0/db7/namespacecarla_1_1traffic__manager.html#a7b73d8ad0a76b3062e2436db59ceb408',1,'carla::traffic_manager']]],
   ['color',['Color',['../d1/d64/classcarla_1_1client_1_1DebugHelper.html#aebc0c2ed713fe08c6a4748744038b16b',1,'carla::client::DebugHelper::Color()'],['../d2/daf/namespacecarla_1_1client.html#a246b857fe12b7efd8a1d4be79d4f4d1a',1,'carla::client::Color()']]],
   ['commandresponse',['CommandResponse',['../de/d6c/namespacecarla_1_1rpc.html#a8f99a493e9a2535c7d6caa83d0da33a1',1,'carla::rpc']]],
   ['commandtype',['CommandType',['../dd/d90/classcarla_1_1rpc_1_1Command.html#aca4b8555488a47027aef99930be99cf5',1,'carla::rpc::Command']]],
@@ -23,5 +23,6 @@ var searchData=
   ['consumer_5ftoken_5ft',['consumer_token_t',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#acbd2c9d220d40f51177cfad5754aa7b5',1,'moodycamel::ConcurrentQueue']]],
   ['contid',['ContId',['../de/d26/namespacecarla_1_1road.html#a49c6e2c8c8fb053dead02488044d465f',1,'carla::road']]],
   ['control',['Control',['../d9/dc6/classcarla_1_1client_1_1Vehicle.html#a83dee795635411907857d176a686b2d6',1,'carla::client::Vehicle::Control()'],['../de/d2b/classcarla_1_1client_1_1Walker.html#a0f4546f1949319a1a7dc7d149fd74749',1,'carla::client::Walker::Control()']]],
+  ['controlframe',['ControlFrame',['../d0/db7/namespacecarla_1_1traffic__manager.html#ad7b323f349a95d834a1f6ac380763123',1,'carla::traffic_manager']]],
   ['counter',['counter',['../dc/d20/structwchar__selector_3_012_01_4.html#a108682c81b16127f3bec2501f02cb9d8',1,'wchar_selector&lt; 2 &gt;::counter()'],['../de/d17/structwchar__selector_3_014_01_4.html#a7d7c585ae0819660112b8c8683971b97',1,'wchar_selector&lt; 4 &gt;::counter()']]]
 ];

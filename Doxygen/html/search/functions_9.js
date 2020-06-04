@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['identifydestroyedactors',['IdentifyDestroyedActors',['../d2/d75/classcarla_1_1traffic__manager_1_1ALSM.html#aef2962d7072799f698d3bd725f8e713f',1,'carla::traffic_manager::ALSM']]],
+  ['identifynewactors',['IdentifyNewActors',['../d2/d75/classcarla_1_1traffic__manager_1_1ALSM.html#a6c798464f066c4e1da1dcef69162138e',1,'carla::traffic_manager::ALSM']]],
   ['imagetmpl',['ImageTmpl',['../df/d55/classcarla_1_1sensor_1_1data_1_1ImageTmpl.html#a5bd78e5b89873dba921d28268ed6d542',1,'carla::sensor::data::ImageTmpl']]],
   ['imagetogray',['imageToGray',['../d2/daf/classADVSCamera.html#a7e5511a0aa13db200bde5588543f369c',1,'ADVSCamera']]],
   ['imagetologgray',['imageToLogGray',['../d2/daf/classADVSCamera.html#a37f04524dd1911b285edc82f73b5b4d7',1,'ADVSCamera']]],
@@ -68,13 +70,12 @@ var searchData=
   ['islevelpendingload',['IsLevelPendingLoad',['../da/d55/classUCarlaGameInstance.html#a836f30cf9a4fce871c848cf455372224',1,'UCarlaGameInstance']]],
   ['islightupdatepending',['IsLightUpdatePending',['../d5/dbf/classcarla_1_1client_1_1detail_1_1EpisodeState.html#aad7be6f3d653fa69a5a7ca512ff3533e',1,'carla::client::detail::EpisodeState']]],
   ['islistening',['IsListening',['../dc/d47/classcarla_1_1client_1_1LaneInvasionSensor.html#aab881766619503b96a35aa71f93de9ee',1,'carla::client::LaneInvasionSensor::IsListening()'],['../da/dec/classcarla_1_1client_1_1Sensor.html#a6f8f02f33c912989f9a9c851c770c3c1',1,'carla::client::Sensor::IsListening()'],['../de/d68/classcarla_1_1client_1_1ServerSideSensor.html#ad858521d3577ad3ab384f4652aa8a526',1,'carla::client::ServerSideSensor::IsListening()'],['../d7/db6/classcarla_1_1client_1_1RssSensor.html#a4de185e37508b6932b1f4a017726ca71',1,'carla::client::RssSensor::IsListening()']]],
-  ['islocationafterjunctionsafe',['IsLocationAfterJunctionSafe',['../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#a22ade505e7b252a086c1d87f597cb1ba',1,'carla::traffic_manager::CollisionStage']]],
   ['ismodifiable',['IsModifiable',['../dc/db1/classcarla_1_1client_1_1ActorAttribute.html#a71d0f57ab88dc77aeb72439b2096aa2c',1,'carla::client::ActorAttribute']]],
   ['isoff',['IsOff',['../de/d11/classcarla_1_1client_1_1Light.html#adb9fef8bd4b23b88f4e3b143b234a18a',1,'carla::client::Light']]],
   ['isoffroad',['IsOffRoad',['../df/dc1/namespacecarla_1_1road_1_1element.html#ad4397b3938f0a721ad5208f14912b744',1,'carla::road::element']]],
   ['ison',['IsOn',['../de/d11/classcarla_1_1client_1_1Light.html#a313fef2901ce6a1bee2eeae65d9ccd56',1,'carla::client::Light']]],
   ['isopendrivevalid',['IsOpenDriveValid',['../d1/db0/classAOpenDriveGenerator.html#adc9f9d1b2a8e6c55e46dc14f7760a311',1,'AOpenDriveGenerator']]],
-  ['isphysicsenabled',['IsPhysicsEnabled',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a6247162cdff3f4215f83839e176fd2d6',1,'carla::traffic_manager::LocalizationStage']]],
+  ['isphysicsenabled',['IsPhysicsEnabled',['../d9/d2b/classcarla_1_1traffic__manager_1_1SimulationState.html#aa0ef9ace021a18c11b59d276a9ec1c7d',1,'carla::traffic_manager::SimulationState']]],
   ['ispossessingavehicle',['IsPossessingAVehicle',['../dd/dea/classAWheeledVehicleAIController.html#a16981f40ce05c72bddd8dbe0f90089c9',1,'AWheeledVehicleAIController']]],
   ['isresponseignored',['IsResponseIgnored',['../db/dc6/classcarla_1_1rpc_1_1Metadata.html#a33a7bf4ae67d188f9499dc5a2801ad3b',1,'carla::rpc::Metadata']]],
   ['isroad',['IsRoad',['../d9/d74/structFRoadMapPixelData.html#a247556fc3e727031c691800a89ef95e1',1,'FRoadMapPixelData']]],
@@ -87,5 +88,5 @@ var searchData=
   ['isupdatepending',['IsUpdatePending',['../db/df0/classUCarlaLightSubsystem.html#ad9e6e44504ce9b0bda870b084a0db465',1,'UCarlaLightSubsystem']]],
   ['isvalid',['IsValid',['../dd/d10/classFActorDefinitionValidator.html#a4079e0ecc2f4724dac9ec84d39c14e0b',1,'FActorDefinitionValidator::IsValid(const EActorAttributeType Type)'],['../dd/d10/classFActorDefinitionValidator.html#a1405b13ec1abb98b9699c2ae26c470f3',1,'FActorDefinitionValidator::IsValid(const FActorVariation &amp;Variation)'],['../dd/d10/classFActorDefinitionValidator.html#a78e12a12f569cb23979ed18b3f229019',1,'FActorDefinitionValidator::IsValid(const FActorAttribute &amp;Attribute)'],['../dd/d10/classFActorDefinitionValidator.html#ad0ec708bf840e217fb4f0ee7ed4e79ec',1,'FActorDefinitionValidator::IsValid(const FActorDefinition &amp;ActorDefinition)'],['../d9/df2/structFActorSpawnResult.html#a40a5d630306b2798f2325c1b4e5aa4ce',1,'FActorSpawnResult::IsValid()'],['../da/db0/classFActorView.html#a084e38764fa8138a284f561dbab391ab',1,'FActorView::IsValid()'],['../d5/db2/classURoadMap.html#a3724949584acfc39da4af148fd4615a5',1,'URoadMap::IsValid()'],['../d1/dd3/classcarla_1_1client_1_1detail_1_1EpisodeProxyImpl.html#a82fcd958a0b28dc8793cdd270ed67888',1,'carla::client::detail::EpisodeProxyImpl::IsValid()'],['../d0/d02/classcarla_1_1geom_1_1Mesh.html#a8cab726dc1a675810a10196de632ad7f',1,'carla::geom::Mesh::IsValid()'],['../d2/d40/TrafficLightBase_8cpp.html#a1459952e95242b0c926376d0bb4692b8',1,'IsValid():&#160;TrafficLightBase.cpp']]],
   ['isvalidport',['IsValidPort',['../df/d5a/classcarla_1_1traffic__manager_1_1TrafficManager.html#a1c472a90fc491a599be366368e31d60c',1,'carla::traffic_manager::TrafficManager']]],
-  ['isvehiclestuck',['IsVehicleStuck',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#aa1fc74d04d98982ae80b39517293c07d',1,'carla::traffic_manager::LocalizationStage']]]
+  ['isvehiclestuck',['IsVehicleStuck',['../d2/d75/classcarla_1_1traffic__manager_1_1ALSM.html#a8960baa40ebe29297764a3418a7c83f9',1,'carla::traffic_manager::ALSM']]]
 ];

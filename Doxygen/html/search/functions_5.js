@@ -37,5 +37,6 @@ var searchData=
   ['evaluate_5fnumber',['evaluate_number',['../d7/d38/classpugi_1_1xpath__query.html#a002919f6c360cc382ce050af37039fd9',1,'pugi::xpath_query']]],
   ['evaluate_5fstring',['evaluate_string',['../d7/d38/classpugi_1_1xpath__query.html#ad628e189fc4924d67acfbaeeb0f1f21f',1,'pugi::xpath_query::evaluate_string(const xpath_node &amp;n) const '],['../d7/d38/classpugi_1_1xpath__query.html#aa20b2392867d091115cdcd9194bf8ccf',1,'pugi::xpath_query::evaluate_string(char_t *buffer, size_t capacity, const xpath_node &amp;n) const ']]],
   ['executeevent',['ExecuteEvent',['../dd/d5b/classcarla_1_1nav_1_1WalkerManager.html#a35e22e246e2bbade7986a60968e0cbd1',1,'carla::nav::WalkerManager']]],
-  ['explicitproducer',['ExplicitProducer',['../df/dcd/structmoodycamel_1_1ConcurrentQueue_1_1ExplicitProducer.html#aa2aa6ed450e958b57ba20b6b974974b5',1,'moodycamel::ConcurrentQueue::ExplicitProducer']]]
+  ['explicitproducer',['ExplicitProducer',['../df/dcd/structmoodycamel_1_1ConcurrentQueue_1_1ExplicitProducer.html#aa2aa6ed450e958b57ba20b6b974974b5',1,'moodycamel::ConcurrentQueue::ExplicitProducer']]],
+  ['extendandfindsafespace',['ExtendAndFindSafeSpace',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a54529199aa49e3e0c5476ba0da376850',1,'carla::traffic_manager::LocalizationStage']]]
 ];

@@ -71,7 +71,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
@@ -86,7 +85,9 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <code>#include &quot;<a class="el" href="../../d9/d8b/geom_2Location_8h_source.html">carla/geom/Location.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/dbb/RoadTypes_8h_source.html">carla/road/RoadTypes.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/d89/ActorId_8h_source.html">carla/rpc/ActorId.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d45/Constants_8h_source.html">carla/trafficmanager/Constants.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d7/dd3/SimpleWaypoint_8h_source.html">carla/trafficmanager/SimpleWaypoint.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d67/TrackTraffic_8h_source.html">carla/trafficmanager/TrackTraffic.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for LocalizationUtils.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -100,38 +101,44 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d50/LocalizationUtils_8h__dep__incl.svg" width="456" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d50/LocalizationUtils_8h__dep__incl.svg" width="100%" height="552"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div>
 <p><a href="../../d2/d84/LocalizationUtils_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html">carla::traffic_manager::TrackTraffic</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:d9/d36/namespacecarla"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d36/namespacecarla.html">carla</a></td></tr>
+<tr class="memdesc:d9/d36/namespacecarla"><td class="mdescLeft">&#160;</td><td class="mdescRight">This file contains definitions of common data structures used in traffic manager. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d0/db7/namespacecarla_1_1traffic__manager"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html">carla::traffic_manager</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a0a2a81f90a54846d67d46596536697e2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a0a2a81f90a54846d67d46596536697e2">carla::traffic_manager::Buffer</a> = std::deque&lt; SimpleWaypointPtr &gt;</td></tr>
-<tr class="memdesc:a0a2a81f90a54846d67d46596536697e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience typing.  <a href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a0a2a81f90a54846d67d46596536697e2">More...</a><br /></td></tr>
-<tr class="separator:a0a2a81f90a54846d67d46596536697e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31344dba146ce930f774cbd2f8dab022"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a31344dba146ce930f774cbd2f8dab022">carla::traffic_manager::Actor</a> = <a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">carla::SharedPtr</a>&lt; <a class="el" href="../../d6/da5/classcarla_1_1client_1_1Actor.html">cc::Actor</a> &gt;</td></tr>
+<tr class="separator:a31344dba146ce930f774cbd2f8dab022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36e144174a4524310723dee7ddb8e286"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a36e144174a4524310723dee7ddb8e286">carla::traffic_manager::ActorIdSet</a> = std::unordered_set&lt; ActorId &gt;</td></tr>
+<tr class="separator:a36e144174a4524310723dee7ddb8e286"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a9681db4c92aa3bb38a35db5b9f8e3d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a2a9681db4c92aa3bb38a35db5b9f8e3d">carla::traffic_manager::TargetWPInfo</a> = std::pair&lt; SimpleWaypointPtr, uint64_t &gt;</td></tr>
+<tr class="memdesc:a2a9681db4c92aa3bb38a35db5b9f8e3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to return the wayPoints from the waypoint <a class="el" href="../../d0/d0a/classcarla_1_1Buffer.html" title="A piece of raw data. ">Buffer</a> by using target point distance.  <a href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a2a9681db4c92aa3bb38a35db5b9f8e3d">More...</a><br /></td></tr>
+<tr class="separator:a2a9681db4c92aa3bb38a35db5b9f8e3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae5bbba7764001ac97a771b59569e6040"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ae5bbba7764001ac97a771b59569e6040">carla::traffic_manager::DeviationCrossProduct</a> (Actor actor, const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;vehicle_location, const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;target_location)</td></tr>
-<tr class="memdesc:ae5bbba7764001ac97a771b59569e6040"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cross product (z component value) between the vehicle's heading vector and the vector along the direction to the next target waypoint on the horizon.  <a href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ae5bbba7764001ac97a771b59569e6040">More...</a><br /></td></tr>
-<tr class="separator:ae5bbba7764001ac97a771b59569e6040"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16f245658a7840b8c78f050917f7d2f7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a16f245658a7840b8c78f050917f7d2f7">carla::traffic_manager::DeviationDotProduct</a> (Actor actor, const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;vehicle_location, const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;target_location, bool rear_offset=false)</td></tr>
-<tr class="memdesc:a16f245658a7840b8c78f050917f7d2f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot product between the vehicle's heading vector and the vector along the direction to the next target waypoint on the horizon.  <a href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a16f245658a7840b8c78f050917f7d2f7">More...</a><br /></td></tr>
-<tr class="separator:a16f245658a7840b8c78f050917f7d2f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89337c3161330c2e9a7d5ed0905310ff"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a89337c3161330c2e9a7d5ed0905310ff">carla::traffic_manager::DeviationCrossProduct</a> (const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;reference_location, const <a class="el" href="../../d9/dfe/classcarla_1_1geom_1_1Vector3D.html">cg::Vector3D</a> &amp;heading_vector, const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;target_location)</td></tr>
+<tr class="memdesc:a89337c3161330c2e9a7d5ed0905310ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cross product (z component value) between the vehicle's heading vector and the vector along the direction to the next target waypoint on the horizon.  <a href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a89337c3161330c2e9a7d5ed0905310ff">More...</a><br /></td></tr>
+<tr class="separator:a89337c3161330c2e9a7d5ed0905310ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3c2122d4e257fe9e2a2529ce4fc0ba0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#af3c2122d4e257fe9e2a2529ce4fc0ba0">carla::traffic_manager::DeviationDotProduct</a> (const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;reference_location, const <a class="el" href="../../d9/dfe/classcarla_1_1geom_1_1Vector3D.html">cg::Vector3D</a> &amp;heading_vector, const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">cg::Location</a> &amp;target_location)</td></tr>
+<tr class="memdesc:af3c2122d4e257fe9e2a2529ce4fc0ba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot product between the vehicle's heading vector and the vector along the direction to the next target waypoint on the horizon.  <a href="../../d0/db7/namespacecarla_1_1traffic__manager.html#af3c2122d4e257fe9e2a2529ce4fc0ba0">More...</a><br /></td></tr>
+<tr class="separator:af3c2122d4e257fe9e2a2529ce4fc0ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a228c96ec5c8ff54d8f49f4bb294d8"><td class="memItemLeft" align="right" valign="top">TargetWPInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aa6a228c96ec5c8ff54d8f49f4bb294d8">carla::traffic_manager::GetTargetWaypoint</a> (const Buffer &amp;waypoint_buffer, const float &amp;target_point_distance)</td></tr>
+<tr class="separator:aa6a228c96ec5c8ff54d8f49f4bb294d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a281d807c2cff6298b79020c8ff78e19d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a281d807c2cff6298b79020c8ff78e19d">carla::traffic_manager::PopWaypoint</a> (ActorId actor_id, TrackTraffic &amp;track_traffic, Buffer &amp;buffer, bool front_or_back)</td></tr>
+<tr class="separator:a281d807c2cff6298b79020c8ff78e19d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c957d0e5acd15d14a29cf41959e0d37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a7c957d0e5acd15d14a29cf41959e0d37">carla::traffic_manager::PushWaypoint</a> (ActorId actor_id, TrackTraffic &amp;track_traffic, Buffer &amp;buffer, SimpleWaypointPtr &amp;waypoint)</td></tr>
+<tr class="separator:a7c957d0e5acd15d14a29cf41959e0d37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
