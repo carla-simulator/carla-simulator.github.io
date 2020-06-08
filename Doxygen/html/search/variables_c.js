@@ -25,7 +25,7 @@ var searchData=
   ['lidarmeasurement',['LidarMeasurement',['../d5/de4/classARayCastLidar.html#a9aa429c1c9b024c8152874ffdfd536d2',1,'ARayCastLidar']]],
   ['life_5ftime',['life_time',['../d1/d38/classcarla_1_1rpc_1_1DebugShape.html#a4ab4de55a41d7c9ff70423c45d5e2954',1,'carla::rpc::DebugShape']]],
   ['lifetime',['LifeTime',['../dd/d3c/structFShapeVisitor.html#adf2032e085133654b3a973cf61e46acd',1,'FShapeVisitor']]],
-  ['light_5fstate',['light_state',['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html#aa526c9d0cc5e3839cd04b8dd55de2a42',1,'carla::rpc::VehicleLightState']]],
+  ['light_5fstate',['light_state',['../db/d85/structcarla_1_1rpc_1_1Command_1_1SetVehicleLightState.html#a851bf4d58d032456db85594df1b60b0c',1,'carla::rpc::Command::SetVehicleLightState::light_state()'],['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html#aa526c9d0cc5e3839cd04b8dd55de2a42',1,'carla::rpc::VehicleLightState::light_state()']]],
   ['lights',['Lights',['../db/df0/classUCarlaLightSubsystem.html#a923404bab4ebc36b67d2b5962987d0bf',1,'UCarlaLightSubsystem']]],
   ['lightstate',['LightState',['../d5/d70/classACarlaWheeledVehicle.html#a093e89427411717aa47eabdacd4e6a28',1,'ACarlaWheeledVehicle']]],
   ['lightstates',['LightStates',['../d3/d08/classUTrafficLightController.html#a4805252b7bf1e72402823d379535db79',1,'UTrafficLightController']]],

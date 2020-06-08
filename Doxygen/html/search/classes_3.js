@@ -63,6 +63,7 @@ var searchData=
   ['commandbase_3c_20destroyactor_20_3e',['CommandBase&lt; DestroyActor &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['commandbase_3c_20setautopilot_20_3e',['CommandBase&lt; SetAutopilot &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['commandbase_3c_20setsimulatephysics_20_3e',['CommandBase&lt; SetSimulatePhysics &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
+  ['commandbase_3c_20setvehiclelightstate_20_3e',['CommandBase&lt; SetVehicleLightState &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['commandbase_3c_20spawnactor_20_3e',['CommandBase&lt; SpawnActor &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['compiletimetypemap',['CompileTimeTypeMap',['../d4/dd4/structcarla_1_1sensor_1_1CompileTimeTypeMap.html',1,'carla::sensor']]],
   ['compiletimetypemap_3c_20items_2e_2e_2e_20_3e',['CompileTimeTypeMap&lt; Items... &gt;',['../d4/dd4/structcarla_1_1sensor_1_1CompileTimeTypeMap.html',1,'carla::sensor']]],
