@@ -145,7 +145,6 @@ var searchData=
   ['setlongitudebias',['SetLongitudeBias',['../d0/dc3/classAGnssSensor.html#a2e6b558e45e7411772f87cc8252c4059',1,'AGnssSensor']]],
   ['setlongitudedeviation',['SetLongitudeDeviation',['../d0/dc3/classAGnssSensor.html#a6e4cde425b4b3e78b3a389e58ef80662',1,'AGnssSensor']]],
   ['setmanualbones',['SetManualBones',['../de/d2e/classAWalkerController.html#abe580b248054e20e4bf07237ddbb4eea',1,'AWalkerController']]],
-  ['setmaptoload',['SetMapToLoad',['../da/d55/classUCarlaGameInstance.html#abc9f52c59380a5150f0e3bf374402bef',1,'UCarlaGameInstance']]],
   ['setmaxspeed',['SetMaxSpeed',['../d0/d52/classcarla_1_1client_1_1WalkerAIController.html#a2e7fd6453ff8de47737433ec51bf9da9',1,'carla::client::WalkerAIController']]],
   ['setmotionblurintensity',['SetMotionBlurIntensity',['../d4/d60/classASceneCaptureSensor.html#a8a44f10a532be2d56e8a10c42aff6ef7',1,'ASceneCaptureSensor']]],
   ['setmotionblurmaxdistortion',['SetMotionBlurMaxDistortion',['../d4/d60/classASceneCaptureSensor.html#a3717d837aa309c9bd45b596df0aa0dea',1,'ASceneCaptureSensor']]],

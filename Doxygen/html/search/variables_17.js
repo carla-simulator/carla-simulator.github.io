@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['walker',['Walker',['../df/d24/classCarlaRecorderQuery.html#a1828099e639aa83b49b0ac7647efee11',1,'CarlaRecorderQuery::Walker()'],['../d9/d0b/structcarla_1_1client_1_1detail_1_1WalkerNavigation_1_1WalkerHandle.html#a8de8d222336d5bf236154577ca3959fe',1,'carla::client::detail::WalkerNavigation::WalkerHandle::walker()']]],
+  ['walker',['walker',['../d9/d0b/structcarla_1_1client_1_1detail_1_1WalkerNavigation_1_1WalkerHandle.html#a8de8d222336d5bf236154577ca3959fe',1,'carla::client::detail::WalkerNavigation::WalkerHandle::walker()'],['../df/d24/classCarlaRecorderQuery.html#a1828099e639aa83b49b0ac7647efee11',1,'CarlaRecorderQuery::Walker()']]],
   ['walker_5fcontrol',['walker_control',['../d0/d4a/unioncarla_1_1sensor_1_1data_1_1ActorDynamicState_1_1TypeDependentState.html#a6fa195a12383811e2a726d7ee48eb70f',1,'carla::sensor::data::ActorDynamicState::TypeDependentState']]],
   ['walker_5ftime_5fextension',['WALKER_TIME_EXTENSION',['../df/dc8/namespacecarla_1_1traffic__manager_1_1constants_1_1Collision.html#ad79817c7865c376e2b61a73528e565b1',1,'carla::traffic_manager::constants::Collision']]],
   ['walkers',['Walkers',['../dd/db9/classACarlaRecorder.html#add3d45897d2b2a074a06a77bf408c8a3',1,'ACarlaRecorder::Walkers()'],['../de/d09/classCarlaRecorderAnimWalkers.html#a9ec70b1b9986e25409e89fbb47c40407',1,'CarlaRecorderAnimWalkers::Walkers()']]],
@@ -10,10 +10,10 @@ var searchData=
   ['waypoint_5foverlap_5ftracker',['waypoint_overlap_tracker',['../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#a3c2ad98d8426830de2de2d96d42ccd9f',1,'carla::traffic_manager::TrackTraffic']]],
   ['weather',['Weather',['../dc/d84/classUCarlaEpisode.html#a028fff1a899f723da9f98f6370baabdc',1,'UCarlaEpisode::Weather()'],['../de/d75/classAWeather.html#a2a2c853133523a07237c5b17296266a0',1,'AWeather::Weather()']]],
   ['weatherclass',['WeatherClass',['../db/de5/classACarlaGameModeBase.html#a07d449d2c413d33950f2d25b0d3535d6',1,'ACarlaGameModeBase']]],
-  ['weight',['weight',['../d4/de7/structcarla_1_1geom_1_1VertexWeight.html#a2767b5e1474783e73deb704682087745',1,'carla::geom::VertexWeight::weight()'],['../df/d3e/structFSensorShader.html#a7b1bbb9604ef361d2aa017d02e1dd425',1,'FSensorShader::Weight()']]],
+  ['weight',['Weight',['../df/d3e/structFSensorShader.html#a7b1bbb9604ef361d2aa017d02e1dd425',1,'FSensorShader::Weight()'],['../d4/de7/structcarla_1_1geom_1_1VertexWeight.html#a2767b5e1474783e73deb704682087745',1,'carla::geom::VertexWeight::weight()']]],
   ['wetcloudynoon',['WetCloudyNoon',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#ae0f47eb1dd8b81b15b05a0f475ed9c36',1,'carla::rpc::WeatherParameters']]],
   ['wetcloudysunset',['WetCloudySunset',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#a85e4e5fe1afacf054fae96b6fbb4bc2a',1,'carla::rpc::WeatherParameters']]],
-  ['wetness',['Wetness',['../dd/d9b/structFWeatherParameters.html#a5968a073950db04562ec646b853f6f98',1,'FWeatherParameters::Wetness()'],['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#a2b9106053a39eb5ef28eaf092a59773f',1,'carla::rpc::WeatherParameters::wetness()']]],
+  ['wetness',['wetness',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#a2b9106053a39eb5ef28eaf092a59773f',1,'carla::rpc::WeatherParameters::wetness()'],['../dd/d9b/structFWeatherParameters.html#a5968a073950db04562ec646b853f6f98',1,'FWeatherParameters::Wetness()']]],
   ['wetnoon',['WetNoon',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#a36672973d2b8910040ddbcd6c4763fa0',1,'carla::rpc::WeatherParameters']]],
   ['wetsunset',['WetSunset',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#afd3b26b2f274cf528c627c494f64ccd4',1,'carla::rpc::WeatherParameters']]],
   ['wheels',['Wheels',['../d1/dbe/structFVehiclePhysicsControl.html#a1510b13388a06cdb50624fd9020d54b0',1,'FVehiclePhysicsControl::Wheels()'],['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#a495ddd5550034664a6445f6e7bade0b2',1,'carla::rpc::VehiclePhysicsControl::wheels()']]],
