@@ -53,6 +53,7 @@ var searchData=
   ['au',['aU',['../d1/d76/structcarla_1_1opendrive_1_1parser_1_1GeometryParamPoly3.html#a127aca42e079207d3914ca2495a9a34a',1,'carla::opendrive::parser::GeometryParamPoly3']]],
   ['auto_5flane_5fchange',['auto_lane_change',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a1326386a65e57d92a9453a75586cf30a',1,'carla::traffic_manager::Parameters']]],
   ['autoplay',['Autoplay',['../dc/dc6/classCarlaReplayer.html#aa34a30c207d70548871c977a84653684',1,'CarlaReplayer']]],
+  ['auxpoints',['AuxPoints',['../d5/de4/classARayCastLidar.html#ab11805b2c355c7b51f78523e07d97dd8',1,'ARayCastLidar']]],
   ['av',['aV',['../d1/d76/structcarla_1_1opendrive_1_1parser_1_1GeometryParamPoly3.html#a54537b7ca886eeee461f56a983e896c6',1,'carla::opendrive::parser::GeometryParamPoly3']]],
   ['available_5fdistance_5fmargin',['available_distance_margin',['../df/d79/structcarla_1_1traffic__manager_1_1CollisionHazardData.html#aa7ce2fea756b18a755ac8fbedf9f6e30',1,'carla::traffic_manager::CollisionHazardData']]],
   ['avg_5froute_5faccel_5flat',['avg_route_accel_lat',['../d1/d1b/structcarla_1_1rss_1_1EgoDynamicsOnRoute.html#a8f477009a20d9d52260fca915fbe728e',1,'carla::rss::EgoDynamicsOnRoute']]],
