@@ -53,7 +53,6 @@ var searchData=
   ['stopsigncomponent_2eh',['StopSignComponent.h',['../dc/d8c/StopSignComponent_8h.html',1,'']]],
   ['stopwatch_2eh',['StopWatch.h',['../d4/da6/StopWatch_8h.html',1,'']]],
   ['stream_2eh',['Stream.h',['../de/dd1/Stream_8h.html',1,'']]],
-  ['streamstate_2eh',['StreamState.h',['../d4/d4d/StreamState_8h.html',1,'']]],
   ['streamstatebase_2ecpp',['StreamStateBase.cpp',['../dc/d98/StreamStateBase_8cpp.html',1,'']]],
   ['streamstatebase_2eh',['StreamStateBase.h',['../de/d69/StreamStateBase_8h.html',1,'']]],
   ['string_2eh',['String.h',['../d9/dba/String_8h.html',1,'']]],

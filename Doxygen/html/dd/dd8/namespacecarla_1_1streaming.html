@@ -101,12 +101,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a6b526aef46c35a881e5e70b113d784af"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd8/namespacecarla_1_1streaming.html#a6b526aef46c35a881e5e70b113d784af">MultiStream</a> = <a class="el" href="../../d2/dea/classcarla_1_1streaming_1_1detail_1_1Stream.html">detail::Stream</a>&lt; <a class="el" href="../../d1/d43/classcarla_1_1streaming_1_1detail_1_1MultiStreamState.html">detail::MultiStreamState</a> &gt;</td></tr>
-<tr class="memdesc:a6b526aef46c35a881e5e70b113d784af"><td class="mdescLeft">&#160;</td><td class="mdescRight">A stream represents an unidirectional channel for sending data from server to client.  <a href="#a6b526aef46c35a881e5e70b113d784af">More...</a><br /></td></tr>
-<tr class="separator:a6b526aef46c35a881e5e70b113d784af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae237fad533012c7a1707f28f04b4d3ba"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd8/namespacecarla_1_1streaming.html#ae237fad533012c7a1707f28f04b4d3ba">Stream</a> = <a class="el" href="../../d2/dea/classcarla_1_1streaming_1_1detail_1_1Stream.html">detail::Stream</a>&lt; <a class="el" href="../../dc/d9c/classcarla_1_1streaming_1_1detail_1_1StreamState.html">detail::StreamState</a> &gt;</td></tr>
-<tr class="memdesc:ae237fad533012c7a1707f28f04b4d3ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">A stream represents an unidirectional channel for sending data from server to client.  <a href="#ae237fad533012c7a1707f28f04b4d3ba">More...</a><br /></td></tr>
-<tr class="separator:ae237fad533012c7a1707f28f04b4d3ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee023db19f8836a59ba910e363ef37c8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd8/namespacecarla_1_1streaming.html#aee023db19f8836a59ba910e363ef37c8">Stream</a> = <a class="el" href="../../d2/dea/classcarla_1_1streaming_1_1detail_1_1Stream.html">detail::Stream</a>&lt; <a class="el" href="../../d1/d43/classcarla_1_1streaming_1_1detail_1_1MultiStreamState.html">detail::MultiStreamState</a> &gt;</td></tr>
+<tr class="memdesc:aee023db19f8836a59ba910e363ef37c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">A stream represents an unidirectional channel for sending data from server to client.  <a href="#aee023db19f8836a59ba910e363ef37c8">More...</a><br /></td></tr>
+<tr class="separator:aee023db19f8836a59ba910e363ef37c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc4794339ef06328afe8103850117795"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd8/namespacecarla_1_1streaming.html#acc4794339ef06328afe8103850117795">stream_token</a> = <a class="el" href="../../df/de1/classcarla_1_1streaming_1_1detail_1_1token__type.html">detail::token_type</a></td></tr>
 <tr class="separator:acc4794339ef06328afe8103850117795"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -130,38 +127,20 @@ Functions</h2></td></tr>
 <tr class="separator:a7c8d3fc06241e65ad000c2a5820b4d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="a6b526aef46c35a881e5e70b113d784af"></a>
+<a class="anchor" id="aee023db19f8836a59ba910e363ef37c8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../dd/dd8/namespacecarla_1_1streaming.html#a6b526aef46c35a881e5e70b113d784af">carla::streaming::MultiStream</a> = typedef <a class="el" href="../../d2/dea/classcarla_1_1streaming_1_1detail_1_1Stream.html">detail::Stream</a>&lt;<a class="el" href="../../d1/d43/classcarla_1_1streaming_1_1detail_1_1MultiStreamState.html">detail::MultiStreamState</a>&gt;</td>
+          <td class="memname">using <a class="el" href="../../dd/dd8/namespacecarla_1_1streaming.html#aee023db19f8836a59ba910e363ef37c8">carla::streaming::Stream</a> = typedef <a class="el" href="../../d2/dea/classcarla_1_1streaming_1_1detail_1_1Stream.html">detail::Stream</a>&lt;<a class="el" href="../../d1/d43/classcarla_1_1streaming_1_1detail_1_1MultiStreamState.html">detail::MultiStreamState</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>A stream represents an unidirectional channel for sending data from server to client. </p>
-<p>Multiple clients can subscribe to this stream using the stream token. If no client is subscribed, the data flushed down the stream is discarded.</p>
-<dl class="section warning"><dt>Warning</dt><dd>MultiStream is quite slower than Stream. </dd></dl>
+<p><b>Multiple</b> clients can subscribe to this stream using the stream token. If no client is subscribed, the data flushed down the stream is discarded. </p>
 
-<p>Definition at line <a class="el" href="../../de/dd1/Stream_8h_source.html#l00028">28</a> of file <a class="el" href="../../de/dd1/Stream_8h_source.html">Stream.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae237fad533012c7a1707f28f04b4d3ba"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="../../dd/dd8/namespacecarla_1_1streaming.html#ae237fad533012c7a1707f28f04b4d3ba">carla::streaming::Stream</a> = typedef <a class="el" href="../../d2/dea/classcarla_1_1streaming_1_1detail_1_1Stream.html">detail::Stream</a>&lt;<a class="el" href="../../dc/d9c/classcarla_1_1streaming_1_1detail_1_1StreamState.html">detail::StreamState</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>A stream represents an unidirectional channel for sending data from server to client. </p>
-<p>A <b>single</b> client can subscribe to this stream using the stream token. If no client is subscribed, the data flushed down the stream is discarded. </p>
-
-<p>Definition at line <a class="el" href="../../de/dd1/Stream_8h_source.html#l00020">20</a> of file <a class="el" href="../../de/dd1/Stream_8h_source.html">Stream.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dd1/Stream_8h_source.html#l00019">19</a> of file <a class="el" href="../../de/dd1/Stream_8h_source.html">Stream.h</a>.</p>
 
 </div>
 </div>
