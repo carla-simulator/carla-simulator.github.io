@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['scenelight',['SceneLight',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a43f526c402051273b186b8f6069073a6',1,'CarlaRecorder.h']]],
   ['shoulder',['Shoulder',['../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5a83cb4c144b3d6ee1a847bee51a44b933',1,'carla::road::Lane']]],
   ['sidewalk',['Sidewalk',['../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5ac68f4e6506520a1ae5f89c48dc2fcca1',1,'carla::road::Lane']]],
   ['sidewalks',['Sidewalks',['../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0abf98f22928647b6115992a562a478d29',1,'Tagger.h']]],

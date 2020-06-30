@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d7d/classUCarlaLightSubsystem__coll__graph.svg" width="584" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d7d/classUCarlaLightSubsystem__coll__graph.svg" width="560" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -98,6 +98,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a55d880a75a21784161549dbb6493b746"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df0/classUCarlaLightSubsystem.html#a55d880a75a21784161549dbb6493b746">Deinitialize</a> () override</td></tr>
 <tr class="separator:a55d880a75a21784161549dbb6493b746"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5df2e77d6d08c3707939d17276a6706"><td class="memItemLeft" align="right" valign="top">UCarlaLight *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df0/classUCarlaLightSubsystem.html#af5df2e77d6d08c3707939d17276a6706">GetLight</a> (int Id)</td></tr>
+<tr class="separator:af5df2e77d6d08c3707939d17276a6706"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ebb6a397199d247837fa7d926b85c91"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d3/d13/classcarla_1_1rpc_1_1LightState.html">carla::rpc::LightState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df0/classUCarlaLightSubsystem.html#a1ebb6a397199d247837fa7d926b85c91">GetLights</a> (FString Client)</td></tr>
 <tr class="separator:a1ebb6a397199d247837fa7d926b85c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b8e0d97ec34f7fb6653559358c88b6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df0/classUCarlaLightSubsystem.html#a2b8e0d97ec34f7fb6653559358c88b6b">Initialize</a> (FSubsystemCollectionBase &amp;Collection) override</td></tr>
@@ -122,8 +124,8 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a5de6e1cef74b7870381a4d869544607c"><td class="memItemLeft" align="right" valign="top">TMap&lt; FString, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df0/classUCarlaLightSubsystem.html#a5de6e1cef74b7870381a4d869544607c">ClientStates</a></td></tr>
 <tr class="separator:a5de6e1cef74b7870381a4d869544607c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a923404bab4ebc36b67d2b5962987d0bf"><td class="memItemLeft" align="right" valign="top">TMap&lt; uint32, UCarlaLight * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df0/classUCarlaLightSubsystem.html#a923404bab4ebc36b67d2b5962987d0bf">Lights</a></td></tr>
-<tr class="separator:a923404bab4ebc36b67d2b5962987d0bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d37a32b7633c827f828d07021ff5a38"><td class="memItemLeft" align="right" valign="top">TMap&lt; int, UCarlaLight * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df0/classUCarlaLightSubsystem.html#a2d37a32b7633c827f828d07021ff5a38">Lights</a></td></tr>
+<tr class="separator:a2d37a32b7633c827f828d07021ff5a38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -154,6 +156,38 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="af5df2e77d6d08c3707939d17276a6706"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UCarlaLight * UCarlaLightSubsystem::GetLight </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>Id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00094">94</a> of file <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html">CarlaLightSubsystem.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00063">Lights</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00354">CarlaReplayerHelper::ProcessReplayerLightScene()</a>.</p>
+
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/df0/classUCarlaLightSubsystem_af5df2e77d6d08c3707939d17276a6706_icgraph.svg" width="100%" height="590"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a1ebb6a397199d247837fa7d926b85c91"></a>
 <div class="memitem">
 <div class="memproto">
@@ -168,17 +202,17 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00049">49</a> of file <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html">CarlaLightSubsystem.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00055">55</a> of file <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html">CarlaLightSubsystem.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00065">ClientStates</a>, and <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00062">Lights</a>.</p>
+<p>References <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00066">ClientStates</a>, and <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00063">Lights</a>.</p>
 
 <p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00156">FCarlaServer::FPimpl::BindActions()</a>.</p>
 
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../db/df0/classUCarlaLightSubsystem_a1ebb6a397199d247837fa7d926b85c91_icgraph.svg" width="584" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -225,17 +259,17 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00037">37</a> of file <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html">CarlaLightSubsystem.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00043">43</a> of file <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html">CarlaLightSubsystem.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00065">ClientStates</a>.</p>
+<p>References <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00066">ClientStates</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00094">FCarlaEngine::OnPreTick()</a>.</p>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../db/df0/classUCarlaLightSubsystem_ad9e6e44504ce9b0bda870b084a0db465_icgraph.svg" width="659" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -284,7 +318,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00021">21</a> of file <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html">CarlaLightSubsystem.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00062">Lights</a>.</p>
+<p>References <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00063">Lights</a>.</p>
 
 </div>
 </div>
@@ -310,9 +344,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00088">88</a> of file <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html">CarlaLightSubsystem.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00103">103</a> of file <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html">CarlaLightSubsystem.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00065">ClientStates</a>.</p>
+<p>References <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00066">ClientStates</a>.</p>
 
 </div>
 </div>
@@ -346,17 +380,17 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00064">64</a> of file <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html">CarlaLightSubsystem.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00070">70</a> of file <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html">CarlaLightSubsystem.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00065">ClientStates</a>, and <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00062">Lights</a>.</p>
+<p>References <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00066">ClientStates</a>, and <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00063">Lights</a>.</p>
 
 <p>Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00156">FCarlaServer::FPimpl::BindActions()</a>.</p>
 
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../db/df0/classUCarlaLightSubsystem_a66d33d15955eeb0329f4696c82a604d7_icgraph.svg" width="584" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -378,9 +412,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html">CarlaLightSubsystem.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00035">35</a> of file <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html">CarlaLightSubsystem.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00062">Lights</a>.</p>
+<p>References <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00063">Lights</a>.</p>
 
 </div>
 </div>
@@ -403,13 +437,13 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00065">65</a> of file <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html">CarlaLightSubsystem.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00066">66</a> of file <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html">CarlaLightSubsystem.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00049">GetLights()</a>, <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00037">IsUpdatePending()</a>, <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00088">SetClientStatesdirty()</a>, and <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00064">SetLights()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00055">GetLights()</a>, <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00043">IsUpdatePending()</a>, <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00103">SetClientStatesdirty()</a>, and <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00070">SetLights()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a923404bab4ebc36b67d2b5962987d0bf"></a>
+<a class="anchor" id="a2d37a32b7633c827f828d07021ff5a38"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -417,7 +451,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">TMap&lt;uint32, UCarlaLight* &gt; UCarlaLightSubsystem::Lights</td>
+          <td class="memname">TMap&lt;int, UCarlaLight* &gt; UCarlaLightSubsystem::Lights</td>
         </tr>
       </table>
   </td>
@@ -427,9 +461,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00062">62</a> of file <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html">CarlaLightSubsystem.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html#l00063">63</a> of file <a class="el" href="../../d1/d0d/CarlaLightSubsystem_8h_source.html">CarlaLightSubsystem.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00049">GetLights()</a>, <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00021">RegisterLight()</a>, <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00064">SetLights()</a>, and <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00029">UnregisterLight()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00094">GetLight()</a>, <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00055">GetLights()</a>, <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00021">RegisterLight()</a>, <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00070">SetLights()</a>, and <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00035">UnregisterLight()</a>.</p>
 
 </div>
 </div>

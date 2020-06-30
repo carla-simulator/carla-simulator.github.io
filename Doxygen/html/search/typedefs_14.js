@@ -4,5 +4,6 @@ var searchData=
   ['vector2d',['Vector2D',['../de/d6c/namespacecarla_1_1rpc.html#a72d0cd2c2fafe223834761b8f0f85bb0',1,'carla::rpc']]],
   ['vector3d',['Vector3D',['../de/d6c/namespacecarla_1_1rpc.html#a17e0e99a069aeaea39f5ff9ff75dfaf2',1,'carla::rpc']]],
   ['vehiclelightstatelist',['VehicleLightStateList',['../de/d6c/namespacecarla_1_1rpc.html#ae8b8db0666bc26d13a0bb0f42c868dc8',1,'carla::rpc']]],
+  ['vehiclelightstatetype',['VehicleLightStateType',['../d8/d3b/structCarlaRecorderLightVehicle.html#aa47fe7ea405255bb56ac140dda33bd57',1,'CarlaRecorderLightVehicle']]],
   ['vertex_5ftype',['vertex_type',['../d0/d02/classcarla_1_1geom_1_1Mesh.html#ab9efe73f8aa2c990f94d612d94b3f429',1,'carla::geom::Mesh']]]
 ];
