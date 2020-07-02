@@ -43,6 +43,7 @@ var searchData=
   ['pixelspercentimeter',['PixelsPerCentimeter',['../d5/db2/classURoadMap.html#a71ec0bf5ba24f7e8a65fb40aae729811',1,'URoadMap']]],
   ['pixelspermapunit',['PixelsPerMapUnit',['../d1/ddb/classACityMapGenerator.html#a53fe3d828726dd324562762917d863f2',1,'ACityMapGenerator']]],
   ['platform_5ftimestamp',['platform_timestamp',['../df/d2c/classcarla_1_1client_1_1Timestamp.html#aa4a6c050e6bc82a58498fe6d37dc4d7b',1,'carla::client::Timestamp::platform_timestamp()'],['../d9/de2/structcarla_1_1sensor_1_1s11n_1_1EpisodeStateSerializer_1_1Header.html#af0cee3abdf32cafaa308cd9a07efe62e',1,'carla::sensor::s11n::EpisodeStateSerializer::Header::platform_timestamp()']]],
+  ['platformtime',['PlatformTime',['../dd/db9/classACarlaRecorder.html#a78ddf73955b29c03617e3f2f671e9365',1,'ACarlaRecorder::PlatformTime()'],['../df/d24/classCarlaRecorderQuery.html#ac352337966e4e009bc89accc6c1d3fd3',1,'CarlaRecorderQuery::PlatformTime()']]],
   ['pointspersecond',['PointsPerSecond',['../de/d6f/structFLidarDescription.html#a97043b7121f2f38a9aa4b740e34a5109',1,'FLidarDescription::PointsPerSecond()'],['../d9/d27/classARadar.html#a3f95e6482a6f4e927ce1cc04fca318d5',1,'ARadar::PointsPerSecond()']]],
   ['pol',['pol',['../de/d6a/structcarla_1_1sensor_1_1data_1_1DVSEvent.html#acc99a8236a2ae33aefef8044deb67458',1,'carla::sensor::data::DVSEvent']]],
   ['pole_5findex',['pole_index',['../d0/d6d/structcarla_1_1sensor_1_1data_1_1detail_1_1TrafficLightData.html#a3574d5bf92730bd990024d8e397efc26',1,'carla::sensor::data::detail::TrafficLightData']]],

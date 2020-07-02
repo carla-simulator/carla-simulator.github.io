@@ -1,6 +1,7 @@
 var searchData=
 [
   ['b',['b',['../dd/d8d/structcarla_1_1opendrive_1_1parser_1_1GeometryPoly3.html#a1150a0e9d7b662aaa2fb971c79565dcb',1,'carla::opendrive::parser::GeometryPoly3::b()'],['../d2/d9c/structcarla_1_1opendrive_1_1parser_1_1ElevationProfile.html#a2f0659d6dd4c0095b3bd1ad8b8ea157f',1,'carla::opendrive::parser::ElevationProfile::b()'],['../d5/da0/structcarla_1_1opendrive_1_1parser_1_1LateralProfile.html#a175291bb487724598ce50cab41239c70',1,'carla::opendrive::parser::LateralProfile::b()'],['../d1/d20/structcarla_1_1opendrive_1_1parser_1_1Polynomial.html#adee701c69fe630c1dbbab51b831fb53d',1,'carla::opendrive::parser::Polynomial::b()'],['../da/dd4/structcarla_1_1opendrive_1_1parser_1_1LaneOffset.html#abab62e24114ecb0dbf1fc999a15bf7bb',1,'carla::opendrive::parser::LaneOffset::b()'],['../da/d44/classcarla_1_1rpc_1_1Color.html#a5fe9b79c9b2e275e9a3429f45151495a',1,'carla::rpc::Color::b()'],['../d2/dec/structcarla_1_1sensor_1_1data_1_1Color.html#abbebb1674015780ee7ee856eb78d4e87',1,'carla::sensor::data::Color::b()']]],
+  ['badditionaldata',['bAdditionalData',['../dd/db9/classACarlaRecorder.html#a0bb77ad042ee120d5b96a58825894d24',1,'ACarlaRecorder']]],
   ['baddspawners',['bAddSpawners',['../d0/d2d/classAOpenDriveActor.html#a55a58e135c9b9e05bc4b777887839e08',1,'AOpenDriveActor']]],
   ['base',['base',['../df/d6c/structmoodycamel_1_1ConcurrentQueue_1_1ExplicitProducer_1_1BlockIndexEntry.html#a1517aa089442fed9227686a08543b201',1,'moodycamel::ConcurrentQueue::ExplicitProducer::BlockIndexEntry']]],
   ['base_5fpath',['BASE_PATH',['../d1/dc0/test__opendrive_8cpp.html#a0423f4cb393331ce0b9f6b3a43adcaae',1,'test_opendrive.cpp']]],
@@ -14,7 +15,7 @@ var searchData=
   ['bgeneraterandomseed',['bGenerateRandomSeed',['../d2/d2a/classAActorWithRandomEngine.html#ae89a8d204ed3da811b5da82a72232b94',1,'AActorWithRandomEngine']]],
   ['bgenerateroadmaponsave',['bGenerateRoadMapOnSave',['../d1/ddb/classACityMapGenerator.html#a041b7150c71ad44005500e3be58820de',1,'ACityMapGenerator']]],
   ['bgenerateroads',['bGenerateRoads',['../d1/ddb/classACityMapGenerator.html#a41349f90e6289ccc92c91bd3a835137f',1,'ACityMapGenerator']]],
-  ['bhandbrake',['bHandbrake',['../d8/d88/structCarlaRecorderAnimVehicle.html#adce93cc0dd8aa7bfbc32325aa57b38d9',1,'CarlaRecorderAnimVehicle::bHandbrake()'],['../d1/d4b/structFVehicleControl.html#a91a90bdbfbbb660d485cd7f8b0440a99',1,'FVehicleControl::bHandBrake()']]],
+  ['bhandbrake',['bHandBrake',['../d1/d4b/structFVehicleControl.html#a91a90bdbfbbb660d485cd7f8b0440a99',1,'FVehicleControl::bHandBrake()'],['../d8/d88/structCarlaRecorderAnimVehicle.html#adce93cc0dd8aa7bfbc32325aa57b38d9',1,'CarlaRecorderAnimVehicle::bHandbrake()']]],
   ['biasgyro',['BiasGyro',['../d5/de0/classAInertialMeasurementUnit.html#aa0304a09e7803659be7d99a90c049b56',1,'AInertialMeasurementUnit']]],
   ['bisfrozen',['bIsFrozen',['../dd/d12/classATrafficLightGroup.html#afd39df6da7b46e58fd2222e7a4c4dcbb',1,'ATrafficLightGroup']]],
   ['bisintersection',['bIsIntersection',['../dc/d0f/classARoutePlanner.html#a4f9bdaaa2c6ad97b7829f2edd76cd27d',1,'ARoutePlanner']]],
@@ -40,8 +41,10 @@ var searchData=
   ['boundary_5fextension_5frate',['BOUNDARY_EXTENSION_RATE',['../df/dc8/namespacecarla_1_1traffic__manager_1_1constants_1_1Collision.html#a642f3a5784054288d5887e05c578795e',1,'carla::traffic_manager::constants::Collision']]],
   ['bounding',['bounding',['../d4/d66/structcarla_1_1nav_1_1VehicleCollisionInfo.html#a2e56db0b1a1dadfd1ce190dfac2bc58c',1,'carla::nav::VehicleCollisionInfo']]],
   ['bounding_5fbox',['bounding_box',['../db/dfd/classcarla_1_1rpc_1_1Actor.html#ae369d4725826e1f50fef38d2417b7b60',1,'carla::rpc::Actor']]],
-  ['boundingbox',['BoundingBox',['../d9/d05/structFActorInfo.html#a03d68172f4079d1609c236111641bbac',1,'FActorInfo']]],
+  ['boundingbox',['BoundingBox',['../d9/d05/structFActorInfo.html#a03d68172f4079d1609c236111641bbac',1,'FActorInfo::BoundingBox()'],['../df/d24/classCarlaRecorderQuery.html#a899896bbd1b5a62b74080dcfa6a5edad',1,'CarlaRecorderQuery::BoundingBox()']]],
+  ['boundingboxes',['BoundingBoxes',['../dd/db9/classACarlaRecorder.html#a458155398313e586a5b5cf2bb70e7831',1,'ACarlaRecorder']]],
   ['box',['box',['../d8/d2c/structcarla_1_1rpc_1_1DebugShape_1_1Box.html#a496064adcf18c625f5342cbce42c0d4b',1,'carla::rpc::DebugShape::Box']]],
+  ['boxes',['Boxes',['../d0/d2b/classCarlaRecorderBoundingBoxes.html#a5142d9945f3686e94434d4a4b737c71a',1,'CarlaRecorderBoundingBoxes']]],
   ['bpersistentlines',['bPersistentLines',['../dd/d3c/structFShapeVisitor.html#aad50f80b38d2ace3d304a126177e5d37',1,'FShapeVisitor']]],
   ['brake',['Brake',['../d8/d88/structCarlaRecorderAnimVehicle.html#a050b6f98dcc1d1cbef238589d86478e2',1,'CarlaRecorderAnimVehicle::Brake()'],['../d1/d4b/structFVehicleControl.html#a61cc6e14e98141bbb11e1fcad09d56bd',1,'FVehicleControl::Brake()'],['../de/d9e/structFVehicleLightState.html#ab312a227b537cacd31d2171a6c2982f6',1,'FVehicleLightState::Brake()'],['../d3/d9c/classcarla_1_1rpc_1_1VehicleControl.html#aee2483e1fcab614d1d8424b9dbc6801a',1,'carla::rpc::VehicleControl::brake()'],['../d9/d06/classcarla_1_1sensor_1_1data_1_1detail_1_1PackedVehicleControl.html#a617b1579274ab32e1ddbfa281a226156',1,'carla::sensor::data::detail::PackedVehicleControl::brake()'],['../dd/da4/structcarla_1_1traffic__manager_1_1ActuationSignal.html#a18afb64c9ddd36cbf0ec0c393cd30c4b',1,'carla::traffic_manager::ActuationSignal::brake()']]],
   ['brestricttorecommended',['bRestrictToRecommended',['../dc/d82/structFActorVariation.html#aa0e437988115aee3dc536ebcb7f9297f',1,'FActorVariation']]],

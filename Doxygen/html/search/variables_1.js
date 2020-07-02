@@ -37,6 +37,7 @@ var searchData=
   ['angle',['Angle',['../d7/d2d/classMapGen_1_1RoadSegmentDescription.html#ae74117373caacff207d69a602bd6b4a0',1,'MapGen::RoadSegmentDescription']]],
   ['anglemask',['AngleMask',['../d9/d74/structFRoadMapPixelData.html#a4f05a2c19ccc6a2a20bc5158e3edda86',1,'FRoadMapPixelData']]],
   ['angular_5fvelocity',['angular_velocity',['../d5/d67/structcarla_1_1client_1_1ActorSnapshot.html#a3be0637031ac687f73a39ab1a5617b7e',1,'carla::client::ActorSnapshot::angular_velocity()'],['../d1/d00/structcarla_1_1rpc_1_1Command_1_1ApplyAngularVelocity.html#ad353a0b9e64803c1fb01627dad1e02c6',1,'carla::rpc::Command::ApplyAngularVelocity::angular_velocity()'],['../da/d4c/structcarla_1_1sensor_1_1data_1_1ActorDynamicState.html#a308d780ed588bd775356ccb6d030a8f1',1,'carla::sensor::data::ActorDynamicState::angular_velocity()']]],
+  ['angularvelocity',['AngularVelocity',['../dd/d47/structCarlaRecorderKinematics.html#a552b6544cd2b58ce950d390464ae48e9',1,'CarlaRecorderKinematics']]],
   ['appliedlowpostresetqualitylevel',['AppliedLowPostResetQualityLevel',['../d4/d74/classUCarlaSettingsDelegate.html#aae0ed4625755852d4e54a2d857c1ad42',1,'UCarlaSettingsDelegate']]],
   ['arbitrary_5fmax_5fspeed',['ARBITRARY_MAX_SPEED',['../df/dfa/namespacecarla_1_1traffic__manager_1_1constants_1_1SpeedThreshold.html#ae92c930b91c8b35d26daa711185abb47',1,'carla::traffic_manager::constants::SpeedThreshold']]],
   ['arc',['arc',['../da/d3a/structcarla_1_1opendrive_1_1parser_1_1Geometry.html#a60ddc3b50b1f9ebbd4422c302ad336ac',1,'carla::opendrive::parser::Geometry']]],

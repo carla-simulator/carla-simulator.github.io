@@ -79,6 +79,9 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="contents">
 <div class="textblock"><code>#include &lt;fstream&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html">Carla/Actor/ActorDescription.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/de8/CarlaRecorderPlatformTime_8h_source.html">CarlaRecorderPlatformTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/deb/CarlaRecorderBoundingBox_8h_source.html">CarlaRecorderBoundingBox.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/de3/CarlaRecorderKinematics_8h_source.html">CarlaRecorderKinematics.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/dc8/CarlaRecorderLightScene_8h_source.html">CarlaRecorderLightScene.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/da8/CarlaRecorderLightVehicle_8h_source.html">CarlaRecorderLightVehicle.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d44/CarlaRecorderAnimVehicle_8h_source.html">CarlaRecorderAnimVehicle.h</a>&quot;</code><br />
@@ -135,7 +138,11 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613af4c4d9aa57150b461e1329a65aba0d7b">CarlaRecorderPacketId::AnimVehicle</a>, 
 <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a07d283fbd8836bf95d25faee43d7f28f">CarlaRecorderPacketId::AnimWalker</a>, 
 <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ad8f1d33230a8b5d44f35faa268344d6d">CarlaRecorderPacketId::VehicleLight</a>, 
-<a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a43f526c402051273b186b8f6069073a6">CarlaRecorderPacketId::SceneLight</a>
+<a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a43f526c402051273b186b8f6069073a6">CarlaRecorderPacketId::SceneLight</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a8d5c850b41bbada5ddded68548c3c19f">CarlaRecorderPacketId::Kinematics</a>, 
+<a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ab96da744287618055e5d086d53f42660">CarlaRecorderPacketId::BoundingBox</a>, 
+<a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a6f51ade26186691279737c6675c18267">CarlaRecorderPacketId::PlatformTime</a>
 <br />
  }</td></tr>
 <tr class="separator:a4c56233e0004f5c9ac481a933ab6b613"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,9 +190,15 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a4c56233e0004f5c9ac481a933ab6b613a43f526c402051273b186b8f6069073a6"></a>SceneLight&#160;</td><td class="fielddoc">
 </td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a4c56233e0004f5c9ac481a933ab6b613a8d5c850b41bbada5ddded68548c3c19f"></a>Kinematics&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a4c56233e0004f5c9ac481a933ab6b613ab96da744287618055e5d086d53f42660"></a>BoundingBox&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a4c56233e0004f5c9ac481a933ab6b613a6f51ade26186691279737c6675c18267"></a>PlatformTime&#160;</td><td class="fielddoc">
+</td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d9/d6a/CarlaRecorder_8h_source.html#l00036">36</a> of file <a class="el" href="../../d9/d6a/CarlaRecorder_8h_source.html">CarlaRecorder.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d6a/CarlaRecorder_8h_source.html#l00039">39</a> of file <a class="el" href="../../d9/d6a/CarlaRecorder_8h_source.html">CarlaRecorder.h</a>.</p>
 
 </div>
 </div>
