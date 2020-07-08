@@ -113,7 +113,7 @@ var searchData=
   ['int',['Int',['../d6/d1a/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorAttribute_8h.html#ae046bbacbd9af759d3f138e8fd0ebea4a1686a6c336b71b36d77354cea19a8b52',1,'Int():&#160;ActorAttribute.h'],['../de/d6c/namespacecarla_1_1rpc.html#a39167440b1fcbce5d286268530a54c54a1686a6c336b71b36d77354cea19a8b52',1,'carla::rpc::Int()']]],
   ['int_5fp_5fnull',['int_p_NULL',['../d2/d1d/ImageIOConfig_8h.html#a82a90dbcb3c65be802dccb31f909bd02',1,'ImageIOConfig.h']]],
   ['integer_5fto_5fstring',['integer_to_string',['../db/d20/pugixml_8cpp.html#afa361f26fc182d3db33b9bcf424f60d3',1,'pugixml.cpp']]],
-  ['intensity',['Intensity',['../d0/db0/structCarlaRecorderLightScene.html#a3f4a9af221072caded8b34482e58e5f8',1,'CarlaRecorderLightScene']]],
+  ['intensity',['intensity',['../db/d58/classcarla_1_1sensor_1_1s11n_1_1LidarDetection.html#a5e8922b6c5a035b1fbc489f5e115083a',1,'carla::sensor::s11n::LidarDetection::intensity()'],['../d0/db0/structCarlaRecorderLightScene.html#a3f4a9af221072caded8b34482e58e5f8',1,'CarlaRecorderLightScene::Intensity()']]],
   ['inter_5fbbox_5fdistance',['inter_bbox_distance',['../dc/d21/structcarla_1_1traffic__manager_1_1GeometryComparison.html#aa150e70430cc7a9144306a71ebd4a5b0',1,'carla::traffic_manager::GeometryComparison']]],
   ['inter_5fgeodesic_5fdistance',['inter_geodesic_distance',['../dc/d21/structcarla_1_1traffic__manager_1_1GeometryComparison.html#a3a23d7f27f2c5a7211d5741d28bed0f5',1,'carla::traffic_manager::GeometryComparison']]],
   ['inter_5flane_5fchange_5fdistance',['INTER_LANE_CHANGE_DISTANCE',['../df/d07/namespacecarla_1_1traffic__manager_1_1constants_1_1LaneChange.html#a6b74681a43ffbfa91cfb40a0d3167c5d',1,'carla::traffic_manager::constants::LaneChange']]],

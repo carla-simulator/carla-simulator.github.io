@@ -65,7 +65,7 @@ var searchData=
   ['array_3c_20actordynamicstate_20_3e',['Array&lt; ActorDynamicState &gt;',['../d2/dcc/classcarla_1_1sensor_1_1data_1_1Array.html',1,'carla::sensor::data']]],
   ['array_3c_20dvsevent_20_3e',['Array&lt; DVSEvent &gt;',['../d2/dcc/classcarla_1_1sensor_1_1data_1_1Array.html',1,'carla::sensor::data']]],
   ['array_3c_20pixelt_20_3e',['Array&lt; PixelT &gt;',['../d2/dcc/classcarla_1_1sensor_1_1data_1_1Array.html',1,'carla::sensor::data']]],
-  ['array_3c_20rpc_3a_3alocation_20_3e',['Array&lt; rpc::Location &gt;',['../d2/dcc/classcarla_1_1sensor_1_1data_1_1Array.html',1,'carla::sensor::data']]],
+  ['array_3c_20s11n_3a_3alidardetection_20_3e',['Array&lt; s11n::LidarDetection &gt;',['../d2/dcc/classcarla_1_1sensor_1_1data_1_1Array.html',1,'carla::sensor::data']]],
   ['array_3c_20s11n_3a_3aradardetection_20_3e',['Array&lt; s11n::RadarDetection &gt;',['../d2/dcc/classcarla_1_1sensor_1_1data_1_1Array.html',1,'carla::sensor::data']]],
   ['arrow',['Arrow',['../d1/d06/structcarla_1_1rpc_1_1DebugShape_1_1Arrow.html',1,'carla::rpc::DebugShape']]],
   ['arsssensor',['ARssSensor',['../d3/ded/classARssSensor.html',1,'']]],

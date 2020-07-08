@@ -154,22 +154,31 @@ Private Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:ae5cc03fe13f388622618bc7766a7f4b8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de4/classARayCastLidar.html#ae5cc03fe13f388622618bc7766a7f4b8">ComputeIntensity</a> (const FVector &amp;LidarBodyLoc, const FHitResult &amp;HitInfo) const </td></tr>
+<tr class="memdesc:ae5cc03fe13f388622618bc7766a7f4b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the received intensity of the point.  <a href="#ae5cc03fe13f388622618bc7766a7f4b8">More...</a><br /></td></tr>
+<tr class="separator:ae5cc03fe13f388622618bc7766a7f4b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2418c7884196402a12bfacf6c27f15a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de4/classARayCastLidar.html#a2418c7884196402a12bfacf6c27f15a3">CreateLasers</a> ()</td></tr>
 <tr class="memdesc:a2418c7884196402a12bfacf6c27f15a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a Laser for each channel.  <a href="#a2418c7884196402a12bfacf6c27f15a3">More...</a><br /></td></tr>
 <tr class="separator:a2418c7884196402a12bfacf6c27f15a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e899302a116a11c45054ed7a89fd22c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de4/classARayCastLidar.html#a8e899302a116a11c45054ed7a89fd22c">ReadPoints</a> (float DeltaTime)</td></tr>
 <tr class="memdesc:a8e899302a116a11c45054ed7a89fd22c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates LidarMeasurement with the points read in DeltaTime.  <a href="#a8e899302a116a11c45054ed7a89fd22c">More...</a><br /></td></tr>
 <tr class="separator:a8e899302a116a11c45054ed7a89fd22c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36d50549aa8a6021055286cfcfb5d636"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de4/classARayCastLidar.html#a36d50549aa8a6021055286cfcfb5d636">ShootLaser</a> (uint32 Channel, float HorizontalAngle, FVector &amp;Point) const </td></tr>
-<tr class="memdesc:a36d50549aa8a6021055286cfcfb5d636"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shoot a laser ray-trace, return whether the laser hit something.  <a href="#a36d50549aa8a6021055286cfcfb5d636">More...</a><br /></td></tr>
-<tr class="separator:a36d50549aa8a6021055286cfcfb5d636"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85b05d0fc06d4e59da28e9a28567159d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de4/classARayCastLidar.html#a85b05d0fc06d4e59da28e9a28567159d">ShootLaser</a> (uint32 Channel, float HorizontalAngle, FVector &amp;Point, float &amp;Intensity) const </td></tr>
+<tr class="memdesc:a85b05d0fc06d4e59da28e9a28567159d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shoot a laser ray-trace, return whether the laser hit something.  <a href="#a85b05d0fc06d4e59da28e9a28567159d">More...</a><br /></td></tr>
+<tr class="separator:a85b05d0fc06d4e59da28e9a28567159d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ab11805b2c355c7b51f78523e07d97dd8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; FVector &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de4/classARayCastLidar.html#ab11805b2c355c7b51f78523e07d97dd8">AuxPoints</a></td></tr>
-<tr class="separator:ab11805b2c355c7b51f78523e07d97dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a458d12703c499bf82fcf42290850de52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d6f/structFLidarDescription.html">FLidarDescription</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de4/classARayCastLidar.html#a458d12703c499bf82fcf42290850de52">Description</a></td></tr>
 <tr class="separator:a458d12703c499bf82fcf42290850de52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa11cd5272d033f0135d0a3319d7fc0d7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de4/classARayCastLidar.html#aa11cd5272d033f0135d0a3319d7fc0d7">DropOffAlpha</a></td></tr>
+<tr class="memdesc:aa11cd5272d033f0135d0a3319d7fc0d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slope for the intensity dropoff of lidar points, it is calculated throught the dropoff limit and the dropoff at zero intensity The points is kept with a probality alpha*Intensity + beta where alpha = (1 - dropoff_zero_intensity) / droppoff_limit beta = (1 - dropoff_zero_intensity)  <a href="#aa11cd5272d033f0135d0a3319d7fc0d7">More...</a><br /></td></tr>
+<tr class="separator:aa11cd5272d033f0135d0a3319d7fc0d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3800b682031d08d01d5a0e5d683cfffe"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de4/classARayCastLidar.html#a3800b682031d08d01d5a0e5d683cfffe">DropOffBeta</a></td></tr>
+<tr class="separator:a3800b682031d08d01d5a0e5d683cfffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa49a0682e3da1326d61d15ad5da8e6db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de4/classARayCastLidar.html#aa49a0682e3da1326d61d15ad5da8e6db">DropOffGenActive</a></td></tr>
+<tr class="memdesc:aa49a0682e3da1326d61d15ad5da8e6db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable/Disable general dropoff of lidar points.  <a href="#aa49a0682e3da1326d61d15ad5da8e6db">More...</a><br /></td></tr>
+<tr class="separator:aa49a0682e3da1326d61d15ad5da8e6db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5d30344c082725d2275cd9377dc49b1"><td class="memItemLeft" align="right" valign="top">TArray&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de4/classARayCastLidar.html#ab5d30344c082725d2275cd9377dc49b1">LaserAngles</a></td></tr>
 <tr class="separator:ab5d30344c082725d2275cd9377dc49b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9aa429c1c9b024c8152874ffdfd536d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/de4/classARayCastLidar.html#aa4e04182d4582ae04f32c0e65af63f92">FLidarMeasurement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de4/classARayCastLidar.html#a9aa429c1c9b024c8152874ffdfd536d2">LidarMeasurement</a></td></tr>
@@ -227,11 +236,65 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00027">27</a> of file <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html">RayCastLidar.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00028">28</a> of file <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html">RayCastLidar.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00093">ASensor::RandomEngine</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ae5cc03fe13f388622618bc7766a7f4b8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ARayCastLidar::ComputeIntensity </td>
+          <td>(</td>
+          <td class="paramtype">const FVector &amp;&#160;</td>
+          <td class="paramname"><em>LidarBodyLoc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FHitResult &amp;&#160;</td>
+          <td class="paramname"><em>HitInfo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compute the received intensity of the point. </p>
+
+<p>Definition at line <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00134">134</a> of file <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html">RayCastLidar.cpp</a>.</p>
+
+<p>References <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00044">FLidarDescription::AtmospAttenRate</a>, and <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00057">Description</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00148">ShootLaser()</a>.</p>
+
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/de4/classARayCastLidar_ae5cc03fe13f388622618bc7766a7f4b8_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a2418c7884196402a12bfacf6c27f15a3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -255,17 +318,17 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Creates a Laser for each channel. </p>
 
-<p>Definition at line <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00048">48</a> of file <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html">RayCastLidar.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00051">51</a> of file <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html">RayCastLidar.cpp</a>.</p>
 
-<p>References <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00018">FLidarDescription::Channels</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00054">Description</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00056">LaserAngles</a>, <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00040">FLidarDescription::LowerFovLimit</a>, and <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00035">FLidarDescription::UpperFovLimit</a>.</p>
+<p>References <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00018">FLidarDescription::Channels</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00057">Description</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00071">DropOffAlpha</a>, <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00056">FLidarDescription::DropOffAtZeroIntensity</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00072">DropOffBeta</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00064">DropOffGenActive</a>, <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00048">FLidarDescription::DropOffGenRate</a>, <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00052">FLidarDescription::DropOffIntensityLimit</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00059">LaserAngles</a>, <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00040">FLidarDescription::LowerFovLimit</a>, and <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00035">FLidarDescription::UpperFovLimit</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00041">Set()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00044">Set()</a>.</p>
 
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de4/classARayCastLidar_a2418c7884196402a12bfacf6c27f15a3_icgraph.svg" width="410" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -294,15 +357,15 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00022">22</a> of file <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html">RayCastLidar.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html">RayCastLidar.cpp</a>.</p>
 
 <p>References <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l00780">UActorBlueprintFunctionLibrary::MakeLidarDefinition()</a>.</p>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de4/classARayCastLidar_a26d6ade87f1b6e04e4b6994741272f4a_cgraph.svg" width="468" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -334,27 +397,27 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Updates LidarMeasurement with the points read in DeltaTime. </p>
 
-<p>Definition at line <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00074">74</a> of file <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html">RayCastLidar.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00082">82</a> of file <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html">RayCastLidar.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00057">AuxPoints</a>, <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00018">FLidarDescription::Channels</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00054">Description</a>, <a class="el" href="../../d2/d45/s11n_2LidarMeasurement_8h_source.html#l00063">carla::sensor::s11n::LidarMeasurement::GetHorizontalAngle()</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00056">LaserAngles</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00059">LidarMeasurement</a>, <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00026">FLidarDescription::PointsPerSecond</a>, <a class="el" href="../../d2/d45/s11n_2LidarMeasurement_8h_source.html#l00075">carla::sensor::s11n::LidarMeasurement::Reset()</a>, <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00030">FLidarDescription::RotationFrequency</a>, <a class="el" href="../../d2/d45/s11n_2LidarMeasurement_8h_source.html#l00067">carla::sensor::s11n::LidarMeasurement::SetHorizontalAngle()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00131">ShootLaser()</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00037">carla::geom::Math::ToDegrees()</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00043">carla::geom::Math::ToRadians()</a>, and <a class="el" href="../../d2/d45/s11n_2LidarMeasurement_8h_source.html#l00081">carla::sensor::s11n::LidarMeasurement::WritePoint()</a>.</p>
+<p>References <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00018">FLidarDescription::Channels</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00057">Description</a>, <a class="el" href="../../d2/d45/s11n_2LidarMeasurement_8h_source.html#l00077">carla::sensor::s11n::LidarMeasurement::GetHorizontalAngle()</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00059">LaserAngles</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00061">LidarMeasurement</a>, <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00026">FLidarDescription::PointsPerSecond</a>, <a class="el" href="../../d2/d45/s11n_2LidarMeasurement_8h_source.html#l00089">carla::sensor::s11n::LidarMeasurement::Reset()</a>, <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00030">FLidarDescription::RotationFrequency</a>, <a class="el" href="../../d2/d45/s11n_2LidarMeasurement_8h_source.html#l00107">carla::sensor::s11n::LidarMeasurement::SaveDetections()</a>, <a class="el" href="../../d2/d45/s11n_2LidarMeasurement_8h_source.html#l00081">carla::sensor::s11n::LidarMeasurement::SetHorizontalAngle()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00148">ShootLaser()</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00037">carla::geom::Math::ToDegrees()</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00043">carla::geom::Math::ToRadians()</a>, and <a class="el" href="../../d2/d45/s11n_2LidarMeasurement_8h_source.html#l00102">carla::sensor::s11n::LidarMeasurement::WritePointAsync()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00064">Tick()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00072">Tick()</a>.</p>
 
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de4/classARayCastLidar_a8e899302a116a11c45054ed7a89fd22c_cgraph.svg" width="652" height="472"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/de4/classARayCastLidar_a8e899302a116a11c45054ed7a89fd22c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de4/classARayCastLidar_a8e899302a116a11c45054ed7a89fd22c_icgraph.svg" width="398" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -386,15 +449,15 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d3/d01/classASensor.html#a4d1a4a116e9d55b9bdb383de90062059">ASensor</a>.</p>
 
-<p>Definition at line <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00033">33</a> of file <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html">RayCastLidar.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html">RayCastLidar.cpp</a>.</p>
 
-<p>References <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01418">UActorBlueprintFunctionLibrary::SetLidar()</a>.</p>
+<p>References <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01440">UActorBlueprintFunctionLibrary::SetLidar()</a>.</p>
 
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de4/classARayCastLidar_aa12e8acaeea8ccc3910be9970417d5a2_cgraph.svg" width="422" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -416,15 +479,15 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00041">41</a> of file <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html">RayCastLidar.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00044">44</a> of file <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html">RayCastLidar.cpp</a>.</p>
 
-<p>References <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00018">FLidarDescription::Channels</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00048">CreateLasers()</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00054">Description</a>, and <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00059">LidarMeasurement</a>.</p>
+<p>References <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00018">FLidarDescription::Channels</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00051">CreateLasers()</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00057">Description</a>, and <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00061">LidarMeasurement</a>.</p>
 
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de4/classARayCastLidar_a18c7f428a8baa4e823a8907b65083b72_cgraph.svg" width="410" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -432,7 +495,7 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a36d50549aa8a6021055286cfcfb5d636"></a>
+<a class="anchor" id="a85b05d0fc06d4e59da28e9a28567159d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -455,7 +518,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">FVector &amp;&#160;</td>
-          <td class="paramname"><em>Point</em>&#160;</td>
+          <td class="paramname"><em>Point</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>Intensity</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -472,18 +541,28 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Shoot a laser ray-trace, return whether the laser hit something. </p>
 
-<p>Definition at line <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00131">131</a> of file <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html">RayCastLidar.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00148">148</a> of file <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html">RayCastLidar.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00054">Description</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00056">LaserAngles</a>, <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00022">FLidarDescription::Range</a>, and <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00044">FLidarDescription::ShowDebugPoints</a>.</p>
+<p>References <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00134">ComputeIntensity()</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00057">Description</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00071">DropOffAlpha</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00072">DropOffBeta</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00064">DropOffGenActive</a>, <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00048">FLidarDescription::DropOffGenRate</a>, <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00052">FLidarDescription::DropOffIntensityLimit</a>, <a class="el" href="../../d6/daa/RandomEngine_8h_source.html#l00056">URandomEngine::GetUniformFloat()</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00059">LaserAngles</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00093">ASensor::RandomEngine</a>, <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00022">FLidarDescription::Range</a>, and <a class="el" href="../../de/d92/LidarDescription_8h_source.html#l00060">FLidarDescription::ShowDebugPoints</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00074">ReadPoints()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00082">ReadPoints()</a>.</p>
 
-<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de4/classARayCastLidar_a36d50549aa8a6021055286cfcfb5d636_icgraph.svg" width="640" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de4/classARayCastLidar_a85b05d0fc06d4e59da28e9a28567159d_cgraph.svg" width="488" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de4/classARayCastLidar_a85b05d0fc06d4e59da28e9a28567159d_icgraph.svg" width="640" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -512,15 +591,15 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00064">64</a> of file <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html">RayCastLidar.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00072">72</a> of file <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html">RayCastLidar.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00082">ASensor::GetDataStream()</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00059">LidarMeasurement</a>, and <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00074">ReadPoints()</a>.</p>
+<p>References <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00082">ASensor::GetDataStream()</a>, <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00061">LidarMeasurement</a>, and <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00082">ReadPoints()</a>.</p>
 
-<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/de4/classARayCastLidar_a1d8fa9e958443f080fe7e947c542b5cf_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -529,30 +608,6 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ab11805b2c355c7b51f78523e07d97dd8"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::vector&lt;FVector&gt; &gt; ARayCastLidar::AuxPoints</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00057">57</a> of file <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html">RayCastLidar.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00074">ReadPoints()</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a458d12703c499bf82fcf42290850de52"></a>
 <div class="memitem">
 <div class="memproto">
@@ -571,9 +626,85 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00054">54</a> of file <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html">RayCastLidar.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00057">57</a> of file <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html">RayCastLidar.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00048">CreateLasers()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00074">ReadPoints()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00041">Set()</a>, and <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00131">ShootLaser()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00134">ComputeIntensity()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00051">CreateLasers()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00082">ReadPoints()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00044">Set()</a>, and <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00148">ShootLaser()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa11cd5272d033f0135d0a3319d7fc0d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ARayCastLidar::DropOffAlpha</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Slope for the intensity dropoff of lidar points, it is calculated throught the dropoff limit and the dropoff at zero intensity The points is kept with a probality alpha*Intensity + beta where alpha = (1 - dropoff_zero_intensity) / droppoff_limit beta = (1 - dropoff_zero_intensity) </p>
+
+<p>Definition at line <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00071">71</a> of file <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html">RayCastLidar.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00051">CreateLasers()</a>, and <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00148">ShootLaser()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3800b682031d08d01d5a0e5d683cfffe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ARayCastLidar::DropOffBeta</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00072">72</a> of file <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html">RayCastLidar.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00051">CreateLasers()</a>, and <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00148">ShootLaser()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa49a0682e3da1326d61d15ad5da8e6db"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ARayCastLidar::DropOffGenActive</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enable/Disable general dropoff of lidar points. </p>
+
+<p>Definition at line <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00064">64</a> of file <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html">RayCastLidar.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00051">CreateLasers()</a>, and <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00148">ShootLaser()</a>.</p>
 
 </div>
 </div>
@@ -595,9 +726,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00056">56</a> of file <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html">RayCastLidar.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00059">59</a> of file <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html">RayCastLidar.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00048">CreateLasers()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00074">ReadPoints()</a>, and <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00131">ShootLaser()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00051">CreateLasers()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00082">ReadPoints()</a>, and <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00148">ShootLaser()</a>.</p>
 
 </div>
 </div>
@@ -619,9 +750,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00059">59</a> of file <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html">RayCastLidar.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html#l00061">61</a> of file <a class="el" href="../../d1/d53/RayCastLidar_8h_source.html">RayCastLidar.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00074">ReadPoints()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00041">Set()</a>, and <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00064">Tick()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00082">ReadPoints()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00044">Set()</a>, and <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00072">Tick()</a>.</p>
 
 </div>
 </div>
