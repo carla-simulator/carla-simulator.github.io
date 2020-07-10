@@ -14,7 +14,6 @@ var searchData=
   ['recorder',['Recorder',['../dc/d84/classUCarlaEpisode.html#a95aab61c705a186f65b91feeec645396',1,'UCarlaEpisode::Recorder()'],['../db/de5/classACarlaGameModeBase.html#a6d5633dbba9d4a461f976cb6ea91c23c',1,'ACarlaGameModeBase::Recorder()']]],
   ['recorderstarttime',['RecorderStartTime',['../d2/de4/structCarlaRecorderPlatformTime.html#a885e8664847f8f5fee25ca37e093cc1d',1,'CarlaRecorderPlatformTime']]],
   ['red_5ftime',['red_time',['../d0/d6d/structcarla_1_1sensor_1_1data_1_1detail_1_1TrafficLightData.html#acff6151f65355b846e7b9acf745a3e3e',1,'carla::sensor::data::detail::TrafficLightData']]],
-  ['redtime',['RedTime',['../d2/d23/classATrafficLightBase.html#affb3a531982f1c20d4ce9c1a6619d958',1,'ATrafficLightBase']]],
   ['ref_5fvalues',['ref_values',['../d2/daf/classADVSCamera.html#af27df04f3073132ca0ebeb89289ef7e8',1,'ADVSCamera']]],
   ['reference_5fvehicle_5fto_5fother_5fgeodesic',['reference_vehicle_to_other_geodesic',['../dc/d21/structcarla_1_1traffic__manager_1_1GeometryComparison.html#a166350278e2a1057f9213b15b9c27a01',1,'carla::traffic_manager::GeometryComparison']]],
   ['refractory_5fperiod_5fns',['refractory_period_ns',['../de/d22/structdvs_1_1Config.html#a63c36ba692f9a61cf38aa29c2b98f6f3',1,'dvs::Config']]],

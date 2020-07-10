@@ -54,6 +54,7 @@ var searchData=
   ['bsemanticsegmentationenabled',['bSemanticSegmentationEnabled',['../df/dad/classUTaggerDelegate.html#aebb3f546d87f3e891b8904460dcd672c',1,'UTaggerDelegate']]],
   ['bsynchronousmode',['bSynchronousMode',['../dc/d49/classFCarlaEngine.html#ad729cb99b49284780f119fdbdf574ecf',1,'FCarlaEngine::bSynchronousMode()'],['../d7/d1e/classUCarlaSettings.html#aa52eba3377619b24f3c67963df34f07b',1,'UCarlaSettings::bSynchronousMode()'],['../da/d6e/structFEpisodeSettings.html#af03af1e311d804c136efa362c494d7ea',1,'FEpisodeSettings::bSynchronousMode()']]],
   ['btagforsemanticsegmentation',['bTagForSemanticSegmentation',['../d1/ddb/classACityMapGenerator.html#af5a910a7b289aee3e337b3176d80253d',1,'ACityMapGenerator::bTagForSemanticSegmentation()'],['../da/d86/classATagger.html#acc5560af1bc30fcf8984e18378661122',1,'ATagger::bTagForSemanticSegmentation()']]],
+  ['btrafficlightsfrozen',['bTrafficLightsFrozen',['../df/da5/classATrafficLightManager.html#af7c586a654903e84fe0fd98a80ea426c',1,'ATrafficLightManager']]],
   ['btriggerroadmapgeneration',['bTriggerRoadMapGeneration',['../d1/ddb/classACityMapGenerator.html#aa9a5c292041dad595fb556193d277ff2',1,'ACityMapGenerator']]],
   ['btriggertagobjects',['bTriggerTagObjects',['../da/d86/classATagger.html#a72efac4f5f8004a209a7468a0c635487',1,'ATagger']]],
   ['bu',['bU',['../d1/d76/structcarla_1_1opendrive_1_1parser_1_1GeometryParamPoly3.html#a0512591dc6c2f2d85ef44cb3e8ba25b3',1,'carla::opendrive::parser::GeometryParamPoly3']]],

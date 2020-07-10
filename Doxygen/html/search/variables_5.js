@@ -13,7 +13,7 @@ var searchData=
   ['elapsed_5fseconds',['elapsed_seconds',['../df/d2c/classcarla_1_1client_1_1Timestamp.html#ae2032e248bea80b4982df3b226631779',1,'carla::client::Timestamp']]],
   ['elapsed_5ftime',['elapsed_time',['../d0/d6d/structcarla_1_1sensor_1_1data_1_1detail_1_1TrafficLightData.html#a0a81ac90591f2c60755e10f8c5dbc32d',1,'carla::sensor::data::detail::TrafficLightData']]],
   ['elapsedgametime',['ElapsedGameTime',['../dc/d84/classUCarlaEpisode.html#af5c4fba411cc61b4175d516902728168',1,'UCarlaEpisode']]],
-  ['elapsedtime',['ElapsedTime',['../d1/dc9/structCarlaRecorderStateTrafficLight.html#af9e075bad74aa95504d9b013c19fab0c',1,'CarlaRecorderStateTrafficLight::ElapsedTime()'],['../d2/d23/classATrafficLightBase.html#a1c513da02054f781798b8d338c31fc90',1,'ATrafficLightBase::ElapsedTime()']]],
+  ['elapsedtime',['ElapsedTime',['../d1/dc9/structCarlaRecorderStateTrafficLight.html#af9e075bad74aa95504d9b013c19fab0c',1,'CarlaRecorderStateTrafficLight::ElapsedTime()'],['../d3/d08/classUTrafficLightController.html#a06054949f427a4dd041b2cffbe118803',1,'UTrafficLightController::ElapsedTime()']]],
   ['elements',['elements',['../dc/dde/structmoodycamel_1_1ConcurrentQueue_1_1Block.html#a99802ea2e6e8e20b5c8ebfdb7739a425',1,'moodycamel::ConcurrentQueue::Block']]],
   ['elementscompletelydequeued',['elementsCompletelyDequeued',['../dc/dde/structmoodycamel_1_1ConcurrentQueue_1_1Block.html#ab212fe682437fc19816e4884e92cdaa5',1,'moodycamel::ConcurrentQueue::Block']]],
   ['emptyflags',['emptyFlags',['../dc/dde/structmoodycamel_1_1ConcurrentQueue_1_1Block.html#a481f5f4c1e992f7f8815fc5cd746a659',1,'moodycamel::ConcurrentQueue::Block']]],

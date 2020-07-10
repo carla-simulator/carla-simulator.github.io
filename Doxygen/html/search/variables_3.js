@@ -68,7 +68,6 @@ var searchData=
   ['currentindex',['currentIndex',['../dc/db4/structcarla_1_1nav_1_1WalkerInfo.html#a0fb6342373ba4eeaa603d8484a3215fe',1,'carla::nav::WalkerInfo']]],
   ['currentproducer',['currentProducer',['../de/deb/structmoodycamel_1_1ConsumerToken.html#ab6c81d07254cfcef38ea721dc3c39239',1,'moodycamel::ConsumerToken']]],
   ['currentstate',['CurrentState',['../d3/d08/classUTrafficLightController.html#adb5417b912bea347b8c20429fd3488af',1,'UTrafficLightController']]],
-  ['currentstatetimer',['CurrentStateTimer',['../dd/d12/classATrafficLightGroup.html#a594606ae2c40dffb7b1bea82b2cfe60f',1,'ATrafficLightGroup']]],
   ['currenttime',['CurrentTime',['../dc/dc6/classCarlaReplayer.html#ae5693e5fd6c65f1d73eded1d49590bce',1,'CarlaReplayer']]],
   ['currentvelocity',['CurrentVelocity',['../d9/d27/classARadar.html#a328fedaaa3319c80955d49048b8aefde',1,'ARadar']]],
   ['currpos',['CurrPos',['../dc/dc6/classCarlaReplayer.html#a34a096ff5a4768ec3deb6a625c4461e4',1,'CarlaReplayer']]],

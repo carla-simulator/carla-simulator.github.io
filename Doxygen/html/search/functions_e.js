@@ -10,7 +10,7 @@ var searchData=
   ['onactordestroyed',['OnActorDestroyed',['../d7/d90/classUActorDispatcher.html#a03e325e791dd0449c82c264aa223d67a',1,'UActorDispatcher']]],
   ['onactorspawned',['OnActorSpawned',['../df/dad/classUTaggerDelegate.html#a2b4b632ef47667b6663b5fa06d7b45dd',1,'UTaggerDelegate::OnActorSpawned()'],['../d4/d74/classUCarlaSettingsDelegate.html#acc8c5a9d74a00339d11ab6145dff6b35',1,'UCarlaSettingsDelegate::OnActorSpawned()']]],
   ['oncollisionevent',['OnCollisionEvent',['../d8/de9/classACollisionSensor.html#ab4fa46f2abc1fbc290f967bb18e7e13e',1,'ACollisionSensor']]],
-  ['onconstruction',['OnConstruction',['../da/d1a/classACityMapMeshHolder.html#af6fb186506e4d24e56afc7037a2936aa',1,'ACityMapMeshHolder::OnConstruction()'],['../d2/d23/classATrafficLightBase.html#ade90b8596ea28896f0cb23f3810aebe3',1,'ATrafficLightBase::OnConstruction()'],['../d2/d2a/classAActorWithRandomEngine.html#a65df107b209f55d7557886a976219655',1,'AActorWithRandomEngine::OnConstruction()']]],
+  ['onconstruction',['OnConstruction',['../da/d1a/classACityMapMeshHolder.html#af6fb186506e4d24e56afc7037a2936aa',1,'ACityMapMeshHolder::OnConstruction()'],['../d2/d2a/classAActorWithRandomEngine.html#a65df107b209f55d7557886a976219655',1,'AActorWithRandomEngine::OnConstruction()']]],
   ['onepisodechanged',['OnEpisodeChanged',['../d1/db6/classcarla_1_1client_1_1detail_1_1Episode.html#a5c09238d091858b3c72c761764efabc9',1,'carla::client::detail::Episode']]],
   ['onepisodesettingschanged',['OnEpisodeSettingsChanged',['../dc/d49/classFCarlaEngine.html#a066406637bc234c9988a34b83ab5ca43',1,'FCarlaEngine']]],
   ['onepisodestarted',['OnEpisodeStarted',['../d1/db6/classcarla_1_1client_1_1detail_1_1Episode.html#a953923f840afcfd19be46d816805f060',1,'carla::client::detail::Episode']]],

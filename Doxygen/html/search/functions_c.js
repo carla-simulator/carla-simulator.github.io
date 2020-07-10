@@ -64,6 +64,7 @@ var searchData=
   ['match_5fextension',['match_extension',['../df/d7f/structcarla_1_1image_1_1io_1_1detail_1_1io__resolver.html#a5b85254c5d3ea09c0e843b104c926568',1,'carla::image::io::detail::io_resolver::match_extension(const Str &amp;str)'],['../df/d7f/structcarla_1_1image_1_1io_1_1detail_1_1io__resolver.html#a0c55efd58a9ea5c7f102006516784409',1,'carla::image::io::detail::io_resolver::match_extension(const Str &amp;)']]],
   ['matchcomponent',['MatchComponent',['../da/d86/classATagger.html#a9fe2c571ff57fca6f0cf601d48926ee0',1,'ATagger']]],
   ['matchtags',['MatchTags',['../d8/dd9/classcarla_1_1client_1_1ActorBlueprint.html#a6cc87e721978cabf81e4dae9e76e6429',1,'carla::client::ActorBlueprint']]],
+  ['matchtrafficlightactorswithopendrivesignals',['MatchTrafficLightActorsWithOpenDriveSignals',['../df/da5/classATrafficLightManager.html#a212893f28dfefd3883c68be7e9a7d835',1,'ATrafficLightManager']]],
   ['max_5fsize',['max_size',['../d0/d0a/classcarla_1_1Buffer.html#a1c1cb99300a40694ebe9793116a2b77f',1,'carla::Buffer::max_size()'],['../db/df7/classcarla_1_1streaming_1_1detail_1_1tcp_1_1MessageTmpl.html#a4bedbcf928342cb5243b967d7d0a6e06',1,'carla::streaming::detail::tcp::MessageTmpl::max_size()']]],
   ['maximumspeed',['MaximumSpeed',['../db/d47/classcarla_1_1road_1_1SignalType.html#ab9350ca7ad1259136511a7327cf21554',1,'carla::road::SignalType']]],
   ['measureexecutiontime',['MeasureExecutionTime',['../d1/d84/classcarla_1_1traffic__manager_1_1SnippetProfiler.html#a05aaba9c826cc2fc55e1dc3fbf97cf4f',1,'carla::traffic_manager::SnippetProfiler']]],

@@ -119,6 +119,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a39269ae0376217b7313e41f5f695aec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70de0f883bd750b6bab4c6fe0839f79f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/def/classcarla_1_1client_1_1TrafficLight.html#a70de0f883bd750b6bab4c6fe0839f79f">IsFrozen</a> () const </td></tr>
 <tr class="separator:a70de0f883bd750b6bab4c6fe0839f79f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a151351d8863b5903105f6f6b91670de3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/def/classcarla_1_1client_1_1TrafficLight.html#a151351d8863b5903105f6f6b91670de3">ResetGroup</a> ()</td></tr>
+<tr class="separator:a151351d8863b5903105f6f6b91670de3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23549c49c79d0e9393c017b052c05b86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/def/classcarla_1_1client_1_1TrafficLight.html#a23549c49c79d0e9393c017b052c05b86">SetGreenTime</a> (float green_time)</td></tr>
 <tr class="separator:a23549c49c79d0e9393c017b052c05b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb055e53ca462160d7c130911b503b7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/def/classcarla_1_1client_1_1TrafficLight.html#afb055e53ca462160d7c130911b503b7f">SetRedTime</a> (float red_time)</td></tr>
@@ -244,7 +246,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d9e/TrafficLight_8h_source.html#l00019">19</a> of file <a class="el" href="../../d5/d9e/TrafficLight_8h_source.html">TrafficLight.h</a>.</p>
 
-<p>References <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00050">Freeze()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00046">GetElapsedTime()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00026">GetGreenTime()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00063">GetGroupTrafficLights()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00058">GetPoleIndex()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00042">GetRedTime()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00018">GetState()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00034">GetYellowTime()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00054">IsFrozen()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00022">SetGreenTime()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00038">SetRedTime()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00014">SetState()</a>, and <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00030">SetYellowTime()</a>.</p>
+<p>References <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00050">Freeze()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00046">GetElapsedTime()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00026">GetGreenTime()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00064">GetGroupTrafficLights()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00059">GetPoleIndex()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00042">GetRedTime()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00018">GetState()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00034">GetYellowTime()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00055">IsFrozen()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00074">ResetGroup()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00022">SetGreenTime()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00038">SetRedTime()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00014">SetState()</a>, and <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00030">SetYellowTime()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -401,7 +403,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Return all traffic lights in the group this one belongs to. </p>
 <dl class="section note"><dt>Note</dt><dd>This function calls the simulator </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00063">63</a> of file <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html">TrafficLight.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00064">64</a> of file <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html">TrafficLight.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00069">carla::client::World::GetActors()</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00068">carla::client::detail::ActorState::GetEpisode()</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00047">carla::client::detail::ActorState::GetWorld()</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
@@ -444,7 +446,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns the index of the pole in the traffic light group. </p>
 
-<p>Definition at line <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00058">58</a> of file <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html">TrafficLight.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00059">59</a> of file <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html">TrafficLight.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00068">carla::client::detail::ActorState::GetEpisode()</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
@@ -614,7 +616,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section note"><dt>Note</dt><dd>This function does not call the simulator, it returns the data received in the last tick. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00054">54</a> of file <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html">TrafficLight.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00055">55</a> of file <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html">TrafficLight.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00068">carla::client::detail::ActorState::GetEpisode()</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
@@ -642,6 +644,47 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a151351d8863b5903105f6f6b91670de3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::client::TrafficLight::ResetGroup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00074">74</a> of file <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html">TrafficLight.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00068">carla::client::detail::ActorState::GetEpisode()</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d5/d9e/TrafficLight_8h_source.html#l00019">TrafficLight()</a>.</p>
+
+<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/def/classcarla_1_1client_1_1TrafficLight_a151351d8863b5903105f6f6b91670de3_cgraph.svg" width="100%" height="405"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/def/classcarla_1_1client_1_1TrafficLight_a151351d8863b5903105f6f6b91670de3_icgraph.svg" width="400" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a23549c49c79d0e9393c017b052c05b86"></a>
 <div class="memitem">
 <div class="memproto">
@@ -662,21 +705,21 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d5/d9e/TrafficLight_8h_source.html#l00019">TrafficLight()</a>.</p>
 
-<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/def/classcarla_1_1client_1_1TrafficLight_a23549c49c79d0e9393c017b052c05b86_cgraph.svg" width="100%" height="405"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/def/classcarla_1_1client_1_1TrafficLight_a23549c49c79d0e9393c017b052c05b86_icgraph.svg" width="400" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -704,21 +747,21 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d5/d9e/TrafficLight_8h_source.html#l00019">TrafficLight()</a>.</p>
 
-<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/def/classcarla_1_1client_1_1TrafficLight_afb055e53ca462160d7c130911b503b7f_cgraph.svg" width="100%" height="405"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/def/classcarla_1_1client_1_1TrafficLight_afb055e53ca462160d7c130911b503b7f_icgraph.svg" width="400" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -746,21 +789,21 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d5/d9e/TrafficLight_8h_source.html#l00019">TrafficLight()</a>.</p>
 
-<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/def/classcarla_1_1client_1_1TrafficLight_a944e5c9e846707abb9fcfbedbb61d0fc_cgraph.svg" width="100%" height="405"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/def/classcarla_1_1client_1_1TrafficLight_a944e5c9e846707abb9fcfbedbb61d0fc_icgraph.svg" width="400" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -788,21 +831,21 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d5/d9e/TrafficLight_8h_source.html#l00019">TrafficLight()</a>.</p>
 
-<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/def/classcarla_1_1client_1_1TrafficLight_a3b69e73680520b327718c57d4e235dbd_cgraph.svg" width="100%" height="405"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/def/classcarla_1_1client_1_1TrafficLight_a3b69e73680520b327718c57d4e235dbd_icgraph.svg" width="400" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>

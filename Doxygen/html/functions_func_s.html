@@ -357,6 +357,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>SetElapsedTime()
 : <a class="el" href="d2/d23/classATrafficLightBase.html#abe7d0e21975d9aee3cc6d30ddace841a">ATrafficLightBase</a>
+, <a class="el" href="d3/d08/classUTrafficLightController.html#ab1bae74167835f618c3161c27a701d44">UTrafficLightController</a>
 </li>
 <li>SetEpisode()
 : <a class="el" href="dd/db9/classACarlaRecorder.html#aeedd6fdac684f4e400eefcda7f09974a">ACarlaRecorder</a>
@@ -445,6 +446,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>SetFriction()
 : <a class="el" href="dc/db9/classAFrictionTrigger.html#aedad60a209c4f5c32a9cb2de09c44625">AFrictionTrigger</a>
 </li>
+<li>SetFrozen()
+: <a class="el" href="df/da5/classATrafficLightManager.html#a484d217b37fb29cd27e1434d09920c1f">ATrafficLightManager</a>
+</li>
 <li>SetFrozenGroup()
 : <a class="el" href="dd/d12/classATrafficLightGroup.html#a9ccf45682b261267c43df6056d39f651">ATrafficLightGroup</a>
 </li>
@@ -477,6 +481,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="d2/d23/classATrafficLightBase.html#a206a26b4e94cae1f78d980956aa30b63">ATrafficLightBase</a>
 , <a class="el" href="df/def/classcarla_1_1client_1_1TrafficLight.html#a23549c49c79d0e9393c017b052c05b86">carla::client::TrafficLight</a>
 , <a class="el" href="d3/d08/classUTrafficLightController.html#a0221701411042c07df7205729b1828a4">UTrafficLightController</a>
+</li>
+<li>SetGroup()
+: <a class="el" href="d3/d08/classUTrafficLightController.html#a1e10d26cf7fc365712074b5c53da9947">UTrafficLightController</a>
 </li>
 <li>SetGroupTrafficLights()
 : <a class="el" href="d2/d23/classATrafficLightBase.html#aca7af7adb645353da8fb05d7ea5d464b">ATrafficLightBase</a>
@@ -526,7 +533,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>SetIntensity()
 : <a class="el" href="de/d11/classcarla_1_1client_1_1Light.html#ad8ed1741c7f43005a61d774ac1e961b1">carla::client::Light</a>
-, <a class="el" href="d8/d26/classcarla_1_1client_1_1LightManager.html#aa1407131b011b634f48238e924b297ef">carla::client::LightManager</a>
+, <a class="el" href="d8/d26/classcarla_1_1client_1_1LightManager.html#a61ae2fb3af2f407f79586433caa5c31d">carla::client::LightManager</a>
 </li>
 <li>SetIsJunction()
 : <a class="el" href="dc/d04/classcarla_1_1traffic__manager_1_1SimpleWaypoint.html#a742b9e9d163007c6601caa272b3fe8f4">carla::traffic_manager::SimpleWaypoint</a>
@@ -870,7 +877,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>SetVehicleLightState()
 : <a class="el" href="d5/d70/classACarlaWheeledVehicle.html#a4843300a7c2f4eaddccd70c631814f22">ACarlaWheeledVehicle</a>
-, <a class="el" href="db/d85/structcarla_1_1rpc_1_1Command_1_1SetVehicleLightState.html#aab67080cddd8a12df2fd4aa1e70d1226">carla::rpc::Command::SetVehicleLightState</a>
+, <a class="el" href="db/d85/structcarla_1_1rpc_1_1Command_1_1SetVehicleLightState.html#a53ad9dbc99d54beb594d440b46f8eded">carla::rpc::Command::SetVehicleLightState</a>
 </li>
 <li>SetVelocity()
 : <a class="el" href="d6/da5/classcarla_1_1client_1_1Actor.html#a5e281b29b6fb8fb9d8152046f49c4621">carla::client::Actor</a>
@@ -934,7 +941,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="d3/d08/classUTrafficLightController.html#a70d3d4f6c8821fb86889f3d4e037f720">UTrafficLightController</a>
 </li>
 <li>SharedException()
-: <a class="el" href="da/d82/classcarla_1_1detail_1_1SharedException.html#a6aae9c61469eed65767bd1fb1fe488cb">carla::detail::SharedException</a>
+: <a class="el" href="da/d82/classcarla_1_1detail_1_1SharedException.html#acfe4187a38849283c5923c6af0b773db">carla::detail::SharedException</a>
 </li>
 <li>ShootLaser()
 : <a class="el" href="d5/de4/classARayCastLidar.html#a85b05d0fc06d4e59da28e9a28567159d">ARayCastLidar</a>
@@ -1043,13 +1050,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>SpawnActor()
 : <a class="el" href="db/d37/classAAIControllerFactory.html#a74c4fd8be43b498a003543033c716c7b">AAIControllerFactory</a>
 , <a class="el" href="d8/d84/classACarlaActorFactory.html#a7e51a3d9ec99121cf90ecda1e68a8171">ACarlaActorFactory</a>
-, <a class="el" href="d3/ddb/classACarlaActorFactoryBlueprint.html#a62534d0947e25a6b194bfb7d1fc940cf">ACarlaActorFactoryBlueprint</a>
+, <a class="el" href="d3/ddb/classACarlaActorFactoryBlueprint.html#af6c6a97147bb36696c72902e22e4db60">ACarlaActorFactoryBlueprint</a>
 , <a class="el" href="df/d9e/classASensorFactory.html#a98d8a966c03351611dffe60ac26c6c91">ASensorFactory</a>
 , <a class="el" href="d0/df9/classATriggerFactory.html#ab9cf40937d3e165697f6838e35ea0c0d">ATriggerFactory</a>
 , <a class="el" href="dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#afc0a650bf0849577f19662a649121bcb">carla::client::detail::Client</a>
 , <a class="el" href="df/df3/classcarla_1_1client_1_1detail_1_1Simulator.html#a594f70df9844d547a3812d88aa4988c8">carla::client::detail::Simulator</a>
 , <a class="el" href="db/d1f/classcarla_1_1client_1_1World.html#aa9950ea96d908b964f635013fbc5a432">carla::client::World</a>
-, <a class="el" href="df/d6d/structcarla_1_1rpc_1_1Command_1_1SpawnActor.html#ad1cc8d0d10ebc64b9e4eaaeada55dab4">carla::rpc::Command::SpawnActor</a>
+, <a class="el" href="df/d6d/structcarla_1_1rpc_1_1Command_1_1SpawnActor.html#ad0e5af342cfd9e0cbc1e050fa0beb39b">carla::rpc::Command::SpawnActor</a>
 , <a class="el" href="d7/d90/classUActorDispatcher.html#a2260f5a6fd6bee6895745a02a828d749">UActorDispatcher</a>
 , <a class="el" href="dc/d84/classUCarlaEpisode.html#aab3fb2ba3281588bb98411d88d1bc5ae">UCarlaEpisode</a>
 </li>
@@ -1082,7 +1089,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="d9/dfe/classcarla_1_1geom_1_1Vector3D.html#a54afa1ba36c12d5b4c76bc4f2072a807">carla::geom::Vector3D</a>
 </li>
 <li>Stage()
-: <a class="el" href="d2/dcf/classcarla_1_1traffic__manager_1_1Stage.html#afcbc9dccd29a51ae8f90fa791d6abfee">carla::traffic_manager::Stage</a>
+: <a class="el" href="d2/dcf/classcarla_1_1traffic__manager_1_1Stage.html#ab0c7f38beaded434c362658bc844b66e">carla::traffic_manager::Stage</a>
 </li>
 <li>Start()
 : <a class="el" href="dd/db9/classACarlaRecorder.html#aba719596bd56c72a39f902f6e9a5d290">ACarlaRecorder</a>
@@ -1091,6 +1098,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal.html#a1ffbdb0bed64f385437d2820a90286d0">carla::traffic_manager::TrafficManagerLocal</a>
 , <a class="el" href="d7/d5c/classcarla_1_1traffic__manager_1_1TrafficManagerRemote.html#a118cb803dfe221ed617bdbe07ada8ff1">carla::traffic_manager::TrafficManagerRemote</a>
 , <a class="el" href="da/dd6/classFCarlaServer.html#ac698a5b08fd92bec1985bb72bedfc426">FCarlaServer</a>
+</li>
+<li>StartCycle()
+: <a class="el" href="d3/d08/classUTrafficLightController.html#abccad600709c8fdae5100e6e976f80f3">UTrafficLightController</a>
 </li>
 <li>StartRecorder()
 : <a class="el" href="d6/d8c/classcarla_1_1client_1_1Client.html#aa533ec58fa75458d72c070caf4eac53d">carla::client::Client</a>
@@ -1166,7 +1176,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="dc/d07/classcarla_1_1rss_1_1RssCheck.html#aeef277f67c42570bd4b9974c0b85399a">carla::rss::RssCheck</a>
 </li>
 <li>Stream()
-: <a class="el" href="d2/dea/classcarla_1_1streaming_1_1detail_1_1Stream.html#af1e63415d59266d619665c528ec28d87">carla::streaming::detail::Stream&lt; StreamStateT &gt;</a>
+: <a class="el" href="d2/dea/classcarla_1_1streaming_1_1detail_1_1Stream.html#ac16c198d3f55023303e92083f6586813">carla::streaming::detail::Stream&lt; StreamStateT &gt;</a>
 </li>
 <li>StreamStateBase()
 : <a class="el" href="d3/d38/classcarla_1_1streaming_1_1detail_1_1StreamStateBase.html#a159784c9bf2d0477258de6d8f8df2c71">carla::streaming::detail::StreamStateBase</a>
@@ -1196,9 +1206,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>swap_internal()
 : <a class="el" href="d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#ab2432d151da5a3d552cf65070952714c">moodycamel::ConcurrentQueue&lt; T, Traits &gt;</a>
-</li>
-<li>SwitchTrafficLightState()
-: <a class="el" href="d2/d23/classATrafficLightBase.html#a6ecae85e114dd8d206de1bad60fa3010">ATrafficLightBase</a>
 </li>
 <li>SynchronousTick()
 : <a class="el" href="df/d5a/classcarla_1_1traffic__manager_1_1TrafficManager.html#a1e2f6217b7b0d6097ca9754ba8c3776a">carla::traffic_manager::TrafficManager</a>
