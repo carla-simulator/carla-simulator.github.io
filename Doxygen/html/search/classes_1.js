@@ -24,6 +24,8 @@ var searchData=
   ['actorattributevalue',['ActorAttributeValue',['../d8/dde/classcarla_1_1rpc_1_1ActorAttributeValue.html',1,'carla::rpc']]],
   ['actorattributevalueaccess',['ActorAttributeValueAccess',['../df/d8a/classcarla_1_1client_1_1ActorAttributeValueAccess.html',1,'carla::client']]],
   ['actorblueprint',['ActorBlueprint',['../d8/dd9/classcarla_1_1client_1_1ActorBlueprint.html',1,'carla::client']]],
+  ['actorconstellationdata',['ActorConstellationData',['../d3/dcf/structcarla_1_1rss_1_1ActorConstellationData.html',1,'carla::rss']]],
+  ['actorconstellationresult',['ActorConstellationResult',['../db/d50/structcarla_1_1rss_1_1ActorConstellationResult.html',1,'carla::rss']]],
   ['actordefinition',['ActorDefinition',['../d8/d68/classcarla_1_1rpc_1_1ActorDefinition.html',1,'carla::rpc']]],
   ['actordescription',['ActorDescription',['../d6/d11/classcarla_1_1rpc_1_1ActorDescription.html',1,'carla::rpc']]],
   ['actordynamicstate',['ActorDynamicState',['../da/d4c/structcarla_1_1sensor_1_1data_1_1ActorDynamicState.html',1,'carla::sensor::data']]],

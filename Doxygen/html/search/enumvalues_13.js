@@ -4,7 +4,5 @@ var searchData=
   ['vegetation',['Vegetation',['../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a517b29026e151e0bfe6c51fde9d686cd',1,'Tagger.h']]],
   ['vehicle',['Vehicle',['../da/db0/classFActorView.html#a34c70567d6721709a3765addbae22dbdad6af9c1eaff2a89ebd3f8d0c542be12b',1,'FActorView::Vehicle()'],['../d3/d13/classcarla_1_1rpc_1_1LightState.html#a0dd6e7e658f888d53b9f134359d03bffad6af9c1eaff2a89ebd3f8d0c542be12b',1,'carla::rpc::LightState::Vehicle()'],['../d0/db7/namespacecarla_1_1traffic__manager.html#a50f39917151d60f6feafd15ea11a3d30a48a10c1f380b245418faf132bf909c23',1,'carla::traffic_manager::Vehicle()'],['../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b',1,'Vehicle():&#160;CarlaLight.h']]],
   ['vehiclelight',['VehicleLight',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ad8f1d33230a8b5d44f35faa268344d6d',1,'CarlaRecorder.h']]],
-  ['vehicles',['Vehicles',['../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a83467144e8aa33bf67ff729d1540fa81',1,'Tagger.h']]],
-  ['vehiclestateandroute',['VehicleStateAndRoute',['../db/d85/namespacecarla_1_1rss.html#a6b4f20553f050f57bbec51ea79784e14a0d8c4bdb3b4f25904eca174e766e9c08',1,'carla::rss']]],
-  ['vehiclestateonly',['VehicleStateOnly',['../db/d85/namespacecarla_1_1rss.html#a6b4f20553f050f57bbec51ea79784e14a8370a37b6af4a9c6ad6d5d477b4c51b7',1,'carla::rss']]]
+  ['vehicles',['Vehicles',['../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a83467144e8aa33bf67ff729d1540fa81',1,'Tagger.h']]]
 ];

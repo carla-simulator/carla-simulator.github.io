@@ -10,6 +10,5 @@ var searchData=
   ['rigid',['Rigid',['../d6/d68/ActorAttacher_8h.html#a9cf55c1af321cd2ac28b5097b5e4aa4eac7207657aba5dfd2e5b0ca3f35cd8c26',1,'Rigid():&#160;ActorAttacher.h'],['../de/d6c/namespacecarla_1_1rpc.html#a3124bfdfcd62bda5c4fe5978ec668365ac7207657aba5dfd2e5b0ca3f35cd8c26',1,'carla::rpc::Rigid()']]],
   ['roadlines',['RoadLines',['../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a7203a9e556a409fa04e5c557afd92a20',1,'Tagger.h']]],
   ['roads',['Roads',['../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a8eb4008d5f09ee682da558b18419cde7',1,'Tagger.h']]],
-  ['roadworks',['RoadWorks',['../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5a3f126480eb5f964a14b4d074378ca176',1,'carla::road::Lane']]],
-  ['routeonly',['RouteOnly',['../db/d85/namespacecarla_1_1rss.html#a6b4f20553f050f57bbec51ea79784e14a0aee4187ed7ba5765756acf4b3d282f1',1,'carla::rss']]]
+  ['roadworks',['RoadWorks',['../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5a3f126480eb5f964a14b4d074378ca176',1,'carla::road::Lane']]]
 ];
