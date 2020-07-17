@@ -78,6 +78,7 @@ var searchData=
   ['nodetest_5ftype_5fnode',['nodetest_type_node',['../db/d20/pugixml_8cpp.html#ab268b4264276130baeb17ab629015275aef6cad334993e832458e028decb18c85',1,'pugixml.cpp']]],
   ['nodetest_5ftype_5fpi',['nodetest_type_pi',['../db/d20/pugixml_8cpp.html#ab268b4264276130baeb17ab629015275aff02fd24afbb268bc0c40cb45ea9e0f6',1,'pugixml.cpp']]],
   ['nodetest_5ftype_5ftext',['nodetest_type_text',['../db/d20/pugixml_8cpp.html#ab268b4264276130baeb17ab629015275a86e4bcba2f6202e9fd8001c33b92800b',1,'pugixml.cpp']]],
+  ['noisestddev',['NoiseStdDev',['../de/d6f/structFLidarDescription.html#a0608aa0e2e3ec8a61e472e6855cffc39',1,'FLidarDescription']]],
   ['nomove',['nomove',['../d6/d0f/namespacemoodycamel_1_1details.html#aa76b694b726ac3e96d15d4930dd85cec',1,'moodycamel::details']]],
   ['nomove_5fif',['nomove_if',['../dd/df0/structmoodycamel_1_1details_1_1nomove__if.html',1,'moodycamel::details']]],
   ['nomove_5fif_3c_20false_20_3e',['nomove_if&lt; false &gt;',['../d3/dd9/structmoodycamel_1_1details_1_1nomove__if_3_01false_01_4.html',1,'moodycamel::details']]],
