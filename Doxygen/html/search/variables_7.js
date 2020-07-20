@@ -16,6 +16,7 @@ var searchData=
   ['globalexplicitconsumeroffset',['globalExplicitConsumerOffset',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a594833a3c8cc9be773c76467be743e28',1,'moodycamel::ConcurrentQueue']]],
   ['gn',['gn',['../d3/db5/odrSpiral_8cpp.html#a17ec1b1afe903c1b199f5b7ee7882e4e',1,'odrSpiral.cpp']]],
   ['green_5ftime',['green_time',['../d0/d6d/structcarla_1_1sensor_1_1data_1_1detail_1_1TrafficLightData.html#a082c7539fcd1dd2a44f018aa6b09838d',1,'carla::sensor::data::detail::TrafficLightData']]],
+  ['greentime',['GreenTime',['../dd/d99/structCarlaRecorderTrafficLightTime.html#a32c9154e16702f5d1f4debdf74f842e7',1,'CarlaRecorderTrafficLightTime']]],
   ['grid_5fsize',['GRID_SIZE',['../d7/d7d/namespacecarla_1_1traffic__manager_1_1constants_1_1Map.html#abcdb08bac3c1af2870bbfec0b9563ab6',1,'carla::traffic_manager::constants::Map']]],
   ['grid_5fto_5factors',['grid_to_actors',['../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#af1600cb6b21306e6c37e7e557bbcc737',1,'carla::traffic_manager::TrackTraffic']]],
   ['grouptrafficlights',['GroupTrafficLights',['../d2/d23/classATrafficLightBase.html#a1def0d7c8e48a7e140d738f732bf1c9c',1,'ATrafficLightBase']]],

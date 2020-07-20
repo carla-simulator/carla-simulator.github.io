@@ -10,6 +10,7 @@ var searchData=
   ['actor_5fset',['actor_set',['../d6/d8c/classcarla_1_1traffic__manager_1_1AtomicActorSet.html#a8c1118af5f8982ca82f096e3c62882ca',1,'carla::traffic_manager::AtomicActorSet::actor_set()'],['../d9/d2b/classcarla_1_1traffic__manager_1_1SimulationState.html#ac68f8b1e4e5a0d2dfbac2c7a54464276',1,'carla::traffic_manager::SimulationState::actor_set()']]],
   ['actor_5fto_5fgrids',['actor_to_grids',['../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#a345b68c5514c5fe9ceafd551eae6bfaa',1,'carla::traffic_manager::TrackTraffic']]],
   ['actor_5ftype',['actor_type',['../da/d2a/structcarla_1_1traffic__manager_1_1StaticAttributes.html#a78fb72ce54db97927846a4f0d7a74889',1,'carla::traffic_manager::StaticAttributes']]],
+  ['actorboundingbox',['ActorBoundingBox',['../df/d24/classCarlaRecorderQuery.html#a1efeb480de8f0d59066115d30e107212',1,'CarlaRecorderQuery']]],
   ['actordatabase',['ActorDatabase',['../df/db5/classFActorRegistry.html#a8ddc6c34dabfc5953e1c87e1d1147c3d',1,'FActorRegistry']]],
   ['actordispatcher',['ActorDispatcher',['../dc/d84/classUCarlaEpisode.html#a4ef0ae6a8dc7519e23069f155f3cf5ce',1,'UCarlaEpisode']]],
   ['actorfactories',['ActorFactories',['../db/de5/classACarlaGameModeBase.html#aebc402ffc6203cd7073aeb293ab49c6d',1,'ACarlaGameModeBase']]],
