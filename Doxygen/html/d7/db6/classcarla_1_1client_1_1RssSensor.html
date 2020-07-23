@@ -241,6 +241,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:af3b94e0f336d2d5a67508d71540002c9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#af3b94e0f336d2d5a67508d71540002c9">_drop_route</a></td></tr>
 <tr class="memdesc:af3b94e0f336d2d5a67508d71540002c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">reqired to store <a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a5ca1012d4914348947c2e2e7b86bdda4" title="drop the current route ( ">DropRoute()</a> requests until next sensor tick  <a href="#af3b94e0f336d2d5a67508d71540002c9">More...</a><br /></td></tr>
 <tr class="separator:af3b94e0f336d2d5a67508d71540002c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00825781c99dcfdb0c5533089fd134dc"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a00825781c99dcfdb0c5533089fd134dc">_last_processed_frame</a></td></tr>
+<tr class="memdesc:a00825781c99dcfdb0c5533089fd134dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">last processed frame  <a href="#a00825781c99dcfdb0c5533089fd134dc">More...</a><br /></td></tr>
+<tr class="separator:a00825781c99dcfdb0c5533089fd134dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b02fd2bf974dc36a9a51e2548c8c038"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db6/classcarla_1_1client_1_1RssSensor.html#a2b02fd2bf974dc36a9a51e2548c8c038">_on_tick_register_id</a></td></tr>
 <tr class="memdesc:a2b02fd2bf974dc36a9a51e2548c8c038"><td class="mdescLeft">&#160;</td><td class="mdescRight">the id got when registering for the on tick event  <a href="#a2b02fd2bf974dc36a9a51e2548c8c038">More...</a><br /></td></tr>
 <tr class="separator:a2b02fd2bf974dc36a9a51e2548c8c038"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -927,7 +930,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00261">261</a> of file <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html">LibCarla/source/carla/rss/RssSensor.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00138">_drop_route</a>, <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00129">_processing_lock</a>, <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00132">_rss_check</a>, <a class="el" href="../../d7/d66/Timestamp_8h_source.html#l00033">carla::client::Timestamp::elapsed_seconds</a>, <a class="el" href="../../d7/d66/Timestamp_8h_source.html#l00030">carla::client::Timestamp::frame</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00069">carla::client::World::GetActors()</a>, <a class="el" href="../../d6/de7/ActorState_8cpp_source.html#l00031">carla::client::detail::ActorState::GetParent()</a>, <a class="el" href="../../d4/d34/Actor_8cpp_source.html#l00019">carla::client::Actor::GetTransform()</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00047">carla::client::detail::ActorState::GetWorld()</a>, <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00049">carla::rss::EgoDynamicsOnRoute::time_since_epoch_check_end_ms</a>, and <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00047">carla::rss::EgoDynamicsOnRoute::time_since_epoch_check_start_ms</a>.</p>
+<p>References <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00138">_drop_route</a>, <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00141">_last_processed_frame</a>, <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00129">_processing_lock</a>, <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00132">_rss_check</a>, <a class="el" href="../../d7/d66/Timestamp_8h_source.html#l00033">carla::client::Timestamp::elapsed_seconds</a>, <a class="el" href="../../d7/d66/Timestamp_8h_source.html#l00030">carla::client::Timestamp::frame</a>, <a class="el" href="../../d7/dfe/World_8cpp_source.html#l00069">carla::client::World::GetActors()</a>, <a class="el" href="../../d6/de7/ActorState_8cpp_source.html#l00031">carla::client::detail::ActorState::GetParent()</a>, <a class="el" href="../../d4/d34/Actor_8cpp_source.html#l00019">carla::client::Actor::GetTransform()</a>, <a class="el" href="../../d2/d02/ActorState_8h_source.html#l00047">carla::client::detail::ActorState::GetWorld()</a>, <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00049">carla::rss::EgoDynamicsOnRoute::time_since_epoch_check_end_ms</a>, and <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00047">carla::rss::EgoDynamicsOnRoute::time_since_epoch_check_start_ms</a>.</p>
 
 <p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -965,6 +968,32 @@ Additional Inherited Members</h2></td></tr>
 <p>Definition at line <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00138">138</a> of file <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html">LibCarla/source/carla/rss/RssSensor.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00255">DropRoute()</a>, and <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00261">TickRssSensor()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a00825781c99dcfdb0c5533089fd134dc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t carla::client::RssSensor::_last_processed_frame</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>last processed frame </p>
+
+<p>Definition at line <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html#l00141">141</a> of file <a class="el" href="../../d8/d17/LibCarla_2source_2carla_2rss_2RssSensor_8h_source.html">LibCarla/source/carla/rss/RssSensor.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/d77/LibCarla_2source_2carla_2rss_2RssSensor_8cpp_source.html#l00261">TickRssSensor()</a>.</p>
 
 </div>
 </div>
