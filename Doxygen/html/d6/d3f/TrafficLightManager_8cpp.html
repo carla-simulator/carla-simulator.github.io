@@ -70,6 +70,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">TrafficLightManager.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -94,6 +96,122 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div>
 </div>
 <p><a href="../../d6/d3f/TrafficLightManager_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a0dfcbcc431295ac314d5a6aa3bc40ea7"><td class="memTemplParams" colspan="2">template&lt;typename T  = ATrafficSignBase&gt; </td></tr>
+<tr class="memitem:a0dfcbcc431295ac314d5a6aa3bc40ea7"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d3f/TrafficLightManager_8cpp.html#a0dfcbcc431295ac314d5a6aa3bc40ea7">GetClosestTrafficSignActor</a> (const <a class="el" href="../../da/da8/classcarla_1_1road_1_1Signal.html">carla::road::Signal</a> &amp;Signal, UWorld *World)</td></tr>
+<tr class="separator:a0dfcbcc431295ac314d5a6aa3bc40ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31882059bb96dfbe85ab9477b6f0e53b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3f/TrafficLightManager_8cpp.html#a31882059bb96dfbe85ab9477b6f0e53b">MatchSignalAndActor</a> (const <a class="el" href="../../da/da8/classcarla_1_1road_1_1Signal.html">carla::road::Signal</a> &amp;Signal, <a class="el" href="../../d3/df1/classATrafficSignBase.html">ATrafficSignBase</a> *ClosestTrafficSign)</td></tr>
+<tr class="separator:a31882059bb96dfbe85ab9477b6f0e53b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a0dfcbcc431295ac314d5a6aa3bc40ea7"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T  = ATrafficSignBase&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T* GetClosestTrafficSignActor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../da/da8/classcarla_1_1road_1_1Signal.html">carla::road::Signal</a> &amp;&#160;</td>
+          <td class="paramname"><em>Signal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UWorld *&#160;</td>
+          <td class="paramname"><em>World</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00367">367</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d0/def/Signal_8h_source.html#l00172">carla::road::Signal::GetTransform()</a>, and <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00297">MatchSignalAndActor()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00510">ATrafficLightManager::SpawnSignals()</a>.</p>
+
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d3f/TrafficLightManager_8cpp_a0dfcbcc431295ac314d5a6aa3bc40ea7_cgraph.svg" width="650" height="444"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3f/TrafficLightManager_8cpp_a0dfcbcc431295ac314d5a6aa3bc40ea7_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a31882059bb96dfbe85ab9477b6f0e53b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MatchSignalAndActor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../da/da8/classcarla_1_1road_1_1Signal.html">carla::road::Signal</a> &amp;&#160;</td>
+          <td class="paramname"><em>Signal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/df1/classATrafficSignBase.html">ATrafficSignBase</a> *&#160;</td>
+          <td class="paramname"><em>ClosestTrafficSign</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00297">297</a> of file <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html">TrafficLightManager.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d0/def/Signal_8h_source.html#l00131">carla::road::Signal::GetSubtype()</a>, <a class="el" href="../../d5/dc5/TrafficSignBase_8h_source.html#l00044">ATrafficSignBase::GetTrafficSignState()</a>, <a class="el" href="../../d0/def/Signal_8h_source.html#l00127">carla::road::Signal::GetType()</a>, <a class="el" href="../../d5/dfc/SignalType_8cpp_source.html#l00121">carla::road::SignalType::IsTrafficLight()</a>, <a class="el" href="../../d5/dfc/SignalType_8cpp_source.html#l00078">carla::road::SignalType::MaximumSpeed()</a>, <a class="el" href="../../d5/dfc/SignalType_8cpp_source.html#l00033">carla::road::SignalType::StopSign()</a>, <a class="el" href="../../d5/dc5/TrafficSignBase_8h.html#a4057cf972679f3cd597a1e5cc94ee53aa1f23f703841712e33c0f152dcfdad7f4">TrafficLightGreen</a>, <a class="el" href="../../d5/dc5/TrafficSignBase_8h.html#a4057cf972679f3cd597a1e5cc94ee53aa0b3b03afd07a660e5abd8589af58a4b5">TrafficLightRed</a>, <a class="el" href="../../d5/dc5/TrafficSignBase_8h.html#a4057cf972679f3cd597a1e5cc94ee53aa1ab15fa75c45a78f8e574f14fbfb28d4">TrafficLightYellow</a>, and <a class="el" href="../../d5/dfc/SignalType_8cpp_source.html#l00030">carla::road::SignalType::YieldSign()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00367">GetClosestTrafficSignActor()</a>.</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d3f/TrafficLightManager_8cpp_a31882059bb96dfbe85ab9477b6f0e53b_cgraph.svg" width="411" height="444"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3f/TrafficLightManager_8cpp_a31882059bb96dfbe85ab9477b6f0e53b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
