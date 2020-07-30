@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['radardata',['RadarData',['../d5/daf/classcarla_1_1sensor_1_1s11n_1_1RadarData.html',1,'carla::sensor::s11n']]],
-  ['radardetection',['RadarDetection',['../d2/d54/structcarla_1_1sensor_1_1s11n_1_1RadarDetection.html',1,'carla::sensor::s11n']]],
+  ['radardata',['RadarData',['../d5/d13/classcarla_1_1sensor_1_1data_1_1RadarData.html',1,'carla::sensor::data']]],
+  ['radardetection',['RadarDetection',['../d1/dbe/structcarla_1_1sensor_1_1data_1_1RadarDetection.html',1,'carla::sensor::data']]],
   ['radarmeasurement',['RadarMeasurement',['../d6/dfa/classcarla_1_1sensor_1_1data_1_1RadarMeasurement.html',1,'carla::sensor::data']]],
   ['radarserializer',['RadarSerializer',['../dd/ddf/classcarla_1_1sensor_1_1s11n_1_1RadarSerializer.html',1,'carla::sensor::s11n']]],
   ['random',['Random',['../dc/de7/classutil_1_1Random.html',1,'util']]],

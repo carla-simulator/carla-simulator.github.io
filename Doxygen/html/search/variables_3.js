@@ -53,6 +53,7 @@ var searchData=
   ['controllers',['Controllers',['../dd/d12/classATrafficLightGroup.html#aaadc79532779498c528d0cb48bd4c32f',1,'ATrafficLightGroup']]],
   ['corners',['corners',['../d0/d4d/structcarla_1_1client_1_1LaneInvasionCallback_1_1Bounds.html#a8d7fc924bf7e9ebb22d09c6327b53ad5',1,'carla::client::LaneInvasionCallback::Bounds']]],
   ['cos_5f10_5fdegrees',['COS_10_DEGREES',['../df/dc8/namespacecarla_1_1traffic__manager_1_1constants_1_1Collision.html#a9aed563d661e44531e1f1f09a8ff5cbf',1,'carla::traffic_manager::constants::Collision']]],
+  ['cos_5finc_5fangle',['cos_inc_angle',['../dd/da6/classcarla_1_1sensor_1_1data_1_1LidarRawDetection.html#a4f083ec5185c93587b588725317c4571',1,'carla::sensor::data::LidarRawDetection']]],
   ['cp',['Cp',['../de/d22/structdvs_1_1Config.html#a38c8ede5b873e5b904e718d224488adf',1,'dvs::Config']]],
   ['critical_5fbraking_5fmargin',['CRITICAL_BRAKING_MARGIN',['../d1/dde/namespacecarla_1_1traffic__manager_1_1constants_1_1MotionPlan.html#a4cd89bcbcf007eae6696e2593150e237',1,'carla::traffic_manager::constants::MotionPlan']]],
   ['cross',['cross',['../d5/da0/structcarla_1_1opendrive_1_1parser_1_1LateralProfile.html#a30c5ebd0c58ab327aa46a2836108c7c3',1,'carla::opendrive::parser::LateralProfile']]],

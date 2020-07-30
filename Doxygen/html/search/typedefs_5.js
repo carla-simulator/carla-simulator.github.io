@@ -6,7 +6,10 @@ var searchData=
   ['fasyncdatastream',['FAsyncDataStream',['../d9/d4d/AsyncDataStream_8h.html#a137986f05ea485dbd27ffb2e40f69259',1,'AsyncDataStream.h']]],
   ['fdatamultistream',['FDataMultiStream',['../da/dd9/DataStream_8h.html#a9fe2b849679e6121612b076a2834b041',1,'DataStream.h']]],
   ['fdatastream',['FDataStream',['../da/dd9/DataStream_8h.html#aa80bad1d32fa7a360e7e9664f07cb551',1,'DataStream.h']]],
+  ['fdetection',['FDetection',['../d5/de4/classARayCastLidar.html#ac846d253ff72293fb18b37bc435e2201',1,'ARayCastLidar']]],
   ['flag_5ftype',['flag_type',['../d3/d13/classcarla_1_1rpc_1_1LightState.html#aa7bf3d9ac5d2c220aa49abe4ab66f209',1,'carla::rpc::LightState::flag_type()'],['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html#a329829e09c163b4a5cdbecca7e9294bb',1,'carla::rpc::VehicleLightState::flag_type()']]],
-  ['flidarmeasurement',['FLidarMeasurement',['../d5/de4/classARayCastLidar.html#aa4e04182d4582ae04f32c0e65af63f92',1,'ARayCastLidar']]],
-  ['fradardata',['FRadarData',['../d9/d27/classARadar.html#a458fd648f7042416d8d8e9ecc1ec3cdb',1,'ARadar']]]
+  ['flidardata',['FLidarData',['../d5/de4/classARayCastLidar.html#a1f00393bbac9d5e614e48861f93928f6',1,'ARayCastLidar']]],
+  ['flidarrawdata',['FLidarRawData',['../dc/d6f/classARayCastRawLidar.html#a5a6932ad12eb460f793cc795e0288ef0',1,'ARayCastRawLidar']]],
+  ['fradardata',['FRadarData',['../d9/d27/classARadar.html#a395592d6a208cd958d8a5ad3edd7001c',1,'ARadar']]],
+  ['frawdetection',['FRawDetection',['../dc/d6f/classARayCastRawLidar.html#a86ea68ef5433d61b6f64eac0e7b0182d',1,'ARayCastRawLidar']]]
 ];

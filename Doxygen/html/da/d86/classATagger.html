@@ -104,7 +104,15 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:af414ad2eadf0e9beee5f9a4e275e89c4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0">ECityObjectLabel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d86/classATagger.html#af414ad2eadf0e9beee5f9a4e275e89c4">GetLabelByFolderName</a> (const FString &amp;<a class="el" href="../../d6/d1a/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorAttribute_8h.html#ae046bbacbd9af759d3f138e8fd0ebea4a27118326006d3829667a400ad23d5d98">String</a>)</td></tr>
+<tr class="memdesc:af414ad2eadf0e9beee5f9a4e275e89c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method that computes the label corresponding to a folder path.  <a href="#af414ad2eadf0e9beee5f9a4e275e89c4">More...</a><br /></td></tr>
+<tr class="separator:af414ad2eadf0e9beee5f9a4e275e89c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4bedb651f0b86cd8c232513fab26473"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aa4bedb651f0b86cd8c232513fab26473"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0">ECityObjectLabel</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../da/d86/classATagger.html#aa4bedb651f0b86cd8c232513fab26473">GetLabelByPath</a> (const T *Object)</td></tr>
+<tr class="memdesc:aa4bedb651f0b86cd8c232513fab26473"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method that computes the label corresponding to an specific object using the folder path in which it is stored.  <a href="#aa4bedb651f0b86cd8c232513fab26473">More...</a><br /></td></tr>
+<tr class="separator:aa4bedb651f0b86cd8c232513fab26473"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04a40cbba268cf4acf5c618ebb60c63f"><td class="memItemLeft" align="right" valign="top">static FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d86/classATagger.html#a04a40cbba268cf4acf5c618ebb60c63f">GetTagAsString</a> (<a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0">ECityObjectLabel</a> Tag)</td></tr>
+<tr class="memdesc:a04a40cbba268cf4acf5c618ebb60c63f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the tags of an already tagged actor.  <a href="#a04a40cbba268cf4acf5c618ebb60c63f">More...</a><br /></td></tr>
 <tr class="separator:a04a40cbba268cf4acf5c618ebb60c63f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13b049b71b25d0e61e3ee259651022b5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0">ECityObjectLabel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d86/classATagger.html#a13b049b71b25d0e61e3ee259651022b5">GetTagOfTaggedComponent</a> (const UPrimitiveComponent &amp;Component)</td></tr>
 <tr class="memdesc:a13b049b71b25d0e61e3ee259651022b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve the tag of an already tagged component.  <a href="#a13b049b71b25d0e61e3ee259651022b5">More...</a><br /></td></tr>
@@ -115,6 +123,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a9fe2c571ff57fca6f0cf601d48926ee0"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d86/classATagger.html#a9fe2c571ff57fca6f0cf601d48926ee0">MatchComponent</a> (const UPrimitiveComponent &amp;Component, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0">ECityObjectLabel</a> Tag)</td></tr>
 <tr class="memdesc:a9fe2c571ff57fca6f0cf601d48926ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if <em>Component</em> has been tagged with the given <em>Tag</em>.  <a href="#a9fe2c571ff57fca6f0cf601d48926ee0">More...</a><br /></td></tr>
 <tr class="separator:a9fe2c571ff57fca6f0cf601d48926ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54ab170b3ba73b1f9efd06962f9fb8fa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d86/classATagger.html#a54ab170b3ba73b1f9efd06962f9fb8fa">SetStencilValue</a> (UPrimitiveComponent &amp;Component, const <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0">ECityObjectLabel</a> &amp;Label, const bool bSetRenderCustomDepth)</td></tr>
+<tr class="separator:a54ab170b3ba73b1f9efd06962f9fb8fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0a7c11b5b6a58abecd4a7b5587eeb6a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d86/classATagger.html#ad0a7c11b5b6a58abecd4a7b5587eeb6a">TagActor</a> (const <a class="el" href="../../d1/da4/classAActor.html">AActor</a> &amp;Actor, bool <a class="el" href="../../da/d86/classATagger.html#acc5560af1bc30fcf8984e18378661122">bTagForSemanticSegmentation</a>)</td></tr>
 <tr class="memdesc:ad0a7c11b5b6a58abecd4a7b5587eeb6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the tag of an actor.  <a href="#ad0a7c11b5b6a58abecd4a7b5587eeb6a">More...</a><br /></td></tr>
 <tr class="separator:ad0a7c11b5b6a58abecd4a7b5587eeb6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,9 +158,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00140">140</a> of file <a class="el" href="../../d2/d35/Tagger_8cpp_source.html">Tagger.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00131">131</a> of file <a class="el" href="../../d2/d35/Tagger_8cpp_source.html">Tagger.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00090">bTagForSemanticSegmentation</a>, <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00087">bTriggerTagObjects</a>, and <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00093">TagActorsInLevel()</a>.</p>
+<p>References <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00109">bTagForSemanticSegmentation</a>, <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00106">bTriggerTagObjects</a>, and <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00084">TagActorsInLevel()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -165,6 +175,80 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="af414ad2eadf0e9beee5f9a4e275e89c4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0">ECityObjectLabel</a> ATagger::GetLabelByFolderName </td>
+          <td>(</td>
+          <td class="paramtype">const FString &amp;&#160;</td>
+          <td class="paramname"><em>String</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Method that computes the label corresponding to a folder path. </p>
+
+<p>Definition at line <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../d2/d35/Tagger_8cpp_source.html">Tagger.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a9fdd5aad7ea528df6738692b788cee0a">Buildings</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0addb8b18e046cbf8a2b90e3c1a719c9b5">Fences</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a6adf97f83acf6453d4a6a4b1070f3754">None</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a6311ae17c1ee52b36e68aaf4ad066387">Other</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0aa7acbbafc14f96195b93e9b59d1b1143">Pedestrians</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a81679595e7eddf97059c8751d80fe5b0">Poles</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a7203a9e556a409fa04e5c557afd92a20">RoadLines</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a8eb4008d5f09ee682da558b18419cde7">Roads</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0abf98f22928647b6115992a562a478d29">Sidewalks</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0aaa1de8b64f579514b72bc89e8cece1ae">TrafficSigns</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a517b29026e151e0bfe6c51fde9d686cd">Vegetation</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a83467144e8aa33bf67ff729d1540fa81">Vehicles</a>, and <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a1f5c5ce5cdbea723378e6db882a732ec">Walls</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa4bedb651f0b86cd8c232513fab26473"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0">ECityObjectLabel</a> ATagger::GetLabelByPath </td>
+          <td>(</td>
+          <td class="paramtype">const T *&#160;</td>
+          <td class="paramname"><em>Object</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Method that computes the label corresponding to an specific object using the folder path in which it is stored. </p>
+
+<p>Definition at line <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00085">85</a> of file <a class="el" href="../../d7/d06/Tagger_8h_source.html">Tagger.h</a>.</p>
+
+<p>References <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a6adf97f83acf6453d4a6a4b1070f3754">None</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00053">TagActor()</a>.</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d86/classATagger_aa4bedb651f0b86cd8c232513fab26473_icgraph.svg" width="100%" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a04a40cbba268cf4acf5c618ebb60c63f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -187,17 +271,20 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00114">114</a> of file <a class="el" href="../../d2/d35/Tagger_8cpp_source.html">Tagger.cpp</a>.</p>
+<p>Retrieve the tags of an already tagged actor. </p>
+<p><a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a6adf97f83acf6453d4a6a4b1070f3754">ECityObjectLabel::None</a> is not added to the array. </p>
+
+<p>Definition at line <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00105">105</a> of file <a class="el" href="../../d2/d35/Tagger_8cpp_source.html">Tagger.cpp</a>.</p>
 
 <p>References <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a9fdd5aad7ea528df6738692b788cee0a">Buildings</a>, <a class="el" href="../../d2/d35/Tagger_8cpp.html#aed4cb007267944c53152181a3abf9eef">CARLA_GET_LABEL_STR</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0addb8b18e046cbf8a2b90e3c1a719c9b5">Fences</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a6adf97f83acf6453d4a6a4b1070f3754">None</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a6311ae17c1ee52b36e68aaf4ad066387">Other</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0aa7acbbafc14f96195b93e9b59d1b1143">Pedestrians</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a81679595e7eddf97059c8751d80fe5b0">Poles</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a7203a9e556a409fa04e5c557afd92a20">RoadLines</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a8eb4008d5f09ee682da558b18419cde7">Roads</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0abf98f22928647b6115992a562a478d29">Sidewalks</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0aaa1de8b64f579514b72bc89e8cece1ae">TrafficSigns</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a517b29026e151e0bfe6c51fde9d686cd">Vegetation</a>, <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a83467144e8aa33bf67ff729d1540fa81">Vehicles</a>, and <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a1f5c5ce5cdbea723378e6db882a732ec">Walls</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/df3/ActorRegistry_8cpp_source.html#l00044">GetRelevantTagAsString()</a>, and <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00062">TagActor()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/df3/ActorRegistry_8cpp_source.html#l00044">GetRelevantTagAsString()</a>, and <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00053">TagActor()</a>.</p>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d86/classATagger_a04a40cbba268cf4acf5c618ebb60c63f_icgraph.svg" width="100%" height="580"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -229,15 +316,15 @@ Private Attributes</h2></td></tr>
 
 <p>Retrieve the tag of an already tagged component. </p>
 
-<p>Definition at line <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00059">59</a> of file <a class="el" href="../../d7/d06/Tagger_8h_source.html">Tagger.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00060">60</a> of file <a class="el" href="../../d7/d06/Tagger_8h_source.html">Tagger.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00100">GetTagsOfTaggedActor()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00091">GetTagsOfTaggedActor()</a>.</p>
 
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d86/classATagger_a13b049b71b25d0e61e3ee259651022b5_icgraph.svg" width="100%" height="508"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -280,27 +367,27 @@ Private Attributes</h2></td></tr>
 <p>Retrieve the tags of an already tagged actor. </p>
 <p><a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a6adf97f83acf6453d4a6a4b1070f3754">ECityObjectLabel::None</a> is not added to the array. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00100">100</a> of file <a class="el" href="../../d2/d35/Tagger_8cpp_source.html">Tagger.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00091">91</a> of file <a class="el" href="../../d2/d35/Tagger_8cpp_source.html">Tagger.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00059">GetTagOfTaggedComponent()</a>, and <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a6adf97f83acf6453d4a6a4b1070f3754">None</a>.</p>
+<p>References <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00060">GetTagOfTaggedComponent()</a>, and <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a6adf97f83acf6453d4a6a4b1070f3754">None</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d3/df3/ActorRegistry_8cpp_source.html#l00116">FActorRegistry::MakeView()</a>.</p>
 
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d86/classATagger_a6910b79c24ad20ed643e67fef0ca0349_cgraph.svg" width="508" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d86/classATagger_a6910b79c24ad20ed643e67fef0ca0349_icgraph.svg" width="100%" height="508"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -342,16 +429,84 @@ Private Attributes</h2></td></tr>
 
 <p>Return true if <em>Component</em> has been tagged with the given <em>Tag</em>. </p>
 
-<p>Definition at line <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00069">69</a> of file <a class="el" href="../../d7/d06/Tagger_8h_source.html">Tagger.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00070">70</a> of file <a class="el" href="../../d7/d06/Tagger_8h_source.html">Tagger.h</a>.</p>
+
+<p>References <a class="el" href="../../d6/d1a/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorAttribute_8h.html#ae046bbacbd9af759d3f138e8fd0ebea4a27118326006d3829667a400ad23d5d98">String</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d9/d8e/CityMapGenerator_8cpp_source.html#l00234">LineTrace()</a>.</p>
 
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d86/classATagger_a9fe2c571ff57fca6f0cf601d48926ee0_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a54ab170b3ba73b1f9efd06962f9fb8fa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ATagger::SetStencilValue </td>
+          <td>(</td>
+          <td class="paramtype">UPrimitiveComponent &amp;&#160;</td>
+          <td class="paramname"><em>Component</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0">ECityObjectLabel</a> &amp;&#160;</td>
+          <td class="paramname"><em>Label</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>bSetRenderCustomDepth</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00039">39</a> of file <a class="el" href="../../d2/d35/Tagger_8cpp_source.html">Tagger.cpp</a>.</p>
+
+<p>References <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00018">CastEnum()</a>, and <a class="el" href="../../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a6adf97f83acf6453d4a6a4b1070f3754">None</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00053">TagActor()</a>.</p>
+
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d86/classATagger_a54ab170b3ba73b1f9efd06962f9fb8fa_cgraph.svg" width="327" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d86/classATagger_a54ab170b3ba73b1f9efd06962f9fb8fa_icgraph.svg" width="100%" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -393,27 +548,27 @@ Private Attributes</h2></td></tr>
 <p>Set the tag of an actor. </p>
 <p>If bTagForSemanticSegmentation true, activate the custom depth pass. This pass is necessary for rendering the semantic segmentation. However, it may add a performance penalty since occlusion doesn't seem to be applied to objects having this value active. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00062">62</a> of file <a class="el" href="../../d2/d35/Tagger_8cpp_source.html">Tagger.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00053">53</a> of file <a class="el" href="../../d2/d35/Tagger_8cpp_source.html">Tagger.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00040">GetLabelByPath()</a>, <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00114">GetTagAsString()</a>, and <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00048">SetStencilValue()</a>.</p>
+<p>References <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00085">GetLabelByPath()</a>, <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00105">GetTagAsString()</a>, and <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00039">SetStencilValue()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d31/TaggerDelegate_8cpp_source.html#l00022">UTaggerDelegate::OnActorSpawned()</a>, <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00042">UActorDispatcher::SpawnActor()</a>, and <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00093">TagActorsInLevel()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d31/TaggerDelegate_8cpp_source.html#l00022">UTaggerDelegate::OnActorSpawned()</a>, <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00042">UActorDispatcher::SpawnActor()</a>, and <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00084">TagActorsInLevel()</a>.</p>
 
-<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d86/classATagger_ad0a7c11b5b6a58abecd4a7b5587eeb6a_cgraph.svg" width="594" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d86/classATagger_ad0a7c11b5b6a58abecd4a7b5587eeb6a_cgraph.svg" width="511" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d86/classATagger_ad0a7c11b5b6a58abecd4a7b5587eeb6a_icgraph.svg" width="100%" height="460"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -456,27 +611,27 @@ Private Attributes</h2></td></tr>
 <p>Set the tag of every actor in level. </p>
 <p>If bTagForSemanticSegmentation true, activate the custom depth pass. This pass is necessary for rendering the semantic segmentation. However, it may add a performance penalty since occlusion doesn't seem to be applied to objects having this value active. </p>
 
-<p>Definition at line <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00093">93</a> of file <a class="el" href="../../d2/d35/Tagger_8cpp_source.html">Tagger.cpp</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00084">84</a> of file <a class="el" href="../../d2/d35/Tagger_8cpp_source.html">Tagger.cpp</a>.</p>
 
-<p>References <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00062">TagActor()</a>.</p>
+<p>References <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00053">TagActor()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00140">ATagger()</a>, <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00116">ACarlaGameModeBase::BeginPlay()</a>, and <a class="el" href="../../d9/d8e/CityMapGenerator_8cpp_source.html#l00260">ACityMapGenerator::GenerateRoadMap()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00131">ATagger()</a>, <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00116">ACarlaGameModeBase::BeginPlay()</a>, and <a class="el" href="../../d9/d8e/CityMapGenerator_8cpp_source.html#l00260">ACityMapGenerator::GenerateRoadMap()</a>.</p>
 
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d86/classATagger_ad1bff091221672f7af2ba6c02fb99f75_cgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d86/classATagger_ad1bff091221672f7af2ba6c02fb99f75_icgraph.svg" width="619" height="202"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -503,9 +658,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00090">90</a> of file <a class="el" href="../../d7/d06/Tagger_8h_source.html">Tagger.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00109">109</a> of file <a class="el" href="../../d7/d06/Tagger_8h_source.html">Tagger.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00140">ATagger()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00131">ATagger()</a>.</p>
 
 </div>
 </div>
@@ -527,9 +682,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00087">87</a> of file <a class="el" href="../../d7/d06/Tagger_8h_source.html">Tagger.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00106">106</a> of file <a class="el" href="../../d7/d06/Tagger_8h_source.html">Tagger.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00140">ATagger()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00131">ATagger()</a>.</p>
 
 </div>
 </div>
