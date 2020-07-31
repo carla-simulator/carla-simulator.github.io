@@ -27,7 +27,7 @@ var searchData=
   ['off',['Off',['../de/d6c/namespacecarla_1_1rpc.html#a46c3995219197dcef2980adce8d1cfbaad15305d7a4e34e02489c74a5ef542f36',1,'carla::rpc::Off()'],['../db/d85/namespacecarla_1_1rss.html#a28d7e06be0ca33af00c6e19c5c36a671ad15305d7a4e34e02489c74a5ef542f36',1,'carla::rss::Off()']]],
   ['offramp',['OffRamp',['../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5aef0094aa48f0429c57566e5920433b38',1,'carla::road::Lane']]],
   ['offroad',['OffRoad',['../df/d36/structFRoadMapIntersectionResult.html#ac375edecd418c551111d2e20e87ce94d',1,'FRoadMapIntersectionResult']]],
-  ['offset',['offset',['../d7/d00/structpugi_1_1xml__parse__result.html#adb61df40459ba6fb1083d22467983086',1,'pugi::xml_parse_result::offset()'],['../d9/d2c/structpugi_1_1xpath__parse__result.html#add47d886c654b4d8a836573b2c2a7acb',1,'pugi::xpath_parse_result::offset()']]],
+  ['offset',['offset',['../d7/d00/structpugi_1_1xml__parse__result.html#adb61df40459ba6fb1083d22467983086',1,'pugi::xml_parse_result::offset()'],['../d9/d2c/structpugi_1_1xpath__parse__result.html#add47d886c654b4d8a836573b2c2a7acb',1,'pugi::xpath_parse_result::offset()'],['../d4/d60/classASceneCaptureSensor.html#a88fa32e5497e8ff5345641e7689f0e7a',1,'ASceneCaptureSensor::Offset()']]],
   ['offset_5fdebug',['offset_debug',['../db/d65/classpugi_1_1xml__node.html#a77b819bd87978bebefe75d421a793cf3',1,'pugi::xml_node']]],
   ['offsetpreviousframe',['OffsetPreviousFrame',['../d6/d4d/classCarlaRecorderFrames.html#aa0b730ec85b930e7ea06faad1588e005',1,'CarlaRecorderFrames']]],
   ['on',['On',['../db/d85/namespacecarla_1_1rss.html#a28d7e06be0ca33af00c6e19c5c36a671a521c36a31c2762741cf0f8890cbe05e3',1,'carla::rss']]],

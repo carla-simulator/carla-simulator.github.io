@@ -67,6 +67,7 @@ var searchData=
   ['removepassingvehicle',['RemovePassingVehicle',['../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#aaa605ab90a2903ac80fae61f3eb5c159',1,'carla::traffic_manager::TrackTraffic']]],
   ['removeroadrunnerprops',['RemoveRoadrunnerProps',['../df/da5/classATrafficLightManager.html#ac094919cdd30e0e6da0deecc49719405',1,'ATrafficLightManager']]],
   ['removeroutes',['RemoveRoutes',['../d0/d2d/classAOpenDriveActor.html#a7c2a41232a939bda1de76cc1c6c14a32',1,'AOpenDriveActor']]],
+  ['removescenecapturesensor',['RemoveSceneCaptureSensor',['../db/de5/classACarlaGameModeBase.html#a7949dd74e255e31e5a10c296963617a1',1,'ACarlaGameModeBase']]],
   ['removespawners',['RemoveSpawners',['../d0/d2d/classAOpenDriveActor.html#ac359d77b310ade8467e1cc0340f543f4',1,'AOpenDriveActor']]],
   ['removewalker',['RemoveWalker',['../d1/d83/classcarla_1_1client_1_1detail_1_1WalkerNavigation.html#aa140c6f8079169e01cf2d6512208e6bf',1,'carla::client::detail::WalkerNavigation::RemoveWalker()'],['../dd/d5b/classcarla_1_1nav_1_1WalkerManager.html#a020f1ac3386d56709e702fb2c826a4bc',1,'carla::nav::WalkerManager::RemoveWalker()']]],
   ['rend',['rend',['../d2/dcc/classcarla_1_1sensor_1_1data_1_1Array.html#a78c8040382366ea0be9a5a613c8094b4',1,'carla::sensor::data::Array::rend()'],['../d2/dcc/classcarla_1_1sensor_1_1data_1_1Array.html#a87635e315b5aed7f4001871e5fff4b28',1,'carla::sensor::data::Array::rend() const ']]],

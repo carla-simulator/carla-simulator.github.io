@@ -10,7 +10,7 @@ var searchData=
   ['waypoint_5foverlap_5ftracker',['waypoint_overlap_tracker',['../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#a3c2ad98d8426830de2de2d96d42ccd9f',1,'carla::traffic_manager::TrackTraffic']]],
   ['weather',['Weather',['../dc/d84/classUCarlaEpisode.html#a028fff1a899f723da9f98f6370baabdc',1,'UCarlaEpisode::Weather()'],['../de/d75/classAWeather.html#a2a2c853133523a07237c5b17296266a0',1,'AWeather::Weather()']]],
   ['weatherclass',['WeatherClass',['../db/de5/classACarlaGameModeBase.html#a07d449d2c413d33950f2d25b0d3535d6',1,'ACarlaGameModeBase']]],
-  ['weight',['Weight',['../df/d3e/structFSensorShader.html#a7b1bbb9604ef361d2aa017d02e1dd425',1,'FSensorShader::Weight()'],['../d4/de7/structcarla_1_1geom_1_1VertexWeight.html#a2767b5e1474783e73deb704682087745',1,'carla::geom::VertexWeight::weight()']]],
+  ['weight',['weight',['../d4/de7/structcarla_1_1geom_1_1VertexWeight.html#a2767b5e1474783e73deb704682087745',1,'carla::geom::VertexWeight::weight()'],['../df/d3e/structFSensorShader.html#a7b1bbb9604ef361d2aa017d02e1dd425',1,'FSensorShader::Weight()']]],
   ['wetcloudynoon',['WetCloudyNoon',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#ae0f47eb1dd8b81b15b05a0f475ed9c36',1,'carla::rpc::WeatherParameters']]],
   ['wetcloudysunset',['WetCloudySunset',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#a85e4e5fe1afacf054fae96b6fbb4bc2a',1,'carla::rpc::WeatherParameters']]],
   ['wetness',['wetness',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#a2b9106053a39eb5ef28eaf092a59773f',1,'carla::rpc::WeatherParameters::wetness()'],['../dd/d9b/structFWeatherParameters.html#a5968a073950db04562ec646b853f6f98',1,'FWeatherParameters::Wetness()']]],

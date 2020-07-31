@@ -4,7 +4,7 @@ var searchData=
   ['object_5ftag',['object_tag',['../dd/d3c/classcarla_1_1sensor_1_1data_1_1SemanticLidarDetection.html#a5911e4e11429ca7119a874d96b1541fa',1,'carla::sensor::data::SemanticLidarDetection']]],
   ['objecttype',['ObjectType',['../d0/db7/structFVehicleParameters.html#a984aa46a0b867bfc423fd96d041522b4',1,'FVehicleParameters']]],
   ['offroad',['OffRoad',['../df/d36/structFRoadMapIntersectionResult.html#ac375edecd418c551111d2e20e87ce94d',1,'FRoadMapIntersectionResult']]],
-  ['offset',['offset',['../d7/d00/structpugi_1_1xml__parse__result.html#adb61df40459ba6fb1083d22467983086',1,'pugi::xml_parse_result::offset()'],['../d9/d2c/structpugi_1_1xpath__parse__result.html#add47d886c654b4d8a836573b2c2a7acb',1,'pugi::xpath_parse_result::offset()']]],
+  ['offset',['offset',['../d7/d00/structpugi_1_1xml__parse__result.html#adb61df40459ba6fb1083d22467983086',1,'pugi::xml_parse_result::offset()'],['../d9/d2c/structpugi_1_1xpath__parse__result.html#add47d886c654b4d8a836573b2c2a7acb',1,'pugi::xpath_parse_result::offset()'],['../d4/d60/classASceneCaptureSensor.html#a88fa32e5497e8ff5345641e7689f0e7a',1,'ASceneCaptureSensor::Offset()']]],
   ['offsetpreviousframe',['OffsetPreviousFrame',['../d6/d4d/classCarlaRecorderFrames.html#aa0b730ec85b930e7ea06faad1588e005',1,'CarlaRecorderFrames']]],
   ['onepisodesettingschange',['OnEpisodeSettingsChange',['../d4/db3/classFCarlaStaticDelegates.html#a30e68ec6bb637cdd1da442cf41d533dd',1,'FCarlaStaticDelegates']]],
   ['onepisodesettingschangehandle',['OnEpisodeSettingsChangeHandle',['../dc/d49/classFCarlaEngine.html#a098f6afee1c2b8132c9b259500e9bc20',1,'FCarlaEngine']]],
