@@ -9,6 +9,7 @@ var searchData=
   ['bottsdots',['BottsDots',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#ad5910e4c561a99cf13fbb61702060cf2a605f3294ab9b76208acd40f139a2ecb5',1,'carla::road::element::LaneMarking']]],
   ['boundingbox',['BoundingBox',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ab96da744287618055e5d086d53f42660',1,'CarlaRecorder.h']]],
   ['brake',['Brake',['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html#a6372a8be47dbe5cd2b9c19730e5d1dc5a9af901a16c3d66abda1f656f0b7c4e15',1,'carla::rpc::VehicleLightState']]],
+  ['bridge',['Bridge',['../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0ade8504b73ea228d0ea9bbce69752092e',1,'Tagger.h']]],
   ['broken',['Broken',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#ad5910e4c561a99cf13fbb61702060cf2ac98dbc22f49f1b4a644307551924f8da',1,'carla::road::element::LaneMarking']]],
   ['brokenbroken',['BrokenBroken',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#ad5910e4c561a99cf13fbb61702060cf2a28ce0c59dbccd53b284b4fcf59a63ed5',1,'carla::road::element::LaneMarking']]],
   ['brokensolid',['BrokenSolid',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#ad5910e4c561a99cf13fbb61702060cf2a8afcb6f7c5b3a2a6b5f6b1bb6018efe9',1,'carla::road::element::LaneMarking']]],

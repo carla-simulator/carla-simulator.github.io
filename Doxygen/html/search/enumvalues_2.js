@@ -14,7 +14,7 @@ var searchData=
   ['carla_5ftype_5froad',['CARLA_TYPE_ROAD',['../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742ae2cdc201ceae187817a5698a0b36e3c2',1,'carla::nav']]],
   ['carla_5ftype_5fsidewalk',['CARLA_TYPE_SIDEWALK',['../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742ab7e755795adc37b01ad5c6fd620ad8bd',1,'carla::nav']]],
   ['carla_5ftype_5fwalkable',['CARLA_TYPE_WALKABLE',['../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742a8b1617ca0d7f488ec6ffb013609ca802',1,'carla::nav']]],
-  ['channelcount',['ChannelCount',['../d2/d40/classcarla_1_1sensor_1_1data_1_1LidarRawData.html#abfe884eb42ed254de203a7574cc3cb09a2579a3f7e84b972415179dd718c285bb',1,'carla::sensor::data::LidarRawData']]],
+  ['channelcount',['ChannelCount',['../d9/d27/classcarla_1_1sensor_1_1data_1_1SemanticLidarData.html#a0d0554efb807f37afef58001b1d575dba14ecc4a048ab2c5103d743f84e02de5b',1,'carla::sensor::data::SemanticLidarData']]],
   ['collision',['Collision',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a15fb6ccbd11ebebcea2b48dc477f3561',1,'CarlaRecorder.h']]],
   ['continue',['Continue',['../db/dcc/namespacecarla_1_1nav.html#aaeb50f35d060ef52e7e3973ffad0fa5daa0bfb8e59e6c13fc8d990781f77694fe',1,'carla::nav']]],
   ['ct_5fparse_5fattr',['ct_parse_attr',['../db/d20/pugixml_8cpp.html#ae83a55e5947d28c62625b690b1484108a884462ea84ab1e7745a2bf69fc2edf75',1,'pugixml.cpp']]],

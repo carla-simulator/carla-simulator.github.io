@@ -11,7 +11,7 @@ var searchData=
   ['recommended_5fvalues',['recommended_values',['../d8/d46/classcarla_1_1rpc_1_1ActorAttribute.html#a3e0b909810a90579ca395f50f772c5bf',1,'carla::rpc::ActorAttribute']]],
   ['recommendedcolors',['RecommendedColors',['../d0/db7/structFVehicleParameters.html#a1e443ee21e91f3cfab731bc242bf84ea',1,'FVehicleParameters']]],
   ['recommendedvalues',['RecommendedValues',['../dc/d82/structFActorVariation.html#a306cedbd832a8ffe820964f8816a36e0',1,'FActorVariation']]],
-  ['recordedhits',['RecordedHits',['../dc/d6f/classARayCastRawLidar.html#aca3e547f5f99cd471243557f1b885bc4',1,'ARayCastRawLidar']]],
+  ['recordedhits',['RecordedHits',['../d8/d15/classARayCastSemanticLidar.html#ac8420e66e3109607ca829c7b40af23b0',1,'ARayCastSemanticLidar']]],
   ['recorder',['Recorder',['../dc/d84/classUCarlaEpisode.html#a95aab61c705a186f65b91feeec645396',1,'UCarlaEpisode::Recorder()'],['../db/de5/classACarlaGameModeBase.html#a6d5633dbba9d4a461f976cb6ea91c23c',1,'ACarlaGameModeBase::Recorder()']]],
   ['recorderstarttime',['RecorderStartTime',['../d2/de4/structCarlaRecorderPlatformTime.html#a885e8664847f8f5fee25ca37e093cc1d',1,'CarlaRecorderPlatformTime']]],
   ['red_5ftime',['red_time',['../d0/d6d/structcarla_1_1sensor_1_1data_1_1detail_1_1TrafficLightData.html#acff6151f65355b846e7b9acf745a3e3e',1,'carla::sensor::data::detail::TrafficLightData']]],

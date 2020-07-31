@@ -66,7 +66,7 @@ var searchData=
   ['prepend_5fcopy',['prepend_copy',['../db/d65/classpugi_1_1xml__node.html#abd0f80e4d5bc938a27b50d37a0c7865b',1,'pugi::xml_node::prepend_copy(const xml_attribute &amp;proto)'],['../db/d65/classpugi_1_1xml__node.html#a29cc787ee2270e3a71e1d511164621e6',1,'pugi::xml_node::prepend_copy(const xml_node &amp;proto)']]],
   ['prepend_5fmove',['prepend_move',['../db/d65/classpugi_1_1xml__node.html#a400191f234f22efd0379e68700bf9650',1,'pugi::xml_node']]],
   ['prepend_5fnode',['prepend_node',['../db/d20/pugixml_8cpp.html#a58bfa3efcb99bbbdb6489461de3814da',1,'pugixml.cpp']]],
-  ['preprocessray',['PreprocessRay',['../d5/de4/classARayCastLidar.html#ae5dbf9ca01189d4f9822b116c202fff1',1,'ARayCastLidar::PreprocessRay()'],['../dc/d6f/classARayCastRawLidar.html#a7cd415fcf67cd98c02083d203c9c97a8',1,'ARayCastRawLidar::PreprocessRay()']]],
+  ['preprocessray',['PreprocessRay',['../d5/de4/classARayCastLidar.html#ae5dbf9ca01189d4f9822b116c202fff1',1,'ARayCastLidar::PreprocessRay()'],['../d8/d15/classARayCastSemanticLidar.html#a6c5156c048e7b9fc69de3b880935d33f',1,'ARayCastSemanticLidar::PreprocessRay()']]],
   ['presave',['PreSave',['../d1/ddb/classACityMapGenerator.html#a5627a0935def8c92d8ae226b10238f2c',1,'ACityMapGenerator']]],
   ['previous_5fattribute',['previous_attribute',['../de/d7c/classpugi_1_1xml__attribute.html#aee4fc29d1645bddc70f1a174654b9d10',1,'pugi::xml_attribute']]],
   ['previous_5fsibling',['previous_sibling',['../db/d65/classpugi_1_1xml__node.html#a367e7e2c78a3870aad7ad3831da7c0fa',1,'pugi::xml_node::previous_sibling() const '],['../db/d65/classpugi_1_1xml__node.html#a311405d1ee4a564071a5f44b476b05f7',1,'pugi::xml_node::previous_sibling(const char_t *name) const ']]],

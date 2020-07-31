@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['object_5fidx',['object_idx',['../dd/da6/classcarla_1_1sensor_1_1data_1_1LidarRawDetection.html#ac364f6241df0c43d65c5d40243cc3f76',1,'carla::sensor::data::LidarRawDetection']]],
-  ['object_5ftag',['object_tag',['../dd/da6/classcarla_1_1sensor_1_1data_1_1LidarRawDetection.html#a2b04d90bc380d5c55768faab74b664a2',1,'carla::sensor::data::LidarRawDetection']]],
+  ['object_5fidx',['object_idx',['../dd/d3c/classcarla_1_1sensor_1_1data_1_1SemanticLidarDetection.html#a1806e7cfb0478479515b6557dd9ab122',1,'carla::sensor::data::SemanticLidarDetection']]],
+  ['object_5ftag',['object_tag',['../dd/d3c/classcarla_1_1sensor_1_1data_1_1SemanticLidarDetection.html#a5911e4e11429ca7119a874d96b1541fa',1,'carla::sensor::data::SemanticLidarDetection']]],
   ['objecttype',['ObjectType',['../d0/db7/structFVehicleParameters.html#a984aa46a0b867bfc423fd96d041522b4',1,'FVehicleParameters']]],
   ['offroad',['OffRoad',['../df/d36/structFRoadMapIntersectionResult.html#ac375edecd418c551111d2e20e87ce94d',1,'FRoadMapIntersectionResult']]],
   ['offset',['offset',['../d7/d00/structpugi_1_1xml__parse__result.html#adb61df40459ba6fb1083d22467983086',1,'pugi::xml_parse_result::offset()'],['../d9/d2c/structpugi_1_1xpath__parse__result.html#add47d886c654b4d8a836573b2c2a7acb',1,'pugi::xpath_parse_result::offset()']]],

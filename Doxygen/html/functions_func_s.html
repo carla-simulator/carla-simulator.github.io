@@ -111,6 +111,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>select_single_node()
 : <a class="el" href="db/d65/classpugi_1_1xml__node.html#a51ae1ebf6d78f80f9e91f5d64c143d78">pugi::xml_node</a>
 </li>
+<li>SemanticLidarData()
+: <a class="el" href="d9/d27/classcarla_1_1sensor_1_1data_1_1SemanticLidarData.html#a3ee973bd4511970fa3c8df05290f2fe1">carla::sensor::data::SemanticLidarData</a>
+</li>
+<li>SemanticLidarDetection()
+: <a class="el" href="dd/d3c/classcarla_1_1sensor_1_1data_1_1SemanticLidarDetection.html#afcad00ce100e5391dcc4057740350a76">carla::sensor::data::SemanticLidarDetection</a>
+</li>
+<li>SemanticLidarHeaderView()
+: <a class="el" href="df/d52/classcarla_1_1sensor_1_1s11n_1_1SemanticLidarHeaderView.html#a090cdd7300b9540856780928296d93d5">carla::sensor::s11n::SemanticLidarHeaderView</a>
+</li>
+<li>SemanticLidarMeasurement()
+: <a class="el" href="d0/dd5/classcarla_1_1sensor_1_1data_1_1SemanticLidarMeasurement.html#a74c0f01f9b75c215ac7e2060b82611bf">carla::sensor::data::SemanticLidarMeasurement</a>
+</li>
 <li>Send()
 : <a class="el" href="dc/db5/classFAsyncDataStreamTmpl.html#aa2ed15df0df02ef4969afe9d79dd36a0">FAsyncDataStreamTmpl&lt; T &gt;</a>
 </li>
@@ -136,10 +148,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="d0/d49/classcarla_1_1sensor_1_1s11n_1_1GnssSerializer.html#a04fd0e615d15cbb23bfc50a9e165423e">carla::sensor::s11n::GnssSerializer</a>
 , <a class="el" href="db/dba/classcarla_1_1sensor_1_1s11n_1_1ImageSerializer.html#ac42dd3890ad51f75c67a1556969a871d">carla::sensor::s11n::ImageSerializer</a>
 , <a class="el" href="dc/da1/classcarla_1_1sensor_1_1s11n_1_1IMUSerializer.html#ab89a131a8b624ebeb30b3fbc4a9a9849">carla::sensor::s11n::IMUSerializer</a>
-, <a class="el" href="db/d90/classcarla_1_1sensor_1_1s11n_1_1LidarRawSerializer.html#a61badaa9b6a51a682c656b7e0282dcbe">carla::sensor::s11n::LidarRawSerializer</a>
 , <a class="el" href="dc/d6a/classcarla_1_1sensor_1_1s11n_1_1LidarSerializer.html#aa1a92351e842f4c2fa537da23c5fbacb">carla::sensor::s11n::LidarSerializer</a>
 , <a class="el" href="d9/d82/classcarla_1_1sensor_1_1s11n_1_1ObstacleDetectionEventSerializer.html#a86d86551a1ba0a3a332ea2462bb5161e">carla::sensor::s11n::ObstacleDetectionEventSerializer</a>
 , <a class="el" href="dd/ddf/classcarla_1_1sensor_1_1s11n_1_1RadarSerializer.html#a3d082e4a5eb7cd0074d00f8c29bb4c1d">carla::sensor::s11n::RadarSerializer</a>
+, <a class="el" href="d2/ddd/classcarla_1_1sensor_1_1s11n_1_1SemanticLidarSerializer.html#a57ad0867f27342c6cf029651553688c3">carla::sensor::s11n::SemanticLidarSerializer</a>
 , <a class="el" href="dc/df4/classcarla_1_1sensor_1_1s11n_1_1SensorHeaderSerializer.html#a97ed2e48423700b96213232649632c3b">carla::sensor::s11n::SensorHeaderSerializer</a>
 </li>
 <li>SerializeActor()
@@ -164,7 +176,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="d3/d93/classAObstacleDetectionSensor.html#a709c19236d1a296f0b067d427bb61256">AObstacleDetectionSensor</a>
 , <a class="el" href="d9/d27/classARadar.html#ab481dcee48113f4a456479745bdc2616">ARadar</a>
 , <a class="el" href="d5/de4/classARayCastLidar.html#aa12e8acaeea8ccc3910be9970417d5a2">ARayCastLidar</a>
-, <a class="el" href="dc/d6f/classARayCastRawLidar.html#ab9305cf9595e40cf054471712a57836c">ARayCastRawLidar</a>
+, <a class="el" href="d8/d15/classARayCastSemanticLidar.html#aa37e8413089732c8918aeabd9ed3dbe2">ARayCastSemanticLidar</a>
 , <a class="el" href="d4/d60/classASceneCaptureSensor.html#a1a574afa79fb5ecf6425b0f8f48aa9d0">ASceneCaptureSensor</a>
 , <a class="el" href="d3/d01/classASensor.html#a4d1a4a116e9d55b9bdb383de90062059">ASensor</a>
 , <a class="el" href="da/dd3/classAShaderBasedSensor.html#a35a622b1b796b8e91569888c649c43d1">AShaderBasedSensor</a>
@@ -508,7 +520,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="d5/d70/classACarlaWheeledVehicle.html#aedb75d26bc16fded274847e17b2fc2e0">ACarlaWheeledVehicle</a>
 </li>
 <li>SetHorizontalAngle()
-: <a class="el" href="d2/d40/classcarla_1_1sensor_1_1data_1_1LidarRawData.html#aa9e001999c302e5c14732e4ca2a6410e">carla::sensor::data::LidarRawData</a>
+: <a class="el" href="d9/d27/classcarla_1_1sensor_1_1data_1_1SemanticLidarData.html#a6673646541685f3f58d649577e1df674">carla::sensor::data::SemanticLidarData</a>
 </li>
 <li>SetHorizontalFOV()
 : <a class="el" href="d9/d27/classARadar.html#a58e000059e4a63adf65260f1b5cc1def">ARadar</a>
@@ -774,7 +786,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>SetSimulatePhysics()
 : <a class="el" href="d6/da5/classcarla_1_1client_1_1Actor.html#a657a7a7a7789152926a9150db481934b">carla::client::Actor</a>
-, <a class="el" href="d5/db5/structcarla_1_1rpc_1_1Command_1_1SetSimulatePhysics.html#a9f62676d2b7371741d3ca5fcccdb1cc2">carla::rpc::Command::SetSimulatePhysics</a>
+, <a class="el" href="d5/db5/structcarla_1_1rpc_1_1Command_1_1SetSimulatePhysics.html#a8e0c92586a6ee7f324cbd801a21ab3db">carla::rpc::Command::SetSimulatePhysics</a>
 </li>
 <li>SetSpeedLimit()
 : <a class="el" href="dd/dea/classAWheeledVehicleAIController.html#a4edac90b4e6ec2282cf3bdf838830e4e">AWheeledVehicleAIController</a>
@@ -811,7 +823,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="da/d9b/classFWorldObserver.html#acb4d76563ca8310eaff0d42b149f305b">FWorldObserver</a>
 </li>
 <li>SetString()
-: <a class="el" href="d6/de8/classFIniFile.html#abe188943ae6bd256f4e0631db6a1ca7b">FIniFile</a>
+: <a class="el" href="d6/de8/classFIniFile.html#ad00b06d4c477022b78741a329511c079">FIniFile</a>
 </li>
 <li>SetSynchronousMode()
 : <a class="el" href="d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#af45a7f88f35512bd072dfc786c48aef2">carla::traffic_manager::Parameters</a>
@@ -924,7 +936,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="dd/d5b/classcarla_1_1nav_1_1WalkerManager.html#a750badcf291e23b69fcbeee9624d1c5d">carla::nav::WalkerManager</a>
 </li>
 <li>SetWalkerRoute()
-: <a class="el" href="dd/d5b/classcarla_1_1nav_1_1WalkerManager.html#af4498105383d6cdd64c20b01e7e0d18c">carla::nav::WalkerManager</a>
+: <a class="el" href="dd/d5b/classcarla_1_1nav_1_1WalkerManager.html#a84fd00439aae4cdf30188084ff3ef448">carla::nav::WalkerManager</a>
 </li>
 <li>SetWalkerSpeed()
 : <a class="el" href="d8/d27/classCarlaReplayerHelper.html#a040abcb2a2cfb7e2f21cc7dd3d390c08">CarlaReplayerHelper</a>
@@ -959,10 +971,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="d3/d08/classUTrafficLightController.html#a70d3d4f6c8821fb86889f3d4e037f720">UTrafficLightController</a>
 </li>
 <li>SharedException()
-: <a class="el" href="da/d82/classcarla_1_1detail_1_1SharedException.html#acfe4187a38849283c5923c6af0b773db">carla::detail::SharedException</a>
+: <a class="el" href="da/d82/classcarla_1_1detail_1_1SharedException.html#a6aae9c61469eed65767bd1fb1fe488cb">carla::detail::SharedException</a>
 </li>
 <li>ShootLaser()
-: <a class="el" href="dc/d6f/classARayCastRawLidar.html#ab81f1a6732093e926c48db76643a63ae">ARayCastRawLidar</a>
+: <a class="el" href="d8/d15/classARayCastSemanticLidar.html#a68da2276cc89ee747f3b95d702373d83">ARayCastSemanticLidar</a>
 </li>
 <li>ShowFileActorsBlocked()
 : <a class="el" href="dd/db9/classACarlaRecorder.html#a8b79edb76187b8c8605e16ae13795e62">ACarlaRecorder</a>
@@ -1005,7 +1017,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="dc/d04/classcarla_1_1traffic__manager_1_1SimpleWaypoint.html#ab77494c17b839c5334bd2fd3468eaacf">carla::traffic_manager::SimpleWaypoint</a>
 </li>
 <li>SimulateLidar()
-: <a class="el" href="dc/d6f/classARayCastRawLidar.html#a1362de51a55c2bf8a708046c210ca105">ARayCastRawLidar</a>
+: <a class="el" href="d8/d15/classARayCastSemanticLidar.html#a304606a5cec4a1754bb4dba6967ccfa3">ARayCastSemanticLidar</a>
 </li>
 <li>simulation()
 : <a class="el" href="d2/daf/classADVSCamera.html#a4b89ac913fb6e06322da215d94cddaf3">ADVSCamera</a>
@@ -1077,7 +1089,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#afc0a650bf0849577f19662a649121bcb">carla::client::detail::Client</a>
 , <a class="el" href="df/df3/classcarla_1_1client_1_1detail_1_1Simulator.html#a594f70df9844d547a3812d88aa4988c8">carla::client::detail::Simulator</a>
 , <a class="el" href="db/d1f/classcarla_1_1client_1_1World.html#aa9950ea96d908b964f635013fbc5a432">carla::client::World</a>
-, <a class="el" href="df/d6d/structcarla_1_1rpc_1_1Command_1_1SpawnActor.html#ad0e5af342cfd9e0cbc1e050fa0beb39b">carla::rpc::Command::SpawnActor</a>
+, <a class="el" href="df/d6d/structcarla_1_1rpc_1_1Command_1_1SpawnActor.html#a65c92770b7196a4efb00beae23cb0a35">carla::rpc::Command::SpawnActor</a>
 , <a class="el" href="d7/d90/classUActorDispatcher.html#a2260f5a6fd6bee6895745a02a828d749">UActorDispatcher</a>
 , <a class="el" href="dc/d84/classUCarlaEpisode.html#aab3fb2ba3281588bb98411d88d1bc5ae">UCarlaEpisode</a>
 </li>
@@ -1110,7 +1122,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="d9/dfe/classcarla_1_1geom_1_1Vector3D.html#a54afa1ba36c12d5b4c76bc4f2072a807">carla::geom::Vector3D</a>
 </li>
 <li>Stage()
-: <a class="el" href="d2/dcf/classcarla_1_1traffic__manager_1_1Stage.html#afcbc9dccd29a51ae8f90fa791d6abfee">carla::traffic_manager::Stage</a>
+: <a class="el" href="d2/dcf/classcarla_1_1traffic__manager_1_1Stage.html#ab0c7f38beaded434c362658bc844b66e">carla::traffic_manager::Stage</a>
 </li>
 <li>Start()
 : <a class="el" href="dd/db9/classACarlaRecorder.html#aba719596bd56c72a39f902f6e9a5d290">ACarlaRecorder</a>
@@ -1154,10 +1166,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="d3/dc5/classxpath__ast__node.html#a3258c05ab9aaa78e154d2ff63fe56906">xpath_ast_node</a>
 </li>
 <li>step_fill()
-: <a class="el" href="d3/dc5/classxpath__ast__node.html#aca100722d72e30f12c7276e8b2616587">xpath_ast_node</a>
+: <a class="el" href="d3/dc5/classxpath__ast__node.html#acbc4f5ec0e4d48444564d5101890416e">xpath_ast_node</a>
 </li>
 <li>step_push()
-: <a class="el" href="d3/dc5/classxpath__ast__node.html#a4f7aaa038105a1d98a7505606ca2b5a2">xpath_ast_node</a>
+: <a class="el" href="d3/dc5/classxpath__ast__node.html#a29d639296f3cd2726e6967b1ba277928">xpath_ast_node</a>
 </li>
 <li>Stop()
 : <a class="el" href="dd/db9/classACarlaRecorder.html#afbefa0c9df84650c63f75b780ce2dac5">ACarlaRecorder</a>
@@ -1191,7 +1203,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="d2/dcf/classcarla_1_1AtomicSharedPtr.html#a6f3654aebb88fdefe3bf447e2bbfd8d2">carla::AtomicSharedPtr&lt; T &gt;</a>
 </li>
 <li>Stream()
-: <a class="el" href="d2/dea/classcarla_1_1streaming_1_1detail_1_1Stream.html#a40d47c73f17d9dfe187d4d5f83139cef">carla::streaming::detail::Stream&lt; StreamStateT &gt;</a>
+: <a class="el" href="d2/dea/classcarla_1_1streaming_1_1detail_1_1Stream.html#af1e63415d59266d619665c528ec28d87">carla::streaming::detail::Stream&lt; StreamStateT &gt;</a>
 </li>
 <li>StreamStateBase()
 : <a class="el" href="d3/d38/classcarla_1_1streaming_1_1detail_1_1StreamStateBase.html#a159784c9bf2d0477258de6d8f8df2c71">carla::streaming::detail::StreamStateBase</a>
