@@ -1,9 +1,7 @@
 var searchData=
 [
   ['client_2ecpp',['Client.cpp',['../d0/dd1/streaming_2detail_2tcp_2Client_8cpp.html',1,'']]],
-  ['client_2eh',['Client.h',['../dc/d68/streaming_2Client_8h.html',1,'']]],
-  ['client_2eh',['Client.h',['../df/d38/streaming_2low__level_2Client_8h.html',1,'']]],
-  ['client_2eh',['Client.h',['../d6/d84/streaming_2detail_2tcp_2Client_8h.html',1,'']]],
+  ['client_2eh',['Client.h',['../dc/d68/streaming_2Client_8h.html',1,'(Global Namespace)'],['../d6/d84/streaming_2detail_2tcp_2Client_8h.html',1,'(Global Namespace)'],['../df/d38/streaming_2low__level_2Client_8h.html',1,'(Global Namespace)']]],
   ['color_2eh',['Color.h',['../db/d51/sensor_2data_2Color_8h.html',1,'']]],
   ['scenecapturecamera_2ecpp',['SceneCaptureCamera.cpp',['../d1/dec/SceneCaptureCamera_8cpp.html',1,'']]],
   ['scenecapturecamera_2eh',['SceneCaptureCamera.h',['../dc/d56/SceneCaptureCamera_8h.html',1,'']]],
@@ -24,9 +22,7 @@ var searchData=
   ['sensorheaderserializer_2eh',['SensorHeaderSerializer.h',['../dd/da9/SensorHeaderSerializer_8h.html',1,'']]],
   ['sensorregistry_2eh',['SensorRegistry.h',['../d4/d03/SensorRegistry_8h.html',1,'']]],
   ['server_2ecpp',['Server.cpp',['../db/dd9/Server_8cpp.html',1,'']]],
-  ['server_2eh',['Server.h',['../d4/d57/streaming_2detail_2tcp_2Server_8h.html',1,'']]],
-  ['server_2eh',['Server.h',['../de/d03/streaming_2low__level_2Server_8h.html',1,'']]],
-  ['server_2eh',['Server.h',['../d8/df6/streaming_2Server_8h.html',1,'']]],
+  ['server_2eh',['Server.h',['../d4/d57/streaming_2detail_2tcp_2Server_8h.html',1,'(Global Namespace)'],['../de/d03/streaming_2low__level_2Server_8h.html',1,'(Global Namespace)'],['../d8/df6/streaming_2Server_8h.html',1,'(Global Namespace)']]],
   ['serversession_2ecpp',['ServerSession.cpp',['../df/d1e/ServerSession_8cpp.html',1,'']]],
   ['serversession_2eh',['ServerSession.h',['../da/da2/ServerSession_8h.html',1,'']]],
   ['serversidesensor_2ecpp',['ServerSideSensor.cpp',['../d1/da0/ServerSideSensor_8cpp.html',1,'']]],

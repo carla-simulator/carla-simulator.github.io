@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['actorattribute_2eh',['ActorAttribute.h',['../d1/d5d/LibCarla_2source_2carla_2client_2ActorAttribute_8h.html',1,'']]],
-  ['actorattribute_2eh',['ActorAttribute.h',['../d2/dc4/LibCarla_2source_2carla_2rpc_2ActorAttribute_8h.html',1,'']]],
+  ['actorattribute_2eh',['ActorAttribute.h',['../d1/d5d/LibCarla_2source_2carla_2client_2ActorAttribute_8h.html',1,'(Global Namespace)'],['../d2/dc4/LibCarla_2source_2carla_2rpc_2ActorAttribute_8h.html',1,'(Global Namespace)']]],
   ['actordefinition_2eh',['ActorDefinition.h',['../d9/dd9/LibCarla_2source_2carla_2rpc_2ActorDefinition_8h.html',1,'']]],
   ['actordescription_2eh',['ActorDescription.h',['../d9/db9/LibCarla_2source_2carla_2rpc_2ActorDescription_8h.html',1,'']]],
   ['boundingbox_2eh',['BoundingBox.h',['../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h.html',1,'']]],
