@@ -25,8 +25,6 @@ var searchData=
   ['carlalight_2eh',['CarlaLight.h',['../dc/d8e/CarlaLight_8h.html',1,'']]],
   ['carlalightsubsystem_2ecpp',['CarlaLightSubsystem.cpp',['../d3/d13/CarlaLightSubsystem_8cpp.html',1,'']]],
   ['carlalightsubsystem_2eh',['CarlaLightSubsystem.h',['../d1/d0d/CarlaLightSubsystem_8h.html',1,'']]],
-  ['carlamapgenerator_2ecpp',['CarlaMapGenerator.cpp',['../de/d65/CarlaMapGenerator_8cpp.html',1,'']]],
-  ['carlamapgenerator_2eh',['CarlaMapGenerator.h',['../da/d91/CarlaMapGenerator_8h.html',1,'']]],
   ['carlarecorder_2ecpp',['CarlaRecorder.cpp',['../da/d49/CarlaRecorder_8cpp.html',1,'']]],
   ['carlarecorder_2eh',['CarlaRecorder.h',['../d9/d6a/CarlaRecorder_8h.html',1,'']]],
   ['carlarecorderanimvehicle_2ecpp',['CarlaRecorderAnimVehicle.cpp',['../d7/d3b/CarlaRecorderAnimVehicle_8cpp.html',1,'']]],

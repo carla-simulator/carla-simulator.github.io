@@ -105,7 +105,7 @@ Static Public Member Functions</h2></td></tr>
 struct carla::rpc::detail::FunctionWrapper&lt; R(*)(Args...)&gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dc8/rpc_2Server_8h_source.html#l00091">91</a> of file <a class="el" href="../../d0/dc8/rpc_2Server_8h_source.html">rpc/Server.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dc8/rpc_2Server_8h_source.html#l00092">92</a> of file <a class="el" href="../../d0/dc8/rpc_2Server_8h_source.html">rpc/Server.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="af83c4bbf622742195e48c7ecc1961869"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af83c4bbf622742195e48c7ecc1961869">&#9670;&nbsp;</a></span>WrapAsyncCall()</h2>
@@ -138,7 +138,7 @@ template&lt;typename FuncT &gt; </div>
 <p>Wraps <em>functor</em> into a function type with equivalent signature that handles the metadata sent by the client. </p>
 <p>If the client called this method asynchronously, the result is ignored. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dc8/rpc_2Server_8h_source.html#l00125">125</a> of file <a class="el" href="../../d0/dc8/rpc_2Server_8h_source.html">rpc/Server.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dc8/rpc_2Server_8h_source.html#l00126">126</a> of file <a class="el" href="../../d0/dc8/rpc_2Server_8h_source.html">rpc/Server.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d1/da9/Metadata_8h_source.html#l00028">carla::rpc::Metadata::IsResponseIgnored()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -194,7 +194,7 @@ template&lt;typename FuncT &gt; </div>
 <p>The wrap function returned. When called, posts <em>functor</em> into the io_context; if the client called this method synchronously, waits for the posted task to finish, otherwise returns immediately.</p>
 <p>This way, no matter from which thread the wrap function is called, the <em>functor</em> provided is always called from the context of the io_context. I.e., we can use the io_context to run tasks on a specific thread (e.g. game thread). </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dc8/rpc_2Server_8h_source.html#l00103">103</a> of file <a class="el" href="../../d0/dc8/rpc_2Server_8h_source.html">rpc/Server.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dc8/rpc_2Server_8h_source.html#l00104">104</a> of file <a class="el" href="../../d0/dc8/rpc_2Server_8h_source.html">rpc/Server.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d1/da9/Metadata_8h_source.html#l00028">carla::rpc::Metadata::IsResponseIgnored()</a>, and <a class="el" href="../../d5/db3/MoveHandler_8h_source.html#l00033">carla::MoveHandler()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">

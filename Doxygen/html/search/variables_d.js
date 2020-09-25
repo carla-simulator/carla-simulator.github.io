@@ -1,6 +1,8 @@
 var searchData=
 [
   ['magic',['Magic',['../da/dab/structCarlaRecorderInfo.html#abe6b0af97466c52aa8810bf925f1985b',1,'CarlaRecorderInfo']]],
+  ['mainbps',['MainBPs',['../d0/d6e/structFloorMeshCollection.html#abe02d51246b0bb043c66aadfa8b78399',1,'FloorMeshCollection']]],
+  ['mainmeshes',['MainMeshes',['../d0/d6e/structFloorMeshCollection.html#a3eb96868b2d9745fd9e99691529c1da9',1,'FloorMeshCollection']]],
   ['make',['Make',['../d0/db7/structFVehicleParameters.html#a1c84aa63711333faac3e09481bba0aa3',1,'FVehicleParameters']]],
   ['manual_5fgear_5fshift',['manual_gear_shift',['../d3/d9c/classcarla_1_1rpc_1_1VehicleControl.html#a393096801c5e89514ab10950ac73dbc2',1,'carla::rpc::VehicleControl::manual_gear_shift()'],['../d9/d06/classcarla_1_1sensor_1_1data_1_1detail_1_1PackedVehicleControl.html#abe7820a86ff5fe88992947a4f0d820ea',1,'carla::sensor::data::detail::PackedVehicleControl::manual_gear_shift()']]],
   ['map',['map',['../d7/d02/classcarla_1_1traffic__manager_1_1AtomicMap.html#a1d29595bbccb83bac8d5efbab89e19c5',1,'carla::traffic_manager::AtomicMap::map()'],['../db/de5/classACarlaGameModeBase.html#a12539910fc2253b6496c0f8ce1e505ea',1,'ACarlaGameModeBase::Map()'],['../d8/dfe/classUOpenDriveMap.html#a02d7e754d742d1ca53b31aa3181a3796',1,'UOpenDriveMap::Map()'],['../d3/dc1/classcarla_1_1client_1_1Landmark.html#ab0001c91f06cd181c1b47775a43b1f5d',1,'carla::client::Landmark::Map()']]],
@@ -20,9 +22,10 @@ var searchData=
   ['mapsizey',['MapSizeY',['../d1/ddb/classACityMapGenerator.html#a4aed81a218dc80859c0a01545cc73944',1,'ACityMapGenerator']]],
   ['mapspaths',['MapsPaths',['../de/dbf/structFAssetsPaths.html#a07126f52d763eb417f76302f9bb83a36',1,'FAssetsPaths']]],
   ['margin',['MARGIN',['../d2/de5/namespaceMapGen.html#a7d416a86ca450fc6309fc58aa0498a2b',1,'MapGen']]],
+  ['marked_5ffor_5fremoval',['marked_for_removal',['../d2/d75/classcarla_1_1traffic__manager_1_1ALSM.html#ac90f6fbfbf8082743f7cef235ba2ee0b',1,'carla::traffic_manager::ALSM::marked_for_removal()'],['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#ac0795899ee972fe10226e43a82217225',1,'carla::traffic_manager::LocalizationStage::marked_for_removal()'],['../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal.html#a0d520e08ce4eca47819615fb0fe95bb2',1,'carla::traffic_manager::TrafficManagerLocal::marked_for_removal()']]],
   ['markingnodematerial',['MarkingNodeMaterial',['../df/dbd/classUPrepareAssetsForCookingCommandlet.html#aa8d15d295d3c2b1d2114fd582b959a77',1,'UPrepareAssetsForCookingCommandlet']]],
   ['markingnodematerialaux',['MarkingNodeMaterialAux',['../df/dbd/classUPrepareAssetsForCookingCommandlet.html#ac05e067307f0c733a91c1f316bae0182',1,'UPrepareAssetsForCookingCommandlet']]],
-  ['mass',['Mass',['../d1/dbe/structFVehiclePhysicsControl.html#aee893ed35e860257be0ac26d56b2bfb0',1,'FVehiclePhysicsControl::Mass()'],['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#a3b3ce9d84f81696d9772c8b332986947',1,'carla::rpc::VehiclePhysicsControl::mass()']]],
+  ['mass',['mass',['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#a3b3ce9d84f81696d9772c8b332986947',1,'carla::rpc::VehiclePhysicsControl::mass()'],['../d1/dbe/structFVehiclePhysicsControl.html#aee893ed35e860257be0ac26d56b2bfb0',1,'FVehiclePhysicsControl::Mass()']]],
   ['materialsfound',['MaterialsFound',['../da/dd3/classAShaderBasedSensor.html#a4d5f40857a0afc24f3ea5f47af7fcdc6',1,'AShaderBasedSensor']]],
   ['max',['max',['../db/d19/structcarla_1_1opendrive_1_1parser_1_1RoadTypeSpeed.html#a520227e3d4be5b00d81fefc481e919af',1,'carla::opendrive::parser::RoadTypeSpeed']]],
   ['max_5fagents',['MAX_AGENTS',['../db/dcc/namespacecarla_1_1nav.html#abf5e35cc94238f7bff00e333f32fedb6',1,'carla::nav']]],
@@ -56,6 +59,7 @@ var searchData=
   ['mesh',['Mesh',['../db/d61/structFPropParameters.html#ab056f3af58eb522d558ff9e6a9a2ecdc',1,'FPropParameters']]],
   ['mesh_5fepsilon',['MESH_EPSILON',['../dc/dda/namespacecarla_1_1geom.html#a6cb11bdae40046cb0d9e8cd4688ccf4e',1,'carla::geom']]],
   ['mesh_5fpath',['MESH_PATH',['../d7/d39/namespacePropAttributes.html#a70e41d20d60b10c2ad3ba8d839ef72e2',1,'PropAttributes']]],
+  ['meshcomponent',['MeshComponent',['../d5/d19/classAProceduralMeshActor.html#a2d02542f5ca4699cf8c9deb758341461',1,'AProceduralMeshActor']]],
   ['meshinstantiators',['MeshInstantiators',['../d8/dc2/classAStaticMeshCollection.html#a12493177cfe1cedec0ce6326556be28b',1,'AStaticMeshCollection']]],
   ['midrainsunset',['MidRainSunset',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#a01d43158144414a140c6a85f1ae51e7e',1,'carla::rpc::WeatherParameters']]],
   ['midrainynoon',['MidRainyNoon',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#ab28709608639fc0ce20704b283ac75e8',1,'carla::rpc::WeatherParameters']]],
@@ -68,7 +72,7 @@ var searchData=
   ['minimum_5flane_5fchange_5fdistance',['MINIMUM_LANE_CHANGE_DISTANCE',['../df/d07/namespacecarla_1_1traffic__manager_1_1constants_1_1LaneChange.html#a9b3b47aaebdaea1836c09a3338581b3a',1,'carla::traffic_manager::constants::LaneChange']]],
   ['model',['Model',['../d0/db7/structFVehicleParameters.html#a2c2b7d67eb95b4bd15ae0e273718eaa1',1,'FVehicleParameters']]],
   ['modification_5fmutex',['modification_mutex',['../d6/d8c/classcarla_1_1traffic__manager_1_1AtomicActorSet.html#a5d419c62ead3da42b59936767c25429d',1,'carla::traffic_manager::AtomicActorSet']]],
-  ['moi',['MOI',['../d1/dbe/structFVehiclePhysicsControl.html#a312bac8131292bacca700aa46ca96df0',1,'FVehiclePhysicsControl::MOI()'],['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#a33a1b09cca84e1620e7a81de4c9a99bb',1,'carla::rpc::VehiclePhysicsControl::moi()']]],
+  ['moi',['moi',['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#a33a1b09cca84e1620e7a81de4c9a99bb',1,'carla::rpc::VehiclePhysicsControl::moi()'],['../d1/dbe/structFVehiclePhysicsControl.html#a312bac8131292bacca700aa46ca96df0',1,'FVehiclePhysicsControl::MOI()']]],
   ['motion_5fplan_5fstage',['motion_plan_stage',['../d2/d75/classcarla_1_1traffic__manager_1_1ALSM.html#a8b2956673f6248b5c2bf5adc47506722',1,'carla::traffic_manager::ALSM::motion_plan_stage()'],['../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal.html#a17d878505e974d0991829b5ee3a7ebd0',1,'carla::traffic_manager::TrafficManagerLocal::motion_plan_stage()']]],
-  ['mt',['mt',['../d2/df0/classcarla_1_1traffic__manager_1_1RandomGenerator.html#a0704399fcda70451e1ff65cf549520ce',1,'carla::traffic_manager::RandomGenerator']]]
+  ['mt',['mt',['../d2/df0/classcarla_1_1traffic__manager_1_1RandomGenerator.html#ad27d9cd726f0e86c0ab1e66a6d9ede53',1,'carla::traffic_manager::RandomGenerator']]]
 ];

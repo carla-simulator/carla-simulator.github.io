@@ -24,5 +24,6 @@ var searchData=
   ['number',['number',['../d3/dc5/classxpath__ast__node.html#a73870c7a83538e525398855b26154484',1,'xpath_ast_node']]],
   ['number_5fof_5fcalls',['number_of_calls',['../d1/d84/classcarla_1_1traffic__manager_1_1SnippetProfiler.html#ad6e146c2a8b7c688f1c844d382bc47ce',1,'carla::traffic_manager::SnippetProfiler']]],
   ['number_5fof_5ftags',['NUMBER_OF_TAGS',['../d6/ddf/CityMapMeshHolder_8cpp.html#a15184176b63eda74b02906e1f059864a',1,'CityMapMeshHolder.cpp']]],
-  ['numberofwheels',['NumberOfWheels',['../d0/db7/structFVehicleParameters.html#a9976e537e2759fc0c001bb8ca2778b78',1,'FVehicleParameters']]]
+  ['numberofwheels',['NumberOfWheels',['../d0/db7/structFVehicleParameters.html#a9976e537e2759fc0c001bb8ca2778b78',1,'FVehicleParameters']]],
+  ['numfloors',['NumFloors',['../de/d3c/classAProceduralBuilding.html#abd19102618a6b68968ee8a5c50dec253',1,'AProceduralBuilding']]]
 ];

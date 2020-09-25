@@ -90,11 +90,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>CalculateCurrentVelocity()
 : <a class="el" href="d9/d27/classARadar.html#a8eb26415e270f8c940ba15ca2b35c99f">ARadar</a>
 </li>
+<li>CalculateDoorsIndexInSide()
+: <a class="el" href="de/d3c/classAProceduralBuilding.html#a305d0c9e1a16ff52d30327a9a3cacb0c">AProceduralBuilding</a>
+</li>
 <li>CalculateEgoDynamicsOnRoute()
 : <a class="el" href="dc/d07/classcarla_1_1rss_1_1RssCheck.html#aaaf0a0f73759f525137e227af98f5074">carla::rss::RssCheck</a>
 </li>
 <li>CalculateRelativeVelocity()
 : <a class="el" href="d9/d27/classARadar.html#a333216a4a3a3948da61c65ac8be47ed8">ARadar</a>
+</li>
+<li>CalculateSidesLength()
+: <a class="el" href="de/d3c/classAProceduralBuilding.html#aeeeea4b7b1718f78580593da2889cfba">AProceduralBuilding</a>
+</li>
+<li>CalculateSideVisibilities()
+: <a class="el" href="de/d3c/classAProceduralBuilding.html#a83b27a8da6638405012995784e4d034f">AProceduralBuilding</a>
 </li>
 <li>Call()
 : <a class="el" href="d1/dff/classcarla_1_1client_1_1detail_1_1CallbackList.html#a3c6e1552f8247841475e928a184a0e7f">carla::client::detail::CallbackList&lt; InputsT &gt;</a>
@@ -118,15 +127,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>CallbackType
 : <a class="el" href="d1/dff/classcarla_1_1client_1_1detail_1_1CallbackList.html#ad12234ae089fcfccca7b0c89b67fa93c">carla::client::detail::CallbackList&lt; InputsT &gt;</a>
 </li>
-<li>CameraCopyToAtlasEnable
-: <a class="el" href="db/de5/classACarlaGameModeBase.html#a626f63ccbc8637fed5b06cfaf94ffa18">ACarlaGameModeBase</a>
-</li>
-<li>CamerasAtlasTexture
-: <a class="el" href="db/de5/classACarlaGameModeBase.html#a995d3c0e87e21ace22c75a7687d1117f">ACarlaGameModeBase</a>
-</li>
-<li>CameraStreamEnable
-: <a class="el" href="db/de5/classACarlaGameModeBase.html#a4318a38460bd2534138af38dc8398e58">ACarlaGameModeBase</a>
-</li>
 <li>CanAlloc
 : <a class="el" href="d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#ad59a292a76c2276b4d1c2b1bcd5904a9acda4d931ae1de06621b36aa194699f02">moodycamel::ConcurrentQueue&lt; T, Traits &gt;</a>
 </li>
@@ -138,12 +138,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="d9/d83/structmoodycamel_1_1ConcurrentQueue_1_1ImplicitProducer_1_1BlockIndexHeader.html#adaf6c7280eb2223c6b40e22d75286fd8">moodycamel::ConcurrentQueue&lt; T, Traits &gt;::ImplicitProducer::BlockIndexHeader</a>
 , <a class="el" href="d8/d1f/structmoodycamel_1_1ConcurrentQueue_1_1ImplicitProducerHash.html#a921e5d612c3e23ec769271da7271ac9b">moodycamel::ConcurrentQueue&lt; T, Traits &gt;::ImplicitProducerHash</a>
 , <a class="el" href="d0/d13/structxpath__memory__block.html#ab3adef89fe1cb7c50ca6ce5708ff9316">xpath_memory_block</a>
-</li>
-<li>CaptureAtlas()
-: <a class="el" href="db/de5/classACarlaGameModeBase.html#a2b2c5c4b34068052c4eb9eb6d650a63f">ACarlaGameModeBase</a>
-</li>
-<li>CaptureAtlasDelegate
-: <a class="el" href="db/de5/classACarlaGameModeBase.html#a538b563b5815235659d745d4db28d07e">ACarlaGameModeBase</a>
 </li>
 <li>CaptureComponent2D
 : <a class="el" href="d4/d60/classASceneCaptureSensor.html#a362e7f17879084db40838822c09634c8">ASceneCaptureSensor</a>
@@ -249,8 +243,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>child_value()
 : <a class="el" href="db/d65/classpugi_1_1xml__node.html#a9c2581317b217e618f682c74a9154f0d">pugi::xml_node</a>
 </li>
+<li>ChildActorComps
+: <a class="el" href="de/d3c/classAProceduralBuilding.html#a455034334d605ba1437910f49208f8cb">AProceduralBuilding</a>
+</li>
 <li>children()
 : <a class="el" href="db/d65/classpugi_1_1xml__node.html#a3dd84eaeb958e8262f3edb7bda013101">pugi::xml_node</a>
+</li>
+<li>ChooseGeometryToSpawn()
+: <a class="el" href="de/d3c/classAProceduralBuilding.html#a05f8d229a67267414801f84941653898">AProceduralBuilding</a>
 </li>
 <li>CityAreaCount()
 : <a class="el" href="d0/d95/classMapGen_1_1GraphParser.html#afdafbf6f190b7b396fd1f476b3e6423b">MapGen::GraphParser</a>
@@ -409,17 +409,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="da/d6e/classCarlaRecorderCollisions.html#afae374d7363b7f824b5fdf7183d4d105">CarlaRecorderCollisions</a>
 </li>
 <li>CollisionStage()
-: <a class="el" href="d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#a3b7838eb11f489ed52b7ebb0c7a061c6">carla::traffic_manager::CollisionStage</a>
+: <a class="el" href="d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#aeeb5fcd36fe6fb4992740eaa97f4ff2d">carla::traffic_manager::CollisionStage</a>
 </li>
 <li>Color
 : <a class="el" href="d1/d64/classcarla_1_1client_1_1DebugHelper.html#aebc0c2ed713fe08c6a4748744038b16b">carla::client::DebugHelper</a>
+, <a class="el" href="d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#adcc9f0cd0b5b4be0cc07be4bf5df30ac">carla::road::element::LaneMarking</a>
 </li>
 <li>color
 : <a class="el" href="d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#a937e29f071516992700bec890c241884">carla::road::element::LaneMarking</a>
 </li>
-<li>Color
-: <a class="el" href="d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#adcc9f0cd0b5b4be0cc07be4bf5df30ac">carla::road::element::LaneMarking</a>
-, <a class="el" href="da/d44/classcarla_1_1rpc_1_1Color.html#afcc0e2681d5dde6226bc5a3fe5d9d8b8">carla::rpc::Color</a>
+<li>Color()
+: <a class="el" href="da/d44/classcarla_1_1rpc_1_1Color.html#afcc0e2681d5dde6226bc5a3fe5d9d8b8">carla::rpc::Color</a>
 </li>
 <li>color
 : <a class="el" href="d1/d38/classcarla_1_1rpc_1_1DebugShape.html#abcf88206b2791a196cc01ecd2441c3bb">carla::rpc::DebugShape</a>
@@ -437,7 +437,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="dd/d90/classcarla_1_1rpc_1_1Command.html#ad994dc9623b3c3fa40d54cf5c38ea3f9">carla::rpc::Command</a>
 </li>
 <li>CommandType
-: <a class="el" href="dd/d90/classcarla_1_1rpc_1_1Command.html#a12bf31a63a5ea9a5d3552f1b0e3505dc">carla::rpc::Command</a>
+: <a class="el" href="dd/d90/classcarla_1_1rpc_1_1Command.html#abd2b676cfa35fcf9d514ae1e9cfe06ee">carla::rpc::Command</a>
 </li>
 <li>compare_eq()
 : <a class="el" href="d3/dc5/classxpath__ast__node.html#a98dd7f6e67fe2c56c63056eed835d6a4">xpath_ast_node</a>
@@ -579,7 +579,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>ConsumerToken
 : <a class="el" href="d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a81aed503980c50c35b8447926e2581ec">moodycamel::ConcurrentQueue&lt; T, Traits &gt;</a>
-, <a class="el" href="de/deb/structmoodycamel_1_1ConsumerToken.html#aedf28befbd4a5d699ba5024b3b6f89b7">moodycamel::ConsumerToken</a>
+, <a class="el" href="de/deb/structmoodycamel_1_1ConsumerToken.html#a45d0a4c22666b3e877573ef99e6ba707">moodycamel::ConsumerToken</a>
 </li>
 <li>Contains()
 : <a class="el" href="d4/dc6/classcarla_1_1client_1_1WorldSnapshot.html#a218823fd9478bd6cea1630fc4ab434dd">carla::client::WorldSnapshot</a>
@@ -644,8 +644,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>ConvertInPlace()
 : <a class="el" href="d5/d0f/classcarla_1_1image_1_1ImageConverter.html#a54284a483f316b7d208f42fc77caabf1">carla::image::ImageConverter</a>
 </li>
+<li>ConvertOldBP_ToNativeCodeObject()
+: <a class="el" href="de/d3c/classAProceduralBuilding.html#af2623dbf60c2dc9676db6263f7ec5a8e">AProceduralBuilding</a>
+</li>
 <li>copy_from()
-: <a class="el" href="d0/d0a/classcarla_1_1Buffer.html#a58ec7fcf4a9a2f70edb139f9671ebd00">carla::Buffer</a>
+: <a class="el" href="d0/d0a/classcarla_1_1Buffer.html#a9a072ab15feb1bef4b8382097564245c">carla::Buffer</a>
 </li>
 <li>CopyActorSnapshotIfPresent()
 : <a class="el" href="d5/dbf/classcarla_1_1client_1_1detail_1_1EpisodeState.html#aa697f7bf268268c2dece9137b68571de">carla::client::detail::EpisodeState</a>
@@ -656,14 +659,38 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>CopyPixels()
 : <a class="el" href="d5/d0f/classcarla_1_1image_1_1ImageConverter.html#ad839e7c59ef57bf7a57ddda0fc80b358">carla::image::ImageConverter</a>
 </li>
-<li>CopyTextureFromAtlas()
-: <a class="el" href="d4/d60/classASceneCaptureSensor.html#a4fe23afaf60dc0e592a772d2c847af38">ASceneCaptureSensor</a>
+<li>CornerBaseBPs
+: <a class="el" href="de/d3c/classAProceduralBuilding.html#a29c287701e20b57721a7ec3b6ae76caf">AProceduralBuilding</a>
 </li>
-<li>CopyTextureToAtlas()
-: <a class="el" href="d4/d60/classASceneCaptureSensor.html#a191434f160c1f93bd13ce3c191a29197">ASceneCaptureSensor</a>
+<li>CornerBaseMeshes
+: <a class="el" href="de/d3c/classAProceduralBuilding.html#a8252516ff8470d538fc0a1efffc09f11">AProceduralBuilding</a>
+</li>
+<li>CornerBodyBPs
+: <a class="el" href="de/d3c/classAProceduralBuilding.html#a5b311127d200c5486e2278afb9745847">AProceduralBuilding</a>
+</li>
+<li>CornerBodyMeshes
+: <a class="el" href="de/d3c/classAProceduralBuilding.html#a947c47d00e4741f76529241b139de1d9">AProceduralBuilding</a>
+</li>
+<li>CornerBPs
+: <a class="el" href="d0/d6e/structFloorMeshCollection.html#acff0bb187cba27aa76a19f1f03f44039">FloorMeshCollection</a>
+</li>
+<li>CornerMeshes
+: <a class="el" href="d0/d6e/structFloorMeshCollection.html#a35b377f53b818cc98367e7b06eb7f6c4">FloorMeshCollection</a>
+</li>
+<li>Corners
+: <a class="el" href="de/d3c/classAProceduralBuilding.html#aaef7f506f1f17d6c9db074500afea9b5">AProceduralBuilding</a>
 </li>
 <li>corners
 : <a class="el" href="d0/d4d/structcarla_1_1client_1_1LaneInvasionCallback_1_1Bounds.html#a8d7fc924bf7e9ebb22d09c6327b53ad5">carla::client::LaneInvasionCallback::Bounds</a>
+</li>
+<li>CornerTopBPs
+: <a class="el" href="de/d3c/classAProceduralBuilding.html#a947db91929b285fe7763cf11199515db">AProceduralBuilding</a>
+</li>
+<li>CornerTopMeshes
+: <a class="el" href="de/d3c/classAProceduralBuilding.html#ab51710a95bb691d143b5b9508cec7287">AProceduralBuilding</a>
+</li>
+<li>CornerVisibility
+: <a class="el" href="de/d3c/classAProceduralBuilding.html#a3017101b4b7da80e2e0f70106852abf6">AProceduralBuilding</a>
 </li>
 <li>cos_inc_angle
 : <a class="el" href="dd/d3c/classcarla_1_1sensor_1_1data_1_1SemanticLidarDetection.html#a76e2e98024968409ea7805a3576e9fbe">carla::sensor::data::SemanticLidarDetection</a>
@@ -688,21 +715,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="d2/dcc/classcarla_1_1sensor_1_1data_1_1Array.html#a577c4ef3bd76c1bf0014583d3fee2456">carla::sensor::data::Array&lt; T &gt;</a>
 </li>
 <li>create()
-: <a class="el" href="d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a5fba26cbc20a4e9e38ed609a557f2a78">moodycamel::ConcurrentQueue&lt; T, Traits &gt;</a>
+: <a class="el" href="d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a989e90a8f0750c5ebce6f0be9cda584f">moodycamel::ConcurrentQueue&lt; T, Traits &gt;</a>
 , <a class="el" href="dc/d16/structxml__stream__chunk.html#a92cffe33c529ff266329fd4afb59226d">xml_stream_chunk&lt; T &gt;</a>
 , <a class="el" href="d1/d95/structxpath__query__impl.html#afcf45bb9a20a4117b1e963d83277aa7f">xpath_query_impl</a>
 </li>
 <li>create_array()
 : <a class="el" href="d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a19c3657a5c77c1851a9ffdc1d9d59175">moodycamel::ConcurrentQueue&lt; T, Traits &gt;</a>
 </li>
-<li>CreateAtlasTextures()
-: <a class="el" href="db/de5/classACarlaGameModeBase.html#a95b7315daabf9a72d1797e0540344a46">ACarlaGameModeBase</a>
+<li>CreateBuilding()
+: <a class="el" href="de/d3c/classAProceduralBuilding.html#a309c9e716c51a91b3977c1e4c1da4263">AProceduralBuilding</a>
 </li>
 <li>CreateController()
 : <a class="el" href="de/d16/classcarla_1_1road_1_1MapBuilder.html#a1431466dd1dff00318a1de6ee3fa2e6f">carla::road::MapBuilder</a>
 </li>
 <li>CreateCrowd()
 : <a class="el" href="d9/dc2/classcarla_1_1nav_1_1Navigation.html#ae8bd3bb45077603e908d8608cba9f3be">carla::nav::Navigation</a>
+</li>
+<li>CreateFloor()
+: <a class="el" href="de/d3c/classAProceduralBuilding.html#a1c578e1e80fd5cc6911850c833494d45">AProceduralBuilding</a>
 </li>
 <li>CreateJunctionBoundingBoxes()
 : <a class="el" href="de/d16/classcarla_1_1road_1_1MapBuilder.html#ab0d9fe008defb1501769cf62f8cadf14">carla::road::MapBuilder</a>
@@ -752,11 +782,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>CreateRoadSpeed()
 : <a class="el" href="de/d16/classcarla_1_1road_1_1MapBuilder.html#a290e593d53d5a58895c542e3db1012f6">carla::road::MapBuilder</a>
 </li>
+<li>CreateRoof()
+: <a class="el" href="de/d3c/classAProceduralBuilding.html#afe1ca72e692c8cdb5c6e3dc168f39575">AProceduralBuilding</a>
+</li>
 <li>CreateRtree()
 : <a class="el" href="d0/d34/classcarla_1_1road_1_1Map.html#ad30ed42bc1a8089df7d63ec8cdfa3e72">carla::road::Map</a>
 </li>
 <li>CreateSectionOffset()
 : <a class="el" href="de/d16/classcarla_1_1road_1_1MapBuilder.html#a42bde86ce9e8116ad27afcf8a10cc839">carla::road::MapBuilder</a>
+</li>
+<li>CreateSide()
+: <a class="el" href="de/d3c/classAProceduralBuilding.html#a2bbf1af9300a3857d1ebb056b545007e">AProceduralBuilding</a>
 </li>
 <li>CreateThread()
 : <a class="el" href="db/d71/classcarla_1_1ThreadGroup.html#acc9d822c4e73247c9565e3c089debf4a">carla::ThreadGroup</a>
@@ -789,7 +825,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="d1/d76/structcarla_1_1opendrive_1_1parser_1_1GeometryParamPoly3.html#a882a60eec41c836b38b659dc1fea793e">carla::opendrive::parser::GeometryParamPoly3</a>
 </li>
 <li>CubicPolynomial()
-: <a class="el" href="d4/db7/classcarla_1_1geom_1_1CubicPolynomial.html#a4fdebb88bed0c1254487a4f3e8633a97">carla::geom::CubicPolynomial</a>
+: <a class="el" href="d4/db7/classcarla_1_1geom_1_1CubicPolynomial.html#aa8acb5edb14a87a4df881c2d68b723c3">carla::geom::CubicPolynomial</a>
 </li>
 <li>current()
 : <a class="el" href="d5/d11/classxpath__lexer.html#a47425d5012741aecfd898306651439d0">xpath_lexer</a>
@@ -808,9 +844,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>current_timestamp
 : <a class="el" href="d2/d75/classcarla_1_1traffic__manager_1_1ALSM.html#abd4bf618417e490ba0a8aad7b67f29c3">carla::traffic_manager::ALSM</a>
-</li>
-<li>CurrentAtlasTextureHeight
-: <a class="el" href="db/de5/classACarlaGameModeBase.html#aac4d69590406fdc1dd331093663f6552">ACarlaGameModeBase</a>
+, <a class="el" href="dd/df9/classcarla_1_1traffic__manager_1_1MotionPlanStage.html#a18e1da864191757264341252fa7c2075">carla::traffic_manager::MotionPlanStage</a>
+, <a class="el" href="d5/db3/classcarla_1_1traffic__manager_1_1TrafficLightStage.html#a9eb31a88d3fbe1c8f4234378b3f0b574">carla::traffic_manager::TrafficLightStage</a>
 </li>
 <li>CurrentController
 : <a class="el" href="dd/d12/classATrafficLightGroup.html#ad1712294c743de5f872f8ee3cf5a608a">ATrafficLightGroup</a>
@@ -835,6 +870,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>CurrentTime
 : <a class="el" href="dc/dc6/classCarlaReplayer.html#ae5693e5fd6c65f1d73eded1d49590bce">CarlaReplayer</a>
+</li>
+<li>CurrentTransform
+: <a class="el" href="de/d3c/classAProceduralBuilding.html#a95c345e1ede95b12c4a50da4bb454c47">AProceduralBuilding</a>
 </li>
 <li>CurrentVelocity
 : <a class="el" href="d9/d27/classARadar.html#a328fedaaa3319c80955d49048b8aefde">ARadar</a>

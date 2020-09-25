@@ -33,7 +33,7 @@ var searchData=
   ['episode_5fproxy',['episode_proxy',['../da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal.html#aaea12d503237c288b4a2d96c9f80a8f4',1,'carla::traffic_manager::TrafficManagerLocal']]],
   ['episodeproxytm',['episodeProxyTM',['../d7/d5c/classcarla_1_1traffic__manager_1_1TrafficManagerRemote.html#a158d0eecaf9ff6d3b0b033a0da76558f',1,'carla::traffic_manager::TrafficManagerRemote']]],
   ['episodesettings',['EpisodeSettings',['../dc/d84/classUCarlaEpisode.html#a1735fc2815aabf4a11a4f2a4653e7de2',1,'UCarlaEpisode']]],
-  ['epsilon',['EPSILON',['../de/d26/namespacecarla_1_1road.html#a49c9906492987863301337ac8c490bb2',1,'carla::road::EPSILON()'],['../dc/dda/namespacecarla_1_1geom.html#a24464e4247ec50cb088207def691a5b3',1,'carla::geom::EPSILON()']]],
+  ['epsilon',['EPSILON',['../de/d26/namespacecarla_1_1road.html#a49c9906492987863301337ac8c490bb2',1,'carla::road::EPSILON()'],['../dc/dda/namespacecarla_1_1geom.html#a24464e4247ec50cb088207def691a5b3',1,'carla::geom::EPSILON()'],['../df/dc8/namespacecarla_1_1traffic__manager_1_1constants_1_1Collision.html#aef07ec4fa3d5144a4e98f7faa9846a3f',1,'carla::traffic_manager::constants::Collision::EPSILON()']]],
   ['epsilon_5frelative_5fspeed',['EPSILON_RELATIVE_SPEED',['../d1/dde/namespacecarla_1_1traffic__manager_1_1constants_1_1MotionPlan.html#a0d173bc9561ce1dd860273c7785f2197',1,'carla::traffic_manager::constants::MotionPlan']]],
   ['epsilon_5fvelocity',['EPSILON_VELOCITY',['../df/dc8/namespacecarla_1_1traffic__manager_1_1constants_1_1Collision.html#ae22d95a7f6f5761834a7a74ca5014d5e',1,'carla::traffic_manager::constants::Collision']]],
   ['error',['error',['../d9/d2c/structpugi_1_1xpath__parse__result.html#ab2c625be89b995afac829012bc749fe4',1,'pugi::xpath_parse_result']]],

@@ -15,6 +15,7 @@ var searchData=
   ['global_5fpercentage_5fdifference_5ffrom_5flimit',['global_percentage_difference_from_limit',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a2e761c76139e96560a9867c060aa97e8',1,'carla::traffic_manager::Parameters']]],
   ['globalexplicitconsumeroffset',['globalExplicitConsumerOffset',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a594833a3c8cc9be773c76467be743e28',1,'moodycamel::ConcurrentQueue']]],
   ['gn',['gn',['../d3/db5/odrSpiral_8cpp.html#a17ec1b1afe903c1b199f5b7ee7882e4e',1,'odrSpiral.cpp']]],
+  ['gpixels',['gPixels',['../dc/db0/PixelReader_8cpp.html#a3a4c40fdfe6a7f38809374ff630636af',1,'PixelReader.cpp']]],
   ['green_5ftime',['green_time',['../d0/d6d/structcarla_1_1sensor_1_1data_1_1detail_1_1TrafficLightData.html#a082c7539fcd1dd2a44f018aa6b09838d',1,'carla::sensor::data::detail::TrafficLightData']]],
   ['greentime',['GreenTime',['../dd/d99/structCarlaRecorderTrafficLightTime.html#a32c9154e16702f5d1f4debdf74f842e7',1,'CarlaRecorderTrafficLightTime']]],
   ['grid_5fsize',['GRID_SIZE',['../d7/d7d/namespacecarla_1_1traffic__manager_1_1constants_1_1Map.html#abcdb08bac3c1af2870bbfec0b9563ab6',1,'carla::traffic_manager::constants::Map']]],
