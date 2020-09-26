@@ -28,6 +28,8 @@ var searchData=
   ['timestamp_2eh',['Timestamp.h',['../d7/d66/Timestamp_8h.html',1,'']]],
   ['token_2ecpp',['Token.cpp',['../d1/dd0/Token_8cpp.html',1,'']]],
   ['token_2eh',['Token.h',['../dc/d33/Token_8h.html',1,'']]],
+  ['tracktraffic_2ecpp',['TrackTraffic.cpp',['../de/d13/TrackTraffic_8cpp.html',1,'']]],
+  ['tracktraffic_2eh',['TrackTraffic.h',['../db/d67/TrackTraffic_8h.html',1,'']]],
   ['trafficgroupparser_2ecpp',['TrafficGroupParser.cpp',['../d3/d28/TrafficGroupParser_8cpp.html',1,'']]],
   ['trafficgroupparser_2eh',['TrafficGroupParser.h',['../d7/d26/TrafficGroupParser_8h.html',1,'']]],
   ['trafficlight_2ecpp',['TrafficLight.cpp',['../dd/d90/TrafficLight_8cpp.html',1,'']]],

@@ -2,8 +2,9 @@ var searchData=
 [
   ['walkerevent',['WalkerEvent',['../db/dcc/namespacecarla_1_1nav.html#af3908221ce619e131ba1fd5133b4e0ce',1,'carla::nav']]],
   ['waypoint',['Waypoint',['../d0/d34/classcarla_1_1road_1_1Map.html#a3fb72bee194568536140a32c6c94405e',1,'carla::road::Map']]],
-  ['waypointgrid',['WaypointGrid',['../d0/db7/namespacecarla_1_1traffic__manager.html#a6ec01d13c7a4060da397260e3e6bba74',1,'carla::traffic_manager']]],
   ['waypointhash',['WaypointHash',['../d8/dcc/namespacestd.html#adda5887eb62b5a9b5c78fafcd4166ee9',1,'std']]],
+  ['waypointidset',['WaypointIdSet',['../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#a8d4090587b09cfc7c00dea478543409d',1,'carla::traffic_manager::TrackTraffic']]],
+  ['waypointoccupancymap',['WaypointOccupancyMap',['../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#aa86120feb7bc4d5fb2881bc82af523cf',1,'carla::traffic_manager::TrackTraffic']]],
   ['waypointoverlap',['WaypointOverlap',['../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#a76e182d8c6afe650007e05064f7d12fc',1,'carla::traffic_manager::TrackTraffic']]],
   ['waypointptr',['WaypointPtr',['../d0/db7/namespacecarla_1_1traffic__manager.html#a5b9eab09b2fe25556855f77e34156251',1,'carla::traffic_manager']]],
   ['wchar_5fcounter',['wchar_counter',['../db/d20/pugixml_8cpp.html#a48af51bcb239f88a85b75a71229c5876',1,'pugixml.cpp']]],

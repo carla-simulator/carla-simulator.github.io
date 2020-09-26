@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['map',['Map',['../d0/d34/classcarla_1_1road_1_1Map.html',1,'carla::road']]],
-  ['map',['Map',['../dd/d49/classcarla_1_1client_1_1Map.html',1,'carla::client']]],
+  ['map',['Map',['../d0/d34/classcarla_1_1road_1_1Map.html',1,'carla::road::Map'],['../dd/d49/classcarla_1_1client_1_1Map.html',1,'carla::client::Map']]],
   ['mapbuilder',['MapBuilder',['../de/d16/classcarla_1_1road_1_1MapBuilder.html',1,'carla::road']]],
   ['mapdata',['MapData',['../da/d3b/classcarla_1_1road_1_1MapData.html',1,'carla::road']]],
   ['mapinfo',['MapInfo',['../d1/d07/classcarla_1_1rpc_1_1MapInfo.html',1,'carla::rpc']]],
@@ -12,9 +11,8 @@ var searchData=
   ['meshfactory',['MeshFactory',['../d6/d3d/classcarla_1_1geom_1_1MeshFactory.html',1,'carla::geom']]],
   ['meshmaterial',['MeshMaterial',['../dc/d90/structcarla_1_1geom_1_1MeshMaterial.html',1,'carla::geom']]],
   ['messagetmpl',['MessageTmpl',['../db/df7/classcarla_1_1streaming_1_1detail_1_1tcp_1_1MessageTmpl.html',1,'carla::streaming::detail::tcp']]],
-  ['messenger',['Messenger',['../d7/d0d/classcarla_1_1traffic__manager_1_1Messenger.html',1,'carla::traffic_manager']]],
   ['metadata',['Metadata',['../db/dc6/classcarla_1_1rpc_1_1Metadata.html',1,'carla::rpc']]],
-  ['motionplannerstage',['MotionPlannerStage',['../da/d5d/classcarla_1_1traffic__manager_1_1MotionPlannerStage.html',1,'carla::traffic_manager']]],
+  ['motionplanstage',['MotionPlanStage',['../dd/df9/classcarla_1_1traffic__manager_1_1MotionPlanStage.html',1,'carla::traffic_manager']]],
   ['movablenoncopyable',['MovableNonCopyable',['../d7/d55/classcarla_1_1MovableNonCopyable.html',1,'carla']]],
   ['movewrapper',['MoveWrapper',['../d6/d37/structcarla_1_1detail_1_1MoveWrapper.html',1,'carla::detail']]],
   ['msgpack',['MsgPack',['../db/d00/classcarla_1_1MsgPack.html',1,'carla']]],

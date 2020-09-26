@@ -1,7 +1,6 @@
 var searchData=
 [
   ['png_5finfopp_5fnull',['png_infopp_NULL',['../d2/d1d/ImageIOConfig_8h.html#acad208b3e5753b679e6ef8d761d53d9f',1,'ImageIOConfig.h']]],
-  ['prefix_5ffolder',['PREFIX_FOLDER',['../de/d65/CarlaMapGenerator_8cpp.html#a6528e84c23c2529e0cd0e7c99ad20442',1,'CarlaMapGenerator.cpp']]],
   ['pugi_5f_5fcheck_5ferror',['PUGI__CHECK_ERROR',['../db/d20/pugixml_8cpp.html#a03531d9b3c74f0843567257537edfd53',1,'pugixml.cpp']]],
   ['pugi_5f_5fdmc_5fvolatile',['PUGI__DMC_VOLATILE',['../db/d20/pugixml_8cpp.html#a88b7ffa81185df00606d7f2f1dad938b',1,'pugixml.cpp']]],
   ['pugi_5f_5fendseg',['PUGI__ENDSEG',['../db/d20/pugixml_8cpp.html#a39554337dd1d0fef32ddf9926ee4e4ae',1,'pugixml.cpp']]],

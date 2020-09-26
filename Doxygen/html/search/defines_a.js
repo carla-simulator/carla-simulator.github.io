@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['rate',['RATE',['../d1/d45/Constants_8h.html#a6dcda0c77b7dd78811ba2d434218bf34',1,'Constants.h']]],
   ['release_5fassert',['RELEASE_ASSERT',['../d4/deb/Debug_8h.html#ad7812d0b01b83a7dfc80026d9eaff951',1,'Debug.h']]],
   ['require_5fcarla_5fepisode',['REQUIRE_CARLA_EPISODE',['../db/d6c/CarlaServer_8cpp.html#a2a80d9e21b1bd7564d790fafc7b937af',1,'CarlaServer.cpp']]],
   ['respond_5ferror',['RESPOND_ERROR',['../db/d6c/CarlaServer_8cpp.html#a8545fb5f567924c6a2301641a1bcd3c9',1,'CarlaServer.cpp']]],

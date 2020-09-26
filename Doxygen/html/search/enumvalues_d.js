@@ -1,15 +1,8 @@
 var searchData=
 [
-  ['parking',['Parking',['../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5abaaacd7280e91aface947a1cc19d0f79',1,'carla::road::Lane']]],
-  ['pedestrians',['Pedestrians',['../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0aa7acbbafc14f96195b93e9b59d1b1143',1,'Tagger.h']]],
-  ['pendinglightupdate',['PendingLightUpdate',['../da/d5d/classcarla_1_1sensor_1_1s11n_1_1EpisodeStateSerializer.html#a168a331cd795ab383f2a228241bd74aaa996c22279887cc23bae038a50318b92f',1,'carla::sensor::s11n::EpisodeStateSerializer']]],
-  ['poles',['Poles',['../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0a81679595e7eddf97059c8751d80fe5b0',1,'Tagger.h']]],
-  ['poly3',['POLY3',['../df/dc1/namespacecarla_1_1road_1_1element.html#af813ce133ab9e826a05831cf2970133eae1b601534c2c991b69548e15c54fbf46',1,'carla::road::element']]],
-  ['poly3param',['POLY3PARAM',['../df/dc1/namespacecarla_1_1road_1_1element.html#af813ce133ab9e826a05831cf2970133ea235c59c2ea3af114b4707d4cb208a705',1,'carla::road::element']]],
-  ['position',['Position',['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html#a6372a8be47dbe5cd2b9c19730e5d1dc5a52f5e0bc3859bc5f5e25130b6c7e8881',1,'carla::rpc::VehicleLightState::Position()'],['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881',1,'Position():&#160;CarlaRecorder.h']]],
-  ['positive',['Positive',['../de/d26/namespacecarla_1_1road.html#a819c473e6007333e3a037a76220707d8a7a8cfd44e6ff56176312681582613f42',1,'carla::road']]],
-  ['predicate_5fconstant',['predicate_constant',['../db/d20/pugixml_8cpp.html#a164f693113306594e46b073c232de257a351071c25b1ead452d3895a82ad05390',1,'pugixml.cpp']]],
-  ['predicate_5fconstant_5fone',['predicate_constant_one',['../db/d20/pugixml_8cpp.html#a164f693113306594e46b073c232de257a498bd81df0e8955d36500f1ece28d214',1,'pugixml.cpp']]],
-  ['predicate_5fdefault',['predicate_default',['../db/d20/pugixml_8cpp.html#a164f693113306594e46b073c232de257a6e429ea29b919f00c24d9ea590905dde',1,'pugixml.cpp']]],
-  ['predicate_5fposinv',['predicate_posinv',['../db/d20/pugixml_8cpp.html#a164f693113306594e46b073c232de257a91ad5bd61a35ea39196bbdd5534652f2',1,'pugixml.cpp']]]
+  ['off',['Off',['../de/d6c/namespacecarla_1_1rpc.html#a46c3995219197dcef2980adce8d1cfbaad15305d7a4e34e02489c74a5ef542f36',1,'carla::rpc::Off()'],['../db/d85/namespacecarla_1_1rss.html#a28d7e06be0ca33af00c6e19c5c36a671ad15305d7a4e34e02489c74a5ef542f36',1,'carla::rss::Off()']]],
+  ['offramp',['OffRamp',['../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5aef0094aa48f0429c57566e5920433b38',1,'carla::road::Lane']]],
+  ['on',['On',['../db/d85/namespacecarla_1_1rss.html#a28d7e06be0ca33af00c6e19c5c36a671a521c36a31c2762741cf0f8890cbe05e3',1,'carla::rss']]],
+  ['onramp',['OnRamp',['../df/d85/classcarla_1_1road_1_1Lane.html#a37331c6d1280761737958c7d4f188df5a938f8ba6595bc0df57e0540c2c2aab73',1,'carla::road::Lane']]],
+  ['other',['Other',['../da/db0/classFActorView.html#a34c70567d6721709a3765addbae22dbda6311ae17c1ee52b36e68aaf4ad066387',1,'FActorView::Other()'],['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#ad5910e4c561a99cf13fbb61702060cf2a6311ae17c1ee52b36e68aaf4ad066387',1,'carla::road::element::LaneMarking::Other()'],['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#adcc9f0cd0b5b4be0cc07be4bf5df30aca6311ae17c1ee52b36e68aaf4ad066387',1,'carla::road::element::LaneMarking::Other()'],['../d3/d13/classcarla_1_1rpc_1_1LightState.html#a0dd6e7e658f888d53b9f134359d03bffa6311ae17c1ee52b36e68aaf4ad066387',1,'carla::rpc::LightState::Other()'],['../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959a6311ae17c1ee52b36e68aaf4ad066387',1,'Other():&#160;CarlaLight.h'],['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a6311ae17c1ee52b36e68aaf4ad066387',1,'carla::rpc::Other()']]]
 ];

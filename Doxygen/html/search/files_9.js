@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['actorattribute_2eh',['ActorAttribute.h',['../d1/d5d/LibCarla_2source_2carla_2client_2ActorAttribute_8h.html',1,'']]],
-  ['actorattribute_2eh',['ActorAttribute.h',['../d2/dc4/LibCarla_2source_2carla_2rpc_2ActorAttribute_8h.html',1,'']]],
+  ['actorattribute_2eh',['ActorAttribute.h',['../d1/d5d/LibCarla_2source_2carla_2client_2ActorAttribute_8h.html',1,'(Global Namespace)'],['../d2/dc4/LibCarla_2source_2carla_2rpc_2ActorAttribute_8h.html',1,'(Global Namespace)']]],
   ['actordefinition_2eh',['ActorDefinition.h',['../d9/dd9/LibCarla_2source_2carla_2rpc_2ActorDefinition_8h.html',1,'']]],
   ['actordescription_2eh',['ActorDescription.h',['../d9/db9/LibCarla_2source_2carla_2rpc_2ActorDescription_8h.html',1,'']]],
   ['boundingbox_2eh',['BoundingBox.h',['../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h.html',1,'']]],
@@ -23,7 +22,9 @@ var searchData=
   ['lanesection_2eh',['LaneSection.h',['../d6/dfd/LaneSection_8h.html',1,'']]],
   ['lanesectionmap_2eh',['LaneSectionMap.h',['../df/d60/LaneSectionMap_8h.html',1,'']]],
   ['lanevalidity_2eh',['LaneValidity.h',['../d9/d74/LaneValidity_8h.html',1,'']]],
+  ['lidardata_2eh',['LidarData.h',['../de/df5/LidarData_8h.html',1,'']]],
   ['lidardescription_2eh',['LidarDescription.h',['../de/d92/LidarDescription_8h.html',1,'']]],
+  ['lidarmeasurement_2eh',['LidarMeasurement.h',['../d4/dbb/LidarMeasurement_8h.html',1,'']]],
   ['lidarserializer_2ecpp',['LidarSerializer.cpp',['../db/d0f/LidarSerializer_8cpp.html',1,'']]],
   ['lidarserializer_2eh',['LidarSerializer.h',['../d1/de3/LidarSerializer_8h.html',1,'']]],
   ['lifetimeprofiled_2ecpp',['LifetimeProfiled.cpp',['../d1/daf/LifetimeProfiled_8cpp.html',1,'']]],

@@ -1,4 +1,9 @@
 var searchData=
 [
-  ['yellow',['Yellow',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#adcc9f0cd0b5b4be0cc07be4bf5df30aca51e6cd92b6c45f9affdc158ecca2b8b8',1,'carla::road::element::LaneMarking::Yellow()'],['../de/d6c/namespacecarla_1_1rpc.html#a46c3995219197dcef2980adce8d1cfbaa51e6cd92b6c45f9affdc158ecca2b8b8',1,'carla::rpc::Yellow()']]]
+  ['xintersection',['XIntersection',['../d2/de5/namespaceMapGen.html#a3dab4b218910e62b79f0d98c7895c92aa05ff87bdcb632a1f2b9b1243d507f00f',1,'MapGen']]],
+  ['xpath_5ftype_5fboolean',['xpath_type_boolean',['../d3/d68/namespacepugi.html#ae3820874caf240e9f311bfd2790a84d6a049dd1494237a55f8aba3392d12a0164',1,'pugi']]],
+  ['xpath_5ftype_5fnode_5fset',['xpath_type_node_set',['../d3/d68/namespacepugi.html#ae3820874caf240e9f311bfd2790a84d6af5613748204e2e4861524e7d63a699c9',1,'pugi']]],
+  ['xpath_5ftype_5fnone',['xpath_type_none',['../d3/d68/namespacepugi.html#ae3820874caf240e9f311bfd2790a84d6aaa768b8302ccc893f3cc9ba799360a77',1,'pugi']]],
+  ['xpath_5ftype_5fnumber',['xpath_type_number',['../d3/d68/namespacepugi.html#ae3820874caf240e9f311bfd2790a84d6a02959f74f4fe93d71a1e109a45f23825',1,'pugi']]],
+  ['xpath_5ftype_5fstring',['xpath_type_string',['../d3/d68/namespacepugi.html#ae3820874caf240e9f311bfd2790a84d6ade2b17f4d9fad5bfb1617bf5012cf5ad',1,'pugi']]]
 ];
