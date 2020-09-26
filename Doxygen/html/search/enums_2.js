@@ -5,7 +5,6 @@ var searchData=
   ['eattachmenttype',['EAttachmentType',['../d6/d68/ActorAttacher_8h.html#a9cf55c1af321cd2ac28b5097b5e4aa4e',1,'ActorAttacher.h']]],
   ['ecarlawheeledvehiclestate',['ECarlaWheeledVehicleState',['../d7/dab/CarlaWheeledVehicleState_8h.html#a1d0a22d4425dd31d731767e6b7a0429f',1,'CarlaWheeledVehicleState.h']]],
   ['ecitymapmeshtag',['ECityMapMeshTag',['../d4/d83/CityMapMeshTag_8h.html#a36ee1ac629c26b2857c17c737b879469',1,'CityMapMeshTag.h']]],
-  ['ecityobjectlabel',['ECityObjectLabel',['../d7/d06/Tagger_8h.html#af8896d4af16533634ec5e17bd6367ed0',1,'Tagger.h']]],
   ['eintersectiontype',['EIntersectionType',['../d2/de5/namespaceMapGen.html#a3dab4b218910e62b79f0d98c7895c92a',1,'MapGen']]],
   ['elighttype',['ELightType',['../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959',1,'CarlaLight.h']]],
   ['epedestrianage',['EPedestrianAge',['../d5/dca/PedestrianParameters_8h.html#a0c437d0051a5f6e4b988cb873f24a315',1,'PedestrianParameters.h']]],

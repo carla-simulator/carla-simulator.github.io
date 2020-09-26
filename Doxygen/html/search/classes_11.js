@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['radardata',['RadarData',['../d5/daf/classcarla_1_1sensor_1_1s11n_1_1RadarData.html',1,'carla::sensor::s11n']]],
-  ['radardetection',['RadarDetection',['../d2/d54/structcarla_1_1sensor_1_1s11n_1_1RadarDetection.html',1,'carla::sensor::s11n']]],
+  ['radardata',['RadarData',['../d5/d13/classcarla_1_1sensor_1_1data_1_1RadarData.html',1,'carla::sensor::data']]],
+  ['radardetection',['RadarDetection',['../d1/dbe/structcarla_1_1sensor_1_1data_1_1RadarDetection.html',1,'carla::sensor::data']]],
   ['radarmeasurement',['RadarMeasurement',['../d6/dfa/classcarla_1_1sensor_1_1data_1_1RadarMeasurement.html',1,'carla::sensor::data']]],
   ['radarserializer',['RadarSerializer',['../dd/ddf/classcarla_1_1sensor_1_1s11n_1_1RadarSerializer.html',1,'carla::sensor::s11n']]],
   ['random',['Random',['../dc/de7/classutil_1_1Random.html',1,'util']]],
@@ -17,10 +17,9 @@ var searchData=
   ['response',['Response',['../dd/db9/classcarla_1_1rpc_1_1Response.html',1,'carla::rpc']]],
   ['response_3c_20void_20_3e',['Response&lt; void &gt;',['../d0/d65/classcarla_1_1rpc_1_1Response_3_01void_01_4.html',1,'carla::rpc']]],
   ['responseerror',['ResponseError',['../d7/d2a/classcarla_1_1rpc_1_1ResponseError.html',1,'carla::rpc']]],
-  ['road',['Road',['../dd/de6/classcarla_1_1road_1_1Road.html',1,'carla::road']]],
-  ['road',['Road',['../dc/d17/structcarla_1_1opendrive_1_1parser_1_1Road.html',1,'carla::opendrive::parser']]],
+  ['road',['Road',['../dc/d17/structcarla_1_1opendrive_1_1parser_1_1Road.html',1,'carla::opendrive::parser::Road'],['../dd/de6/classcarla_1_1road_1_1Road.html',1,'carla::road::Road']]],
   ['roadelementset',['RoadElementSet',['../dc/dcf/classcarla_1_1road_1_1RoadElementSet.html',1,'carla::road']]],
-  ['roadelementset_3c_20std_3a_3aunique_5fptr_3c_20element_3a_3acarla_3a_3aroad_3a_3aelement_3a_3aroadinfo_20_3e_20_3e',['RoadElementSet&lt; std::unique_ptr&lt; element::carla::road::element::RoadInfo &gt; &gt;',['../dc/dcf/classcarla_1_1road_1_1RoadElementSet.html',1,'carla::road']]],
+  ['roadelementset_3c_20std_3a_3aunique_5fptr_3c_20carla_3a_3aroad_3a_3aelement_3a_3aroadinfo_20_3e_20_3e',['RoadElementSet&lt; std::unique_ptr&lt; carla::road::element::RoadInfo &gt; &gt;',['../dc/dcf/classcarla_1_1road_1_1RoadElementSet.html',1,'carla::road']]],
   ['roadinfo',['RoadInfo',['../d6/d0f/classcarla_1_1road_1_1element_1_1RoadInfo.html',1,'carla::road::element']]],
   ['roadinfocrosswalk',['RoadInfoCrosswalk',['../dc/d4a/classcarla_1_1road_1_1element_1_1RoadInfoCrosswalk.html',1,'carla::road::element']]],
   ['roadinfoelevation',['RoadInfoElevation',['../d7/d3e/classcarla_1_1road_1_1element_1_1RoadInfoElevation.html',1,'carla::road::element']]],
@@ -50,6 +49,5 @@ var searchData=
   ['rssresponse',['RssResponse',['../da/d3a/classcarla_1_1sensor_1_1data_1_1RssResponse.html',1,'carla::sensor::data']]],
   ['rssrestrictor',['RssRestrictor',['../d9/deb/classcarla_1_1rss_1_1RssRestrictor.html',1,'carla::rss']]],
   ['rsssensor',['RssSensor',['../d7/db6/classcarla_1_1client_1_1RssSensor.html',1,'carla::client']]],
-  ['rtreevalue',['RtreeValue',['../d9/de2/structcarla_1_1road_1_1element_1_1GeometryPoly3_1_1RtreeValue.html',1,'carla::road::element::GeometryPoly3']]],
-  ['rtreevalue',['RtreeValue',['../d8/d18/structcarla_1_1road_1_1element_1_1GeometryParamPoly3_1_1RtreeValue.html',1,'carla::road::element::GeometryParamPoly3']]]
+  ['rtreevalue',['RtreeValue',['../d9/de2/structcarla_1_1road_1_1element_1_1GeometryPoly3_1_1RtreeValue.html',1,'carla::road::element::GeometryPoly3::RtreeValue'],['../d8/d18/structcarla_1_1road_1_1element_1_1GeometryParamPoly3_1_1RtreeValue.html',1,'carla::road::element::GeometryParamPoly3::RtreeValue']]]
 ];

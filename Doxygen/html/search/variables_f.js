@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['object_5fidx',['object_idx',['../dd/d3c/classcarla_1_1sensor_1_1data_1_1SemanticLidarDetection.html#a1806e7cfb0478479515b6557dd9ab122',1,'carla::sensor::data::SemanticLidarDetection']]],
+  ['object_5ftag',['object_tag',['../dd/d3c/classcarla_1_1sensor_1_1data_1_1SemanticLidarDetection.html#a5911e4e11429ca7119a874d96b1541fa',1,'carla::sensor::data::SemanticLidarDetection']]],
   ['objecttype',['ObjectType',['../d0/db7/structFVehicleParameters.html#a984aa46a0b867bfc423fd96d041522b4',1,'FVehicleParameters']]],
   ['offroad',['OffRoad',['../df/d36/structFRoadMapIntersectionResult.html#ac375edecd418c551111d2e20e87ce94d',1,'FRoadMapIntersectionResult']]],
   ['offset',['offset',['../d7/d00/structpugi_1_1xml__parse__result.html#adb61df40459ba6fb1083d22467983086',1,'pugi::xml_parse_result::offset()'],['../d9/d2c/structpugi_1_1xpath__parse__result.html#add47d886c654b4d8a836573b2c2a7acb',1,'pugi::xpath_parse_result::offset()']]],
@@ -13,6 +15,7 @@ var searchData=
   ['opendrivedata',['OpenDriveData',['../d1/db0/classAOpenDriveGenerator.html#af5080b6619d93b9af3f60a105a9f9500',1,'AOpenDriveGenerator']]],
   ['oppositelane',['OppositeLane',['../df/d36/structFRoadMapIntersectionResult.html#a60663d1a977e9492133332d3872e04ca',1,'FRoadMapIntersectionResult']]],
   ['origin',['Origin',['../d8/dee/structCarlaRecorderBoundingBox.html#ac32b815e75cad1bdce88ef27f1591eaf',1,'CarlaRecorderBoundingBox::Origin()'],['../d5/d4d/structFBoundingBox.html#a8d79e3d9fb8cf83b403eb1ff441c3455',1,'FBoundingBox::Origin()']]],
+  ['osm_5fmode',['osm_mode',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#aa8d04fe768483f44a19ec2e5b5395ecc',1,'carla::traffic_manager::Parameters']]],
   ['other_5factor',['other_actor',['../d3/dcf/structcarla_1_1rss_1_1ActorConstellationData.html#a5ccd62a0ca5ed6cc07d20f0db78925e8',1,'carla::rss::ActorConstellationData::other_actor()'],['../df/d56/structcarla_1_1sensor_1_1s11n_1_1CollisionEventSerializer_1_1Data.html#a448b18729bc1e03d0414849af16bae31',1,'carla::sensor::s11n::CollisionEventSerializer::Data::other_actor()'],['../d6/dea/structcarla_1_1sensor_1_1s11n_1_1ObstacleDetectionEventSerializer_1_1Data.html#a6f4ac2f5c5b8deba48c5fa86ee2c5e8b',1,'carla::sensor::s11n::ObstacleDetectionEventSerializer::Data::other_actor()']]],
   ['other_5fmatch_5fobject',['other_match_object',['../d3/dcf/structcarla_1_1rss_1_1ActorConstellationData.html#a4be8fcacbe484286587ba7251c71bf6d',1,'carla::rss::ActorConstellationData']]],
   ['other_5fvehicle_5fto_5freference_5fgeodesic',['other_vehicle_to_reference_geodesic',['../dc/d21/structcarla_1_1traffic__manager_1_1GeometryComparison.html#a8b860e09b4b8110199b78e1651feb025',1,'carla::traffic_manager::GeometryComparison']]],

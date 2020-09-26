@@ -1,7 +1,7 @@
 var searchData=
 [
   ['u',['u',['../d9/de2/structcarla_1_1road_1_1element_1_1GeometryPoly3_1_1RtreeValue.html#a710cecb0bbadb134228bbeaf3585b161',1,'carla::road::element::GeometryPoly3::RtreeValue::u()'],['../d8/d18/structcarla_1_1road_1_1element_1_1GeometryParamPoly3_1_1RtreeValue.html#a7b7c39c43bc05e0ba7b86de189757051',1,'carla::road::element::GeometryParamPoly3::RtreeValue::u()'],['../d8/de6/structcarla_1_1road_1_1element_1_1CrosswalkPoint.html#a20c0631b9297876fbd50046ae8b3329c',1,'carla::road::element::CrosswalkPoint::u()']]],
-  ['uid',['uid',['../d8/d68/classcarla_1_1rpc_1_1ActorDefinition.html#a2532b746b7c44ca06a991814eaf6c383',1,'carla::rpc::ActorDefinition::uid()'],['../d6/d11/classcarla_1_1rpc_1_1ActorDescription.html#a4daaf0e2e9dfd14789bac6fd1c0e3818',1,'carla::rpc::ActorDescription::uid()'],['../d9/d76/structFActorDefinition.html#a55285aa87de039d381d98e4e33e3755e',1,'FActorDefinition::UId()'],['../d0/df6/structFActorDescription.html#a89bc776d6c1c53d1904fe77f45404f85',1,'FActorDescription::UId()'],['../d5/dbe/structCarlaRecorderActorDescription.html#a51b8b0b7b5423af8df9bf84a2b62ce2c',1,'CarlaRecorderActorDescription::UId()']]],
+  ['uid',['UId',['../d9/d76/structFActorDefinition.html#a55285aa87de039d381d98e4e33e3755e',1,'FActorDefinition::UId()'],['../d0/df6/structFActorDescription.html#a89bc776d6c1c53d1904fe77f45404f85',1,'FActorDescription::UId()'],['../d5/dbe/structCarlaRecorderActorDescription.html#a51b8b0b7b5423af8df9bf84a2b62ce2c',1,'CarlaRecorderActorDescription::UId()'],['../d8/d68/classcarla_1_1rpc_1_1ActorDefinition.html#a2532b746b7c44ca06a991814eaf6c383',1,'carla::rpc::ActorDefinition::uid()'],['../d6/d11/classcarla_1_1rpc_1_1ActorDescription.html#a4daaf0e2e9dfd14789bac6fd1c0e3818',1,'carla::rpc::ActorDescription::uid()']]],
   ['unit',['unit',['../db/d19/structcarla_1_1opendrive_1_1parser_1_1RoadTypeSpeed.html#a75c894acf78c3aabfa1336e1eff277d0',1,'carla::opendrive::parser::RoadTypeSpeed']]],
   ['unregistered_5factors',['unregistered_actors',['../d2/d75/classcarla_1_1traffic__manager_1_1ALSM.html#ab73da9ee94e618cfd47b0e25eec06b87',1,'carla::traffic_manager::ALSM']]],
   ['up_5fratio',['up_ratio',['../d9/d75/classcarla_1_1rpc_1_1GearPhysicsControl.html#acacd994b25f9e6478131766b6fa5794c',1,'carla::rpc::GearPhysicsControl']]],
@@ -11,5 +11,7 @@ var searchData=
   ['urban_5flongitudinal_5fparameters',['urban_longitudinal_parameters',['../dd/df9/classcarla_1_1traffic__manager_1_1MotionPlanStage.html#a0cc8ea6c8b7aad8ac275cdb02d35bf83',1,'carla::traffic_manager::MotionPlanStage']]],
   ['use_5fgear_5fautobox',['use_gear_autobox',['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#ad46e8739a79959adfec1e382edf48903',1,'carla::rpc::VehiclePhysicsControl']]],
   ['use_5flog',['use_log',['../de/d22/structdvs_1_1Config.html#a736673abf1d6cb898c3ff44cedb5fca3',1,'dvs::Config']]],
+  ['usefullblocks',['UseFullBlocks',['../de/d3c/classAProceduralBuilding.html#ac043760a9833b81b0deb142b233dc16a',1,'AProceduralBuilding']]],
+  ['usewallmesh',['UseWallMesh',['../de/d3c/classAProceduralBuilding.html#a22b9a7857a7b00153357d350a8d27698',1,'AProceduralBuilding']]],
   ['uv0',['UV0',['../d0/d01/structFProceduralCustomMesh.html#a3c464fc6a044984bd0d258681e952c81',1,'FProceduralCustomMesh']]]
 ];
