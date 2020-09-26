@@ -8,4 +8,5 @@ source "https://rubygems.org" do
   gem 'jekyll-mentions'
   gem 'jekyll-paginate'
   gem 'jekyll-seo-tag'
+  gem 'kramdown-parser-gfm'
 end
