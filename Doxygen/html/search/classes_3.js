@@ -72,6 +72,7 @@ var searchData=
   ['commandbase_3c_20applywalkerstate_20_3e',['CommandBase&lt; ApplyWalkerState &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['commandbase_3c_20destroyactor_20_3e',['CommandBase&lt; DestroyActor &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['commandbase_3c_20setautopilot_20_3e',['CommandBase&lt; SetAutopilot &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
+  ['commandbase_3c_20setenablegravity_20_3e',['CommandBase&lt; SetEnableGravity &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['commandbase_3c_20setsimulatephysics_20_3e',['CommandBase&lt; SetSimulatePhysics &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['commandbase_3c_20setvehiclelightstate_20_3e',['CommandBase&lt; SetVehicleLightState &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['commandbase_3c_20spawnactor_20_3e',['CommandBase&lt; SpawnActor &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
