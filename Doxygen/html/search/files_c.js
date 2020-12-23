@@ -4,6 +4,8 @@ var searchData=
   ['objectlabel_2eh',['ObjectLabel.h',['../d0/dea/ObjectLabel_8h.html',1,'']]],
   ['objectparser_2ecpp',['ObjectParser.cpp',['../d9/df7/ObjectParser_8cpp.html',1,'']]],
   ['objectparser_2eh',['ObjectParser.h',['../d2/d48/ObjectParser_8h.html',1,'']]],
+  ['objectregister_2ecpp',['ObjectRegister.cpp',['../d7/d86/ObjectRegister_8cpp.html',1,'']]],
+  ['objectregister_2eh',['ObjectRegister.h',['../d4/d5b/ObjectRegister_8h.html',1,'']]],
   ['obstacledetectionevent_2eh',['ObstacleDetectionEvent.h',['../d5/d1b/ObstacleDetectionEvent_8h.html',1,'']]],
   ['obstacledetectioneventserializer_2ecpp',['ObstacleDetectionEventSerializer.cpp',['../df/d69/ObstacleDetectionEventSerializer_8cpp.html',1,'']]],
   ['obstacledetectioneventserializer_2eh',['ObstacleDetectionEventSerializer.h',['../d3/d5c/ObstacleDetectionEventSerializer_8h.html',1,'']]],

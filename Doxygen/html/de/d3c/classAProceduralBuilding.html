@@ -105,6 +105,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af2623dbf60c2dc9676db6263f7ec5a8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1433bbf088df8158fbccb32d0b203e72"><td class="memItemLeft" align="right" valign="top">UHierarchicalInstancedStaticMeshComponent *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/classAProceduralBuilding.html#a1433bbf088df8158fbccb32d0b203e72">GetHISMComp</a> (const UStaticMesh *SM)</td></tr>
 <tr class="separator:a1433bbf088df8158fbccb32d0b203e72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac246bfe1ab30252bd489ceac7e20bde7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/classAProceduralBuilding.html#ac246bfe1ab30252bd489ceac7e20bde7">HideAllChildren</a> ()</td></tr>
+<tr class="separator:ac246bfe1ab30252bd489ceac7e20bde7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47959a55203ae946a05e1c51c33bdc46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/classAProceduralBuilding.html#a47959a55203ae946a05e1c51c33bdc46">SetBaseMeshes</a> (const TArray&lt; UStaticMesh *&gt; &amp;InBaseMeshes, const TArray&lt; TSubclassOf&lt; <a class="el" href="../../d1/da4/classAActor.html">AActor</a> &gt;&gt; &amp;InBaseBPs, const TArray&lt; UStaticMesh *&gt; &amp;InCornerBaseMeshes, const TArray&lt; TSubclassOf&lt; <a class="el" href="../../d1/da4/classAActor.html">AActor</a> &gt;&gt; &amp;InCornerBaseBPs, const TArray&lt; UStaticMesh *&gt; &amp;InDoorMeshes, const TArray&lt; TSubclassOf&lt; <a class="el" href="../../d1/da4/classAActor.html">AActor</a> &gt;&gt; &amp;InDoorBPs)</td></tr>
 <tr class="separator:a47959a55203ae946a05e1c51c33bdc46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc097bfe164007b3d87fe484e6516f4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/classAProceduralBuilding.html#adc097bfe164007b3d87fe484e6516f4b">SetBaseParameters</a> (const TSet&lt; int &gt; &amp;InDoorsIndexPosition, const TArray&lt; bool &gt; &amp;InUseWallMesh, int InNumFloors, int InLengthX, int InLengthY, bool InCorners, bool InUseFullBlocks)</td></tr>
@@ -174,6 +176,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a7daa2f3a912fa3e50c4edf48e58be2bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b5176d7a13ebcae495a157f3da0db14"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/classAProceduralBuilding.html#a5b5176d7a13ebcae495a157f3da0db14">RoofVisibility</a> = true</td></tr>
 <tr class="separator:a5b5176d7a13ebcae495a157f3da0db14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39294f2dc17ee7e35aa1f1d366f76980"><td class="memItemLeft" align="right" valign="top">UStaticMeshComponent *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/classAProceduralBuilding.html#a39294f2dc17ee7e35aa1f1d366f76980">RootSMComp</a> = nullptr</td></tr>
+<tr class="separator:a39294f2dc17ee7e35aa1f1d366f76980"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f600521c4316e517ce13904444b4453"><td class="memItemLeft" align="right" valign="top">TArray&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3c/classAProceduralBuilding.html#a4f600521c4316e517ce13904444b4453">SideVisibility</a></td></tr>
 <tr class="memdesc:a4f600521c4316e517ce13904444b4453"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base Parameters | Visibility.  <a href="#a4f600521c4316e517ce13904444b4453">More...</a><br /></td></tr>
 <tr class="separator:a4f600521c4316e517ce13904444b4453"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -252,7 +256,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00008">8</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00145">CornerVisibility</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00141">SideVisibility</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00113">UseWallMesh</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00151">CornerVisibility</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00107">RootSMComp</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00147">SideVisibility</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00119">UseWallMesh</a>.</p>
 
 </div>
 </div>
@@ -303,11 +307,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00482">482</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00497">497</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00559">AddMeshToBuilding()</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00101">ChildActorComps</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00297">CurrentTransform</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00566">GetMeshSize()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00572">UpdateTransformPositionToNextChunk()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00574">AddMeshToBuilding()</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00104">ChildActorComps</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00303">CurrentTransform</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00581">GetMeshSize()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00587">UpdateTransformPositionToNextChunk()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00305">CreateRoof()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00342">CreateSide()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00320">CreateRoof()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00357">CreateSide()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -351,11 +355,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00559">559</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00574">574</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00297">CurrentTransform</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00021">GetHISMComp()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00303">CurrentTransform</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00022">GetHISMComp()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00482">AddChunck()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00497">AddChunck()</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
@@ -409,11 +413,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00428">428</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00443">443</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00109">DoorsIndexPosition</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00115">DoorsIndexPosition</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00256">CreateFloor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00271">CreateFloor()</a>.</p>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
@@ -448,11 +452,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00408">408</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00423">423</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00121">LengthX</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00125">LengthY</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00294">SidesLength</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00133">UseFullBlocks</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00127">LengthX</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00131">LengthY</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00300">SidesLength</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00139">UseFullBlocks</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00249">Init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00264">Init()</a>.</p>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
@@ -504,11 +508,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00454">454</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00469">469</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00145">CornerVisibility</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00141">SideVisibility</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00133">UseFullBlocks</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00151">CornerVisibility</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00147">SideVisibility</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00139">UseFullBlocks</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00256">CreateFloor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00271">CreateFloor()</a>.</p>
 <div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-8-summary" class="dynsummary" style="display:block;">
@@ -566,9 +570,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00460">460</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00475">475</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00305">CreateRoof()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00342">CreateSide()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00320">CreateRoof()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00357">CreateSide()</a>.</p>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
@@ -596,9 +600,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00048">48</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00049">49</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00101">ChildActorComps</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00021">GetHISMComp()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00104">ChildActorComps</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00022">GetHISMComp()</a>.</p>
 <div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
@@ -633,9 +637,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">188</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">203</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00166">BaseBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00162">BaseMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00194">BodyBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00190">BodyMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00182">CornerBaseBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00178">CornerBaseMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00210">CornerBodyBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00206">CornerBodyMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00230">CornerTopBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00226">CornerTopMeshes</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00256">CreateFloor()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00305">CreateRoof()</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00174">DoorBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00170">DoorMeshes</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00249">Init()</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00117">NumFloors</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00222">TopBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00218">TopMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00202">WallBPs</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00198">WallMeshes</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00172">BaseBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00168">BaseMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00200">BodyBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00196">BodyMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00188">CornerBaseBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00184">CornerBaseMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00216">CornerBodyBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00212">CornerBodyMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00236">CornerTopBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00232">CornerTopMeshes</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00271">CreateFloor()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00320">CreateRoof()</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00180">DoorBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00176">DoorMeshes</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00264">Init()</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00123">NumFloors</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00228">TopBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00224">TopMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00208">WallBPs</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00204">WallMeshes</a>.</p>
 <div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
@@ -687,11 +691,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00256">256</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00271">271</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00428">CalculateDoorsIndexInSide()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00454">CalculateSideVisibilities()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00342">CreateSide()</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00297">CurrentTransform</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00444">GenerateWallsIndexPositions()</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00294">SidesLength</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00133">UseFullBlocks</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00113">UseWallMesh</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00443">CalculateDoorsIndexInSide()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00469">CalculateSideVisibilities()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00357">CreateSide()</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00303">CurrentTransform</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00459">GenerateWallsIndexPositions()</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00300">SidesLength</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00139">UseFullBlocks</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00119">UseWallMesh</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>.</p>
 <div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-12-summary" class="dynsummary" style="display:block;">
@@ -734,11 +738,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00305">305</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00320">320</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00482">AddChunck()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00460">ChooseGeometryToSpawn()</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00297">CurrentTransform</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00299">LastSelectedMeshBounds</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00121">LengthX</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00125">LengthY</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00238">RoofBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00234">RoofMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00149">RoofVisibility</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00586">UpdateTransformPositionToNextSide()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00497">AddChunck()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00475">ChooseGeometryToSpawn()</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00303">CurrentTransform</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00305">LastSelectedMeshBounds</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00127">LengthX</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00131">LengthY</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00244">RoofBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00240">RoofMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00155">RoofVisibility</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00601">UpdateTransformPositionToNextSide()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>.</p>
 <div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-14-summary" class="dynsummary" style="display:block;">
@@ -812,11 +816,11 @@ Private Attributes</h2></td></tr>
 <p>Main part</p>
 <p>Corner part</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00342">342</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00357">357</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00482">AddChunck()</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00022">FloorMeshCollection::AuxiliarBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00021">FloorMeshCollection::AuxiliarMeshes</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00460">ChooseGeometryToSpawn()</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00020">FloorMeshCollection::CornerBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00019">FloorMeshCollection::CornerMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00129">Corners</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00299">LastSelectedMeshBounds</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00018">FloorMeshCollection::MainBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00017">FloorMeshCollection::MainMeshes</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00586">UpdateTransformPositionToNextSide()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00497">AddChunck()</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00022">FloorMeshCollection::AuxiliarBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00021">FloorMeshCollection::AuxiliarMeshes</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00475">ChooseGeometryToSpawn()</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00020">FloorMeshCollection::CornerBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00019">FloorMeshCollection::CornerMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00135">Corners</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00305">LastSelectedMeshBounds</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00018">FloorMeshCollection::MainBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00017">FloorMeshCollection::MainMeshes</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00601">UpdateTransformPositionToNextSide()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00256">CreateFloor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00271">CreateFloor()</a>.</p>
 <div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-16-summary" class="dynsummary" style="display:block;">
@@ -860,9 +864,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00444">444</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00459">459</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00256">CreateFloor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00271">CreateFloor()</a>.</p>
 <div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-18-summary" class="dynsummary" style="display:block;">
@@ -890,11 +894,11 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00021">21</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00022">22</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00097">HISMComps</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00100">HISMComps</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00559">AddMeshToBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00048">ConvertOldBP_ToNativeCodeObject()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00574">AddMeshToBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00049">ConvertOldBP_ToNativeCodeObject()</a>.</p>
 <div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-19-summary" class="dynsummary" style="display:block;">
@@ -930,9 +934,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00566">566</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00581">581</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00482">AddChunck()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00497">AddChunck()</a>.</p>
 <div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-20-summary" class="dynsummary" style="display:block;">
@@ -941,6 +945,27 @@ Private Attributes</h2></td></tr>
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d3c/classAProceduralBuilding_ae68359b5bb6e1f605faf926660786e4c_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
+
+</div>
+</div>
+<a id="ac246bfe1ab30252bd489ceac7e20bde7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac246bfe1ab30252bd489ceac7e20bde7">&#9670;&nbsp;</a></span>HideAllChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AProceduralBuilding::HideAllChildren </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00113">113</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00104">ChildActorComps</a>.</p>
 
 </div>
 </div>
@@ -967,11 +992,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00249">249</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00264">264</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00408">CalculateSidesLength()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00217">Reset()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00423">CalculateSidesLength()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00232">Reset()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>.</p>
 <div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-21-summary" class="dynsummary" style="display:block;">
@@ -1014,11 +1039,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00217">217</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00232">232</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00101">ChildActorComps</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00297">CurrentTransform</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00097">HISMComps</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00294">SidesLength</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00104">ChildActorComps</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00303">CurrentTransform</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00100">HISMComps</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00300">SidesLength</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00249">Init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00264">Init()</a>.</p>
 <div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-23-summary" class="dynsummary" style="display:block;">
@@ -1080,9 +1105,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00140">140</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00155">155</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00166">BaseBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00162">BaseMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00182">CornerBaseBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00178">CornerBaseMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00174">DoorBPs</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00170">DoorMeshes</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00172">BaseBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00168">BaseMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00188">CornerBaseBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00184">CornerBaseMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00180">DoorBPs</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00176">DoorMeshes</a>.</p>
 
 </div>
 </div>
@@ -1142,9 +1167,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00112">112</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00127">127</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00129">Corners</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00109">DoorsIndexPosition</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00121">LengthX</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00125">LengthY</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00117">NumFloors</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00133">UseFullBlocks</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00113">UseWallMesh</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00135">Corners</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00115">DoorsIndexPosition</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00127">LengthX</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00131">LengthY</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00123">NumFloors</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00139">UseFullBlocks</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00119">UseWallMesh</a>.</p>
 
 </div>
 </div>
@@ -1198,9 +1223,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00156">156</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00171">171</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00194">BodyBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00190">BodyMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00210">CornerBodyBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00206">CornerBodyMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00202">WallBPs</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00198">WallMeshes</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00200">BodyBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00196">BodyMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00216">CornerBodyBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00212">CornerBodyMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00208">WallBPs</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00204">WallMeshes</a>.</p>
 
 </div>
 </div>
@@ -1254,9 +1279,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00172">172</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00187">187</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00230">CornerTopBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00226">CornerTopMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00238">RoofBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00234">RoofMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00222">TopBPs</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00218">TopMeshes</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00236">CornerTopBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00232">CornerTopMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00244">RoofBPs</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00240">RoofMeshes</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00228">TopBPs</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00224">TopMeshes</a>.</p>
 
 </div>
 </div>
@@ -1292,9 +1317,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00130">130</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00145">145</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00145">CornerVisibility</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00149">RoofVisibility</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00141">SideVisibility</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00151">CornerVisibility</a>, <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00155">RoofVisibility</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00147">SideVisibility</a>.</p>
 
 </div>
 </div>
@@ -1322,11 +1347,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00572">572</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00587">587</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00297">CurrentTransform</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00133">UseFullBlocks</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00303">CurrentTransform</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00139">UseFullBlocks</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00482">AddChunck()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00497">AddChunck()</a>.</p>
 <div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-24-summary" class="dynsummary" style="display:block;">
@@ -1362,11 +1387,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00586">586</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00601">601</a> of file <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html">ProceduralBuilding.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00297">CurrentTransform</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00133">UseFullBlocks</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00303">CurrentTransform</a>, and <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00139">UseFullBlocks</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00305">CreateRoof()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00342">CreateSide()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00320">CreateRoof()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00357">CreateSide()</a>.</p>
 <div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-25-summary" class="dynsummary" style="display:block;">
@@ -1399,9 +1424,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00166">166</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00172">172</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00140">SetBaseMeshes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00155">SetBaseMeshes()</a>.</p>
 
 </div>
 </div>
@@ -1428,9 +1453,9 @@ Private Attributes</h2></td></tr>
 <p>Meshes. </p>
 <p>Meshes | Base </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00162">162</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00168">168</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00140">SetBaseMeshes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00155">SetBaseMeshes()</a>.</p>
 
 </div>
 </div>
@@ -1454,9 +1479,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00194">194</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00200">200</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00156">SetBodyMeshes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00171">SetBodyMeshes()</a>.</p>
 
 </div>
 </div>
@@ -1482,9 +1507,9 @@ Private Attributes</h2></td></tr>
 
 <p>Meshes | Body. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00190">190</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00196">196</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00156">SetBodyMeshes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00171">SetBodyMeshes()</a>.</p>
 
 </div>
 </div>
@@ -1508,9 +1533,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00101">101</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00104">104</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00482">AddChunck()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00048">ConvertOldBP_ToNativeCodeObject()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00217">Reset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00497">AddChunck()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00049">ConvertOldBP_ToNativeCodeObject()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00113">HideAllChildren()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00232">Reset()</a>.</p>
 
 </div>
 </div>
@@ -1534,9 +1559,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00182">182</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00188">188</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00140">SetBaseMeshes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00155">SetBaseMeshes()</a>.</p>
 
 </div>
 </div>
@@ -1560,9 +1585,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00178">178</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00184">184</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00140">SetBaseMeshes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00155">SetBaseMeshes()</a>.</p>
 
 </div>
 </div>
@@ -1586,9 +1611,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00210">210</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00216">216</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00156">SetBodyMeshes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00171">SetBodyMeshes()</a>.</p>
 
 </div>
 </div>
@@ -1612,9 +1637,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00206">206</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00212">212</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00156">SetBodyMeshes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00171">SetBodyMeshes()</a>.</p>
 
 </div>
 </div>
@@ -1638,9 +1663,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00129">129</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00135">135</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00342">CreateSide()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00112">SetBaseParameters()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00357">CreateSide()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00127">SetBaseParameters()</a>.</p>
 
 </div>
 </div>
@@ -1664,9 +1689,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00230">230</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00236">236</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00172">SetTopMeshes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00187">SetTopMeshes()</a>.</p>
 
 </div>
 </div>
@@ -1690,9 +1715,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00226">226</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00232">232</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00172">SetTopMeshes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00187">SetTopMeshes()</a>.</p>
 
 </div>
 </div>
@@ -1716,9 +1741,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00145">145</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00151">151</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00008">AProceduralBuilding()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00454">CalculateSideVisibilities()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00130">SetVisibilityParameters()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00008">AProceduralBuilding()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00469">CalculateSideVisibilities()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00145">SetVisibilityParameters()</a>.</p>
 
 </div>
 </div>
@@ -1742,9 +1767,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00297">297</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00303">303</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00482">AddChunck()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00559">AddMeshToBuilding()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00256">CreateFloor()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00305">CreateRoof()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00217">Reset()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00572">UpdateTransformPositionToNextChunk()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00586">UpdateTransformPositionToNextSide()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00497">AddChunck()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00574">AddMeshToBuilding()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00271">CreateFloor()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00320">CreateRoof()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00232">Reset()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00587">UpdateTransformPositionToNextChunk()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00601">UpdateTransformPositionToNextSide()</a>.</p>
 
 </div>
 </div>
@@ -1768,9 +1793,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00174">174</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00180">180</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00140">SetBaseMeshes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00155">SetBaseMeshes()</a>.</p>
 
 </div>
 </div>
@@ -1794,9 +1819,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00170">170</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00176">176</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00140">SetBaseMeshes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00155">SetBaseMeshes()</a>.</p>
 
 </div>
 </div>
@@ -1822,9 +1847,9 @@ Private Attributes</h2></td></tr>
 
 <p>Base Parameters. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00109">109</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00115">115</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00428">CalculateDoorsIndexInSide()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00112">SetBaseParameters()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00443">CalculateDoorsIndexInSide()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00127">SetBaseParameters()</a>.</p>
 
 </div>
 </div>
@@ -1848,9 +1873,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00097">97</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00100">100</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00021">GetHISMComp()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00217">Reset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00022">GetHISMComp()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00232">Reset()</a>.</p>
 
 </div>
 </div>
@@ -1874,9 +1899,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00299">299</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00305">305</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00305">CreateRoof()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00342">CreateSide()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00320">CreateRoof()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00357">CreateSide()</a>.</p>
 
 </div>
 </div>
@@ -1900,9 +1925,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00121">121</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00127">127</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00408">CalculateSidesLength()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00305">CreateRoof()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00112">SetBaseParameters()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00423">CalculateSidesLength()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00320">CreateRoof()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00127">SetBaseParameters()</a>.</p>
 
 </div>
 </div>
@@ -1926,9 +1951,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00125">125</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00131">131</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00408">CalculateSidesLength()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00305">CreateRoof()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00112">SetBaseParameters()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00423">CalculateSidesLength()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00320">CreateRoof()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00127">SetBaseParameters()</a>.</p>
 
 </div>
 </div>
@@ -1952,9 +1977,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00117">117</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00123">123</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00112">SetBaseParameters()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00127">SetBaseParameters()</a>.</p>
 
 </div>
 </div>
@@ -1978,9 +2003,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00238">238</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00244">244</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00305">CreateRoof()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00172">SetTopMeshes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00320">CreateRoof()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00187">SetTopMeshes()</a>.</p>
 
 </div>
 </div>
@@ -2004,9 +2029,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00234">234</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00240">240</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00305">CreateRoof()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00172">SetTopMeshes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00320">CreateRoof()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00187">SetTopMeshes()</a>.</p>
 
 </div>
 </div>
@@ -2030,9 +2055,35 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00149">149</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00155">155</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00305">CreateRoof()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00130">SetVisibilityParameters()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00320">CreateRoof()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00145">SetVisibilityParameters()</a>.</p>
+
+</div>
+</div>
+<a id="a39294f2dc17ee7e35aa1f1d366f76980"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39294f2dc17ee7e35aa1f1d366f76980">&#9670;&nbsp;</a></span>RootSMComp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UStaticMeshComponent* AProceduralBuilding::RootSMComp = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00107">107</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00008">AProceduralBuilding()</a>.</p>
 
 </div>
 </div>
@@ -2056,9 +2107,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00294">294</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00300">300</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00408">CalculateSidesLength()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00256">CreateFloor()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00217">Reset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00423">CalculateSidesLength()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00271">CreateFloor()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00232">Reset()</a>.</p>
 
 </div>
 </div>
@@ -2084,9 +2135,9 @@ Private Attributes</h2></td></tr>
 
 <p>Base Parameters | Visibility. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00141">141</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00147">147</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00008">AProceduralBuilding()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00454">CalculateSideVisibilities()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00130">SetVisibilityParameters()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00008">AProceduralBuilding()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00469">CalculateSideVisibilities()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00145">SetVisibilityParameters()</a>.</p>
 
 </div>
 </div>
@@ -2110,9 +2161,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00222">222</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00228">228</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00172">SetTopMeshes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00187">SetTopMeshes()</a>.</p>
 
 </div>
 </div>
@@ -2138,9 +2189,9 @@ Private Attributes</h2></td></tr>
 
 <p>Meshes | Top. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00218">218</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00224">224</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00172">SetTopMeshes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00187">SetTopMeshes()</a>.</p>
 
 </div>
 </div>
@@ -2164,9 +2215,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00133">133</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00139">139</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00408">CalculateSidesLength()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00454">CalculateSideVisibilities()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00256">CreateFloor()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00112">SetBaseParameters()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00572">UpdateTransformPositionToNextChunk()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00586">UpdateTransformPositionToNextSide()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00423">CalculateSidesLength()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00469">CalculateSideVisibilities()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00271">CreateFloor()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00127">SetBaseParameters()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00587">UpdateTransformPositionToNextChunk()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00601">UpdateTransformPositionToNextSide()</a>.</p>
 
 </div>
 </div>
@@ -2190,9 +2241,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00113">113</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00119">119</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00008">AProceduralBuilding()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00256">CreateFloor()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00112">SetBaseParameters()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00008">AProceduralBuilding()</a>, <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00271">CreateFloor()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00127">SetBaseParameters()</a>.</p>
 
 </div>
 </div>
@@ -2216,9 +2267,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00202">202</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00208">208</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00156">SetBodyMeshes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00171">SetBodyMeshes()</a>.</p>
 
 </div>
 </div>
@@ -2242,9 +2293,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00198">198</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html#l00204">204</a> of file <a class="el" href="../../d4/d46/ProceduralBuilding_8h_source.html">ProceduralBuilding.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00188">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00156">SetBodyMeshes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00203">CreateBuilding()</a>, and <a class="el" href="../../d3/de7/ProceduralBuilding_8cpp_source.html#l00171">SetBodyMeshes()</a>.</p>
 
 </div>
 </div>

@@ -95,34 +95,156 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aa0589e8ce04ab2eb63fd4920bd55815a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#aa0589e8ce04ab2eb63fd4920bd55815a">GetActorBoundingBox</a> (const <a class="el" href="../../d1/da4/classAActor.html">AActor</a> *Actor, uint8 InTagQueried=0)</td></tr>
-<tr class="memdesc:aa0589e8ce04ab2eb63fd4920bd55815a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the bounding box of the given Carla actor.  <a href="#aa0589e8ce04ab2eb63fd4920bd55815a">More...</a><br /></td></tr>
-<tr class="separator:aa0589e8ce04ab2eb63fd4920bd55815a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e2bdfafbc8469b6c334d70675d56399"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#a9e2bdfafbc8469b6c334d70675d56399">GetBBsOfSkeletalMeshComponents</a> (const TArray&lt; USkeletalMeshComponent *&gt; &amp;SkeletalMeshComps, TArray&lt; <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &gt; &amp;OutBB, uint8 InTagQueried=0)</td></tr>
-<tr class="separator:a9e2bdfafbc8469b6c334d70675d56399"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0d980d32ea1c80b0c0a8fe9f8f7a5d9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#ab0d980d32ea1c80b0c0a8fe9f8f7a5d9">GetBBsOfStaticMeshComponents</a> (const TArray&lt; UStaticMeshComponent *&gt; &amp;StaticMeshComps, TArray&lt; <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &gt; &amp;OutBB, uint8 InTagQueried=0)</td></tr>
-<tr class="separator:ab0d980d32ea1c80b0c0a8fe9f8f7a5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73c755a5dc47a06bde88d8457f89bab6"><td class="memItemLeft" align="right" valign="top">static TArray&lt; <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#a73c755a5dc47a06bde88d8457f89bab6">GetBoundingBoxOfActors</a> (const TArray&lt; <a class="el" href="../../d1/da4/classAActor.html">AActor</a> *&gt; &amp;Actors, uint8 InTagQueried=0)</td></tr>
-<tr class="separator:a73c755a5dc47a06bde88d8457f89bab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89592d3085253fc524266f5adbef6302"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#a89592d3085253fc524266f5adbef6302">GetCharacterBoundingBox</a> (const ACharacter *Character, uint8 InTagQueried=0)</td></tr>
-<tr class="separator:a89592d3085253fc524266f5adbef6302"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacf104b9546e4803d7c98e3111ef56a6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#aacf104b9546e4803d7c98e3111ef56a6">GetISMBoundingBox</a> (UInstancedStaticMeshComponent *HISMComp, TArray&lt; <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &gt; &amp;OutBoundingBox)</td></tr>
-<tr class="separator:aacf104b9546e4803d7c98e3111ef56a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc638d4ad146b80666f002e31fb67dca"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#adc638d4ad146b80666f002e31fb67dca">CombineBBs</a> (const TArray&lt; <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &gt; &amp;BBsToCombine)</td></tr>
+<tr class="separator:adc638d4ad146b80666f002e31fb67dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2813a65238c05c9f421c93839766edb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#af2813a65238c05c9f421c93839766edb">CombineBBsOfActor</a> (const <a class="el" href="../../d1/da4/classAActor.html">AActor</a> *Actor, TArray&lt; <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &gt; &amp;OutBB, TArray&lt; uint8 &gt; &amp;OutTag, const float DistanceThreshold=0.0f, uint8 TagToCombine=0xFF)</td></tr>
+<tr class="separator:af2813a65238c05c9f421c93839766edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7bad4e6896754f731f278a20ab7cbff"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#af7bad4e6896754f731f278a20ab7cbff">GetActorBoundingBox</a> (const <a class="el" href="../../d1/da4/classAActor.html">AActor</a> *Actor, uint8 InTagQueried=0xFF)</td></tr>
+<tr class="memdesc:af7bad4e6896754f731f278a20ab7cbff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the bounding box of the given Carla actor.  <a href="#af7bad4e6896754f731f278a20ab7cbff">More...</a><br /></td></tr>
+<tr class="separator:af7bad4e6896754f731f278a20ab7cbff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c923355cb61474395e94b63c753b81b"><td class="memItemLeft" align="right" valign="top">static TArray&lt; <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#a2c923355cb61474395e94b63c753b81b">GetBBsOfActor</a> (const <a class="el" href="../../d1/da4/classAActor.html">AActor</a> *Actor, uint8 InTagQueried=0xFF)</td></tr>
+<tr class="separator:a2c923355cb61474395e94b63c753b81b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a7470d43fd53f410205a9449353e6ac"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#a4a7470d43fd53f410205a9449353e6ac">GetBBsOfSkeletalMeshComponents</a> (const TArray&lt; USkeletalMeshComponent *&gt; &amp;SkeletalMeshComps, TArray&lt; <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &gt; &amp;OutBB, TArray&lt; uint8 &gt; &amp;OutTag, uint8 InTagQueried=0xFF)</td></tr>
+<tr class="separator:a4a7470d43fd53f410205a9449353e6ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13525adafcb4c26e073e8d163271199a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#a13525adafcb4c26e073e8d163271199a">GetBBsOfStaticMeshComponents</a> (const TArray&lt; UStaticMeshComponent *&gt; &amp;StaticMeshComps, TArray&lt; <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &gt; &amp;OutBB, TArray&lt; uint8 &gt; &amp;OutTag, uint8 InTagQueried=0xFF)</td></tr>
+<tr class="separator:a13525adafcb4c26e073e8d163271199a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1205d3e3c99c4452bccf9f9a3306d22"><td class="memItemLeft" align="right" valign="top">static TArray&lt; <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#ad1205d3e3c99c4452bccf9f9a3306d22">GetBoundingBoxOfActors</a> (const TArray&lt; <a class="el" href="../../d1/da4/classAActor.html">AActor</a> *&gt; &amp;Actors, uint8 InTagQueried=0xFF)</td></tr>
+<tr class="separator:ad1205d3e3c99c4452bccf9f9a3306d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f9f361b86200319b604a459008c48c0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#a6f9f361b86200319b604a459008c48c0">GetCharacterBoundingBox</a> (const <a class="el" href="../../df/d70/classACharacter.html">ACharacter</a> *<a class="el" href="../../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h.html#a81be2176b5cc416c3b47dda8af29a6a8a0b8efba6b691115f12604f2afe5cdcb5">Character</a>, uint8 InTagQueried=0xFF)</td></tr>
+<tr class="separator:a6f9f361b86200319b604a459008c48c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5f1454b3356ef909e81b68ed5bdb2d5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#aa5f1454b3356ef909e81b68ed5bdb2d5">GetISMBoundingBox</a> (UInstancedStaticMeshComponent *<a class="el" href="../../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h.html#a81be2176b5cc416c3b47dda8af29a6a8af4b73bf7024a93e8547bcf0f0bf11f0d">ISMComp</a>, TArray&lt; <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &gt; &amp;OutBoundingBox)</td></tr>
+<tr class="separator:aa5f1454b3356ef909e81b68ed5bdb2d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bf9dd2102c71e537d8bbe53f02900ef"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#a1bf9dd2102c71e537d8bbe53f02900ef">GetMeshCompsFromActorBoundingBox</a> (const <a class="el" href="../../d1/da4/classAActor.html">AActor</a> *Actor, const <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &amp;InBB, TArray&lt; UStaticMeshComponent *&gt; &amp;OutStaticMeshComps)</td></tr>
+<tr class="separator:a1bf9dd2102c71e537d8bbe53f02900ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9bad7655f552b0f47ee7a59237fcf8a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#ac9bad7655f552b0f47ee7a59237fcf8a">GetSkeletalMeshBoundingBox</a> (const USkeletalMesh *SkeletalMesh)</td></tr>
 <tr class="separator:ac9bad7655f552b0f47ee7a59237fcf8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acee57735172616e5908916e178b16b7f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#acee57735172616e5908916e178b16b7f">GetStaticMeshBoundingBox</a> (const UStaticMesh *StaticMesh)</td></tr>
 <tr class="separator:acee57735172616e5908916e178b16b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b819059fee394d56b898bbc5c726d8b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#a9b819059fee394d56b898bbc5c726d8b">GetTrafficLightBoundingBox</a> (const <a class="el" href="../../d2/d23/classATrafficLightBase.html">ATrafficLightBase</a> *TrafficLight, TArray&lt; <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &gt; &amp;OutBB, uint8 InTagQueried=0)</td></tr>
-<tr class="separator:a9b819059fee394d56b898bbc5c726d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa91ca5e48e58b24987e0009f7eb81e87"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#aa91ca5e48e58b24987e0009f7eb81e87">GetVehicleBoundingBox</a> (const <a class="el" href="../../d5/d70/classACarlaWheeledVehicle.html">ACarlaWheeledVehicle</a> *<a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>, uint8 InTagQueried=0)</td></tr>
-<tr class="separator:aa91ca5e48e58b24987e0009f7eb81e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad731c0c97029d59cb5b763077a7c18ec"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#ad731c0c97029d59cb5b763077a7c18ec">GetTrafficLightBoundingBox</a> (const <a class="el" href="../../d2/d23/classATrafficLightBase.html">ATrafficLightBase</a> *<a class="el" href="../../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h.html#a81be2176b5cc416c3b47dda8af29a6a8aa29e490ccf9e75adc2998e81761ba7a7">TrafficLight</a>, TArray&lt; <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &gt; &amp;OutBB, TArray&lt; uint8 &gt; &amp;OutTag, uint8 InTagQueried=0xFF)</td></tr>
+<tr class="separator:ad731c0c97029d59cb5b763077a7c18ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1eef05f52ea2eea5fb35d30e4034b61"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d02/classUBoundingBoxCalculator.html#af1eef05f52ea2eea5fb35d30e4034b61">GetVehicleBoundingBox</a> (const <a class="el" href="../../d5/d70/classACarlaWheeledVehicle.html">ACarlaWheeledVehicle</a> *<a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>, uint8 InTagQueried=0xFF)</td></tr>
+<tr class="separator:af1eef05f52ea2eea5fb35d30e4034b61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="../../d8/dca/BoundingBoxCalculator_8h_source.html#l00018">18</a> of file <a class="el" href="../../d8/dca/BoundingBoxCalculator_8h_source.html">BoundingBoxCalculator.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa0589e8ce04ab2eb63fd4920bd55815a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0589e8ce04ab2eb63fd4920bd55815a">&#9670;&nbsp;</a></span>GetActorBoundingBox()</h2>
+<a id="adc638d4ad146b80666f002e31fb67dca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc638d4ad146b80666f002e31fb67dca">&#9670;&nbsp;</a></span>CombineBBs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> UBoundingBoxCalculator::CombineBBs </td>
+          <td>(</td>
+          <td class="paramtype">const TArray&lt; <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>BBsToCombine</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00570">570</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00502">CombineBBsOfActor()</a>, and <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00038">GetActorBoundingBox()</a>.</p>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_adc638d4ad146b80666f002e31fb67dca_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="af2813a65238c05c9f421c93839766edb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2813a65238c05c9f421c93839766edb">&#9670;&nbsp;</a></span>CombineBBsOfActor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UBoundingBoxCalculator::CombineBBsOfActor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/da4/classAActor.html">AActor</a> *&#160;</td>
+          <td class="paramname"><em>Actor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TArray&lt; <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>OutBB</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TArray&lt; uint8 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>OutTag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>DistanceThreshold</em> = <code>0.0f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8&#160;</td>
+          <td class="paramname"><em>TagToCombine</em> = <code>0xFF</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00502">502</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00570">CombineBBs()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00342">GetBBsOfStaticMeshComponents()</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00018">FBoundingBox::Origin</a>, and <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00026">FBoundingBox::Rotation</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00214">GetTrafficLightBoundingBox()</a>.</p>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_af2813a65238c05c9f421c93839766edb_cgraph.svg" width="100%" height="427"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_af2813a65238c05c9f421c93839766edb_icgraph.svg" width="100%" height="591"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="af7bad4e6896754f731f278a20ab7cbff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7bad4e6896754f731f278a20ab7cbff">&#9670;&nbsp;</a></span>GetActorBoundingBox()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140,7 +262,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8&#160;</td>
-          <td class="paramname"><em>InTagQueried</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>InTagQueried</em> = <code>0xFF</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -160,24 +282,90 @@ Static Public Member Functions</h2></td></tr>
 <dd>
 Traffic signs return its trigger box instead. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00072">72</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00038">38</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a9a2da47823f71d0d70d5c78a53a71f7c">TriggerVolume</a>, and <a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h_source.html#l00020">Character</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00570">CombineBBs()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00426">GetBBsOfActor()</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00018">FBoundingBox::Origin</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00026">FBoundingBox::Rotation</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a9a2da47823f71d0d70d5c78a53a71f7c">TriggerVolume</a>, and <a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/df3/ActorRegistry_8cpp_source.html#l00118">FActorRegistry::MakeView()</a>.</p>
-<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_aa0589e8ce04ab2eb63fd4920bd55815a_icgraph.svg" width="100%" height="494"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_af7bad4e6896754f731f278a20ab7cbff_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_af7bad4e6896754f731f278a20ab7cbff_icgraph.svg" width="100%" height="495"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a9e2bdfafbc8469b6c334d70675d56399"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e2bdfafbc8469b6c334d70675d56399">&#9670;&nbsp;</a></span>GetBBsOfSkeletalMeshComponents()</h2>
+<a id="a2c923355cb61474395e94b63c753b81b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c923355cb61474395e94b63c753b81b">&#9670;&nbsp;</a></span>GetBBsOfActor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TArray&lt; <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &gt; UBoundingBoxCalculator::GetBBsOfActor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/da4/classAActor.html">AActor</a> *&#160;</td>
+          <td class="paramname"><em>Actor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8&#160;</td>
+          <td class="paramname"><em>InTagQueried</em> = <code>0xFF</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00426">426</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0aed36a1ef76a59ee3f15180e0441188ad">carla::rpc::Any</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ab96da744287618055e5d086d53f42660">BoundingBox</a>, <a class="el" href="../../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h_source.html#l00020">Character</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00022">FBoundingBox::Extent</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00379">GetBBsOfSkeletalMeshComponents()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00342">GetBBsOfStaticMeshComponents()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00183">GetCharacterBoundingBox()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00309">GetISMBoundingBox()</a>, <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00050">ATagger::GetTagOfTaggedComponent()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00214">GetTrafficLightBoundingBox()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00095">GetVehicleBoundingBox()</a>, <a class="el" href="../../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h_source.html#l00021">TrafficLight</a>, and <a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00038">GetActorBoundingBox()</a>, and <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00412">GetBoundingBoxOfActors()</a>.</p>
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_a2c923355cb61474395e94b63c753b81b_cgraph.svg" width="100%" height="599"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_a2c923355cb61474395e94b63c753b81b_icgraph.svg" width="100%" height="468"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a4a7470d43fd53f410205a9449353e6ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a7470d43fd53f410205a9449353e6ac">&#9670;&nbsp;</a></span>GetBBsOfSkeletalMeshComponents()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -200,8 +388,14 @@ Traffic signs return its trigger box instead. </dd></dl>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">TArray&lt; uint8 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>OutTag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">uint8&#160;</td>
-          <td class="paramname"><em>InTagQueried</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>InTagQueried</em> = <code>0xFF</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -216,32 +410,32 @@ Traffic signs return its trigger box instead. </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00376">376</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00379">379</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00021">ApplyTransformToBB()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ab96da744287618055e5d086d53f42660">BoundingBox</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00022">FBoundingBox::Extent</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00249">GetSkeletalMeshBoundingBox()</a>, <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00050">ATagger::GetTagOfTaggedComponent()</a>, and <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a6adf97f83acf6453d4a6a4b1070f3754">carla::rpc::None</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0aed36a1ef76a59ee3f15180e0441188ad">carla::rpc::Any</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00021">ApplyTransformToBB()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ab96da744287618055e5d086d53f42660">BoundingBox</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00022">FBoundingBox::Extent</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00250">GetSkeletalMeshBoundingBox()</a>, and <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00050">ATagger::GetTagOfTaggedComponent()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00407">GetBoundingBoxOfActors()</a>.</p>
-<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00426">GetBBsOfActor()</a>, and <a class="el" href="../../d7/d86/ObjectRegister_8cpp_source.html#l00310">UObjectRegister::RegisterSKMComponents()</a>.</p>
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_a9e2bdfafbc8469b6c334d70675d56399_cgraph.svg" width="584" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_a4a7470d43fd53f410205a9449353e6ac_cgraph.svg" width="584" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_a9e2bdfafbc8469b6c334d70675d56399_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_a4a7470d43fd53f410205a9449353e6ac_icgraph.svg" width="100%" height="591"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
 </div>
 </div>
-<a id="ab0d980d32ea1c80b0c0a8fe9f8f7a5d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0d980d32ea1c80b0c0a8fe9f8f7a5d9">&#9670;&nbsp;</a></span>GetBBsOfStaticMeshComponents()</h2>
+<a id="a13525adafcb4c26e073e8d163271199a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13525adafcb4c26e073e8d163271199a">&#9670;&nbsp;</a></span>GetBBsOfStaticMeshComponents()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -264,8 +458,14 @@ Traffic signs return its trigger box instead. </dd></dl>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">TArray&lt; uint8 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>OutTag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">uint8&#160;</td>
-          <td class="paramname"><em>InTagQueried</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>InTagQueried</em> = <code>0xFF</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -280,32 +480,32 @@ Traffic signs return its trigger box instead. </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00341">341</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00342">342</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00021">ApplyTransformToBB()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ab96da744287618055e5d086d53f42660">BoundingBox</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00022">FBoundingBox::Extent</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00295">GetStaticMeshBoundingBox()</a>, <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00050">ATagger::GetTagOfTaggedComponent()</a>, and <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a6adf97f83acf6453d4a6a4b1070f3754">carla::rpc::None</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0aed36a1ef76a59ee3f15180e0441188ad">carla::rpc::Any</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00021">ApplyTransformToBB()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ab96da744287618055e5d086d53f42660">BoundingBox</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00022">FBoundingBox::Extent</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00296">GetStaticMeshBoundingBox()</a>, and <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00050">ATagger::GetTagOfTaggedComponent()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00407">GetBoundingBoxOfActors()</a>, and <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00184">GetTrafficLightBoundingBox()</a>.</p>
-<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00502">CombineBBsOfActor()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00426">GetBBsOfActor()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00604">GetMeshCompsFromActorBoundingBox()</a>, and <a class="el" href="../../d7/d86/ObjectRegister_8cpp_source.html#l00277">UObjectRegister::RegisterSMComponents()</a>.</p>
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_ab0d980d32ea1c80b0c0a8fe9f8f7a5d9_cgraph.svg" width="568" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_a13525adafcb4c26e073e8d163271199a_cgraph.svg" width="568" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_ab0d980d32ea1c80b0c0a8fe9f8f7a5d9_icgraph.svg" width="100%" height="361"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_a13525adafcb4c26e073e8d163271199a_icgraph.svg" width="100%" height="589"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a73c755a5dc47a06bde88d8457f89bab6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73c755a5dc47a06bde88d8457f89bab6">&#9670;&nbsp;</a></span>GetBoundingBoxOfActors()</h2>
+<a id="ad1205d3e3c99c4452bccf9f9a3306d22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1205d3e3c99c4452bccf9f9a3306d22">&#9670;&nbsp;</a></span>GetBoundingBoxOfActors()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -323,7 +523,7 @@ Traffic signs return its trigger box instead. </dd></dl>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8&#160;</td>
-          <td class="paramname"><em>InTagQueried</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>InTagQueried</em> = <code>0xFF</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -338,32 +538,32 @@ Traffic signs return its trigger box instead. </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00407">407</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00412">412</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ab96da744287618055e5d086d53f42660">BoundingBox</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00022">FBoundingBox::Extent</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00376">GetBBsOfSkeletalMeshComponents()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00341">GetBBsOfStaticMeshComponents()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00153">GetCharacterBoundingBox()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00308">GetISMBoundingBox()</a>, <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00050">ATagger::GetTagOfTaggedComponent()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00184">GetTrafficLightBoundingBox()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00122">GetVehicleBoundingBox()</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a6adf97f83acf6453d4a6a4b1070f3754">carla::rpc::None</a>, and <a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00426">GetBBsOfActor()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00335">ACarlaGameModeBase::GetAllBBsOfLevel()</a>.</p>
-<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00358">ACarlaGameModeBase::GetAllBBsOfLevel()</a>.</p>
+<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_a73c755a5dc47a06bde88d8457f89bab6_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_ad1205d3e3c99c4452bccf9f9a3306d22_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_a73c755a5dc47a06bde88d8457f89bab6_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_ad1205d3e3c99c4452bccf9f9a3306d22_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a89592d3085253fc524266f5adbef6302"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89592d3085253fc524266f5adbef6302">&#9670;&nbsp;</a></span>GetCharacterBoundingBox()</h2>
+<a id="a6f9f361b86200319b604a459008c48c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f9f361b86200319b604a459008c48c0">&#9670;&nbsp;</a></span>GetCharacterBoundingBox()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -374,14 +574,14 @@ Traffic signs return its trigger box instead. </dd></dl>
         <tr>
           <td class="memname"><a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> UBoundingBoxCalculator::GetCharacterBoundingBox </td>
           <td>(</td>
-          <td class="paramtype">const ACharacter *&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../df/d70/classACharacter.html">ACharacter</a> *&#160;</td>
           <td class="paramname"><em>Character</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8&#160;</td>
-          <td class="paramname"><em>InTagQueried</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>InTagQueried</em> = <code>0xFF</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -396,32 +596,32 @@ Traffic signs return its trigger box instead. </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00153">153</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00183">183</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00021">ApplyTransformToBB()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ab96da744287618055e5d086d53f42660">BoundingBox</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00022">FBoundingBox::Extent</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a6adf97f83acf6453d4a6a4b1070f3754">carla::rpc::None</a>, and <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00018">FBoundingBox::Origin</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0aed36a1ef76a59ee3f15180e0441188ad">carla::rpc::Any</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00021">ApplyTransformToBB()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ab96da744287618055e5d086d53f42660">BoundingBox</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00022">FBoundingBox::Extent</a>, and <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00018">FBoundingBox::Origin</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00407">GetBoundingBoxOfActors()</a>.</p>
-<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00426">GetBBsOfActor()</a>, and <a class="el" href="../../d7/d86/ObjectRegister_8cpp_source.html#l00154">UObjectRegister::RegisterCharacter()</a>.</p>
+<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_a89592d3085253fc524266f5adbef6302_cgraph.svg" width="418" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_a6f9f361b86200319b604a459008c48c0_cgraph.svg" width="418" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_a89592d3085253fc524266f5adbef6302_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_a6f9f361b86200319b604a459008c48c0_icgraph.svg" width="100%" height="591"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
 </div>
 </div>
-<a id="aacf104b9546e4803d7c98e3111ef56a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacf104b9546e4803d7c98e3111ef56a6">&#9670;&nbsp;</a></span>GetISMBoundingBox()</h2>
+<a id="aa5f1454b3356ef909e81b68ed5bdb2d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5f1454b3356ef909e81b68ed5bdb2d5">&#9670;&nbsp;</a></span>GetISMBoundingBox()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -433,7 +633,7 @@ Traffic signs return its trigger box instead. </dd></dl>
           <td class="memname">void UBoundingBoxCalculator::GetISMBoundingBox </td>
           <td>(</td>
           <td class="paramtype">UInstancedStaticMeshComponent *&#160;</td>
-          <td class="paramname"><em>HISMComp</em>, </td>
+          <td class="paramname"><em>ISMComp</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -454,25 +654,89 @@ Traffic signs return its trigger box instead. </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00308">308</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00309">309</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00021">ApplyTransformToBB()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ab96da744287618055e5d086d53f42660">BoundingBox</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00022">FBoundingBox::Extent</a>, and <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00295">GetStaticMeshBoundingBox()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00021">ApplyTransformToBB()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ab96da744287618055e5d086d53f42660">BoundingBox</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00022">FBoundingBox::Extent</a>, and <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00296">GetStaticMeshBoundingBox()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00407">GetBoundingBoxOfActors()</a>.</p>
-<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00426">GetBBsOfActor()</a>, and <a class="el" href="../../d7/d86/ObjectRegister_8cpp_source.html#l00207">UObjectRegister::RegisterISMComponents()</a>.</p>
+<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_aacf104b9546e4803d7c98e3111ef56a6_cgraph.svg" width="454" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_aa5f1454b3356ef909e81b68ed5bdb2d5_cgraph.svg" width="454" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_aacf104b9546e4803d7c98e3111ef56a6_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_aa5f1454b3356ef909e81b68ed5bdb2d5_icgraph.svg" width="100%" height="591"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a1bf9dd2102c71e537d8bbe53f02900ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bf9dd2102c71e537d8bbe53f02900ef">&#9670;&nbsp;</a></span>GetMeshCompsFromActorBoundingBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UBoundingBoxCalculator::GetMeshCompsFromActorBoundingBox </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d1/da4/classAActor.html">AActor</a> *&#160;</td>
+          <td class="paramname"><em>Actor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &amp;&#160;</td>
+          <td class="paramname"><em>InBB</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TArray&lt; UStaticMeshComponent *&gt; &amp;&#160;</td>
+          <td class="paramname"><em>OutStaticMeshComps</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00604">604</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00342">GetBBsOfStaticMeshComponents()</a>, and <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00018">FBoundingBox::Origin</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d86/ObjectRegister_8cpp_source.html#l00161">UObjectRegister::RegisterTrafficLight()</a>.</p>
+<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_a1bf9dd2102c71e537d8bbe53f02900ef_cgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_a1bf9dd2102c71e537d8bbe53f02900ef_icgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -502,15 +766,15 @@ Traffic signs return its trigger box instead. </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00249">249</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00250">250</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00376">GetBBsOfSkeletalMeshComponents()</a>, and <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00122">GetVehicleBoundingBox()</a>.</p>
-<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00379">GetBBsOfSkeletalMeshComponents()</a>, and <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00095">GetVehicleBoundingBox()</a>.</p>
+<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_ac9bad7655f552b0f47ee7a59237fcf8a_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_ac9bad7655f552b0f47ee7a59237fcf8a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -540,22 +804,22 @@ Traffic signs return its trigger box instead. </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00295">295</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00296">296</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00341">GetBBsOfStaticMeshComponents()</a>, and <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00308">GetISMBoundingBox()</a>.</p>
-<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00342">GetBBsOfStaticMeshComponents()</a>, and <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00309">GetISMBoundingBox()</a>.</p>
+<div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_acee57735172616e5908916e178b16b7f_icgraph.svg" width="100%" height="403"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_acee57735172616e5908916e178b16b7f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a9b819059fee394d56b898bbc5c726d8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b819059fee394d56b898bbc5c726d8b">&#9670;&nbsp;</a></span>GetTrafficLightBoundingBox()</h2>
+<a id="ad731c0c97029d59cb5b763077a7c18ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad731c0c97029d59cb5b763077a7c18ec">&#9670;&nbsp;</a></span>GetTrafficLightBoundingBox()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -578,8 +842,14 @@ Traffic signs return its trigger box instead. </dd></dl>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">TArray&lt; uint8 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>OutTag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">uint8&#160;</td>
-          <td class="paramname"><em>InTagQueried</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>InTagQueried</em> = <code>0xFF</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -594,32 +864,32 @@ Traffic signs return its trigger box instead. </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00184">184</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00214">214</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00038">CombineBBs()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00341">GetBBsOfStaticMeshComponents()</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00018">FBoundingBox::Origin</a>, and <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00026">FBoundingBox::Rotation</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0aed36a1ef76a59ee3f15180e0441188ad">carla::rpc::Any</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00502">CombineBBsOfActor()</a>, and <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a63d457eeae119cb7c5618ff7b770a9c3">carla::rpc::TrafficLight</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00407">GetBoundingBoxOfActors()</a>.</p>
-<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00426">GetBBsOfActor()</a>, and <a class="el" href="../../d7/d86/ObjectRegister_8cpp_source.html#l00161">UObjectRegister::RegisterTrafficLight()</a>.</p>
+<div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_a9b819059fee394d56b898bbc5c726d8b_cgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_ad731c0c97029d59cb5b763077a7c18ec_cgraph.svg" width="100%" height="427"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_a9b819059fee394d56b898bbc5c726d8b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_ad731c0c97029d59cb5b763077a7c18ec_icgraph.svg" width="100%" height="591"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
 </div>
 </div>
-<a id="aa91ca5e48e58b24987e0009f7eb81e87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa91ca5e48e58b24987e0009f7eb81e87">&#9670;&nbsp;</a></span>GetVehicleBoundingBox()</h2>
+<a id="af1eef05f52ea2eea5fb35d30e4034b61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1eef05f52ea2eea5fb35d30e4034b61">&#9670;&nbsp;</a></span>GetVehicleBoundingBox()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -637,7 +907,7 @@ Traffic signs return its trigger box instead. </dd></dl>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8&#160;</td>
-          <td class="paramname"><em>InTagQueried</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>InTagQueried</em> = <code>0xFF</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -652,25 +922,25 @@ Traffic signs return its trigger box instead. </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00122">122</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00095">95</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00021">ApplyTransformToBB()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ab96da744287618055e5d086d53f42660">BoundingBox</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00022">FBoundingBox::Extent</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00249">GetSkeletalMeshBoundingBox()</a>, <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00050">ATagger::GetTagOfTaggedComponent()</a>, and <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a6adf97f83acf6453d4a6a4b1070f3754">carla::rpc::None</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0aed36a1ef76a59ee3f15180e0441188ad">carla::rpc::Any</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00021">ApplyTransformToBB()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ab96da744287618055e5d086d53f42660">BoundingBox</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00022">FBoundingBox::Extent</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00250">GetSkeletalMeshBoundingBox()</a>, <a class="el" href="../../d7/d06/Tagger_8h_source.html#l00050">ATagger::GetTagOfTaggedComponent()</a>, and <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00018">FBoundingBox::Origin</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00407">GetBoundingBoxOfActors()</a>.</p>
-<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00124">ACarlaWheeledVehicle::AdjustVehicleBounds()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00426">GetBBsOfActor()</a>, and <a class="el" href="../../d7/d86/ObjectRegister_8cpp_source.html#l00147">UObjectRegister::RegisterVehicle()</a>.</p>
+<div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_aa91ca5e48e58b24987e0009f7eb81e87_cgraph.svg" width="508" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_af1eef05f52ea2eea5fb35d30e4034b61_cgraph.svg" width="508" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_aa91ca5e48e58b24987e0009f7eb81e87_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d02/classUBoundingBoxCalculator_af1eef05f52ea2eea5fb35d30e4034b61_icgraph.svg" width="100%" height="591"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 

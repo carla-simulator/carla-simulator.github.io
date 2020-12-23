@@ -27,6 +27,8 @@ var searchData=
   ['parse_5fws_5fpcdata_5fsingle',['parse_ws_pcdata_single',['../d3/d68/namespacepugi.html#ae7c892ad8288b363daca0c3e1a8e38ee',1,'pugi']]],
   ['path',['Path',['../dc/d7f/structFMapData.html#acd2b1369b458d098d64be152d5721880',1,'FMapData::Path()'],['../d8/d91/namespaceCommonAttributes.html#a921b2766669dfc2464a3775813056bf3',1,'CommonAttributes::PATH()']]],
   ['ped_5fgrid_5fsize',['PED_GRID_SIZE',['../d7/d7d/namespacecarla_1_1traffic__manager_1_1constants_1_1Map.html#affe7630868f127ad85b8d893f131084f',1,'carla::traffic_manager::constants::Map']]],
+  ['pendinglevelstoload',['PendingLevelsToLoad',['../db/de5/classACarlaGameModeBase.html#a59c2e7c9005a53436fb5a82041aa07fd',1,'ACarlaGameModeBase']]],
+  ['pendinglevelstounload',['PendingLevelsToUnLoad',['../db/de5/classACarlaGameModeBase.html#aa2ddb2831d7a8ff2092f4420af51c203',1,'ACarlaGameModeBase']]],
   ['perc_5fignore_5fvehicles',['perc_ignore_vehicles',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#ad72020060c2f1b6aae2fe5d58460af28',1,'carla::traffic_manager::Parameters']]],
   ['perc_5fignore_5fwalkers',['perc_ignore_walkers',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a5447a3e59a2e40d1f8c4b04d379f4036',1,'carla::traffic_manager::Parameters']]],
   ['perc_5fkeep_5fright',['perc_keep_right',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a52f84caddb04868b17729cbd8c14bc53',1,'carla::traffic_manager::Parameters']]],

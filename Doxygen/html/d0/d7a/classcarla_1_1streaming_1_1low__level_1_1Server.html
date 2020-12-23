@@ -125,6 +125,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9e8ad660c2f22fcf79f329cba59b140b"><td class="memTemplParams" colspan="2">template&lt;typename... EPArgs&gt; </td></tr>
 <tr class="memitem:a9e8ad660c2f22fcf79f329cba59b140b"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d7a/classcarla_1_1streaming_1_1low__level_1_1Server.html#a9e8ad660c2f22fcf79f329cba59b140b">Server</a> (boost::asio::io_context &amp;io_context, EPArgs &amp;&amp;... args)</td></tr>
 <tr class="separator:a9e8ad660c2f22fcf79f329cba59b140b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23c407ee5443be43c0a882c6ab7037a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d7a/classcarla_1_1streaming_1_1low__level_1_1Server.html#a23c407ee5443be43c0a882c6ab7037a6">SetSynchronousMode</a> (bool is_synchro)</td></tr>
+<tr class="separator:a23c407ee5443be43c0a882c6ab7037a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34209d5101332e15ed8799f08e00ceab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d7a/classcarla_1_1streaming_1_1low__level_1_1Server.html#a34209d5101332e15ed8799f08e00ceab">SetTimeout</a> (<a class="el" href="../../d2/d2e/classcarla_1_1time__duration.html">time_duration</a> timeout)</td></tr>
 <tr class="separator:a34209d5101332e15ed8799f08e00ceab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -398,6 +400,46 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="a23c407ee5443be43c0a882c6ab7037a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23c407ee5443be43c0a882c6ab7037a6">&#9670;&nbsp;</a></span>SetSynchronousMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d0/d7a/classcarla_1_1streaming_1_1low__level_1_1Server.html">carla::streaming::low_level::Server</a>&lt; T &gt;::SetSynchronousMode </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>is_synchro</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00067">67</a> of file <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html">streaming/low_level/Server.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00063">carla::streaming::Server::SetSynchronousMode()</a>.</p>
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d7a/classcarla_1_1streaming_1_1low__level_1_1Server_a23c407ee5443be43c0a882c6ab7037a6_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
 <a id="a34209d5101332e15ed8799f08e00ceab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a34209d5101332e15ed8799f08e00ceab">&#9670;&nbsp;</a></span>SetTimeout()</h2>
 
@@ -427,11 +469,11 @@ template&lt;typename T&gt; </div>
 <p class="definition">Definition at line <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00059">59</a> of file <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html">streaming/low_level/Server.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00047">carla::streaming::Server::SetTimeout()</a>, and <a class="el" href="../../d3/d36/test__streaming_8cpp_source.html#l00045">TEST()</a>.</p>
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d7a/classcarla_1_1streaming_1_1low__level_1_1Server_a34209d5101332e15ed8799f08e00ceab_icgraph.svg" width="432" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -463,14 +505,14 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00069">69</a> of file <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html">streaming/low_level/Server.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00073">73</a> of file <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html">streaming/low_level/Server.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00033">carla::streaming::low_level::Server&lt; detail::tcp::Server &gt;::Server()</a>.</p>
-<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d7a/classcarla_1_1streaming_1_1low__level_1_1Server_a40392b3c5f815abf0336a06cf5ae34f2_icgraph.svg" width="416" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -500,9 +542,9 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00083">83</a> of file <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html">streaming/low_level/Server.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00087">87</a> of file <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html">streaming/low_level/Server.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00063">carla::streaming::low_level::Server&lt; detail::tcp::Server &gt;::MakeStream()</a>, and <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00069">carla::streaming::low_level::Server&lt; detail::tcp::Server &gt;::StartServer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00063">carla::streaming::low_level::Server&lt; detail::tcp::Server &gt;::MakeStream()</a>, and <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00073">carla::streaming::low_level::Server&lt; detail::tcp::Server &gt;::StartServer()</a>.</p>
 
 </div>
 </div>
@@ -528,9 +570,9 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00081">81</a> of file <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html">streaming/low_level/Server.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00085">85</a> of file <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html">streaming/low_level/Server.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00055">carla::streaming::low_level::Server&lt; detail::tcp::Server &gt;::GetLocalEndpoint()</a>, <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00059">carla::streaming::low_level::Server&lt; detail::tcp::Server &gt;::SetTimeout()</a>, and <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00069">carla::streaming::low_level::Server&lt; detail::tcp::Server &gt;::StartServer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00055">carla::streaming::low_level::Server&lt; detail::tcp::Server &gt;::GetLocalEndpoint()</a>, <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00067">carla::streaming::low_level::Server&lt; detail::tcp::Server &gt;::SetSynchronousMode()</a>, <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00059">carla::streaming::low_level::Server&lt; detail::tcp::Server &gt;::SetTimeout()</a>, and <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00073">carla::streaming::low_level::Server&lt; detail::tcp::Server &gt;::StartServer()</a>.</p>
 
 </div>
 </div>

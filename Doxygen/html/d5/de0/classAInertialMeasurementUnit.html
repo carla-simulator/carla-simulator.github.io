@@ -120,6 +120,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac732337441386c4ce4c49557091031ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa4d53e52012dd372dac80599e0532d0"><td class="memItemLeft" align="right" valign="top">const FVector &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de0/classAInertialMeasurementUnit.html#afa4d53e52012dd372dac80599e0532d0">GetGyroscopeStandardDeviation</a> () const</td></tr>
 <tr class="separator:afa4d53e52012dd372dac80599e0532d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa86507b1b877834ae72c1034486b7d90"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de0/classAInertialMeasurementUnit.html#aa86507b1b877834ae72c1034486b7d90">PostPhysTick</a> (UWorld *World, ELevelTick TickType, float DeltaTime) override</td></tr>
+<tr class="separator:aa86507b1b877834ae72c1034486b7d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0fd1f47876962647b54b8607a5c4414"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de0/classAInertialMeasurementUnit.html#ac0fd1f47876962647b54b8607a5c4414">Set</a> (const <a class="el" href="../../d0/df6/structFActorDescription.html">FActorDescription</a> &amp;ActorDescription) override</td></tr>
 <tr class="separator:ac0fd1f47876962647b54b8607a5c4414"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac93f533d604e59cd79d504b69e59c57d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de0/classAInertialMeasurementUnit.html#ac93f533d604e59cd79d504b69e59c57d">SetAccelerationStandardDeviation</a> (const FVector &amp;Vec)</td></tr>
@@ -130,8 +132,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad80f1281490d73ef7ca93e999b4f75f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a826ff56eb5f50e1a3e9bf01811291557"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de0/classAInertialMeasurementUnit.html#a826ff56eb5f50e1a3e9bf01811291557">SetOwner</a> (<a class="el" href="../../d1/da4/classAActor.html">AActor</a> *Owner) override</td></tr>
 <tr class="separator:a826ff56eb5f50e1a3e9bf01811291557"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab08433e85d05cb17b4a8aabc3d98a0a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de0/classAInertialMeasurementUnit.html#ab08433e85d05cb17b4a8aabc3d98a0a7">Tick</a> (float DeltaTime) override</td></tr>
-<tr class="separator:ab08433e85d05cb17b4a8aabc3d98a0a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classASensor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classASensor')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d3/d01/classASensor.html">ASensor</a></td></tr>
 <tr class="memitem:ae942ab9b7fc691c3c46c3deb87aeaad5 inherit pub_methods_classASensor"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#ae942ab9b7fc691c3c46c3deb87aeaad5">ASensor</a> (const FObjectInitializer &amp;ObjectInitializer)</td></tr>
 <tr class="separator:ae942ab9b7fc691c3c46c3deb87aeaad5 inherit pub_methods_classASensor"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -142,6 +142,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a66fce49debf0145d15f810fd78775e9d inherit pub_methods_classASensor"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a66fce49debf0145d15f810fd78775e9d">GetToken</a> () const</td></tr>
 <tr class="memdesc:a66fce49debf0145d15f810fd78775e9d inherit pub_methods_classASensor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the token that allows subscribing to this sensor's stream.  <a href="../../d3/d01/classASensor.html#a66fce49debf0145d15f810fd78775e9d">More...</a><br /></td></tr>
 <tr class="separator:a66fce49debf0145d15f810fd78775e9d inherit pub_methods_classASensor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd91096546acf20dfd503395d9a133a9 inherit pub_methods_classASensor"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#afd91096546acf20dfd503395d9a133a9">PrePhysTick</a> (float DeltaSeconds)</td></tr>
+<tr class="separator:afd91096546acf20dfd503395d9a133a9 inherit pub_methods_classASensor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ee2e98fd5918a9d2affde92ed19150d inherit pub_methods_classASensor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a6ee2e98fd5918a9d2affde92ed19150d">SetDataStream</a> (<a class="el" href="../../da/dd9/DataStream_8h.html#aa80bad1d32fa7a360e7e9664f07cb551">FDataStream</a> InStream)</td></tr>
 <tr class="memdesc:a6ee2e98fd5918a9d2affde92ed19150d inherit pub_methods_classASensor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace the FDataStream associated with this sensor.  <a href="../../d3/d01/classASensor.html#a6ee2e98fd5918a9d2affde92ed19150d">More...</a><br /></td></tr>
 <tr class="separator:a6ee2e98fd5918a9d2affde92ed19150d inherit pub_methods_classASensor"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,6 +151,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac6410f0656674d8c1d0a1d06dabde5ef inherit pub_methods_classASensor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afced2ac412dc1ef1a5c99e65e14f7340 inherit pub_methods_classASensor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#afced2ac412dc1ef1a5c99e65e14f7340">SetSeed</a> (int32 InSeed)</td></tr>
 <tr class="separator:afced2ac412dc1ef1a5c99e65e14f7340 inherit pub_methods_classASensor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a355a3cbfa4189981845020658c1435c9 inherit pub_methods_classASensor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a355a3cbfa4189981845020658c1435c9">Tick</a> (const float DeltaTime) final</td></tr>
+<tr class="separator:a355a3cbfa4189981845020658c1435c9 inherit pub_methods_classASensor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -227,7 +231,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00024">24</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00086">PrevDeltaTime</a>, <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00083">PrevLocation</a>, and <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00093">ASensor::RandomEngine</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00086">PrevDeltaTime</a>, <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00083">PrevLocation</a>, and <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00100">ASensor::RandomEngine</a>.</p>
 
 </div>
 </div>
@@ -250,12 +254,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00222">222</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
+<p>Reimplemented from <a class="el" href="../../d3/d01/classASensor.html#ae63f0e969a04a2c3e9b4c1e7c9d04415">ASensor</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00221">221</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
 
 </div>
 </div>
@@ -281,7 +287,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00072">ComputeAccelerometerNoise()</a>, <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00086">PrevDeltaTime</a>, and <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00083">PrevLocation</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00180">Tick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00181">PostPhysTick()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -319,7 +325,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00072">72</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/daa/RandomEngine_8h_source.html#l00110">URandomEngine::GetNormalDistribution()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00093">ASensor::RandomEngine</a>, and <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00074">StdDevAccel</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/daa/RandomEngine_8h_source.html#l00110">URandomEngine::GetNormalDistribution()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00100">ASensor::RandomEngine</a>, and <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00074">StdDevAccel</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00101">ComputeAccelerometer()</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -358,11 +364,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Magnetometer: orientation with respect to the North in rad. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00165">165</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00166">166</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00067">CarlaNorthVector</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00180">Tick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00181">PostPhysTick()</a>.</p>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
@@ -395,7 +401,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00086">ComputeGyroscopeNoise()</a>, and <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00054">FIMU_GetActorAngularVelocityInRadians()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00180">Tick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00181">PostPhysTick()</a>.</p>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
@@ -433,7 +439,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00086">86</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00080">BiasGyro</a>, <a class="el" href="../../d6/daa/RandomEngine_8h_source.html#l00110">URandomEngine::GetNormalDistribution()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00093">ASensor::RandomEngine</a>, and <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00077">StdDevGyro</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00080">BiasGyro</a>, <a class="el" href="../../d6/daa/RandomEngine_8h_source.html#l00110">URandomEngine::GetNormalDistribution()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00100">ASensor::RandomEngine</a>, and <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00077">StdDevGyro</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00146">ComputeGyroscope()</a>.</p>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -470,7 +476,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00207">207</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00206">206</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00074">StdDevAccel</a>.</p>
 
@@ -491,7 +497,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00217">217</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00216">216</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00080">BiasGyro</a>.</p>
 
@@ -512,7 +518,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00212">212</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00211">211</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00077">StdDevGyro</a>.</p>
 
@@ -555,6 +561,62 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aa86507b1b877834ae72c1034486b7d90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa86507b1b877834ae72c1034486b7d90">&#9670;&nbsp;</a></span>PostPhysTick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AInertialMeasurementUnit::PostPhysTick </td>
+          <td>(</td>
+          <td class="paramtype">UWorld *&#160;</td>
+          <td class="paramname"><em>World</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ELevelTick&#160;</td>
+          <td class="paramname"><em>TickType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>DeltaTime</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../d3/d01/classASensor.html#ad7def45d2fa41e8aef4db2acea6f72d0">ASensor</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00181">181</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00101">ComputeAccelerometer()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00166">ComputeCompass()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00146">ComputeGyroscope()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00089">ASensor::GetDataStream()</a>, and <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00104">ASensor::Stream</a>.</p>
+<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/de0/classAInertialMeasurementUnit_aa86507b1b877834ae72c1034486b7d90_cgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
 <a id="ac0fd1f47876962647b54b8607a5c4414"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac0fd1f47876962647b54b8607a5c4414">&#9670;&nbsp;</a></span>Set()</h2>
 
@@ -583,12 +645,12 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01532">UActorBlueprintFunctionLibrary::SetIMU()</a>.</p>
-<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01571">UActorBlueprintFunctionLibrary::SetIMU()</a>.</p>
+<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/de0/classAInertialMeasurementUnit_ac0fd1f47876962647b54b8607a5c4414_cgraph.svg" width="100%" height="552"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -611,16 +673,16 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00192">192</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00191">191</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00074">StdDevAccel</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01532">UActorBlueprintFunctionLibrary::SetIMU()</a>.</p>
-<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01571">UActorBlueprintFunctionLibrary::SetIMU()</a>.</p>
+<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/de0/classAInertialMeasurementUnit_ac93f533d604e59cd79d504b69e59c57d_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -643,16 +705,16 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00202">202</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00201">201</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00080">BiasGyro</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01532">UActorBlueprintFunctionLibrary::SetIMU()</a>.</p>
-<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01571">UActorBlueprintFunctionLibrary::SetIMU()</a>.</p>
+<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/de0/classAInertialMeasurementUnit_a6cdd622f0394de0d71f64a340ccdb2d3_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -675,16 +737,16 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00197">197</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00196">196</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00077">StdDevGyro</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01532">UActorBlueprintFunctionLibrary::SetIMU()</a>.</p>
-<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01571">UActorBlueprintFunctionLibrary::SetIMU()</a>.</p>
+<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/de0/classAInertialMeasurementUnit_ad80f1281490d73ef7ca93e999b4f75f5_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -719,44 +781,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ab08433e85d05cb17b4a8aabc3d98a0a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab08433e85d05cb17b4a8aabc3d98a0a7">&#9670;&nbsp;</a></span>Tick()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AInertialMeasurementUnit::Tick </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>DeltaTime</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00180">180</a> of file <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html">InertialMeasurementUnit.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00101">ComputeAccelerometer()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00165">ComputeCompass()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00146">ComputeGyroscope()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00082">ASensor::GetDataStream()</a>, and <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00097">ASensor::Stream</a>.</p>
-<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/de0/classAInertialMeasurementUnit_ab08433e85d05cb17b4a8aabc3d98a0a7_cgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="aa0304a09e7803659be7d99a90c049b56"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa0304a09e7803659be7d99a90c049b56">&#9670;&nbsp;</a></span>BiasGyro</h2>
@@ -782,7 +806,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00080">80</a> of file <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html">InertialMeasurementUnit.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00086">ComputeGyroscopeNoise()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00217">GetGyroscopeBias()</a>, and <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00202">SetGyroscopeBias()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00086">ComputeGyroscopeNoise()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00216">GetGyroscopeBias()</a>, and <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00201">SetGyroscopeBias()</a>.</p>
 
 </div>
 </div>
@@ -810,7 +834,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00067">67</a> of file <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html">InertialMeasurementUnit.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00165">ComputeCompass()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00166">ComputeCompass()</a>.</p>
 
 </div>
 </div>
@@ -894,7 +918,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00074">74</a> of file <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html">InertialMeasurementUnit.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00072">ComputeAccelerometerNoise()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00207">GetAccelerationStandardDeviation()</a>, and <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00192">SetAccelerationStandardDeviation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00072">ComputeAccelerometerNoise()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00206">GetAccelerationStandardDeviation()</a>, and <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00191">SetAccelerationStandardDeviation()</a>.</p>
 
 </div>
 </div>
@@ -922,7 +946,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html#l00077">77</a> of file <a class="el" href="../../d7/dfa/InertialMeasurementUnit_8h_source.html">InertialMeasurementUnit.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00086">ComputeGyroscopeNoise()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00212">GetGyroscopeStandardDeviation()</a>, and <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00197">SetGyroscopeStandardDeviation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00086">ComputeGyroscopeNoise()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00211">GetGyroscopeStandardDeviation()</a>, and <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00196">SetGyroscopeStandardDeviation()</a>.</p>
 
 </div>
 </div>

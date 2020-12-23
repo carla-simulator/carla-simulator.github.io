@@ -85,9 +85,12 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <code>#include &quot;<a class="el" href="../../d1/d9b/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8h_source.html">Carla/OpenDrive/OpenDrive.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/d17/DebugShapeDrawer_8h_source.html">Carla/Util/DebugShapeDrawer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/d30/NavigationMesh_8h_source.html">Carla/Util/NavigationMesh.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/d95/RayTracer_8h_source.html">Carla/Util/RayTracer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">Carla/Vehicle/CarlaWheeledVehicle.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../da/d52/WalkerController_8h_source.html">Carla/Walker/WalkerController.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/d5b/WalkerBase_8h_source.html">Carla/Walker/WalkerBase.h</a>&quot;</code><br />
 <code>#include &quot;GameFramework/CharacterMovementComponent.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d06/Tagger_8h_source.html">Carla/Game/Tagger.h</a>&quot;</code><br />
 <code>#include &lt;<a class="el" href="../../d2/d02/disable-ue4-macros_8h_source.html">compiler/disable-ue4-macros.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../da/d70/Functional_8h_source.html">carla/Functional.h</a>&gt;</code><br />
 <code>#include &lt;carla/Version.h&gt;</code><br />
@@ -97,10 +100,13 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <code>#include &lt;<a class="el" href="../../d1/d55/Command_8h_source.html">carla/rpc/Command.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d8/dc1/CommandResponse_8h_source.html">carla/rpc/CommandResponse.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../dd/dd3/DebugShape_8h_source.html">carla/rpc/DebugShape.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../de/d10/LibCarla_2source_2carla_2rpc_2EnvironmentObject_8h_source.html">carla/rpc/EnvironmentObject.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d2/d1c/EpisodeInfo_8h_source.html">carla/rpc/EpisodeInfo.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/df7/LibCarla_2source_2carla_2rpc_2EpisodeSettings_8h_source.html">carla/rpc/EpisodeSettings.h</a>&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/dd4/LabelledPoint_8h_source.html">carla/rpc/LabelledPoint.h</a>&quot;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/daf/rpc_2LightState_8h_source.html">carla/rpc/LightState.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d8/d5a/MapInfo_8h_source.html">carla/rpc/MapInfo.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d0/dc2/MapLayer_8h_source.html">carla/rpc/MapLayer.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/d3f/Response_8h_source.html">carla/rpc/Response.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/dc8/rpc_2Server_8h_source.html">carla/rpc/Server.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/dba/String_8h_source.html">carla/rpc/String.h</a>&gt;</code><br />
@@ -118,12 +124,13 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <code>#include &lt;<a class="el" href="../../d9/da2/enable-ue4-macros_8h_source.html">compiler/enable-ue4-macros.h</a>&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;map&gt;</code><br />
+<code>#include &lt;tuple&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for CarlaServer.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d7e/CarlaServer_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d7e/CarlaServer_8cpp__incl.svg" width="100%" height="574"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div>
@@ -182,9 +189,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00151">151</a> of file <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html">CarlaServer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00158">158</a> of file <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html">CarlaServer.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00157">FCarlaServer::FPimpl::BindActions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00164">FCarlaServer::FPimpl::BindActions()</a>.</p>
 
 </div>
 </div>
@@ -204,9 +211,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00150">150</a> of file <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html">CarlaServer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00157">157</a> of file <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html">CarlaServer.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00157">FCarlaServer::FPimpl::BindActions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00164">FCarlaServer::FPimpl::BindActions()</a>.</p>
 
 </div>
 </div>
@@ -225,7 +232,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00103">103</a> of file <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html">CarlaServer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00110">110</a> of file <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html">CarlaServer.cpp</a>.</p>
 
 </div>
 </div>
@@ -245,7 +252,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00157">FCarlaServer::FPimpl::BindActions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00164">FCarlaServer::FPimpl::BindActions()</a>.</p>
 
 </div>
 </div>
@@ -263,12 +270,12 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../db/d6c/CarlaServer_8cpp.html#aef028aa0fbf9fe78c5d5fba5dee7d5a0">CARLA_ENSURE_GAME_THREAD</a>();   \</div><div class="line">    if (Episode == <span class="keyword">nullptr</span>) { <a class="code" href="../../db/d6c/CarlaServer_8cpp.html#a8545fb5f567924c6a2301641a1bcd3c9">RESPOND_ERROR</a>(<span class="stringliteral">&quot;episode not ready&quot;</span>); }</div><div class="ttc" id="CarlaServer_8cpp_html_a8545fb5f567924c6a2301641a1bcd3c9"><div class="ttname"><a href="../../db/d6c/CarlaServer_8cpp.html#a8545fb5f567924c6a2301641a1bcd3c9">RESPOND_ERROR</a></div><div class="ttdeci">#define RESPOND_ERROR(str)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d6c/CarlaServer_8cpp_source.html#l00106">CarlaServer.cpp:106</a></div></div>
-<div class="ttc" id="CarlaServer_8cpp_html_aef028aa0fbf9fe78c5d5fba5dee7d5a0"><div class="ttname"><a href="../../db/d6c/CarlaServer_8cpp.html#aef028aa0fbf9fe78c5d5fba5dee7d5a0">CARLA_ENSURE_GAME_THREAD</a></div><div class="ttdeci">#define CARLA_ENSURE_GAME_THREAD()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d6c/CarlaServer_8cpp_source.html#l00103">CarlaServer.cpp:103</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../db/d6c/CarlaServer_8cpp.html#aef028aa0fbf9fe78c5d5fba5dee7d5a0">CARLA_ENSURE_GAME_THREAD</a>();   \</div><div class="line">    if (Episode == <span class="keyword">nullptr</span>) { <a class="code" href="../../db/d6c/CarlaServer_8cpp.html#a8545fb5f567924c6a2301641a1bcd3c9">RESPOND_ERROR</a>(<span class="stringliteral">&quot;episode not ready&quot;</span>); }</div><div class="ttc" id="CarlaServer_8cpp_html_a8545fb5f567924c6a2301641a1bcd3c9"><div class="ttname"><a href="../../db/d6c/CarlaServer_8cpp.html#a8545fb5f567924c6a2301641a1bcd3c9">RESPOND_ERROR</a></div><div class="ttdeci">#define RESPOND_ERROR(str)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d6c/CarlaServer_8cpp_source.html#l00113">CarlaServer.cpp:113</a></div></div>
+<div class="ttc" id="CarlaServer_8cpp_html_aef028aa0fbf9fe78c5d5fba5dee7d5a0"><div class="ttname"><a href="../../db/d6c/CarlaServer_8cpp.html#aef028aa0fbf9fe78c5d5fba5dee7d5a0">CARLA_ENSURE_GAME_THREAD</a></div><div class="ttdeci">#define CARLA_ENSURE_GAME_THREAD()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d6c/CarlaServer_8cpp_source.html#l00110">CarlaServer.cpp:110</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00114">114</a> of file <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html">CarlaServer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00121">121</a> of file <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html">CarlaServer.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00157">FCarlaServer::FPimpl::BindActions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00164">FCarlaServer::FPimpl::BindActions()</a>.</p>
 
 </div>
 </div>
@@ -289,9 +296,9 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">{                                              \</div><div class="line">    UE_LOG(LogCarlaServer, Log, TEXT(<span class="stringliteral">&quot;Responding error: %s&quot;</span>), TEXT(str)); \</div><div class="line">    return <a class="code" href="../../d7/d2a/classcarla_1_1rpc_1_1ResponseError.html">carla::rpc::ResponseError</a>(str); }</div><div class="ttc" id="classcarla_1_1rpc_1_1ResponseError_html"><div class="ttname"><a href="../../d7/d2a/classcarla_1_1rpc_1_1ResponseError.html">carla::rpc::ResponseError</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3f/Response_8h_source.html#l00020">Response.h:20</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00106">106</a> of file <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html">CarlaServer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00113">113</a> of file <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html">CarlaServer.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00157">FCarlaServer::FPimpl::BindActions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00164">FCarlaServer::FPimpl::BindActions()</a>.</p>
 
 </div>
 </div>
@@ -312,9 +319,9 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">{                                 \</div><div class="line">    UE_LOG(LogCarlaServer, Log, TEXT(<span class="stringliteral">&quot;Responding error: %s&quot;</span>), *fstr); \</div><div class="line">    return <a class="code" href="../../d7/d2a/classcarla_1_1rpc_1_1ResponseError.html">carla::rpc::ResponseError</a>(carla::rpc::FromFString(fstr)); }</div><div class="ttc" id="classcarla_1_1rpc_1_1ResponseError_html"><div class="ttname"><a href="../../d7/d2a/classcarla_1_1rpc_1_1ResponseError.html">carla::rpc::ResponseError</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3f/Response_8h_source.html#l00020">Response.h:20</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00110">110</a> of file <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html">CarlaServer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00117">117</a> of file <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html">CarlaServer.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00157">FCarlaServer::FPimpl::BindActions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00164">FCarlaServer::FPimpl::BindActions()</a>.</p>
 
 </div>
 </div>
@@ -333,7 +340,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00050">50</a> of file <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html">CarlaServer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00057">57</a> of file <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html">CarlaServer.cpp</a>.</p>
 
 </div>
 </div>
@@ -364,7 +371,7 @@ template&lt;typename T , typename Other &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00057">57</a> of file <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html">CarlaServer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00064">64</a> of file <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html">CarlaServer.cpp</a>.</p>
 
 </div>
 </div>

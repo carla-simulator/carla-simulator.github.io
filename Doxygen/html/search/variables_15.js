@@ -11,7 +11,9 @@ var searchData=
   ['urban_5flongitudinal_5fparameters',['urban_longitudinal_parameters',['../dd/df9/classcarla_1_1traffic__manager_1_1MotionPlanStage.html#a0cc8ea6c8b7aad8ac275cdb02d35bf83',1,'carla::traffic_manager::MotionPlanStage']]],
   ['use_5fgear_5fautobox',['use_gear_autobox',['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#ad46e8739a79959adfec1e382edf48903',1,'carla::rpc::VehiclePhysicsControl']]],
   ['use_5flog',['use_log',['../de/d22/structdvs_1_1Config.html#a736673abf1d6cb898c3ff44cedb5fca3',1,'dvs::Config']]],
+  ['use_5fsweep_5fwheel_5fcollision',['use_sweep_wheel_collision',['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#acb856bdd978fceca2491a07cd82e3c98',1,'carla::rpc::VehiclePhysicsControl']]],
   ['usefullblocks',['UseFullBlocks',['../de/d3c/classAProceduralBuilding.html#ac043760a9833b81b0deb142b233dc16a',1,'AProceduralBuilding']]],
+  ['usesweepwheelcollision',['UseSweepWheelCollision',['../d1/dbe/structFVehiclePhysicsControl.html#a1304b58f7c3a6378dc5b0a3a3516dce6',1,'FVehiclePhysicsControl']]],
   ['usewallmesh',['UseWallMesh',['../de/d3c/classAProceduralBuilding.html#a22b9a7857a7b00153357d350a8d27698',1,'AProceduralBuilding']]],
   ['uv0',['UV0',['../d0/d01/structFProceduralCustomMesh.html#a3c464fc6a044984bd0d258681e952c81',1,'FProceduralCustomMesh']]]
 ];

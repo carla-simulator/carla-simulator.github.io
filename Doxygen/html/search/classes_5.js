@@ -6,6 +6,7 @@ var searchData=
   ['endpoint',['EndPoint',['../d5/d3d/classcarla_1_1streaming_1_1detail_1_1EndPoint.html',1,'carla::streaming::detail']]],
   ['endpoint_3c_20protocol_2c_20fullydefinedendpoint_20_3e',['EndPoint&lt; Protocol, FullyDefinedEndPoint &gt;',['../df/d2c/classcarla_1_1streaming_1_1detail_1_1EndPoint_3_01Protocol_00_01FullyDefinedEndPoint_01_4.html',1,'carla::streaming::detail']]],
   ['endpoint_3c_20protocol_2c_20partiallydefinedendpoint_20_3e',['EndPoint&lt; Protocol, PartiallyDefinedEndPoint &gt;',['../d8/dad/classcarla_1_1streaming_1_1detail_1_1EndPoint_3_01Protocol_00_01PartiallyDefinedEndPoint_01_4.html',1,'carla::streaming::detail']]],
+  ['environmentobject',['EnvironmentObject',['../de/dd6/structcarla_1_1rpc_1_1EnvironmentObject.html',1,'carla::rpc']]],
   ['episode',['Episode',['../d1/db6/classcarla_1_1client_1_1detail_1_1Episode.html',1,'carla::client::detail']]],
   ['episodeinfo',['EpisodeInfo',['../db/d00/classcarla_1_1rpc_1_1EpisodeInfo.html',1,'carla::rpc']]],
   ['episodeproxyimpl',['EpisodeProxyImpl',['../d1/dd3/classcarla_1_1client_1_1detail_1_1EpisodeProxyImpl.html',1,'carla::client::detail']]],
