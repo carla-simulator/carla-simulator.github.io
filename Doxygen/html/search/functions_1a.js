@@ -54,6 +54,7 @@ var searchData=
   ['_7etrafficmanagerremote',['~TrafficManagerRemote',['../d7/d5c/classcarla_1_1traffic__manager_1_1TrafficManagerRemote.html#a68b220eaa3a9e0340e2b3f704f573c28',1,'carla::traffic_manager::TrafficManagerRemote']]],
   ['_7etrafficmanagerserver',['~TrafficManagerServer',['../db/d80/classcarla_1_1traffic__manager_1_1TrafficManagerServer.html#a51c85e7950a9663e18092a7a3c858738',1,'carla::traffic_manager::TrafficManagerServer']]],
   ['_7eucarlagameinstance',['~UCarlaGameInstance',['../da/d55/classUCarlaGameInstance.html#ae93111a3833da14078916f048afd40f7',1,'UCarlaGameInstance']]],
+  ['_7euobjectregister',['~UObjectRegister',['../d2/d5b/classUObjectRegister.html#ab2b4de5edb0b57f96f6d9caacd7a0769',1,'UObjectRegister']]],
   ['_7ewalkermanager',['~WalkerManager',['../dd/d5b/classcarla_1_1nav_1_1WalkerManager.html#aecc6a78f8c1c5342677f3018532dcb46',1,'carla::nav::WalkerManager']]],
   ['_7ewaypoint',['~Waypoint',['../dd/dff/classcarla_1_1client_1_1Waypoint.html#aa6a3c2ff05e0fa0351e5bb4d9afa95a6',1,'carla::client::Waypoint']]],
   ['_7eworld',['~World',['../db/d1f/classcarla_1_1client_1_1World.html#a5654f05d77e070c1c446ea6b71baad97',1,'carla::client::World']]],

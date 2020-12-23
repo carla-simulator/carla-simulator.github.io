@@ -16,8 +16,8 @@ bundle exec jekyll build
 EXTRA_ARGS="--only-4xx"
 
 if [ "$CHECK_INTERNAL_LINKS" = true ]; then
-  bundle exec htmlproofer ${EXTRA_ARGS} -t ./_site --file-ignore /Doxygen/
+  bundle exec htmlproofer ${EXTRA_ARGS} -t ./_site --file-ignore /Doxygen/ --url-ignore https://twitter.com/carlasimulator
 else
-  bundle exec htmlproofer ${EXTRA_ARGS} --external_only --internal-domains carla.org ./_site --file-ignore /Doxygen/
+  bundle exec htmlproofer ${EXTRA_ARGS} --external_only --internal-domains carla.org ./_site --file-ignore /Doxygen/ --url-ignore https://twitter.com/carlasimulator
   echo "WARNING: Ignored internal links because we are not in 'master' branch"
 fi
