@@ -30,6 +30,9 @@
 
   <link href="/css/syntax.css" rel="stylesheet">
   <link href="/css/last_news.css" rel="stylesheet">
+  {% if page.url contains 'services' %}
+  <link href="/css/services.css" rel="stylesheet">
+  {% endif %}
 
   <script defer src="{{"/assets/vendor/font-awesome/fontawesome-all.js" | relative_url }}"></script>
   <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
