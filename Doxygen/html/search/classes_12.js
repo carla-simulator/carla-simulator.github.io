@@ -21,6 +21,7 @@ var searchData=
   ['setsimulatephysics',['SetSimulatePhysics',['../d5/db5/structcarla_1_1rpc_1_1Command_1_1SetSimulatePhysics.html',1,'carla::rpc::Command']]],
   ['setvehiclelightstate',['SetVehicleLightState',['../db/d85/structcarla_1_1rpc_1_1Command_1_1SetVehicleLightState.html',1,'carla::rpc::Command']]],
   ['sharedexception',['SharedException',['../da/d82/classcarla_1_1detail_1_1SharedException.html',1,'carla::detail']]],
+  ['showdebugtelemetry',['ShowDebugTelemetry',['../d3/d36/structcarla_1_1rpc_1_1Command_1_1ShowDebugTelemetry.html',1,'carla::rpc::Command']]],
   ['signal',['Signal',['../da/da8/classcarla_1_1road_1_1Signal.html',1,'carla::road']]],
   ['signaldependency',['SignalDependency',['../d3/dd0/structcarla_1_1road_1_1SignalDependency.html',1,'carla::road']]],
   ['signalparser',['SignalParser',['../dd/d61/classcarla_1_1opendrive_1_1parser_1_1SignalParser.html',1,'carla::opendrive::parser']]],

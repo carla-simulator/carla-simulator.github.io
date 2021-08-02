@@ -1,7 +1,7 @@
 var searchData=
 [
   ['imageconverter',['ImageConverter',['../d5/d0f/classcarla_1_1image_1_1ImageConverter.html',1,'carla::image']]],
-  ['imageheader',['ImageHeader',['../d2/d05/structcarla_1_1sensor_1_1s11n_1_1ImageSerializer_1_1ImageHeader.html',1,'carla::sensor::s11n::ImageSerializer']]],
+  ['imageheader',['ImageHeader',['../d2/d05/structcarla_1_1sensor_1_1s11n_1_1ImageSerializer_1_1ImageHeader.html',1,'carla::sensor::s11n::ImageSerializer::ImageHeader'],['../de/d87/structcarla_1_1sensor_1_1s11n_1_1OpticalFlowImageSerializer_1_1ImageHeader.html',1,'carla::sensor::s11n::OpticalFlowImageSerializer::ImageHeader']]],
   ['imageio',['ImageIO',['../d3/d81/classcarla_1_1image_1_1ImageIO.html',1,'carla::image']]],
   ['imageserializer',['ImageSerializer',['../db/dba/classcarla_1_1sensor_1_1s11n_1_1ImageSerializer.html',1,'carla::sensor::s11n']]],
   ['imagetmpl',['ImageTmpl',['../df/d55/classcarla_1_1sensor_1_1data_1_1ImageTmpl.html',1,'carla::sensor::data']]],

@@ -5,6 +5,7 @@ var searchData=
   ['particles',['Particles',['../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42baad4aa221c22fd934ecd55e34457ffc3b',1,'carla::rpc']]],
   ['pedestrian',['Pedestrian',['../d0/db7/namespacecarla_1_1traffic__manager.html#a50f39917151d60f6feafd15ea11a3d30a39622fcc0a0522ad3b5ffdf9269abeca',1,'carla::traffic_manager']]],
   ['pedestrians',['Pedestrians',['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0aa7acbbafc14f96195b93e9b59d1b1143',1,'carla::rpc']]],
+  ['pendingkill',['PendingKill',['../de/d6c/namespacecarla_1_1rpc.html#a05a30f3aa05ff2c5d120170d22c0fbf3a5d70defc71a5fada1396ad989b5c7971',1,'carla::rpc']]],
   ['pendinglightupdate',['PendingLightUpdate',['../da/d5d/classcarla_1_1sensor_1_1s11n_1_1EpisodeStateSerializer.html#a168a331cd795ab383f2a228241bd74aaa996c22279887cc23bae038a50318b92f',1,'carla::sensor::s11n::EpisodeStateSerializer']]],
   ['physicscontrol',['PhysicsControl',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a2f38c7f957dcaf2a91ab6282af975f04',1,'CarlaRecorder.h']]],
   ['platformtime',['PlatformTime',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a6f51ade26186691279737c6675c18267',1,'CarlaRecorder.h']]],

@@ -95,9 +95,14 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a7f5a394a7288afe860f81d296ebd496d"><td class="memItemLeft" align="right" valign="top">static FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1b/classUOpenDrive.html#a7f5a394a7288afe860f81d296ebd496d">FindPathToXODRFile</a> (const FString &amp;MapName)</td></tr>
-<tr class="memdesc:a7f5a394a7288afe860f81d296ebd496d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the path to the XODR file associated to MapName.  <a href="#a7f5a394a7288afe860f81d296ebd496d">More...</a><br /></td></tr>
-<tr class="separator:a7f5a394a7288afe860f81d296ebd496d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cbcf582e5c4ffd0d7a908e693bae76c"><td class="memItemLeft" align="right" valign="top">static FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1b/classUOpenDrive.html#a5cbcf582e5c4ffd0d7a908e693bae76c">FindPathToXODRFile</a> (const FString &amp;InMapName)</td></tr>
+<tr class="separator:a5cbcf582e5c4ffd0d7a908e693bae76c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6970e61734505fd6ee9f58041fe49dc0"><td class="memItemLeft" align="right" valign="top">static FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1b/classUOpenDrive.html#a6970e61734505fd6ee9f58041fe49dc0">GetXODR</a> (const UWorld *World)</td></tr>
+<tr class="memdesc:a6970e61734505fd6ee9f58041fe49dc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the OpenDrive XML associated to <em>MapName</em>, or empty if the file is not found.  <a href="#a6970e61734505fd6ee9f58041fe49dc0">More...</a><br /></td></tr>
+<tr class="separator:a6970e61734505fd6ee9f58041fe49dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc3124631694443e18475605c58a8cad"><td class="memItemLeft" align="right" valign="top">static FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1b/classUOpenDrive.html#acc3124631694443e18475605c58a8cad">GetXODRByPath</a> (FString XODRPath, FString MapName)</td></tr>
+<tr class="memdesc:acc3124631694443e18475605c58a8cad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the OpenDrive XML associated to <em>MapName</em>, or empty if the file is not found.  <a href="#acc3124631694443e18475605c58a8cad">More...</a><br /></td></tr>
+<tr class="separator:acc3124631694443e18475605c58a8cad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4486c7ee9d4a8bf6cd2a7ca5ad7e4ece"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d8/dfe/classUOpenDriveMap.html">UOpenDriveMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1b/classUOpenDrive.html#a4486c7ee9d4a8bf6cd2a7ca5ad7e4ece">LoadCurrentOpenDriveMap</a> (const <a class="el" href="../../df/def/classUObject.html">UObject</a> *WorldContextObject)</td></tr>
 <tr class="memdesc:a4486c7ee9d4a8bf6cd2a7ca5ad7e4ece"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load OpenDriveMap associated to the currently loaded map.  <a href="#a4486c7ee9d4a8bf6cd2a7ca5ad7e4ece">More...</a><br /></td></tr>
 <tr class="separator:a4486c7ee9d4a8bf6cd2a7ca5ad7e4ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -105,15 +110,14 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac05b8dc3f340e373582945f9215081d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load OpenDriveMap associated to the given MapName.  <a href="#ac05b8dc3f340e373582945f9215081d9">More...</a><br /></td></tr>
 <tr class="separator:ac05b8dc3f340e373582945f9215081d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b43e38d054303fd1353447a6514e228"><td class="memItemLeft" align="right" valign="top">static FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1b/classUOpenDrive.html#a8b43e38d054303fd1353447a6514e228">LoadXODR</a> (const FString &amp;MapName)</td></tr>
-<tr class="memdesc:a8b43e38d054303fd1353447a6514e228"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the OpenDrive XML associated to <em>MapName</em>, or empty if the file is not found.  <a href="#a8b43e38d054303fd1353447a6514e228">More...</a><br /></td></tr>
 <tr class="separator:a8b43e38d054303fd1353447a6514e228"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="../../d1/d9b/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8h_source.html#l00016">16</a> of file <a class="el" href="../../d1/d9b/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/OpenDrive/OpenDrive.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7f5a394a7288afe860f81d296ebd496d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f5a394a7288afe860f81d296ebd496d">&#9670;&nbsp;</a></span>FindPathToXODRFile()</h2>
+<a id="a5cbcf582e5c4ffd0d7a908e693bae76c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cbcf582e5c4ffd0d7a908e693bae76c">&#9670;&nbsp;</a></span>FindPathToXODRFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -125,7 +129,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">FString UOpenDrive::FindPathToXODRFile </td>
           <td>(</td>
           <td class="paramtype">const FString &amp;&#160;</td>
-          <td class="paramname"><em>MapName</em></td><td>)</td>
+          <td class="paramname"><em>InMapName</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -136,20 +140,17 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Find the path to the XODR file associated to MapName. </p>
-<p>Return empty if no such file is found. </p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00015">15</a> of file <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/OpenDrive/OpenDrive.cpp</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00012">12</a> of file <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/OpenDrive/OpenDrive.cpp</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00033">carla::client::detail::Get()</a>, and <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00324">UCarlaEpisode::MapName</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00032">carla::client::detail::Get()</a>, and <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00317">UCarlaEpisode::MapName</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00053">LoadXODR()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00099">LoadXODR()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d1b/classUOpenDrive_a7f5a394a7288afe860f81d296ebd496d_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d1b/classUOpenDrive_a5cbcf582e5c4ffd0d7a908e693bae76c_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -157,7 +158,107 @@ Static Public Member Functions</h2></td></tr>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d1b/classUOpenDrive_a7f5a394a7288afe860f81d296ebd496d_icgraph.svg" width="100%" height="575"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d1b/classUOpenDrive_a5cbcf582e5c4ffd0d7a908e693bae76c_icgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a6970e61734505fd6ee9f58041fe49dc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6970e61734505fd6ee9f58041fe49dc0">&#9670;&nbsp;</a></span>GetXODR()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FString UOpenDrive::GetXODR </td>
+          <td>(</td>
+          <td class="paramtype">const UWorld *&#160;</td>
+          <td class="paramname"><em>World</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the OpenDrive XML associated to <em>MapName</em>, or empty if the file is not found. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00056">56</a> of file <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/OpenDrive/OpenDrive.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00033">carla::client::detail::Get()</a>, <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00062">ACarlaGameModeBase::GetFullMapPath()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00058">UCarlaStatics::GetGameMode()</a>, and <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00324">UCarlaEpisode::MapName</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/d85/OpenDriveGenerator_8cpp_source.html#l00168">AOpenDriveGenerator::BeginPlay()</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00193">FCarlaServer::FPimpl::BindActions()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00269">ATrafficLightManager::MatchTrafficLightActorsWithOpenDriveSignals()</a>, and <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00309">ACarlaGameModeBase::ParseOpenDrive()</a>.</p>
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d1b/classUOpenDrive_a6970e61734505fd6ee9f58041fe49dc0_cgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d1b/classUOpenDrive_a6970e61734505fd6ee9f58041fe49dc0_icgraph.svg" width="658" height="264"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="acc3124631694443e18475605c58a8cad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc3124631694443e18475605c58a8cad">&#9670;&nbsp;</a></span>GetXODRByPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FString UOpenDrive::GetXODRByPath </td>
+          <td>(</td>
+          <td class="paramtype">FString&#160;</td>
+          <td class="paramname"><em>XODRPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FString&#160;</td>
+          <td class="paramname"><em>MapName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the OpenDrive XML associated to <em>MapName</em>, or empty if the file is not found. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00121">121</a> of file <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/OpenDrive/OpenDrive.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00033">carla::client::detail::Get()</a>, and <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00324">UCarlaEpisode::MapName</a>.</p>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d1b/classUOpenDrive_acc3124631694443e18475605c58a8cad_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -190,14 +291,14 @@ Static Public Member Functions</h2></td></tr>
 <p>Load OpenDriveMap associated to the currently loaded map. </p>
 <p>Return nullptr if no XODR can be found that matches the current map. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00087">87</a> of file <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/OpenDrive/OpenDrive.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00168">168</a> of file <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/OpenDrive/OpenDrive.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00075">LoadOpenDriveMap()</a>.</p>
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00156">LoadOpenDriveMap()</a>.</p>
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d1b/classUOpenDrive_a4486c7ee9d4a8bf6cd2a7ca5ad7e4ece_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -231,24 +332,24 @@ Static Public Member Functions</h2></td></tr>
 <p>Load OpenDriveMap associated to the given MapName. </p>
 <p>Return nullptr if no XODR can be found with same MapName. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00075">75</a> of file <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/OpenDrive/OpenDrive.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00156">156</a> of file <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/OpenDrive/OpenDrive.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/de7/OpenDriveMap_8cpp_source.html#l00055">UOpenDriveMap::Load()</a>, and <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00053">LoadXODR()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/de7/OpenDriveMap_8cpp_source.html#l00055">UOpenDriveMap::Load()</a>, and <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00099">LoadXODR()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00087">LoadCurrentOpenDriveMap()</a>.</p>
-<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00168">LoadCurrentOpenDriveMap()</a>.</p>
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d1b/classUOpenDrive_ac05b8dc3f340e373582945f9215081d9_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d1b/classUOpenDrive_ac05b8dc3f340e373582945f9215081d9_icgraph.svg" width="518" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -279,27 +380,25 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return the OpenDrive XML associated to <em>MapName</em>, or empty if the file is not found. </p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00099">99</a> of file <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/OpenDrive/OpenDrive.cpp</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00053">53</a> of file <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/OpenDrive/OpenDrive.cpp</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00015">FindPathToXODRFile()</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00012">FindPathToXODRFile()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../dc/d85/OpenDriveGenerator_8cpp_source.html#l00168">AOpenDriveGenerator::BeginPlay()</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00164">FCarlaServer::FPimpl::BindActions()</a>, <a class="el" href="../../d4/de0/OpenDriveActor_8cpp_source.html#l00133">AOpenDriveActor::BuildRoutes()</a>, <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00075">LoadOpenDriveMap()</a>, <a class="el" href="../../d6/d3f/TrafficLightManager_8cpp_source.html#l00219">ATrafficLightManager::MatchTrafficLightActorsWithOpenDriveSignals()</a>, and <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00225">ACarlaGameModeBase::ParseOpenDrive()</a>.</p>
-<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d4/de0/OpenDriveActor_8cpp_source.html#l00133">AOpenDriveActor::BuildRoutes()</a>, <a class="el" href="../../d9/d30/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2OpenDrive_2OpenDrive_8cpp_source.html#l00156">LoadOpenDriveMap()</a>, and <a class="el" href="../../d6/d17/LoadAssetMaterialsCommandlet_8cpp_source.html#l00022">ULoadAssetMaterialsCommandlet::ULoadAssetMaterialsCommandlet()</a>.</p>
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d1b/classUOpenDrive_a8b43e38d054303fd1353447a6514e228_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d1b/classUOpenDrive_a8b43e38d054303fd1353447a6514e228_icgraph.svg" width="100%" height="574"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d1b/classUOpenDrive_a8b43e38d054303fd1353447a6514e228_icgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 

@@ -1,5 +1,8 @@
 var searchData=
 [
+  ['active',['Active',['../de/d6c/namespacecarla_1_1rpc.html#a05a30f3aa05ff2c5d120170d22c0fbf3a4d3d769b812b6faa6b76e1a8abaece2d',1,'carla::rpc']]],
+  ['actornotfound',['ActorNotFound',['../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9dadf314920f19d4440956753e1776c6ec7',1,'CarlaServerResponse.h']]],
+  ['actortypemismatch',['ActorTypeMismatch',['../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9dab2f301adedfdf485c318d60c8e9d0467',1,'CarlaServerResponse.h']]],
   ['all',['All',['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html#a6372a8be47dbe5cd2b9c19730e5d1dc5ab1c94ca2fbc3e78fc30069c8d0f01680',1,'carla::rpc::VehicleLightState::All()'],['../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42bab1c94ca2fbc3e78fc30069c8d0f01680',1,'carla::rpc::All()']]],
   ['animvehicle',['AnimVehicle',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613af4c4d9aa57150b461e1329a65aba0d7b',1,'CarlaRecorder.h']]],
   ['animwalker',['AnimWalker',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a07d283fbd8836bf95d25faee43d7f28f',1,'CarlaRecorder.h']]],
@@ -65,6 +68,7 @@ var searchData=
   ['ast_5fstring_5fconstant',['ast_string_constant',['../db/d20/pugixml_8cpp.html#a11258a240266b84b6b0526930e5d330da9062d53478f8a445ed281f1af75b9ab0',1,'pugixml.cpp']]],
   ['ast_5funknown',['ast_unknown',['../db/d20/pugixml_8cpp.html#a11258a240266b84b6b0526930e5d330da3069da19da872e0ae0a197b9dc29173e',1,'pugixml.cpp']]],
   ['ast_5fvariable',['ast_variable',['../db/d20/pugixml_8cpp.html#a11258a240266b84b6b0526930e5d330da3e16540ee352944686b90794e0c94260',1,'pugixml.cpp']]],
+  ['autopilotnotsupported',['AutoPilotNotSupported',['../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da447d4b17915d35c7c9a89a1a31baaf92',1,'CarlaServerResponse.h']]],
   ['axis_5fancestor',['axis_ancestor',['../db/d20/pugixml_8cpp.html#ae7747145441b0591a5c04f20f6f9189aad6f039a708acaaf1f7404cb061aac86f',1,'pugixml.cpp']]],
   ['axis_5fancestor_5for_5fself',['axis_ancestor_or_self',['../db/d20/pugixml_8cpp.html#ae7747145441b0591a5c04f20f6f9189aa22656c644b010657ddc2635d97e7b4a3',1,'pugixml.cpp']]],
   ['axis_5fattribute',['axis_attribute',['../db/d20/pugixml_8cpp.html#ae7747145441b0591a5c04f20f6f9189aa3e7282ac37732c350a6f4890a3ab6401',1,'pugixml.cpp']]],

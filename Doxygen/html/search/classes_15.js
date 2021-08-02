@@ -2,6 +2,7 @@ var searchData=
 [
   ['vector2d',['Vector2D',['../d4/d57/classcarla_1_1geom_1_1Vector2D.html',1,'carla::geom']]],
   ['vector3d',['Vector3D',['../d9/dfe/classcarla_1_1geom_1_1Vector3D.html',1,'carla::geom']]],
+  ['vector3dint',['Vector3DInt',['../dc/d9d/classcarla_1_1geom_1_1Vector3DInt.html',1,'carla::geom']]],
   ['vehicle',['Vehicle',['../d9/dc6/classcarla_1_1client_1_1Vehicle.html',1,'carla::client']]],
   ['vehiclecollisioninfo',['VehicleCollisionInfo',['../d4/d66/structcarla_1_1nav_1_1VehicleCollisionInfo.html',1,'carla::nav']]],
   ['vehiclecontrol',['VehicleControl',['../d3/d9c/classcarla_1_1rpc_1_1VehicleControl.html',1,'carla::rpc']]],

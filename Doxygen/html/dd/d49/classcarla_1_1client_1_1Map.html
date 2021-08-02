@@ -108,6 +108,9 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac16f720dbed4c6c42f147103b778de60"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html">road::element::LaneMarking</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d49/classcarla_1_1client_1_1Map.html#ac16f720dbed4c6c42f147103b778de60">CalculateCrossedLanes</a> (const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">geom::Location</a> &amp;origin, const <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">geom::Location</a> &amp;destination) const</td></tr>
 <tr class="separator:ac16f720dbed4c6c42f147103b778de60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a8aa7f5c74e61184ef53445acb93626"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d49/classcarla_1_1client_1_1Map.html#a4a8aa7f5c74e61184ef53445acb93626">CookInMemoryMap</a> (const std::string &amp;path) const</td></tr>
+<tr class="memdesc:a4a8aa7f5c74e61184ef53445acb93626"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cooks InMemoryMap used by the traffic manager.  <a href="#a4a8aa7f5c74e61184ef53445acb93626">More...</a><br /></td></tr>
+<tr class="separator:a4a8aa7f5c74e61184ef53445acb93626"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa0fc99536cdf0e66f90ff72ff1bb969"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">SharedPtr</a>&lt; <a class="el" href="../../dd/dff/classcarla_1_1client_1_1Waypoint.html">Waypoint</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d49/classcarla_1_1client_1_1Map.html#afa0fc99536cdf0e66f90ff72ff1bb969">GenerateWaypoints</a> (double distance) const</td></tr>
 <tr class="separator:afa0fc99536cdf0e66f90ff72ff1bb969"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a246d0cf615e08f1d74e2c6b9b9edaa97"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">geom::Location</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d49/classcarla_1_1client_1_1Map.html#a246d0cf615e08f1d74e2c6b9b9edaa97">GetAllCrosswalkZones</a> () const</td></tr>
@@ -145,8 +148,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aca871b2adb64efd4b149b74d5a4edadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a385f4e25b422d3a688b6a27df1c7c5f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">SharedPtr</a>&lt; <a class="el" href="../../dd/dff/classcarla_1_1client_1_1Waypoint.html">Waypoint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d49/classcarla_1_1client_1_1Map.html#a385f4e25b422d3a688b6a27df1c7c5f3">GetWaypointXODR</a> (<a class="el" href="../../de/d26/namespacecarla_1_1road.html#a9fa6f293e66647bffc1d64d59084eed7">carla::road::RoadId</a> road_id, <a class="el" href="../../de/d26/namespacecarla_1_1road.html#ab04570f0655cb16bd43d7cb2b939511f">carla::road::LaneId</a> lane_id, float s) const</td></tr>
 <tr class="separator:a385f4e25b422d3a688b6a27df1c7c5f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeee133d4111d8a554787e9bbfd222373"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d49/classcarla_1_1client_1_1Map.html#aeee133d4111d8a554787e9bbfd222373">Map</a> (<a class="el" href="../../d1/d07/classcarla_1_1rpc_1_1MapInfo.html">rpc::MapInfo</a> description)</td></tr>
-<tr class="separator:aeee133d4111d8a554787e9bbfd222373"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba9d07f6755f5c9386ccf650b27d1737"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d49/classcarla_1_1client_1_1Map.html#aba9d07f6755f5c9386ccf650b27d1737">Map</a> (<a class="el" href="../../d1/d07/classcarla_1_1rpc_1_1MapInfo.html">rpc::MapInfo</a> description, std::string xodr_content)</td></tr>
+<tr class="separator:aba9d07f6755f5c9386ccf650b27d1737"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85951260e0f83d0600ce0a58f11002f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d49/classcarla_1_1client_1_1Map.html#a85951260e0f83d0600ce0a58f11002f1">Map</a> (std::string name, std::string xodr_content)</td></tr>
 <tr class="separator:a85951260e0f83d0600ce0a58f11002f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0abef736f330c0c7c343f06bab2d932"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d49/classcarla_1_1client_1_1Map.html#ae0abef736f330c0c7c343f06bab2d932">~Map</a> ()</td></tr>
@@ -158,6 +161,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aad808008b03f8562a006769572856ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4e4ab66afe5d0f2b452f7eb2acf6a7f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d34/classcarla_1_1road_1_1Map.html">road::Map</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d49/classcarla_1_1client_1_1Map.html#ad4e4ab66afe5d0f2b452f7eb2acf6a7f">_map</a></td></tr>
 <tr class="separator:ad4e4ab66afe5d0f2b452f7eb2acf6a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ac56695a554bf5474801674fd647e3b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d49/classcarla_1_1client_1_1Map.html#a7ac56695a554bf5474801674fd647e3b">open_drive_file</a></td></tr>
+<tr class="separator:a7ac56695a554bf5474801674fd647e3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -194,8 +199,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aeee133d4111d8a554787e9bbfd222373"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeee133d4111d8a554787e9bbfd222373">&#9670;&nbsp;</a></span>Map() <span class="overload">[1/2]</span></h2>
+<a id="aba9d07f6755f5c9386ccf650b27d1737"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba9d07f6755f5c9386ccf650b27d1737">&#9670;&nbsp;</a></span>Map() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -207,8 +212,18 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">carla::client::Map::Map </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d1/d07/classcarla_1_1rpc_1_1MapInfo.html">rpc::MapInfo</a>&#160;</td>
-          <td class="paramname"><em>description</em></td><td>)</td>
+          <td class="paramname"><em>description</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>xodr_content</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -218,7 +233,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00102">open_drive_file</a>.</p>
 
 </div>
 </div>
@@ -256,9 +273,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00033">33</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00035">35</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d49/classcarla_1_1client_1_1Map.html#ae0abef736f330c0c7c343f06bab2d932">~Map()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00102">open_drive_file</a>, and <a class="el" href="../../dd/d49/classcarla_1_1client_1_1Map.html#ae0abef736f330c0c7c343f06bab2d932">~Map()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -293,7 +310,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00033">Map()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00035">Map()</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -332,15 +349,47 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00102">102</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00105">105</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00101">_map</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00416">carla::road::Map::CalculateCrossedLanes()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00106">_map</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00440">carla::road::Map::CalculateCrossedLanes()</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d49/classcarla_1_1client_1_1Map_ac16f720dbed4c6c42f147103b778de60_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a4a8aa7f5c74e61184ef53445acb93626"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a8aa7f5c74e61184ef53445acb93626">&#9670;&nbsp;</a></span>CookInMemoryMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::client::Map::CookInMemoryMap </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cooks InMemoryMap used by the traffic manager. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00187">187</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d4/d89/InMemoryMap_8cpp_source.html#l00071">carla::traffic_manager::InMemoryMap::Cook()</a>.</p>
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d49/classcarla_1_1client_1_1Map_a4a8aa7f5c74e61184ef53445acb93626_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -362,14 +411,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00092">92</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00095">95</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00101">_map</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00609">carla::road::Map::GenerateWaypoints()</a>.</p>
-<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00106">_map</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00633">carla::road::Map::GenerateWaypoints()</a>.</p>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d49/classcarla_1_1client_1_1Map_afa0fc99536cdf0e66f90ff72ff1bb969_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -391,14 +440,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00112">112</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00115">115</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00101">_map</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00422">carla::road::Map::GetAllCrosswalkZones()</a>.</p>
-<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00106">_map</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00446">carla::road::Map::GetAllCrosswalkZones()</a>.</p>
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d49/classcarla_1_1client_1_1Map_a246d0cf615e08f1d74e2c6b9b9edaa97_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -422,14 +471,14 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns all the larndmarks in the map. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00135">135</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00138">138</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00101">_map</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00404">carla::road::Map::GetAllSignalReferences()</a>.</p>
-<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00106">_map</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00428">carla::road::Map::GetAllSignalReferences()</a>.</p>
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d49/classcarla_1_1client_1_1Map_ae42f2ea11b25aecac4da1cba36d93d90_cgraph.svg" width="376" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -454,14 +503,14 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns all the landmarks in the map of a specific type. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00157">157</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00160">160</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00101">_map</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00404">carla::road::Map::GetAllSignalReferences()</a>.</p>
-<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00106">_map</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00428">carla::road::Map::GetAllSignalReferences()</a>.</p>
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d49/classcarla_1_1client_1_1Map_aa160ac0df8bfef0c319bb354e13905b0_cgraph.svg" width="420" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -483,14 +532,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00108">108</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00111">111</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00101">_map</a>, and <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00044">carla::road::Map::GetGeoReference()</a>.</p>
-<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00106">_map</a>, and <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00044">carla::road::Map::GetGeoReference()</a>.</p>
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d49/classcarla_1_1client_1_1Map_ab197dfa5b509c6baec1d16587bddeb93_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -513,14 +562,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00116">116</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00119">119</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00948">carla::road::Map::GetJunction()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00026">carla::client::Waypoint::GetJunctionId()</a>, and <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00042">GetMap()</a>.</p>
-<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00972">carla::road::Map::GetJunction()</a>, <a class="el" href="../../d7/def/client_2Waypoint_8cpp_source.html#l00026">carla::client::Waypoint::GetJunctionId()</a>, and <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00042">GetMap()</a>.</p>
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d49/classcarla_1_1client_1_1Map_a476b46da8209333f1e3e9a297c52746a_cgraph.svg" width="402" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -555,14 +604,14 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns a pair of waypoints (start and end) for each lane in the junction. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00122">122</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00125">125</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00698">carla::road::Map::GetJunctionWaypoints()</a>, and <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00042">GetMap()</a>.</p>
-<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00722">carla::road::Map::GetJunctionWaypoints()</a>, and <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00042">GetMap()</a>.</p>
+<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d49/classcarla_1_1client_1_1Map_afdea683b9dd2fd832405e15053885488_cgraph.svg" width="100%" height="574"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -587,14 +636,14 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns all the landmarks in the same group including this one. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00170">170</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00173">173</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00101">_map</a>, <a class="el" href="../../db/d18/Landmark_8h_source.html#l00137">carla::client::Landmark::_signal</a>, <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00171">carla::road::Map::GetControllers()</a>, <a class="el" href="../../d0/def/Signal_8h_source.html#l00176">carla::road::Signal::GetControllers()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00145">GetLandmarksFromId()</a>, <a class="el" href="../../d1/d1d/RoadInfoSignal_8h_source.html#l00055">carla::road::element::RoadInfoSignal::GetSignal()</a>, and <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00167">carla::road::Map::GetSignals()</a>.</p>
-<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00106">_map</a>, <a class="el" href="../../db/d18/Landmark_8h_source.html#l00137">carla::client::Landmark::_signal</a>, <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00171">carla::road::Map::GetControllers()</a>, <a class="el" href="../../d0/def/Signal_8h_source.html#l00176">carla::road::Signal::GetControllers()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00148">GetLandmarksFromId()</a>, <a class="el" href="../../d1/d1d/RoadInfoSignal_8h_source.html#l00055">carla::road::element::RoadInfoSignal::GetSignal()</a>, and <a class="el" href="../../df/d64/road_2Map_8h_source.html#l00167">carla::road::Map::GetSignals()</a>.</p>
+<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d49/classcarla_1_1client_1_1Map_abfd1ffd7bae994ae16ad298fa3b14064_cgraph.svg" width="667" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -619,24 +668,24 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns all the larndmarks in the map with a specific OpenDRIVE id. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00145">145</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00148">148</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00101">_map</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00404">carla::road::Map::GetAllSignalReferences()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00106">_map</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00428">carla::road::Map::GetAllSignalReferences()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00170">GetLandmarkGroup()</a>.</p>
-<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d49/classcarla_1_1client_1_1Map_a9f18cc318d8e455f2d4f840c15abedcf_cgraph.svg" width="403" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
+<p class="reference">Referenced by <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00173">GetLandmarkGroup()</a>.</p>
 <div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d49/classcarla_1_1client_1_1Map_a9f18cc318d8e455f2d4f840c15abedcf_cgraph.svg" width="403" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d49/classcarla_1_1client_1_1Map_a9f18cc318d8e455f2d4f840c15abedcf_icgraph.svg" width="386" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -668,12 +717,12 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00042">42</a> of file <a class="el" href="../../d4/d9d/client_2Map_8h_source.html">client/Map.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00116">GetJunction()</a>, and <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00122">GetJunctionWaypoints()</a>.</p>
-<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00119">GetJunction()</a>, and <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00125">GetJunctionWaypoints()</a>.</p>
+<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d49/classcarla_1_1client_1_1Map_a61d3530a9cd133490bfa5c264153fb43_icgraph.svg" width="366" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -778,14 +827,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00067">67</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00070">70</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00101">_map</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00685">carla::road::Map::GenerateTopology()</a>.</p>
-<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00106">_map</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00709">carla::road::Map::GenerateTopology()</a>.</p>
+<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d49/classcarla_1_1client_1_1Map_aaacd774ccee2067ec1ca9575319ed3c0_cgraph.svg" width="100%" height="593"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -824,14 +873,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00041">41</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00044">44</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00101">_map</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00156">carla::road::Map::GetClosestWaypointOnRoad()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00203">carla::road::Map::GetWaypoint()</a>.</p>
-<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00106">_map</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00156">carla::road::Map::GetClosestWaypointOnRoad()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00203">carla::road::Map::GetWaypoint()</a>.</p>
+<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d49/classcarla_1_1client_1_1Map_aca871b2adb64efd4b149b74d5a4edadf_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -870,14 +919,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00056">56</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00059">59</a> of file <a class="el" href="../../db/da0/client_2Map_8cpp_source.html">client/Map.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00101">_map</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00203">carla::road::Map::GetWaypoint()</a>.</p>
-<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00106">_map</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00203">carla::road::Map::GetWaypoint()</a>.</p>
+<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d49/classcarla_1_1client_1_1Map_a385f4e25b422d3a688b6a27df1c7c5f3_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -905,7 +954,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00099">99</a> of file <a class="el" href="../../d4/d9d/client_2Map_8h_source.html">client/Map.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00104">104</a> of file <a class="el" href="../../d4/d9d/client_2Map_8h_source.html">client/Map.h</a>.</p>
 
 </div>
 </div>
@@ -929,9 +978,35 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00101">101</a> of file <a class="el" href="../../d4/d9d/client_2Map_8h_source.html">client/Map.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00106">106</a> of file <a class="el" href="../../d4/d9d/client_2Map_8h_source.html">client/Map.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00102">CalculateCrossedLanes()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00092">GenerateWaypoints()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00112">GetAllCrosswalkZones()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00135">GetAllLandmarks()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00157">GetAllLandmarksOfType()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00108">GetGeoReference()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00170">GetLandmarkGroup()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00145">GetLandmarksFromId()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00067">GetTopology()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00041">GetWaypoint()</a>, and <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00056">GetWaypointXODR()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00105">CalculateCrossedLanes()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00095">GenerateWaypoints()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00115">GetAllCrosswalkZones()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00138">GetAllLandmarks()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00160">GetAllLandmarksOfType()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00111">GetGeoReference()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00173">GetLandmarkGroup()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00148">GetLandmarksFromId()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00070">GetTopology()</a>, <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00044">GetWaypoint()</a>, and <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00059">GetWaypointXODR()</a>.</p>
+
+</div>
+</div>
+<a id="a7ac56695a554bf5474801674fd647e3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ac56695a554bf5474801674fd647e3b">&#9670;&nbsp;</a></span>open_drive_file</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string carla::client::Map::open_drive_file</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d9d/client_2Map_8h_source.html#l00102">102</a> of file <a class="el" href="../../d4/d9d/client_2Map_8h_source.html">client/Map.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../db/da0/client_2Map_8cpp_source.html#l00030">Map()</a>.</p>
 
 </div>
 </div>
