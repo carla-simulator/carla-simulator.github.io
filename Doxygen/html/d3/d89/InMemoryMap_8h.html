@@ -79,7 +79,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="title">InMemoryMap.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;memory&gt;</code><br />
+<div class="textblock"><code>#include &lt;chrono&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
 <code>#include &lt;unordered_map&gt;</code><br />
 <code>#include &lt;unordered_set&gt;</code><br />
 <code>#include &quot;boost/geometry.hpp&quot;</code><br />
@@ -91,7 +92,9 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <code>#include &quot;<a class="el" href="../../db/d8a/Math_8h_source.html">carla/geom/Math.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/d5c/Memory_8h_source.html">carla/Memory.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/dbb/RoadTypes_8h_source.html">carla/road/RoadTypes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d7f/RandomGenerator_8h_source.html">carla/trafficmanager/RandomGenerator.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d7/dd3/SimpleWaypoint_8h_source.html">carla/trafficmanager/SimpleWaypoint.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d9b/CachedSimpleWaypoint_8h_source.html">carla/trafficmanager/CachedSimpleWaypoint.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for InMemoryMap.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -105,7 +108,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/dfa/InMemoryMap_8h__dep__incl.svg" width="528" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/dfa/InMemoryMap_8h__dep__incl.svg" width="100%" height="552"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div>
@@ -127,12 +130,16 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a08d48e54fc36f6cc0c9f589533ae7cf7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a08d48e54fc36f6cc0c9f589533ae7cf7">carla::traffic_manager::Box</a> = bg::model::box&lt; Point3D &gt;</td></tr>
+<tr class="separator:a08d48e54fc36f6cc0c9f589533ae7cf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5030097952c4be1d2efb7a3292a0c809"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a5030097952c4be1d2efb7a3292a0c809">carla::traffic_manager::GeoGridId</a> = <a class="el" href="../../de/d26/namespacecarla_1_1road.html#a459e3705665dbc8b48b8ed053e15f6f7">crd::JuncId</a></td></tr>
 <tr class="separator:a5030097952c4be1d2efb7a3292a0c809"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d117af14ece8b36db8d9e842701e309"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a5d117af14ece8b36db8d9e842701e309">carla::traffic_manager::NodeList</a> = std::vector&lt; SimpleWaypointPtr &gt;</td></tr>
 <tr class="separator:a5d117af14ece8b36db8d9e842701e309"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8593312aeb9c06157e74db06486d2a3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ac8593312aeb9c06157e74db06486d2a3">carla::traffic_manager::Point3D</a> = bg::model::point&lt; float, 3, bg::cs::cartesian &gt;</td></tr>
 <tr class="separator:ac8593312aeb9c06157e74db06486d2a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ac394a02ba149e5aa70c5fea9e2a4d2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a8ac394a02ba149e5aa70c5fea9e2a4d2">carla::traffic_manager::Rtree</a> = bgi::rtree&lt; SpatialTreeEntry, bgi::rstar&lt; 16 &gt; &gt;</td></tr>
+<tr class="separator:a8ac394a02ba149e5aa70c5fea9e2a4d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae04c7d2d44981296aa252890523176e4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ae04c7d2d44981296aa252890523176e4">carla::traffic_manager::SegmentId</a> = std::tuple&lt; <a class="el" href="../../de/d26/namespacecarla_1_1road.html#a9fa6f293e66647bffc1d64d59084eed7">crd::RoadId</a>, <a class="el" href="../../de/d26/namespacecarla_1_1road.html#ab04570f0655cb16bd43d7cb2b939511f">crd::LaneId</a>, <a class="el" href="../../de/d26/namespacecarla_1_1road.html#aff83ed524d1d73b7d6d54b36a9fef9bf">crd::SectionId</a> &gt;</td></tr>
 <tr class="separator:ae04c7d2d44981296aa252890523176e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c85f61d7789b3a8b3a7714c82c37940"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a3c85f61d7789b3a8b3a7714c82c37940">carla::traffic_manager::SegmentMap</a> = std::map&lt; SegmentId, std::vector&lt; SimpleWaypointPtr &gt; &gt;</td></tr>
@@ -143,8 +150,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:ae125dabdf8fd78d9d1c12efac0a7cf97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b9eab09b2fe25556855f77e34156251"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a5b9eab09b2fe25556855f77e34156251">carla::traffic_manager::WaypointPtr</a> = <a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">carla::SharedPtr</a>&lt; <a class="el" href="../../dd/dff/classcarla_1_1client_1_1Waypoint.html">cc::Waypoint</a> &gt;</td></tr>
 <tr class="separator:a5b9eab09b2fe25556855f77e34156251"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a895c8a7eda0d26136a66a3abecb1364b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a895c8a7eda0d26136a66a3abecb1364b">carla::traffic_manager::WorldMap</a> = <a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">carla::SharedPtr</a>&lt; <a class="el" href="../../dd/d49/classcarla_1_1client_1_1Map.html">cc::Map</a> &gt;</td></tr>
-<tr class="separator:a895c8a7eda0d26136a66a3abecb1364b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad251beedc8d5073255b2c45a45e612b7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ad251beedc8d5073255b2c45a45e612b7">carla::traffic_manager::WorldMap</a> = <a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">carla::SharedPtr</a>&lt; const <a class="el" href="../../dd/d49/classcarla_1_1client_1_1Map.html">cc::Map</a> &gt;</td></tr>
+<tr class="separator:ad251beedc8d5073255b2c45a45e612b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -19,6 +19,7 @@ var searchData=
   ['hash_5fvalue',['hash_value',['../de/d7c/classpugi_1_1xml__attribute.html#a6ee5731a1ced72997821236a1c957281',1,'pugi::xml_attribute::hash_value()'],['../db/d65/classpugi_1_1xml__node.html#a1364756923465d561e53e9cc46436cac',1,'pugi::xml_node::hash_value()']]],
   ['hasmap',['HasMap',['../d8/dfe/classUOpenDriveMap.html#a5d732b94710ffaeade9c1aadd552558d',1,'UOpenDriveMap']]],
   ['hasmapchanged',['HasMapChanged',['../d5/dbf/classcarla_1_1client_1_1detail_1_1EpisodeState.html#ad29107edaac5b6f59d41bad54db75f96',1,'carla::client::detail::EpisodeState']]],
+  ['hasmapchangedsincelastcall',['HasMapChangedSinceLastCall',['../d1/db6/classcarla_1_1client_1_1detail_1_1Episode.html#acbda29a6ba9457c5ae1a99c8bd88387d',1,'carla::client::detail::Episode']]],
   ['hasroadsegments',['HasRoadSegments',['../d0/d95/classMapGen_1_1GraphParser.html#aa7e173d9e016a07502a3d25b4841357d',1,'MapGen::GraphParser']]],
   ['hassection',['HasSection',['../d6/de8/classFIniFile.html#a87bb9dc6a4e30a4d70c67be61bcc2ea4',1,'FIniFile']]],
   ['hasvehiclenear',['HasVehicleNear',['../d9/dc2/classcarla_1_1nav_1_1Navigation.html#a897f061cbddafd59ccedd41c70edb915',1,'carla::nav::Navigation']]],

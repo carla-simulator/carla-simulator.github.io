@@ -126,6 +126,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d28/classcarla_1_1sensor_1_1data_1_1ObstacleDetectionEvent.html">ObstacleDetectionEvent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A registered detection.  <a href="../../d3/d28/classcarla_1_1sensor_1_1data_1_1ObstacleDetectionEvent.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d2f/structcarla_1_1sensor_1_1data_1_1OpticalFlowPixel.html">OpticalFlowPixel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optical flow pixel format. 2 channel float data.  <a href="../../df/d2f/structcarla_1_1sensor_1_1data_1_1OpticalFlowPixel.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d13/classcarla_1_1sensor_1_1data_1_1RadarData.html">RadarData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/structcarla_1_1sensor_1_1data_1_1RadarDetection.html">RadarDetection</a></td></tr>
@@ -151,8 +154,11 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:ad59c9f68ebecc63d5f0ba5a1ab8419f3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de4/namespacecarla_1_1sensor_1_1data.html#ad59c9f68ebecc63d5f0ba5a1ab8419f3">Image</a> = <a class="el" href="../../df/d55/classcarla_1_1sensor_1_1data_1_1ImageTmpl.html">ImageTmpl</a>&lt; <a class="el" href="../../d2/dec/structcarla_1_1sensor_1_1data_1_1Color.html">Color</a> &gt;</td></tr>
-<tr class="memdesc:ad59c9f68ebecc63d5f0ba5a1ab8419f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">An image of 32-bit BGRA colors.  <a href="#ad59c9f68ebecc63d5f0ba5a1ab8419f3">More...</a><br /></td></tr>
+<tr class="memdesc:ad59c9f68ebecc63d5f0ba5a1ab8419f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">An image of 32-bit BGRA colors (8-bit channels)  <a href="#ad59c9f68ebecc63d5f0ba5a1ab8419f3">More...</a><br /></td></tr>
 <tr class="separator:ad59c9f68ebecc63d5f0ba5a1ab8419f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0b53b2d23902a3870dd07b71e330831"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de4/namespacecarla_1_1sensor_1_1data.html#ab0b53b2d23902a3870dd07b71e330831">OpticalFlowImage</a> = <a class="el" href="../../df/d55/classcarla_1_1sensor_1_1data_1_1ImageTmpl.html">ImageTmpl</a>&lt; <a class="el" href="../../df/d2f/structcarla_1_1sensor_1_1data_1_1OpticalFlowPixel.html">OpticalFlowPixel</a> &gt;</td></tr>
+<tr class="memdesc:ab0b53b2d23902a3870dd07b71e330831"><td class="mdescLeft">&#160;</td><td class="mdescRight">An image of 64-bit BGRA colors (16-bit channels)  <a href="#ab0b53b2d23902a3870dd07b71e330831">More...</a><br /></td></tr>
+<tr class="separator:ab0b53b2d23902a3870dd07b71e330831"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="ad59c9f68ebecc63d5f0ba5a1ab8419f3"></a>
@@ -167,9 +173,27 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>An image of 32-bit BGRA colors. </p>
+<p>An image of 32-bit BGRA colors (8-bit channels) </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d0f/Image_8h_source.html#l00017">17</a> of file <a class="el" href="../../d8/d0f/Image_8h_source.html">Image.h</a>.</p>
+
+</div>
+</div>
+<a id="ab0b53b2d23902a3870dd07b71e330831"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0b53b2d23902a3870dd07b71e330831">&#9670;&nbsp;</a></span>OpticalFlowImage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../db/de4/namespacecarla_1_1sensor_1_1data.html#ab0b53b2d23902a3870dd07b71e330831">carla::sensor::data::OpticalFlowImage</a> = typedef <a class="el" href="../../df/d55/classcarla_1_1sensor_1_1data_1_1ImageTmpl.html">ImageTmpl</a>&lt;<a class="el" href="../../df/d2f/structcarla_1_1sensor_1_1data_1_1OpticalFlowPixel.html">OpticalFlowPixel</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>An image of 64-bit BGRA colors (16-bit channels) </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d0f/Image_8h_source.html#l00020">20</a> of file <a class="el" href="../../d8/d0f/Image_8h_source.html">Image.h</a>.</p>
 
 </div>
 </div>

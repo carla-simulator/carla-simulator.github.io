@@ -1,6 +1,7 @@
 var searchData=
 [
   ['cachedactorlist',['CachedActorList',['../de/dfc/classcarla_1_1client_1_1detail_1_1CachedActorList.html',1,'carla::client::detail']]],
+  ['cachedsimplewaypoint',['CachedSimpleWaypoint',['../df/d1a/classcarla_1_1traffic__manager_1_1CachedSimpleWaypoint.html',1,'carla::traffic_manager']]],
   ['callbacklist',['CallbackList',['../d1/dff/classcarla_1_1client_1_1detail_1_1CallbackList.html',1,'carla::client::detail']]],
   ['callbacklist_3c_20carla_3a_3aclient_3a_3aworldsnapshot_20_3e',['CallbackList&lt; carla::client::WorldSnapshot &gt;',['../d1/dff/classcarla_1_1client_1_1detail_1_1CallbackList.html',1,'carla::client::detail']]],
   ['carlarecorderactorattribute',['CarlaRecorderActorAttribute',['../de/df2/structCarlaRecorderActorAttribute.html',1,'']]],
@@ -55,7 +56,7 @@ var searchData=
   ['collisionhazarddata',['CollisionHazardData',['../df/d79/structcarla_1_1traffic__manager_1_1CollisionHazardData.html',1,'carla::traffic_manager']]],
   ['collisionlock',['CollisionLock',['../d4/dbc/structcarla_1_1traffic__manager_1_1CollisionLock.html',1,'carla::traffic_manager']]],
   ['collisionstage',['CollisionStage',['../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html',1,'carla::traffic_manager']]],
-  ['color',['Color',['../da/d44/classcarla_1_1rpc_1_1Color.html',1,'carla::rpc::Color'],['../d2/dec/structcarla_1_1sensor_1_1data_1_1Color.html',1,'carla::sensor::data::Color']]],
+  ['color',['Color',['../d2/dec/structcarla_1_1sensor_1_1data_1_1Color.html',1,'carla::sensor::data::Color'],['../da/d44/classcarla_1_1rpc_1_1Color.html',1,'carla::rpc::Color']]],
   ['color_5fconverted_5ftype',['color_converted_type',['../de/d83/structcarla_1_1image_1_1ImageView_1_1color__converted__type.html',1,'carla::image::ImageView']]],
   ['colorconverter',['ColorConverter',['../da/da0/classcarla_1_1image_1_1ColorConverter.html',1,'carla::image']]],
   ['command',['Command',['../dd/d90/classcarla_1_1rpc_1_1Command.html',1,'carla::rpc']]],
@@ -68,6 +69,7 @@ var searchData=
   ['commandbase_3c_20applytorque_20_3e',['CommandBase&lt; ApplyTorque &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['commandbase_3c_20applytransform_20_3e',['CommandBase&lt; ApplyTransform &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['commandbase_3c_20applyvehiclecontrol_20_3e',['CommandBase&lt; ApplyVehicleControl &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
+  ['commandbase_3c_20applyvehiclephysicscontrol_20_3e',['CommandBase&lt; ApplyVehiclePhysicsControl &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['commandbase_3c_20applywalkercontrol_20_3e',['CommandBase&lt; ApplyWalkerControl &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['commandbase_3c_20applywalkerstate_20_3e',['CommandBase&lt; ApplyWalkerState &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['commandbase_3c_20destroyactor_20_3e',['CommandBase&lt; DestroyActor &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
@@ -75,6 +77,7 @@ var searchData=
   ['commandbase_3c_20setenablegravity_20_3e',['CommandBase&lt; SetEnableGravity &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['commandbase_3c_20setsimulatephysics_20_3e',['CommandBase&lt; SetSimulatePhysics &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['commandbase_3c_20setvehiclelightstate_20_3e',['CommandBase&lt; SetVehicleLightState &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
+  ['commandbase_3c_20showdebugtelemetry_20_3e',['CommandBase&lt; ShowDebugTelemetry &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['commandbase_3c_20spawnactor_20_3e',['CommandBase&lt; SpawnActor &gt;',['../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html',1,'carla::rpc::Command']]],
   ['compiletimetypemap',['CompileTimeTypeMap',['../d4/dd4/structcarla_1_1sensor_1_1CompileTimeTypeMap.html',1,'carla::sensor']]],
   ['compiletimetypemap_3c_20items_2e_2e_2e_20_3e',['CompileTimeTypeMap&lt; Items... &gt;',['../d4/dd4/structcarla_1_1sensor_1_1CompileTimeTypeMap.html',1,'carla::sensor']]],

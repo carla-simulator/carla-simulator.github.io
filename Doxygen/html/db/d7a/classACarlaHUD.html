@@ -69,6 +69,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../de/d0f/classACarlaHUD-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -93,7 +94,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d43/classACarlaHUD__coll__graph.svg" width="259" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d43/classACarlaHUD__coll__graph.svg" width="574" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -101,10 +102,17 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af22486685ce9535fb90b848a9d75beea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7a/classACarlaHUD.html#af22486685ce9535fb90b848a9d75beea">ACarlaHUD</a> (const FObjectInitializer &amp;ObjectInitializer)</td></tr>
 <tr class="separator:af22486685ce9535fb90b848a9d75beea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4b4f5c4733fca69272cf71aea725300"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7a/classACarlaHUD.html#ab4b4f5c4733fca69272cf71aea725300">AddDebugVehicleForTelemetry</a> (UWheeledVehicleMovementComponent *Veh)</td></tr>
+<tr class="separator:ab4b4f5c4733fca69272cf71aea725300"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb32419668a56189f9212e034861a26a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7a/classACarlaHUD.html#abb32419668a56189f9212e034861a26a">AddHUDString</a> (const FString Str, const FVector Location, const FColor Color, double LifeTime)</td></tr>
 <tr class="separator:abb32419668a56189f9212e034861a26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99b971dc92f14df6027fccfc89b11327"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7a/classACarlaHUD.html#a99b971dc92f14df6027fccfc89b11327">DrawHUD</a> () override</td></tr>
 <tr class="separator:a99b971dc92f14df6027fccfc89b11327"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a8e644aeffbd4150dbe13118dba2bd5b4"><td class="memItemLeft" align="right" valign="top">UWheeledVehicleMovementComponent *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7a/classACarlaHUD.html#a8e644aeffbd4150dbe13118dba2bd5b4">DebugVehicle</a> {nullptr}</td></tr>
+<tr class="separator:a8e644aeffbd4150dbe13118dba2bd5b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -142,11 +150,49 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html#l00045">45</a> of file <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html">CarlaHUD.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html#l00033">HUDString::Color</a>, <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html#l00032">HUDString::Location</a>, and <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html#l00031">HUDString::Str</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab4b4f5c4733fca69272cf71aea725300"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4b4f5c4733fca69272cf71aea725300">&#9670;&nbsp;</a></span>AddDebugVehicleForTelemetry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ACarlaHUD::AddDebugVehicleForTelemetry </td>
+          <td>(</td>
+          <td class="paramtype">UWheeledVehicleMovementComponent *&#160;</td>
+          <td class="paramname"><em>Veh</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html#l00054">54</a> of file <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html">CarlaHUD.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html#l00033">HUDString::Color</a>, <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html#l00032">HUDString::Location</a>, and <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html#l00031">HUDString::Str</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00468">ACarlaWheeledVehicle::ShowDebugTelemetry()</a>.</p>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d7a/classACarlaHUD_ab4b4f5c4733fca69272cf71aea725300_icgraph.svg" width="666" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="abb32419668a56189f9212e034861a26a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abb32419668a56189f9212e034861a26a">&#9670;&nbsp;</a></span>AddHUDString()</h2>
 
@@ -185,16 +231,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d53/CarlaHUD_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../df/d53/CarlaHUD_8cpp_source.html">CarlaHUD.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d53/CarlaHUD_8cpp_source.html#l00048">48</a> of file <a class="el" href="../../df/d53/CarlaHUD_8cpp_source.html">CarlaHUD.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html#l00056">StringList</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html#l00059">StringList</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d7b/DebugShapeDrawer_8cpp_source.html#l00161">FShapeVisitor::operator()()</a>.</p>
-<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d3/d7b/DebugShapeDrawer_8cpp_source.html#l00194">FShapeVisitor::operator()()</a>.</p>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d7a/classACarlaHUD_abb32419668a56189f9212e034861a26a_icgraph.svg" width="439" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -226,11 +272,29 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d53/CarlaHUD_8cpp_source.html#l00009">9</a> of file <a class="el" href="../../df/d53/CarlaHUD_8cpp_source.html">CarlaHUD.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html#l00056">StringList</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html#l00053">DebugVehicle</a>, and <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html#l00059">StringList</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8e644aeffbd4150dbe13118dba2bd5b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e644aeffbd4150dbe13118dba2bd5b4">&#9670;&nbsp;</a></span>DebugVehicle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UWheeledVehicleMovementComponent* ACarlaHUD::DebugVehicle {nullptr}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html#l00053">53</a> of file <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html">CarlaHUD.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../df/d53/CarlaHUD_8cpp_source.html#l00009">DrawHUD()</a>, and <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00468">ACarlaWheeledVehicle::ShowDebugTelemetry()</a>.</p>
+
+</div>
+</div>
 <a id="a9f35cba130c691efb33b8735368ea7bb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f35cba130c691efb33b8735368ea7bb">&#9670;&nbsp;</a></span>StringList</h2>
 
@@ -251,9 +315,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html#l00056">56</a> of file <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html">CarlaHUD.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html#l00059">59</a> of file <a class="el" href="../../d0/d3b/CarlaHUD_8h_source.html">CarlaHUD.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d53/CarlaHUD_8cpp_source.html#l00042">AddHUDString()</a>, and <a class="el" href="../../df/d53/CarlaHUD_8cpp_source.html#l00009">DrawHUD()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d53/CarlaHUD_8cpp_source.html#l00048">AddHUDString()</a>, and <a class="el" href="../../df/d53/CarlaHUD_8cpp_source.html#l00009">DrawHUD()</a>.</p>
 
 </div>
 </div>

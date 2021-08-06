@@ -122,6 +122,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3cc49b5e9c8293dec0c89a1cac2ceae8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da4/classcarla_1_1geom_1_1Transform.html#a3cc49b5e9c8293dec0c89a1cac2ceae8">TransformPoint</a> (<a class="el" href="../../d9/dfe/classcarla_1_1geom_1_1Vector3D.html">Vector3D</a> &amp;in_point) const</td></tr>
 <tr class="memdesc:a3cc49b5e9c8293dec0c89a1cac2ceae8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies this transformation to <em>in_point</em> (first translation then rotation).  <a href="#a3cc49b5e9c8293dec0c89a1cac2ceae8">More...</a><br /></td></tr>
 <tr class="separator:a3cc49b5e9c8293dec0c89a1cac2ceae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f3ddb328045ed66d37c22679fb9bf35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da4/classcarla_1_1geom_1_1Transform.html#a2f3ddb328045ed66d37c22679fb9bf35">TransformVector</a> (<a class="el" href="../../d9/dfe/classcarla_1_1geom_1_1Vector3D.html">Vector3D</a> &amp;in_vector) const</td></tr>
+<tr class="memdesc:a2f3ddb328045ed66d37c22679fb9bf35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies this transformation to <em>in_vector</em> (rotation only).  <a href="#a2f3ddb328045ed66d37c22679fb9bf35">More...</a><br /></td></tr>
+<tr class="separator:a2f3ddb328045ed66d37c22679fb9bf35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -157,7 +160,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00137">operator!=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00144">operator!=()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -263,7 +266,7 @@ Public Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00050">carla::geom::Rotation::GetForwardVector()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00838">carla::road::Map::CreateRtree()</a>, and <a class="el" href="../../d4/df7/MotionPlanStage_8cpp_source.html#l00047">carla::traffic_manager::MotionPlanStage::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00862">carla::road::Map::CreateRtree()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00115">carla::client::TrafficLight::GetStopWaypoints()</a>, and <a class="el" href="../../d4/df7/MotionPlanStage_8cpp_source.html#l00072">carla::traffic_manager::MotionPlanStage::Update()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -277,7 +280,7 @@ Public Attributes</h2></td></tr>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/da4/classcarla_1_1geom_1_1Transform_ae2780e95b1c8b53205fb222a314f6773_icgraph.svg" width="100%" height="424"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/da4/classcarla_1_1geom_1_1Transform_ae2780e95b1c8b53205fb222a314f6773_icgraph.svg" width="100%" height="473"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -308,9 +311,9 @@ Public Attributes</h2></td></tr>
 
 <p>Computes the 4-matrix form of the inverse transformation. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00104">104</a> of file <a class="el" href="../../de/d17/geom_2Transform_8h_source.html">geom/Transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00111">111</a> of file <a class="el" href="../../de/d17/geom_2Transform_8h_source.html">geom/Transform.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00073">InverseTransformPoint()</a>, <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00027">carla::geom::Rotation::pitch</a>, <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00031">carla::geom::Rotation::roll</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00043">carla::geom::Math::ToRadians()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00029">carla::geom::Rotation::yaw</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00080">InverseTransformPoint()</a>, <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00027">carla::geom::Rotation::pitch</a>, <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00031">carla::geom::Rotation::roll</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00043">carla::geom::Math::ToRadians()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00029">carla::geom::Rotation::yaw</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
@@ -347,7 +350,7 @@ Public Attributes</h2></td></tr>
 
 <p>Computes the 4-matrix form of the transformation. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00081">81</a> of file <a class="el" href="../../de/d17/geom_2Transform_8h_source.html">geom/Transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00088">88</a> of file <a class="el" href="../../de/d17/geom_2Transform_8h_source.html">geom/Transform.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00027">carla::geom::Rotation::pitch</a>, <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00031">carla::geom::Rotation::roll</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00043">carla::geom::Math::ToRadians()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00029">carla::geom::Rotation::yaw</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -461,11 +464,11 @@ Public Attributes</h2></td></tr>
 
 <p>Applies the inverse of this transformation to <em>in_point</em>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00073">73</a> of file <a class="el" href="../../de/d17/geom_2Transform_8h_source.html">geom/Transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00080">80</a> of file <a class="el" href="../../de/d17/geom_2Transform_8h_source.html">geom/Transform.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00096">carla::geom::Rotation::InverseRotateVector()</a>, and <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00028">location</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00058">carla::geom::BoundingBox::Contains()</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00104">GetInverseMatrix()</a>, and <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00062">TEST()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00058">carla::geom::BoundingBox::Contains()</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00111">GetInverseMatrix()</a>, and <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00062">TEST()</a>.</p>
 <div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-8-summary" class="dynsummary" style="display:block;">
@@ -537,7 +540,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00137">137</a> of file <a class="el" href="../../de/d17/geom_2Transform_8h_source.html">geom/Transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00144">144</a> of file <a class="el" href="../../de/d17/geom_2Transform_8h_source.html">geom/Transform.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../de/da4/classcarla_1_1geom_1_1Transform.html#a95a2abcc84b92498bcd844420568b339">Transform()</a>.</p>
 <div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -575,7 +578,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00133">133</a> of file <a class="el" href="../../de/d17/geom_2Transform_8h_source.html">geom/Transform.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00140">140</a> of file <a class="el" href="../../de/d17/geom_2Transform_8h_source.html">geom/Transform.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00028">location</a>, and <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00030">rotation</a>.</p>
 
@@ -611,7 +614,7 @@ Public Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00028">location</a>, and <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00062">carla::geom::Rotation::RotateVector()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00422">carla::road::Map::GetAllCrosswalkZones()</a>, <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00089">carla::geom::BoundingBox::GetWorldVertices()</a>, and <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00028">TEST()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00446">carla::road::Map::GetAllCrosswalkZones()</a>, <a class="el" href="../../dd/d90/TrafficLight_8cpp_source.html#l00115">carla::client::TrafficLight::GetStopWaypoints()</a>, <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00089">carla::geom::BoundingBox::GetWorldVertices()</a>, and <a class="el" href="../../d6/dd9/test__geom_8cpp_source.html#l00028">TEST()</a>.</p>
 <div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
@@ -625,7 +628,47 @@ Public Attributes</h2></td></tr>
 <div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-12-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/da4/classcarla_1_1geom_1_1Transform_a3cc49b5e9c8293dec0c89a1cac2ceae8_icgraph.svg" width="100%" height="473"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/da4/classcarla_1_1geom_1_1Transform_a3cc49b5e9c8293dec0c89a1cac2ceae8_icgraph.svg" width="100%" height="525"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a2f3ddb328045ed66d37c22679fb9bf35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f3ddb328045ed66d37c22679fb9bf35">&#9670;&nbsp;</a></span>TransformVector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::geom::Transform::TransformVector </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/dfe/classcarla_1_1geom_1_1Vector3D.html">Vector3D</a> &amp;&#160;</td>
+          <td class="paramname"><em>in_vector</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Applies this transformation to <em>in_vector</em> (rotation only). </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00073">73</a> of file <a class="el" href="../../de/d17/geom_2Transform_8h_source.html">geom/Transform.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00062">carla::geom::Rotation::RotateVector()</a>.</p>
+<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/da4/classcarla_1_1geom_1_1Transform_a2f3ddb328045ed66d37c22679fb9bf35_cgraph.svg" width="587" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -646,7 +689,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00028">28</a> of file <a class="el" href="../../de/d17/geom_2Transform_8h_source.html">geom/Transform.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00795">carla::road::Map::AddElementToRtree()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00522">carla::nav::Navigation::AddOrUpdateVehicle()</a>, <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html#l00267">carla::rss::RssCheck::AppendRoutingTarget()</a>, <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00800">carla::road::MapBuilder::CreateJunctionBoundingBoxes()</a>, <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html#l00867">carla::rss::RssCheck::CreateWorldModel()</a>, <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00340">carla::client::detail::Simulator::GetActorLocation()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00422">carla::road::Map::GetAllCrosswalkZones()</a>, <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html#l00272">carla::rss::RssCheck::GetRoutingTargets()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00910">carla::nav::Navigation::GetWalkerTransform()</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00073">InverseTransformPoint()</a>, <a class="el" href="../../dd/dbc/LibCarla_2source_2carla_2client_2LaneInvasionSensor_8cpp_source.html#l00125">carla::client::LaneInvasionCallback::MakeBounds()</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00133">operator==()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00237">carla::client::detail::Client::SpawnActorWithParent()</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00065">TransformPoint()</a>, <a class="el" href="../../d4/df7/MotionPlanStage_8cpp_source.html#l00047">carla::traffic_manager::MotionPlanStage::Update()</a>, <a class="el" href="../../d9/da8/ALSM_8cpp_source.html#l00171">carla::traffic_manager::ALSM::UpdateRegisteredActorsData()</a>, and <a class="el" href="../../d9/da8/ALSM_8cpp_source.html#l00244">carla::traffic_manager::ALSM::UpdateUnregisteredActorsData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00819">carla::road::Map::AddElementToRtree()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00522">carla::nav::Navigation::AddOrUpdateVehicle()</a>, <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html#l00267">carla::rss::RssCheck::AppendRoutingTarget()</a>, <a class="el" href="../../df/da9/MapBuilder_8cpp_source.html#l00838">carla::road::MapBuilder::CreateJunctionBoundingBoxes()</a>, <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html#l00867">carla::rss::RssCheck::CreateWorldModel()</a>, <a class="el" href="../../d6/d4a/Simulator_8h_source.html#l00359">carla::client::detail::Simulator::GetActorLocation()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00446">carla::road::Map::GetAllCrosswalkZones()</a>, <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html#l00272">carla::rss::RssCheck::GetRoutingTargets()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00910">carla::nav::Navigation::GetWalkerTransform()</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00080">InverseTransformPoint()</a>, <a class="el" href="../../dd/dbc/LibCarla_2source_2carla_2client_2LaneInvasionSensor_8cpp_source.html#l00125">carla::client::LaneInvasionCallback::MakeBounds()</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00140">operator==()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00296">carla::client::detail::Client::SpawnActorWithParent()</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00065">TransformPoint()</a>, <a class="el" href="../../d4/df7/MotionPlanStage_8cpp_source.html#l00072">carla::traffic_manager::MotionPlanStage::Update()</a>, <a class="el" href="../../d9/da8/ALSM_8cpp_source.html#l00195">carla::traffic_manager::ALSM::UpdateData()</a>, and <a class="el" href="../../d9/da8/ALSM_8cpp_source.html#l00275">carla::traffic_manager::ALSM::UpdateUnregisteredActorsData()</a>.</p>
 
 </div>
 </div>
@@ -664,7 +707,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00030">30</a> of file <a class="el" href="../../de/d17/geom_2Transform_8h_source.html">geom/Transform.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00522">carla::nav::Navigation::AddOrUpdateVehicle()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00422">carla::road::Map::GetAllCrosswalkZones()</a>, <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html#l00453">carla::rss::RssCheck::GetSpeed()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00910">carla::nav::Navigation::GetWalkerTransform()</a>, <a class="el" href="../../dd/dbc/LibCarla_2source_2carla_2client_2LaneInvasionSensor_8cpp_source.html#l00125">carla::client::LaneInvasionCallback::MakeBounds()</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00133">operator==()</a>, <a class="el" href="../../d4/df7/MotionPlanStage_8cpp_source.html#l00047">carla::traffic_manager::MotionPlanStage::Update()</a>, <a class="el" href="../../d9/da8/ALSM_8cpp_source.html#l00171">carla::traffic_manager::ALSM::UpdateRegisteredActorsData()</a>, and <a class="el" href="../../d9/da8/ALSM_8cpp_source.html#l00244">carla::traffic_manager::ALSM::UpdateUnregisteredActorsData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00522">carla::nav::Navigation::AddOrUpdateVehicle()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00446">carla::road::Map::GetAllCrosswalkZones()</a>, <a class="el" href="../../d0/dce/RssCheck_8cpp_source.html#l00453">carla::rss::RssCheck::GetSpeed()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00910">carla::nav::Navigation::GetWalkerTransform()</a>, <a class="el" href="../../dd/dbc/LibCarla_2source_2carla_2client_2LaneInvasionSensor_8cpp_source.html#l00125">carla::client::LaneInvasionCallback::MakeBounds()</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00140">operator==()</a>, <a class="el" href="../../d4/df7/MotionPlanStage_8cpp_source.html#l00072">carla::traffic_manager::MotionPlanStage::Update()</a>, <a class="el" href="../../d9/da8/ALSM_8cpp_source.html#l00195">carla::traffic_manager::ALSM::UpdateData()</a>, and <a class="el" href="../../d9/da8/ALSM_8cpp_source.html#l00275">carla::traffic_manager::ALSM::UpdateUnregisteredActorsData()</a>.</p>
 
 </div>
 </div>

@@ -71,6 +71,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="../../d1/dd6/classAFrictionTrigger-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -129,12 +130,17 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a1422541ad085f64ee0edd31e1e198b51"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db9/classAFrictionTrigger.html#a1422541ad085f64ee0edd31e1e198b51">Tick</a> (float DeltaTime) override</td></tr>
 <tr class="separator:a1422541ad085f64ee0edd31e1e198b51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:aeba702c9d3ea8191469767efdcf2059a"><td class="memItemLeft" align="right" valign="top">TArray&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db9/classAFrictionTrigger.html#aeba702c9d3ea8191469767efdcf2059a">OldFrictionValues</a></td></tr>
+<tr class="separator:aeba702c9d3ea8191469767efdcf2059a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a41d51007e4ebb7586ca6b30eb40693c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db9/classAFrictionTrigger.html#a41d51007e4ebb7586ca6b30eb40693c3">Init</a> ()</td></tr>
 <tr class="separator:a41d51007e4ebb7586ca6b30eb40693c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e8031d646547a9308c5654d7d71deba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db9/classAFrictionTrigger.html#a2e8031d646547a9308c5654d7d71deba">UpdateWheelsFriction</a> (<a class="el" href="../../d1/da4/classAActor.html">AActor</a> *OtherActor, float NewFriction)</td></tr>
-<tr class="separator:a2e8031d646547a9308c5654d7d71deba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab844c0c19a175e72d9ed6a063604f20a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db9/classAFrictionTrigger.html#ab844c0c19a175e72d9ed6a063604f20a">UpdateWheelsFriction</a> (<a class="el" href="../../d1/da4/classAActor.html">AActor</a> *OtherActor, TArray&lt; float &gt; &amp;NewFriction)</td></tr>
+<tr class="separator:ab844c0c19a175e72d9ed6a063604f20a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -158,7 +164,7 @@ Private Member Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00009">9</a> of file <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html">FrictionTrigger.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html#l00073">TriggerVolume</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html#l00076">TriggerVolume</a>.</p>
 
 </div>
 </div>
@@ -186,7 +192,7 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00075">75</a> of file <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html">FrictionTrigger.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00078">78</a> of file <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html">FrictionTrigger.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00023">Init()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -224,9 +230,9 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00081">81</a> of file <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html">FrictionTrigger.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00084">84</a> of file <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html">FrictionTrigger.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00053">OnTriggerBeginOverlap()</a>, <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00064">OnTriggerEndOverlap()</a>, and <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html#l00073">TriggerVolume</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00045">OnTriggerBeginOverlap()</a>, <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00064">OnTriggerEndOverlap()</a>, and <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html#l00076">TriggerVolume</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -263,9 +269,9 @@ Private Member Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html">FrictionTrigger.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00053">OnTriggerBeginOverlap()</a>, <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00064">OnTriggerEndOverlap()</a>, and <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html#l00073">TriggerVolume</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00045">OnTriggerBeginOverlap()</a>, <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00064">OnTriggerEndOverlap()</a>, and <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html#l00076">TriggerVolume</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00075">BeginPlay()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00078">BeginPlay()</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
@@ -335,17 +341,17 @@ Private Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00053">53</a> of file <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html">FrictionTrigger.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00045">45</a> of file <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html">FrictionTrigger.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html#l00070">Friction</a>, and <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00038">UpdateWheelsFriction()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html#l00073">Friction</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00227">ACarlaWheeledVehicle::GetWheelsFrictionScale()</a>, <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html#l00068">OldFrictionValues</a>, <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00038">UpdateWheelsFriction()</a>, and <a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00081">EndPlay()</a>, and <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00023">Init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00084">EndPlay()</a>, and <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00023">Init()</a>.</p>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/db9/classAFrictionTrigger_a385c11c7c9087a1008ddb822d5abce9c_cgraph.svg" width="659" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/db9/classAFrictionTrigger_a385c11c7c9087a1008ddb822d5abce9c_cgraph.svg" width="663" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -399,15 +405,15 @@ Private Member Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00064">64</a> of file <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html">FrictionTrigger.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00038">UpdateWheelsFriction()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00227">ACarlaWheeledVehicle::GetWheelsFrictionScale()</a>, <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html#l00068">OldFrictionValues</a>, <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00038">UpdateWheelsFriction()</a>, and <a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00081">EndPlay()</a>, and <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00023">Init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00084">EndPlay()</a>, and <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00023">Init()</a>.</p>
 <div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/db9/classAFrictionTrigger_adc59cc3657450bf9b310672b7a3a899b_cgraph.svg" width="659" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/db9/classAFrictionTrigger_adc59cc3657450bf9b310672b7a3a899b_cgraph.svg" width="663" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -531,12 +537,12 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00098">98</a> of file <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html">FrictionTrigger.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00101">101</a> of file <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html">FrictionTrigger.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a2e8031d646547a9308c5654d7d71deba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e8031d646547a9308c5654d7d71deba">&#9670;&nbsp;</a></span>UpdateWheelsFriction()</h2>
+<a id="ab844c0c19a175e72d9ed6a063604f20a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab844c0c19a175e72d9ed6a063604f20a">&#9670;&nbsp;</a></span>UpdateWheelsFriction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -553,7 +559,7 @@ Private Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype">TArray&lt; float &gt; &amp;&#160;</td>
           <td class="paramname"><em>NewFriction</em>&#160;</td>
         </tr>
         <tr>
@@ -571,15 +577,15 @@ Private Member Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00038">38</a> of file <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html">FrictionTrigger.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00292">ACarlaWheeledVehicle::GetWheelsFrictionScale()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00306">ACarlaWheeledVehicle::SetWheelsFrictionScale()</a>, and <a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00241">ACarlaWheeledVehicle::SetWheelsFrictionScale()</a>, and <a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00053">OnTriggerBeginOverlap()</a>, and <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00064">OnTriggerEndOverlap()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00045">OnTriggerBeginOverlap()</a>, and <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00064">OnTriggerEndOverlap()</a>.</p>
 <div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/db9/classAFrictionTrigger_a2e8031d646547a9308c5654d7d71deba_cgraph.svg" width="419" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/db9/classAFrictionTrigger_ab844c0c19a175e72d9ed6a063604f20a_cgraph.svg" width="418" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -587,7 +593,7 @@ Private Member Functions</h2></td></tr>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-11-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/db9/classAFrictionTrigger_a2e8031d646547a9308c5654d7d71deba_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/db9/classAFrictionTrigger_ab844c0c19a175e72d9ed6a063604f20a_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -606,7 +612,7 @@ Private Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html#l00075">75</a> of file <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html">FrictionTrigger.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html#l00078">78</a> of file <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html">FrictionTrigger.h</a>.</p>
 
 </div>
 </div>
@@ -622,9 +628,35 @@ Private Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html#l00070">70</a> of file <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html">FrictionTrigger.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html#l00073">73</a> of file <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html">FrictionTrigger.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00075">ACarlaWheeledVehicle::BeginPlay()</a>, and <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00053">OnTriggerBeginOverlap()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00075">ACarlaWheeledVehicle::BeginPlay()</a>, and <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00045">OnTriggerBeginOverlap()</a>.</p>
+
+</div>
+</div>
+<a id="aeba702c9d3ea8191469767efdcf2059a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeba702c9d3ea8191469767efdcf2059a">&#9670;&nbsp;</a></span>OldFrictionValues</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TArray&lt;float&gt; AFrictionTrigger::OldFrictionValues</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html#l00068">68</a> of file <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html">FrictionTrigger.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00045">OnTriggerBeginOverlap()</a>, and <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00064">OnTriggerEndOverlap()</a>.</p>
 
 </div>
 </div>
@@ -640,9 +672,9 @@ Private Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html#l00073">73</a> of file <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html">FrictionTrigger.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html#l00076">76</a> of file <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html">FrictionTrigger.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00009">AFrictionTrigger()</a>, <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00081">EndPlay()</a>, and <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00023">Init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00009">AFrictionTrigger()</a>, <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00084">EndPlay()</a>, and <a class="el" href="../../d8/de2/FrictionTrigger_8cpp_source.html#l00023">Init()</a>.</p>
 
 </div>
 </div>

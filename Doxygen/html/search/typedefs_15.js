@@ -12,7 +12,8 @@ var searchData=
   ['weak',['Weak',['../d2/dcc/structcarla_1_1client_1_1detail_1_1EpisodeProxyPointerType.html#add3feb1699efdb12e492a942678e2b5a',1,'carla::client::detail::EpisodeProxyPointerType']]],
   ['weakepisodeproxy',['WeakEpisodeProxy',['../d8/dcd/namespacecarla_1_1client_1_1detail.html#aa0c9d0c933ac26790114fea82d9a4e00',1,'carla::client::detail']]],
   ['weakptr',['WeakPtr',['../d9/d36/namespacecarla.html#afa9e7f9a87e41357032121f7b19da902',1,'carla']]],
-  ['worldmap',['WorldMap',['../d0/db7/namespacecarla_1_1traffic__manager.html#a895c8a7eda0d26136a66a3abecb1364b',1,'carla::traffic_manager']]],
+  ['wheellocation',['WheelLocation',['../d9/dc6/classcarla_1_1client_1_1Vehicle.html#aafe9381247cc94abcbc2e1fdd97a65b6',1,'carla::client::Vehicle']]],
+  ['worldmap',['WorldMap',['../d0/db7/namespacecarla_1_1traffic__manager.html#ad251beedc8d5073255b2c45a45e612b7',1,'carla::traffic_manager']]],
   ['wp',['WP',['../de/d6c/namespacecarla_1_1rpc.html#ab528fb3bab8588d83dae25260704b336',1,'carla::rpc']]],
   ['writer',['writer',['../dc/d20/structwchar__selector_3_012_01_4.html#af84979f9b8cd883798fe4e99820d6073',1,'wchar_selector&lt; 2 &gt;::writer()'],['../de/d17/structwchar__selector_3_014_01_4.html#a48042e7fe51c4661397ae7afe3905243',1,'wchar_selector&lt; 4 &gt;::writer()']]]
 ];
