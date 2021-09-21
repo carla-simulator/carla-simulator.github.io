@@ -59,6 +59,8 @@ var searchData=
   ['distance_5fto_5fleading_5fvehicle',['distance_to_leading_vehicle',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#aaffad5200d378bdb7417fbf6bbf3aa95',1,'carla::traffic_manager::Parameters']]],
   ['do_5fafter',['do_after',['../df/d6d/structcarla_1_1rpc_1_1Command_1_1SpawnActor.html#af37050f727e09246291f75b16b8e0f17',1,'carla::rpc::Command::SpawnActor']]],
   ['done',['done',['../dd/d41/structDoneGuard.html#a2117e04ed57e8fff26f91fcecbdfa7af',1,'DoneGuard']]],
+  ['dooranimalpha',['DoorAnimAlpha',['../d5/d70/classACarlaWheeledVehicle.html#adce690a5bf34664804addd1573b73390',1,'ACarlaWheeledVehicle']]],
+  ['dooranimmaxangle',['DoorAnimMaxAngle',['../d5/d70/classACarlaWheeledVehicle.html#a43730f645ac853f34e02534135fd734f',1,'ACarlaWheeledVehicle']]],
   ['doorbps',['DoorBPs',['../de/d3c/classAProceduralBuilding.html#ae47cbb236e9c4f2ecc92f49085589df2',1,'AProceduralBuilding']]],
   ['doormeshes',['DoorMeshes',['../de/d3c/classAProceduralBuilding.html#a23f1f681179a10debc2d473f08681453',1,'AProceduralBuilding']]],
   ['doorsindexposition',['DoorsIndexPosition',['../de/d3c/classAProceduralBuilding.html#a0c309d235826d350de75382ea7492390',1,'AProceduralBuilding']]],

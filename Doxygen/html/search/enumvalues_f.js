@@ -9,7 +9,9 @@ var searchData=
   ['right',['Right',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#a1ae031503b72620fa5c60d0b8bc7b71fa92b09c7c48c520c3c55e497875da437c',1,'carla::road::element::LaneMarking']]],
   ['rightblinker',['RightBlinker',['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html#a6372a8be47dbe5cd2b9c19730e5d1dc5ade588a14a926c77ea4176982d062b5db',1,'carla::rpc::VehicleLightState']]],
   ['rigid',['Rigid',['../d6/d68/ActorAttacher_8h.html#a9cf55c1af321cd2ac28b5097b5e4aa4eac7207657aba5dfd2e5b0ca3f35cd8c26',1,'Rigid():&#160;ActorAttacher.h'],['../de/d6c/namespacecarla_1_1rpc.html#a3124bfdfcd62bda5c4fe5978ec668365ac7207657aba5dfd2e5b0ca3f35cd8c26',1,'carla::rpc::Rigid()']]],
+  ['rl',['RL',['../d3/d00/CarlaWheeledVehicle_8h.html#aa720ea2031295cc8eab7bb5ce25b8c95a7f49bbe2f0af1edb6c6cee353d3e204b',1,'RL():&#160;CarlaWheeledVehicle.h'],['../de/d6c/namespacecarla_1_1rpc.html#a3eb217a0533294546f189b832ad0ee04a7f49bbe2f0af1edb6c6cee353d3e204b',1,'carla::rpc::RL()']]],
   ['roadlines',['RoadLines',['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a7203a9e556a409fa04e5c557afd92a20',1,'carla::rpc']]],
   ['roads',['Roads',['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a8eb4008d5f09ee682da558b18419cde7',1,'carla::rpc']]],
-  ['roadworks',['RoadWorks',['../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247a3f126480eb5f964a14b4d074378ca176',1,'carla::road::Lane']]]
+  ['roadworks',['RoadWorks',['../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247a3f126480eb5f964a14b4d074378ca176',1,'carla::road::Lane']]],
+  ['rr',['RR',['../d3/d00/CarlaWheeledVehicle_8h.html#aa720ea2031295cc8eab7bb5ce25b8c95acb95449a94688af33f6e9bb090cf2936',1,'RR():&#160;CarlaWheeledVehicle.h'],['../de/d6c/namespacecarla_1_1rpc.html#a3eb217a0533294546f189b832ad0ee04acb95449a94688af33f6e9bb090cf2936',1,'carla::rpc::RR()']]]
 ];

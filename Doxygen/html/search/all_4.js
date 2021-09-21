@@ -156,6 +156,8 @@ var searchData=
   ['document_5forder_5fcomparator',['document_order_comparator',['../d1/d2d/structdocument__order__comparator.html',1,'']]],
   ['done',['done',['../dd/d41/structDoneGuard.html#a2117e04ed57e8fff26f91fcecbdfa7af',1,'DoneGuard']]],
   ['doneguard',['DoneGuard',['../dd/d41/structDoneGuard.html',1,'']]],
+  ['dooranimalpha',['DoorAnimAlpha',['../d5/d70/classACarlaWheeledVehicle.html#adce690a5bf34664804addd1573b73390',1,'ACarlaWheeledVehicle']]],
+  ['dooranimmaxangle',['DoorAnimMaxAngle',['../d5/d70/classACarlaWheeledVehicle.html#a43730f645ac853f34e02534135fd734f',1,'ACarlaWheeledVehicle']]],
   ['doorbps',['DoorBPs',['../de/d3c/classAProceduralBuilding.html#ae47cbb236e9c4f2ecc92f49085589df2',1,'AProceduralBuilding']]],
   ['doormeshes',['DoorMeshes',['../de/d3c/classAProceduralBuilding.html#a23f1f681179a10debc2d473f08681453',1,'AProceduralBuilding']]],
   ['doorsindexposition',['DoorsIndexPosition',['../de/d3c/classAProceduralBuilding.html#a0c309d235826d350de75382ea7492390',1,'AProceduralBuilding']]],
