@@ -32,6 +32,7 @@ var searchData=
   ['perc_5fignore_5fvehicles',['perc_ignore_vehicles',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#ad72020060c2f1b6aae2fe5d58460af28',1,'carla::traffic_manager::Parameters']]],
   ['perc_5fignore_5fwalkers',['perc_ignore_walkers',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a5447a3e59a2e40d1f8c4b04d379f4036',1,'carla::traffic_manager::Parameters']]],
   ['perc_5fkeep_5fright',['perc_keep_right',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a52f84caddb04868b17729cbd8c14bc53',1,'carla::traffic_manager::Parameters']]],
+  ['perc_5fmax_5fslowdown',['PERC_MAX_SLOWDOWN',['../d1/dde/namespacecarla_1_1traffic__manager_1_1constants_1_1MotionPlan.html#a173bc041d3e1ff190fc96707fe3ca2f4',1,'carla::traffic_manager::constants::MotionPlan']]],
   ['perc_5frun_5ftraffic_5flight',['perc_run_traffic_light',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a78f09539462122c6b442e46f97c32980',1,'carla::traffic_manager::Parameters']]],
   ['perc_5frun_5ftraffic_5fsign',['perc_run_traffic_sign',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a9f97766059d17e275b132d37f58faa92',1,'carla::traffic_manager::Parameters']]],
   ['percentage_5fdifference_5ffrom_5fspeed_5flimit',['percentage_difference_from_speed_limit',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#ad8e68681bf0321ba6023bc8615a53439',1,'carla::traffic_manager::Parameters']]],

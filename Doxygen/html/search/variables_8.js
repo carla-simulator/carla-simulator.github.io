@@ -23,6 +23,7 @@ var searchData=
   ['helper',['Helper',['../dc/dc6/classCarlaReplayer.html#ac39e2e5c4ad5152b9e1e98da3712b3b5',1,'CarlaReplayer']]],
   ['hero_5factors',['hero_actors',['../d2/d75/classcarla_1_1traffic__manager_1_1ALSM.html#a94944075ade59a7d25dae4523875862a',1,'carla::traffic_manager::ALSM']]],
   ['hero_5flocation',['hero_location',['../d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#a6ed2f976120a70cd03bb74f036b14509',1,'carla::traffic_manager::TrackTraffic']]],
+  ['high_5fspeed_5fhorizon_5frate',['HIGH_SPEED_HORIZON_RATE',['../de/d80/namespacecarla_1_1traffic__manager_1_1constants_1_1PathBufferUpdate.html#a7e69cd6ffd588f4e264c81a881132149',1,'carla::traffic_manager::constants::PathBufferUpdate']]],
   ['highbeam',['HighBeam',['../de/d9e/structFVehicleLightState.html#ab9d1ccfd8d685cca21b9e3e0d009ae1c',1,'FVehicleLightState']]],
   ['highway_5flateral_5fparameters',['highway_lateral_parameters',['../dd/df9/classcarla_1_1traffic__manager_1_1MotionPlanStage.html#a3dcf20e9840ea72da31682b2b23d9640',1,'carla::traffic_manager::MotionPlanStage']]],
   ['highway_5flongitudinal_5fparameters',['highway_longitudinal_parameters',['../dd/df9/classcarla_1_1traffic__manager_1_1MotionPlanStage.html#a929010306500f8c790a4ebe1fd10669f',1,'carla::traffic_manager::MotionPlanStage']]],
