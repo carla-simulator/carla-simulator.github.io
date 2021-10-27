@@ -73,7 +73,7 @@ var searchData=
   ['open_5fdrive_5ffile',['open_drive_file',['../dd/d49/classcarla_1_1client_1_1Map.html#a7ac56695a554bf5474801674fd647e3b',1,'carla::client::Map']]],
   ['open_5ffile_5fwide',['open_file_wide',['../db/d20/pugixml_8cpp.html#a6a347080c51ac7c992a32cde66a43801',1,'pugixml.cpp']]],
   ['opendoor',['OpenDoor',['../d5/d70/classACarlaWheeledVehicle.html#abd21dd6df3f9cce28b22c6c50184ce09',1,'ACarlaWheeledVehicle::OpenDoor()'],['../d9/dc6/classcarla_1_1client_1_1Vehicle.html#ab7c9c4dbeff216f3c6819ca635e440e5',1,'carla::client::Vehicle::OpenDoor()']]],
-  ['opendooranim',['OpenDoorAnim',['../d5/d70/classACarlaWheeledVehicle.html#a4e66737bbdb86d86673bb31e7a43f584',1,'ACarlaWheeledVehicle']]],
+  ['opendoorphys',['OpenDoorPhys',['../d5/d70/classACarlaWheeledVehicle.html#ac366b344047c94137d813a4a8a35eaeb',1,'ACarlaWheeledVehicle']]],
   ['opendrive',['OpenDrive',['../d3/d3b/classutil_1_1OpenDrive.html',1,'util']]],
   ['opendriveactor_2ecpp',['OpenDriveActor.cpp',['../d4/de0/OpenDriveActor_8cpp.html',1,'']]],
   ['opendriveactor_2eh',['OpenDriveActor.h',['../df/d3a/OpenDriveActor_8h.html',1,'']]],

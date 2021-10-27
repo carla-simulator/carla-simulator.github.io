@@ -36,7 +36,7 @@ var searchData=
   ['open',['Open',['../d6/d51/classcarla_1_1streaming_1_1detail_1_1tcp_1_1ServerSession.html#a506c21da6ede5e6189fa7713a14d13c2',1,'carla::streaming::detail::tcp::ServerSession']]],
   ['open_5ffile_5fwide',['open_file_wide',['../db/d20/pugixml_8cpp.html#a6a347080c51ac7c992a32cde66a43801',1,'pugixml.cpp']]],
   ['opendoor',['OpenDoor',['../d5/d70/classACarlaWheeledVehicle.html#abd21dd6df3f9cce28b22c6c50184ce09',1,'ACarlaWheeledVehicle::OpenDoor()'],['../d9/dc6/classcarla_1_1client_1_1Vehicle.html#ab7c9c4dbeff216f3c6819ca635e440e5',1,'carla::client::Vehicle::OpenDoor()']]],
-  ['opendooranim',['OpenDoorAnim',['../d5/d70/classACarlaWheeledVehicle.html#a4e66737bbdb86d86673bb31e7a43f584',1,'ACarlaWheeledVehicle']]],
+  ['opendoorphys',['OpenDoorPhys',['../d5/d70/classACarlaWheeledVehicle.html#ac366b344047c94137d813a4a8a35eaeb',1,'ACarlaWheeledVehicle']]],
   ['opendrivegenerationparameters',['OpendriveGenerationParameters',['../d6/d2e/structcarla_1_1rpc_1_1OpendriveGenerationParameters.html#a17ce6322875d521771c040ca97c60ca9',1,'carla::rpc::OpendriveGenerationParameters::OpendriveGenerationParameters()'],['../d6/d2e/structcarla_1_1rpc_1_1OpendriveGenerationParameters.html#a54f11b9869f92eee319590e2055e4275',1,'carla::rpc::OpendriveGenerationParameters::OpendriveGenerationParameters(double v_distance, double max_road_len, double w_height, double a_width, bool smooth_junc, bool e_visibility, bool e_pedestrian)']]],
   ['opensession',['OpenSession',['../df/d4d/classcarla_1_1streaming_1_1detail_1_1tcp_1_1Server.html#a964e7cbd9aa99ee80f5b44fd2445d824',1,'carla::streaming::detail::tcp::Server']]],
   ['openstream',['OpenStream',['../da/dd6/classFCarlaServer.html#a4fda33539d020d85e886869b3a161e9e',1,'FCarlaServer']]],
