@@ -7,6 +7,7 @@ var searchData=
   ['vehiclecollisioninfo',['VehicleCollisionInfo',['../d4/d66/structcarla_1_1nav_1_1VehicleCollisionInfo.html',1,'carla::nav']]],
   ['vehiclecontrol',['VehicleControl',['../d3/d9c/classcarla_1_1rpc_1_1VehicleControl.html',1,'carla::rpc']]],
   ['vehicledata',['VehicleData',['../da/dc7/structcarla_1_1sensor_1_1data_1_1detail_1_1VehicleData.html',1,'carla::sensor::data::detail']]],
+  ['vehiclelightstage',['VehicleLightStage',['../dd/de2/classcarla_1_1traffic__manager_1_1VehicleLightStage.html',1,'carla::traffic_manager']]],
   ['vehiclelightstate',['VehicleLightState',['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html',1,'carla::rpc']]],
   ['vehiclephysicscontrol',['VehiclePhysicsControl',['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html',1,'carla::rpc']]],
   ['vertexinfo',['VertexInfo',['../de/d74/structcarla_1_1geom_1_1VertexInfo.html',1,'carla::geom']]],

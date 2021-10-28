@@ -5,6 +5,8 @@ var searchData=
   ['vehicle_2eh',['Vehicle.h',['../d9/d18/Vehicle_8h.html',1,'']]],
   ['vehicledoor_2eh',['VehicleDoor.h',['../da/dc3/VehicleDoor_8h.html',1,'']]],
   ['vehicleinputpriority_2eh',['VehicleInputPriority.h',['../db/d8b/VehicleInputPriority_8h.html',1,'']]],
+  ['vehiclelightstage_2ecpp',['VehicleLightStage.cpp',['../d2/d11/VehicleLightStage_8cpp.html',1,'']]],
+  ['vehiclelightstage_2eh',['VehicleLightStage.h',['../d1/dc1/VehicleLightStage_8h.html',1,'']]],
   ['vehiclelightstatelist_2eh',['VehicleLightStateList.h',['../d8/d09/VehicleLightStateList_8h.html',1,'']]],
   ['vehicleparameters_2eh',['VehicleParameters.h',['../d1/d1b/VehicleParameters_8h.html',1,'']]],
   ['vehiclespawnpoint_2eh',['VehicleSpawnPoint.h',['../d9/d67/VehicleSpawnPoint_8h.html',1,'']]],

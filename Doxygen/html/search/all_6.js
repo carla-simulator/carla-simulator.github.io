@@ -106,6 +106,7 @@ var searchData=
   ['fnavigationmesh',['FNavigationMesh',['../df/deb/classFNavigationMesh.html',1,'']]],
   ['fog',['Fog',['../de/d9e/structFVehicleLightState.html#adf5ff0c31df9229d0a1b98ecacd928f0',1,'FVehicleLightState::Fog()'],['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html#a6372a8be47dbe5cd2b9c19730e5d1dc5acd56a9c68c3b6503ccfb283c81775b07',1,'carla::rpc::VehicleLightState::Fog()']]],
   ['fog_5fdensity',['fog_density',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#ac97ff3a5f60a32124342ad79a51086a2',1,'carla::rpc::WeatherParameters']]],
+  ['fog_5fdensity_5fthreshold',['FOG_DENSITY_THRESHOLD',['../de/df3/namespacecarla_1_1traffic__manager_1_1constants_1_1VehicleLight.html#a44e068fca7997483aeb4282a1637fdfc',1,'carla::traffic_manager::constants::VehicleLight']]],
   ['fog_5fdistance',['fog_distance',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#a162db2b5183a2f352c360c709bbddabd',1,'carla::rpc::WeatherParameters']]],
   ['fog_5ffalloff',['fog_falloff',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#a38c634bf15f1a27f82d7d8024babd990',1,'carla::rpc::WeatherParameters']]],
   ['fogdensity',['FogDensity',['../dd/d9b/structFWeatherParameters.html#a837329ac7aba4ad07951d6e65c9715a1',1,'FWeatherParameters']]],

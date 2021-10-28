@@ -40,6 +40,7 @@ var searchData=
   ['tracktraffic',['TrackTraffic',['../da/d97/namespacecarla_1_1traffic__manager_1_1constants_1_1TrackTraffic.html',1,'carla::traffic_manager::constants']]],
   ['traffic_5fmanager',['traffic_manager',['../d0/db7/namespacecarla_1_1traffic__manager.html',1,'carla']]],
   ['trafficlight',['TrafficLight',['../da/d4c/namespacecarla_1_1traffic__manager_1_1constants_1_1TrafficLight.html',1,'carla::traffic_manager::constants']]],
+  ['vehiclelight',['VehicleLight',['../de/df3/namespacecarla_1_1traffic__manager_1_1constants_1_1VehicleLight.html',1,'carla::traffic_manager::constants']]],
   ['vehicleremoval',['VehicleRemoval',['../d7/dff/namespacecarla_1_1traffic__manager_1_1constants_1_1VehicleRemoval.html',1,'carla::traffic_manager::constants']]],
   ['waypointselection',['WaypointSelection',['../dc/dee/namespacecarla_1_1traffic__manager_1_1constants_1_1WaypointSelection.html',1,'carla::traffic_manager::constants']]]
 ];
