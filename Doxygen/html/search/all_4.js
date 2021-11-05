@@ -180,7 +180,6 @@ var searchData=
   ['drawarrow',['DrawArrow',['../d1/d64/classcarla_1_1client_1_1DebugHelper.html#adb8a1c285fa59957f0a21bc3879403a8',1,'carla::client::DebugHelper']]],
   ['drawboundary',['DrawBoundary',['../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#a6c80469d0250fe52e1304a16c7e1704b',1,'carla::traffic_manager::CollisionStage']]],
   ['drawbox',['DrawBox',['../d1/d64/classcarla_1_1client_1_1DebugHelper.html#affa4cb11e3c4dc1f57753b9cd97ebf60',1,'carla::client::DebugHelper']]],
-  ['drawbuffer',['DrawBuffer',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a678f708df5533042038c141917873887',1,'carla::traffic_manager::LocalizationStage']]],
   ['drawdebugshape',['DrawDebugShape',['../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a6af7aadcbad7e3204b561b355b0d108a',1,'carla::client::detail::Client::DrawDebugShape()'],['../df/df3/classcarla_1_1client_1_1detail_1_1Simulator.html#a8d68b597ccde9f68a1dae982454bb6e4',1,'carla::client::detail::Simulator::DrawDebugShape()']]],
   ['drawhud',['DrawHUD',['../db/d7a/classACarlaHUD.html#a99b971dc92f14df6027fccfc89b11327',1,'ACarlaHUD']]],
   ['drawline',['DrawLine',['../d1/d64/classcarla_1_1client_1_1DebugHelper.html#a5e4dae6f79e00b4ccc83a8d854f46d34',1,'carla::client::DebugHelper']]],

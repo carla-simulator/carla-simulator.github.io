@@ -98,6 +98,8 @@ var searchData=
   ['atomicmap_3c_20actorid_2c_20bool_20_3e',['AtomicMap&lt; ActorId, bool &gt;',['../d7/d02/classcarla_1_1traffic__manager_1_1AtomicMap.html',1,'carla::traffic_manager']]],
   ['atomicmap_3c_20actorid_2c_20carla_3a_3atraffic_5fmanager_3a_3achangelaneinfo_20_3e',['AtomicMap&lt; ActorId, carla::traffic_manager::ChangeLaneInfo &gt;',['../d7/d02/classcarla_1_1traffic__manager_1_1AtomicMap.html',1,'carla::traffic_manager']]],
   ['atomicmap_3c_20actorid_2c_20float_20_3e',['AtomicMap&lt; ActorId, float &gt;',['../d7/d02/classcarla_1_1traffic__manager_1_1AtomicMap.html',1,'carla::traffic_manager']]],
+  ['atomicmap_3c_20actorid_2c_20path_20_3e',['AtomicMap&lt; ActorId, Path &gt;',['../d7/d02/classcarla_1_1traffic__manager_1_1AtomicMap.html',1,'carla::traffic_manager']]],
+  ['atomicmap_3c_20actorid_2c_20route_20_3e',['AtomicMap&lt; ActorId, Route &gt;',['../d7/d02/classcarla_1_1traffic__manager_1_1AtomicMap.html',1,'carla::traffic_manager']]],
   ['atomicmap_3c_20actorid_2c_20std_3a_3ashared_5fptr_3c_20carla_3a_3atraffic_5fmanager_3a_3aatomicactorset_20_3e_20_3e',['AtomicMap&lt; ActorId, std::shared_ptr&lt; carla::traffic_manager::AtomicActorSet &gt; &gt;',['../d7/d02/classcarla_1_1traffic__manager_1_1AtomicMap.html',1,'carla::traffic_manager']]],
   ['atomicsharedptr',['AtomicSharedPtr',['../d2/dcf/classcarla_1_1AtomicSharedPtr.html',1,'carla']]],
   ['atomicsharedptr_3c_20carla_3a_3aclient_3a_3adetail_3a_3awalkernavigation_20_3e',['AtomicSharedPtr&lt; carla::client::detail::WalkerNavigation &gt;',['../d2/dcf/classcarla_1_1AtomicSharedPtr.html',1,'carla']]],

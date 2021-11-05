@@ -15,6 +15,8 @@ var searchData=
   ['carla_5ftype_5fsidewalk',['CARLA_TYPE_SIDEWALK',['../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742ab7e755795adc37b01ad5c6fd620ad8bd',1,'carla::nav']]],
   ['carla_5ftype_5fwalkable',['CARLA_TYPE_WALKABLE',['../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742a8b1617ca0d7f488ec6ffb013609ca802',1,'carla::nav']]],
   ['carsimpluginnotenabled',['CarSimPluginNotEnabled',['../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da2697fa4d2030cb2a8f8cd3db63648f5b',1,'CarlaServerResponse.h']]],
+  ['changelaneleft',['ChangeLaneLeft',['../d0/db7/namespacecarla_1_1traffic__manager.html#a5734807dba08623eeca046a963ade360a34ea03ab35021d78c638ecd14116c128',1,'carla::traffic_manager']]],
+  ['changelaneright',['ChangeLaneRight',['../d0/db7/namespacecarla_1_1traffic__manager.html#a5734807dba08623eeca046a963ade360a71f0dc0420536e414ba71a6da6eb91d7',1,'carla::traffic_manager']]],
   ['channelcount',['ChannelCount',['../d9/d27/classcarla_1_1sensor_1_1data_1_1SemanticLidarData.html#a0d0554efb807f37afef58001b1d575dba14ecc4a048ab2c5103d743f84e02de5b',1,'carla::sensor::data::SemanticLidarData']]],
   ['character',['Character',['../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h.html#a81be2176b5cc416c3b47dda8af29a6a8a0b8efba6b691115f12604f2afe5cdcb5',1,'EnvironmentObject.h']]],
   ['collision',['Collision',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a15fb6ccbd11ebebcea2b48dc477f3561',1,'CarlaRecorder.h']]],

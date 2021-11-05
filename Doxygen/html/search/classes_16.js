@@ -2,7 +2,8 @@ var searchData=
 [
   ['walker',['Walker',['../de/d2b/classcarla_1_1client_1_1Walker.html',1,'carla::client']]],
   ['walkeraicontroller',['WalkerAIController',['../d0/d52/classcarla_1_1client_1_1WalkerAIController.html',1,'carla::client']]],
-  ['walkerbonecontrol',['WalkerBoneControl',['../d8/d4e/classcarla_1_1rpc_1_1WalkerBoneControl.html',1,'carla::rpc']]],
+  ['walkerbonecontrolin',['WalkerBoneControlIn',['../d0/d62/classcarla_1_1rpc_1_1WalkerBoneControlIn.html',1,'carla::rpc']]],
+  ['walkerbonecontrolout',['WalkerBoneControlOut',['../d2/ddc/classcarla_1_1rpc_1_1WalkerBoneControlOut.html',1,'carla::rpc']]],
   ['walkercontrol',['WalkerControl',['../d7/d1b/classcarla_1_1rpc_1_1WalkerControl.html',1,'carla::rpc']]],
   ['walkereventignore',['WalkerEventIgnore',['../d2/d76/structcarla_1_1nav_1_1WalkerEventIgnore.html',1,'carla::nav']]],
   ['walkereventstopandcheck',['WalkerEventStopAndCheck',['../d5/de9/structcarla_1_1nav_1_1WalkerEventStopAndCheck.html',1,'carla::nav']]],

@@ -101,6 +101,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2a3188609fde37bc14c24b8e64267491"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/deb/classcarla_1_1rss_1_1RssRestrictor.html#a2a3188609fde37bc14c24b8e64267491">RssRestrictor</a> ()</td></tr>
 <tr class="memdesc:a2a3188609fde37bc14c24b8e64267491"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <a href="#a2a3188609fde37bc14c24b8e64267491">More...</a><br /></td></tr>
 <tr class="separator:a2a3188609fde37bc14c24b8e64267491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad07c3bf553c0b9f1acc94f1a20f41b34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/deb/classcarla_1_1rss_1_1RssRestrictor.html#ad07c3bf553c0b9f1acc94f1a20f41b34">SetLogLevel</a> (const uint8_t log_level)</td></tr>
+<tr class="separator:ad07c3bf553c0b9f1acc94f1a20f41b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff548a09e27517769a9d3c301b237c31"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/deb/classcarla_1_1rss_1_1RssRestrictor.html#aff548a09e27517769a9d3c301b237c31">~RssRestrictor</a> ()</td></tr>
 <tr class="memdesc:aff548a09e27517769a9d3c301b237c31"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <a href="#aff548a09e27517769a9d3c301b237c31">More...</a><br /></td></tr>
 <tr class="separator:aff548a09e27517769a9d3c301b237c31"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,13 +137,13 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dfe/RssRestrictor_8cpp_source.html#l00019">19</a> of file <a class="el" href="../../de/dfe/RssRestrictor_8cpp_source.html">RssRestrictor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/deb/RssRestrictor_8h_source.html#l00055">_logger</a>, and <a class="el" href="../../d9/deb/classcarla_1_1rss_1_1RssRestrictor.html#aff548a09e27517769a9d3c301b237c31">~RssRestrictor()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/deb/RssRestrictor_8h_source.html#l00057">_logger</a>, <a class="el" href="../../de/dfe/RssRestrictor_8cpp_source.html#l00031">SetLogLevel()</a>, and <a class="el" href="../../d9/deb/classcarla_1_1rss_1_1RssRestrictor.html#aff548a09e27517769a9d3c301b237c31">~RssRestrictor()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/deb/classcarla_1_1rss_1_1RssRestrictor_a2a3188609fde37bc14c24b8e64267491_cgraph.svg" width="408" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/deb/classcarla_1_1rss_1_1RssRestrictor_a2a3188609fde37bc14c24b8e64267491_cgraph.svg" width="408" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -225,9 +227,41 @@ Private Attributes</h2></td></tr>
 
 <p>the actual function to restrict the given vehicle control input to mimick RSS conform behavior by braking Lateral braking is achieved by counter-steering, so is only a very rough solution </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/dfe/RssRestrictor_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../de/dfe/RssRestrictor_8cpp_source.html">RssRestrictor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dfe/RssRestrictor_8cpp_source.html#l00038">38</a> of file <a class="el" href="../../de/dfe/RssRestrictor_8cpp_source.html">RssRestrictor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/deb/RssRestrictor_8h_source.html#l00055">_logger</a>, <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00085">carla::rss::EgoDynamicsOnRoute::avg_route_accel_lat</a>, <a class="el" href="../../dd/d28/LibCarla_2source_2carla_2rpc_2VehicleControl_8h_source.html#l00041">carla::rpc::VehicleControl::brake</a>, <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00068">carla::rss::EgoDynamicsOnRoute::crossing_border</a>, <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00057">carla::rss::EgoDynamicsOnRoute::ego_heading</a>, <a class="el" href="../../d1/d8e/LibCarla_2source_2carla_2rpc_2VehiclePhysicsControl_8h_source.html#l00117">carla::rpc::VehiclePhysicsControl::mass</a>, <a class="el" href="../../dd/d28/LibCarla_2source_2carla_2rpc_2VehicleControl_8h_source.html#l00043">carla::rpc::VehicleControl::reverse</a>, <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00080">carla::rss::EgoDynamicsOnRoute::route_accel_lat</a>, <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00076">carla::rss::EgoDynamicsOnRoute::route_speed_lat</a>, <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00078">carla::rss::EgoDynamicsOnRoute::route_speed_lon</a>, <a class="el" href="../../dd/d28/LibCarla_2source_2carla_2rpc_2VehicleControl_8h_source.html#l00040">carla::rpc::VehicleControl::steer</a>, <a class="el" href="../../dd/d28/LibCarla_2source_2carla_2rpc_2VehicleControl_8h_source.html#l00039">carla::rpc::VehicleControl::throttle</a>, and <a class="el" href="../../d1/d8e/LibCarla_2source_2carla_2rpc_2VehiclePhysicsControl_8h_source.html#l00122">carla::rpc::VehiclePhysicsControl::wheels</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/deb/RssRestrictor_8h_source.html#l00057">_logger</a>, <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00085">carla::rss::EgoDynamicsOnRoute::avg_route_accel_lat</a>, <a class="el" href="../../dd/d28/LibCarla_2source_2carla_2rpc_2VehicleControl_8h_source.html#l00041">carla::rpc::VehicleControl::brake</a>, <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00068">carla::rss::EgoDynamicsOnRoute::crossing_border</a>, <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00057">carla::rss::EgoDynamicsOnRoute::ego_heading</a>, <a class="el" href="../../d1/d8e/LibCarla_2source_2carla_2rpc_2VehiclePhysicsControl_8h_source.html#l00117">carla::rpc::VehiclePhysicsControl::mass</a>, <a class="el" href="../../dd/d28/LibCarla_2source_2carla_2rpc_2VehicleControl_8h_source.html#l00043">carla::rpc::VehicleControl::reverse</a>, <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00080">carla::rss::EgoDynamicsOnRoute::route_accel_lat</a>, <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00076">carla::rss::EgoDynamicsOnRoute::route_speed_lat</a>, <a class="el" href="../../d8/dab/RssCheck_8h_source.html#l00078">carla::rss::EgoDynamicsOnRoute::route_speed_lon</a>, <a class="el" href="../../dd/d28/LibCarla_2source_2carla_2rpc_2VehicleControl_8h_source.html#l00040">carla::rpc::VehicleControl::steer</a>, <a class="el" href="../../dd/d28/LibCarla_2source_2carla_2rpc_2VehicleControl_8h_source.html#l00039">carla::rpc::VehicleControl::throttle</a>, and <a class="el" href="../../d1/d8e/LibCarla_2source_2carla_2rpc_2VehiclePhysicsControl_8h_source.html#l00122">carla::rpc::VehiclePhysicsControl::wheels</a>.</p>
+
+</div>
+</div>
+<a id="ad07c3bf553c0b9f1acc94f1a20f41b34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad07c3bf553c0b9f1acc94f1a20f41b34">&#9670;&nbsp;</a></span>SetLogLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::rss::RssRestrictor::SetLogLevel </td>
+          <td>(</td>
+          <td class="paramtype">const uint8_t&#160;</td>
+          <td class="paramname"><em>log_level</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/dfe/RssRestrictor_8cpp_source.html#l00031">31</a> of file <a class="el" href="../../de/dfe/RssRestrictor_8cpp_source.html">RssRestrictor.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d4/deb/RssRestrictor_8h_source.html#l00057">_logger</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/dfe/RssRestrictor_8cpp_source.html#l00019">RssRestrictor()</a>.</p>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/deb/classcarla_1_1rss_1_1RssRestrictor_ad07c3bf553c0b9f1acc94f1a20f41b34_icgraph.svg" width="408" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
@@ -254,9 +288,9 @@ Private Attributes</h2></td></tr>
 
 <p>the logger instance </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/deb/RssRestrictor_8h_source.html#l00055">55</a> of file <a class="el" href="../../d4/deb/RssRestrictor_8h_source.html">RssRestrictor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/deb/RssRestrictor_8h_source.html#l00057">57</a> of file <a class="el" href="../../d4/deb/RssRestrictor_8h_source.html">RssRestrictor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dfe/RssRestrictor_8cpp_source.html#l00030">RestrictVehicleControl()</a>, and <a class="el" href="../../de/dfe/RssRestrictor_8cpp_source.html#l00019">RssRestrictor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dfe/RssRestrictor_8cpp_source.html#l00038">RestrictVehicleControl()</a>, <a class="el" href="../../de/dfe/RssRestrictor_8cpp_source.html#l00019">RssRestrictor()</a>, and <a class="el" href="../../de/dfe/RssRestrictor_8cpp_source.html#l00031">SetLogLevel()</a>.</p>
 
 </div>
 </div>
