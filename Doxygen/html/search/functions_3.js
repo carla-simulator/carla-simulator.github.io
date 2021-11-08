@@ -2,6 +2,7 @@ var searchData=
 [
   ['c_5fstr',['c_str',['../dd/d5c/classxpath__string.html#a8298e0e49ac4cfe52ea31f178dc094c4',1,'xpath_string']]],
   ['cachedsimplewaypoint',['CachedSimpleWaypoint',['../df/d1a/classcarla_1_1traffic__manager_1_1CachedSimpleWaypoint.html#af57a4291a90b03da164a384cb80ed382',1,'carla::traffic_manager::CachedSimpleWaypoint::CachedSimpleWaypoint()=default'],['../df/d1a/classcarla_1_1traffic__manager_1_1CachedSimpleWaypoint.html#aeca3d33bd4636fcc9b98895fc1a41f95',1,'carla::traffic_manager::CachedSimpleWaypoint::CachedSimpleWaypoint(const SimpleWaypointPtr &amp;simple_waypoint)']]],
+  ['calcbounds',['CalcBounds',['../d8/d9f/classUTaggedComponent.html#a8c2831bdc47d6016ca695ca3c78a1e52',1,'UTaggedComponent']]],
   ['calculate',['Calculate',['../d2/d60/classcarla_1_1road_1_1element_1_1LaneCrossingCalculator.html#a589511f573df9e9c46c55a7a46c02cd6',1,'carla::road::element::LaneCrossingCalculator']]],
   ['calculatecrossedlanes',['CalculateCrossedLanes',['../dd/d49/classcarla_1_1client_1_1Map.html#ac16f720dbed4c6c42f147103b778de60',1,'carla::client::Map::CalculateCrossedLanes()'],['../d0/d34/classcarla_1_1road_1_1Map.html#a4d3427dc449d9555dc1a02865d110e76',1,'carla::road::Map::CalculateCrossedLanes()']]],
   ['calculatecurrentvelocity',['CalculateCurrentVelocity',['../d9/d27/classARadar.html#a8eb26415e270f8c940ba15ca2b35c99f',1,'ARadar']]],
@@ -175,6 +176,7 @@ var searchData=
   ['createroadspeed',['CreateRoadSpeed',['../de/d16/classcarla_1_1road_1_1MapBuilder.html#a290e593d53d5a58895c542e3db1012f6',1,'carla::road::MapBuilder']]],
   ['createroof',['CreateRoof',['../de/d3c/classAProceduralBuilding.html#afe1ca72e692c8cdb5c6e3dc168f39575',1,'AProceduralBuilding']]],
   ['creatertree',['CreateRtree',['../d0/d34/classcarla_1_1road_1_1Map.html#ad30ed42bc1a8089df7d63ec8cdfa3e72',1,'carla::road::Map']]],
+  ['createsceneproxy',['CreateSceneProxy',['../d8/d9f/classUTaggedComponent.html#a025dda6256e72588b4a57e4c262c4552',1,'UTaggedComponent::CreateSceneProxy() override'],['../d8/d9f/classUTaggedComponent.html#a3c406845b08d57a78f132e3361414f68',1,'UTaggedComponent::CreateSceneProxy(UStaticMeshComponent *StaticMeshComponent)'],['../d8/d9f/classUTaggedComponent.html#a3b15e72fc321e265a15ecbb91aefdfcd',1,'UTaggedComponent::CreateSceneProxy(USkeletalMeshComponent *SkeletalMeshComponent)'],['../d8/d9f/classUTaggedComponent.html#a6c176e047e7b0c28e76389ad95209931',1,'UTaggedComponent::CreateSceneProxy(UHierarchicalInstancedStaticMeshComponent *MeshComponent)'],['../d8/d9f/classUTaggedComponent.html#a0b356043c5644d2d31a59e6194693720',1,'UTaggedComponent::CreateSceneProxy(UInstancedStaticMeshComponent *MeshComponent)']]],
   ['createsectionoffset',['CreateSectionOffset',['../de/d16/classcarla_1_1road_1_1MapBuilder.html#a42bde86ce9e8116ad27afcf8a10cc839',1,'carla::road::MapBuilder']]],
   ['createside',['CreateSide',['../de/d3c/classAProceduralBuilding.html#a2bbf1af9300a3857d1ebb056b545007e',1,'AProceduralBuilding']]],
   ['createthread',['CreateThread',['../db/d71/classcarla_1_1ThreadGroup.html#acc9d822c4e73247c9565e3c089debf4a',1,'carla::ThreadGroup']]],

@@ -67,6 +67,7 @@ var searchData=
   ['uroadmap',['URoadMap',['../d5/db2/classURoadMap.html#a626ed954d838a41b2dc9d1916453504b',1,'URoadMap']]],
   ['usecarsimroad',['UseCarSimRoad',['../dc/dde/classFCarlaActor.html#a9c2a948b0d689e73bd9a0265bacca8d9',1,'FCarlaActor::UseCarSimRoad()'],['../d7/d01/classFVehicleActor.html#aa4ab8c0ad9f24a867a4275891ca6665b',1,'FVehicleActor::UseCarSimRoad()'],['../d2/dea/classUCarSimManagerComponent.html#ab141d90e4c2f4f341c9328f30617c862',1,'UCarSimManagerComponent::UseCarSimRoad()'],['../dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#acb4e36403e76f4df7c5c9b7e8afe0193',1,'carla::client::detail::Client::UseCarSimRoad()'],['../df/df3/classcarla_1_1client_1_1detail_1_1Simulator.html#a22e8a629273a4bddff81ad7fc5499c1f',1,'carla::client::detail::Simulator::UseCarSimRoad()'],['../d9/dc6/classcarla_1_1client_1_1Vehicle.html#aab9dad11884a86b8b91e3af3e5b1e6a5',1,'carla::client::Vehicle::UseCarSimRoad()']]],
   ['uses_5fheap',['uses_heap',['../dd/d5c/classxpath__string.html#a48e69f228ffe1eb33c3831fc8aa65536',1,'xpath_string']]],
+  ['utaggedcomponent',['UTaggedComponent',['../d8/d9f/classUTaggedComponent.html#a417c5604b69ca78e1192082990d97ba3',1,'UTaggedComponent']]],
   ['utaggerdelegate',['UTaggerDelegate',['../df/dad/classUTaggerDelegate.html#af85a56a0dea84f4d8107f7f9fc39f9f6',1,'UTaggerDelegate']]],
   ['utrafficlightcontroller',['UTrafficLightController',['../d3/d08/classUTrafficLightController.html#a53971abe81e8958e51af2b8a37434512',1,'UTrafficLightController']]]
 ];

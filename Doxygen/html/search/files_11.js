@@ -2,6 +2,8 @@ var searchData=
 [
   ['buffer_2ecpp',['Buffer.cpp',['../db/dde/test_2Buffer_8cpp.html',1,'']]],
   ['buffer_2eh',['Buffer.h',['../d0/dbd/test_2Buffer_8h.html',1,'']]],
+  ['taggedcomponent_2ecpp',['TaggedComponent.cpp',['../d3/de7/TaggedComponent_8cpp.html',1,'']]],
+  ['taggedcomponent_2eh',['TaggedComponent.h',['../de/d95/TaggedComponent_8h.html',1,'']]],
   ['tagger_2ecpp',['Tagger.cpp',['../d2/d35/Tagger_8cpp.html',1,'']]],
   ['tagger_2eh',['Tagger.h',['../d7/d06/Tagger_8h.html',1,'']]],
   ['taggerdelegate_2ecpp',['TaggerDelegate.cpp',['../da/d31/TaggerDelegate_8cpp.html',1,'']]],

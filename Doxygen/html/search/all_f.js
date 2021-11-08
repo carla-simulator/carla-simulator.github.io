@@ -60,6 +60,7 @@ var searchData=
   ['onpretick',['OnPreTick',['../dc/d49/classFCarlaEngine.html#a1d6c0de9d084612778c34175ab248670',1,'FCarlaEngine']]],
   ['onpretickhandle',['OnPreTickHandle',['../dc/d49/classFCarlaEngine.html#adc17e21051704fba00366f75ef0c5197',1,'FCarlaEngine']]],
   ['onramp',['OnRamp',['../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247a938f8ba6595bc0df57e0540c2c2aab73',1,'carla::road::Lane']]],
+  ['onregister',['OnRegister',['../d8/d9f/classUTaggedComponent.html#a19f098c49f1510438c8e281cd247931a',1,'UTaggedComponent']]],
   ['onscreenassert',['OnScreenAssert',['../dd/d10/classFActorDefinitionValidator.html#a1a9cb1a9ebc0fe33d2e1afa9ba070b42',1,'FActorDefinitionValidator']]],
   ['ontick',['OnTick',['../db/d1f/classcarla_1_1client_1_1World.html#af3b0d8196f2b4f0fc31fdb547d5a18a5',1,'carla::client::World']]],
   ['ontrafficlightstatechanged',['OnTrafficLightStateChanged',['../d2/d23/classATrafficLightBase.html#a73870caf3e04b5eeade7a2eb55b13d67',1,'ATrafficLightBase']]],

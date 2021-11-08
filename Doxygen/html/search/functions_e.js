@@ -25,6 +25,7 @@ var searchData=
   ['onpossess',['OnPossess',['../dd/dea/classAWheeledVehicleAIController.html#a9028fa3b350555ab0b889b2e94d84286',1,'AWheeledVehicleAIController::OnPossess()'],['../de/d2e/classAWalkerController.html#adfbb26015a7807638eda73666a93d881',1,'AWalkerController::OnPossess()']]],
   ['onposttick',['OnPostTick',['../dc/d49/classFCarlaEngine.html#aff440c7ba9d004e4c5b60125cc4d709b',1,'FCarlaEngine']]],
   ['onpretick',['OnPreTick',['../dc/d49/classFCarlaEngine.html#a1d6c0de9d084612778c34175ab248670',1,'FCarlaEngine']]],
+  ['onregister',['OnRegister',['../d8/d9f/classUTaggedComponent.html#a19f098c49f1510438c8e281cd247931a',1,'UTaggedComponent']]],
   ['onscreenassert',['OnScreenAssert',['../dd/d10/classFActorDefinitionValidator.html#a1a9cb1a9ebc0fe33d2e1afa9ba070b42',1,'FActorDefinitionValidator']]],
   ['ontick',['OnTick',['../db/d1f/classcarla_1_1client_1_1World.html#af3b0d8196f2b4f0fc31fdb547d5a18a5',1,'carla::client::World']]],
   ['ontrafficlightstatechanged',['OnTrafficLightStateChanged',['../d2/d23/classATrafficLightBase.html#a73870caf3e04b5eeade7a2eb55b13d67',1,'ATrafficLightBase']]],
