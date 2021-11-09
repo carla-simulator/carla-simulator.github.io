@@ -113,6 +113,7 @@ var searchData=
   ['updatevehicles',['UpdateVehicles',['../d9/dc2/classcarla_1_1nav_1_1Navigation.html#a6b7d72d6c0d11bd88a5b9fae3e230ed2',1,'carla::nav::Navigation']]],
   ['updatevehiclesincrowd',['UpdateVehiclesInCrowd',['../d1/d83/classcarla_1_1client_1_1detail_1_1WalkerNavigation.html#a109552fa675fe65e281e3ed6f3c75204',1,'carla::client::detail::WalkerNavigation']]],
   ['updatewheelsfriction',['UpdateWheelsFriction',['../dc/db9/classAFrictionTrigger.html#ab844c0c19a175e72d9ed6a063604f20a',1,'AFrictionTrigger']]],
+  ['updateworldinfo',['UpdateWorldInfo',['../dd/de2/classcarla_1_1traffic__manager_1_1VehicleLightStage.html#a493ad231b7e1561a94a061733c00a610',1,'carla::traffic_manager::VehicleLightStage']]],
   ['upload_5fpath',['upload_path',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a150e0433f4fa7f21df6a017948deb51c',1,'carla::traffic_manager::Parameters']]],
   ['upload_5froute',['upload_route',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a621b97ef936b3102445d3b3a003700c8',1,'carla::traffic_manager::Parameters']]],
   ['upperbound',['UpperBound',['../dd/de6/classcarla_1_1road_1_1Road.html#a4da717befc4f332167bdf97740779a3f',1,'carla::road::Road']]],

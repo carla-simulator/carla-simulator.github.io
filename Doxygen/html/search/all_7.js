@@ -689,7 +689,7 @@ var searchData=
   ['getuniformfloatinrange',['GetUniformFloatInRange',['../d2/d4b/classURandomEngine.html#a80b759d343ee9888162591063d5715e1',1,'URandomEngine']]],
   ['getuniformintinrange',['GetUniformIntInRange',['../d2/d4b/classURandomEngine.html#a6cbdafe0767236a7427dea3348542dfc',1,'URandomEngine']]],
   ['getunit',['GetUnit',['../d3/dc1/classcarla_1_1client_1_1Landmark.html#a596bf25ceac8dfacaefb37e4cdb82e24',1,'carla::client::Landmark::GetUnit()'],['../da/da8/classcarla_1_1road_1_1Signal.html#a8a81521e23cf4b9300020cd7141dd9d4',1,'carla::road::Signal::GetUnit()']]],
-  ['getupdatevehiclelightstate',['GetUpdateVehicleLightState',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#ab4c10636a6074b97e48aaf39d06dca00',1,'carla::traffic_manager::Parameters']]],
+  ['getupdatevehiclelights',['GetUpdateVehicleLights',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#ace80f88f1cb214b5d35b33830cedb922',1,'carla::traffic_manager::Parameters']]],
   ['getuploadpath',['GetUploadPath',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a6c54101ff27055dc3e746aec7704cfc2',1,'carla::traffic_manager::Parameters']]],
   ['getuploadroute',['GetUploadRoute',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a3e50f584f400b7510b411933fc36130c',1,'carla::traffic_manager::Parameters']]],
   ['getupperboundaryrespawndormantvehicles',['GetUpperBoundaryRespawnDormantVehicles',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a724c3b0e69318f8e19ab46b973de85ef',1,'carla::traffic_manager::Parameters']]],
