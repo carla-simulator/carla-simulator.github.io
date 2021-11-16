@@ -3,6 +3,8 @@ var searchData=
   ['walker_2ecpp',['Walker.cpp',['../d6/db6/Walker_8cpp.html',1,'']]],
   ['walker_2eh',['Walker.h',['../d5/d10/Walker_8h.html',1,'']]],
   ['walkeraicontroller_2ecpp',['WalkerAIController.cpp',['../de/d69/WalkerAIController_8cpp.html',1,'']]],
+  ['walkeranim_2ecpp',['WalkerAnim.cpp',['../d5/dd0/WalkerAnim_8cpp.html',1,'']]],
+  ['walkeranim_2eh',['WalkerAnim.h',['../d2/d34/WalkerAnim_8h.html',1,'']]],
   ['walkerbase_2ecpp',['WalkerBase.cpp',['../d5/da7/WalkerBase_8cpp.html',1,'']]],
   ['walkerbase_2eh',['WalkerBase.h',['../de/d5b/WalkerBase_8h.html',1,'']]],
   ['walkercontroller_2ecpp',['WalkerController.cpp',['../d0/d76/WalkerController_8cpp.html',1,'']]],

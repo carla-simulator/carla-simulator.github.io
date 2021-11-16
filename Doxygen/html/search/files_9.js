@@ -56,7 +56,8 @@ var searchData=
   ['vehiclelightstate_2eh',['VehicleLightState.h',['../d8/d64/LibCarla_2source_2carla_2rpc_2VehicleLightState_8h.html',1,'']]],
   ['vehiclephysicscontrol_2eh',['VehiclePhysicsControl.h',['../d1/d8e/LibCarla_2source_2carla_2rpc_2VehiclePhysicsControl_8h.html',1,'']]],
   ['walkeraicontroller_2eh',['WalkerAIController.h',['../de/d54/LibCarla_2source_2carla_2client_2WalkerAIController_8h.html',1,'']]],
-  ['walkerbonecontrol_2eh',['WalkerBoneControl.h',['../d9/d5f/LibCarla_2source_2carla_2rpc_2WalkerBoneControl_8h.html',1,'']]],
+  ['walkerbonecontrolin_2eh',['WalkerBoneControlIn.h',['../d8/db7/LibCarla_2source_2carla_2rpc_2WalkerBoneControlIn_8h.html',1,'']]],
+  ['walkerbonecontrolout_2eh',['WalkerBoneControlOut.h',['../d8/db4/LibCarla_2source_2carla_2rpc_2WalkerBoneControlOut_8h.html',1,'']]],
   ['walkercontrol_2eh',['WalkerControl.h',['../dd/db3/LibCarla_2source_2carla_2rpc_2WalkerControl_8h.html',1,'']]],
   ['weatherparameters_2eh',['WeatherParameters.h',['../da/d0c/LibCarla_2source_2carla_2rpc_2WeatherParameters_8h.html',1,'']]],
   ['wheelphysicscontrol_2eh',['WheelPhysicsControl.h',['../df/d2b/LibCarla_2source_2carla_2rpc_2WheelPhysicsControl_8h.html',1,'']]]

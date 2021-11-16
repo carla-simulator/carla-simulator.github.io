@@ -102,8 +102,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>WalkerAIController()
 : <a class="el" href="d0/d52/classcarla_1_1client_1_1WalkerAIController.html#af18cd3e762e03508081e827b7bd40d49">carla::client::WalkerAIController</a>
 </li>
-<li>WalkerBoneControl()
-: <a class="el" href="d8/d4e/classcarla_1_1rpc_1_1WalkerBoneControl.html#a4705dadcb5178dc5f74f79dfe54c41cf">carla::rpc::WalkerBoneControl</a>
+<li>WalkerBoneControlIn()
+: <a class="el" href="d0/d62/classcarla_1_1rpc_1_1WalkerBoneControlIn.html#a8d9da1b3aaf724e4cc90513e14b12703">carla::rpc::WalkerBoneControlIn</a>
+</li>
+<li>WalkerBoneControlOut()
+: <a class="el" href="d2/ddc/classcarla_1_1rpc_1_1WalkerBoneControlOut.html#aacfc9544dbd5189904c2d916b83a5c7d">carla::rpc::WalkerBoneControlOut</a>
 </li>
 <li>WalkerControl()
 : <a class="el" href="d7/d1b/classcarla_1_1rpc_1_1WalkerControl.html#a9242be34080e1804e527b42524b9aef7">carla::rpc::WalkerControl</a>
@@ -270,7 +273,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="db/d1f/classcarla_1_1client_1_1World.html#a80ea4b65c52411d146b1983884ba603e">carla::client::World</a>
 </li>
 <li>world
-: <a class="el" href="d2/d75/classcarla_1_1traffic__manager_1_1ALSM.html#a23c54f9407c992c66579e917e70c13b8">carla::traffic_manager::ALSM</a>
+: <a class="el" href="d9/d1e/classcarla_1_1rpc_1_1BoneTransformDataOut.html#a254ceff22a80e5e210c8af833e6f865f">carla::rpc::BoneTransformDataOut</a>
+, <a class="el" href="d2/d75/classcarla_1_1traffic__manager_1_1ALSM.html#a23c54f9407c992c66579e917e70c13b8">carla::traffic_manager::ALSM</a>
 , <a class="el" href="dd/df9/classcarla_1_1traffic__manager_1_1MotionPlanStage.html#abff65ac150afe88f3386465984baac5b">carla::traffic_manager::MotionPlanStage</a>
 , <a class="el" href="d5/db3/classcarla_1_1traffic__manager_1_1TrafficLightStage.html#abdd1dbf5eb1e3d9ef0419b92ed304c6b">carla::traffic_manager::TrafficLightStage</a>
 , <a class="el" href="da/d0f/classcarla_1_1traffic__manager_1_1TrafficManagerLocal.html#a85639c91ee4c63e445d8792713ed4379">carla::traffic_manager::TrafficManagerLocal</a>
@@ -280,6 +284,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="dc/dde/classFCarlaActor.html#a06ee232a0c4efbec21fe7833365e3cb4">FCarlaActor</a>
 , <a class="el" href="d1/da5/classFDebugShapeDrawer.html#a7c22474eafcd0d711770baf94b0a4853">FDebugShapeDrawer</a>
 , <a class="el" href="dd/d3c/structFShapeVisitor.html#ad85a6a3d3d4ba0799a6e4cf6fec05237">FShapeVisitor</a>
+, <a class="el" href="dd/dfc/structFWalkerBoneControlOutData.html#a004e984d4b79ba49d11bbc8b9cc59975">FWalkerBoneControlOutData</a>
 , <a class="el" href="d9/de2/classULoadAssetMaterialsCommandlet.html#a3b670dbc41b5185fc9df57ddaf8bc41e">ULoadAssetMaterialsCommandlet</a>
 , <a class="el" href="df/dbd/classUPrepareAssetsForCookingCommandlet.html#a56b4eabefb07a5f483cda87789927847">UPrepareAssetsForCookingCommandlet</a>
 </li>
@@ -308,7 +313,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="dd/db9/classACarlaRecorder.html#af793f21895a4fc136d9930f6623afd91">ACarlaRecorder</a>
 , <a class="el" href="d1/d43/classcarla_1_1streaming_1_1detail_1_1MultiStreamState.html#a41d9e9363a46b8847a2179749912d7fa">carla::streaming::detail::MultiStreamState</a>
 , <a class="el" href="d2/dea/classcarla_1_1streaming_1_1detail_1_1Stream.html#ac3461ab05492791b40d4dd784d65d1dd">carla::streaming::detail::Stream&lt; StreamStateT &gt;</a>
-, <a class="el" href="d6/d51/classcarla_1_1streaming_1_1detail_1_1tcp_1_1ServerSession.html#a301d480993321f83b54af346350837cc">carla::streaming::detail::tcp::ServerSession</a>
+, <a class="el" href="d6/d51/classcarla_1_1streaming_1_1detail_1_1tcp_1_1ServerSession.html#af5255361ee0fd1c54d54faf759f21da4">carla::streaming::detail::tcp::ServerSession</a>
 , <a class="el" href="df/d1a/classcarla_1_1traffic__manager_1_1CachedSimpleWaypoint.html#a8dfb1dd47c4ee5a5a18a68ff9eae7d12">carla::traffic_manager::CachedSimpleWaypoint</a>
 , <a class="el" href="dc/d9c/structCarlaRecorderActorBoundingBox.html#a3f045790ef1f087a44b8de1fee4558e5">CarlaRecorderActorBoundingBox</a>
 , <a class="el" href="d1/d74/classCarlaRecorderActorBoundingBoxes.html#a5cd0fce65436569739bbcdb626bbbbbe">CarlaRecorderActorBoundingBoxes</a>
@@ -349,7 +354,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="d1/d45/classpugi_1_1xml__writer.html#ab7d3b6a8499ceef7799158370e1c2617">pugi::xml_writer</a>
 , <a class="el" href="df/d5e/classpugi_1_1xml__writer__file.html#af89c557be2a43f11836f1f4db50855e6">pugi::xml_writer_file</a>
 , <a class="el" href="d7/ddb/classpugi_1_1xml__writer__stream.html#a331839df873b20fd6d32b25f3eeb5856">pugi::xml_writer_stream</a>
-, <a class="el" href="db/dd3/classxml__buffered__writer.html#aad4a4f18223ec3cb1ff607425119b85f">xml_buffered_writer</a>
+, <a class="el" href="db/dd3/classxml__buffered__writer.html#af82b277c1ef5c75d1901bb5a8eb4507f">xml_buffered_writer</a>
 </li>
 <li>write_buffer()
 : <a class="el" href="db/dd3/classxml__buffered__writer.html#ae62b84beff660555acb76e277f967c0d">xml_buffered_writer</a>
@@ -369,7 +374,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>write_view()
 : <a class="el" href="df/d32/structcarla_1_1image_1_1io_1_1detail_1_1io__impl_3_01IO_01_4.html#a909731fd5fff89639529b70c28ea61f5">carla::image::io::detail::io_impl&lt; IO &gt;</a>
 , <a class="el" href="d6/d43/structcarla_1_1image_1_1io_1_1detail_1_1io__impl_3_01IO_00_01IOs_8_8_8_01_4.html#a2b667d4c6917a135484c3b0c2a3df3af">carla::image::io::detail::io_impl&lt; IO, IOs... &gt;</a>
-, <a class="el" href="df/d7f/structcarla_1_1image_1_1io_1_1detail_1_1io__resolver.html#aa9c485e2fb8b85800bb17d43ba8897f7">carla::image::io::detail::io_resolver</a>
+, <a class="el" href="df/d7f/structcarla_1_1image_1_1io_1_1detail_1_1io__resolver.html#acbe6d94526c5f676e2552e8213a94de0">carla::image::io::detail::io_resolver</a>
 </li>
 <li>WriteChannelCount()
 : <a class="el" href="d9/d27/classcarla_1_1sensor_1_1data_1_1SemanticLidarData.html#a0a138b447dea31ffa9256b2d2314d5f4">carla::sensor::data::SemanticLidarData</a>

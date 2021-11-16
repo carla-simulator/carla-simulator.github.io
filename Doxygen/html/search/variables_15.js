@@ -5,6 +5,8 @@ var searchData=
   ['unit',['unit',['../db/d19/structcarla_1_1opendrive_1_1parser_1_1RoadTypeSpeed.html#a75c894acf78c3aabfa1336e1eff277d0',1,'carla::opendrive::parser::RoadTypeSpeed']]],
   ['unregistered_5factors',['unregistered_actors',['../d2/d75/classcarla_1_1traffic__manager_1_1ALSM.html#ab73da9ee94e618cfd47b0e25eec06b87',1,'carla::traffic_manager::ALSM']]],
   ['up_5fratio',['up_ratio',['../d9/d75/classcarla_1_1rpc_1_1GearPhysicsControl.html#acacd994b25f9e6478131766b6fa5794c',1,'carla::rpc::GearPhysicsControl']]],
+  ['upload_5fpath',['upload_path',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a150e0433f4fa7f21df6a017948deb51c',1,'carla::traffic_manager::Parameters']]],
+  ['upload_5froute',['upload_route',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a621b97ef936b3102445d3b3a003700c8',1,'carla::traffic_manager::Parameters']]],
   ['upperfovlimit',['UpperFovLimit',['../de/d6f/structFLidarDescription.html#af88a2389690fa9ed4cb459fc105b91c6',1,'FLidarDescription']]],
   ['upratio',['UpRatio',['../da/d0b/structFGearPhysicsControl.html#aa8e1c5a2ba4336e3406025be7a4312a2',1,'FGearPhysicsControl']]],
   ['urban_5flateral_5fparameters',['urban_lateral_parameters',['../dd/df9/classcarla_1_1traffic__manager_1_1MotionPlanStage.html#ad0d1e59c6085e8507895156362852fa1',1,'carla::traffic_manager::MotionPlanStage']]],

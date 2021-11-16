@@ -12,7 +12,7 @@ var searchData=
   ['laserangles',['LaserAngles',['../d8/d15/classARayCastSemanticLidar.html#a62baa5561ed228cb4f8511d44df39491',1,'ARayCastSemanticLidar']]],
   ['last_5fevent_5ftimestamp',['last_event_timestamp',['../d2/daf/classADVSCamera.html#a5f1d05f74abfb862051905f1ca5b122f',1,'ADVSCamera']]],
   ['last_5fimage',['last_image',['../d2/daf/classADVSCamera.html#a9e4c256d493dc1b9dfb4a59787a7d20d',1,'ADVSCamera']]],
-  ['last_5flane_5fchange_5flocation',['last_lane_change_location',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#a9d3a4f2c07c9d966981b2b245f2f42d7',1,'carla::traffic_manager::LocalizationStage']]],
+  ['last_5flane_5fchange_5fswpt',['last_lane_change_swpt',['../d6/da2/classcarla_1_1traffic__manager_1_1LocalizationStage.html#aefed2d11c524b97284a9419654c7d4f4',1,'carla::traffic_manager::LocalizationStage']]],
   ['lastappliedcontrol',['LastAppliedControl',['../d5/d70/classACarlaWheeledVehicle.html#a432183d8f8bcb122f2b95ec60699bdc6',1,'ACarlaWheeledVehicle']]],
   ['lastknownglobaloffset',['lastKnownGlobalOffset',['../de/deb/structmoodycamel_1_1ConsumerToken.html#a87122da7757b646f32bc06ede03040f8',1,'moodycamel::ConsumerToken']]],
   ['lastphysicscontrol',['LastPhysicsControl',['../d5/d70/classACarlaWheeledVehicle.html#a6418f4fba866304bbbd205403f4d02f5',1,'ACarlaWheeledVehicle']]],

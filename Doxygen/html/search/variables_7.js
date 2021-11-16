@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['g',['g',['../da/d44/classcarla_1_1rpc_1_1Color.html#a92fcc1be114cbe0bfce7e33ce9c9bef3',1,'carla::rpc::Color::g()'],['../d2/dec/structcarla_1_1sensor_1_1data_1_1Color.html#a95c1bd4f0308142d731bd10347c354ed',1,'carla::sensor::data::Color::g()']]],
+  ['g',['g',['../da/d44/classcarla_1_1rpc_1_1Color.html#a92fcc1be114cbe0bfce7e33ce9c9bef3',1,'carla::rpc::Color::g()'],['../d2/de7/structcarla_1_1rpc_1_1FloatColor.html#a7e4fca732c6c227940528b2ac2832b79',1,'carla::rpc::FloatColor::g()'],['../d2/dec/structcarla_1_1sensor_1_1data_1_1Color.html#a95c1bd4f0308142d731bd10347c354ed',1,'carla::sensor::data::Color::g()']]],
   ['gameinstance',['GameInstance',['../db/de5/classACarlaGameModeBase.html#a4053246b6c6e52f1c10ee5994a8d6a7c',1,'ACarlaGameModeBase']]],
   ['gd',['gd',['../d3/db5/odrSpiral_8cpp.html#ae0ff51caf6427169d8ecd2536dc22ffa',1,'odrSpiral.cpp']]],
   ['gear',['gear',['../d3/d9c/classcarla_1_1rpc_1_1VehicleControl.html#a4ec65982db33a12a40732ac2a570c0eb',1,'carla::rpc::VehicleControl::gear()'],['../d9/d06/classcarla_1_1sensor_1_1data_1_1detail_1_1PackedVehicleControl.html#a9025855a0ad94cd81ed21c2941ddcf0b',1,'carla::sensor::data::detail::PackedVehicleControl::gear()'],['../d8/d88/structCarlaRecorderAnimVehicle.html#ae400f3f436fc1721b39d7cdd56480d55',1,'CarlaRecorderAnimVehicle::Gear()'],['../d1/d4b/structFVehicleControl.html#a782237f388dd4efc40d9701f8b215ced',1,'FVehicleControl::Gear()']]],
