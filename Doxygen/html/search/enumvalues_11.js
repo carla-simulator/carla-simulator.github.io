@@ -8,6 +8,7 @@ var searchData=
   ['tex_5fnormal',['Tex_Normal',['../de/d6c/namespacecarla_1_1rpc.html#a160748bfd5bfdb5310f4c0d60dc3158daa6ba40bb00b8f41314f0afe751b9f90f',1,'carla::rpc']]],
   ['timeout',['TimeOut',['../db/dcc/namespacecarla_1_1nav.html#aaeb50f35d060ef52e7e3973ffad0fa5da5c642867bcd564f28fbb79aec4501efa',1,'carla::nav']]],
   ['tintersection',['TIntersection',['../d2/de5/namespaceMapGen.html#a3dab4b218910e62b79f0d98c7895c92aa242e02f7fff0062f4737226822aca92a',1,'MapGen']]],
+  ['tirepuncture',['TirePuncture',['../de/d6c/namespacecarla_1_1rpc.html#ae24acdb5a620582353443f8b547a52bcab3dc445c5b470f4bb68b3afa16406b30',1,'carla::rpc']]],
   ['trafficlight',['TrafficLight',['../dc/dde/classFCarlaActor.html#a68463a6ebe4a8d0364996c5d84af4279a63d457eeae119cb7c5618ff7b770a9c3',1,'FCarlaActor::TrafficLight()'],['../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h.html#a81be2176b5cc416c3b47dda8af29a6a8aa29e490ccf9e75adc2998e81761ba7a7',1,'TrafficLight():&#160;EnvironmentObject.h'],['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a63d457eeae119cb7c5618ff7b770a9c3',1,'carla::rpc::TrafficLight()']]],
   ['trafficlightgreen',['TrafficLightGreen',['../d5/dc5/TrafficSignBase_8h.html#a4057cf972679f3cd597a1e5cc94ee53aa1f23f703841712e33c0f152dcfdad7f4',1,'TrafficSignBase.h']]],
   ['trafficlightred',['TrafficLightRed',['../d5/dc5/TrafficSignBase_8h.html#a4057cf972679f3cd597a1e5cc94ee53aa0b3b03afd07a660e5abd8589af58a4b5',1,'TrafficSignBase.h']]],

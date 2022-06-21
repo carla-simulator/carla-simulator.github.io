@@ -142,6 +142,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a26e79176b01d5e1e0a625b73212e5c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1276f9e3bd0659efaad69821f9b30e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d26/classcarla_1_1client_1_1LightManager.html#ae1276f9e3bd0659efaad69821f9b30e4">SetColor</a> (<a class="el" href="../../d2/daf/namespacecarla_1_1client.html#a67f27f6bb2217c8b4da4d6beebd86a5e">LightId</a> id, <a class="el" href="../../d2/daf/namespacecarla_1_1client.html#a246b857fe12b7efd8a1d4be79d4f4d1a">Color</a> color)</td></tr>
 <tr class="separator:ae1276f9e3bd0659efaad69821f9b30e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae174eb353a504bffa65678869cb8927a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d26/classcarla_1_1client_1_1LightManager.html#ae174eb353a504bffa65678869cb8927a">SetDayNightCycle</a> (const bool active)</td></tr>
+<tr class="separator:ae174eb353a504bffa65678869cb8927a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ff70f5c3dcd79dab14afa97a5fef297"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d26/classcarla_1_1client_1_1LightManager.html#a3ff70f5c3dcd79dab14afa97a5fef297">SetEpisode</a> (<a class="el" href="../../d8/dcd/namespacecarla_1_1client_1_1detail.html#a73fc4fabc24f68be175250c73e1da2fc">detail::EpisodeProxy</a> episode)</td></tr>
 <tr class="separator:a3ff70f5c3dcd79dab14afa97a5fef297"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61ae2fb3af2f407f79586433caa5c31d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d26/classcarla_1_1client_1_1LightManager.html#a61ae2fb3af2f407f79586433caa5c31d">SetIntensity</a> (std::vector&lt; <a class="el" href="../../de/d11/classcarla_1_1client_1_1Light.html">Light</a> &gt; &amp;lights, float intensity)</td></tr>
@@ -162,6 +164,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7e9dcf8a46e108f301c1df5ef437cb06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe22a3efc2656135b604777dc9046845"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d26/classcarla_1_1client_1_1LightManager.html#abe22a3efc2656135b604777dc9046845">SetLightState</a> (<a class="el" href="../../d2/daf/namespacecarla_1_1client.html#a67f27f6bb2217c8b4da4d6beebd86a5e">LightId</a> id, const <a class="el" href="../../d9/d19/structcarla_1_1client_1_1LightState.html">LightState</a> &amp;new_state)</td></tr>
 <tr class="separator:abe22a3efc2656135b604777dc9046845"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6d64b45c891eb6cae9f25cd784a5e8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d26/classcarla_1_1client_1_1LightManager.html#aa6d64b45c891eb6cae9f25cd784a5e8f">SetLightStateNoLock</a> (<a class="el" href="../../d2/daf/namespacecarla_1_1client.html#a67f27f6bb2217c8b4da4d6beebd86a5e">LightId</a> id, const <a class="el" href="../../d9/d19/structcarla_1_1client_1_1LightState.html">LightState</a> &amp;new_state)</td></tr>
+<tr class="separator:aa6d64b45c891eb6cae9f25cd784a5e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa46a5eef53b5198319f6bdf51addca4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d26/classcarla_1_1client_1_1LightManager.html#aa46a5eef53b5198319f6bdf51addca4d">TurnOff</a> (std::vector&lt; <a class="el" href="../../de/d11/classcarla_1_1client_1_1Light.html">Light</a> &gt; &amp;lights)</td></tr>
 <tr class="separator:aa46a5eef53b5198319f6bdf51addca4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac15a5aa4d5f2cfaf5f5e6f7ef2830f64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d26/classcarla_1_1client_1_1LightManager.html#ac15a5aa4d5f2cfaf5f5e6f7ef2830f64">TurnOn</a> (std::vector&lt; <a class="el" href="../../de/d11/classcarla_1_1client_1_1Light.html">Light</a> &gt; &amp;lights)</td></tr>
@@ -289,7 +293,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00017">17</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00099">_episode</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00105">_on_light_update_register_id</a>, <a class="el" href="../../dc/dc2/EpisodeProxy_8h_source.html#l00053">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::IsValid()</a>, <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00290">UpdateServerLightsState()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00102">_episode</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00108">_on_light_update_register_id</a>, <a class="el" href="../../dc/dc2/EpisodeProxy_8h_source.html#l00053">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::IsValid()</a>, <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00296">UpdateServerLightsState()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00032">LightManager()</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -337,7 +341,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">36</a> of file <a class="el" href="../../dd/d9a/LightManager_8h_source.html">LightManager.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00106">_dirty</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00099">_episode</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00097">_lights</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00096">_lights_changes</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00095">_lights_state</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00105">_on_light_update_register_id</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00104">_on_tick_register_id</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00317">ApplyChanges()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00043">GetAllLights()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00127">GetColor()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00148">GetIntensity()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00169">GetLightGroup()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00190">GetLightState()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00099">GetTurnedOffLights()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00084">GetTurnedOnLights()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00076">IsActive()</a>, <a class="el" href="../../d3/d13/classcarla_1_1rpc_1_1LightState.html#a0dd6e7e658f888d53b9f134359d03bffa6adf97f83acf6453d4a6a4b1070f3754">carla::rpc::LightState::None</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00267">QueryLightsStateToServer()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00258">RetrieveLightState()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00069">SetActive()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00114">SetColor()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00025">SetEpisode()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00135">SetIntensity()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00156">SetLightGroup()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00177">SetLightState()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00063">TurnOff()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00057">TurnOn()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00290">UpdateServerLightsState()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00109">_dirty</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00102">_episode</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00100">_lights</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00099">_lights_changes</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00098">_lights_state</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00108">_on_light_update_register_id</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00107">_on_tick_register_id</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00323">ApplyChanges()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00043">GetAllLights()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00127">GetColor()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00148">GetIntensity()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00169">GetLightGroup()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00190">GetLightState()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00099">GetTurnedOffLights()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00084">GetTurnedOnLights()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00076">IsActive()</a>, <a class="el" href="../../d3/d13/classcarla_1_1rpc_1_1LightState.html#a0dd6e7e658f888d53b9f134359d03bffa6adf97f83acf6453d4a6a4b1070f3754">carla::rpc::LightState::None</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00273">QueryLightsStateToServer()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00264">RetrieveLightState()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00069">SetActive()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00114">SetColor()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00330">SetDayNightCycle()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00025">SetEpisode()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00135">SetIntensity()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00156">SetLightGroup()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00177">SetLightState()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00250">SetLightStateNoLock()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00063">TurnOff()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00057">TurnOn()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00296">UpdateServerLightsState()</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
@@ -373,9 +377,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00317">317</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00323">323</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00096">_lights_changes</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00101">_mutex</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00177">SetLightState()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00099">_lights_changes</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00104">_mutex</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00250">SetLightStateNoLock()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00025">SetEpisode()</a>.</p>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -383,7 +387,7 @@ Private Attributes</h2></td></tr>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_a9ce4fbd5039a48e3a76020226fd9b4df_cgraph.svg" width="448" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_a9ce4fbd5039a48e3a76020226fd9b4df_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -415,7 +419,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00043">43</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00097">_lights</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00095">_lights_state</a>, and <a class="el" href="../../d3/d13/classcarla_1_1rpc_1_1LightState.html#a0dd6e7e658f888d53b9f134359d03bffa6adf97f83acf6453d4a6a4b1070f3754">carla::rpc::LightState::None</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00100">_lights</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00098">_lights_state</a>, and <a class="el" href="../../d3/d13/classcarla_1_1rpc_1_1LightState.html#a0dd6e7e658f888d53b9f134359d03bffa6adf97f83acf6453d4a6a4b1070f3754">carla::rpc::LightState::None</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>.</p>
 <div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -477,7 +481,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00198">198</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00044">carla::client::LightState::_color</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00258">RetrieveLightState()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00044">carla::client::LightState::_color</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00264">RetrieveLightState()</a>.</p>
 <div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
@@ -537,7 +541,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00202">202</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00043">carla::client::LightState::_intensity</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00258">RetrieveLightState()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00043">carla::client::LightState::_intensity</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00264">RetrieveLightState()</a>.</p>
 <div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-12-summary" class="dynsummary" style="display:block;">
@@ -597,7 +601,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00210">210</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00045">carla::client::LightState::_group</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00258">RetrieveLightState()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00045">carla::client::LightState::_group</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00264">RetrieveLightState()</a>.</p>
 <div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-14-summary" class="dynsummary" style="display:block;">
@@ -627,7 +631,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00190">190</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00258">RetrieveLightState()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00264">RetrieveLightState()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>.</p>
 <div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -667,7 +671,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00206">206</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00258">RetrieveLightState()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00264">RetrieveLightState()</a>.</p>
 <div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-17-summary" class="dynsummary" style="display:block;">
@@ -697,7 +701,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00099">99</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00046">carla::client::LightState::_active</a>, <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00045">carla::client::LightState::_group</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00097">_lights</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00095">_lights_state</a>, and <a class="el" href="../../d3/d13/classcarla_1_1rpc_1_1LightState.html#a0dd6e7e658f888d53b9f134359d03bffa6adf97f83acf6453d4a6a4b1070f3754">carla::rpc::LightState::None</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00046">carla::client::LightState::_active</a>, <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00045">carla::client::LightState::_group</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00100">_lights</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00098">_lights_state</a>, and <a class="el" href="../../d3/d13/classcarla_1_1rpc_1_1LightState.html#a0dd6e7e658f888d53b9f134359d03bffa6adf97f83acf6453d4a6a4b1070f3754">carla::rpc::LightState::None</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>.</p>
 <div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -729,7 +733,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00084">84</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00046">carla::client::LightState::_active</a>, <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00045">carla::client::LightState::_group</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00097">_lights</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00095">_lights_state</a>, and <a class="el" href="../../d3/d13/classcarla_1_1rpc_1_1LightState.html#a0dd6e7e658f888d53b9f134359d03bffa6adf97f83acf6453d4a6a4b1070f3754">carla::rpc::LightState::None</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00046">carla::client::LightState::_active</a>, <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00045">carla::client::LightState::_group</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00100">_lights</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00098">_lights_state</a>, and <a class="el" href="../../d3/d13/classcarla_1_1rpc_1_1LightState.html#a0dd6e7e658f888d53b9f134359d03bffa6adf97f83acf6453d4a6a4b1070f3754">carla::rpc::LightState::None</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>.</p>
 <div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -791,7 +795,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00214">214</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00046">carla::client::LightState::_active</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00258">RetrieveLightState()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00046">carla::client::LightState::_active</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00264">RetrieveLightState()</a>.</p>
 <div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-21-summary" class="dynsummary" style="display:block;">
@@ -826,9 +830,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00267">267</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00273">273</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00099">_episode</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00097">_lights</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00095">_lights_state</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00101">_mutex</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00102">_episode</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00100">_lights</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00098">_lights_state</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00104">_mutex</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00025">SetEpisode()</a>.</p>
 <div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -874,11 +878,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00258">258</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00264">264</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00095">_lights_state</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00103">_state</a>, and <a class="el" href="../../de/d87/Logging_8h_source.html#l00096">carla::log_warning()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00098">_lights_state</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00106">_state</a>, and <a class="el" href="../../de/d87/Logging_8h_source.html#l00096">carla::log_warning()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00198">GetColor()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00202">GetIntensity()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00210">GetLightGroup()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00190">GetLightState()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00214">IsActive()</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00218">SetActive()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00226">SetColor()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00234">SetIntensity()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00250">SetLightGroup()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00242">SetLightState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00198">GetColor()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00202">GetIntensity()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00210">GetLightGroup()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00190">GetLightState()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00214">IsActive()</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00218">SetActive()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00226">SetColor()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00234">SetIntensity()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00256">SetLightGroup()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00242">SetLightState()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00250">SetLightStateNoLock()</a>.</p>
 <div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-24-summary" class="dynsummary" style="display:block;">
@@ -966,7 +970,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00218">218</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00046">carla::client::LightState::_active</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00106">_dirty</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00096">_lights_changes</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00101">_mutex</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00258">RetrieveLightState()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00046">carla::client::LightState::_active</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00109">_dirty</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00099">_lights_changes</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00104">_mutex</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00264">RetrieveLightState()</a>.</p>
 <div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-27-summary" class="dynsummary" style="display:block;">
@@ -1086,13 +1090,53 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00226">226</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00044">carla::client::LightState::_color</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00106">_dirty</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00096">_lights_changes</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00101">_mutex</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00258">RetrieveLightState()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00044">carla::client::LightState::_color</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00109">_dirty</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00099">_lights_changes</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00104">_mutex</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00264">RetrieveLightState()</a>.</p>
 <div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-30-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-30-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_ae1276f9e3bd0659efaad69821f9b30e4_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ae174eb353a504bffa65678869cb8927a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae174eb353a504bffa65678869cb8927a">&#9670;&nbsp;</a></span>SetDayNightCycle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::client::LightManager::SetDayNightCycle </td>
+          <td>(</td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>active</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00330">330</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00102">_episode</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>.</p>
+<div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_ae174eb353a504bffa65678869cb8927a_cgraph.svg" width="439" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_ae174eb353a504bffa65678869cb8927a_icgraph.svg" width="448" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1116,22 +1160,22 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00025">25</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00099">_episode</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00105">_on_light_update_register_id</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00104">_on_tick_register_id</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00317">ApplyChanges()</a>, <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00267">QueryLightsStateToServer()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00290">UpdateServerLightsState()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00102">_episode</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00108">_on_light_update_register_id</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00107">_on_tick_register_id</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00323">ApplyChanges()</a>, <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00273">QueryLightsStateToServer()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00296">UpdateServerLightsState()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>.</p>
-<div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-31-content" class="dyncontent" style="display:none;">
+<div id="dynsection-33-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_a3ff70f5c3dcd79dab14afa97a5fef297_cgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div id="dynsection-34-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_a3ff70f5c3dcd79dab14afa97a5fef297_icgraph.svg" width="448" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1167,11 +1211,11 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00135">135</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00141">SetIntensity()</a>.</p>
-<div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-33-content" class="dyncontent" style="display:none;">
+<div id="dynsection-35-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_a61ae2fb3af2f407f79586433caa5c31d_icgraph.svg" width="448" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1207,11 +1251,11 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00141">141</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00135">SetIntensity()</a>.</p>
-<div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-34-content" class="dyncontent" style="display:none;">
+<div id="dynsection-36-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_aaec34fc58579631acc61dfc66a89426a_cgraph.svg" width="448" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1246,12 +1290,12 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00234">234</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00106">_dirty</a>, <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00043">carla::client::LightState::_intensity</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00096">_lights_changes</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00101">_mutex</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00258">RetrieveLightState()</a>.</p>
-<div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00109">_dirty</a>, <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00043">carla::client::LightState::_intensity</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00099">_lights_changes</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00104">_mutex</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00264">RetrieveLightState()</a>.</p>
+<div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-35-content" class="dyncontent" style="display:none;">
+<div id="dynsection-37-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_aa1407131b011b634f48238e924b297ef_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1287,11 +1331,11 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00156">156</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00162">SetLightGroup()</a>.</p>
-<div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-36-content" class="dyncontent" style="display:none;">
+<div id="dynsection-38-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_ae49e846fc0307c76f20b32a82f7daf3d_icgraph.svg" width="448" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1327,11 +1371,11 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00162">162</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00156">SetLightGroup()</a>.</p>
-<div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-37-content" class="dyncontent" style="display:none;">
+<div id="dynsection-39-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_a208c6f86ac3c26adac1febb5f64ba864_cgraph.svg" width="448" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1364,14 +1408,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00250">250</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00256">256</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00106">_dirty</a>, <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00045">carla::client::LightState::_group</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00096">_lights_changes</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00101">_mutex</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00258">RetrieveLightState()</a>.</p>
-<div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00109">_dirty</a>, <a class="el" href="../../dc/df0/client_2LightState_8h_source.html#l00045">carla::client::LightState::_group</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00099">_lights_changes</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00104">_mutex</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00264">RetrieveLightState()</a>.</p>
+<div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-38-content" class="dyncontent" style="display:none;">
+<div id="dynsection-40-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_a896f4df4984c6296b95caaac297b2440_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1406,13 +1450,13 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00177">177</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00317">ApplyChanges()</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00183">SetLightState()</a>.</p>
-<div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00183">SetLightState()</a>.</p>
+<div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-41-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-39-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_a9a13eabc01d631126f5c09b3f0cfe6ba_icgraph.svg" width="100%" height="441"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-41-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_a9a13eabc01d631126f5c09b3f0cfe6ba_icgraph.svg" width="448" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1447,11 +1491,11 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00183">183</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00177">SetLightState()</a>.</p>
-<div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-42-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-42-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-40-content" class="dyncontent" style="display:none;">
+<div id="dynsection-42-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_a7e9dcf8a46e108f301c1df5ef437cb06_cgraph.svg" width="448" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1486,13 +1530,63 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00242">242</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00106">_dirty</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00096">_lights_changes</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00101">_mutex</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00258">RetrieveLightState()</a>.</p>
-<div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-41-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00109">_dirty</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00099">_lights_changes</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00104">_mutex</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00264">RetrieveLightState()</a>.</p>
+<div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-43-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-43-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-41-content" class="dyncontent" style="display:none;">
+<div id="dynsection-43-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_abe22a3efc2656135b604777dc9046845_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aa6d64b45c891eb6cae9f25cd784a5e8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6d64b45c891eb6cae9f25cd784a5e8f">&#9670;&nbsp;</a></span>SetLightStateNoLock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::client::LightManager::SetLightStateNoLock </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/daf/namespacecarla_1_1client.html#a67f27f6bb2217c8b4da4d6beebd86a5e">LightId</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/d19/structcarla_1_1client_1_1LightState.html">LightState</a> &amp;&#160;</td>
+          <td class="paramname"><em>new_state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00250">250</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00099">_lights_changes</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00264">RetrieveLightState()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00323">ApplyChanges()</a>, and <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>.</p>
+<div id="dynsection-44" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-44-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-44-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-44-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_aa6d64b45c891eb6cae9f25cd784a5e8f_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-45" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-45-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-45-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-45-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_aa6d64b45c891eb6cae9f25cd784a5e8f_icgraph.svg" width="100%" height="375"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -1519,19 +1613,19 @@ Private Attributes</h2></td></tr>
 <p class="reference">References <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00069">SetActive()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>.</p>
-<div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-42-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-42-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-46" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-46-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-46-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-42-content" class="dyncontent" style="display:none;">
+<div id="dynsection-46-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_aa46a5eef53b5198319f6bdf51addca4d_cgraph.svg" width="448" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-43-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-43-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-47" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-47-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-47-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-43-content" class="dyncontent" style="display:none;">
+<div id="dynsection-47-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_aa46a5eef53b5198319f6bdf51addca4d_icgraph.svg" width="448" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1559,19 +1653,19 @@ Private Attributes</h2></td></tr>
 <p class="reference">References <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00069">SetActive()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>.</p>
-<div id="dynsection-44" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-44-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-44-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-48" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-48-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-48-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-44-content" class="dyncontent" style="display:none;">
+<div id="dynsection-48-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_ac15a5aa4d5f2cfaf5f5e6f7ef2830f64_cgraph.svg" width="448" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-45" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-45-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-45-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-49" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-49-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-49-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-45-content" class="dyncontent" style="display:none;">
+<div id="dynsection-49-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_ac15a5aa4d5f2cfaf5f5e6f7ef2830f64_icgraph.svg" width="448" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1602,24 +1696,24 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00290">290</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00296">296</a> of file <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html">LightManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00106">_dirty</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00099">_episode</a>, <a class="el" href="../../d4/daf/rpc_2LightState_8h_source.html#l00047">carla::rpc::LightState::_id</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00097">_lights</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00096">_lights_changes</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00101">_mutex</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00109">_dirty</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00102">_episode</a>, <a class="el" href="../../d4/daf/rpc_2LightState_8h_source.html#l00047">carla::rpc::LightState::_id</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00100">_lights</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00099">_lights_changes</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00104">_mutex</a>, and <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00039">carla::client::detail::EpisodeProxyImpl&lt; PointerT &gt;::Lock()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00025">SetEpisode()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00017">~LightManager()</a>.</p>
-<div id="dynsection-46" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-46-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-46-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-50" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-50-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-50-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-46-content" class="dyncontent" style="display:none;">
+<div id="dynsection-50-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_af6ba92e705493e8f61a76acfa749ffff_cgraph.svg" width="439" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-47" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-47-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-47-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-51" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-51-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-51-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-47-content" class="dyncontent" style="display:none;">
+<div id="dynsection-51-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d26/classcarla_1_1client_1_1LightManager_af6ba92e705493e8f61a76acfa749ffff_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1647,9 +1741,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00106">106</a> of file <a class="el" href="../../dd/d9a/LightManager_8h_source.html">LightManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00109">109</a> of file <a class="el" href="../../dd/d9a/LightManager_8h_source.html">LightManager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00218">SetActive()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00226">SetColor()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00234">SetIntensity()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00250">SetLightGroup()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00242">SetLightState()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00290">UpdateServerLightsState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00218">SetActive()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00226">SetColor()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00234">SetIntensity()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00256">SetLightGroup()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00242">SetLightState()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00296">UpdateServerLightsState()</a>.</p>
 
 </div>
 </div>
@@ -1673,9 +1767,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00099">99</a> of file <a class="el" href="../../dd/d9a/LightManager_8h_source.html">LightManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00102">102</a> of file <a class="el" href="../../dd/d9a/LightManager_8h_source.html">LightManager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00267">QueryLightsStateToServer()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00025">SetEpisode()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00290">UpdateServerLightsState()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00017">~LightManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00273">QueryLightsStateToServer()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00330">SetDayNightCycle()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00025">SetEpisode()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00296">UpdateServerLightsState()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00017">~LightManager()</a>.</p>
 
 </div>
 </div>
@@ -1699,9 +1793,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00097">97</a> of file <a class="el" href="../../dd/d9a/LightManager_8h_source.html">LightManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00100">100</a> of file <a class="el" href="../../dd/d9a/LightManager_8h_source.html">LightManager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00043">GetAllLights()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00099">GetTurnedOffLights()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00084">GetTurnedOnLights()</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00267">QueryLightsStateToServer()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00290">UpdateServerLightsState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00043">GetAllLights()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00099">GetTurnedOffLights()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00084">GetTurnedOnLights()</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00273">QueryLightsStateToServer()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00296">UpdateServerLightsState()</a>.</p>
 
 </div>
 </div>
@@ -1725,9 +1819,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00096">96</a> of file <a class="el" href="../../dd/d9a/LightManager_8h_source.html">LightManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00099">99</a> of file <a class="el" href="../../dd/d9a/LightManager_8h_source.html">LightManager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00317">ApplyChanges()</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00218">SetActive()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00226">SetColor()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00234">SetIntensity()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00250">SetLightGroup()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00242">SetLightState()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00290">UpdateServerLightsState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00323">ApplyChanges()</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00218">SetActive()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00226">SetColor()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00234">SetIntensity()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00256">SetLightGroup()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00242">SetLightState()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00250">SetLightStateNoLock()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00296">UpdateServerLightsState()</a>.</p>
 
 </div>
 </div>
@@ -1751,9 +1845,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00095">95</a> of file <a class="el" href="../../dd/d9a/LightManager_8h_source.html">LightManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00098">98</a> of file <a class="el" href="../../dd/d9a/LightManager_8h_source.html">LightManager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00043">GetAllLights()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00099">GetTurnedOffLights()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00084">GetTurnedOnLights()</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00267">QueryLightsStateToServer()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00258">RetrieveLightState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00043">GetAllLights()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00099">GetTurnedOffLights()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00084">GetTurnedOnLights()</a>, <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00273">QueryLightsStateToServer()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00264">RetrieveLightState()</a>.</p>
 
 </div>
 </div>
@@ -1777,9 +1871,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00101">101</a> of file <a class="el" href="../../dd/d9a/LightManager_8h_source.html">LightManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00104">104</a> of file <a class="el" href="../../dd/d9a/LightManager_8h_source.html">LightManager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00317">ApplyChanges()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00267">QueryLightsStateToServer()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00218">SetActive()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00226">SetColor()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00234">SetIntensity()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00250">SetLightGroup()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00242">SetLightState()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00290">UpdateServerLightsState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00323">ApplyChanges()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00273">QueryLightsStateToServer()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00218">SetActive()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00226">SetColor()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00234">SetIntensity()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00256">SetLightGroup()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00242">SetLightState()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00296">UpdateServerLightsState()</a>.</p>
 
 </div>
 </div>
@@ -1803,7 +1897,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00105">105</a> of file <a class="el" href="../../dd/d9a/LightManager_8h_source.html">LightManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00108">108</a> of file <a class="el" href="../../dd/d9a/LightManager_8h_source.html">LightManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00025">SetEpisode()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00017">~LightManager()</a>.</p>
 
@@ -1829,7 +1923,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00104">104</a> of file <a class="el" href="../../dd/d9a/LightManager_8h_source.html">LightManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00107">107</a> of file <a class="el" href="../../dd/d9a/LightManager_8h_source.html">LightManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00036">LightManager()</a>, and <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00025">SetEpisode()</a>.</p>
 
@@ -1855,9 +1949,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00103">103</a> of file <a class="el" href="../../dd/d9a/LightManager_8h_source.html">LightManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9a/LightManager_8h_source.html#l00106">106</a> of file <a class="el" href="../../dd/d9a/LightManager_8h_source.html">LightManager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00258">RetrieveLightState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d1d/LightManager_8cpp_source.html#l00264">RetrieveLightState()</a>.</p>
 
 </div>
 </div>

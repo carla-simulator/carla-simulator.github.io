@@ -91,7 +91,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d2a/classAWeather__coll__graph.svg" width="339" height="363"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d2a/classAWeather__coll__graph.svg" width="418" height="363"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -105,9 +105,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab1bf788f3fe7c1f47b396eb52e18af48"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dd/d9b/structFWeatherParameters.html">FWeatherParameters</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/classAWeather.html#ab1bf788f3fe7c1f47b396eb52e18af48">GetCurrentWeather</a> () const</td></tr>
 <tr class="memdesc:ab1bf788f3fe7c1f47b396eb52e18af48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current WeatherParameters.  <a href="#ab1bf788f3fe7c1f47b396eb52e18af48">More...</a><br /></td></tr>
 <tr class="separator:ab1bf788f3fe7c1f47b396eb52e18af48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b91aa7c4cde674fc57e79f74c1be18b"><td class="memItemLeft" align="right" valign="top">const bool &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/classAWeather.html#a2b91aa7c4cde674fc57e79f74c1be18b">GetDayNightCycle</a> () const</td></tr>
+<tr class="memdesc:a2b91aa7c4cde674fc57e79f74c1be18b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether the day night cycle is active (automatic on/off switch when changin to night mode)  <a href="#a2b91aa7c4cde674fc57e79f74c1be18b">More...</a><br /></td></tr>
+<tr class="separator:a2b91aa7c4cde674fc57e79f74c1be18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acad5962814d10dafc44e8fdaa5730d0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/classAWeather.html#acad5962814d10dafc44e8fdaa5730d0c">NotifyWeather</a> ()</td></tr>
 <tr class="memdesc:acad5962814d10dafc44e8fdaa5730d0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notifing the weather to the blueprint's event.  <a href="#acad5962814d10dafc44e8fdaa5730d0c">More...</a><br /></td></tr>
 <tr class="separator:acad5962814d10dafc44e8fdaa5730d0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a316f91248d3f27b4afa43c65205757fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/classAWeather.html#a316f91248d3f27b4afa43c65205757fe">SetDayNightCycle</a> (const bool &amp;active)</td></tr>
+<tr class="memdesc:a316f91248d3f27b4afa43c65205757fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the day night cycle.  <a href="#a316f91248d3f27b4afa43c65205757fe">More...</a><br /></td></tr>
+<tr class="separator:a316f91248d3f27b4afa43c65205757fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d5e23c1fd032babebd0a258aa555cdf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/classAWeather.html#a1d5e23c1fd032babebd0a258aa555cdf">SetWeather</a> (const <a class="el" href="../../dd/d9b/structFWeatherParameters.html">FWeatherParameters</a> &amp;WeatherParameters)</td></tr>
 <tr class="memdesc:a1d5e23c1fd032babebd0a258aa555cdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the weather parameters without notifing it to the blueprint's event.  <a href="#a1d5e23c1fd032babebd0a258aa555cdf">More...</a><br /></td></tr>
 <tr class="separator:a1d5e23c1fd032babebd0a258aa555cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,6 +125,8 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:aabe25e331c5321395f2a0e59f49fa2b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/classAWeather.html#aabe25e331c5321395f2a0e59f49fa2b8">DayNightCycle</a> = true</td></tr>
+<tr class="separator:aabe25e331c5321395f2a0e59f49fa2b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a2c853133523a07237c5b17296266a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d9b/structFWeatherParameters.html">FWeatherParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/classAWeather.html#a2a2c853133523a07237c5b17296266a0">Weather</a></td></tr>
 <tr class="separator:a2a2c853133523a07237c5b17296266a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -167,9 +175,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d0f/Weather_8cpp_source.html#l00017">17</a> of file <a class="el" href="../../d2/d0f/Weather_8cpp_source.html">Weather.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00017">FWeatherParameters::Cloudiness</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00035">FWeatherParameters::FogDensity</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00038">FWeatherParameters::FogDistance</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00041">FWeatherParameters::FogFalloff</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00050">FWeatherParameters::MieScatteringScale</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00020">FWeatherParameters::Precipitation</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00023">FWeatherParameters::PrecipitationDeposits</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00053">FWeatherParameters::RayleighScatteringScale</a>, <a class="el" href="../../de/d75/classAWeather.html#abfa22fbe6e2940b283a6b186aec0cd60">RefreshWeather()</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00047">FWeatherParameters::ScatteringIntensity</a>, <a class="el" href="../../d2/d0f/Weather_8cpp_source.html#l00048">SetWeather()</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00032">FWeatherParameters::SunAltitudeAngle</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00029">FWeatherParameters::SunAzimuthAngle</a>, <a class="el" href="../../d5/d65/Weather_8h_source.html#l00050">Weather</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00044">FWeatherParameters::Wetness</a>, and <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00026">FWeatherParameters::WindIntensity</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00017">FWeatherParameters::Cloudiness</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00035">FWeatherParameters::FogDensity</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00038">FWeatherParameters::FogDistance</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00041">FWeatherParameters::FogFalloff</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00050">FWeatherParameters::MieScatteringScale</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00020">FWeatherParameters::Precipitation</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00023">FWeatherParameters::PrecipitationDeposits</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00053">FWeatherParameters::RayleighScatteringScale</a>, <a class="el" href="../../de/d75/classAWeather.html#abfa22fbe6e2940b283a6b186aec0cd60">RefreshWeather()</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00047">FWeatherParameters::ScatteringIntensity</a>, <a class="el" href="../../d2/d0f/Weather_8cpp_source.html#l00048">SetWeather()</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00032">FWeatherParameters::SunAltitudeAngle</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00029">FWeatherParameters::SunAzimuthAngle</a>, <a class="el" href="../../d5/d65/Weather_8h_source.html#l00060">Weather</a>, <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00044">FWeatherParameters::Wetness</a>, and <a class="el" href="../../dc/d22/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Weather_2WeatherParameters_8h_source.html#l00026">FWeatherParameters::WindIntensity</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00165">ACarlaGameModeBase::BeginPlay()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00170">ACarlaGameModeBase::BeginPlay()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -218,6 +226,35 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a2b91aa7c4cde674fc57e79f74c1be18b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b91aa7c4cde674fc57e79f74c1be18b">&#9670;&nbsp;</a></span>GetDayNightCycle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool&amp; AWeather::GetDayNightCycle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns whether the day night cycle is active (automatic on/off switch when changin to night mode) </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d65/Weather_8h_source.html#l00044">44</a> of file <a class="el" href="../../d5/d65/Weather_8h_source.html">Weather.h</a>.</p>
+
+</div>
+</div>
 <a id="acad5962814d10dafc44e8fdaa5730d0c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acad5962814d10dafc44e8fdaa5730d0c">&#9670;&nbsp;</a></span>NotifyWeather()</h2>
 
@@ -237,7 +274,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d0f/Weather_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../d2/d0f/Weather_8cpp_source.html">Weather.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d75/classAWeather.html#abfa22fbe6e2940b283a6b186aec0cd60">RefreshWeather()</a>, and <a class="el" href="../../d5/d65/Weather_8h_source.html#l00050">Weather</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d75/classAWeather.html#abfa22fbe6e2940b283a6b186aec0cd60">RefreshWeather()</a>, and <a class="el" href="../../d5/d65/Weather_8h_source.html#l00060">Weather</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp_source.html#l00463">ASceneCaptureSensor::BeginPlay()</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -295,6 +332,30 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a316f91248d3f27b4afa43c65205757fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a316f91248d3f27b4afa43c65205757fe">&#9670;&nbsp;</a></span>SetDayNightCycle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AWeather::SetDayNightCycle </td>
+          <td>(</td>
+          <td class="paramtype">const bool &amp;&#160;</td>
+          <td class="paramname"><em>active</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update the day night cycle. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d0f/Weather_8cpp_source.html#l00053">53</a> of file <a class="el" href="../../d2/d0f/Weather_8cpp_source.html">Weather.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d5/d65/Weather_8h_source.html#l00063">DayNightCycle</a>.</p>
+
+</div>
+</div>
 <a id="a1d5e23c1fd032babebd0a258aa555cdf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1d5e23c1fd032babebd0a258aa555cdf">&#9670;&nbsp;</a></span>SetWeather()</h2>
 
@@ -315,7 +376,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d0f/Weather_8cpp_source.html#l00048">48</a> of file <a class="el" href="../../d2/d0f/Weather_8cpp_source.html">Weather.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d65/Weather_8h_source.html#l00050">Weather</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d65/Weather_8h_source.html#l00060">Weather</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/d0f/Weather_8cpp_source.html#l00017">ApplyWeather()</a>.</p>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -330,6 +391,32 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aabe25e331c5321395f2a0e59f49fa2b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabe25e331c5321395f2a0e59f49fa2b8">&#9670;&nbsp;</a></span>DayNightCycle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AWeather::DayNightCycle = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d65/Weather_8h_source.html#l00063">63</a> of file <a class="el" href="../../d5/d65/Weather_8h_source.html">Weather.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d2/d0f/Weather_8cpp_source.html#l00053">SetDayNightCycle()</a>.</p>
+
+</div>
+</div>
 <a id="a2a2c853133523a07237c5b17296266a0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2a2c853133523a07237c5b17296266a0">&#9670;&nbsp;</a></span>Weather</h2>
 
@@ -350,7 +437,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d65/Weather_8h_source.html#l00050">50</a> of file <a class="el" href="../../d5/d65/Weather_8h_source.html">Weather.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d65/Weather_8h_source.html#l00060">60</a> of file <a class="el" href="../../d5/d65/Weather_8h_source.html">Weather.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/d0f/Weather_8cpp_source.html#l00017">ApplyWeather()</a>, <a class="el" href="../../d2/d0f/Weather_8cpp_source.html#l00042">NotifyWeather()</a>, and <a class="el" href="../../d2/d0f/Weather_8cpp_source.html#l00048">SetWeather()</a>.</p>
 

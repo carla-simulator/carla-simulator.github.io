@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['fackermanncontroller',['FAckermannController',['../d7/db5/classFAckermannController.html#a13d1ea3f6689c01f9b567bfb1c98c4c8',1,'FAckermannController']]],
   ['factiveactor',['FActiveActor',['../d2/db9/structFActiveActor.html#ad52975e4459adfb2d075f749a79b7d14',1,'FActiveActor::FActiveActor()'],['../d2/db9/structFActiveActor.html#a8cf6002db3d13bf2c1a615ca27c58088',1,'FActiveActor::FActiveActor(const FCarlaActor *InCarlaActor, const FTransform &amp;InTransform)']]],
   ['factorregistry_5fgetactortype',['FActorRegistry_GetActorType',['../d3/df3/ActorRegistry_8cpp.html#ac3e95a366a763c6697781fa34a9f4064',1,'ActorRegistry.cpp']]],
   ['factorspawnresult',['FActorSpawnResult',['../d9/df2/structFActorSpawnResult.html#a7471c2c957ef3ff1d4acf02bce20087c',1,'FActorSpawnResult::FActorSpawnResult()=default'],['../d9/df2/structFActorSpawnResult.html#a673cf187d547a8d2638dba2c6882b62e',1,'FActorSpawnResult::FActorSpawnResult(AActor *InActor)']]],
@@ -30,7 +31,9 @@ var searchData=
   ['findactorbyname',['FindActorByName',['../db/de5/classACarlaGameModeBase.html#a51c8570ecfd6416d3e55e1880e0cc09e',1,'ACarlaGameModeBase']]],
   ['findandlinklanechange',['FindAndLinkLaneChange',['../da/d07/classcarla_1_1traffic__manager_1_1InMemoryMap.html#a3e468ba555815640c939fc4177fc1ca1',1,'carla::traffic_manager::InMemoryMap']]],
   ['findcarlaactor',['FindCarlaActor',['../df/db5/classFActorRegistry.html#a167889de345ae2da68d5e9fcc08f58f7',1,'FActorRegistry::FindCarlaActor(IdType Id)'],['../df/db5/classFActorRegistry.html#af2dc6201d7684a4670c333d2a98d3fda',1,'FActorRegistry::FindCarlaActor(IdType Id) const'],['../df/db5/classFActorRegistry.html#a0af7fdf2012df45bbec63ce07b38031b',1,'FActorRegistry::FindCarlaActor(const AActor *Actor)'],['../df/db5/classFActorRegistry.html#a7e6407c15a043e5179063dfd0780e8e6',1,'FActorRegistry::FindCarlaActor(const AActor *Actor) const'],['../dc/d84/classUCarlaEpisode.html#ab9fba66eeaed2e229ed69571dff6a976',1,'UCarlaEpisode::FindCarlaActor(FCarlaActor::IdType ActorId)'],['../dc/d84/classUCarlaEpisode.html#a4823f8ab58f17b2d643ca4138fdfc26c',1,'UCarlaEpisode::FindCarlaActor(AActor *Actor) const']]],
+  ['findincache',['FindInCache',['../d9/d3c/classAVegetationSpawner.html#aec82e8f2324213064f0589213cf25548',1,'AVegetationSpawner']]],
   ['findpathtoxodrfile',['FindPathToXODRFile',['../d1/d1b/classUOpenDrive.html#a5cbcf582e5c4ffd0d7a908e693bae76c',1,'UOpenDrive']]],
+  ['findpeaktorque',['FindPeakTorque',['../de/de4/structFVehicleNWEngineData.html#a981f29b1e71c72f980d0335e2fbc5bbd',1,'FVehicleNWEngineData']]],
   ['findpositioninnode',['FindPositionInNode',['../d2/de5/namespaceMapGen.html#aa8f9836381e769f95763fe1009e355fe',1,'MapGen']]],
   ['findtrafficlightat',['FindTrafficLightAt',['../d8/d27/classCarlaReplayerHelper.html#a869ec3592ae11f35259df80e85326b51',1,'CarlaReplayerHelper']]],
   ['finifile',['FIniFile',['../d6/de8/classFIniFile.html#a9452725af953007b9aeaa83cf0983415',1,'FIniFile::FIniFile()=default'],['../d6/de8/classFIniFile.html#a98068866f4de6b73ea2578b23c68f082',1,'FIniFile::FIniFile(const FString &amp;FileName)']]],
@@ -77,6 +80,7 @@ var searchData=
   ['ftrafficlightactor',['FTrafficLightActor',['../db/d58/classFTrafficLightActor.html#a4ffa230f6544e98f7debc015e5114847',1,'FTrafficLightActor']]],
   ['ftrafficsignactor',['FTrafficSignActor',['../df/dd5/classFTrafficSignActor.html#ac4a8508909e4038b58b982d754951ee4',1,'FTrafficSignActor']]],
   ['fvehicleactor',['FVehicleActor',['../d7/d01/classFVehicleActor.html#a2a36706a6d6fda9adf5bbfd3a56b46e1',1,'FVehicleActor']]],
+  ['fvehiclenwwheeldifferentialdata',['FVehicleNWWheelDifferentialData',['../d6/d4b/structFVehicleNWWheelDifferentialData.html#a5af03e5badac413a5942ffcdf925f89d',1,'FVehicleNWWheelDifferentialData']]],
   ['fwalkeractor',['FWalkerActor',['../df/dbd/classFWalkerActor.html#a58974e0ed1f133331ed3707a5603add7',1,'FWalkerActor']]],
   ['fworldobserver_5fgetacceleration',['FWorldObserver_GetAcceleration',['../d9/de7/WorldObserver_8cpp.html#a793693c5aa1457a3613e3a46cc9d6e74',1,'WorldObserver.cpp']]],
   ['fworldobserver_5fgetactorstate',['FWorldObserver_GetActorState',['../d9/de7/WorldObserver_8cpp.html#a101723de0d64fc2d5570dfab556edc7f',1,'WorldObserver.cpp']]],

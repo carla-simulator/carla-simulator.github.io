@@ -116,6 +116,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad64af224a44bf7a476284eee4cb93725"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a703ef9029fe572218fb002c112d1362f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4b/classALargeMapManager.html#a703ef9029fe572218fb002c112d1362f">GenerateMap</a> (TArray&lt; TPair&lt; FString, FIntVector &gt;&gt; MapPathsIds)</td></tr>
 <tr class="separator:a703ef9029fe572218fb002c112d1362f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37a9afb116ecac5ea14d3ab3602ae4f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4b/classALargeMapManager.html#a37a9afb116ecac5ea14d3ab3602ae4f7">GenerateMap_Editor</a> ()</td></tr>
+<tr class="separator:a37a9afb116ecac5ea14d3ab3602ae4f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac36a9154ef802452f5088ba913c642ef"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4b/classALargeMapManager.html#ac36a9154ef802452f5088ba913c642ef">GetActorStreamingDistance</a> () const</td></tr>
 <tr class="separator:ac36a9154ef802452f5088ba913c642ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a335938206c93ab2d38ec0b320083598b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4b/classALargeMapManager.html#a335938206c93ab2d38ec0b320083598b">GetLayerStreamingDistance</a> () const</td></tr>
@@ -182,8 +184,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a062965aae5dfdacf19dd1e99649297ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48e392e7b7a83bd34d55aa0ac5d98e68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4b/classALargeMapManager.html#a48e392e7b7a83bd34d55aa0ac5d98e68">DumpTilesTable</a> () const</td></tr>
 <tr class="separator:a48e392e7b7a83bd34d55aa0ac5d98e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37a9afb116ecac5ea14d3ab3602ae4f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4b/classALargeMapManager.html#a37a9afb116ecac5ea14d3ab3602ae4f7">GenerateMap_Editor</a> ()</td></tr>
-<tr class="separator:a37a9afb116ecac5ea14d3ab3602ae4f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5266ce2b7008e8a43397b9ad26d9aa9e"><td class="memItemLeft" align="right" valign="top">FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4b/classALargeMapManager.html#a5266ce2b7008e8a43397b9ad26d9aa9e">GenerateTileName</a> (<a class="el" href="../../d9/d4b/classALargeMapManager.html#a29e94f80a5fba3905cde7e9b7f339bff">TileID</a> <a class="el" href="../../d9/d4b/classALargeMapManager.html#a29e94f80a5fba3905cde7e9b7f339bff">TileID</a>)</td></tr>
 <tr class="separator:a5266ce2b7008e8a43397b9ad26d9aa9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9dfd11ef7f7b13fd1a8ce7b198571de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d88/structFCarlaMapTile.html">FCarlaMapTile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4b/classALargeMapManager.html#ac9dfd11ef7f7b13fd1a8ce7b198571de">GetCarlaMapTile</a> (FVector Location)</td></tr>
@@ -426,7 +426,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00045">45</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00271">ActorStreamingDistance</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00277">ActorStreamingDistanceSquared</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00268">LayerStreamingDistance</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00276">LayerStreamingDistanceSquared</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00108">OnLevelAddedToWorld()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00115">OnLevelRemovedFromWorld()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00074">PostWorldOriginOffset()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00069">PreWorldOriginOffset()</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00274">RebaseOriginDistance</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00278">RebaseOriginDistanceSquared</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00410">RegisterTilesInWorldComposition()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00277">ActorStreamingDistance</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00283">ActorStreamingDistanceSquared</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00274">LayerStreamingDistance</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00282">LayerStreamingDistanceSquared</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00108">OnLevelAddedToWorld()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00115">OnLevelRemovedFromWorld()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00074">PostWorldOriginOffset()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00069">PreWorldOriginOffset()</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00280">RebaseOriginDistance</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00284">RebaseOriginDistanceSquared</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00410">RegisterTilesInWorldComposition()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -463,7 +463,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00686">686</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00240">ActiveActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00245">ActivesToRemove</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00249">ActiveToDormantActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">ActorsToConsider</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00277">ActorStreamingDistanceSquared</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00259">CurrentOriginD</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00152">UCarlaEpisode::FindCarlaActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00068">UCarlaStatics::GetCurrentEpisode()</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00121">IsTileLoaded()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00246">ActiveActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00251">ActivesToRemove</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00255">ActiveToDormantActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00244">ActorsToConsider</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00283">ActorStreamingDistanceSquared</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00265">CurrentOriginD</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00152">UCarlaEpisode::FindCarlaActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00068">UCarlaStatics::GetCurrentEpisode()</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00127">IsTileLoaded()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00289">Tick()</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -510,7 +510,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00753">753</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">ActorsToConsider</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00277">ActorStreamingDistanceSquared</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00259">CurrentOriginD</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00241">DormantActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00246">DormantsToRemove</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00250">DormantToActiveActors</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00152">UCarlaEpisode::FindCarlaActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00156">FCarlaActor::GetActorData()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00080">FCarlaActor::GetActorId()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00068">UCarlaStatics::GetCurrentEpisode()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00070">FCarlaActor::IsDormant()</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00121">IsTileLoaded()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, and <a class="el" href="../../de/d7d/ActorData_8h_source.html#l00029">FActorData::Location</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00244">ActorsToConsider</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00283">ActorStreamingDistanceSquared</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00265">CurrentOriginD</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00247">DormantActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00252">DormantsToRemove</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00256">DormantToActiveActors</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00152">UCarlaEpisode::FindCarlaActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00156">FCarlaActor::GetActorData()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00080">FCarlaActor::GetActorId()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00068">UCarlaStatics::GetCurrentEpisode()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00070">FCarlaActor::IsDormant()</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00127">IsTileLoaded()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, and <a class="el" href="../../de/d7d/ActorData_8h_source.html#l00031">FActorData::Location</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00289">Tick()</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -557,7 +557,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00836">836</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">ActorsToConsider</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00259">CurrentOriginD</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00529">GetTileID()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00498">GetTileLocation()</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00274">RebaseOriginDistance</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00244">ActorsToConsider</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00265">CurrentOriginD</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00529">GetTileID()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00498">GetTileLocation()</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00280">RebaseOriginDistance</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00139">OnActorSpawned()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00289">Tick()</a>.</p>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -596,7 +596,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00405">405</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00232">MapTiles</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">MapTiles</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00322">GenerateMap()</a>.</p>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -635,7 +635,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00731">731</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00249">ActiveToDormantActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00241">DormantActors</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00068">UCarlaStatics::GetCurrentEpisode()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, and <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00246">UCarlaEpisode::PutActorToSleep()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00255">ActiveToDormantActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00247">DormantActors</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00068">UCarlaStatics::GetCurrentEpisode()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, and <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00246">UCarlaEpisode::PutActorToSleep()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00289">Tick()</a>.</p>
 <div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -682,7 +682,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00805">805</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00240">ActiveActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00259">CurrentOriginD</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00241">DormantActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00250">DormantToActiveActors</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00152">UCarlaEpisode::FindCarlaActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00068">UCarlaStatics::GetCurrentEpisode()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00065">FCarlaActor::IsActive()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00052">FDVector::ToString()</a>, and <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00251">UCarlaEpisode::WakeActorUp()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00246">ActiveActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00265">CurrentOriginD</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00247">DormantActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00256">DormantToActiveActors</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00152">UCarlaEpisode::FindCarlaActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00068">UCarlaStatics::GetCurrentEpisode()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00065">FCarlaActor::IsActive()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00052">FDVector::ToString()</a>, and <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00251">UCarlaEpisode::WakeActorUp()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00289">Tick()</a>.</p>
 <div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -729,7 +729,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00961">961</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00303">AssetsPath</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00034">carla::client::detail::Get()</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00051">FCarlaMapTile::Location</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00232">MapTiles</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00047">FCarlaMapTile::Name</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00304">AssetsPath</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00036">carla::client::detail::Get()</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00051">FCarlaMapTile::Location</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">MapTiles</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00047">FCarlaMapTile::Name</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00322">GenerateMap()</a>.</p>
 <div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -768,7 +768,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00318">318</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00322">GenerateMap()</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00143">LargeMapTilePath</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00322">GenerateMap()</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00149">LargeMapTilePath</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00069">ACarlaGameModeBase::InitGame()</a>.</p>
 <div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -810,7 +810,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00322">322</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">ActorsToConsider</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00303">AssetsPath</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00405">ClearWorldAndTiles()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00961">DumpTilesTable()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00529">GetTileID()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00565">LoadCarlaMapTile()</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00232">MapTiles</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00244">ActorsToConsider</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00304">AssetsPath</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00405">ClearWorldAndTiles()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00961">DumpTilesTable()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00529">GetTileID()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00565">LoadCarlaMapTile()</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">MapTiles</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00318">GenerateLargeMap()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00386">GenerateMap()</a>.</p>
 <div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -850,7 +850,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00386">386</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00405">ClearWorldAndTiles()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00322">GenerateMap()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00529">GetTileID()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00565">LoadCarlaMapTile()</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00232">MapTiles</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00405">ClearWorldAndTiles()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00322">GenerateMap()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00529">GetTileID()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00565">LoadCarlaMapTile()</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">MapTiles</a>.</p>
 <div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-20-summary" class="dynsummary" style="display:block;">
@@ -880,12 +880,12 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00287">287</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00108">108</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 </div>
 </div>
@@ -934,7 +934,17 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00256">256</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00271">ActorStreamingDistance</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00277">ActorStreamingDistance</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00088">FCarlaEngine::NotifyBeginEpisode()</a>.</p>
+<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_ac36a9154ef802452f5088ba913c642ef_icgraph.svg" width="466" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
@@ -963,11 +973,11 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00115">OnLevelRemovedFromWorld()</a>.</p>
-<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_ac9dfd11ef7f7b13fd1a8ce7b198571de_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1000,7 +1010,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00541">541</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00232">MapTiles</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00055">FCarlaMapTile::StreamingLevel</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">MapTiles</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00055">FCarlaMapTile::StreamingLevel</a>.</p>
 
 </div>
 </div>
@@ -1030,12 +1040,12 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00558">558</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00529">GetTileID()</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00232">MapTiles</a>.</p>
-<div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00529">GetTileID()</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">MapTiles</a>.</p>
+<div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a5873a8865515bedb7dc2901a6b08f6ad_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1059,7 +1069,17 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00251">251</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00268">LayerStreamingDistance</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00274">LayerStreamingDistance</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00088">FCarlaEngine::NotifyBeginEpisode()</a>.</p>
+<div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a335938206c93ab2d38ec0b320083598b_icgraph.svg" width="468" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
@@ -1086,14 +1106,14 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00113">113</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00119">119</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00069">ACarlaGameModeBase::InitGame()</a>.</p>
-<div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a27f43c14c88c9179abebecfe52e4343a_icgraph.svg" width="442" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1117,12 +1137,12 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00432">432</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00469">GetTileVectorID()</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00232">MapTiles</a>.</p>
-<div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00469">GetTileVectorID()</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">MapTiles</a>.</p>
+<div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a47bf9b137421f29e912cb8125eb4df1b_cgraph.svg" width="476" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1160,19 +1180,19 @@ Protected Attributes</h2></td></tr>
 <p class="reference">References <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00469">GetTileVectorID()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00836">CheckIfRebaseIsNeeded()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00322">GenerateMap()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00558">GetCarlaMapTile()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00535">GetTileID()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00862">GetTilesToConsider()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00450">IsLevelOfTileLoaded()</a>.</p>
-<div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a719578eff1513ef2ab1993349ea6db52_cgraph.svg" width="483" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a719578eff1513ef2ab1993349ea6db52_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1206,11 +1226,11 @@ Protected Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00535">535</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00529">GetTileID()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00469">GetTileVectorID()</a>.</p>
-<div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a547af82dcaaaf81a8e886e7779e6f795_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1274,19 +1294,19 @@ Protected Attributes</h2></td></tr>
 <p class="reference">References <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00469">GetTileVectorID()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00836">CheckIfRebaseIsNeeded()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00565">LoadCarlaMapTile()</a>.</p>
-<div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_abafa68f43a194e756c22a34bac95a84f_cgraph.svg" width="470" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-29-content" class="dyncontent" style="display:none;">
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_abafa68f43a194e756c22a34bac95a84f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1319,7 +1339,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00504">504</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00262">Tile0Offset</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00281">TileSide</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00268">Tile0Offset</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00287">TileSide</a>.</p>
 
 </div>
 </div>
@@ -1350,11 +1370,11 @@ Protected Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00510">510</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00469">GetTileVectorID()</a>.</p>
-<div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-30-content" class="dyncontent" style="display:none;">
+<div id="dynsection-32-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a9cbc5e178f93ad4564115bab75da2c3b_cgraph.svg" width="470" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1387,7 +1407,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00516">516</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00262">Tile0Offset</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00281">TileSide</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00268">Tile0Offset</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00287">TileSide</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>.</p>
 
 </div>
 </div>
@@ -1433,14 +1453,14 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00899">899</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00253">CurrentTilesLoaded</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00259">CurrentTilesLoaded</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00627">UpdateTilesState()</a>.</p>
-<div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-31-content" class="dyncontent" style="display:none;">
+<div id="dynsection-33-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a8c1545ea7c9bf3685e29100027259a34_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1483,22 +1503,22 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00862">862</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00259">CurrentOriginD</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00529">GetTileID()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00469">GetTileVectorID()</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00268">LayerStreamingDistance</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00232">MapTiles</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00265">CurrentOriginD</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00529">GetTileID()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00469">GetTileVectorID()</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00274">LayerStreamingDistance</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">MapTiles</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00627">UpdateTilesState()</a>.</p>
-<div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div id="dynsection-34-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a2a90cd2c498351712b4ab71af42802ce_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-33-content" class="dyncontent" style="display:none;">
+<div id="dynsection-35-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a2a90cd2c498351712b4ab71af42802ce_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1531,14 +1551,14 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00469">469</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00262">Tile0Offset</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00281">TileSide</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00268">Tile0Offset</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00287">TileSide</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00432">GetNumTilesInXY()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00529">GetTileID()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00498">GetTileLocation()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00510">GetTileLocationD()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00862">GetTilesToConsider()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00565">LoadCarlaMapTile()</a>.</p>
-<div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-34-content" class="dyncontent" style="display:none;">
+<div id="dynsection-36-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a53d7481bf584f8c3f39c6d8b744084e6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1571,7 +1591,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00479">479</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00262">Tile0Offset</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00281">TileSide</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00268">Tile0Offset</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00287">TileSide</a>.</p>
 
 </div>
 </div>
@@ -1621,22 +1641,22 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00269">269</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00259">CurrentOriginD</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00047">FDVector::ToFVector()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00265">CurrentOriginD</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00047">FDVector::ToFVector()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00198">FCarlaServer::FPimpl::BindActions()</a>, <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l00218">FCarlaActor::GetActorLocalLocation()</a>, <a class="el" href="../../d3/d7b/DebugShapeDrawer_8cpp_source.html#l00036">FShapeVisitor::operator()()</a>, and <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l00279">FCarlaActor::SetActorGlobalLocation()</a>.</p>
-<div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00200">FCarlaServer::FPimpl::BindActions()</a>, <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l00220">FCarlaActor::GetActorLocalLocation()</a>, <a class="el" href="../../d3/d7b/DebugShapeDrawer_8cpp_source.html#l00036">FShapeVisitor::operator()()</a>, and <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l00281">FCarlaActor::SetActorGlobalLocation()</a>.</p>
+<div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-35-content" class="dyncontent" style="display:none;">
+<div id="dynsection-37-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a540b115f03b1469f9bb7fc53268a4c19_cgraph.svg" width="410" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-36-content" class="dyncontent" style="display:none;">
+<div id="dynsection-38-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a540b115f03b1469f9bb7fc53268a4c19_icgraph.svg" width="100%" height="449"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1661,22 +1681,22 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00261">261</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00259">CurrentOriginD</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00047">FDVector::ToFVector()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00265">CurrentOriginD</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00047">FDVector::ToFVector()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d7b/DebugShapeDrawer_8cpp_source.html#l00129">FShapeVisitor::operator()()</a>, <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l00330">FCarlaActor::SetActorGlobalTransform()</a>, and <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00394">UCarlaEpisode::SpawnActorWithInfo()</a>.</p>
-<div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d3/d7b/DebugShapeDrawer_8cpp_source.html#l00129">FShapeVisitor::operator()()</a>, <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l00332">FCarlaActor::SetActorGlobalTransform()</a>, and <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00394">UCarlaEpisode::SpawnActorWithInfo()</a>.</p>
+<div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-37-content" class="dyncontent" style="display:none;">
+<div id="dynsection-39-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a1ae1da254e1f3c66b74e99c60321975a_cgraph.svg" width="410" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-38-content" class="dyncontent" style="display:none;">
+<div id="dynsection-40-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a1ae1da254e1f3c66b74e99c60321975a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1701,12 +1721,12 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00450">450</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00322">bPrintErrors</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00529">GetTileID()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00232">MapTiles</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00055">FCarlaMapTile::StreamingLevel</a>.</p>
-<div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00323">bPrintErrors</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00529">GetTileID()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">MapTiles</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00055">FCarlaMapTile::StreamingLevel</a>.</p>
+<div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-41-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-39-content" class="dyncontent" style="display:none;">
+<div id="dynsection-41-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_ac8b733f366750c20398dfc4369a754fa_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1737,14 +1757,14 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00121">121</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00127">127</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00686">CheckActiveActors()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00753">CheckDormantActors()</a>.</p>
-<div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-42-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-42-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-40-content" class="dyncontent" style="display:none;">
+<div id="dynsection-42-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a8bfcd0707445690c3ab8346e63deef75_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1775,7 +1795,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00126">126</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00132">132</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 </div>
 </div>
@@ -1803,7 +1823,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00131">131</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00137">137</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 </div>
 </div>
@@ -1843,22 +1863,22 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00565">565</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00498">GetTileLocation()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00469">GetTileVectorID()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00051">FCarlaMapTile::Location</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00232">MapTiles</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00047">FCarlaMapTile::Name</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00284">ShouldTilesBlockOnLoad</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00055">FCarlaMapTile::StreamingLevel</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00498">GetTileLocation()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00469">GetTileVectorID()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00051">FCarlaMapTile::Location</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">MapTiles</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00047">FCarlaMapTile::Name</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00290">ShouldTilesBlockOnLoad</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00055">FCarlaMapTile::StreamingLevel</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00322">GenerateMap()</a>.</p>
-<div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-41-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-43-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-43-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-41-content" class="dyncontent" style="display:none;">
+<div id="dynsection-43-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a10e0045ea0d180df61e9843b386e3abc_cgraph.svg" width="100%" height="361"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-42-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-42-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-44" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-44-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-44-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-42-content" class="dyncontent" style="display:none;">
+<div id="dynsection-44-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a10e0045ea0d180df61e9843b386e3abc_icgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1883,22 +1903,22 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00282">282</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00259">CurrentOriginD</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00047">FDVector::ToFVector()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00265">CurrentOriginD</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00047">FDVector::ToFVector()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00198">FCarlaServer::FPimpl::BindActions()</a>, <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l00237">FCarlaActor::GetActorGlobalLocation()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00139">OnActorSpawned()</a>, <a class="el" href="../../d7/d22/GnssSensor_8cpp_source.html#l00035">AGnssSensor::PostPhysTick()</a>, and <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l00256">FCarlaActor::SetActorLocalLocation()</a>.</p>
-<div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-43-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-43-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00200">FCarlaServer::FPimpl::BindActions()</a>, <a class="el" href="../../de/dc2/RayTracer_8cpp_source.html#l00015">URayTracer::CastRay()</a>, <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l00239">FCarlaActor::GetActorGlobalLocation()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00139">OnActorSpawned()</a>, <a class="el" href="../../d7/d22/GnssSensor_8cpp_source.html#l00035">AGnssSensor::PostPhysTick()</a>, <a class="el" href="../../de/dc2/RayTracer_8cpp_source.html#l00046">URayTracer::ProjectPoint()</a>, and <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l00258">FCarlaActor::SetActorLocalLocation()</a>.</p>
+<div id="dynsection-45" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-45-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-45-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-43-content" class="dyncontent" style="display:none;">
+<div id="dynsection-45-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_adc28142d65c3bdb83f5a6a6db9deee81_cgraph.svg" width="416" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-44" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-44-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-44-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-46" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-46-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-46-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-44-content" class="dyncontent" style="display:none;">
+<div id="dynsection-46-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_adc28142d65c3bdb83f5a6a6db9deee81_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1923,22 +1943,22 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00274">274</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00259">CurrentOriginD</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00047">FDVector::ToFVector()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00265">CurrentOriginD</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00047">FDVector::ToFVector()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00198">FCarlaServer::FPimpl::BindActions()</a>, <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l00196">FCarlaActor::GetActorGlobalTransform()</a>, and <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l00303">FCarlaActor::SetActorLocalTransform()</a>.</p>
-<div id="dynsection-45" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-45-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-45-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00200">FCarlaServer::FPimpl::BindActions()</a>, <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l00198">FCarlaActor::GetActorGlobalTransform()</a>, and <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l00305">FCarlaActor::SetActorLocalTransform()</a>.</p>
+<div id="dynsection-47" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-47-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-47-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-45-content" class="dyncontent" style="display:none;">
+<div id="dynsection-47-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a6b89f53b4415151abe996440e008475d_cgraph.svg" width="416" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-46" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-46-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-46-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-48" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-48-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-48-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-46-content" class="dyncontent" style="display:none;">
+<div id="dynsection-48-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a6b89f53b4415151abe996440e008475d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1966,19 +1986,19 @@ Protected Attributes</h2></td></tr>
 <p class="reference">References <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00152">UCarlaEpisode::FindCarlaActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00100">FCarlaActor::GetActorInfo()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00068">UCarlaStatics::GetCurrentEpisode()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00139">OnActorSpawned()</a>.</p>
-<div id="dynsection-47" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-47-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-47-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-49" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-49-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-49-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-47-content" class="dyncontent" style="display:none;">
+<div id="dynsection-49-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a545b402731ad2e1bb7e5ee16a8ce8cbf_cgraph.svg" width="100%" height="427"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-48" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-48-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-48-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-50" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-50-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-50-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-48-content" class="dyncontent" style="display:none;">
+<div id="dynsection-50-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a545b402731ad2e1bb7e5ee16a8ce8cbf_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2003,22 +2023,22 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00139">139</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00240">ActiveActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">ActorsToConsider</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00836">CheckIfRebaseIsNeeded()</a>, <a class="el" href="../../d0/d4e/ActorInfo_8h_source.html#l00026">FActorInfo::Description</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00241">DormantActors</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00080">FCarlaActor::GetActorId()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00100">FCarlaActor::GetActorInfo()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00134">UCarlaEpisode::GetActorRegistry()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00085">FCarlaActor::GetActorType()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00068">UCarlaStatics::GetCurrentEpisode()</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00282">LocalToGlobalLocation()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00212">OnActorDestroyed()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00627">UpdateTilesState()</a>, <a class="el" href="../../d6/d1a/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorAttribute_8h_source.html#l00072">FActorAttribute::Value</a>, <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00036">FActorDescription::Variations</a>, and <a class="el" href="../../dc/dde/classFCarlaActor.html#a68463a6ebe4a8d0364996c5d84af4279ad6af9c1eaff2a89ebd3f8d0c542be12b">FCarlaActor::Vehicle</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00246">ActiveActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00244">ActorsToConsider</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00836">CheckIfRebaseIsNeeded()</a>, <a class="el" href="../../d0/d4e/ActorInfo_8h_source.html#l00026">FActorInfo::Description</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00247">DormantActors</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00080">FCarlaActor::GetActorId()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00100">FCarlaActor::GetActorInfo()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00134">UCarlaEpisode::GetActorRegistry()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00085">FCarlaActor::GetActorType()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00068">UCarlaStatics::GetCurrentEpisode()</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00282">LocalToGlobalLocation()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00212">OnActorDestroyed()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00627">UpdateTilesState()</a>, <a class="el" href="../../d6/d1a/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorAttribute_8h_source.html#l00072">FActorAttribute::Value</a>, <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00036">FActorDescription::Variations</a>, and <a class="el" href="../../dc/dde/classFCarlaActor.html#a68463a6ebe4a8d0364996c5d84af4279ad6af9c1eaff2a89ebd3f8d0c542be12b">FCarlaActor::Vehicle</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00198">FCarlaServer::FPimpl::BindActions()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00123">RegisterInitialObjects()</a>, and <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00034">CarlaReplayerHelper::TryToCreateReplayerActor()</a>.</p>
-<div id="dynsection-49" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-49-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-49-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00200">FCarlaServer::FPimpl::BindActions()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00123">RegisterInitialObjects()</a>, and <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00038">CarlaReplayerHelper::TryToCreateReplayerActor()</a>.</p>
+<div id="dynsection-51" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-51-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-51-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-49-content" class="dyncontent" style="display:none;">
+<div id="dynsection-51-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a4db8db5e5de04f87f71b1fd36d9b6735_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-50" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-50-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-50-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-52" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-52-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-52-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-50-content" class="dyncontent" style="display:none;">
+<div id="dynsection-52-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a4db8db5e5de04f87f71b1fd36d9b6735_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2064,19 +2084,19 @@ Protected Attributes</h2></td></tr>
 <p class="reference">References <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, and <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00198">ATagger::TagActorsInLevel()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00045">BeginPlay()</a>.</p>
-<div id="dynsection-51" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-51-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-51-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-53" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-53-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-53-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-51-content" class="dyncontent" style="display:none;">
+<div id="dynsection-53-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_ae4d6181a475f85434d957d557038e6b4_cgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-52" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-52-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-52-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-54" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-54-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-54-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-52-content" class="dyncontent" style="display:none;">
+<div id="dynsection-54-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_ae4d6181a475f85434d957d557038e6b4_icgraph.svg" width="492" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2122,19 +2142,19 @@ Protected Attributes</h2></td></tr>
 <p class="reference">References <a class="el" href="../../d9/d4b/classALargeMapManager.html#ac9dfd11ef7f7b13fd1a8ce7b198571de">GetCarlaMapTile()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00057">FCarlaMapTile::TilesSpawned</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00045">BeginPlay()</a>.</p>
-<div id="dynsection-53" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-53-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-53-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-55" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-55-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-55-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-53-content" class="dyncontent" style="display:none;">
+<div id="dynsection-55-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a9b754b38fc014bfd11e6ad0b77a8c21f_cgraph.svg" width="484" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-54" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-54-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-54-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-56" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-56-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-56-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-54-content" class="dyncontent" style="display:none;">
+<div id="dynsection-56-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a9b754b38fc014bfd11e6ad0b77a8c21f_icgraph.svg" width="492" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2183,22 +2203,22 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00074">74</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00259">CurrentOriginD</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00257">CurrentOriginInt</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00068">UCarlaStatics::GetCurrentEpisode()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00051">FCarlaMapTile::Location</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00232">MapTiles</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00316">MsgTime</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00307">PositonMsgColor</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00290">UCarlaEpisode::SetCurrentMapOrigin()</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00055">FCarlaMapTile::StreamingLevel</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00265">CurrentOriginD</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00263">CurrentOriginInt</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00068">UCarlaStatics::GetCurrentEpisode()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00051">FCarlaMapTile::Location</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">MapTiles</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00317">MsgTime</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00308">PositonMsgColor</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00290">UCarlaEpisode::SetCurrentMapOrigin()</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00055">FCarlaMapTile::StreamingLevel</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00045">BeginPlay()</a>.</p>
-<div id="dynsection-55" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-55-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-55-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-57" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-57-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-57-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-55-content" class="dyncontent" style="display:none;">
+<div id="dynsection-57-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_abf26c31bbf6b18e678d4aff461f2913e_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-56" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-56-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-56-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-58" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-58-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-58-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-56-content" class="dyncontent" style="display:none;">
+<div id="dynsection-58-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_abf26c31bbf6b18e678d4aff461f2913e_icgraph.svg" width="504" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2250,11 +2270,11 @@ Protected Attributes</h2></td></tr>
 <p class="reference">References <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00045">BeginPlay()</a>.</p>
-<div id="dynsection-57" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-57-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-57-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-59" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-59-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-59-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-57-content" class="dyncontent" style="display:none;">
+<div id="dynsection-59-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a2a33a3e785761a853ecc62be724a4e03_icgraph.svg" width="498" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2286,22 +2306,22 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00988">988</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00240">ActiveActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">ActorsToConsider</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00312">ClientLocMsgIndex</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00259">CurrentOriginD</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00257">CurrentOriginInt</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00253">CurrentTilesLoaded</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00037">FDVector::Dist()</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00241">DormantActors</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00051">FCarlaMapTile::Location</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00232">MapTiles</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00313">MaxClientLocMsgIndex</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00310">MaxTilesDistMsgIndex</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00316">MsgTime</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00307">PositonMsgColor</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00055">FCarlaMapTile::StreamingLevel</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00954">TileIDToString()</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00309">TilesDistMsgIndex</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00281">TileSide</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00246">ActiveActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00244">ActorsToConsider</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00313">ClientLocMsgIndex</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00265">CurrentOriginD</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00263">CurrentOriginInt</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00259">CurrentTilesLoaded</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00037">FDVector::Dist()</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00247">DormantActors</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00051">FCarlaMapTile::Location</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">MapTiles</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00314">MaxClientLocMsgIndex</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00311">MaxTilesDistMsgIndex</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00317">MsgTime</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00308">PositonMsgColor</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00055">FCarlaMapTile::StreamingLevel</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00954">TileIDToString()</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00310">TilesDistMsgIndex</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00287">TileSide</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00289">Tick()</a>.</p>
-<div id="dynsection-58" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-58-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-58-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-60" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-60-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-60-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-58-content" class="dyncontent" style="display:none;">
+<div id="dynsection-60-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a1ffb0a3542163da0f807fa25b15a3513_cgraph.svg" width="100%" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-59" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-59-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-59-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-61" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-61-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-61-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-59-content" class="dyncontent" style="display:none;">
+<div id="dynsection-61-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a1ffb0a3542163da0f807fa25b15a3513_icgraph.svg" width="484" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2327,20 +2347,20 @@ Protected Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00134">UCarlaEpisode::GetActorRegistry()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00068">UCarlaStatics::GetCurrentEpisode()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00139">OnActorSpawned()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00165">ACarlaGameModeBase::BeginPlay()</a>.</p>
-<div id="dynsection-60" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-60-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-60-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00170">ACarlaGameModeBase::BeginPlay()</a>.</p>
+<div id="dynsection-62" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-62-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-62-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-60-content" class="dyncontent" style="display:none;">
+<div id="dynsection-62-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a0cb42207dd6d375bd65bdafe6ae9e9f9_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-61" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-61-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-61-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-63" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-63-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-63-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-61-content" class="dyncontent" style="display:none;">
+<div id="dynsection-63-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a0cb42207dd6d375bd65bdafe6ae9e9f9_icgraph.svg" width="440" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2372,14 +2392,14 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00410">410</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00232">MapTiles</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">MapTiles</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00045">BeginPlay()</a>.</p>
-<div id="dynsection-62" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-62-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-62-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-64" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-64-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-64-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-62-content" class="dyncontent" style="display:none;">
+<div id="dynsection-64-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_aacd380beaf907ef4ff7212c5e5a3bd83_icgraph.svg" width="492" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2411,14 +2431,14 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00658">658</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00240">ActiveActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00245">ActivesToRemove</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">ActorsToConsider</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00244">ActorsToRemove</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00241">DormantActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00246">DormantsToRemove</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00246">ActiveActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00251">ActivesToRemove</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00244">ActorsToConsider</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00250">ActorsToRemove</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00247">DormantActors</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00252">DormantsToRemove</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00020">LM_LOG</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00289">Tick()</a>.</p>
-<div id="dynsection-63" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-63-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-63-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-65" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-65-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-65-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-63-content" class="dyncontent" style="display:none;">
+<div id="dynsection-65-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_ab6e5adac3d95a281517fcd7858deeb8c_icgraph.svg" width="455" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2443,14 +2463,14 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00244">244</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00271">ActorStreamingDistance</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00277">ActorStreamingDistanceSquared</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00277">ActorStreamingDistance</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00283">ActorStreamingDistanceSquared</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00169">FCarlaEngine::OnEpisodeSettingsChanged()</a>.</p>
-<div id="dynsection-64" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-64-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-64-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00177">FCarlaEngine::OnEpisodeSettingsChanged()</a>.</p>
+<div id="dynsection-66" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-66-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-66-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-64-content" class="dyncontent" style="display:none;">
+<div id="dynsection-66-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a3afd9b4c3407d4e6b55ca7a6d383f9d7_icgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2475,14 +2495,14 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00237">237</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00268">LayerStreamingDistance</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00276">LayerStreamingDistanceSquared</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00274">LayerStreamingDistance</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00282">LayerStreamingDistanceSquared</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00169">FCarlaEngine::OnEpisodeSettingsChanged()</a>.</p>
-<div id="dynsection-65" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-65-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-65-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00177">FCarlaEngine::OnEpisodeSettingsChanged()</a>.</p>
+<div id="dynsection-67" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-67-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-67-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-65-content" class="dyncontent" style="display:none;">
+<div id="dynsection-67-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_ab1a8dee788c842bd999f77a42724f88a_icgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2507,7 +2527,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00227">227</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00262">Tile0Offset</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00268">Tile0Offset</a>.</p>
 
 </div>
 </div>
@@ -2529,7 +2549,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00232">232</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00281">TileSide</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00287">TileSide</a>.</p>
 
 </div>
 </div>
@@ -2559,12 +2579,12 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00289">289</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00319">bPrintMapInfo</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00686">CheckActiveActors()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00753">CheckDormantActors()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00836">CheckIfRebaseIsNeeded()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00731">ConvertActiveToDormantActors()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00805">ConvertDormantToActiveActors()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00988">PrintMapInfo()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00658">RemovePendingActorsToRemove()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00627">UpdateTilesState()</a>.</p>
-<div id="dynsection-66" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-66-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-66-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00320">bPrintMapInfo</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00686">CheckActiveActors()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00753">CheckDormantActors()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00836">CheckIfRebaseIsNeeded()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00731">ConvertActiveToDormantActors()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00805">ConvertDormantToActiveActors()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00988">PrintMapInfo()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00658">RemovePendingActorsToRemove()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00627">UpdateTilesState()</a>.</p>
+<div id="dynsection-68" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-68-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-68-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-66-content" class="dyncontent" style="display:none;">
+<div id="dynsection-68-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_aa8b88f7b5c296ff148be41becbd67201_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2598,11 +2618,11 @@ Protected Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00954">954</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00988">PrintMapInfo()</a>.</p>
-<div id="dynsection-67" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-67-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-67-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-69" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-69-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-69-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-67-content" class="dyncontent" style="display:none;">
+<div id="dynsection-69-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a1790e4f4d48336ee70e3fac68fa49dba_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2645,14 +2665,14 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00931">931</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00253">CurrentTilesLoaded</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00259">CurrentTilesLoaded</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00627">UpdateTilesState()</a>.</p>
-<div id="dynsection-68" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-68-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-68-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-70" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-70-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-70-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-68-content" class="dyncontent" style="display:none;">
+<div id="dynsection-70-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a188be94a33cdc78bcef7fb92bcfe680e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2684,22 +2704,22 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00627">627</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">ActorsToConsider</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00244">ActorsToRemove</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00899">GetTilesThatNeedToChangeState()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00862">GetTilesToConsider()</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00931">UpdateCurrentTilesLoaded()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00909">UpdateTileState()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00244">ActorsToConsider</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00250">ActorsToRemove</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00899">GetTilesThatNeedToChangeState()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00862">GetTilesToConsider()</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00931">UpdateCurrentTilesLoaded()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00909">UpdateTileState()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00139">OnActorSpawned()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00289">Tick()</a>.</p>
-<div id="dynsection-69" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-69-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-69-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-71" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-71-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-71-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-69-content" class="dyncontent" style="display:none;">
+<div id="dynsection-71-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a2b57d4a4247bc0bc70f6902baadaa7c6_cgraph.svg" width="100%" height="525"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-70" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-70-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-70-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-72" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-72-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-72-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-70-content" class="dyncontent" style="display:none;">
+<div id="dynsection-72-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_a2b57d4a4247bc0bc70f6902baadaa7c6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2754,14 +2774,14 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00909">909</a> of file <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html">LargeMapManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00232">MapTiles</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00055">FCarlaMapTile::StreamingLevel</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">MapTiles</a>, and <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00055">FCarlaMapTile::StreamingLevel</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00627">UpdateTilesState()</a>.</p>
-<div id="dynsection-71" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-71-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-71-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-73" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-73-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-73-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-71-content" class="dyncontent" style="display:none;">
+<div id="dynsection-73-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/d4b/classALargeMapManager_ad17c467de79c7d1847fc4a40802349e1_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2789,7 +2809,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00240">240</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00246">246</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00686">CheckActiveActors()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00805">ConvertDormantToActiveActors()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00139">OnActorSpawned()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00988">PrintMapInfo()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00658">RemovePendingActorsToRemove()</a>.</p>
 
@@ -2815,7 +2835,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00245">245</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00251">251</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00686">CheckActiveActors()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00658">RemovePendingActorsToRemove()</a>.</p>
 
@@ -2841,7 +2861,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00249">249</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00255">255</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00686">CheckActiveActors()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00731">ConvertActiveToDormantActors()</a>.</p>
 
@@ -2867,7 +2887,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">238</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00244">244</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00686">CheckActiveActors()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00753">CheckDormantActors()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00836">CheckIfRebaseIsNeeded()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00322">GenerateMap()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00139">OnActorSpawned()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00988">PrintMapInfo()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00658">RemovePendingActorsToRemove()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00627">UpdateTilesState()</a>.</p>
 
@@ -2893,7 +2913,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00244">244</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00250">250</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00658">RemovePendingActorsToRemove()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00627">UpdateTilesState()</a>.</p>
 
@@ -2919,7 +2939,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00271">271</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00277">277</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00045">BeginPlay()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00256">GetActorStreamingDistance()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00244">SetActorStreamingDistance()</a>.</p>
 
@@ -2945,7 +2965,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00277">277</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00283">283</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00045">BeginPlay()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00686">CheckActiveActors()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00753">CheckDormantActors()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00244">SetActorStreamingDistance()</a>.</p>
 
@@ -2971,7 +2991,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00303">303</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00304">304</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00961">DumpTilesTable()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00322">GenerateMap()</a>.</p>
 
@@ -2997,7 +3017,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00305">305</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00306">306</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 </div>
 </div>
@@ -3021,7 +3041,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00322">322</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00323">323</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00450">IsLevelOfTileLoaded()</a>.</p>
 
@@ -3047,7 +3067,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00319">319</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00320">320</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00289">Tick()</a>.</p>
 
@@ -3073,7 +3093,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00312">312</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00313">313</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00988">PrintMapInfo()</a>.</p>
 
@@ -3099,7 +3119,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00259">259</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00265">265</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00686">CheckActiveActors()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00753">CheckDormantActors()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00836">CheckIfRebaseIsNeeded()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00805">ConvertDormantToActiveActors()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00862">GetTilesToConsider()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00269">GlobalToLocalLocation()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00261">GlobalToLocalTransform()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00282">LocalToGlobalLocation()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00274">LocalToGlobalTransform()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00074">PostWorldOriginOffset()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00988">PrintMapInfo()</a>.</p>
 
@@ -3125,7 +3145,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00257">257</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00263">263</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00074">PostWorldOriginOffset()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00988">PrintMapInfo()</a>.</p>
 
@@ -3151,7 +3171,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00253">253</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00259">259</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00899">GetTilesThatNeedToChangeState()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00988">PrintMapInfo()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00931">UpdateCurrentTilesLoaded()</a>.</p>
 
@@ -3177,7 +3197,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00241">241</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00247">247</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00753">CheckDormantActors()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00731">ConvertActiveToDormantActors()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00805">ConvertDormantToActiveActors()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00139">OnActorSpawned()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00988">PrintMapInfo()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00658">RemovePendingActorsToRemove()</a>.</p>
 
@@ -3203,7 +3223,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00246">246</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00252">252</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00753">CheckDormantActors()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00658">RemovePendingActorsToRemove()</a>.</p>
 
@@ -3229,7 +3249,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00250">250</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00256">256</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00753">CheckDormantActors()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00805">ConvertDormantToActiveActors()</a>.</p>
 
@@ -3247,7 +3267,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00145">145</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00151">151</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00069">ACarlaGameModeBase::InitGame()</a>.</p>
 
@@ -3265,7 +3285,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00143">143</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00149">149</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00318">GenerateLargeMap()</a>.</p>
 
@@ -3291,7 +3311,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00268">268</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00274">274</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00045">BeginPlay()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00251">GetLayerStreamingDistance()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00862">GetTilesToConsider()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00237">SetLayerStreamingDistance()</a>.</p>
 
@@ -3317,7 +3337,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00276">276</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00282">282</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00045">BeginPlay()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00237">SetLayerStreamingDistance()</a>.</p>
 
@@ -3343,7 +3363,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00232">232</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00238">238</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00405">ClearWorldAndTiles()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00961">DumpTilesTable()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00322">GenerateMap()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00541">GetCarlaMapTile()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00432">GetNumTilesInXY()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00862">GetTilesToConsider()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00450">IsLevelOfTileLoaded()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00565">LoadCarlaMapTile()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00074">PostWorldOriginOffset()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00988">PrintMapInfo()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00410">RegisterTilesInWorldComposition()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00909">UpdateTileState()</a>.</p>
 
@@ -3369,7 +3389,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00313">313</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00314">314</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00988">PrintMapInfo()</a>.</p>
 
@@ -3395,7 +3415,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00310">310</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00311">311</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00988">PrintMapInfo()</a>.</p>
 
@@ -3421,7 +3441,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00316">316</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00317">317</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00074">PostWorldOriginOffset()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00988">PrintMapInfo()</a>.</p>
 
@@ -3447,7 +3467,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00307">307</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00308">308</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00074">PostWorldOriginOffset()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00988">PrintMapInfo()</a>.</p>
 
@@ -3473,7 +3493,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00274">274</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00280">280</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00045">BeginPlay()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00836">CheckIfRebaseIsNeeded()</a>.</p>
 
@@ -3499,7 +3519,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00278">278</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00284">284</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00045">BeginPlay()</a>.</p>
 
@@ -3525,7 +3545,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00284">284</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00290">290</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00565">LoadCarlaMapTile()</a>.</p>
 
@@ -3551,7 +3571,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00265">265</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00271">271</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 </div>
 </div>
@@ -3575,7 +3595,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00262">262</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00268">268</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00504">GetTileLocation()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00516">GetTileLocationD()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00469">GetTileVectorID()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00227">SetTile0Offset()</a>.</p>
 
@@ -3601,7 +3621,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00309">309</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00310">310</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00988">PrintMapInfo()</a>.</p>
 
@@ -3627,7 +3647,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00281">281</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00287">287</a> of file <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">LargeMapManager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00504">GetTileLocation()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00516">GetTileLocationD()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00469">GetTileVectorID()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00988">PrintMapInfo()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00232">SetTileSize()</a>.</p>
 

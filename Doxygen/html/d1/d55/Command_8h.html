@@ -83,11 +83,13 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <code>#include &quot;<a class="el" href="../../de/d17/geom_2Transform_8h_source.html">carla/geom/Transform.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/db9/LibCarla_2source_2carla_2rpc_2ActorDescription_8h_source.html">carla/rpc/ActorDescription.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/d89/ActorId_8h_source.html">carla/rpc/ActorId.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/d16/LibCarla_2source_2carla_2rpc_2TrafficLightState_8h_source.html">carla/rpc/TrafficLightState.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/def/LibCarla_2source_2carla_2rpc_2VehicleAckermannControl_8h_source.html">carla/rpc/VehicleAckermannControl.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dd/d28/LibCarla_2source_2carla_2rpc_2VehicleControl_8h_source.html">carla/rpc/VehicleControl.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/d8e/LibCarla_2source_2carla_2rpc_2VehiclePhysicsControl_8h_source.html">carla/rpc/VehiclePhysicsControl.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d64/LibCarla_2source_2carla_2rpc_2VehicleLightState_8h_source.html">carla/rpc/VehicleLightState.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dd/db3/LibCarla_2source_2carla_2rpc_2WalkerControl_8h_source.html">carla/rpc/WalkerControl.h</a>&quot;</code><br />
-<code>#include &lt;boost/variant.hpp&gt;</code><br />
+<code>#include &lt;boost/variant2/variant.hpp&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for Command.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -115,6 +117,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db4/structcarla_1_1rpc_1_1Command_1_1ApplyImpulse.html">carla::rpc::Command::ApplyImpulse</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d4f/structcarla_1_1rpc_1_1Command_1_1ApplyLocation.html">carla::rpc::Command::ApplyLocation</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de7/structcarla_1_1rpc_1_1Command_1_1ApplyTargetAngularVelocity.html">carla::rpc::Command::ApplyTargetAngularVelocity</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dae/structcarla_1_1rpc_1_1Command_1_1ApplyTargetVelocity.html">carla::rpc::Command::ApplyTargetVelocity</a></td></tr>
@@ -122,6 +126,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/df8/structcarla_1_1rpc_1_1Command_1_1ApplyTorque.html">carla::rpc::Command::ApplyTorque</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d78/structcarla_1_1rpc_1_1Command_1_1ApplyTransform.html">carla::rpc::Command::ApplyTransform</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc1/structcarla_1_1rpc_1_1Command_1_1ApplyVehicleAckermannControl.html">carla::rpc::Command::ApplyVehicleAckermannControl</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/structcarla_1_1rpc_1_1Command_1_1ApplyVehicleControl.html">carla::rpc::Command::ApplyVehicleControl</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,6 +141,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d4c/structcarla_1_1rpc_1_1Command_1_1CommandBase.html">carla::rpc::Command::CommandBase&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d90/structcarla_1_1rpc_1_1Command_1_1ConsoleCommand.html">carla::rpc::Command::ConsoleCommand</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d28/structcarla_1_1rpc_1_1Command_1_1DestroyActor.html">carla::rpc::Command::DestroyActor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d73/structcarla_1_1rpc_1_1Command_1_1SetAutopilot.html">carla::rpc::Command::SetAutopilot</a></td></tr>
@@ -142,6 +150,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/structcarla_1_1rpc_1_1Command_1_1SetEnableGravity.html">carla::rpc::Command::SetEnableGravity</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db5/structcarla_1_1rpc_1_1Command_1_1SetSimulatePhysics.html">carla::rpc::Command::SetSimulatePhysics</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db8/structcarla_1_1rpc_1_1Command_1_1SetTrafficLightState.html">carla::rpc::Command::SetTrafficLightState</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d85/structcarla_1_1rpc_1_1Command_1_1SetVehicleLightState.html">carla::rpc::Command::SetVehicleLightState</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>

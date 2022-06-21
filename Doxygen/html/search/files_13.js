@@ -1,9 +1,12 @@
 var searchData=
 [
   ['vector3dint_2eh',['Vector3DInt.h',['../d1/da4/Vector3DInt_8h.html',1,'']]],
+  ['vegetationspawner_2ecpp',['VegetationSpawner.cpp',['../d2/db7/VegetationSpawner_8cpp.html',1,'']]],
+  ['vegetationspawner_2eh',['VegetationSpawner.h',['../d8/d7c/VegetationSpawner_8h.html',1,'']]],
   ['vehicle_2ecpp',['Vehicle.cpp',['../d0/d27/Vehicle_8cpp.html',1,'']]],
   ['vehicle_2eh',['Vehicle.h',['../d9/d18/Vehicle_8h.html',1,'']]],
   ['vehicledoor_2eh',['VehicleDoor.h',['../da/dc3/VehicleDoor_8h.html',1,'']]],
+  ['vehiclefailurestate_2eh',['VehicleFailureState.h',['../d6/dac/VehicleFailureState_8h.html',1,'']]],
   ['vehicleinputpriority_2eh',['VehicleInputPriority.h',['../db/d8b/VehicleInputPriority_8h.html',1,'']]],
   ['vehiclelightstage_2ecpp',['VehicleLightStage.cpp',['../d2/d11/VehicleLightStage_8cpp.html',1,'']]],
   ['vehiclelightstage_2eh',['VehicleLightStage.h',['../d1/dc1/VehicleLightStage_8h.html',1,'']]],

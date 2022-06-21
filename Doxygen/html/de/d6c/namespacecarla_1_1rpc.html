@@ -89,6 +89,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d1f/classcarla_1_1rpc_1_1AckermannControllerSettings.html">AckermannControllerSettings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dfd/classcarla_1_1rpc_1_1Actor.html">Actor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d46/classcarla_1_1rpc_1_1ActorAttribute.html">ActorAttribute</a></td></tr>
@@ -141,6 +143,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An RPC server in which functions can be bind to run synchronously or asynchronously.  <a href="../../db/d5f/classcarla_1_1rpc_1_1Server.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d1c/classcarla_1_1rpc_1_1Texture.html">Texture</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d73/classcarla_1_1rpc_1_1VehicleAckermannControl.html">VehicleAckermannControl</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9c/classcarla_1_1rpc_1_1VehicleControl.html">VehicleControl</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -302,6 +306,12 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a3eb217a0533294546f189b832ad0ee04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae24acdb5a620582353443f8b547a52bc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#ae24acdb5a620582353443f8b547a52bc">VehicleFailureState</a> : uint8_t { <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#ae24acdb5a620582353443f8b547a52bca6adf97f83acf6453d4a6a4b1070f3754">VehicleFailureState::None</a>, 
+<a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#ae24acdb5a620582353443f8b547a52bcac598d83d76b2228eadaa9ca5853420cb">VehicleFailureState::Rollover</a>, 
+<a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#ae24acdb5a620582353443f8b547a52bca7bfa30721c5e726ff17e3f972237a82c">VehicleFailureState::Engine</a>, 
+<a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#ae24acdb5a620582353443f8b547a52bcab3dc445c5b470f4bb68b3afa16406b30">VehicleFailureState::TirePuncture</a>
+ }</td></tr>
+<tr class="separator:ae24acdb5a620582353443f8b547a52bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac246e8e8896e5580ccc625181d39e484"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#ac246e8e8896e5580ccc625181d39e484">VehicleWheelLocation</a> : uint8_t { <br />
 &#160;&#160;<a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#ac246e8e8896e5580ccc625181d39e484a6f1ecd9ed10b31f948a5c0d6c8643c8f">VehicleWheelLocation::FL_Wheel</a> = 0, 
 <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#ac246e8e8896e5580ccc625181d39e484a439c30cd5f07b821e59fbc4d1fd5279f">VehicleWheelLocation::FR_Wheel</a> = 1, 
@@ -852,6 +862,36 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae24acdb5a620582353443f8b547a52bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae24acdb5a620582353443f8b547a52bc">&#9670;&nbsp;</a></span>VehicleFailureState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#ae24acdb5a620582353443f8b547a52bc">carla::rpc::VehicleFailureState</a> : uint8_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae24acdb5a620582353443f8b547a52bca6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae24acdb5a620582353443f8b547a52bcac598d83d76b2228eadaa9ca5853420cb"></a>Rollover&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae24acdb5a620582353443f8b547a52bca7bfa30721c5e726ff17e3f972237a82c"></a>Engine&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae24acdb5a620582353443f8b547a52bcab3dc445c5b470f4bb68b3afa16406b30"></a>TirePuncture&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d6/dac/VehicleFailureState_8h_source.html#l00014">14</a> of file <a class="el" href="../../d6/dac/VehicleFailureState_8h_source.html">VehicleFailureState.h</a>.</p>
+
+</div>
+</div>
 <a id="ac246e8e8896e5580ccc625181d39e484"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac246e8e8896e5580ccc625181d39e484">&#9670;&nbsp;</a></span>VehicleWheelLocation</h2>
 
@@ -905,7 +945,7 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42bab1c94ca2fbc3e78fc30069c8d0f01680">All</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42ba9fdd5aad7ea528df6738692b788cee0a">Buildings</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42bafb76c50cc5503dc1c25091fd2610a849">Decals</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42bacdda6a42847f060bf457e9ed3f06f373">Foliage</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42ba3519d51443d41746a097cd54cd5c11cf">Ground</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42ba6adf97f83acf6453d4a6a4b1070f3754">None</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42ba6fbd65915f86bd67fa4239b38c8b29b8">ParkedVehicles</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42baad4aa221c22fd934ecd55e34457ffc3b">Particles</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42ba9ad963167cc06bd9873a2821497492cd">Props</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42ba7e414e74bf4df3dd70a8ee6dda7c0720">StreetLights</a>, and <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42ba1f5c5ce5cdbea723378e6db882a732ec">Walls</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00687">ACarlaGameModeBase::ConvertMapLayerMaskToMapNames()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00692">ACarlaGameModeBase::ConvertMapLayerMaskToMapNames()</a>.</p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">

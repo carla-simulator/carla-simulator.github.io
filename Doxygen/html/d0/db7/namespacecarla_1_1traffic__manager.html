@@ -212,6 +212,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a53505188d578bf17927006540f2bd6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9eb254b73bb0687ee1576cf3c85b0ba5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a9eb254b73bb0687ee1576cf3c85b0ba5">IdleTimeMap</a> = std::unordered_map&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a0031b3f566c364872121f8a79f27f174">ActorId</a>, double &gt;</td></tr>
 <tr class="separator:a9eb254b73bb0687ee1576cf3c85b0ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff6df16eb9281c794426a790d7b0a8f8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aff6df16eb9281c794426a790d7b0a8f8">Junction</a> = <a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">carla::SharedPtr</a>&lt; <a class="el" href="../../dc/df7/classcarla_1_1client_1_1Junction.html">carla::client::Junction</a> &gt;</td></tr>
+<tr class="separator:aff6df16eb9281c794426a790d7b0a8f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ed9f2a3c9b07e059dcdd0a7f8c3c8ed"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a0ed9f2a3c9b07e059dcdd0a7f8c3c8ed">JunctionID</a> = <a class="el" href="../../de/d26/namespacecarla_1_1road.html#a459e3705665dbc8b48b8ed053e15f6f7">carla::road::JuncId</a></td></tr>
 <tr class="separator:a0ed9f2a3c9b07e059dcdd0a7f8c3c8ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae07a4afe42e833f882778a119abcaf1f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#ae07a4afe42e833f882778a119abcaf1f">KinematicStateMap</a> = std::unordered_map&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a0031b3f566c364872121f8a79f27f174">ActorId</a>, <a class="el" href="../../d8/de5/structcarla_1_1traffic__manager_1_1KinematicState.html">KinematicState</a> &gt;</td></tr>
@@ -234,8 +236,6 @@ Typedefs</h2></td></tr>
 <tr class="separator:ac8593312aeb9c06157e74db06486d2a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea75933697bbdc31d4fb485609867a9b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aea75933697bbdc31d4fb485609867a9b">Polygon</a> = bg::model::polygon&lt; bg::model::d2::point_xy&lt; double &gt; &gt;</td></tr>
 <tr class="separator:aea75933697bbdc31d4fb485609867a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07f35a5eaab4d8d4693949aa73711a0b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a07f35a5eaab4d8d4693949aa73711a0b">RandomGeneratorMap</a> = std::unordered_map&lt; <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a8a3d3e920d321eca7eac112a8cacd747">carla::rpc::ActorId</a>, <a class="el" href="../../d2/df0/classcarla_1_1traffic__manager_1_1RandomGenerator.html">RandomGenerator</a> &gt;</td></tr>
-<tr class="separator:a07f35a5eaab4d8d4693949aa73711a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed8120d9b5c8c6904e095d68b6c2ada6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aed8120d9b5c8c6904e095d68b6c2ada6">RawNodeList</a> = std::vector&lt; <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a0c1df4484faf4b17c88ef8879c8cf0eb">WaypointPtr</a> &gt;</td></tr>
 <tr class="separator:aed8120d9b5c8c6904e095d68b6c2ada6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58761158ed79d767d06d0d36bf373bd1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a58761158ed79d767d06d0d36bf373bd1">Route</a> = std::vector&lt; uint8_t &gt;</td></tr>
@@ -503,7 +503,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d49/DataStructures_8h_source.html#l00048">48</a> of file <a class="el" href="../../d0/d49/DataStructures_8h_source.html">DataStructures.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d49/DataStructures_8h_source.html#l00049">49</a> of file <a class="el" href="../../d0/d49/DataStructures_8h_source.html">DataStructures.h</a>.</p>
 
 </div>
 </div>
@@ -535,7 +535,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d49/DataStructures_8h_source.html#l00050">50</a> of file <a class="el" href="../../d0/d49/DataStructures_8h_source.html">DataStructures.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d49/DataStructures_8h_source.html#l00051">51</a> of file <a class="el" href="../../d0/d49/DataStructures_8h_source.html">DataStructures.h</a>.</p>
 
 </div>
 </div>
@@ -603,6 +603,22 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aff6df16eb9281c794426a790d7b0a8f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff6df16eb9281c794426a790d7b0a8f8">&#9670;&nbsp;</a></span>Junction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#aff6df16eb9281c794426a790d7b0a8f8">carla::traffic_manager::Junction</a> = typedef <a class="el" href="../../d9/d36/namespacecarla.html#a92e3ea2d07fa7e0a2fe5d680fb0ba614">carla::SharedPtr</a>&lt;<a class="el" href="../../dc/df7/classcarla_1_1client_1_1Junction.html">carla::client::Junction</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d49/DataStructures_8h_source.html#l00030">30</a> of file <a class="el" href="../../d0/d49/DataStructures_8h_source.html">DataStructures.h</a>.</p>
+
+</div>
+</div>
 <a id="a0ed9f2a3c9b07e059dcdd0a7f8c3c8ed"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ed9f2a3c9b07e059dcdd0a7f8c3c8ed">&#9670;&nbsp;</a></span>JunctionID</h2>
 
@@ -631,7 +647,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d3b/SimulationState_8h_source.html#l00025">25</a> of file <a class="el" href="../../d5/d3b/SimulationState_8h_source.html">SimulationState.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d3b/SimulationState_8h_source.html#l00026">26</a> of file <a class="el" href="../../d5/d3b/SimulationState_8h_source.html">SimulationState.h</a>.</p>
 
 </div>
 </div>
@@ -663,7 +679,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d49/DataStructures_8h_source.html#l00041">41</a> of file <a class="el" href="../../d0/d49/DataStructures_8h_source.html">DataStructures.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d49/DataStructures_8h_source.html#l00042">42</a> of file <a class="el" href="../../d0/d49/DataStructures_8h_source.html">DataStructures.h</a>.</p>
 
 </div>
 </div>
@@ -776,22 +792,6 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../da/d67/CollisionStage_8h_source.html#l00042">42</a> of file <a class="el" href="../../da/d67/CollisionStage_8h_source.html">CollisionStage.h</a>.</p>
-
-</div>
-</div>
-<a id="a07f35a5eaab4d8d4693949aa73711a0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07f35a5eaab4d8d4693949aa73711a0b">&#9670;&nbsp;</a></span>RandomGeneratorMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a07f35a5eaab4d8d4693949aa73711a0b">carla::traffic_manager::RandomGeneratorMap</a> = typedef std::unordered_map&lt;<a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#a8a3d3e920d321eca7eac112a8cacd747">carla::rpc::ActorId</a>, <a class="el" href="../../d2/df0/classcarla_1_1traffic__manager_1_1RandomGenerator.html">RandomGenerator</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../db/d7f/RandomGenerator_8h_source.html#l00021">21</a> of file <a class="el" href="../../db/d7f/RandomGenerator_8h_source.html">RandomGenerator.h</a>.</p>
 
 </div>
 </div>
@@ -935,7 +935,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d3b/SimulationState_8h_source.html#l00039">39</a> of file <a class="el" href="../../d5/d3b/SimulationState_8h_source.html">SimulationState.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d3b/SimulationState_8h_source.html#l00040">40</a> of file <a class="el" href="../../d5/d3b/SimulationState_8h_source.html">SimulationState.h</a>.</p>
 
 </div>
 </div>
@@ -969,7 +969,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d49/DataStructures_8h_source.html#l00033">33</a> of file <a class="el" href="../../d0/d49/DataStructures_8h_source.html">DataStructures.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d49/DataStructures_8h_source.html#l00034">34</a> of file <a class="el" href="../../d0/d49/DataStructures_8h_source.html">DataStructures.h</a>.</p>
 
 </div>
 </div>
@@ -1001,7 +1001,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d49/DataStructures_8h_source.html#l00052">52</a> of file <a class="el" href="../../d0/d49/DataStructures_8h_source.html">DataStructures.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d49/DataStructures_8h_source.html#l00053">53</a> of file <a class="el" href="../../d0/d49/DataStructures_8h_source.html">DataStructures.h</a>.</p>
 
 </div>
 </div>
@@ -1081,7 +1081,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d3b/SimulationState_8h_source.html#l00031">31</a> of file <a class="el" href="../../d5/d3b/SimulationState_8h_source.html">SimulationState.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d3b/SimulationState_8h_source.html#l00032">32</a> of file <a class="el" href="../../d5/d3b/SimulationState_8h_source.html">SimulationState.h</a>.</p>
 
 </div>
 </div>
@@ -1321,7 +1321,7 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d1/d45/Constants_8h_source.html#l00102">carla::traffic_manager::constants::Map::INV_MAP_RESOLUTION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00172">carla::traffic_manager::CollisionStage::GetGeodesicBoundary()</a>, <a class="el" href="../../dc/d13/TrafficLightStage_8cpp_source.html#l00029">carla::traffic_manager::TrafficLightStage::Update()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00036">carla::traffic_manager::LocalizationStage::Update()</a>, <a class="el" href="../../d4/df7/MotionPlanStage_8cpp_source.html#l00072">carla::traffic_manager::MotionPlanStage::Update()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00034">carla::traffic_manager::CollisionStage::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00172">carla::traffic_manager::CollisionStage::GetGeodesicBoundary()</a>, <a class="el" href="../../dc/d13/TrafficLightStage_8cpp_source.html#l00031">carla::traffic_manager::TrafficLightStage::Update()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00036">carla::traffic_manager::LocalizationStage::Update()</a>, <a class="el" href="../../d4/df7/MotionPlanStage_8cpp_source.html#l00072">carla::traffic_manager::MotionPlanStage::Update()</a>, and <a class="el" href="../../db/da2/CollisionStage_8cpp_source.html#l00034">carla::traffic_manager::CollisionStage::Update()</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
@@ -1375,7 +1375,7 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../de/d13/TrackTraffic_8cpp_source.html#l00157">carla::traffic_manager::TrackTraffic::RemovePassingVehicle()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00448">carla::traffic_manager::LocalizationStage::ImportPath()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00525">carla::traffic_manager::LocalizationStage::ImportRoute()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00036">carla::traffic_manager::LocalizationStage::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00453">carla::traffic_manager::LocalizationStage::ImportPath()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00536">carla::traffic_manager::LocalizationStage::ImportRoute()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00036">carla::traffic_manager::LocalizationStage::Update()</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
@@ -1437,7 +1437,7 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../de/d13/TrackTraffic_8cpp_source.html#l00137">carla::traffic_manager::TrackTraffic::UpdatePassingVehicle()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00229">carla::traffic_manager::LocalizationStage::ExtendAndFindSafeSpace()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00448">carla::traffic_manager::LocalizationStage::ImportPath()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00525">carla::traffic_manager::LocalizationStage::ImportRoute()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00036">carla::traffic_manager::LocalizationStage::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00234">carla::traffic_manager::LocalizationStage::ExtendAndFindSafeSpace()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00453">carla::traffic_manager::LocalizationStage::ImportPath()</a>, <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00536">carla::traffic_manager::LocalizationStage::ImportRoute()</a>, and <a class="el" href="../../df/dd3/LocalizationStage_8cpp_source.html#l00036">carla::traffic_manager::LocalizationStage::Update()</a>.</p>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
