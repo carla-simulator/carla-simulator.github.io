@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['secondary',['Secondary',['../d6/d8b/classcarla_1_1multigpu_1_1Secondary.html',1,'carla::multigpu']]],
+  ['secondarycommands',['SecondaryCommands',['../d6/dd9/classcarla_1_1multigpu_1_1SecondaryCommands.html',1,'carla::multigpu']]],
   ['segmentcloudrtree',['SegmentCloudRtree',['../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html',1,'carla::geom']]],
   ['segmentcloudrtree_3c_20rtreevalue_2c_201_20_3e',['SegmentCloudRtree&lt; RtreeValue, 1 &gt;',['../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html',1,'carla::geom']]],
   ['segmentcloudrtree_3c_20waypoint_20_3e',['SegmentCloudRtree&lt; Waypoint &gt;',['../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html',1,'carla::geom']]],
@@ -11,11 +13,12 @@ var searchData=
   ['sensor',['Sensor',['../da/dec/classcarla_1_1client_1_1Sensor.html',1,'carla::client']]],
   ['sensordata',['SensorData',['../df/d8c/classcarla_1_1sensor_1_1SensorData.html',1,'carla::sensor']]],
   ['sensorheaderserializer',['SensorHeaderSerializer',['../dc/df4/classcarla_1_1sensor_1_1s11n_1_1SensorHeaderSerializer.html',1,'carla::sensor::s11n']]],
-  ['server',['Server',['../df/d4d/classcarla_1_1streaming_1_1detail_1_1tcp_1_1Server.html',1,'carla::streaming::detail::tcp::Server'],['../d0/d7a/classcarla_1_1streaming_1_1low__level_1_1Server.html',1,'carla::streaming::low_level::Server&lt; T &gt;'],['../d5/de5/classcarla_1_1streaming_1_1Server.html',1,'carla::streaming::Server'],['../db/d5f/classcarla_1_1rpc_1_1Server.html',1,'carla::rpc::Server']]],
+  ['server',['Server',['../d0/d7a/classcarla_1_1streaming_1_1low__level_1_1Server.html',1,'carla::streaming::low_level::Server&lt; T &gt;'],['../df/d4d/classcarla_1_1streaming_1_1detail_1_1tcp_1_1Server.html',1,'carla::streaming::detail::tcp::Server'],['../d5/de5/classcarla_1_1streaming_1_1Server.html',1,'carla::streaming::Server'],['../db/d5f/classcarla_1_1rpc_1_1Server.html',1,'carla::rpc::Server']]],
   ['server_3c_20detail_3a_3atcp_3a_3aserver_20_3e',['Server&lt; detail::tcp::Server &gt;',['../d0/d7a/classcarla_1_1streaming_1_1low__level_1_1Server.html',1,'carla::streaming::low_level']]],
   ['serverbinder',['ServerBinder',['../d8/d07/classServerBinder.html',1,'']]],
   ['serversession',['ServerSession',['../d6/d51/classcarla_1_1streaming_1_1detail_1_1tcp_1_1ServerSession.html',1,'carla::streaming::detail::tcp']]],
   ['serversidesensor',['ServerSideSensor',['../de/d68/classcarla_1_1client_1_1ServerSideSensor.html',1,'carla::client']]],
+  ['sessioninfo',['SessionInfo',['../d3/d5b/structcarla_1_1multigpu_1_1SessionInfo.html',1,'carla::multigpu']]],
   ['setautopilot',['SetAutopilot',['../d7/d73/structcarla_1_1rpc_1_1Command_1_1SetAutopilot.html',1,'carla::rpc::Command']]],
   ['setenablegravity',['SetEnableGravity',['../d2/d33/structcarla_1_1rpc_1_1Command_1_1SetEnableGravity.html',1,'carla::rpc::Command']]],
   ['setsimulatephysics',['SetSimulatePhysics',['../d5/db5/structcarla_1_1rpc_1_1Command_1_1SetSimulatePhysics.html',1,'carla::rpc::Command']]],

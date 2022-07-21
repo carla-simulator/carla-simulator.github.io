@@ -1,6 +1,7 @@
 var searchData=
 [
   ['scenelight',['SceneLight',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a43f526c402051273b186b8f6069073a6',1,'CarlaRecorder.h']]],
+  ['send_5fframe',['SEND_FRAME',['../dd/d17/namespacecarla_1_1multigpu.html#afab8f1e900d0fb4a762ef7c24afd5a59a1c09b66a3010382402f6465136430a2f',1,'carla::multigpu']]],
   ['sensor',['Sensor',['../dc/dde/classFCarlaActor.html#a68463a6ebe4a8d0364996c5d84af4279a06b185256c71c1aec263c6e22bf8ef6b',1,'FCarlaActor']]],
   ['shoulder',['Shoulder',['../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247a83cb4c144b3d6ee1a847bee51a44b933',1,'carla::road::Lane']]],
   ['sidewalk',['Sidewalk',['../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247ac68f4e6506520a1ae5f89c48dc2fcca1',1,'carla::road::Lane']]],

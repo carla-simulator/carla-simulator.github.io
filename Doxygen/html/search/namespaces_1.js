@@ -20,6 +20,7 @@ var searchData=
   ['low_5flevel',['low_level',['../da/d3f/namespacecarla_1_1streaming_1_1low__level.html',1,'carla::streaming']]],
   ['map',['Map',['../d7/d7d/namespacecarla_1_1traffic__manager_1_1constants_1_1Map.html',1,'carla::traffic_manager::constants']]],
   ['motionplan',['MotionPlan',['../d1/dde/namespacecarla_1_1traffic__manager_1_1constants_1_1MotionPlan.html',1,'carla::traffic_manager::constants']]],
+  ['multigpu',['multigpu',['../dd/d17/namespacecarla_1_1multigpu.html',1,'carla']]],
   ['nav',['nav',['../db/dcc/namespacecarla_1_1nav.html',1,'carla']]],
   ['networking',['Networking',['../dc/d01/namespacecarla_1_1traffic__manager_1_1constants_1_1Networking.html',1,'carla::traffic_manager::constants']]],
   ['object',['object',['../d3/d9d/namespacecarla_1_1road_1_1object.html',1,'carla::road']]],

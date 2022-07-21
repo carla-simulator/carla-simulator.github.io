@@ -111,6 +111,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad04c08e1aee4c873ff7bd03b778b622a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dc/db5/classFAsyncDataStreamTmpl.html#ad04c08e1aee4c873ff7bd03b778b622a">Send</a> (SensorT &amp;Sensor, ArgsT &amp;&amp;... Args)</td></tr>
 <tr class="memdesc:ad04c08e1aee4c873ff7bd03b778b622a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send some data down the stream.  <a href="#ad04c08e1aee4c873ff7bd03b778b622a">More...</a><br /></td></tr>
 <tr class="separator:ad04c08e1aee4c873ff7bd03b778b622a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b048741118e01f60ea77fb063343a4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db5/classFAsyncDataStreamTmpl.html#a5b048741118e01f60ea77fb063343a4b">SetFrameNumber</a> (uint64_t FrameNumber)</td></tr>
+<tr class="memdesc:a5b048741118e01f60ea77fb063343a4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">allow to change the frame number of the header  <a href="#a5b048741118e01f60ea77fb063343a4b">More...</a><br /></td></tr>
+<tr class="separator:a5b048741118e01f60ea77fb063343a4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -139,7 +142,7 @@ class FAsyncDataStreamTmpl&lt; T &gt;</h3>
 <dl class="section warning"><dt>Warning</dt><dd>This is a single-use object, a new one needs to be created for each new message.</dd></dl>
 <p>FAsyncDataStream also has a pool of <a class="el" href="../../d0/d0a/classcarla_1_1Buffer.html" title="A piece of raw data. ">carla::Buffer</a> that allows reusing the allocated memory, use it whenever possible. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00034">34</a> of file <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html">AsyncDataStream.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00035">35</a> of file <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html">AsyncDataStream.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a8dbf9cef97cb2899314d4f68696c266d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8dbf9cef97cb2899314d4f68696c266d">&#9670;&nbsp;</a></span>StreamType</h2>
@@ -155,7 +158,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00038">38</a> of file <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html">AsyncDataStream.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00039">39</a> of file <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html">AsyncDataStream.h</a>.</p>
 
 </div>
 </div>
@@ -235,7 +238,7 @@ template&lt;typename SensorT &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/da3/AsyncDataStream_8cpp_source.html#l00012">12</a> of file <a class="el" href="../../d9/da3/AsyncDataStream_8cpp_source.html">AsyncDataStream.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00049">FCarlaEngine::GetFrameCounter()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00058">FCarlaEngine::GetFrameCounter()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -275,9 +278,9 @@ template&lt;typename T &gt; </div>
 
 <p>Return the token that allows subscribing to this stream. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00043">43</a> of file <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html">AsyncDataStream.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00044">44</a> of file <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html">AsyncDataStream.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00071">FAsyncDataStreamTmpl&lt; T &gt;::Stream</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00086">FAsyncDataStreamTmpl&lt; T &gt;::Stream</a>.</p>
 
 </div>
 </div>
@@ -309,9 +312,9 @@ template&lt;typename T &gt; </div>
 <p>Pop a Buffer from the pool. </p>
 <p>Buffers in the pool can reuse the memory allocated by previous messages, significantly improving performance for big messages. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00051">51</a> of file <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html">AsyncDataStream.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00052">52</a> of file <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html">AsyncDataStream.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00090">FAsyncDataStreamTmpl&lt; T &gt;::Send()</a>, and <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00071">FAsyncDataStreamTmpl&lt; T &gt;::Stream</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00105">FAsyncDataStreamTmpl&lt; T &gt;::Send()</a>, and <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00086">FAsyncDataStreamTmpl&lt; T &gt;::Stream</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -363,11 +366,11 @@ template&lt;typename SensorT , typename... ArgsT&gt; </div>
 
 <p>Send some data down the stream. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00090">90</a> of file <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html">AsyncDataStream.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00105">105</a> of file <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html">AsyncDataStream.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00073">FAsyncDataStreamTmpl&lt; T &gt;::Header</a>, <a class="el" href="../../d0/dc9/CompositeSerializer_8h_source.html#l00080">carla::sensor::CompositeSerializer&lt; Items &gt;::Serialize()</a>, and <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00071">FAsyncDataStreamTmpl&lt; T &gt;::Stream</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00088">FAsyncDataStreamTmpl&lt; T &gt;::Header</a>, <a class="el" href="../../d0/dc9/CompositeSerializer_8h_source.html#l00080">carla::sensor::CompositeSerializer&lt; Items &gt;::Serialize()</a>, and <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00086">FAsyncDataStreamTmpl&lt; T &gt;::Stream</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00041">ACollisionSensor::OnCollisionEvent()</a>, <a class="el" href="../../d2/d70/ObstacleDetectionSensor_8cpp_source.html#l00129">AObstacleDetectionSensor::OnObstacleDetectionEvent()</a>, and <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00051">FAsyncDataStreamTmpl&lt; T &gt;::PopBufferFromPool()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00041">ACollisionSensor::OnCollisionEvent()</a>, <a class="el" href="../../d2/d70/ObstacleDetectionSensor_8cpp_source.html#l00129">AObstacleDetectionSensor::OnObstacleDetectionEvent()</a>, and <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00052">FAsyncDataStreamTmpl&lt; T &gt;::PopBufferFromPool()</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -382,6 +385,48 @@ template&lt;typename SensorT , typename... ArgsT&gt; </div>
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/db5/classFAsyncDataStreamTmpl_ad04c08e1aee4c873ff7bd03b778b622a_icgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a5b048741118e01f60ea77fb063343a4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b048741118e01f60ea77fb063343a4b">&#9670;&nbsp;</a></span>SetFrameNumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../dc/db5/classFAsyncDataStreamTmpl.html">FAsyncDataStreamTmpl</a>&lt; T &gt;::SetFrameNumber </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>FrameNumber</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>allow to change the frame number of the header </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00062">62</a> of file <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html">AsyncDataStream.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d2/dda/carla_2Buffer_8h_source.html#l00155">carla::Buffer::data()</a>, <a class="el" href="../../dd/da9/SensorHeaderSerializer_8h_source.html#l00023">carla::sensor::s11n::SensorHeaderSerializer::Header::frame</a>, <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00088">FAsyncDataStreamTmpl&lt; T &gt;::Header</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00082">carla::log_info()</a>, and <a class="el" href="../../dd/da9/SensorHeaderSerializer_8h_source.html#l00022">carla::sensor::s11n::SensorHeaderSerializer::Header::sensor_type</a>.</p>
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/db5/classFAsyncDataStreamTmpl_a5b048741118e01f60ea77fb063343a4b_cgraph.svg" width="575" height="96"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -410,7 +455,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00062">62</a> of file <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html">AsyncDataStream.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00077">77</a> of file <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html">AsyncDataStream.h</a>.</p>
 
 </div>
 </div>
@@ -437,9 +482,9 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00073">73</a> of file <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html">AsyncDataStream.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00088">88</a> of file <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html">AsyncDataStream.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00090">FAsyncDataStreamTmpl&lt; T &gt;::Send()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00105">FAsyncDataStreamTmpl&lt; T &gt;::Send()</a>, and <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00062">FAsyncDataStreamTmpl&lt; T &gt;::SetFrameNumber()</a>.</p>
 
 </div>
 </div>
@@ -465,9 +510,9 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00071">71</a> of file <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html">AsyncDataStream.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00086">86</a> of file <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html">AsyncDataStream.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00043">FAsyncDataStreamTmpl&lt; T &gt;::GetToken()</a>, <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00051">FAsyncDataStreamTmpl&lt; T &gt;::PopBufferFromPool()</a>, and <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00090">FAsyncDataStreamTmpl&lt; T &gt;::Send()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00044">FAsyncDataStreamTmpl&lt; T &gt;::GetToken()</a>, <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00052">FAsyncDataStreamTmpl&lt; T &gt;::PopBufferFromPool()</a>, and <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00105">FAsyncDataStreamTmpl&lt; T &gt;::Send()</a>.</p>
 
 </div>
 </div>

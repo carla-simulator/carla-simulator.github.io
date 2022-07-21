@@ -11,6 +11,7 @@ var searchData=
   ['has_5ftiff_5fsupport',['has_tiff_support',['../de/d8b/namespacecarla_1_1image_1_1io.html#aa3ae558ba9a87f63120f0d299f46048e',1,'carla::image::io']]],
   ['hasastream',['HasAStream',['../db/dfd/classcarla_1_1rpc_1_1Actor.html#a427ab77ca916ac215a38a6e984356326',1,'carla::rpc::Actor']]],
   ['hascityareas',['HasCityAreas',['../d0/d95/classMapGen_1_1GraphParser.html#aa6173431fff98f9f3d5de927de01465e',1,'MapGen::GraphParser']]],
+  ['hasclientsconnected',['HasClientsConnected',['../d6/d60/classcarla_1_1multigpu_1_1Router.html#aa6fab98c5266ddbf4dfbd7a69d70f752',1,'carla::multigpu::Router']]],
   ['hasdirection',['HasDirection',['../d9/d74/structFRoadMapPixelData.html#a459ad7b2bb32fbd2bd19658363ff3efc',1,'FRoadMapPixelData']]],
   ['haserror',['HasError',['../dd/db9/classcarla_1_1rpc_1_1Response.html#a94bd263bc22b686540d4288fba9fa3ab',1,'carla::rpc::Response::HasError()'],['../d0/d65/classcarla_1_1rpc_1_1Response_3_01void_01_4.html#a81765d6663a00083f3024fe60c3df143',1,'carla::rpc::Response&lt; void &gt;::HasError()']]],
   ['hash',['hash',['../d6/de8/structmoodycamel_1_1details_1_1__hash__32__or__64.html#a4c92f02b70f76c5d65fb8ec56289643e',1,'moodycamel::details::_hash_32_or_64::hash()'],['../dd/ddb/structmoodycamel_1_1details_1_1__hash__32__or__64_3_011_01_4.html#a5335378ae2978f4335f4e3d41fcfca50',1,'moodycamel::details::_hash_32_or_64&lt; 1 &gt;::hash()']]],

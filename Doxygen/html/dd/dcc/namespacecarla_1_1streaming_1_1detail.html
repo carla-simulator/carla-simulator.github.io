@@ -74,8 +74,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
 <div class="title">carla::streaming::detail Namespace Reference</div>  </div>
 </div><!--header-->
@@ -123,12 +122,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:ae22424fc77f4afb8012d105fd0c18070"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a809c7e65246a5f60472bbef149f3a82c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dcc/namespacecarla_1_1streaming_1_1detail.html#a809c7e65246a5f60472bbef149f3a82c">stream_id_type</a> = uint32_t</td></tr>
 <tr class="separator:a809c7e65246a5f60472bbef149f3a82c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:abaa262f55a92248a9dd0b6a12883f2ca"><td class="memTemplParams" colspan="2">template&lt;typename StreamStateT , typename StreamMapT &gt; </td></tr>
-<tr class="memitem:abaa262f55a92248a9dd0b6a12883f2ca"><td class="memTemplItemLeft" align="right" valign="top">static auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dcc/namespacecarla_1_1streaming_1_1detail.html#abaa262f55a92248a9dd0b6a12883f2ca">MakeStreamState</a> (const <a class="el" href="../../df/de1/classcarla_1_1streaming_1_1detail_1_1token__type.html">token_type</a> &amp;cached_token, StreamMapT &amp;stream_map)</td></tr>
-<tr class="separator:abaa262f55a92248a9dd0b6a12883f2ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a162e9f2655918aecc52968d23d7c6b88"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dcc/namespacecarla_1_1streaming_1_1detail.html#a162e9f2655918aecc52968d23d7c6b88">StreamMap</a> = std::unordered_map&lt; <a class="el" href="../../dd/dcc/namespacecarla_1_1streaming_1_1detail.html#a809c7e65246a5f60472bbef149f3a82c">stream_id_type</a>, std::shared_ptr&lt; <a class="el" href="../../d1/d43/classcarla_1_1streaming_1_1detail_1_1MultiStreamState.html">MultiStreamState</a> &gt; &gt;</td></tr>
+<tr class="separator:a162e9f2655918aecc52968d23d7c6b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="af97327f9d1a1c3292460659571353638"></a>
@@ -179,54 +174,19 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="abaa262f55a92248a9dd0b6a12883f2ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abaa262f55a92248a9dd0b6a12883f2ca">&#9670;&nbsp;</a></span>MakeStreamState()</h2>
+<a id="a162e9f2655918aecc52968d23d7c6b88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a162e9f2655918aecc52968d23d7c6b88">&#9670;&nbsp;</a></span>StreamMap</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename StreamStateT , typename StreamMapT &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static auto carla::streaming::detail::MakeStreamState </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../df/de1/classcarla_1_1streaming_1_1detail_1_1token__type.html">token_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>cached_token</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">StreamMapT &amp;&#160;</td>
-          <td class="paramname"><em>stream_map</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">using <a class="el" href="../../dd/dcc/namespacecarla_1_1streaming_1_1detail.html#a162e9f2655918aecc52968d23d7c6b88">carla::streaming::detail::StreamMap</a> = typedef std::unordered_map&lt;<a class="el" href="../../dd/dcc/namespacecarla_1_1streaming_1_1detail.html#a809c7e65246a5f60472bbef149f3a82c">stream_id_type</a>, std::shared_ptr&lt;<a class="el" href="../../d1/d43/classcarla_1_1streaming_1_1detail_1_1MultiStreamState.html">MultiStreamState</a>&gt; &gt;</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/dd1/Dispatcher_8cpp_source.html#l00020">20</a> of file <a class="el" href="../../db/dd1/Dispatcher_8cpp_source.html">Dispatcher.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d9/d9d/detail_2Token_8h_source.html#l00111">carla::streaming::detail::token_type::get_stream_id()</a>, and <a class="el" href="../../d9/d4f/Carla_8cpp_source.html#l00135">carla::throw_exception()</a>.</p>
-<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dcc/namespacecarla_1_1streaming_1_1detail_abaa262f55a92248a9dd0b6a12883f2ca_cgraph.svg" width="436" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d33/Dispatcher_8h_source.html#l00024">24</a> of file <a class="el" href="../../d7/d33/Dispatcher_8h_source.html">Dispatcher.h</a>.</p>
 
 </div>
 </div>

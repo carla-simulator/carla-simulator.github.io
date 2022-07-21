@@ -14,6 +14,8 @@ var searchData=
   ['polynomial',['Polynomial',['../d1/d20/structcarla_1_1opendrive_1_1parser_1_1Polynomial.html',1,'carla::opendrive::parser']]],
   ['position',['Position',['../d0/dd4/classMapGen_1_1Position.html',1,'MapGen']]],
   ['position_3c_20int32_20_3e',['Position&lt; int32 &gt;',['../d0/dd4/classMapGen_1_1Position.html',1,'MapGen']]],
+  ['primary',['Primary',['../da/dda/classcarla_1_1multigpu_1_1Primary.html',1,'carla::multigpu']]],
+  ['primarycommands',['PrimaryCommands',['../da/da8/classcarla_1_1multigpu_1_1PrimaryCommands.html',1,'carla::multigpu']]],
   ['producerbase',['ProducerBase',['../d4/dea/structmoodycamel_1_1ConcurrentQueue_1_1ProducerBase.html',1,'moodycamel::ConcurrentQueue']]],
   ['producertoken',['ProducerToken',['../d1/dbb/structmoodycamel_1_1ProducerToken.html',1,'moodycamel']]],
   ['profilesparser',['ProfilesParser',['../db/de4/classcarla_1_1opendrive_1_1parser_1_1ProfilesParser.html',1,'carla::opendrive::parser']]],

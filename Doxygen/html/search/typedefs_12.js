@@ -15,7 +15,7 @@ var searchData=
   ['tlmap',['TLMap',['../d0/db7/namespacecarla_1_1traffic__manager.html#a7837bbe1318d6013bf3d70e5d8daf255',1,'carla::traffic_manager']]],
   ['tls',['TLS',['../d0/db7/namespacecarla_1_1traffic__manager.html#a0b9d8e108c17eb14b262e6314736b3a5',1,'carla::traffic_manager']]],
   ['tm',['TM',['../d9/dc6/classcarla_1_1client_1_1Vehicle.html#aee62fd9bb13a6e10cfc570d6633ba459',1,'carla::client::Vehicle::TM()'],['../d9/d36/namespacecarla.html#a57d7c9e1e3c302db41a5e4d9888c6fb2',1,'carla::TM()']]],
-  ['token_5ftype',['token_type',['../da/d83/classcarla_1_1streaming_1_1low__level_1_1Client.html#a4b55276a610b5c9d753b1d097efd28e5',1,'carla::streaming::low_level::Client']]],
+  ['token_5ftype',['token_type',['../da/d83/classcarla_1_1streaming_1_1low__level_1_1Client.html#a4b55276a610b5c9d753b1d097efd28e5',1,'carla::streaming::low_level::Client::token_type()'],['../dd/d17/namespacecarla_1_1multigpu.html#aaa937a210c89364b3ccfd25145ba796e',1,'carla::multigpu::token_type()']]],
   ['topologylist',['TopologyList',['../dd/d49/classcarla_1_1client_1_1Map.html#ad28a50a1a233faff9aacfdb48e3fa7b1',1,'carla::client::Map::TopologyList()'],['../d0/db7/namespacecarla_1_1traffic__manager.html#a361e1f427bc6753d59eaa6495943a976',1,'carla::traffic_manager::TopologyList()']]],
   ['trafficlightstatemap',['TrafficLightStateMap',['../d0/db7/namespacecarla_1_1traffic__manager.html#aa4ae084639fdffe34e46e5f39d2d9ae9',1,'carla::traffic_manager']]],
   ['transform',['Transform',['../de/d6c/namespacecarla_1_1rpc.html#aab6e9f0658d6940c8605294aa4b9a656',1,'carla::rpc']]],

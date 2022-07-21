@@ -148,6 +148,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:ac52143515f8cf1cf0426a03f3074f657"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d49/classFCarlaEngine.html#ac52143515f8cf1cf0426a03f3074f657">bIsPrimaryServer</a> = true</td></tr>
+<tr class="separator:ac52143515f8cf1cf0426a03f3074f657"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d54a6fbf476a4499985eb54748a6112"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d49/classFCarlaEngine.html#a6d54a6fbf476a4499985eb54748a6112">bIsRunning</a> = false</td></tr>
 <tr class="separator:a6d54a6fbf476a4499985eb54748a6112"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5aaf38076c42e97334210968ca9096fa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d49/classFCarlaEngine.html#a5aaf38076c42e97334210968ca9096fa">bMapChanged</a> = false</td></tr>
@@ -158,6 +160,12 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a9761e58dcf4b7664bfe4e8a1c7835975"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f6b5c504355499569aa86e5285065b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d6e/structFEpisodeSettings.html">FEpisodeSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d49/classFCarlaEngine.html#a6f6b5c504355499569aa86e5285065b8">CurrentSettings</a></td></tr>
 <tr class="separator:a6f6b5c504355499569aa86e5285065b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d5d47cea07f37ddbc991b421b903b23"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../de/db4/classFFrameData.html">FFrameData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d49/classFCarlaEngine.html#a9d5d47cea07f37ddbc991b421b903b23">FramesToProcess</a></td></tr>
+<tr class="separator:a9d5d47cea07f37ddbc991b421b903b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19db0c3f8d1a24270c4772be33c5fa3b"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d49/classFCarlaEngine.html#a19db0c3f8d1a24270c4772be33c5fa3b">FrameToProcessMutex</a></td></tr>
+<tr class="separator:a19db0c3f8d1a24270c4772be33c5fa3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a691de2edf0c6db504cad7b7049d554b0"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; uint32_t, uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d49/classFCarlaEngine.html#a691de2edf0c6db504cad7b7049d554b0">MappedId</a></td></tr>
+<tr class="separator:a691de2edf0c6db504cad7b7049d554b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a098f6afee1c2b8132c9b259500e9bc20"><td class="memItemLeft" align="right" valign="top">FDelegateHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d49/classFCarlaEngine.html#a098f6afee1c2b8132c9b259500e9bc20">OnEpisodeSettingsChangeHandle</a></td></tr>
 <tr class="separator:a098f6afee1c2b8132c9b259500e9bc20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4e42bfdd6f59124985d5b51f5538c41"><td class="memItemLeft" align="right" valign="top">FDelegateHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d49/classFCarlaEngine.html#ae4e42bfdd6f59124985d5b51f5538c41">OnPostTickHandle</a></td></tr>
@@ -166,6 +174,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:adc17e21051704fba00366f75ef0c5197"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0093c108e02f009805c29d9c6af2da4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/db9/classACarlaRecorder.html">ACarlaRecorder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d49/classFCarlaEngine.html#ac0093c108e02f009805c29d9c6af2da4">Recorder</a> = nullptr</td></tr>
 <tr class="separator:ac0093c108e02f009805c29d9c6af2da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae79793601187f0a4bec533d7dba7e2ea"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d6/d8b/classcarla_1_1multigpu_1_1Secondary.html">carla::multigpu::Secondary</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d49/classFCarlaEngine.html#ae79793601187f0a4bec533d7dba7e2ea">Secondary</a></td></tr>
+<tr class="separator:ae79793601187f0a4bec533d7dba7e2ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b96c61ac4dffa958837ca74b8549d50"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="../../d6/d60/classcarla_1_1multigpu_1_1Router.html">carla::multigpu::Router</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d49/classFCarlaEngine.html#a0b96c61ac4dffa958837ca74b8549d50">SecondaryServer</a></td></tr>
+<tr class="separator:a0b96c61ac4dffa958837ca74b8549d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4630753d1f2e85f9a134100a3bb07404"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dd6/classFCarlaServer.html">FCarlaServer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d49/classFCarlaEngine.html#a4630753d1f2e85f9a134100a3bb07404">Server</a></td></tr>
 <tr class="separator:a4630753d1f2e85f9a134100a3bb07404"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39b6048e9b9d68f79aba79445435e47e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d9b/classFWorldObserver.html">FWorldObserver</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d49/classFCarlaEngine.html#a39b6048e9b9d68f79aba79445435e47e">WorldObserver</a></td></tr>
@@ -173,7 +185,7 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00020">20</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00029">29</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="add44000ea543bcdfd020561c24054297"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#add44000ea543bcdfd020561c24054297">&#9670;&nbsp;</a></span>~FCarlaEngine()</h2>
@@ -190,9 +202,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00050">50</a> of file <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html">CarlaEngine.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00060">60</a> of file <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html">CarlaEngine.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00075">bIsRunning</a>, <a class="el" href="../../d5/d20/CarlaStaticDelegates_8h_source.html#l00016">FCarlaStaticDelegates::OnEpisodeSettingsChange</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00095">OnEpisodeSettingsChangeHandle</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00093">OnPostTickHandle</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00091">OnPreTickHandle</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00084">bIsRunning</a>, <a class="el" href="../../d5/d20/CarlaStaticDelegates_8h_source.html#l00016">FCarlaStaticDelegates::OnEpisodeSettingsChange</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00104">OnEpisodeSettingsChangeHandle</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00102">OnPostTickHandle</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00100">OnPreTickHandle</a>.</p>
 
 </div>
 </div>
@@ -220,17 +232,17 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00039">39</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00048">48</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00085">CurrentEpisode</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00094">CurrentEpisode</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00145">OnPostTick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00070">NotifyInitGame()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00275">OnPostTick()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00220">OnPreTick()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d49/classFCarlaEngine_a4e37452410b2181d87ffe2f8f7cdf14a_icgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d49/classFCarlaEngine_a4e37452410b2181d87ffe2f8f7cdf14a_icgraph.svg" width="100%" height="420"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -259,17 +271,17 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00049">49</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00058">58</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00024">FrameCounter</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00033">FrameCounter</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00200">FCarlaServer::FPimpl::BindActions()</a>, and <a class="el" href="../../d9/da3/AsyncDataStream_8cpp_source.html#l00012">FAsyncDataStreamTmpl&lt; T &gt;::FAsyncDataStreamTmpl()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00211">FCarlaServer::FPimpl::BindActions()</a>, <a class="el" href="../../d9/da3/AsyncDataStream_8cpp_source.html#l00012">FAsyncDataStreamTmpl&lt; T &gt;::FAsyncDataStreamTmpl()</a>, <a class="el" href="../../df/d8a/FrameData_8cpp_source.html#l00584">FFrameData::GetFrameCounter()</a>, and <a class="el" href="../../d1/dec/SceneCaptureCamera_8cpp_source.html#l00047">ASceneCaptureCamera::PostPhysTick()</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d49/classFCarlaEngine_a2b0720522df3521eb48575585568dfe1_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d49/classFCarlaEngine_a2b0720522df3521eb48575585568dfe1_icgraph.svg" width="100%" height="487"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -298,9 +310,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00034">34</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00043">43</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00081">Server</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00090">Server</a>.</p>
 
 </div>
 </div>
@@ -320,9 +332,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00088">88</a> of file <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html">CarlaEngine.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00176">176</a> of file <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html">CarlaEngine.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00038">FEpisodeSettings::ActorActiveDistance</a>, <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00210">UCarlaEpisode::ApplySettings()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00195">CarlaReplayer::CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00085">CurrentEpisode</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00087">CurrentSettings</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00327">UCarlaEpisode::EpisodeSettings</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00035">FCarlaEngine_GetFixedDeltaSeconds()</a>, <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00025">FEpisodeSettings::FixedDeltaSeconds</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00256">ALargeMapManager::GetActorStreamingDistance()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00100">UCarlaStatics::GetLargeMapManager()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00251">ALargeMapManager::GetLayerStreamingDistance()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h_source.html#l00139">ACarlaRecorder::GetReplayer()</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l02300">FCarlaServer::NotifyBeginEpisode()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00089">Recorder</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00060">ResetFrameCounter()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00081">Server</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h_source.html#l00126">ACarlaRecorder::SetEpisode()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00276">UCarlaEpisode::SetRecorder()</a>, and <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00036">FEpisodeSettings::TileStreamingDistance</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00038">FEpisodeSettings::ActorActiveDistance</a>, <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00211">UCarlaEpisode::ApplySettings()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00106">bIsPrimaryServer</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00303">UCarlaEpisode::bIsPrimaryServer</a>, <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00020">FEpisodeSettings::bNoRenderingMode</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00195">CarlaReplayer::CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00094">CurrentEpisode</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00096">CurrentSettings</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00340">UCarlaEpisode::EpisodeSettings</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00045">FCarlaEngine_GetFixedDeltaSeconds()</a>, <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00025">FEpisodeSettings::FixedDeltaSeconds</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00261">ALargeMapManager::GetActorStreamingDistance()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00100">UCarlaStatics::GetLargeMapManager()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00256">ALargeMapManager::GetLayerStreamingDistance()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h_source.html#l00140">ACarlaRecorder::GetReplayer()</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l02331">FCarlaServer::NotifyBeginEpisode()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00098">Recorder</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00069">ResetFrameCounter()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00090">Server</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h_source.html#l00127">ACarlaRecorder::SetEpisode()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00283">UCarlaEpisode::SetRecorder()</a>, and <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00036">FEpisodeSettings::TileStreamingDistance</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
@@ -349,9 +361,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00117">117</a> of file <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html">CarlaEngine.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00214">214</a> of file <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html">CarlaEngine.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00085">CurrentEpisode</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l02307">FCarlaServer::NotifyEndEpisode()</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00081">Server</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00094">CurrentEpisode</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l02338">FCarlaServer::NotifyEndEpisode()</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00090">Server</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
@@ -379,9 +391,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00060">60</a> of file <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html">CarlaEngine.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00070">70</a> of file <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html">CarlaEngine.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l02313">FCarlaServer::AsyncRun()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00075">bIsRunning</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00079">bMapChanged</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00030">FCarlaEngine_GetNumberOfThreadsForRPCServer()</a>, <a class="el" href="../../d5/d20/CarlaStaticDelegates_8h_source.html#l00016">FCarlaStaticDelegates::OnEpisodeSettingsChange</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00177">OnEpisodeSettingsChanged()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00095">OnEpisodeSettingsChangeHandle</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00145">OnPostTick()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00093">OnPostTickHandle</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00123">OnPreTick()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00091">OnPreTickHandle</a>, <a class="el" href="../../d3/d4e/CarlaSettings_8h_source.html#l00083">UCarlaSettings::RPCPort</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00081">Server</a>, <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00022">FWorldObserver::SetStream()</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l02287">FCarlaServer::Start()</a>, <a class="el" href="../../d3/d4e/CarlaSettings_8h_source.html#l00086">UCarlaSettings::StreamingPort</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00083">WorldObserver</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l02344">FCarlaServer::AsyncRun()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00106">bIsPrimaryServer</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00084">bIsRunning</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00088">bMapChanged</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00086">bSynchronousMode</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00040">FCarlaEngine_GetNumberOfThreadsForRPCServer()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00113">FramesToProcess</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00114">FrameToProcessMutex</a>, <a class="el" href="../../d5/d90/commands_8h_source.html#l00017">carla::multigpu::GET_TOKEN</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00048">GetCurrentEpisode()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00299">UCarlaEpisode::GetFrameData()</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l02408">FCarlaServer::GetSecondaryServer()</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l02413">FCarlaServer::GetStreamingServer()</a>, <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00068">carla::streaming::Server::GetToken()</a>, <a class="el" href="../../d5/d90/commands_8h_source.html#l00016">carla::multigpu::LOAD_MAP</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00082">carla::log_info()</a>, <a class="el" href="../../d5/d20/CarlaStaticDelegates_8h_source.html#l00016">FCarlaStaticDelegates::OnEpisodeSettingsChange</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00323">OnEpisodeSettingsChanged()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00104">OnEpisodeSettingsChangeHandle</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00275">OnPostTick()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00102">OnPostTickHandle</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00220">OnPreTick()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00100">OnPreTickHandle</a>, <a class="el" href="../../d3/d4e/CarlaSettings_8h_source.html#l00092">UCarlaSettings::PrimaryIP</a>, <a class="el" href="../../d3/d4e/CarlaSettings_8h_source.html#l00093">UCarlaSettings::PrimaryPort</a>, <a class="el" href="../../df/d8a/FrameData_8cpp_source.html#l00187">FFrameData::Read()</a>, <a class="el" href="../../d3/d4e/CarlaSettings_8h_source.html#l00083">UCarlaSettings::RPCPort</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00111">Secondary</a>, <a class="el" href="../../d3/d4e/CarlaSettings_8h_source.html#l00089">UCarlaSettings::SecondaryPort</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00110">SecondaryServer</a>, <a class="el" href="../../d5/d90/commands_8h_source.html#l00015">carla::multigpu::SEND_FRAME</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00090">Server</a>, <a class="el" href="../../d8/deb/WorldObserver_8h_source.html#l00022">FWorldObserver::SetStream()</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l02315">FCarlaServer::Start()</a>, <a class="el" href="../../d3/d4e/CarlaSettings_8h_source.html#l00086">UCarlaSettings::StreamingPort</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l02382">FCarlaServer::Tick()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00092">WorldObserver</a>, and <a class="el" href="../../d5/d90/commands_8h_source.html#l00018">carla::multigpu::YOU_ALIVE</a>.</p>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
@@ -417,11 +429,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00177">177</a> of file <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html">CarlaEngine.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00323">323</a> of file <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html">CarlaEngine.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00038">FEpisodeSettings::ActorActiveDistance</a>, <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00020">FEpisodeSettings::bNoRenderingMode</a>, <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00023">FEpisodeSettings::bSubstepping</a>, <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00017">FEpisodeSettings::bSynchronousMode</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00077">bSynchronousMode</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00085">CurrentEpisode</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00087">CurrentSettings</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00040">FCarlaEngine_SetFixedDeltaSeconds()</a>, <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00025">FEpisodeSettings::FixedDeltaSeconds</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00036">carla::client::detail::Get()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00100">UCarlaStatics::GetLargeMapManager()</a>, <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00027">FEpisodeSettings::MaxSubstepDeltaTime</a>, <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00029">FEpisodeSettings::MaxSubsteps</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00244">ALargeMapManager::SetActorStreamingDistance()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00237">ALargeMapManager::SetLayerStreamingDistance()</a>, and <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00036">FEpisodeSettings::TileStreamingDistance</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00038">FEpisodeSettings::ActorActiveDistance</a>, <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00020">FEpisodeSettings::bNoRenderingMode</a>, <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00023">FEpisodeSettings::bSubstepping</a>, <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00017">FEpisodeSettings::bSynchronousMode</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00086">bSynchronousMode</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00094">CurrentEpisode</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00096">CurrentSettings</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00050">FCarlaEngine_SetFixedDeltaSeconds()</a>, <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00025">FEpisodeSettings::FixedDeltaSeconds</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00036">carla::client::detail::Get()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00100">UCarlaStatics::GetLargeMapManager()</a>, <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00027">FEpisodeSettings::MaxSubstepDeltaTime</a>, <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00029">FEpisodeSettings::MaxSubsteps</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00249">ALargeMapManager::SetActorStreamingDistance()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00242">ALargeMapManager::SetLayerStreamingDistance()</a>, and <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00036">FEpisodeSettings::TileStreamingDistance</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00060">NotifyInitGame()</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00060">ResetFrameCounter()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00070">NotifyInitGame()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00220">OnPreTick()</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00069">ResetFrameCounter()</a>.</p>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
@@ -435,7 +447,7 @@ Private Attributes</h2></td></tr>
 <div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d49/classFCarlaEngine_a066406637bc234c9988a34b83ab5ca43_icgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d49/classFCarlaEngine_a066406637bc234c9988a34b83ab5ca43_icgraph.svg" width="100%" height="402"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -481,11 +493,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00145">145</a> of file <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html">CarlaEngine.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00275">275</a> of file <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html">CarlaEngine.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00079">bMapChanged</a>, <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00364">FWorldObserver::BroadcastTick()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00085">CurrentEpisode</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00039">GetCurrentEpisode()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00271">UCarlaEpisode::GetRecorder()</a>, <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00047">UCarlaLightSubsystem::IsUpdatePending()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00205">ResetSimulationState()</a>, <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00081">ACarlaRecorder::Ticking()</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00083">WorldObserver</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00106">bIsPrimaryServer</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00088">bMapChanged</a>, <a class="el" href="../../d9/de7/WorldObserver_8cpp_source.html#l00364">FWorldObserver::BroadcastTick()</a>, <a class="el" href="../../df/d8a/FrameData_8cpp_source.html#l00153">FFrameData::Clear()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00094">CurrentEpisode</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00048">GetCurrentEpisode()</a>, <a class="el" href="../../df/d8a/FrameData_8cpp_source.html#l00014">FFrameData::GetFrameData()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00299">UCarlaEpisode::GetFrameData()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00278">UCarlaEpisode::GetRecorder()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00301">UCarlaEpisode::GetSensorManager()</a>, <a class="el" href="../../d3/d13/CarlaLightSubsystem_8cpp_source.html#l00047">UCarlaLightSubsystem::IsUpdatePending()</a>, <a class="el" href="../../d2/d0d/SensorManager_8cpp_source.html#l00020">FSensorManager::PostPhysTick()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00351">ResetSimulationState()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00110">SecondaryServer</a>, <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00081">ACarlaRecorder::Ticking()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00092">WorldObserver</a>, and <a class="el" href="../../df/d8a/FrameData_8cpp_source.html#l00173">FFrameData::Write()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00060">NotifyInitGame()</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00060">ResetFrameCounter()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00070">NotifyInitGame()</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00069">ResetFrameCounter()</a>.</p>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
@@ -499,7 +511,7 @@ Private Attributes</h2></td></tr>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d49/classFCarlaEngine_aff440c7ba9d004e4c5b60125cc4d709b_icgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d49/classFCarlaEngine_aff440c7ba9d004e4c5b60125cc4d709b_icgraph.svg" width="100%" height="394"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -545,17 +557,17 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00123">123</a> of file <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html">CarlaEngine.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00220">220</a> of file <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html">CarlaEngine.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00077">bSynchronousMode</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00085">CurrentEpisode</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l02339">FCarlaServer::RunSome()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00081">Server</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l02345">FCarlaServer::TickCueReceived()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00314">UCarlaEpisode::TickTimers()</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00054">UpdateFrameCounter()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00211">UCarlaEpisode::ApplySettings()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00106">bIsPrimaryServer</a>, <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00017">FEpisodeSettings::bSynchronousMode</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00086">bSynchronousMode</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00094">CurrentEpisode</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00096">CurrentSettings</a>, <a class="el" href="../../d8/d64/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Settings_2EpisodeSettings_8h_source.html#l00025">FEpisodeSettings::FixedDeltaSeconds</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00113">FramesToProcess</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00114">FrameToProcessMutex</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00048">GetCurrentEpisode()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00108">MappedId</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00323">OnEpisodeSettingsChanged()</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l02376">FCarlaServer::RunSome()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00110">SecondaryServer</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00090">Server</a>, <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l02387">FCarlaServer::TickCueReceived()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00327">UCarlaEpisode::TickTimers()</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00063">UpdateFrameCounter()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00060">NotifyInitGame()</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00060">ResetFrameCounter()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00070">NotifyInitGame()</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00069">ResetFrameCounter()</a>.</p>
 <div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-11-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d49/classFCarlaEngine_a1d6c0de9d084612778c34175ab248670_cgraph.svg" width="666" height="212"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d49/classFCarlaEngine_a1d6c0de9d084612778c34175ab248670_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -563,7 +575,7 @@ Private Attributes</h2></td></tr>
 <div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-12-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d49/classFCarlaEngine_a1d6c0de9d084612778c34175ab248670_icgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d49/classFCarlaEngine_a1d6c0de9d084612778c34175ab248670_icgraph.svg" width="100%" height="394"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -593,11 +605,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00060">60</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00069">69</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00024">FrameCounter</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00177">OnEpisodeSettingsChanged()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00145">OnPostTick()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00123">OnPreTick()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00205">ResetSimulationState()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00033">FrameCounter</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00323">OnEpisodeSettingsChanged()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00275">OnPostTick()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00220">OnPreTick()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00351">ResetSimulationState()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00088">NotifyBeginEpisode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00176">NotifyBeginEpisode()</a>, and <a class="el" href="../../df/d8a/FrameData_8cpp_source.html#l00991">FFrameData::SetFrameCounter()</a>.</p>
 <div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-13-summary" class="dynsummary" style="display:block;">
@@ -611,7 +623,7 @@ Private Attributes</h2></td></tr>
 <div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-14-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d49/classFCarlaEngine_a4dfd3b01c0b1413b4f69fda71efc25ce_icgraph.svg" width="442" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d49/classFCarlaEngine_a4dfd3b01c0b1413b4f69fda71efc25ce_icgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -640,17 +652,17 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00205">205</a> of file <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html">CarlaEngine.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00351">351</a> of file <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html">CarlaEngine.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00079">bMapChanged</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00088">bMapChanged</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00145">OnPostTick()</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00060">ResetFrameCounter()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00275">OnPostTick()</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00069">ResetFrameCounter()</a>.</p>
 <div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-15-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d49/classFCarlaEngine_a32a445711601028d6a98ab037901294a_icgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d49/classFCarlaEngine_a32a445711601028d6a98ab037901294a_icgraph.svg" width="100%" height="394"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -680,9 +692,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00044">44</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00053">53</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00089">Recorder</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00098">Recorder</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d19/CarlaGameInstance_8cpp_source.html#l00012">UCarlaGameInstance::UCarlaGameInstance()</a>.</p>
 <div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -719,23 +731,49 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00054">54</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00063">63</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00024">FrameCounter</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00033">FrameCounter</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00123">OnPreTick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00220">OnPreTick()</a>.</p>
 <div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-17-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d49/classFCarlaEngine_a8de51c422b74e54e1ecb3cbed31843bb_icgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d49/classFCarlaEngine_a8de51c422b74e54e1ecb3cbed31843bb_icgraph.svg" width="100%" height="394"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac52143515f8cf1cf0426a03f3074f657"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac52143515f8cf1cf0426a03f3074f657">&#9670;&nbsp;</a></span>bIsPrimaryServer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FCarlaEngine::bIsPrimaryServer = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00106">106</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00176">NotifyBeginEpisode()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00070">NotifyInitGame()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00275">OnPostTick()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00220">OnPreTick()</a>.</p>
+
+</div>
+</div>
 <a id="a6d54a6fbf476a4499985eb54748a6112"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6d54a6fbf476a4499985eb54748a6112">&#9670;&nbsp;</a></span>bIsRunning</h2>
 
@@ -756,9 +794,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00075">75</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00084">84</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00060">NotifyInitGame()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00050">~FCarlaEngine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00070">NotifyInitGame()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00060">~FCarlaEngine()</a>.</p>
 
 </div>
 </div>
@@ -782,9 +820,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00079">79</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00088">88</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00060">NotifyInitGame()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00145">OnPostTick()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00205">ResetSimulationState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00070">NotifyInitGame()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00275">OnPostTick()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00351">ResetSimulationState()</a>.</p>
 
 </div>
 </div>
@@ -808,9 +846,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00077">77</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00086">86</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00177">OnEpisodeSettingsChanged()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00123">OnPreTick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00070">NotifyInitGame()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00323">OnEpisodeSettingsChanged()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00220">OnPreTick()</a>.</p>
 
 </div>
 </div>
@@ -834,9 +872,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00085">85</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00094">94</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00039">GetCurrentEpisode()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00088">NotifyBeginEpisode()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00117">NotifyEndEpisode()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00177">OnEpisodeSettingsChanged()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00145">OnPostTick()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00123">OnPreTick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00048">GetCurrentEpisode()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00176">NotifyBeginEpisode()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00214">NotifyEndEpisode()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00323">OnEpisodeSettingsChanged()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00275">OnPostTick()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00220">OnPreTick()</a>.</p>
 
 </div>
 </div>
@@ -860,9 +898,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00087">87</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00096">96</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00088">NotifyBeginEpisode()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00177">OnEpisodeSettingsChanged()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00176">NotifyBeginEpisode()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00323">OnEpisodeSettingsChanged()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00220">OnPreTick()</a>.</p>
 
 </div>
 </div>
@@ -886,9 +924,87 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00024">24</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00033">33</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00049">GetFrameCounter()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00060">ResetFrameCounter()</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00054">UpdateFrameCounter()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00058">GetFrameCounter()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00069">ResetFrameCounter()</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00063">UpdateFrameCounter()</a>.</p>
+
+</div>
+</div>
+<a id="a9d5d47cea07f37ddbc991b421b903b23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d5d47cea07f37ddbc991b421b903b23">&#9670;&nbsp;</a></span>FramesToProcess</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="../../de/db4/classFFrameData.html">FFrameData</a>&gt; FCarlaEngine::FramesToProcess</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00113">113</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00070">NotifyInitGame()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00220">OnPreTick()</a>.</p>
+
+</div>
+</div>
+<a id="a19db0c3f8d1a24270c4772be33c5fa3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19db0c3f8d1a24270c4772be33c5fa3b">&#9670;&nbsp;</a></span>FrameToProcessMutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex FCarlaEngine::FrameToProcessMutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00114">114</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00070">NotifyInitGame()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00220">OnPreTick()</a>.</p>
+
+</div>
+</div>
+<a id="a691de2edf0c6db504cad7b7049d554b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a691de2edf0c6db504cad7b7049d554b0">&#9670;&nbsp;</a></span>MappedId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;uint32_t, uint32_t&gt; FCarlaEngine::MappedId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00108">108</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00220">OnPreTick()</a>.</p>
 
 </div>
 </div>
@@ -912,9 +1028,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00095">95</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00104">104</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00060">NotifyInitGame()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00050">~FCarlaEngine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00070">NotifyInitGame()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00060">~FCarlaEngine()</a>.</p>
 
 </div>
 </div>
@@ -938,9 +1054,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00093">93</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00102">102</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00060">NotifyInitGame()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00050">~FCarlaEngine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00070">NotifyInitGame()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00060">~FCarlaEngine()</a>.</p>
 
 </div>
 </div>
@@ -964,9 +1080,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00091">91</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00100">100</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00060">NotifyInitGame()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00050">~FCarlaEngine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00070">NotifyInitGame()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00060">~FCarlaEngine()</a>.</p>
 
 </div>
 </div>
@@ -990,9 +1106,61 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00089">89</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00098">98</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00088">NotifyBeginEpisode()</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00044">SetRecorder()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00176">NotifyBeginEpisode()</a>, and <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00053">SetRecorder()</a>.</p>
+
+</div>
+</div>
+<a id="ae79793601187f0a4bec533d7dba7e2ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae79793601187f0a4bec533d7dba7e2ea">&#9670;&nbsp;</a></span>Secondary</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../d6/d8b/classcarla_1_1multigpu_1_1Secondary.html">carla::multigpu::Secondary</a>&gt; FCarlaEngine::Secondary</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00111">111</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00070">NotifyInitGame()</a>.</p>
+
+</div>
+</div>
+<a id="a0b96c61ac4dffa958837ca74b8549d50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b96c61ac4dffa958837ca74b8549d50">&#9670;&nbsp;</a></span>SecondaryServer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="../../d6/d60/classcarla_1_1multigpu_1_1Router.html">carla::multigpu::Router</a>&gt; FCarlaEngine::SecondaryServer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00110">110</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00070">NotifyInitGame()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00275">OnPostTick()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00220">OnPreTick()</a>.</p>
 
 </div>
 </div>
@@ -1016,9 +1184,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00081">81</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00090">90</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00034">GetServer()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00088">NotifyBeginEpisode()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00117">NotifyEndEpisode()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00060">NotifyInitGame()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00123">OnPreTick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00043">GetServer()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00176">NotifyBeginEpisode()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00214">NotifyEndEpisode()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00070">NotifyInitGame()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00220">OnPreTick()</a>.</p>
 
 </div>
 </div>
@@ -1042,9 +1210,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00083">83</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00092">92</a> of file <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html">CarlaEngine.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00060">NotifyInitGame()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00145">OnPostTick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00070">NotifyInitGame()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00275">OnPostTick()</a>.</p>
 
 </div>
 </div>

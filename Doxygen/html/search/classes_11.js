@@ -45,10 +45,11 @@ var searchData=
   ['roadsegmentdescription',['RoadSegmentDescription',['../d7/d2d/classMapGen_1_1RoadSegmentDescription.html',1,'MapGen']]],
   ['roadtypespeed',['RoadTypeSpeed',['../db/d19/structcarla_1_1opendrive_1_1parser_1_1RoadTypeSpeed.html',1,'carla::opendrive::parser']]],
   ['rotation',['Rotation',['../d8/dba/classcarla_1_1geom_1_1Rotation.html',1,'carla::geom']]],
+  ['router',['Router',['../d6/d60/classcarla_1_1multigpu_1_1Router.html',1,'carla::multigpu']]],
   ['rsscheck',['RssCheck',['../dc/d07/classcarla_1_1rss_1_1RssCheck.html',1,'carla::rss']]],
   ['rssobjectchecker',['RssObjectChecker',['../d3/dcd/classcarla_1_1rss_1_1RssCheck_1_1RssObjectChecker.html',1,'carla::rss::RssCheck']]],
   ['rssresponse',['RssResponse',['../da/d3a/classcarla_1_1sensor_1_1data_1_1RssResponse.html',1,'carla::sensor::data']]],
   ['rssrestrictor',['RssRestrictor',['../d9/deb/classcarla_1_1rss_1_1RssRestrictor.html',1,'carla::rss']]],
   ['rsssensor',['RssSensor',['../d7/db6/classcarla_1_1client_1_1RssSensor.html',1,'carla::client']]],
-  ['rtreevalue',['RtreeValue',['../d9/de2/structcarla_1_1road_1_1element_1_1GeometryPoly3_1_1RtreeValue.html',1,'carla::road::element::GeometryPoly3::RtreeValue'],['../d8/d18/structcarla_1_1road_1_1element_1_1GeometryParamPoly3_1_1RtreeValue.html',1,'carla::road::element::GeometryParamPoly3::RtreeValue']]]
+  ['rtreevalue',['RtreeValue',['../d8/d18/structcarla_1_1road_1_1element_1_1GeometryParamPoly3_1_1RtreeValue.html',1,'carla::road::element::GeometryParamPoly3::RtreeValue'],['../d9/de2/structcarla_1_1road_1_1element_1_1GeometryPoly3_1_1RtreeValue.html',1,'carla::road::element::GeometryPoly3::RtreeValue']]]
 ];

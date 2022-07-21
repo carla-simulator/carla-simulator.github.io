@@ -8,5 +8,6 @@ var searchData=
   ['nomove_5fif_3c_20false_20_3e',['nomove_if&lt; false &gt;',['../d3/dd9/structmoodycamel_1_1details_1_1nomove__if_3_01false_01_4.html',1,'moodycamel::details']]],
   ['noncopyable',['NonCopyable',['../d4/d8b/classcarla_1_1NonCopyable.html',1,'carla::NonCopyable'],['../dc/d3c/classNonCopyable.html',1,'NonCopyable']]],
   ['noopserializer',['NoopSerializer',['../d1/d8b/classcarla_1_1sensor_1_1s11n_1_1NoopSerializer.html',1,'carla::sensor::s11n']]],
+  ['normalsimageserializer',['NormalsImageSerializer',['../d6/dcb/classcarla_1_1sensor_1_1s11n_1_1NormalsImageSerializer.html',1,'carla::sensor::s11n']]],
   ['not_5fequal_5fto',['not_equal_to',['../d8/d31/structnot__equal__to.html',1,'']]]
 ];

@@ -7,7 +7,7 @@ var searchData=
   ['objectregister',['ObjectRegister',['../db/de5/classACarlaGameModeBase.html#ac515a67c500ea194bef5b651df0c79d2',1,'ACarlaGameModeBase']]],
   ['objecttype',['ObjectType',['../d0/db7/structFVehicleParameters.html#a984aa46a0b867bfc423fd96d041522b4',1,'FVehicleParameters']]],
   ['offroad',['OffRoad',['../df/d36/structFRoadMapIntersectionResult.html#ac375edecd418c551111d2e20e87ce94d',1,'FRoadMapIntersectionResult']]],
-  ['offset',['offset',['../d7/d00/structpugi_1_1xml__parse__result.html#adb61df40459ba6fb1083d22467983086',1,'pugi::xml_parse_result::offset()'],['../d9/d2c/structpugi_1_1xpath__parse__result.html#add47d886c654b4d8a836573b2c2a7acb',1,'pugi::xpath_parse_result::offset()']]],
+  ['offset',['Offset',['../d7/d20/structFHeightMapData.html#af4f8430a8346df83902a9d42ee89af47',1,'FHeightMapData::Offset()'],['../d7/d00/structpugi_1_1xml__parse__result.html#adb61df40459ba6fb1083d22467983086',1,'pugi::xml_parse_result::offset()'],['../d9/d2c/structpugi_1_1xpath__parse__result.html#add47d886c654b4d8a836573b2c2a7acb',1,'pugi::xpath_parse_result::offset()']]],
   ['offsetpreviousframe',['OffsetPreviousFrame',['../d6/d4d/classCarlaRecorderFrames.html#aa0b730ec85b930e7ea06faad1588e005',1,'CarlaRecorderFrames']]],
   ['oldfrictionvalues',['OldFrictionValues',['../dc/db9/classAFrictionTrigger.html#aeba702c9d3ea8191469767efdcf2059a',1,'AFrictionTrigger']]],
   ['onepisodesettingschange',['OnEpisodeSettingsChange',['../d4/db3/classFCarlaStaticDelegates.html#a30e68ec6bb637cdd1da442cf41d533dd',1,'FCarlaStaticDelegates']]],
