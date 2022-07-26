@@ -6,6 +6,7 @@ var searchData=
   ['lane_5fid',['lane_id',['../d8/de8/structcarla_1_1road_1_1element_1_1Waypoint.html#ac872c4362968b64b9de8352feb3b3160',1,'carla::road::element::Waypoint::lane_id()'],['../df/d1a/classcarla_1_1traffic__manager_1_1CachedSimpleWaypoint.html#a74676075006927d81c275e54ecda391c',1,'carla::traffic_manager::CachedSimpleWaypoint::lane_id()']]],
   ['lane_5flinks',['lane_links',['../d1/d9e/structcarla_1_1road_1_1Junction_1_1Connection.html#ac5d4d15326b7617d161a7e49a7ae909f',1,'carla::road::Junction::Connection']]],
   ['lane_5fmesh_5fidx',['lane_mesh_idx',['../de/d74/structcarla_1_1geom_1_1VertexInfo.html#a316918e45be7657b59f4a052912705be',1,'carla::geom::VertexInfo']]],
+  ['lane_5foffset',['lane_offset',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#ac42acc852111a3aff98e9c9b850e2d02',1,'carla::traffic_manager::Parameters']]],
   ['lanes',['lanes',['../d4/d23/structcarla_1_1opendrive_1_1parser_1_1LaneSection.html#af09d6b8b9d1d5200a91503d6b4e0829d',1,'carla::opendrive::parser::LaneSection']]],
   ['largemapname',['LargeMapName',['../d9/d4b/classALargeMapManager.html#a7a59294dec03218e370dcb5f51d97793',1,'ALargeMapManager']]],
   ['largemaptilepath',['LargeMapTilePath',['../d9/d4b/classALargeMapManager.html#a5b827372772cbbe5e6dc09281bfb2db2',1,'ALargeMapManager']]],

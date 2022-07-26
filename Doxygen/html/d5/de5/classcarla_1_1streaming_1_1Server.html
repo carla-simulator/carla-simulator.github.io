@@ -98,6 +98,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a8ab3de2fc12d54792b7b4fca4e4d73b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de5/classcarla_1_1streaming_1_1Server.html#a8ab3de2fc12d54792b7b4fca4e4d73b9">AsyncRun</a> (size_t worker_threads)</td></tr>
 <tr class="separator:a8ab3de2fc12d54792b7b4fca4e4d73b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a80e8220865fb6773eb02ff735f3785"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de5/classcarla_1_1streaming_1_1Server.html#a2a80e8220865fb6773eb02ff735f3785">CloseStream</a> (<a class="el" href="../../dd/dcc/namespacecarla_1_1streaming_1_1detail.html#a809c7e65246a5f60472bbef149f3a82c">carla::streaming::detail::stream_id_type</a> id)</td></tr>
+<tr class="separator:a2a80e8220865fb6773eb02ff735f3785"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5e2cc6fda7b8b80bedf19cc3c7a1fa8"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de5/classcarla_1_1streaming_1_1Server.html#ae5e2cc6fda7b8b80bedf19cc3c7a1fa8">GetLocalEndpoint</a> () const</td></tr>
 <tr class="separator:ae5e2cc6fda7b8b80bedf19cc3c7a1fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab493d5e643c36a6277b59444b221e8d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/de1/classcarla_1_1streaming_1_1detail_1_1token__type.html">carla::streaming::detail::token_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de5/classcarla_1_1streaming_1_1Server.html#ab493d5e643c36a6277b59444b221e8d0">GetToken</a> (<a class="el" href="../../dd/dcc/namespacecarla_1_1streaming_1_1detail.html#a809c7e65246a5f60472bbef149f3a82c">carla::streaming::detail::stream_id_type</a> sensor_id)</td></tr>
@@ -329,7 +331,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00040">40</a> of file <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html">streaming/Server.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00076">_pool</a>, and <a class="el" href="../../d3/d43/ThreadPool_8h_source.html#l00076">carla::ThreadPool::Stop()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00080">_pool</a>, and <a class="el" href="../../d3/d43/ThreadPool_8h_source.html#l00076">carla::ThreadPool::Stop()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -366,15 +368,53 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00060">60</a> of file <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html">streaming/Server.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00064">64</a> of file <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html">streaming/Server.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00076">_pool</a>, and <a class="el" href="../../d3/d43/ThreadPool_8h_source.html#l00051">carla::ThreadPool::AsyncRun()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00080">_pool</a>, and <a class="el" href="../../d3/d43/ThreadPool_8h_source.html#l00051">carla::ThreadPool::AsyncRun()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/de5/classcarla_1_1streaming_1_1Server_a8ab3de2fc12d54792b7b4fca4e4d73b9_cgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a2a80e8220865fb6773eb02ff735f3785"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a80e8220865fb6773eb02ff735f3785">&#9670;&nbsp;</a></span>CloseStream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::streaming::Server::CloseStream </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/dcc/namespacecarla_1_1streaming_1_1detail.html#a809c7e65246a5f60472bbef149f3a82c">carla::streaming::detail::stream_id_type</a>&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00056">56</a> of file <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html">streaming/Server.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00082">_server</a>, and <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00068">carla::streaming::low_level::Server&lt; T &gt;::CloseStream()</a>.</p>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de5/classcarla_1_1streaming_1_1Server_a2a80e8220865fb6773eb02ff735f3785_cgraph.svg" width="440" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -405,12 +445,12 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00044">44</a> of file <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html">streaming/Server.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00078">_server</a>, and <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00056">carla::streaming::low_level::Server&lt; T &gt;::GetLocalEndpoint()</a>.</p>
-<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00082">_server</a>, and <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00056">carla::streaming::low_level::Server&lt; T &gt;::GetLocalEndpoint()</a>.</p>
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de5/classcarla_1_1streaming_1_1Server_ae5e2cc6fda7b8b80bedf19cc3c7a1fa8_cgraph.svg" width="471" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -441,24 +481,24 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00068">68</a> of file <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html">streaming/Server.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00072">72</a> of file <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html">streaming/Server.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00078">_server</a>, and <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00072">carla::streaming::low_level::Server&lt; T &gt;::GetToken()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00082">_server</a>, and <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00076">carla::streaming::low_level::Server&lt; T &gt;::GetToken()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00211">FCarlaServer::FPimpl::BindActions()</a>, and <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00070">FCarlaEngine::NotifyInitGame()</a>.</p>
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de5/classcarla_1_1streaming_1_1Server_ab493d5e643c36a6277b59444b221e8d0_cgraph.svg" width="418" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de5/classcarla_1_1streaming_1_1Server_ab493d5e643c36a6277b59444b221e8d0_cgraph.svg" width="418" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de5/classcarla_1_1streaming_1_1Server_ab493d5e643c36a6277b59444b221e8d0_icgraph.svg" width="658" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -490,12 +530,12 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00052">52</a> of file <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html">streaming/Server.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00078">_server</a>, and <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00064">carla::streaming::low_level::Server&lt; T &gt;::MakeStream()</a>.</p>
-<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00082">_server</a>, and <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00064">carla::streaming::low_level::Server&lt; T &gt;::MakeStream()</a>.</p>
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de5/classcarla_1_1streaming_1_1Server_ac98f90e2e8efdb56eb51d5ae7f944d9a_cgraph.svg" width="439" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -525,14 +565,14 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00056">56</a> of file <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html">streaming/Server.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00060">60</a> of file <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html">streaming/Server.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00076">_pool</a>, and <a class="el" href="../../d3/d43/ThreadPool_8h_source.html#l00063">carla::ThreadPool::Run()</a>.</p>
-<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00080">_pool</a>, and <a class="el" href="../../d3/d43/ThreadPool_8h_source.html#l00063">carla::ThreadPool::Run()</a>.</p>
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de5/classcarla_1_1streaming_1_1Server_ac5323504fc55606b942a4063263be643_cgraph.svg" width="436" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -563,24 +603,24 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00064">64</a> of file <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html">streaming/Server.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00068">68</a> of file <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html">streaming/Server.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00078">_server</a>, and <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00068">carla::streaming::low_level::Server&lt; T &gt;::SetSynchronousMode()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00082">_server</a>, and <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00072">carla::streaming::low_level::Server&lt; T &gt;::SetSynchronousMode()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/d6c/CarlaServer_8cpp_source.html#l00211">FCarlaServer::FPimpl::BindActions()</a>.</p>
-<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de5/classcarla_1_1streaming_1_1Server_aadbbb3562aef80012d506af8a81046b2_cgraph.svg" width="496" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de5/classcarla_1_1streaming_1_1Server_aadbbb3562aef80012d506af8a81046b2_cgraph.svg" width="496" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de5/classcarla_1_1streaming_1_1Server_aadbbb3562aef80012d506af8a81046b2_icgraph.svg" width="600" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -613,12 +653,12 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00048">48</a> of file <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html">streaming/Server.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00078">_server</a>, and <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00060">carla::streaming::low_level::Server&lt; T &gt;::SetTimeout()</a>.</p>
-<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00082">_server</a>, and <a class="el" href="../../de/d03/streaming_2low__level_2Server_8h_source.html#l00060">carla::streaming::low_level::Server&lt; T &gt;::SetTimeout()</a>.</p>
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/de5/classcarla_1_1streaming_1_1Server_a1779a56801fb731234b34b44a11516c8_cgraph.svg" width="432" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -646,9 +686,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00076">76</a> of file <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html">streaming/Server.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00080">80</a> of file <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html">streaming/Server.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00060">AsyncRun()</a>, <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00056">Run()</a>, and <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00040">~Server()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00064">AsyncRun()</a>, <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00060">Run()</a>, and <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00040">~Server()</a>.</p>
 
 </div>
 </div>
@@ -672,9 +712,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00078">78</a> of file <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html">streaming/Server.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00082">82</a> of file <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html">streaming/Server.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00044">GetLocalEndpoint()</a>, <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00068">GetToken()</a>, <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00052">MakeStream()</a>, <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00064">SetSynchronousMode()</a>, and <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00048">SetTimeout()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00056">CloseStream()</a>, <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00044">GetLocalEndpoint()</a>, <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00072">GetToken()</a>, <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00052">MakeStream()</a>, <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00068">SetSynchronousMode()</a>, and <a class="el" href="../../d8/df6/streaming_2Server_8h_source.html#l00048">SetTimeout()</a>.</p>
 
 </div>
 </div>

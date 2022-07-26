@@ -13,6 +13,7 @@ var searchData=
   ['geodesic_5fboundary_5fmap',['geodesic_boundary_map',['../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#a0e7633ac6556bc3022683208f53e97f2',1,'carla::traffic_manager::CollisionStage']]],
   ['geodesic_5fgrid_5fid',['geodesic_grid_id',['../df/d1a/classcarla_1_1traffic__manager_1_1CachedSimpleWaypoint.html#abdd1216e01f4fe7967fa4f0454704425',1,'carla::traffic_manager::CachedSimpleWaypoint::geodesic_grid_id()'],['../dc/d04/classcarla_1_1traffic__manager_1_1SimpleWaypoint.html#a35ea7e2df38c73b71ca1b4ec64219eb3',1,'carla::traffic_manager::SimpleWaypoint::geodesic_grid_id()']]],
   ['geometry_5fcache',['geometry_cache',['../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#ae92090e491df536db7d47452e2dae3f3',1,'carla::traffic_manager::CollisionStage']]],
+  ['global_5flane_5foffset',['global_lane_offset',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a2c80b7e409be7d8389d9f99de5766409',1,'carla::traffic_manager::Parameters']]],
   ['global_5fpercentage_5fdifference_5ffrom_5flimit',['global_percentage_difference_from_limit',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a2e761c76139e96560a9867c060aa97e8',1,'carla::traffic_manager::Parameters']]],
   ['globalexplicitconsumeroffset',['globalExplicitConsumerOffset',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a594833a3c8cc9be773c76467be743e28',1,'moodycamel::ConcurrentQueue']]],
   ['globaltransform',['GlobalTransform',['../dc/d3b/structFSkeletonJoint.html#a9421105c9e57d1352d775f78a45b2a21',1,'FSkeletonJoint']]],
