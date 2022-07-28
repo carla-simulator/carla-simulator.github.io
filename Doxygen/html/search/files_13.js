@@ -1,8 +1,8 @@
 var searchData=
 [
   ['vector3dint_2eh',['Vector3DInt.h',['../d1/da4/Vector3DInt_8h.html',1,'']]],
-  ['vegetationspawner_2ecpp',['VegetationSpawner.cpp',['../d2/db7/VegetationSpawner_8cpp.html',1,'']]],
-  ['vegetationspawner_2eh',['VegetationSpawner.h',['../d8/d7c/VegetationSpawner_8h.html',1,'']]],
+  ['vegetationmanager_2ecpp',['VegetationManager.cpp',['../d7/da0/VegetationManager_8cpp.html',1,'']]],
+  ['vegetationmanager_2eh',['VegetationManager.h',['../d9/d64/VegetationManager_8h.html',1,'']]],
   ['vehicle_2ecpp',['Vehicle.cpp',['../d0/d27/Vehicle_8cpp.html',1,'']]],
   ['vehicle_2eh',['Vehicle.h',['../d9/d18/Vehicle_8h.html',1,'']]],
   ['vehicledoor_2eh',['VehicleDoor.h',['../da/dc3/VehicleDoor_8h.html',1,'']]],

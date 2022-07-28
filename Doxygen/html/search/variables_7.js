@@ -16,7 +16,7 @@ var searchData=
   ['global_5flane_5foffset',['global_lane_offset',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a2c80b7e409be7d8389d9f99de5766409',1,'carla::traffic_manager::Parameters']]],
   ['global_5fpercentage_5fdifference_5ffrom_5flimit',['global_percentage_difference_from_limit',['../d6/ddb/classcarla_1_1traffic__manager_1_1Parameters.html#a2e761c76139e96560a9867c060aa97e8',1,'carla::traffic_manager::Parameters']]],
   ['globalexplicitconsumeroffset',['globalExplicitConsumerOffset',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a594833a3c8cc9be773c76467be743e28',1,'moodycamel::ConcurrentQueue']]],
-  ['globaltransform',['GlobalTransform',['../dc/d3b/structFSkeletonJoint.html#a9421105c9e57d1352d775f78a45b2a21',1,'FSkeletonJoint']]],
+  ['globaltransform',['GlobalTransform',['../dc/d3b/structFSkeletonJoint.html#a9421105c9e57d1352d775f78a45b2a21',1,'FSkeletonJoint::GlobalTransform()'],['../d3/d03/structFPooledActor.html#a34cd53754f2c3bda8c5a847ff8b032ea',1,'FPooledActor::GlobalTransform()']]],
   ['gn',['gn',['../d3/db5/odrSpiral_8cpp.html#a17ec1b1afe903c1b199f5b7ee7882e4e',1,'odrSpiral.cpp']]],
   ['golbalinversetransform',['GolbalInverseTransform',['../dc/d3b/structFSkeletonJoint.html#aee328ecdc8018b808c8ae94aae2d5c99',1,'FSkeletonJoint']]],
   ['gravity',['GRAVITY',['../d1/dde/namespacecarla_1_1traffic__manager_1_1constants_1_1MotionPlan.html#acd05b3fabe74f3965e252b2022bd0a11',1,'carla::traffic_manager::constants::MotionPlan']]],

@@ -38,7 +38,6 @@ var searchData=
   ['decalsproperties',['DecalsProperties',['../d9/de2/classULoadAssetMaterialsCommandlet.html#aa7201702aaa640cc4b19796db4f74ee4',1,'ULoadAssetMaterialsCommandlet']]],
   ['default',['Default',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#a58c955777ce5b6f2ce2331a41020d4fc',1,'carla::rpc::WeatherParameters::Default()'],['../d8/d91/namespaceCommonAttributes.html#a747616c068b0e490ac12357a76b38e00',1,'CommonAttributes::DEFAULT()']]],
   ['default_5fego_5fvehicle_5fdynamics',['default_ego_vehicle_dynamics',['../d0/d03/structcarla_1_1rss_1_1RssCheck_1_1CarlaRssState.html#a162865cb53843531dc42a6dba7ad8f8f',1,'carla::rss::RssCheck::CarlaRssState']]],
-  ['defaulted',['Defaulted',['../d9/d3c/classAVegetationSpawner.html#aa66ce459583573d5899a89b0e7fa2775',1,'AVegetationSpawner']]],
   ['definitions',['Definitions',['../d7/d90/classUActorDispatcher.html#ac472842b6456bbfd80bb47162d14bbba',1,'UActorDispatcher::Definitions()'],['../d8/d91/namespaceCommonAttributes.html#a60bb163e1b00d7401fdec1a29fc98043',1,'CommonAttributes::DEFINITIONS()']]],
   ['deleter',['deleter',['../d6/d78/structauto__deleter.html#a306ab6a225284bd12cae5374fea13fe3',1,'auto_deleter']]],
   ['delta',['DELTA',['../d7/d7d/namespacecarla_1_1traffic__manager_1_1constants_1_1Map.html#a9b149c55f667161cb9f80ef59e86100b',1,'carla::traffic_manager::constants::Map']]],
@@ -92,6 +91,7 @@ var searchData=
   ['durationthis',['DurationThis',['../d9/df8/structCarlaRecorderFrame.html#a6414d545dcbddd271aede7f328f73df1',1,'CarlaRecorderFrame']]],
   ['dust_5fstorm',['dust_storm',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#a8286c371c1f7897842a358739cf54abf',1,'carla::rpc::WeatherParameters']]],
   ['duststorm',['DustStorm',['../dd/d9b/structFWeatherParameters.html#aec964974787a7aa8f5db81c7a0725068',1,'FWeatherParameters::DustStorm()'],['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#ae87106e6f82754122a172fce63a91a8d',1,'carla::rpc::WeatherParameters::DustStorm()']]],
+  ['duststormpostprocessmaterial',['DustStormPostProcessMaterial',['../de/d75/classAWeather.html#aafc400e075bfa13367fe6a3a10f116b9',1,'AWeather']]],
   ['dv',['dV',['../d1/d76/structcarla_1_1opendrive_1_1parser_1_1GeometryParamPoly3.html#a457c2acd19a224cedc6f0bc5bff7e068',1,'carla::opendrive::parser::GeometryParamPoly3']]],
   ['dynamicallyallocated',['dynamicallyAllocated',['../dc/dde/structmoodycamel_1_1ConcurrentQueue_1_1Block.html#ac97822f68d4bbc7975529ea21726b240',1,'moodycamel::ConcurrentQueue::Block']]]
 ];

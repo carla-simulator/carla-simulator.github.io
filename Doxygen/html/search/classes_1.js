@@ -120,7 +120,7 @@ var searchData=
   ['atriggerfactory',['ATriggerFactory',['../d0/df9/classATriggerFactory.html',1,'']]],
   ['auncenteredpivotpointmesh',['AUncenteredPivotPointMesh',['../db/dd8/classAUncenteredPivotPointMesh.html',1,'']]],
   ['auto_5fdeleter',['auto_deleter',['../d6/d78/structauto__deleter.html',1,'']]],
-  ['avegetationspawner',['AVegetationSpawner',['../d9/d3c/classAVegetationSpawner.html',1,'']]],
+  ['avegetationmanager',['AVegetationManager',['../dd/dfc/classAVegetationManager.html',1,'']]],
   ['avehiclespawnpoint',['AVehicleSpawnPoint',['../dc/da9/classAVehicleSpawnPoint.html',1,'']]],
   ['awalkeraicontroller',['AWalkerAIController',['../de/d70/classAWalkerAIController.html',1,'']]],
   ['awalkerbase',['AWalkerBase',['../d2/d1b/classAWalkerBase.html',1,'']]],
