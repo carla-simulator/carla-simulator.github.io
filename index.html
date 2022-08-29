@@ -28,41 +28,25 @@ image: 'img/carla.jpg'
 </ul>
 
 <h3>Recommended reading</h3>
-<p>CARLA's functionality is covered extensively in the documentation. Here we highlight some key reading that covers some of CARLA's most useful and asked about features.</p>
+<p>CARLA's functionality is covered extensively in the documentation. Here are some highlights covering some of CARLA's most useful and requested features.</p>
 
+<h5>Core features</h5>
 <ul>
-	<li><strong><a href="https://www.vectorzero.io/">Sensors</a></strong>: CARLA boasts an impressive array of models of real world sensors like cameras, LIDAR and RADAR. The simulator also gives access to privileged information such as ground truth semantic segmentation and depth information.</li>
-	<li><strong>Flexible API</strong>: CARLA exposes a powerful API that allows users to control all aspects related to the simulation, including traffic generation, pedestrian behaviors, weathers, sensors, and much more. </li>
-	<li><strong>Autonomous Driving sensor suite</strong>: users can configure diverse sensor suites including LIDARs, multiple cameras, depth sensors and GPS among others.</li>
-		<li><strong>Fast simulation for planning and control</strong>: this mode disables rendering to offer a fast execution of traffic simulation and road behaviors for which graphics are not required.</li>
-		<li><strong>Maps generation</strong>: users can easily create their own maps following the <a href="http://www.opendrive.org/">OpenDrive</a> standard via tools like <a href="https://www.vectorzero.io/">RoadRunner</a>.</li>
-		<li><strong>Traffic scenarios simulation</strong>: our engine <a href="https://github.com/carla-simulator/scenario_runner">ScenarioRunner</a> allows users to define and execute different traffic situations based on modular behaviors.</li>
-		<li><strong>ROS integration</strong>: CARLA is provided with integration with <a href="http://www.ros.org/">ROS</a> via our <a href="https://github.com/carla-simulator/ros-bridge">ROS-bridge</a></li>
-		<li><strong>Autonomous Driving baselines</strong>: we provide Autonomous Driving baselines as runnable agents in CARLA, including an <a href="https://github.com/carla-simulator/carla-autoware">AutoWare</a> agent and a <a href="https://github.com/felipecode/coiltraine">Conditional Imitation Learning</a> agent.</li>
-	</ul>
-
-<h3>CARLA Talks</h3>
-<p>The team creates some additional content for users, besides the docs. This is a great way to cover different subjects such as detailed explanations for a specific module, latest improvements in a feature, future work and much more.</p>
-
-<h5>May 2020</h5>
-<ul><strong>General</strong>
-<li>Art improvements: environment and rendering — <a href="https://youtu.be/ZZaHevsz8W8">video</a> | <a href="https://drive.google.com/file/d/1l9Ztaq0Q8fNN5YPU4-5vL13eZUwsQl5P/view?usp=sharing">slides</a></li>
-<li>Core implementations: synchrony, snapshots and landmarks — <a href="https://youtu.be/nyyTLmphqY4">video</a> | <a href="https://drive.google.com/file/d/1yaOwf1419qWZqE1gTSrrknsWOhawEWh_/view?usp=sharing">slides</a></li>
-<li>Data ingestion — <a href="https://youtu.be/mHiUUZ4xC9o">video</a> | <a href="https://drive.google.com/file/d/10uNBAMreKajYimIhwCqSYXjhfVs2bX31/view?usp=sharing">slides</a></li>
-<li>Pedestrians and their implementation — <a href="https://youtu.be/Uoz2ihDwaWA">video</a> | <a href="https://drive.google.com/file/d/1Tsosin7BLP1k558shtbzUdo2ZXVKy5CB/view?usp=sharing">slides</a></li>
-<li>Sensors in CARLA — <a href="https://youtu.be/T8qCSet8WK0">video</a> | <a href="https://drive.google.com/file/d/1UO8ZAIOp-1xaBzcFMfn_IoipycVkUo4q/view?usp=sharing">slides</a></li>
+	<li><strong><a href="https://carla.readthedocs.io/en/latest/start_quickstart/">Quickstart</a></strong>: Getting started with CARLA is easy, this guide will show you how to install and run the simulator.</li>
+	<li><strong><a href="https://carla.readthedocs.io/en/latest/core_actors/">Actors</a></strong>: CARLA's actors are entities that interact within the simulation like vehicles, pedestrians and traffic signals. Get to know them here.</li>
+	<li><strong><a href="https://carla.readthedocs.io/en/latest/core_sensors/">Sensors</a></strong>: CARLA boasts an impressive array of models of real world sensors like cameras, LIDAR and RADAR. The simulator also gives access to privileged information such as ground truth semantic segmentation and depth information.</li>
+	<li><strong><a href="https://carla.readthedocs.io/en/latest/ts_traffic_simulation_overview/">Traffic Manager</a></strong>: CARLA's Traffic Manager controls NPCs to challenge your autonomous driving agent.</li>
+	<li><strong><a href="https://carla.readthedocs.io/projects/ros-bridge/en/latest/">ROS bridge</a></strong>: CARLA's ROS bridge enables seamless connection with the Robot Operating System.</li>
 </ul>
-<ul><strong>Modules</strong>
-<li>Improvements in the Traffic Manager — <a href="https://youtu.be/n9cufaJ17eA">video</a> | <a href="https://drive.google.com/file/d/1R9uNZ6pYHSZoEBxs2vYK7swiriKbbuxo/view?usp=sharing">slides</a></li>
-<li>Integration of autoware and ROS — <a href="https://youtu.be/ChIgcC2scwU">video</a> | <a href="https://drive.google.com/file/d/1uO6nBaFirrllb08OeqGAMVLApQ6EbgAt/view?usp=sharing">slides</a></li>
-<li>Introducing ScenarioRunner — <a href="https://youtu.be/dcnnNJowqzM">video</a> | <a href="https://drive.google.com/file/d/1zgoH_kLOfIw117FJGm2IVZZAIRw9U2Q0/view?usp=sharing">slides</a></li>
-<li>OpenSCENARIO support — <a href="https://drive.google.com/file/d/1g6ATxZRTWEdstiZwfBN1_T_x_WwZs0zE/view?usp=sharing">slides</a></li>
-</ul>
-<ul><strong>Features</strong>
-<li>Co-Simulations with SUMO and PTV-Vissim — <a href="https://youtu.be/PuFSbj1PU94">video</a> | <a href="https://drive.google.com/file/d/10DgMNUBqKqWBrdiwBiAIT4DdR9ObCquI/view?usp=sharing">slides</a></li>
-<li>Integration of RSS-lib — <a href="https://drive.google.com/file/d/1whREmrCv67fOMipgCk6kkiW4VPODig0A/view?usp=sharing">slides</a></li>
-<li>The External Sensor Interface (ESI) — <a href="https://youtu.be/5hXHPV9FIeY">video</a> | <a href="https://drive.google.com/file/d/1VWFaEoS12siW6NtQDUkm44BVO7tveRbJ/view?usp=sharing">slides</a></li>
-<li>The OpenDRIVE Standalone Mode — <a href="https://youtu.be/U25GhofVV1Q">video</a> | <a href="https://drive.google.com/file/d/1D5VsgfX7dmgPWn7UtDDid3-OdS1HI4pY/view?usp=sharing">slides</a></li>
+
+<h5>Tutorials</h5>
+<ul>
+	<li><strong><a href="https://carla.readthedocs.io/en/latest/tuto_first_steps/">First steps in CARLA</a></strong>: New to CARLA? Need some help with your first steps? <a href="https://carla.readthedocs.io/en/latest/tuto_first/">This tutorial</a> will get you up and running.</li>
+	<li><strong><a href="https://carla.readthedocs.io/en/latest/tuto_G_bounding_boxes/">Bounding boxes</a></strong>: Need ground truth bounding boxes for vehicles or map features? <a href="https://carla.readthedocs.io/en/latest/tuto_G_bounding_boxes/">This tutorial</a> shows you how to access them through CARLA's API.</li>
+	<li><strong><a href="https://carla.readthedocs.io/en/latest/tuto_content_authoring_maps/">Creating custom maps for CARLA</a></strong>: Create your own custom maps for CARLA, using CARLA's built in asset library or importing your own assets.</li>
+	<li><strong><a href="https://carla.readthedocs.io/en/latest/tuto_content_authoring_vehicles/">Creating custom vehicles for CARLA</a></strong>: Create your own custom vehicles for CARLA.</li>
+	<li><strong><a href="https://carla.readthedocs.io/en/latest/tuto_G_retrieve_data/">Recording your simulation</a></strong>: Your CARLA simulations can be recorded and replayed exactly, enabling you to repeat and compare results for different sensors or configurations.</li>
+
 </ul>
 
 <div style="display: inline-grid; grid-gap: 25px;" class="grid-container">
