@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['handlenonsignalisedjunction',['HandleNonSignalisedJunction',['../d5/db3/classcarla_1_1traffic__manager_1_1TrafficLightStage.html#a2c5d43298e2326b0c6ef0c00cd1713a1',1,'carla::traffic_manager::TrafficLightStage']]],
+  ['handlenonsignalisedjunction',['HandleNonSignalisedJunction',['../d5/db3/classcarla_1_1traffic__manager_1_1TrafficLightStage.html#aa00b9cb996fe9e14e9894cafdb9dc002',1,'carla::traffic_manager::TrafficLightStage']]],
   ['handlesettingssaved',['HandleSettingsSaved',['../d5/da1/classFCarlaModule.html#ad9a4db640b955eadbaf375d73cd36ecf',1,'FCarlaModule']]],
   ['has_5faddress',['has_address',['../df/de1/classcarla_1_1streaming_1_1detail_1_1token__type.html#abd655bd85461de5374d712115e388ef9',1,'carla::streaming::detail::token_type']]],
   ['has_5fdeclaration',['has_declaration',['../db/d20/pugixml_8cpp.html#ac3649f7ad230da90f36590085fc5ca3b',1,'pugixml.cpp']]],

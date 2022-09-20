@@ -104,12 +104,18 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a659248d0e780e0ea0cf6e951823b8cfd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp.html#a659248d0e780e0ea0cf6e951823b8cfd">ApplyTransformToBB</a> (const <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &amp;InBoundingBox, const FTransform &amp;Transform)</td></tr>
-<tr class="separator:a659248d0e780e0ea0cf6e951823b8cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a724edcd3050f902e60a4c923013b7e4c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp.html#a724edcd3050f902e60a4c923013b7e4c">ApplyTransformToBB</a> (<a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> InBB, const FTransform &amp;Transform)</td></tr>
+<tr class="separator:a724edcd3050f902e60a4c923013b7e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add48caf167e197fab6a9c2228ad1c024"><td class="memTemplParams" colspan="2">template&lt;typename Collection , typename ExtractAABB &gt; </td></tr>
+<tr class="memitem:add48caf167e197fab6a9c2228ad1c024"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp.html#add48caf167e197fab6a9c2228ad1c024">CombineBoundingBoxesGeneric</a> (Collection &amp;&amp;collection, ExtractAABB &amp;&amp;extract_aabb)</td></tr>
+<tr class="separator:add48caf167e197fab6a9c2228ad1c024"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c560a59824c7d5a1cf5ec870ad05419"><td class="memTemplParams" colspan="2">template&lt;typename Collection &gt; </td></tr>
+<tr class="memitem:a8c560a59824c7d5a1cf5ec870ad05419"><td class="memTemplItemLeft" align="right" valign="top">static auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp.html#a8c560a59824c7d5a1cf5ec870ad05419">CombineBoundingBoxesGeneric</a> (Collection &amp;&amp;collection)</td></tr>
+<tr class="separator:a8c560a59824c7d5a1cf5ec870ad05419"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a659248d0e780e0ea0cf6e951823b8cfd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a659248d0e780e0ea0cf6e951823b8cfd">&#9670;&nbsp;</a></span>ApplyTransformToBB()</h2>
+<a id="a724edcd3050f902e60a4c923013b7e4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a724edcd3050f902e60a4c923013b7e4c">&#9670;&nbsp;</a></span>ApplyTransformToBB()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -120,8 +126,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">static <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> ApplyTransformToBB </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> &amp;&#160;</td>
-          <td class="paramname"><em>InBoundingBox</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a>&#160;</td>
+          <td class="paramname"><em>InBB</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -144,15 +150,105 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ab96da744287618055e5d086d53f42660">BoundingBox</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00022">FBoundingBox::Extent</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00018">FBoundingBox::Origin</a>, and <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00026">FBoundingBox::Rotation</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00022">FBoundingBox::Extent</a>, <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00018">FBoundingBox::Origin</a>, and <a class="el" href="../../d2/d62/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2BoundingBox_8h_source.html#l00026">FBoundingBox::Rotation</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00388">UBoundingBoxCalculator::GetBBsOfSkeletalMeshComponents()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00350">UBoundingBoxCalculator::GetBBsOfStaticMeshComponents()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00191">UBoundingBoxCalculator::GetCharacterBoundingBox()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00317">UBoundingBoxCalculator::GetISMBoundingBox()</a>, and <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00103">UBoundingBoxCalculator::GetVehicleBoundingBox()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00375">UBoundingBoxCalculator::GetBBsOfSkeletalMeshComponents()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00337">UBoundingBoxCalculator::GetBBsOfStaticMeshComponents()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00192">UBoundingBoxCalculator::GetCharacterBoundingBox()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00304">UBoundingBoxCalculator::GetISMBoundingBox()</a>, and <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00114">UBoundingBoxCalculator::GetVehicleBoundingBox()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/dd8/BoundingBoxCalculator_8cpp_a659248d0e780e0ea0cf6e951823b8cfd_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/dd8/BoundingBoxCalculator_8cpp_a724edcd3050f902e60a4c923013b7e4c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="add48caf167e197fab6a9c2228ad1c024"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add48caf167e197fab6a9c2228ad1c024">&#9670;&nbsp;</a></span>CombineBoundingBoxesGeneric() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Collection , typename ExtractAABB &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d5/d4d/structFBoundingBox.html">FBoundingBox</a> CombineBoundingBoxesGeneric </td>
+          <td>(</td>
+          <td class="paramtype">Collection &amp;&amp;&#160;</td>
+          <td class="paramname"><em>collection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ExtractAABB &amp;&amp;&#160;</td>
+          <td class="paramname"><em>extract_aabb</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00567">567</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00599">UBoundingBoxCalculator::CombineBBs()</a>, <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00593">CombineBoundingBoxesGeneric()</a>, and <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00604">UBoundingBoxCalculator::CombineBoxes()</a>.</p>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/dd8/BoundingBoxCalculator_8cpp_add48caf167e197fab6a9c2228ad1c024_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a8c560a59824c7d5a1cf5ec870ad05419"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c560a59824c7d5a1cf5ec870ad05419">&#9670;&nbsp;</a></span>CombineBoundingBoxesGeneric() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Collection &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static auto CombineBoundingBoxesGeneric </td>
+          <td>(</td>
+          <td class="paramtype">Collection &amp;&amp;&#160;</td>
+          <td class="paramname"><em>collection</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00593">593</a> of file <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html">BoundingBoxCalculator.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dd/dd8/BoundingBoxCalculator_8cpp_source.html#l00567">CombineBoundingBoxesGeneric()</a>.</p>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dd8/BoundingBoxCalculator_8cpp_a8c560a59824c7d5a1cf5ec870ad05419_cgraph.svg" width="520" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

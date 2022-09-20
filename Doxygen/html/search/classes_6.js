@@ -102,6 +102,7 @@ var searchData=
   ['functort',['FunctorT',['../d5/d37/classFunctorT.html',1,'']]],
   ['fvehicleackermanncontrol',['FVehicleAckermannControl',['../d4/d02/structFVehicleAckermannControl.html',1,'']]],
   ['fvehicleactor',['FVehicleActor',['../d7/d01/classFVehicleActor.html',1,'']]],
+  ['fvehicleactordefinition',['FVehicleActorDefinition',['../d8/d1f/structFVehicleActorDefinition.html',1,'']]],
   ['fvehiclecontrol',['FVehicleControl',['../d1/d4b/structFVehicleControl.html',1,'']]],
   ['fvehicledata',['FVehicleData',['../da/df6/classFVehicleData.html',1,'']]],
   ['fvehiclelightstate',['FVehicleLightState',['../de/d9e/structFVehicleLightState.html',1,'']]],

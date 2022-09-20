@@ -82,6 +82,8 @@ var searchData=
   ['combine',['Combine',['../d6/de8/classFIniFile.html#a4e4824d1ceafba855daff6973bcebf05',1,'FIniFile']]],
   ['combinebbs',['CombineBBs',['../df/d02/classUBoundingBoxCalculator.html#adc638d4ad146b80666f002e31fb67dca',1,'UBoundingBoxCalculator']]],
   ['combinebbsofactor',['CombineBBsOfActor',['../df/d02/classUBoundingBoxCalculator.html#af2813a65238c05c9f421c93839766edb',1,'UBoundingBoxCalculator']]],
+  ['combineboundingboxesgeneric',['CombineBoundingBoxesGeneric',['../dd/dd8/BoundingBoxCalculator_8cpp.html#add48caf167e197fab6a9c2228ad1c024',1,'CombineBoundingBoxesGeneric(Collection &amp;&amp;collection, ExtractAABB &amp;&amp;extract_aabb):&#160;BoundingBoxCalculator.cpp'],['../dd/dd8/BoundingBoxCalculator_8cpp.html#a8c560a59824c7d5a1cf5ec870ad05419',1,'CombineBoundingBoxesGeneric(Collection &amp;&amp;collection):&#160;BoundingBoxCalculator.cpp']]],
+  ['combineboxes',['CombineBoxes',['../df/d02/classUBoundingBoxCalculator.html#ae016324b19e22ca621e61cca4659b4f5',1,'UBoundingBoxCalculator']]],
   ['compare_5feq',['compare_eq',['../d3/dc5/classxpath__ast__node.html#a98dd7f6e67fe2c56c63056eed835d6a4',1,'xpath_ast_node']]],
   ['compare_5fexchange',['compare_exchange',['../d2/dcf/classcarla_1_1AtomicSharedPtr.html#ac35e2c954d11747f321b1e4cf6ddc2c9',1,'carla::AtomicSharedPtr']]],
   ['compare_5frel',['compare_rel',['../d3/dc5/classxpath__ast__node.html#abb6e4c529276eaf882233dbb6e04e111',1,'xpath_ast_node']]],
