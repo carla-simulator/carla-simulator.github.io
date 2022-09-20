@@ -7,7 +7,11 @@
 
     <article>
       <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-        <h4 class="post-title">{{ post.title }}</h4>
+        {% if post.summary != None %}
+          <h4 class="post-title">{{ post.summary }}</h4>
+        {% else %}
+          <h4 class="post-title">{{ post.title }}</h4>
+        {% endif %}
         <p>
           Posted on {{ post.date | date: '%B %d, %Y' }}
         </p>
