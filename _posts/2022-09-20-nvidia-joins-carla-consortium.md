@@ -2,7 +2,7 @@
 layout: post
 comments: true
 summary: "NVIDIA Joins CARLA Consortium"
-title:  "CARLA Autonomous Driving Consortium Names NVIDIA as <br> Latest Member"
+title:  "CARLA Autonomous Driving Consortium Names NVIDIA as Latest Member"
 subtitle: "CARLA open-source simulator will connect to NVIDIA Omniverse, expanding access to simulation-ready content"
 description: "CARLA open-source simulator will connect to NVIDIA Omniverse, expanding access to simulation-ready content"
 author: "@MattRowe18"
