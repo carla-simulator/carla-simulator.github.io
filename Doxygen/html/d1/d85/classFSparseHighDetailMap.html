@@ -71,6 +71,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="../../db/d0b/classFSparseHighDetailMap-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">FSparseHighDetailMap Class Reference</div>  </div>
@@ -83,7 +84,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/de9/classFSparseHighDetailMap__coll__graph.svg" width="100%" height="588"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/de9/classFSparseHighDetailMap__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -91,8 +92,22 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a320ab9d59929d6bab6dc42a52910a8de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a320ab9d59929d6bab6dc42a52910a8de">Clear</a> ()</td></tr>
 <tr class="separator:a320ab9d59929d6bab6dc42a52910a8de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa045affdfb3f874f0aff3e39ceead079"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#aa045affdfb3f874f0aff3e39ceead079">FSparseHighDetailMap</a> (float ParticleDiameter=0.02f, float Depth=0.4f)</td></tr>
+<tr class="separator:aa045affdfb3f874f0aff3e39ceead079"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26ca2010ed4e5b29d795af2e6193393a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a26ca2010ed4e5b29d795af2e6193393a">GetHeight</a> (<a class="el" href="../../de/d7a/structFDVector.html">FDVector</a> <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>)</td></tr>
+<tr class="separator:a26ca2010ed4e5b29d795af2e6193393a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7362aea3e00daecc0dcba55c860e81f6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a7362aea3e00daecc0dcba55c860e81f6">GetIntersectingTiles</a> (const FOrientedBox &amp;OBox)</td></tr>
+<tr class="separator:a7362aea3e00daecc0dcba55c860e81f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b05806227f0ef8cc1ea535359023ee9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a8b05806227f0ef8cc1ea535359023ee9">GetLoadedTilesInRange</a> (<a class="el" href="../../de/d7a/structFDVector.html">FDVector</a> <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, float Radius)</td></tr>
+<tr class="separator:a8b05806227f0ef8cc1ea535359023ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec1c4cbeef5ba288f5bf93c063e160ed"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#aec1c4cbeef5ba288f5bf93c063e160ed">GetParticlesHeightMapInTileRadius</a> (<a class="el" href="../../de/d7a/structFDVector.html">FDVector</a> <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, float Radius)</td></tr>
+<tr class="separator:aec1c4cbeef5ba288f5bf93c063e160ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd647679f2d16e2bff0472bbb3136de2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d9/dfd/structFParticle.html">FParticle</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#abd647679f2d16e2bff0472bbb3136de2">GetParticlesInBox</a> (const FOrientedBox &amp;OBox)</td></tr>
+<tr class="separator:abd647679f2d16e2bff0472bbb3136de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf51b5c24afaa4b7bc7a4b474b0a0659"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d9/dfd/structFParticle.html">FParticle</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#adf51b5c24afaa4b7bc7a4b474b0a0659">GetParticlesInRadius</a> (<a class="el" href="../../de/d7a/structFDVector.html">FDVector</a> <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, float Radius)</td></tr>
 <tr class="separator:adf51b5c24afaa4b7bc7a4b474b0a0659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44620b84b886b1339c3edc6747e24527"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d9/dfd/structFParticle.html">FParticle</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a44620b84b886b1339c3edc6747e24527">GetParticlesInTileRadius</a> (<a class="el" href="../../de/d7a/structFDVector.html">FDVector</a> <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, float Radius)</td></tr>
+<tr class="separator:a44620b84b886b1339c3edc6747e24527"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28de33ae9b8ec42f29664f1e1192e4d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/de5/structFDenseTile.html">FDenseTile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a28de33ae9b8ec42f29664f1e1192e4d5">GetTile</a> (uint32_t Tile_X, uint32_t Tile_Y)</td></tr>
 <tr class="separator:a28de33ae9b8ec42f29664f1e1192e4d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30f81c19077f7b868087be3c7fad71ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/de5/structFDenseTile.html">FDenseTile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a30f81c19077f7b868087be3c7fad71ce">GetTile</a> (<a class="el" href="../../de/d7a/structFDVector.html">FDVector</a> <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>)</td></tr>
@@ -105,55 +120,131 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6909676e37a461a482b2413e56906b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af814d46a438028c620708e7bd68667b0"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#af814d46a438028c620708e7bd68667b0">GetTileId</a> (<a class="el" href="../../de/d7a/structFDVector.html">FDVector</a> <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>)</td></tr>
 <tr class="separator:af814d46a438028c620708e7bd68667b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72a619fb2ada11d585fbabb3ba4781ea"><td class="memItemLeft" align="right" valign="top">std::vector&lt; uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a72a619fb2ada11d585fbabb3ba4781ea">GetTileIdInCache</a> ()</td></tr>
+<tr class="separator:a72a619fb2ada11d585fbabb3ba4781ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a5ea53a5f14d09bf06e0788569243c9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a8a5ea53a5f14d09bf06e0788569243c9">GetTileIdInMap</a> ()</td></tr>
+<tr class="separator:a8a5ea53a5f14d09bf06e0788569243c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8c5d5555733083d93ac509424e11fc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d7a/structFDVector.html">FDVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#ab8c5d5555733083d93ac509424e11fc2">GetTilePosition</a> (uint64_t TileId)</td></tr>
 <tr class="separator:ab8c5d5555733083d93ac509424e11fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7621603876dd07f9a080c7a772fbcd3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d7a/structFDVector.html">FDVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a7621603876dd07f9a080c7a772fbcd3f">GetTilePosition</a> (uint32_t Tile_X, uint32_t Tile_Y)</td></tr>
 <tr class="separator:a7621603876dd07f9a080c7a772fbcd3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf59b5b889775a678f9450e8c5ef9653"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#adf59b5b889775a678f9450e8c5ef9653">GetTileSize</a> () const</td></tr>
 <tr class="separator:adf59b5b889775a678f9450e8c5ef9653"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b6421587782aadcbe57fcf289c08804"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a6b6421587782aadcbe57fcf289c08804">InitializeMap</a> (UTexture2D *HeightMapTexture, <a class="el" href="../../de/d7a/structFDVector.html">FDVector</a> Origin, <a class="el" href="../../de/d7a/structFDVector.html">FDVector</a> MapSize, float Size=1.f)</td></tr>
-<tr class="separator:a6b6421587782aadcbe57fcf289c08804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ce16fde0c9ae4961ca658b553595ce4"><td class="memItemLeft" align="right" valign="top">FIntVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a1ce16fde0c9ae4961ca658b553595ce4">GetVectorTileId</a> (<a class="el" href="../../de/d7a/structFDVector.html">FDVector</a> <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>)</td></tr>
+<tr class="separator:a1ce16fde0c9ae4961ca658b553595ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada34c5b8c2420be69cd366aa7ff30844"><td class="memItemLeft" align="right" valign="top">FIntVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#ada34c5b8c2420be69cd366aa7ff30844">GetVectorTileId</a> (uint64_t TileId)</td></tr>
+<tr class="separator:ada34c5b8c2420be69cd366aa7ff30844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa2a446ed7f49ebb089018744d063794"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#aaa2a446ed7f49ebb089018744d063794">Init</a> (uint32 NewTextureSize, float NewAffectedRadius, float ParticleDiameter, float Depth)</td></tr>
+<tr class="separator:aaa2a446ed7f49ebb089018744d063794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a499ed0f817cf5b258561f3eb204ada50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a499ed0f817cf5b258561f3eb204ada50">InitializeMap</a> (<a class="el" href="../../d6/d77/classUHeightMapDataAsset.html">UHeightMapDataAsset</a> *DataAsset, <a class="el" href="../../de/d7a/structFDVector.html">FDVector</a> Origin, <a class="el" href="../../de/d7a/structFDVector.html">FDVector</a> MapSize, float Size, float ScaleZ)</td></tr>
+<tr class="separator:a499ed0f817cf5b258561f3eb204ada50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43302870a8cbb24504279e9af61d9440"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/de5/structFDenseTile.html">FDenseTile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a43302870a8cbb24504279e9af61d9440">InitializeRegion</a> (uint32_t Tile_X, uint32_t Tile_Y)</td></tr>
 <tr class="separator:a43302870a8cbb24504279e9af61d9440"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37aed2e1e0b34af20c824e5d35f3c05d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/de5/structFDenseTile.html">FDenseTile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a37aed2e1e0b34af20c824e5d35f3c05d">InitializeRegion</a> (uint64_t TileId)</td></tr>
 <tr class="separator:a37aed2e1e0b34af20c824e5d35f3c05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ca152051cc8fa0b249403722b2528c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a1ca152051cc8fa0b249403722b2528c2">LoadTilesAtPosition</a> (<a class="el" href="../../de/d7a/structFDVector.html">FDVector</a> <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, float RadiusX=100.0f, float RadiusY=100.0f)</td></tr>
-<tr class="separator:a1ca152051cc8fa0b249403722b2528c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d5492cf56ebf32aac1c304c36384784"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/de5/structFDenseTile.html">FDenseTile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a3d5492cf56ebf32aac1c304c36384784">InitializeRegionInCache</a> (uint64_t TileId)</td></tr>
+<tr class="separator:a3d5492cf56ebf32aac1c304c36384784"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac31cb89c7945c185a79cf91042affd3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#ac31cb89c7945c185a79cf91042affd3b">LockMutex</a> ()</td></tr>
+<tr class="separator:ac31cb89c7945c185a79cf91042affd3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3e6409f38a8bf32fdc7462a0501dd0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#ab3e6409f38a8bf32fdc7462a0501dd0f">SaveMap</a> ()</td></tr>
 <tr class="separator:ab3e6409f38a8bf32fdc7462a0501dd0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad102978ba1ed3078b2558708c825dc21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#ad102978ba1ed3078b2558708c825dc21">UnLockMutex</a> ()</td></tr>
+<tr class="separator:ad102978ba1ed3078b2558708c825dc21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc23f1d2b0d1e643872dfce90ee1fe9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#adc23f1d2b0d1e643872dfce90ee1fe9f">Update</a> (FVector <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, float RadiusX, float RadiusY)</td></tr>
 <tr class="separator:adc23f1d2b0d1e643872dfce90ee1fe9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae90950e02e0e8423f20f4defce14bf0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#ae90950e02e0e8423f20f4defce14bf0e">UpdateHeightMap</a> (<a class="el" href="../../d6/d77/classUHeightMapDataAsset.html">UHeightMapDataAsset</a> *DataAsset, <a class="el" href="../../de/d7a/structFDVector.html">FDVector</a> Origin, <a class="el" href="../../de/d7a/structFDVector.html">FDVector</a> MapSize, float Size, float ScaleZ)</td></tr>
+<tr class="separator:ae90950e02e0e8423f20f4defce14bf0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80247532773c7aa2e1ebaab39d105a1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a80247532773c7aa2e1ebaab39d105a1c">UpdateMaps</a> (<a class="el" href="../../de/d7a/structFDVector.html">FDVector</a> <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, float RadiusX, float RadiusY, float CacheRadiusX, float CacheRadiusY)</td></tr>
+<tr class="separator:a80247532773c7aa2e1ebaab39d105a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a9e9a4f17012eb1ca0388906ba95cfb4e"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; uint64_t, <a class="el" href="../../d3/de5/structFDenseTile.html">FDenseTile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a9e9a4f17012eb1ca0388906ba95cfb4e">CacheMap</a></td></tr>
+<tr class="separator:a9e9a4f17012eb1ca0388906ba95cfb4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbff1fccef14e76f989f8529abdac1da"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; uint64_t, <a class="el" href="../../d3/de5/structFDenseTile.html">FDenseTile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#afbff1fccef14e76f989f8529abdac1da">Map</a></td></tr>
+<tr class="separator:afbff1fccef14e76f989f8529abdac1da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bc1d7469d53b0275c5065ff944171aa"><td class="memItemLeft" align="right" valign="top">FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a9bc1d7469d53b0275c5065ff944171aa">SavePath</a></td></tr>
 <tr class="separator:a9bc1d7469d53b0275c5065ff944171aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:af1ef9b6028afcd5293f55dfed93b076b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#af1ef9b6028afcd5293f55dfed93b076b">AffectedRadius</a> = 0.0f</td></tr>
+<tr class="separator:af1ef9b6028afcd5293f55dfed93b076b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7698789283f2f3271948899997dc354"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d7a/structFDVector.html">FDVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#ac7698789283f2f3271948899997dc354">Extension</a></td></tr>
 <tr class="separator:ac7698789283f2f3271948899997dc354"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26b453b8937532f581f91142794be099"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d20/structFHeightMapData.html">FHeightMapData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a26b453b8937532f581f91142794be099">Heightmap</a></td></tr>
 <tr class="separator:a26b453b8937532f581f91142794be099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4666c2dd4cd5f4360c9ef468a1a08721"><td class="memItemLeft" align="right" valign="top">FCriticalSection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a4666c2dd4cd5f4360c9ef468a1a08721">Lock_CacheMap</a></td></tr>
+<tr class="separator:a4666c2dd4cd5f4360c9ef468a1a08721"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cd372d068f180ac6cd19d2ba150b7e0"><td class="memItemLeft" align="right" valign="top">FCriticalSection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a1cd372d068f180ac6cd19d2ba150b7e0">Lock_GetTile</a></td></tr>
+<tr class="separator:a1cd372d068f180ac6cd19d2ba150b7e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b5be8ca8850f30b1dc5c4a3ba95ab29"><td class="memItemLeft" align="right" valign="top">FCriticalSection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a5b5be8ca8850f30b1dc5c4a3ba95ab29">Lock_Map</a></td></tr>
 <tr class="separator:a5b5be8ca8850f30b1dc5c4a3ba95ab29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a427694e2506969d4bb47769cf87b7c9d"><td class="memItemLeft" align="right" valign="top">FCriticalSection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a427694e2506969d4bb47769cf87b7c9d">Lock_Position</a></td></tr>
 <tr class="separator:a427694e2506969d4bb47769cf87b7c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbff1fccef14e76f989f8529abdac1da"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; uint64_t, <a class="el" href="../../d3/de5/structFDenseTile.html">FDenseTile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#afbff1fccef14e76f989f8529abdac1da">Map</a></td></tr>
-<tr class="separator:afbff1fccef14e76f989f8529abdac1da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5051d2c650f5ba1c7ac3c7c8536f9ba8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a5051d2c650f5ba1c7ac3c7c8536f9ba8">ParticleSize</a> = 0.02f</td></tr>
+<tr class="separator:a5051d2c650f5ba1c7ac3c7c8536f9ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ee215c15390873924c04838ee86be2f"><td class="memItemLeft" align="right" valign="top">FVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a4ee215c15390873924c04838ee86be2f">PositionToUpdate</a></td></tr>
 <tr class="separator:a4ee215c15390873924c04838ee86be2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c9760b94be2f96cdd35783ac6a12b13"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a2c9760b94be2f96cdd35783ac6a12b13">TerrainDepth</a> = 0.4f</td></tr>
+<tr class="separator:a2c9760b94be2f96cdd35783ac6a12b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8053533a424f76d1554d65b2056a50a0"><td class="memItemLeft" align="right" valign="top">uint32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a8053533a424f76d1554d65b2056a50a0">TextureSize</a> = 0</td></tr>
+<tr class="separator:a8053533a424f76d1554d65b2056a50a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a8041d83701c22fa893638422b81ae1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d7a/structFDVector.html">FDVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a2a8041d83701c22fa893638422b81ae1">Tile0Position</a></td></tr>
 <tr class="separator:a2a8041d83701c22fa893638422b81ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78e8c6e5bf858b29dde84468dc691e21"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a78e8c6e5bf858b29dde84468dc691e21">TileSize</a> = 1.f</td></tr>
 <tr class="separator:a78e8c6e5bf858b29dde84468dc691e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeed83eeb359d0a9a9109aa4fec8b8286"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; uint64_t, <a class="el" href="../../d3/de5/structFDenseTile.html">FDenseTile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#aeed83eeb359d0a9a9109aa4fec8b8286">TilesToWrite</a></td></tr>
 <tr class="separator:aeed83eeb359d0a9a9109aa4fec8b8286"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:aa6f7ba6689feedef44d6abfcf441dd25"><td class="memItemLeft" align="right" valign="top">struct&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#aa6f7ba6689feedef44d6abfcf441dd25">FTilesWorker</a></td></tr>
+<tr class="separator:aa6f7ba6689feedef44d6abfcf441dd25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00065">65</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00096">96</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aa045affdfb3f874f0aff3e39ceead079"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa045affdfb3f874f0aff3e39ceead079">&#9670;&nbsp;</a></span>FSparseHighDetailMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FSparseHighDetailMap::FSparseHighDetailMap </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>ParticleDiameter</em> = <code>0.02f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>Depth</em> = <code>0.4f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00101">101</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a320ab9d59929d6bab6dc42a52910a8de"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a320ab9d59929d6bab6dc42a52910a8de">&#9670;&nbsp;</a></span>Clear()</h2>
 
@@ -170,7 +261,185 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00293">293</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00801">801</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a26ca2010ed4e5b29d795af2e6193393a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26ca2010ed4e5b29d795af2e6193393a">&#9670;&nbsp;</a></span>GetHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FSparseHighDetailMap::GetHeight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d7a/structFDVector.html">FDVector</a>&#160;</td>
+          <td class="paramname"><em>Position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00142">142</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00121">FHeightMapData::Clear()</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00509">FTilesWorker::RadiusX</a>, and <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00510">FTilesWorker::RadiusY</a>.</p>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_a26ca2010ed4e5b29d795af2e6193393a_cgraph.svg" width="400" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a7362aea3e00daecc0dcba55c860e81f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7362aea3e00daecc0dcba55c860e81f6">&#9670;&nbsp;</a></span>GetIntersectingTiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; uint64_t &gt; FSparseHighDetailMap::GetIntersectingTiles </td>
+          <td>(</td>
+          <td class="paramtype">const FOrientedBox &amp;&#160;</td>
+          <td class="paramname"><em>OBox</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00431">431</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00083">UEFrameToSI()</a>, and <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00088">UEFrameToSIDirection()</a>.</p>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_a7362aea3e00daecc0dcba55c860e81f6_cgraph.svg" width="394" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a8b05806227f0ef8cc1ea535359023ee9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b05806227f0ef8cc1ea535359023ee9">&#9670;&nbsp;</a></span>GetLoadedTilesInRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; uint64_t &gt; FSparseHighDetailMap::GetLoadedTilesInRange </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d7a/structFDVector.html">FDVector</a>&#160;</td>
+          <td class="paramname"><em>Position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>Radius</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00541">541</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00591">GetParticlesHeightMapInTileRadius()</a>.</p>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_a8b05806227f0ef8cc1ea535359023ee9_cgraph.svg" width="458" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aec1c4cbeef5ba288f5bf93c063e160ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec1c4cbeef5ba288f5bf93c063e160ed">&#9670;&nbsp;</a></span>GetParticlesHeightMapInTileRadius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; float &gt; FSparseHighDetailMap::GetParticlesHeightMapInTileRadius </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d7a/structFDVector.html">FDVector</a>&#160;</td>
+          <td class="paramname"><em>Position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>Radius</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00591">591</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00541">GetLoadedTilesInRange()</a>.</p>
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_aec1c4cbeef5ba288f5bf93c063e160ed_icgraph.svg" width="458" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="abd647679f2d16e2bff0472bbb3136de2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd647679f2d16e2bff0472bbb3136de2">&#9670;&nbsp;</a></span>GetParticlesInBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="../../d9/dfd/structFParticle.html">FParticle</a> * &gt; FSparseHighDetailMap::GetParticlesInBox </td>
+          <td>(</td>
+          <td class="paramtype">const FOrientedBox &amp;&#160;</td>
+          <td class="paramname"><em>OBox</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00418">418</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00355">GetParticlesInTileRadius()</a>.</p>
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_abd647679f2d16e2bff0472bbb3136de2_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 
 </div>
 </div>
@@ -200,25 +469,75 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00201">201</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00329">329</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00143">FDenseTile::GetParticlesInRadius()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00355">GetParticlesInTileRadius()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00166">FDenseTile::ModifyDataFromString()</a>.</p>
-<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00355">GetParticlesInTileRadius()</a>, and <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00309">FDenseTile::UpdateLocalHeightmap()</a>.</p>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_adf51b5c24afaa4b7bc7a4b474b0a0659_cgraph.svg" width="408" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_adf51b5c24afaa4b7bc7a4b474b0a0659_cgraph.svg" width="634" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_adf51b5c24afaa4b7bc7a4b474b0a0659_icgraph.svg" width="438" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_adf51b5c24afaa4b7bc7a4b474b0a0659_icgraph.svg" width="483" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a44620b84b886b1339c3edc6747e24527"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44620b84b886b1339c3edc6747e24527">&#9670;&nbsp;</a></span>GetParticlesInTileRadius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="../../d9/dfd/structFParticle.html">FParticle</a> * &gt; FSparseHighDetailMap::GetParticlesInTileRadius </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d7a/structFDVector.html">FDVector</a>&#160;</td>
+          <td class="paramname"><em>Position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>Radius</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00355">355</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00418">GetParticlesInBox()</a>, and <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00329">GetParticlesInRadius()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00329">GetParticlesInRadius()</a>.</p>
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_a44620b84b886b1339c3edc6747e24527_cgraph.svg" width="416" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_a44620b84b886b1339c3edc6747e24527_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -250,7 +569,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00246">246</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00694">694</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
 </div>
 </div>
@@ -270,7 +589,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00240">240</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00688">688</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
 </div>
 </div>
@@ -290,7 +609,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00251">251</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00699">699</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
 </div>
 </div>
@@ -320,7 +639,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00213">213</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00658">658</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
 </div>
 </div>
@@ -358,9 +677,63 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00218">218</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00663">663</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d94/DVector_8h_source.html#l00013">FDVector::X</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00068">FHeightMapData::Tile0Position</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00013">FDVector::X</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>.</p>
+
+</div>
+</div>
+<a id="a72a619fb2ada11d585fbabb3ba4781ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72a619fb2ada11d585fbabb3ba4781ea">&#9670;&nbsp;</a></span>GetTileIdInCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;uint64_t&gt; FSparseHighDetailMap::GetTileIdInCache </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00179">179</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+
+</div>
+</div>
+<a id="a8a5ea53a5f14d09bf06e0788569243c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a5ea53a5f14d09bf06e0788569243c9">&#9670;&nbsp;</a></span>GetTileIdInMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;uint64_t&gt; FSparseHighDetailMap::GetTileIdInMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00170">170</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -380,7 +753,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00226">226</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00671">671</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
 </div>
 </div>
@@ -410,9 +783,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00233">233</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00678">678</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00030">FParticle::Position</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, and <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00068">FHeightMapData::Tile0Position</a>.</p>
 
 </div>
 </div>
@@ -439,14 +812,106 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00069">69</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00114">114</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00030">FParticle::Position</a>, and <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00031">FParticle::Radius</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>.</p>
 
 </div>
 </div>
-<a id="a6b6421587782aadcbe57fcf289c08804"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b6421587782aadcbe57fcf289c08804">&#9670;&nbsp;</a></span>InitializeMap()</h2>
+<a id="a1ce16fde0c9ae4961ca658b553595ce4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ce16fde0c9ae4961ca658b553595ce4">&#9670;&nbsp;</a></span>GetVectorTileId() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FIntVector FSparseHighDetailMap::GetVectorTileId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d7a/structFDVector.html">FDVector</a>&#160;</td>
+          <td class="paramname"><em>Position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00724">724</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00068">FHeightMapData::Tile0Position</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00013">FDVector::X</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>.</p>
+
+</div>
+</div>
+<a id="ada34c5b8c2420be69cd366aa7ff30844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada34c5b8c2420be69cd366aa7ff30844">&#9670;&nbsp;</a></span>GetVectorTileId() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FIntVector FSparseHighDetailMap::GetVectorTileId </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>TileId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00730">730</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aaa2a446ed7f49ebb089018744d063794"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa2a446ed7f49ebb089018744d063794">&#9670;&nbsp;</a></span>Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FSparseHighDetailMap::Init </td>
+          <td>(</td>
+          <td class="paramtype">uint32&#160;</td>
+          <td class="paramname"><em>NewTextureSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>NewAffectedRadius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>ParticleDiameter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>Depth</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00104">104</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+
+</div>
+</div>
+<a id="a499ed0f817cf5b258561f3eb204ada50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a499ed0f817cf5b258561f3eb204ada50">&#9670;&nbsp;</a></span>InitializeMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -454,8 +919,8 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void FSparseHighDetailMap::InitializeMap </td>
           <td>(</td>
-          <td class="paramtype">UTexture2D *&#160;</td>
-          <td class="paramname"><em>HeightMapTexture</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d6/d77/classUHeightMapDataAsset.html">UHeightMapDataAsset</a> *&#160;</td>
+          <td class="paramname"><em>DataAsset</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -473,7 +938,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>Size</em> = <code>1.f</code>&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>ScaleZ</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -483,19 +954,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00278">278</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00773">773</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/d94/DVector_8h_source.html#l00013">FDVector::X</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00015">FDVector::Z</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00400">SaveMap()</a>.</p>
-<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_a6b6421587782aadcbe57fcf289c08804_icgraph.svg" width="398" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
+<p class="reference">References <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00068">FHeightMapData::Tile0Position</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00013">FDVector::X</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00015">FDVector::Z</a>.</p>
 
 </div>
 </div>
@@ -525,7 +986,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00261">261</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00737">737</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
 </div>
 </div>
@@ -545,63 +1006,74 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00267">267</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00743">743</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00102">FDenseTile::InitializeTile()</a>, <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00026">ParticleDiameter</a>, and <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00027">TerrainDepth</a>.</p>
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00172">FDenseTile::InitializeTile()</a>.</p>
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_a37aed2e1e0b34af20c824e5d35f3c05d_cgraph.svg" width="599" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_a37aed2e1e0b34af20c824e5d35f3c05d_cgraph.svg" width="663" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a1ca152051cc8fa0b249403722b2528c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ca152051cc8fa0b249403722b2528c2">&#9670;&nbsp;</a></span>LoadTilesAtPosition()</h2>
+<a id="a3d5492cf56ebf32aac1c304c36384784"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d5492cf56ebf32aac1c304c36384784">&#9670;&nbsp;</a></span>InitializeRegionInCache()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void FSparseHighDetailMap::LoadTilesAtPosition </td>
+          <td class="memname"><a class="el" href="../../d3/de5/structFDenseTile.html">FDenseTile</a> &amp; FSparseHighDetailMap::InitializeRegionInCache </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d7a/structFDVector.html">FDVector</a>&#160;</td>
-          <td class="paramname"><em>Position</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>TileId</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>RadiusX</em> = <code>100.0f</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>RadiusY</em> = <code>100.0f</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00299">299</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00757">757</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/d6b/EpisodeProxy_8cpp_source.html#l00018">carla::client::detail::Load()</a>, <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00037">WriteFVector()</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00013">FDVector::X</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>.</p>
-<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00172">FDenseTile::InitializeTile()</a>.</p>
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_a1ca152051cc8fa0b249403722b2528c2_cgraph.svg" width="590" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_a3d5492cf56ebf32aac1c304c36384784_cgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
+
+</div>
+</div>
+<a id="ac31cb89c7945c185a79cf91042affd3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac31cb89c7945c185a79cf91042affd3b">&#9670;&nbsp;</a></span>LockMutex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FSparseHighDetailMap::LockMutex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00160">160</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -620,17 +1092,44 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00400">400</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00984">984</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00036">carla::client::detail::Get()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00100">UCarlaStatics::GetLargeMapManager()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00437">ALargeMapManager::GetNumTilesInXY()</a>, <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00278">InitializeMap()</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00030">FParticle::Position</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00031">FParticle::Radius</a>, <a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>, <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00037">WriteFVector()</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00013">FDVector::X</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00015">FDVector::Z</a>.</p>
-<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00050">carla::learning::WheelOutput::_particle_forces</a>, <a class="el" href="../../d4/dbd/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehicleControl_8h_source.html#l00023">FVehicleControl::Brake</a>, <a class="el" href="../../d4/dbd/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehicleControl_8h_source.html#l00029">FVehicleControl::bReverse</a>, <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00063">CMToM</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00036">carla::client::detail::Get()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00100">UCarlaStatics::GetLargeMapManager()</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00093">ACarlaWheeledVehicle::GetVehicleControl()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00932">ACarlaWheeledVehicle::GetVelocity()</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00043">UHeightMapDataAsset::HeightValues</a>, <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00062">MToCM</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00047">FCarlaMapTile::Name</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00089">FDenseTile::ParticlesHeightMap</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00090">FDenseTile::ParticlesZOrdered</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00048">FParticle::Position</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00073">SIToUEFrame()</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00039">UHeightMapDataAsset::SizeX</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00041">UHeightMapDataAsset::SizeY</a>, <a class="el" href="../../db/d20/pugixml_8cpp_source.html#l07444">sort()</a>, <a class="el" href="../../d4/dbd/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehicleControl_8h_source.html#l00020">FVehicleControl::Steer</a>, <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html#l00027">carla::learning::test_learning()</a>, <a class="el" href="../../d4/dbd/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehicleControl_8h_source.html#l00017">FVehicleControl::Throttle</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00091">FDenseTile::TilePosition</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00052">FDVector::ToString()</a>, <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00083">UEFrameToSI()</a>, <a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00049">FParticle::Velocity</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00054">carla::learning::Outputs::wheel0</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00055">carla::learning::Outputs::wheel1</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00056">carla::learning::Outputs::wheel2</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00057">carla::learning::Outputs::wheel3</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00044">carla::learning::WheelOutput::wheel_forces_x</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00045">carla::learning::WheelOutput::wheel_forces_y</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00046">carla::learning::WheelOutput::wheel_forces_z</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00047">carla::learning::WheelOutput::wheel_torque_x</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00048">carla::learning::WheelOutput::wheel_torque_y</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00049">carla::learning::WheelOutput::wheel_torque_z</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00061">FHeightMapData::WorldSize</a>, <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00037">WriteFVector()</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00013">FDVector::X</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00015">FDVector::Z</a>.</p>
+<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_ab3e6409f38a8bf32fdc7462a0501dd0f_cgraph.svg" width="100%" height="543"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_ab3e6409f38a8bf32fdc7462a0501dd0f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
+
+</div>
+</div>
+<a id="ad102978ba1ed3078b2558708c825dc21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad102978ba1ed3078b2558708c825dc21">&#9670;&nbsp;</a></span>UnLockMutex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FSparseHighDetailMap::UnLockMutex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00165">165</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -666,11 +1165,182 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00369">369</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00943">943</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ae90950e02e0e8423f20f4defce14bf0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae90950e02e0e8423f20f4defce14bf0e">&#9670;&nbsp;</a></span>UpdateHeightMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FSparseHighDetailMap::UpdateHeightMap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d77/classUHeightMapDataAsset.html">UHeightMapDataAsset</a> *&#160;</td>
+          <td class="paramname"><em>DataAsset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d7a/structFDVector.html">FDVector</a>&#160;</td>
+          <td class="paramname"><em>Origin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d7a/structFDVector.html">FDVector</a>&#160;</td>
+          <td class="paramname"><em>MapSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>ScaleZ</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00790">790</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a80247532773c7aa2e1ebaab39d105a1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80247532773c7aa2e1ebaab39d105a1c">&#9670;&nbsp;</a></span>UpdateMaps()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FSparseHighDetailMap::UpdateMaps </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d7a/structFDVector.html">FDVector</a>&#160;</td>
+          <td class="paramname"><em>Position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>RadiusX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>RadiusY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>CacheRadiusX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>CacheRadiusY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00807">807</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00037">WriteFVector()</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00013">FDVector::X</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>.</p>
+<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_a80247532773c7aa2e1ebaab39d105a1c_cgraph.svg" width="332" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="aa6f7ba6689feedef44d6abfcf441dd25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6f7ba6689feedef44d6abfcf441dd25">&#9670;&nbsp;</a></span>FTilesWorker</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend struct <a class="el" href="../../d6/dab/structFTilesWorker.html">FTilesWorker</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00099">99</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="af1ef9b6028afcd5293f55dfed93b076b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1ef9b6028afcd5293f55dfed93b076b">&#9670;&nbsp;</a></span>AffectedRadius</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FSparseHighDetailMap::AffectedRadius = 0.0f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00201">201</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+
+</div>
+</div>
+<a id="a9e9a4f17012eb1ca0388906ba95cfb4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e9a4f17012eb1ca0388906ba95cfb4e">&#9670;&nbsp;</a></span>CacheMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;uint64_t, <a class="el" href="../../d3/de5/structFDenseTile.html">FDenseTile</a>&gt; FSparseHighDetailMap::CacheMap</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00190">190</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+
+</div>
+</div>
 <a id="ac7698789283f2f3271948899997dc354"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac7698789283f2f3271948899997dc354">&#9670;&nbsp;</a></span>Extension</h2>
 
@@ -691,7 +1361,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00104">104</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00195">195</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -715,7 +1385,55 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00106">106</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00197">197</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+
+</div>
+</div>
+<a id="a4666c2dd4cd5f4360c9ef468a1a08721"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4666c2dd4cd5f4360c9ef468a1a08721">&#9670;&nbsp;</a></span>Lock_CacheMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FCriticalSection FSparseHighDetailMap::Lock_CacheMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00204">204</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+
+</div>
+</div>
+<a id="a1cd372d068f180ac6cd19d2ba150b7e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cd372d068f180ac6cd19d2ba150b7e0">&#9670;&nbsp;</a></span>Lock_GetTile</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FCriticalSection FSparseHighDetailMap::Lock_GetTile</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00205">205</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -739,7 +1457,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00108">108</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00203">203</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -763,7 +1481,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00109">109</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00206">206</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -772,12 +1490,28 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;uint64_t, <a class="el" href="../../d3/de5/structFDenseTile.html">FDenseTile</a>&gt; FSparseHighDetailMap::Map</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00189">189</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+
+</div>
+</div>
+<a id="a5051d2c650f5ba1c7ac3c7c8536f9ba8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5051d2c650f5ba1c7ac3c7c8536f9ba8">&#9670;&nbsp;</a></span>ParticleSize</h2>
+
+<div class="memitem">
+<div class="memproto">
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_map&lt;uint64_t, <a class="el" href="../../d3/de5/structFDenseTile.html">FDenseTile</a>&gt; FSparseHighDetailMap::Map</td>
+          <td class="memname">float FSparseHighDetailMap::ParticleSize = 0.02f</td>
         </tr>
       </table>
   </td>
@@ -787,7 +1521,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00101">101</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00198">198</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -811,7 +1545,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00107">107</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00202">202</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -827,7 +1561,55 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00099">99</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00191">191</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+
+</div>
+</div>
+<a id="a2c9760b94be2f96cdd35783ac6a12b13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c9760b94be2f96cdd35783ac6a12b13">&#9670;&nbsp;</a></span>TerrainDepth</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float FSparseHighDetailMap::TerrainDepth = 0.4f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00199">199</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+
+</div>
+</div>
+<a id="a8053533a424f76d1554d65b2056a50a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8053533a424f76d1554d65b2056a50a0">&#9670;&nbsp;</a></span>TextureSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32 FSparseHighDetailMap::TextureSize = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00200">200</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -851,7 +1633,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00103">103</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00194">194</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -875,7 +1657,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00105">105</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00196">196</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -899,7 +1681,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00102">102</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00193">193</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>

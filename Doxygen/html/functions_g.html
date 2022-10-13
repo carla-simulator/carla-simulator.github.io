@@ -188,9 +188,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="db/de5/classACarlaGameModeBase.html#aa1b4691b3d5a6a348349f281eba8dd18">ACarlaGameModeBase</a>
 , <a class="el" href="d1/db0/classAOpenDriveGenerator.html#aee04fefe736484cf24f7df698cb8dfd3">AOpenDriveGenerator</a>
 </li>
-<li>GenerateTileDataInternals()
-: <a class="el" href="dd/dfc/classAVegetationManager.html#a0cacdabd81359e49b1986b9c12967119">AVegetationManager</a>
-</li>
 <li>GenerateTileName()
 : <a class="el" href="d9/d4b/classALargeMapManager.html#a5266ce2b7008e8a43397b9ad26d9aa9e">ALargeMapManager</a>
 </li>
@@ -483,6 +480,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>GetAllMapNames()
 : <a class="el" href="d7/d1e/classUCarlaStatics.html#aca8f5a5c03b3290bbfd6c9d5fc19e78f">UCarlaStatics</a>
 </li>
+<li>GetAllParticles()
+: <a class="el" href="d3/de5/structFDenseTile.html#a6786afda1bd1c7ad9ba7f2ff50165bc0">FDenseTile</a>
+</li>
 <li>GetAllSignalReferences()
 : <a class="el" href="d0/d34/classcarla_1_1road_1_1Map.html#adf12dcdebb92196aca2c8e08a0251f62">carla::road::Map</a>
 </li>
@@ -640,14 +640,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>GetCarlaMovementComponent()
 : <a class="el" href="d5/d70/classACarlaWheeledVehicle.html#a3ed1f4c6e922374777827515c3335606">ACarlaWheeledVehicle</a>
 </li>
-<li>GetCarlaSettings()
-: <a class="el" href="da/d55/classUCarlaGameInstance.html#ad7a39ecc45a00261b77b8d11c8ab6e57">UCarlaGameInstance</a>
-</li>
 <li>GetCARLASettings()
 : <a class="el" href="da/d55/classUCarlaGameInstance.html#a6a426dc6d5e7c878eaad2d9a67e0fd0c">UCarlaGameInstance</a>
 </li>
 <li>GetCarlaSettings()
-: <a class="el" href="d7/d1e/classUCarlaStatics.html#a44a8548d0a8facfa8fe776c082ce85dc">UCarlaStatics</a>
+: <a class="el" href="da/d55/classUCarlaGameInstance.html#ad7a39ecc45a00261b77b8d11c8ab6e57">UCarlaGameInstance</a>
+, <a class="el" href="d7/d1e/classUCarlaStatics.html#a44a8548d0a8facfa8fe776c082ce85dc">UCarlaStatics</a>
 </li>
 <li>GetChannelCount()
 : <a class="el" href="df/d8d/classcarla_1_1sensor_1_1data_1_1LidarMeasurement.html#a1fb1199206f56c0c0a0930a430062a42">carla::sensor::data::LidarMeasurement</a>
@@ -1172,6 +1170,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="df/dc1/classcarla_1_1sensor_1_1data_1_1DVSEventArray.html#aabe2886c6aa8e629f4f41e312099791b">carla::sensor::data::DVSEventArray</a>
 , <a class="el" href="df/d55/classcarla_1_1sensor_1_1data_1_1ImageTmpl.html#a9862785df08e15410044833f9b5e9d1e">carla::sensor::data::ImageTmpl&lt; PixelT &gt;</a>
 , <a class="el" href="d7/d20/structFHeightMapData.html#a8f577c9a56dd60674dbdaf31abbebb8f">FHeightMapData</a>
+, <a class="el" href="d1/d85/classFSparseHighDetailMap.html#a26ca2010ed4e5b29d795af2e6193393a">FSparseHighDetailMap</a>
 , <a class="el" href="d5/db2/classURoadMap.html#aa0d3000af01cde25fde6ba931a54f0c5">URoadMap</a>
 </li>
 <li>GetHeroLocation()
@@ -1271,6 +1270,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>GetIntensity()
 : <a class="el" href="de/d11/classcarla_1_1client_1_1Light.html#a920d1fa2aa90e30385b7281eeb9de088">carla::client::Light</a>
 , <a class="el" href="d8/d26/classcarla_1_1client_1_1LightManager.html#ac9466feea610e5002314b68ad81e3ef9">carla::client::LightManager</a>
+</li>
+<li>GetIntersectingTiles()
+: <a class="el" href="d1/d85/classFSparseHighDetailMap.html#a7362aea3e00daecc0dcba55c860e81f6">FSparseHighDetailMap</a>
 </li>
 <li>GetIntersections()
 : <a class="el" href="d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#a8d3ea558e5b884db8f870b32f0593f6b">carla::geom::SegmentCloudRtree&lt; T, Dimension &gt;</a>
@@ -1454,7 +1456,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>GetLightGroup()
 : <a class="el" href="de/d11/classcarla_1_1client_1_1Light.html#a1cc7fbb44f93761dc7d973f39ca457eb">carla::client::Light</a>
-, <a class="el" href="d8/d26/classcarla_1_1client_1_1LightManager.html#ac8f16cdd4b178a44bb7afbb36cdcd74a">carla::client::LightManager</a>
+, <a class="el" href="d8/d26/classcarla_1_1client_1_1LightManager.html#a5f2e86deada152a33f9cdd811c2d5fc7">carla::client::LightManager</a>
 </li>
 <li>GetLightManager()
 : <a class="el" href="df/df3/classcarla_1_1client_1_1detail_1_1Simulator.html#a8b9471020f25dcaf90708897ee9081a0">carla::client::detail::Simulator</a>
@@ -1466,7 +1468,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>GetLightState()
 : <a class="el" href="de/d11/classcarla_1_1client_1_1Light.html#a3c19d91fd02b142c65974528f83438a0">carla::client::Light</a>
-, <a class="el" href="d8/d26/classcarla_1_1client_1_1LightManager.html#a60b2a14a3c2ec9050d8cede194acfc9f">carla::client::LightManager</a>
+, <a class="el" href="d8/d26/classcarla_1_1client_1_1LightManager.html#afd30ba3e05c8ebeece437e88e6d02eec">carla::client::LightManager</a>
 , <a class="el" href="d9/dc6/classcarla_1_1client_1_1Vehicle.html#a4908572e3627dd37ad25b1ce75a36033">carla::client::Vehicle</a>
 </li>
 <li>GetLightStateAsValue()
@@ -1489,6 +1491,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>GetLMManager()
 : <a class="el" href="db/de5/classACarlaGameModeBase.html#a2e9488174537325bee694aed153d6001">ACarlaGameModeBase</a>
+</li>
+<li>GetLoadedTilesInRange()
+: <a class="el" href="d1/d85/classFSparseHighDetailMap.html#a8b05806227f0ef8cc1ea535359023ee9">FSparseHighDetailMap</a>
 </li>
 <li>GetLocalEndpoint()
 : <a class="el" href="d8/d50/classcarla_1_1multigpu_1_1Listener.html#a52e54d3a1a20e6aa21810f37c99d4daa">carla::multigpu::Listener</a>
@@ -1652,7 +1657,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#ae51c12470eeae66d51712610ea806399">MapGen::DoublyConnectedEdgeList</a>
 </li>
 <li>GetNextInNode()
-: <a class="el" href="d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#a469fe4952e0e5dfe53cf176cb83a681f">MapGen::DoublyConnectedEdgeList</a>
+: <a class="el" href="d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#ab4082dd9cdb65e6f180587361b51b127">MapGen::DoublyConnectedEdgeList</a>
 </li>
 <li>GetNextLane()
 : <a class="el" href="dd/de6/classcarla_1_1road_1_1Road.html#a7e9150dc29a3ab8b9a529ffb11205980">carla::road::Road</a>
@@ -1726,11 +1731,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>GetOuter()
 : <a class="el" href="d3/dcb/classcarla_1_1road_1_1element_1_1RoadInfoLaneHeight.html#aaf7c25fe40db36f572748589c131fd14">carla::road::element::RoadInfoLaneHeight</a>
 </li>
+<li>GetOutputs()
+: <a class="el" href="da/d9e/classcarla_1_1learning_1_1NeuralModel.html#a368dc2c8e3d228d1e337d8a75fa21fda">carla::learning::NeuralModel</a>
+</li>
 <li>GetOverlappingVehicles()
 : <a class="el" href="d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#a856482783656c84dc63362a947b91216">carla::traffic_manager::TrackTraffic</a>
 </li>
 <li>GetPair()
-: <a class="el" href="d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#a29533f7614eff6e0266d89168d600b7c">MapGen::DoublyConnectedEdgeList</a>
+: <a class="el" href="d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#a075762d510b454676cb0453ea1e47cc6">MapGen::DoublyConnectedEdgeList</a>
 </li>
 <li>GetParent()
 : <a class="el" href="d2/d06/classcarla_1_1client_1_1detail_1_1ActorState.html#a77b201455dd52b51bb3b1834ccf87ccc">carla::client::detail::ActorState</a>
@@ -1740,9 +1748,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="d2/d06/classcarla_1_1client_1_1detail_1_1ActorState.html#a9fe70b2cf57871b48fbdaaa2d5943902">carla::client::detail::ActorState</a>
 , <a class="el" href="d4/dad/classcarla_1_1client_1_1detail_1_1ActorVariant.html#aaa57b84fe92d36fdddf7af5bb989e7d4">carla::client::detail::ActorVariant</a>
 </li>
+<li>GetParticlesHeightMapInTileRadius()
+: <a class="el" href="d1/d85/classFSparseHighDetailMap.html#aec1c4cbeef5ba288f5bf93c063e160ed">FSparseHighDetailMap</a>
+</li>
+<li>GetParticlesInBox()
+: <a class="el" href="d3/de5/structFDenseTile.html#a9fe1917ec8bef5760ee3de62a0b9d7a9">FDenseTile</a>
+, <a class="el" href="d1/d85/classFSparseHighDetailMap.html#abd647679f2d16e2bff0472bbb3136de2">FSparseHighDetailMap</a>
+</li>
 <li>GetParticlesInRadius()
 : <a class="el" href="d3/de5/structFDenseTile.html#adad88529f786b565f6d88924975d809a">FDenseTile</a>
 , <a class="el" href="d1/d85/classFSparseHighDetailMap.html#adf51b5c24afaa4b7bc7a4b474b0a0659">FSparseHighDetailMap</a>
+</li>
+<li>GetParticlesInTileRadius()
+: <a class="el" href="d1/d85/classFSparseHighDetailMap.html#a44620b84b886b1339c3edc6747e24527">FSparseHighDetailMap</a>
 </li>
 <li>GetPassingVehicles()
 : <a class="el" href="d2/d36/classcarla_1_1traffic__manager_1_1TrackTraffic.html#a648d59044693f79c5d4cf00de5b30423">carla::traffic_manager::TrackTraffic</a>
@@ -1818,7 +1836,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="da/df1/classCarlaRecorderPositions.html#a6215095cf77175f8d0fae189c13b49b8">CarlaRecorderPositions</a>
 </li>
 <li>GetPossessedVehicle()
-: <a class="el" href="dd/dea/classAWheeledVehicleAIController.html#ae5fd7ea8f13f2cb139d3d4b1fa1d0885">AWheeledVehicleAIController</a>
+: <a class="el" href="dd/dea/classAWheeledVehicleAIController.html#a432136ce7e53731d506431dd54c60736">AWheeledVehicleAIController</a>
 </li>
 <li>GetPredecessor()
 : <a class="el" href="df/d85/classcarla_1_1road_1_1Lane.html#a80044b7e6e4d0412983b1a1208ff14a2">carla::road::Lane</a>
@@ -1976,7 +1994,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="dc/d04/classcarla_1_1traffic__manager_1_1SimpleWaypoint.html#aee65526bfddd33a798ce4bc8c7081c87">carla::traffic_manager::SimpleWaypoint</a>
 </li>
 <li>GetRoads()
-: <a class="el" href="da/d3b/classcarla_1_1road_1_1MapData.html#a28e6d630e6acb9466afe06b60407daf6">carla::road::MapData</a>
+: <a class="el" href="da/d3b/classcarla_1_1road_1_1MapData.html#a55f640e9a3f5930e5d1d8fd4e07f1e9e">carla::road::MapData</a>
 </li>
 <li>GetRoadSegmentAt()
 : <a class="el" href="d0/d95/classMapGen_1_1GraphParser.html#afd82c1a547902c5024219bd90d1c1716">MapGen::GraphParser</a>
@@ -2024,7 +2042,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="d3/d01/classASensor.html#acdbaddd5ab8f8a618715e3fdff3a50bb">ASensor</a>
 </li>
 <li>GetSegmentId()
-: <a class="el" href="da/d07/classcarla_1_1traffic__manager_1_1InMemoryMap.html#a63c19485bf29b92fdf0c4bd5dbcd266d">carla::traffic_manager::InMemoryMap</a>
+: <a class="el" href="da/d07/classcarla_1_1traffic__manager_1_1InMemoryMap.html#a56fde92ae7e3c60619e53c0de33f9f61">carla::traffic_manager::InMemoryMap</a>
 </li>
 <li>GetSemanticTags()
 : <a class="el" href="d2/d06/classcarla_1_1client_1_1detail_1_1ActorState.html#a31c06f37280e00f4529461c40528d567">carla::client::detail::ActorState</a>
@@ -2114,11 +2132,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>GetSkeletalMeshBoundingBox()
 : <a class="el" href="df/d02/classUBoundingBoxCalculator.html#ac9bad7655f552b0f47ee7a59237fcf8a">UBoundingBoxCalculator</a>
 </li>
+<li>GetSketalTemplates()
+: <a class="el" href="dd/dfc/classAVegetationManager.html#a4df9b359890d0fc88c2e17a3810e3e81">AVegetationManager</a>
+</li>
 <li>GetSnapshot()
 : <a class="el" href="db/d1f/classcarla_1_1client_1_1World.html#a259343e4a40aba854336762e415a4397">carla::client::World</a>
 </li>
 <li>GetSource()
-: <a class="el" href="d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#afe754dbc5ffdfb28fc20111f96d64970">MapGen::DoublyConnectedEdgeList</a>
+: <a class="el" href="d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#a596c5fe9abb207b64b886c513178aa54">MapGen::DoublyConnectedEdgeList</a>
 </li>
 <li>GetSpace()
 : <a class="el" href="da/da9/classcarla_1_1road_1_1element_1_1RoadInfoMarkTypeLine.html#ac07d884c4b2a7182ee1a0563524d0dce">carla::road::element::RoadInfoMarkTypeLine</a>
@@ -2241,7 +2262,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="d4/dea/structmoodycamel_1_1ConcurrentQueue_1_1ProducerBase.html#a2fb46a566294d742ba1b4baa584a71f9">moodycamel::ConcurrentQueue&lt; T, Traits &gt;::ProducerBase</a>
 </li>
 <li>GetTarget()
-: <a class="el" href="d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#a6b63a568984ed2935427ca195d32a65a">MapGen::DoublyConnectedEdgeList</a>
+: <a class="el" href="d3/d57/classMapGen_1_1DoublyConnectedEdgeList.html#ad942f32fb6e2b56140c178a4ea16baa1">MapGen::DoublyConnectedEdgeList</a>
 </li>
 <li>GetTargetGamma()
 : <a class="el" href="d4/d60/classASceneCaptureSensor.html#a09ff58a5f6c9098fb43b32487d6592a2">ASceneCaptureSensor</a>
@@ -2254,7 +2275,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="dd/df9/classcarla_1_1traffic__manager_1_1MotionPlanStage.html#a5b112c3ea6bd4f8536fbb849e2de9681">carla::traffic_manager::MotionPlanStage</a>
 </li>
 <li>GetTile()
-: <a class="el" href="d1/d85/classFSparseHighDetailMap.html#a28de33ae9b8ec42f29664f1e1192e4d5">FSparseHighDetailMap</a>
+: <a class="el" href="d1/d85/classFSparseHighDetailMap.html#a55fff787593b730e02012ef56ef2a39d">FSparseHighDetailMap</a>
 </li>
 <li>GetTileID()
 : <a class="el" href="d9/d4b/classALargeMapManager.html#a719578eff1513ef2ab1993349ea6db52">ALargeMapManager</a>
@@ -2262,9 +2283,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>GetTileId()
 : <a class="el" href="d1/d85/classFSparseHighDetailMap.html#af814d46a438028c620708e7bd68667b0">FSparseHighDetailMap</a>
 </li>
+<li>GetTileIdInCache()
+: <a class="el" href="d1/d85/classFSparseHighDetailMap.html#a72a619fb2ada11d585fbabb3ba4781ea">FSparseHighDetailMap</a>
+</li>
+<li>GetTileIdInMap()
+: <a class="el" href="d1/d85/classFSparseHighDetailMap.html#a8a5ea53a5f14d09bf06e0788569243c9">FSparseHighDetailMap</a>
+</li>
 <li>GetTileLocation()
 : <a class="el" href="da/d1a/classACityMapMeshHolder.html#a1a08875ed449d96a289b144d4d551479">ACityMapMeshHolder</a>
-, <a class="el" href="d9/d4b/classALargeMapManager.html#abafa68f43a194e756c22a34bac95a84f">ALargeMapManager</a>
+, <a class="el" href="d9/d4b/classALargeMapManager.html#aa8ad5fc63d9f7b820de52ae0a3b6c7bd">ALargeMapManager</a>
 </li>
 <li>GetTileLocationD()
 : <a class="el" href="d9/d4b/classALargeMapManager.html#aa3408da52ca9afd199e0ba13aa2343db">ALargeMapManager</a>
@@ -2487,6 +2514,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>GetVectorAngle()
 : <a class="el" href="d0/dea/classcarla_1_1geom_1_1Math.html#a6553b235b169efa70b899d41f3b568ba">carla::geom::Math</a>
 </li>
+<li>GetVectorTileId()
+: <a class="el" href="d1/d85/classFSparseHighDetailMap.html#a1ce16fde0c9ae4961ca658b553595ce4">FSparseHighDetailMap</a>
+</li>
 <li>GetVehicleAckermannControl()
 : <a class="el" href="d5/d70/classACarlaWheeledVehicle.html#af214919382e980b37df4ae7b0e3da169">ACarlaWheeledVehicle</a>
 , <a class="el" href="dc/dde/classFCarlaActor.html#a3bbb24965a0896558b930c07c341e654">FCarlaActor</a>
@@ -2631,6 +2661,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="d9/dc6/classcarla_1_1client_1_1Vehicle.html#a2c10fb5ff92e6226bd029d9ef64c4531">carla::client::Vehicle</a>
 , <a class="el" href="dc/dde/classFCarlaActor.html#a52b0f2633d8a326171601f8a2dddb157">FCarlaActor</a>
 , <a class="el" href="d7/d01/classFVehicleActor.html#a72214e86f7bf5b1c0d166da9da8bbb23">FVehicleActor</a>
+</li>
+<li>GetWheelTensorInputsCUDA()
+: <a class="el" href="d3/d13/structcarla_1_1learning_1_1NeuralModelImpl.html#aee52202ce64752ae3513334fa5b4d4fd">carla::learning::NeuralModelImpl</a>
 </li>
 <li>GetWhiteTemp()
 : <a class="el" href="d4/d60/classASceneCaptureSensor.html#ab180d222547e3bc2ce29e8d8280b95fe">ASceneCaptureSensor</a>

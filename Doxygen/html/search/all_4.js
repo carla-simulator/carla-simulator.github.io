@@ -48,6 +48,7 @@ var searchData=
   ['debughelper',['DebugHelper',['../d1/d64/classcarla_1_1client_1_1DebugHelper.html',1,'carla::client::DebugHelper'],['../d1/d64/classcarla_1_1client_1_1DebugHelper.html#aef900143ce82fffe8de9fe69b700f810',1,'carla::client::DebugHelper::DebugHelper()']]],
   ['debughelper_2ecpp',['DebugHelper.cpp',['../d2/d01/DebugHelper_8cpp.html',1,'']]],
   ['debughelper_2eh',['DebugHelper.h',['../d1/dbe/DebugHelper_8h.html',1,'']]],
+  ['debugmaterials',['DebugMaterials',['../dd/dfc/classAVegetationManager.html#ad17f47da2ce84cb41f10564cd8eaf230',1,'AVegetationManager']]],
   ['debugroutes',['DebugRoutes',['../d0/d2d/classAOpenDriveActor.html#aaf6dace10f1498646ad2dd0eaa0072ee',1,'AOpenDriveActor']]],
   ['debugshape',['DebugShape',['../d1/d38/classcarla_1_1rpc_1_1DebugShape.html',1,'carla::rpc']]],
   ['debugshape_2eh',['DebugShape.h',['../dd/dd3/DebugShape_8h.html',1,'']]],

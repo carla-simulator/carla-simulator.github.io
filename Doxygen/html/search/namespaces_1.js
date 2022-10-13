@@ -16,6 +16,7 @@ var searchData=
   ['io',['io',['../de/d8b/namespacecarla_1_1image_1_1io.html',1,'carla::image']]],
   ['iterator',['iterator',['../de/d22/namespacecarla_1_1iterator.html',1,'carla']]],
   ['lanechange',['LaneChange',['../df/d07/namespacecarla_1_1traffic__manager_1_1constants_1_1LaneChange.html',1,'carla::traffic_manager::constants']]],
+  ['learning',['learning',['../d2/de8/namespacecarla_1_1learning.html',1,'carla']]],
   ['logging',['logging',['../d2/d8c/namespacecarla_1_1logging.html',1,'carla']]],
   ['low_5flevel',['low_level',['../da/d3f/namespacecarla_1_1streaming_1_1low__level.html',1,'carla::streaming']]],
   ['map',['Map',['../d7/d7d/namespacecarla_1_1traffic__manager_1_1constants_1_1Map.html',1,'carla::traffic_manager::constants']]],

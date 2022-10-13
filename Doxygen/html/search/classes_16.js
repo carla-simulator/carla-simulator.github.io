@@ -20,6 +20,8 @@ var searchData=
   ['wchar_5fselector_3c_202_20_3e',['wchar_selector&lt; 2 &gt;',['../dc/d20/structwchar__selector_3_012_01_4.html',1,'']]],
   ['wchar_5fselector_3c_204_20_3e',['wchar_selector&lt; 4 &gt;',['../de/d17/structwchar__selector_3_014_01_4.html',1,'']]],
   ['weatherparameters',['WeatherParameters',['../db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html',1,'carla::rpc']]],
+  ['wheelinput',['WheelInput',['../db/d80/structcarla_1_1learning_1_1WheelInput.html',1,'carla::learning']]],
+  ['wheeloutput',['WheelOutput',['../de/dec/structcarla_1_1learning_1_1WheelOutput.html',1,'carla::learning']]],
   ['wheelphysicscontrol',['WheelPhysicsControl',['../d5/d9b/classcarla_1_1rpc_1_1WheelPhysicsControl.html',1,'carla::rpc']]],
   ['world',['World',['../db/d1f/classcarla_1_1client_1_1World.html',1,'carla::client']]],
   ['worldsnapshot',['WorldSnapshot',['../d4/dc6/classcarla_1_1client_1_1WorldSnapshot.html',1,'carla::client']]]

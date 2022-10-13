@@ -46,6 +46,7 @@ var searchData=
   ['additional_5fwidth',['additional_width',['../d6/d2e/structcarla_1_1rpc_1_1OpendriveGenerationParameters.html#aee294748ebed96d98244fb53ca977553',1,'carla::rpc::OpendriveGenerationParameters']]],
   ['address',['address',['../d9/da8/structcarla_1_1streaming_1_1detail_1_1token__data.html#a33dd06051a75af01127084e053319d8c',1,'carla::streaming::detail::token_data']]],
   ['address_5ftype',['address_type',['../d9/da8/structcarla_1_1streaming_1_1detail_1_1token__data.html#a808ffb04ef7b617db2a4e4f3b367a21d',1,'carla::streaming::detail::token_data']]],
+  ['affectedradius',['AffectedRadius',['../d1/d85/classFSparseHighDetailMap.html#af1ef9b6028afcd5293f55dfed93b076b',1,'FSparseHighDetailMap']]],
   ['after_5fjunction_5fmin_5fspeed',['AFTER_JUNCTION_MIN_SPEED',['../df/dfa/namespacecarla_1_1traffic__manager_1_1constants_1_1SpeedThreshold.html#a36f8390a4126249f9736934dc4a680cf',1,'carla::traffic_manager::constants::SpeedThreshold']]],
   ['age',['Age',['../d9/db1/structFPedestrianParameters.html#a6855c5275789ec30b7ac7b881dc7126e',1,'FPedestrianParameters']]],
   ['agent_5fheight',['AGENT_HEIGHT',['../db/dcc/namespacecarla_1_1nav.html#a7a805cccf1a0ee1589fe361a06593cf4',1,'carla::nav']]],
