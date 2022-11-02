@@ -18,6 +18,7 @@ var searchData=
   ['initgame',['InitGame',['../db/de5/classACarlaGameModeBase.html#a5caddc59713354578997de90542ddd93',1,'ACarlaGameModeBase']]],
   ['initialize',['Initialize',['../db/df0/classUCarlaLightSubsystem.html#a2b8e0d97ec34f7fb6653559358c88b6b',1,'UCarlaLightSubsystem']]],
   ['initializeatbeginplay',['InitializeAtBeginPlay',['../dc/d84/classUCarlaEpisode.html#aa93ee8963c92ced93541166de457f5ff',1,'UCarlaEpisode']]],
+  ['initializedatastructure',['InitializeDataStructure',['../d3/de5/structFDenseTile.html#aa16b5b05d6d9cae7726853ff1b1bb578',1,'FDenseTile']]],
   ['initializeheightmap',['InitializeHeightmap',['../d7/d20/structFHeightMapData.html#aa56d07bc1037237ad98758600f868b96',1,'FHeightMapData']]],
   ['initializemap',['InitializeMap',['../d1/d85/classFSparseHighDetailMap.html#a499ed0f817cf5b258561f3eb204ada50',1,'FSparseHighDetailMap']]],
   ['initializeregion',['InitializeRegion',['../d1/d85/classFSparseHighDetailMap.html#a43302870a8cbb24504279e9af61d9440',1,'FSparseHighDetailMap::InitializeRegion(uint32_t Tile_X, uint32_t Tile_Y)'],['../d1/d85/classFSparseHighDetailMap.html#a37aed2e1e0b34af20c824e5d35f3c05d',1,'FSparseHighDetailMap::InitializeRegion(uint64_t TileId)']]],

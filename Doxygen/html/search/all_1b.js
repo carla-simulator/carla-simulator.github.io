@@ -25,6 +25,7 @@ var searchData=
   ['_7efcarlaengine',['~FCarlaEngine',['../dc/d49/classFCarlaEngine.html#add44000ea543bcdfd020561c24054297',1,'FCarlaEngine']]],
   ['_7efcarlaserver',['~FCarlaServer',['../da/dd6/classFCarlaServer.html#a7ed2cf0f7170dbe5e10e4677a9af35e2',1,'FCarlaServer']]],
   ['_7efdensetile',['~FDenseTile',['../d3/de5/structFDenseTile.html#ac05d04b5d83a941723368cb83b4712bb',1,'FDenseTile']]],
+  ['_7eftiledata',['~FTileData',['../df/d8b/structFTileData.html#ac2dd5982e251095fd5824453393deb77',1,'FTileData']]],
   ['_7eftilesworker',['~FTilesWorker',['../d6/dab/structFTilesWorker.html#a13d85f1241c8910c6259d02c00544816',1,'FTilesWorker']]],
   ['_7egeometry',['~Geometry',['../d6/db0/classcarla_1_1road_1_1element_1_1Geometry.html#aaf46cfdd8513f4a5ca7d91e2377de967',1,'carla::road::element::Geometry']]],
   ['_7eimplicitproducer',['~ImplicitProducer',['../d4/d1f/structmoodycamel_1_1ConcurrentQueue_1_1ImplicitProducer.html#a5f1931c111a16e7e63446e3cb0277d35',1,'moodycamel::ConcurrentQueue::ImplicitProducer']]],

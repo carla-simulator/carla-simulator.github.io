@@ -16,6 +16,7 @@ var searchData=
   ['ackermanncontrol',['AckermannControl',['../da/df6/classFVehicleData.html#adbc73a551644e92a53c2a73e0dec704e',1,'FVehicleData']]],
   ['ackermanncontroller',['AckermannController',['../d5/d70/classACarlaWheeledVehicle.html#af2540916d2c11d2cb28063ddcebe2cf4',1,'ACarlaWheeledVehicle']]],
   ['ackermanncontrollersettings',['AckermannControllerSettings',['../da/df6/classFVehicleData.html#ade0131642683b6f6142740fc3199bea8',1,'FVehicleData']]],
+  ['activeactordistance',['ActiveActorDistance',['../dd/dfc/classAVegetationManager.html#a20558eb4e974b9b2e33d211930f3087b',1,'AVegetationManager']]],
   ['activeactors',['ActiveActors',['../d9/d4b/classALargeMapManager.html#a8aa4eb4f7b1555a8fecc876ce40deca6',1,'ALargeMapManager']]],
   ['activeblendables',['ActiveBlendables',['../de/d75/classAWeather.html#ae5dc05317b30c103c9651972d33cde8d',1,'AWeather']]],
   ['activestoremove',['ActivesToRemove',['../d9/d4b/classALargeMapManager.html#ad8acdd8e7ee0d0e80749f9f2c400a19f',1,'ALargeMapManager']]],

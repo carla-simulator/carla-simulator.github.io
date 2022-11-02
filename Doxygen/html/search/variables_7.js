@@ -8,6 +8,7 @@ var searchData=
   ['gearautoboxlatency',['GearAutoBoxLatency',['../db/da1/structFVehicleNWTransmissionData.html#abe4054c6ca37cf25257886c208de5504',1,'FVehicleNWTransmissionData']]],
   ['gearswitchtime',['GearSwitchTime',['../d1/dbe/structFVehiclePhysicsControl.html#afd378c0c3d734a2f1d930af4d5e8ba90',1,'FVehiclePhysicsControl::GearSwitchTime()'],['../db/da1/structFVehicleNWTransmissionData.html#a6b5ef510999369811c66884722607219',1,'FVehicleNWTransmissionData::GearSwitchTime()']]],
   ['gender',['Gender',['../d9/db1/structFPedestrianParameters.html#a977fba74a1443d198fe9ee86a649aba3',1,'FPedestrianParameters']]],
+  ['generalterrainproperties',['GeneralTerrainProperties',['../d1/da5/classASoilTypeManager.html#a15dc2a717fe013a188b43544e7f343bf',1,'ASoilTypeManager']]],
   ['generation',['Generation',['../d9/db1/structFPedestrianParameters.html#adbc5333bbc164b1be7761e9a76ea2167',1,'FPedestrianParameters::Generation()'],['../d0/db7/structFVehicleParameters.html#a510bbffcc14eb4cee8308e1571f085c5',1,'FVehicleParameters::Generation()']]],
   ['generationparameters',['GenerationParameters',['../da/d55/classUCarlaGameInstance.html#a52107b41888990a0b4cc5dae48114b4c',1,'UCarlaGameInstance']]],
   ['geodesic_5fboundary_5fmap',['geodesic_boundary_map',['../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#a0e7633ac6556bc3022683208f53e97f2',1,'carla::traffic_manager::CollisionStage']]],

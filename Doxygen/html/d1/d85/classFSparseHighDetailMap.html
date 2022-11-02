@@ -100,8 +100,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7362aea3e00daecc0dcba55c860e81f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b05806227f0ef8cc1ea535359023ee9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; uint64_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a8b05806227f0ef8cc1ea535359023ee9">GetLoadedTilesInRange</a> (<a class="el" href="../../de/d7a/structFDVector.html">FDVector</a> <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, float Radius)</td></tr>
 <tr class="separator:a8b05806227f0ef8cc1ea535359023ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec1c4cbeef5ba288f5bf93c063e160ed"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#aec1c4cbeef5ba288f5bf93c063e160ed">GetParticlesHeightMapInTileRadius</a> (<a class="el" href="../../de/d7a/structFDVector.html">FDVector</a> <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, float Radius)</td></tr>
-<tr class="separator:aec1c4cbeef5ba288f5bf93c063e160ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd647679f2d16e2bff0472bbb3136de2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d9/dfd/structFParticle.html">FParticle</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#abd647679f2d16e2bff0472bbb3136de2">GetParticlesInBox</a> (const FOrientedBox &amp;OBox)</td></tr>
 <tr class="separator:abd647679f2d16e2bff0472bbb3136de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf51b5c24afaa4b7bc7a4b474b0a0659"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d9/dfd/structFParticle.html">FParticle</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#adf51b5c24afaa4b7bc7a4b474b0a0659">GetParticlesInRadius</a> (<a class="el" href="../../de/d7a/structFDVector.html">FDVector</a> <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, float Radius)</td></tr>
@@ -161,6 +159,8 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a9e9a4f17012eb1ca0388906ba95cfb4e"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; uint64_t, <a class="el" href="../../d3/de5/structFDenseTile.html">FDenseTile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a9e9a4f17012eb1ca0388906ba95cfb4e">CacheMap</a></td></tr>
 <tr class="separator:a9e9a4f17012eb1ca0388906ba95cfb4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a945337cf074b1a790accdc2a795c4960"><td class="memItemLeft" align="right" valign="top">FCriticalSection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a945337cf074b1a790accdc2a795c4960">Lock_Particles</a></td></tr>
+<tr class="separator:a945337cf074b1a790accdc2a795c4960"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbff1fccef14e76f989f8529abdac1da"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; uint64_t, <a class="el" href="../../d3/de5/structFDenseTile.html">FDenseTile</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#afbff1fccef14e76f989f8529abdac1da">Map</a></td></tr>
 <tr class="separator:afbff1fccef14e76f989f8529abdac1da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bc1d7469d53b0275c5065ff944171aa"><td class="memItemLeft" align="right" valign="top">FString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/classFSparseHighDetailMap.html#a9bc1d7469d53b0275c5065ff944171aa">SavePath</a></td></tr>
@@ -204,7 +204,7 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00096">96</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00110">110</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa045affdfb3f874f0aff3e39ceead079"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa045affdfb3f874f0aff3e39ceead079">&#9670;&nbsp;</a></span>FSparseHighDetailMap()</h2>
@@ -240,7 +240,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00101">101</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00115">115</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -261,7 +261,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00801">801</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00743">743</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
 </div>
 </div>
@@ -289,9 +289,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00142">142</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00155">155</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00121">FHeightMapData::Clear()</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00509">FTilesWorker::RadiusX</a>, and <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00510">FTilesWorker::RadiusY</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00127">FHeightMapData::Clear()</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00545">FTilesWorker::RadiusX</a>, and <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00546">FTilesWorker::RadiusY</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -319,9 +319,9 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00431">431</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00442">442</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00083">UEFrameToSI()</a>, and <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00088">UEFrameToSIDirection()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00089">UEFrameToSI()</a>, and <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00094">UEFrameToSIDirection()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -359,57 +359,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00541">541</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00591">GetParticlesHeightMapInTileRadius()</a>.</p>
-<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_a8b05806227f0ef8cc1ea535359023ee9_cgraph.svg" width="458" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="aec1c4cbeef5ba288f5bf93c063e160ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec1c4cbeef5ba288f5bf93c063e160ed">&#9670;&nbsp;</a></span>GetParticlesHeightMapInTileRadius()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt; float &gt; FSparseHighDetailMap::GetParticlesHeightMapInTileRadius </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d7a/structFDVector.html">FDVector</a>&#160;</td>
-          <td class="paramname"><em>Position</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>Radius</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00591">591</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00541">GetLoadedTilesInRange()</a>.</p>
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_aec1c4cbeef5ba288f5bf93c063e160ed_icgraph.svg" width="458" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00552">552</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
 </div>
 </div>
@@ -429,14 +379,14 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00418">418</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00429">429</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00355">GetParticlesInTileRadius()</a>.</p>
-<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00366">GetParticlesInTileRadius()</a>.</p>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_abd647679f2d16e2bff0472bbb3136de2_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -469,24 +419,24 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00329">329</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00340">340</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00355">GetParticlesInTileRadius()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00366">GetParticlesInTileRadius()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00355">GetParticlesInTileRadius()</a>, and <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00309">FDenseTile::UpdateLocalHeightmap()</a>.</p>
-<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00366">GetParticlesInTileRadius()</a>, and <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00323">FDenseTile::UpdateLocalHeightmap()</a>.</p>
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_adf51b5c24afaa4b7bc7a4b474b0a0659_cgraph.svg" width="634" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_adf51b5c24afaa4b7bc7a4b474b0a0659_icgraph.svg" width="483" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -519,24 +469,24 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00355">355</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00366">366</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00418">GetParticlesInBox()</a>, and <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00329">GetParticlesInRadius()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00429">GetParticlesInBox()</a>, and <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00340">GetParticlesInRadius()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00329">GetParticlesInRadius()</a>.</p>
-<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00340">GetParticlesInRadius()</a>.</p>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_a44620b84b886b1339c3edc6747e24527_cgraph.svg" width="416" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_a44620b84b886b1339c3edc6747e24527_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -569,7 +519,17 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00694">694</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00634">634</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00639">GetTile()</a>.</p>
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_a28de33ae9b8ec42f29664f1e1192e4d5_icgraph.svg" width="398" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
@@ -589,7 +549,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00688">688</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00628">628</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
 </div>
 </div>
@@ -609,7 +569,17 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00699">699</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00639">639</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00634">GetTile()</a>.</p>
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d85/classFSparseHighDetailMap_a55fff787593b730e02012ef56ef2a39d_cgraph.svg" width="398" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
@@ -639,7 +609,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00658">658</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00598">598</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
 </div>
 </div>
@@ -677,9 +647,9 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00663">663</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00603">603</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00068">FHeightMapData::Tile0Position</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00013">FDVector::X</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00078">FHeightMapData::Tile0Position</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00013">FDVector::X</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>.</p>
 
 </div>
 </div>
@@ -706,7 +676,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00179">179</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00192">192</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -733,7 +703,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00170">170</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00183">183</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -753,7 +723,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00671">671</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00611">611</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
 </div>
 </div>
@@ -783,9 +753,9 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00678">678</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00618">618</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, and <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00068">FHeightMapData::Tile0Position</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, and <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00078">FHeightMapData::Tile0Position</a>.</p>
 
 </div>
 </div>
@@ -812,7 +782,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00114">114</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00128">128</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>.</p>
 
@@ -834,9 +804,9 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00724">724</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00668">668</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00068">FHeightMapData::Tile0Position</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00013">FDVector::X</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00078">FHeightMapData::Tile0Position</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00013">FDVector::X</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>.</p>
 
 </div>
 </div>
@@ -856,7 +826,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00730">730</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00674">674</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
 </div>
 </div>
@@ -906,7 +876,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00104">104</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00118">118</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -954,9 +924,9 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00773">773</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00717">717</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00068">FHeightMapData::Tile0Position</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00013">FDVector::X</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00015">FDVector::Z</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00078">FHeightMapData::Tile0Position</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00013">FDVector::X</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00015">FDVector::Z</a>.</p>
 
 </div>
 </div>
@@ -986,7 +956,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00737">737</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00681">681</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
 </div>
 </div>
@@ -1006,9 +976,9 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00743">743</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00687">687</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00172">FDenseTile::InitializeTile()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00178">FDenseTile::InitializeTile()</a>.</p>
 <div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
@@ -1036,9 +1006,9 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00757">757</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00701">701</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00172">FDenseTile::InitializeTile()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00178">FDenseTile::InitializeTile()</a>.</p>
 <div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
@@ -1073,7 +1043,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00160">160</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00173">173</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -1092,9 +1062,9 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00984">984</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00883">883</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00050">carla::learning::WheelOutput::_particle_forces</a>, <a class="el" href="../../d4/dbd/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehicleControl_8h_source.html#l00023">FVehicleControl::Brake</a>, <a class="el" href="../../d4/dbd/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehicleControl_8h_source.html#l00029">FVehicleControl::bReverse</a>, <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00063">CMToM</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00036">carla::client::detail::Get()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00100">UCarlaStatics::GetLargeMapManager()</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00093">ACarlaWheeledVehicle::GetVehicleControl()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00932">ACarlaWheeledVehicle::GetVelocity()</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00043">UHeightMapDataAsset::HeightValues</a>, <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00062">MToCM</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00047">FCarlaMapTile::Name</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00089">FDenseTile::ParticlesHeightMap</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00090">FDenseTile::ParticlesZOrdered</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00048">FParticle::Position</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00073">SIToUEFrame()</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00039">UHeightMapDataAsset::SizeX</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00041">UHeightMapDataAsset::SizeY</a>, <a class="el" href="../../db/d20/pugixml_8cpp_source.html#l07444">sort()</a>, <a class="el" href="../../d4/dbd/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehicleControl_8h_source.html#l00020">FVehicleControl::Steer</a>, <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html#l00027">carla::learning::test_learning()</a>, <a class="el" href="../../d4/dbd/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehicleControl_8h_source.html#l00017">FVehicleControl::Throttle</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00091">FDenseTile::TilePosition</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00052">FDVector::ToString()</a>, <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00083">UEFrameToSI()</a>, <a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00049">FParticle::Velocity</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00054">carla::learning::Outputs::wheel0</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00055">carla::learning::Outputs::wheel1</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00056">carla::learning::Outputs::wheel2</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00057">carla::learning::Outputs::wheel3</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00044">carla::learning::WheelOutput::wheel_forces_x</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00045">carla::learning::WheelOutput::wheel_forces_y</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00046">carla::learning::WheelOutput::wheel_forces_z</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00047">carla::learning::WheelOutput::wheel_torque_x</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00048">carla::learning::WheelOutput::wheel_torque_y</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00049">carla::learning::WheelOutput::wheel_torque_z</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00061">FHeightMapData::WorldSize</a>, <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00037">WriteFVector()</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00013">FDVector::X</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00015">FDVector::Z</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00053">carla::learning::WheelOutput::_particle_forces</a>, <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01369">UActorBlueprintFunctionLibrary::ActorAttributeToBool()</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00105">FDenseTile::bHeightmapNeedToUpdate</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00102">FDenseTile::bParticlesZOrderedInitialized</a>, <a class="el" href="../../d4/dbd/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehicleControl_8h_source.html#l00023">FVehicleControl::Brake</a>, <a class="el" href="../../d4/dbd/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehicleControl_8h_source.html#l00029">FVehicleControl::bReverse</a>, <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00069">CMToM</a>, <a class="el" href="../../d0/d4e/ActorInfo_8h_source.html#l00026">FActorInfo::Description</a>, <a class="el" href="../../d1/dae/SoilTypeManager_8h_source.html#l00014">DESERT</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00154">UCarlaEpisode::FindCarlaActor()</a>, <a class="el" href="../../d1/dae/SoilTypeManager_8h_source.html#l00015">FOREST</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00036">carla::client::detail::Get()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00068">UCarlaStatics::GetCurrentEpisode()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00100">UCarlaStatics::GetLargeMapManager()</a>, <a class="el" href="../../d9/dbd/SoilTypeManager_8cpp_source.html#l00052">ASoilTypeManager::GetTerrainPropertiesAtGlobalLocation()</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00093">ACarlaWheeledVehicle::GetVehicleControl()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00937">ACarlaWheeledVehicle::GetVelocity()</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00053">UHeightMapDataAsset::HeightValues</a>, <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00068">MToCM</a>, <a class="el" href="../../d3/d30/LargeMapManager_8h_source.html#l00047">FCarlaMapTile::Name</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00100">FDenseTile::ParticlesHeightMap</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00101">FDenseTile::ParticlesZOrdered</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00058">FParticle::Position</a>, <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00079">SIToUEFrame()</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00049">UHeightMapDataAsset::SizeX</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00051">UHeightMapDataAsset::SizeY</a>, <a class="el" href="../../db/d20/pugixml_8cpp_source.html#l07444">sort()</a>, <a class="el" href="../../d4/dbd/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehicleControl_8h_source.html#l00020">FVehicleControl::Steer</a>, <a class="el" href="../../d1/dae/SoilTypeManager_8h_source.html#l00024">FSoilTerramechanicsProperties::TerrainType</a>, <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html#l00027">carla::learning::test_learning()</a>, <a class="el" href="../../d4/dbd/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehicleControl_8h_source.html#l00017">FVehicleControl::Throttle</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00103">FDenseTile::TilePosition</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00047">FDVector::ToFVector()</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00052">FDVector::ToString()</a>, <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00089">UEFrameToSI()</a>, <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00036">FActorDescription::Variations</a>, <a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00059">FParticle::Velocity</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00057">carla::learning::Outputs::wheel0</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00058">carla::learning::Outputs::wheel1</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00059">carla::learning::Outputs::wheel2</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00060">carla::learning::Outputs::wheel3</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00044">carla::learning::WheelOutput::wheel_forces_x</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00045">carla::learning::WheelOutput::wheel_forces_y</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00046">carla::learning::WheelOutput::wheel_forces_z</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00050">carla::learning::WheelOutput::wheel_normal_x</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00051">carla::learning::WheelOutput::wheel_normal_y</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00052">carla::learning::WheelOutput::wheel_normal_z</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00047">carla::learning::WheelOutput::wheel_torque_x</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00048">carla::learning::WheelOutput::wheel_torque_y</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00049">carla::learning::WheelOutput::wheel_torque_z</a>, <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00071">FHeightMapData::WorldSize</a>, <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00037">WriteFVector()</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00013">FDVector::X</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00015">FDVector::Z</a>.</p>
 <div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-12-summary" class="dynsummary" style="display:block;">
@@ -1129,7 +1099,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00165">165</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00178">178</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -1165,7 +1135,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00943">943</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00842">842</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
 </div>
 </div>
@@ -1213,7 +1183,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00790">790</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00732">732</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
 </div>
 </div>
@@ -1261,7 +1231,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00807">807</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00749">749</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00037">WriteFVector()</a>, <a class="el" href="../../d5/d94/DVector_8h_source.html#l00013">FDVector::X</a>, and <a class="el" href="../../d5/d94/DVector_8h_source.html#l00014">FDVector::Y</a>.</p>
 <div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1296,7 +1266,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00099">99</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00113">113</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -1321,7 +1291,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00201">201</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00215">215</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -1337,7 +1307,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00190">190</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00203">203</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -1361,7 +1331,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00195">195</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00209">209</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -1385,7 +1355,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00197">197</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00211">211</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -1409,7 +1379,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00204">204</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00218">218</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -1433,7 +1403,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00205">205</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00219">219</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -1457,7 +1427,23 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00203">203</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00217">217</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+
+</div>
+</div>
+<a id="a945337cf074b1a790accdc2a795c4960"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a945337cf074b1a790accdc2a795c4960">&#9670;&nbsp;</a></span>Lock_Particles</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FCriticalSection FSparseHighDetailMap::Lock_Particles</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00205">205</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -1481,7 +1467,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00206">206</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00220">220</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -1497,7 +1483,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00189">189</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00202">202</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -1521,7 +1507,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00198">198</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00212">212</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -1545,7 +1531,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00202">202</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00216">216</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -1561,7 +1547,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00191">191</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00204">204</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -1585,7 +1571,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00199">199</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00213">213</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -1609,7 +1595,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00200">200</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00214">214</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -1633,7 +1619,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00194">194</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00208">208</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -1657,7 +1643,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00196">196</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00210">210</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
@@ -1681,7 +1667,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00193">193</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html#l00207">207</a> of file <a class="el" href="../../d1/d4f/CustomTerrainPhysicsComponent_8h_source.html">CustomTerrainPhysicsComponent.h</a>.</p>
 
 </div>
 </div>
