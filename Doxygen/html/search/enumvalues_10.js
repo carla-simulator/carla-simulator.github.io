@@ -18,6 +18,7 @@ var searchData=
   ['special3',['Special3',['../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247a62cbd3b8cb5311a13bcebe5deec68691',1,'carla::road::Lane']]],
   ['spiral',['SPIRAL',['../df/dc1/namespacecarla_1_1road_1_1element.html#af813ce133ab9e826a05831cf2970133ea550c81f476de2243dc93872a898ea918',1,'carla::road::element']]],
   ['springarm',['SpringArm',['../d6/d68/ActorAttacher_8h.html#a9cf55c1af321cd2ac28b5097b5e4aa4ea1707646fd568651afaf4b8e4dff21d36',1,'SpringArm():&#160;ActorAttacher.h'],['../de/d6c/namespacecarla_1_1rpc.html#a3124bfdfcd62bda5c4fe5978ec668365a1707646fd568651afaf4b8e4dff21d36',1,'carla::rpc::SpringArm()']]],
+  ['springarmghost',['SpringArmGhost',['../d6/d68/ActorAttacher_8h.html#a9cf55c1af321cd2ac28b5097b5e4aa4ea98c871e88bfedc8e0f44c344de60cdfa',1,'SpringArmGhost():&#160;ActorAttacher.h'],['../de/d6c/namespacecarla_1_1rpc.html#a3124bfdfcd62bda5c4fe5978ec668365a98c871e88bfedc8e0f44c344de60cdfa',1,'carla::rpc::SpringArmGhost()']]],
   ['standard',['Standard',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#adcc9f0cd0b5b4be0cc07be4bf5df30acaeb6d8ae6f20283755b339c0dc273988b',1,'carla::road::element::LaneMarking']]],
   ['state',['State',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a46a2a41cc6e552044816a2d04634545d',1,'CarlaRecorder.h']]],
   ['static',['Static',['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a84a8921b25f505d0d2077aeb5db4bc16',1,'carla::rpc']]],

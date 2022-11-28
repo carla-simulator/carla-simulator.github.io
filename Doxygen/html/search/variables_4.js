@@ -26,6 +26,7 @@ var searchData=
   ['dcel',['Dcel',['../d1/ddb/classACityMapGenerator.html#a5d9a2a8355f7668ff0e1130432d3e1ff',1,'ACityMapGenerator']]],
   ['dcelparser',['DcelParser',['../d1/ddb/classACityMapGenerator.html#adc1f93b922336a332e0da1ad349c641f',1,'ACityMapGenerator']]],
   ['deallocate',['deallocate',['../d1/dd8/structxml__memory__management__function__storage.html#a1c80a9a045ed6cfb90b17a178e4b3512',1,'xml_memory_management_function_storage']]],
+  ['debugmaterials',['DebugMaterials',['../dd/dfc/classAVegetationManager.html#ad17f47da2ce84cb41f10564cd8eaf230',1,'AVegetationManager']]],
   ['debugvehicle',['DebugVehicle',['../db/d7a/classACarlaHUD.html#a8e644aeffbd4150dbe13118dba2bd5b4',1,'ACarlaHUD']]],
   ['decalmaterials',['DecalMaterials',['../d8/da5/structFDecalsProperties.html#aa2825058a4f1b62ef4fdd08bc99497e4',1,'FDecalsProperties']]],
   ['decalmaxscale',['DecalMaxScale',['../d8/da5/structFDecalsProperties.html#a2a58878f93d7c3febd151047c1368029',1,'FDecalsProperties']]],

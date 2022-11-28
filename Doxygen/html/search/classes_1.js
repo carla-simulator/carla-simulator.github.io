@@ -92,6 +92,7 @@ var searchData=
   ['asensor',['ASensor',['../d3/d01/classASensor.html',1,'']]],
   ['asensorfactory',['ASensorFactory',['../df/d9e/classASensorFactory.html',1,'']]],
   ['ashaderbasedsensor',['AShaderBasedSensor',['../da/dd3/classAShaderBasedSensor.html',1,'']]],
+  ['asoiltypemanager',['ASoilTypeManager',['../d1/da5/classASoilTypeManager.html',1,'']]],
   ['astaticmeshcollection',['AStaticMeshCollection',['../d8/dc2/classAStaticMeshCollection.html',1,'']]],
   ['astaticmeshfactory',['AStaticMeshFactory',['../da/d98/classAStaticMeshFactory.html',1,'']]],
   ['atagger',['ATagger',['../da/d86/classATagger.html',1,'']]],

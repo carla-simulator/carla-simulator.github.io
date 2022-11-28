@@ -72,6 +72,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">CustomTerrainPhysicsComponent.cpp File Reference</div>  </div>
@@ -83,67 +84,304 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <code>#include &quot;CollisionQueryParams.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/d30/LargeMapManager_8h_source.html">Carla/MapGen/LargeMapManager.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html">Carla/Game/CarlaStatics.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d1/dae/SoilTypeManager_8h_source.html">Carla/MapGen/SoilTypeManager.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/dba/String_8h_source.html">carla/rpc/String.h</a>&quot;</code><br />
 <code>#include &quot;HAL/PlatformFilemanager.h&quot;</code><br />
 <code>#include &quot;HAL/RunnableThread.h&quot;</code><br />
 <code>#include &quot;Misc/Paths.h&quot;</code><br />
 <code>#include &quot;Engine/World.h&quot;</code><br />
 <code>#include &quot;Math/UnrealMathUtility.h&quot;</code><br />
+<code>#include &quot;Landscape.h&quot;</code><br />
+<code>#include &quot;LandscapeHeightfieldCollisionComponent.h&quot;</code><br />
+<code>#include &quot;LandscapeComponent.h&quot;</code><br />
+<code>#include &quot;RHICommandList.h&quot;</code><br />
+<code>#include &quot;TextureResource.h&quot;</code><br />
+<code>#include &quot;Rendering/Texture2DResource.h&quot;</code><br />
+<code>#include &quot;GenericPlatform/GenericPlatformProcess.h&quot;</code><br />
+<code>#include &quot;Materials/MaterialParameterCollection.h&quot;</code><br />
+<code>#include &quot;Materials/MaterialParameterCollectionInstance.h&quot;</code><br />
+<code>#include &quot;Components/SkinnedMeshComponent.h&quot;</code><br />
 <code>#include &quot;GenericPlatform/GenericPlatformFile.h&quot;</code><br />
+<code>#include &quot;Async/Async.h&quot;</code><br />
+<code>#include &quot;Async/Future.h&quot;</code><br />
+<code>#include &quot;LandscapeProxy.h&quot;</code><br />
+<code>#include &quot;Engine/Texture2D.h&quot;</code><br />
+<code>#include &quot;Engine/Texture.h&quot;</code><br />
+<code>#include &quot;Engine/TextureRenderTarget2D.h&quot;</code><br />
+<code>#include &quot;Components/PrimitiveComponent.h&quot;</code><br />
+<code>#include &quot;DrawDebugHelpers.h&quot;</code><br />
+<code>#include &quot;Kismet/KismetSystemLibrary.h&quot;</code><br />
+<code>#include &quot;CommandLine.h&quot;</code><br />
+<code>#include &quot;Components/LineBatchComponent.h&quot;</code><br />
+<code>#include &quot;Math/OrientedBox.h&quot;</code><br />
+<code>#include &quot;Misc/DateTime.h&quot;</code><br />
+<code>#include &quot;EngineUtils.h&quot;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;thread&gt;</code><br />
+<code>#include &lt;chrono&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for CustomTerrainPhysicsComponent.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d3e/CustomTerrainPhysicsComponent_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/d3e/CustomTerrainPhysicsComponent_8cpp__incl.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div>
 <p><a href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ac61628f32d318d54eb35c4cf20d554c7"><td class="memItemLeft" align="right" valign="top">FVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp.html#ac61628f32d318d54eb35c4cf20d554c7">SIToUEFrame</a> (const FVector &amp;In)</td></tr>
+<tr class="separator:ac61628f32d318d54eb35c4cf20d554c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3cb848e0ed142ddf72dc476c636fb4d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp.html#ae3cb848e0ed142ddf72dc476c636fb4d">SIToUEFrame</a> (const float &amp;In)</td></tr>
+<tr class="separator:ae3cb848e0ed142ddf72dc476c636fb4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae11fb91e508aafacdb2e2fb79ef788a1"><td class="memItemLeft" align="right" valign="top">FVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp.html#ae11fb91e508aafacdb2e2fb79ef788a1">SIToUEFrameDirection</a> (const FVector &amp;In)</td></tr>
+<tr class="separator:ae11fb91e508aafacdb2e2fb79ef788a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a421c5825fe50e0b8918105c524f12f5d"><td class="memItemLeft" align="right" valign="top">FVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp.html#a421c5825fe50e0b8918105c524f12f5d">UEFrameToSI</a> (const FVector &amp;In)</td></tr>
+<tr class="separator:a421c5825fe50e0b8918105c524f12f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1b28500358c2765689ec1f0297df8db"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp.html#af1b28500358c2765689ec1f0297df8db">UEFrameToSI</a> (const float &amp;In)</td></tr>
+<tr class="separator:af1b28500358c2765689ec1f0297df8db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae05879f12b7c150c282b09243d3376dc"><td class="memItemLeft" align="right" valign="top">FVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp.html#ae05879f12b7c150c282b09243d3376dc">UEFrameToSIDirection</a> (const FVector &amp;In)</td></tr>
+<tr class="separator:ae05879f12b7c150c282b09243d3376dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a9eaa3353a8d7d4f692d1ec23c041d38d"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp.html#a9eaa3353a8d7d4f692d1ec23c041d38d">ParticleDiameter</a> = 0.04f</td></tr>
-<tr class="separator:a9eaa3353a8d7d4f692d1ec23c041d38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45cda6b40c6a2f6b5cc7627d148399d9"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp.html#a45cda6b40c6a2f6b5cc7627d148399d9">TerrainDepth</a> = 0.40f</td></tr>
-<tr class="separator:a45cda6b40c6a2f6b5cc7627d148399d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae56fae6140972ab30e4a06e5c189dbd5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp.html#ae56fae6140972ab30e4a06e5c189dbd5">_filesBaseFolder</a> = std::string(getenv(&quot;HOME&quot;)) + &quot;/carlaCache/&quot;</td></tr>
+<tr class="separator:ae56fae6140972ab30e4a06e5c189dbd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54e88be71e5a788019d5df7284e7566e"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp.html#a54e88be71e5a788019d5df7284e7566e">CacheExtraRadius</a> = 10</td></tr>
+<tr class="separator:a54e88be71e5a788019d5df7284e7566e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab736a6b87cad10fc1dfe745ad6f96fb8"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp.html#ab736a6b87cad10fc1dfe745ad6f96fb8">CMToM</a> = 0.01f</td></tr>
+<tr class="separator:ab736a6b87cad10fc1dfe745ad6f96fb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27543c4189c7b3ddf791b6398677cc7e"><td class="memItemLeft" align="right" valign="top">constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp.html#a27543c4189c7b3ddf791b6398677cc7e">MToCM</a> = 100.f</td></tr>
+<tr class="separator:a27543c4189c7b3ddf791b6398677cc7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ac61628f32d318d54eb35c4cf20d554c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac61628f32d318d54eb35c4cf20d554c7">&#9670;&nbsp;</a></span>SIToUEFrame() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FVector SIToUEFrame </td>
+          <td>(</td>
+          <td class="paramtype">const FVector &amp;&#160;</td>
+          <td class="paramname"><em>In</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00079">79</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00068">MToCM</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00299">FDenseTile::GetParticlesInBox()</a>, and <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00883">FSparseHighDetailMap::SaveMap()</a>.</p>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_ac61628f32d318d54eb35c4cf20d554c7_icgraph.svg" width="346" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ae3cb848e0ed142ddf72dc476c636fb4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3cb848e0ed142ddf72dc476c636fb4d">&#9670;&nbsp;</a></span>SIToUEFrame() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SIToUEFrame </td>
+          <td>(</td>
+          <td class="paramtype">const float &amp;&#160;</td>
+          <td class="paramname"><em>In</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00083">83</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00068">MToCM</a>.</p>
+
+</div>
+</div>
+<a id="ae11fb91e508aafacdb2e2fb79ef788a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae11fb91e508aafacdb2e2fb79ef788a1">&#9670;&nbsp;</a></span>SIToUEFrameDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FVector SIToUEFrameDirection </td>
+          <td>(</td>
+          <td class="paramtype">const FVector &amp;&#160;</td>
+          <td class="paramname"><em>In</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00084">84</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a421c5825fe50e0b8918105c524f12f5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a421c5825fe50e0b8918105c524f12f5d">&#9670;&nbsp;</a></span>UEFrameToSI() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FVector UEFrameToSI </td>
+          <td>(</td>
+          <td class="paramtype">const FVector &amp;&#160;</td>
+          <td class="paramname"><em>In</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00089">89</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00069">CMToM</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00442">FSparseHighDetailMap::GetIntersectingTiles()</a>, <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00099">FHeightMapData::InitializeHeightmap()</a>, and <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00883">FSparseHighDetailMap::SaveMap()</a>.</p>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_a421c5825fe50e0b8918105c524f12f5d_icgraph.svg" width="360" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="af1b28500358c2765689ec1f0297df8db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1b28500358c2765689ec1f0297df8db">&#9670;&nbsp;</a></span>UEFrameToSI() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float UEFrameToSI </td>
+          <td>(</td>
+          <td class="paramtype">const float &amp;&#160;</td>
+          <td class="paramname"><em>In</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00093">93</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00069">CMToM</a>.</p>
+
+</div>
+</div>
+<a id="ae05879f12b7c150c282b09243d3376dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae05879f12b7c150c282b09243d3376dc">&#9670;&nbsp;</a></span>UEFrameToSIDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FVector UEFrameToSIDirection </td>
+          <td>(</td>
+          <td class="paramtype">const FVector &amp;&#160;</td>
+          <td class="paramname"><em>In</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00094">94</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00442">FSparseHighDetailMap::GetIntersectingTiles()</a>.</p>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_ae05879f12b7c150c282b09243d3376dc_icgraph.svg" width="394" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a9eaa3353a8d7d4f692d1ec23c041d38d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9eaa3353a8d7d4f692d1ec23c041d38d">&#9670;&nbsp;</a></span>ParticleDiameter</h2>
+<a id="ae56fae6140972ab30e4a06e5c189dbd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae56fae6140972ab30e4a06e5c189dbd5">&#9670;&nbsp;</a></span>_filesBaseFolder</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr float ParticleDiameter = 0.04f</td>
+          <td class="memname">std::string _filesBaseFolder = std::string(getenv(&quot;HOME&quot;)) + &quot;/carlaCache/&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00026">26</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00267">FSparseHighDetailMap::InitializeRegion()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00076">76</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a45cda6b40c6a2f6b5cc7627d148399d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45cda6b40c6a2f6b5cc7627d148399d9">&#9670;&nbsp;</a></span>TerrainDepth</h2>
+<a id="a54e88be71e5a788019d5df7284e7566e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54e88be71e5a788019d5df7284e7566e">&#9670;&nbsp;</a></span>CacheExtraRadius</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr float TerrainDepth = 0.40f</td>
+          <td class="memname">const int CacheExtraRadius = 10</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00027">27</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00071">71</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00267">FSparseHighDetailMap::InitializeRegion()</a>.</p>
+</div>
+</div>
+<a id="ab736a6b87cad10fc1dfe745ad6f96fb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab736a6b87cad10fc1dfe745ad6f96fb8">&#9670;&nbsp;</a></span>CMToM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float CMToM = 0.01f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00069">69</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00883">FSparseHighDetailMap::SaveMap()</a>, and <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00089">UEFrameToSI()</a>.</p>
+
+</div>
+</div>
+<a id="a27543c4189c7b3ddf791b6398677cc7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27543c4189c7b3ddf791b6398677cc7e">&#9670;&nbsp;</a></span>MToCM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float MToCM = 100.f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00068">68</a> of file <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html">CustomTerrainPhysicsComponent.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00883">FSparseHighDetailMap::SaveMap()</a>, and <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00079">SIToUEFrame()</a>.</p>
 
 </div>
 </div>
