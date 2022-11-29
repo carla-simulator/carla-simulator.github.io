@@ -73,6 +73,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -82,17 +83,9 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d7/d7d/Carla_8h_source.html">Carla.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/d95/SceneCaptureSensor_8h_source.html">Carla/Sensor/SceneCaptureSensor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html">Carla/Game/CarlaStatics.h</a>&quot;</code><br />
-<code>#include &quot;Async/Async.h&quot;</code><br />
-<code>#include &quot;Components/DrawFrustumComponent.h&quot;</code><br />
-<code>#include &quot;Components/SceneCaptureComponent2D.h&quot;</code><br />
-<code>#include &quot;Components/StaticMeshComponent.h&quot;</code><br />
-<code>#include &quot;ContentStreaming.h&quot;</code><br />
-<code>#include &quot;Engine/Classes/Engine/Scene.h&quot;</code><br />
-<code>#include &quot;Engine/TextureRenderTarget2D.h&quot;</code><br />
-<code>#include &quot;HAL/UnrealMemory.h&quot;</code><br />
-<code>#include &quot;HighResScreenshot.h&quot;</code><br />
-<code>#include &quot;Misc/CoreDelegates.h&quot;</code><br />
-<code>#include &quot;RHICommandList.h&quot;</code><br />
+<code>#include &lt;mutex&gt;</code><br />
+<code>#include &lt;atomic&gt;</code><br />
+<code>#include &lt;thread&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for SceneCaptureSensor.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -109,21 +102,131 @@ Namespaces</h2></td></tr>
 <tr class="memitem:d4/d8e/namespaceSceneCaptureSensor__local__ns"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8e/namespaceSceneCaptureSensor__local__ns.html">SceneCaptureSensor_local_ns</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ae2a66c9aab411a98b4dc37e94e1483ad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp.html#ae2a66c9aab411a98b4dc37e94e1483ad">CARLA_GBUFFER_DISABLE_TAA</a></td></tr>
+<tr class="separator:ae2a66c9aab411a98b4dc37e94e1483ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ab8aa0eb9dc7983a390fcd787e9333dda"><td class="memTemplParams" colspan="2">template&lt;EGBufferTextureID ID, typename T &gt; </td></tr>
+<tr class="memitem:ab8aa0eb9dc7983a390fcd787e9333dda"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp.html#ab8aa0eb9dc7983a390fcd787e9333dda">CheckGBufferStream</a> (T &amp;GBufferStream, FGBufferRequest &amp;GBuffer)</td></tr>
+<tr class="separator:ab8aa0eb9dc7983a390fcd787e9333dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e8d262491281ea70be376da7a514d6d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8e/namespaceSceneCaptureSensor__local__ns.html#a5e8d262491281ea70be376da7a514d6d">SceneCaptureSensor_local_ns::ConfigureShowFlags</a> (FEngineShowFlags &amp;ShowFlags, bool bPostProcessing=true)</td></tr>
 <tr class="separator:a5e8d262491281ea70be376da7a514d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fabbf54ccb10e224c102888ae4e8191"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8e/namespaceSceneCaptureSensor__local__ns.html#a6fabbf54ccb10e224c102888ae4e8191">SceneCaptureSensor_local_ns::GetQualitySettings</a> (UWorld *World)</td></tr>
 <tr class="separator:a6fabbf54ccb10e224c102888ae4e8191"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0974bdbf7583e01d2ea1f9918f29cda7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8e/namespaceSceneCaptureSensor__local__ns.html#a0974bdbf7583e01d2ea1f9918f29cda7">SceneCaptureSensor_local_ns::SetCameraDefaultOverrides</a> (USceneCaptureComponent2D &amp;CaptureComponent2D)</td></tr>
+<tr class="memitem:a0974bdbf7583e01d2ea1f9918f29cda7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d8e/namespaceSceneCaptureSensor__local__ns.html#a0974bdbf7583e01d2ea1f9918f29cda7">SceneCaptureSensor_local_ns::SetCameraDefaultOverrides</a> (<a class="el" href="../../d3/db8/classUSceneCaptureComponent2D.html">USceneCaptureComponent2D</a> &amp;CaptureComponent2D)</td></tr>
 <tr class="separator:a0974bdbf7583e01d2ea1f9918f29cda7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a69c23717b9dad12ff686c936f491c0b5"><td class="memItemLeft" align="right" valign="top">constexpr const TCHAR *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp.html#a69c23717b9dad12ff686c936f491c0b5">GBufferNames</a> []</td></tr>
+<tr class="separator:a69c23717b9dad12ff686c936f491c0b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab753ae518a6486cd8ac6f001d0f6e359"><td class="memItemLeft" align="right" valign="top">static uint64&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp.html#ab753ae518a6486cd8ac6f001d0f6e359">Prior</a> = 0</td></tr>
+<tr class="separator:ab753ae518a6486cd8ac6f001d0f6e359"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f9ecd27cb3513c8c91adf6644fbee8e"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp.html#a1f9ecd27cb3513c8c91adf6644fbee8e">SCENE_CAPTURE_COUNTER</a> = 0u</td></tr>
 <tr class="separator:a1f9ecd27cb3513c8c91adf6644fbee8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ae2a66c9aab411a98b4dc37e94e1483ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2a66c9aab411a98b4dc37e94e1483ad">&#9670;&nbsp;</a></span>CARLA_GBUFFER_DISABLE_TAA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CARLA_GBUFFER_DISABLE_TAA</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ab8aa0eb9dc7983a390fcd787e9333dda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8aa0eb9dc7983a390fcd787e9333dda">&#9670;&nbsp;</a></span>CheckGBufferStream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;EGBufferTextureID ID, typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CheckGBufferStream </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>GBufferStream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FGBufferRequest &amp;&#160;</td>
+          <td class="paramname"><em>GBuffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp_source.html#l00473">473</a> of file <a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp_source.html">SceneCaptureSensor.cpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a69c23717b9dad12ff686c936f491c0b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c23717b9dad12ff686c936f491c0b5">&#9670;&nbsp;</a></span>GBufferNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr const TCHAR* GBufferNames[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">{</div><div class="line">  TEXT(<span class="stringliteral">&quot;SceneColor&quot;</span>),</div><div class="line">  TEXT(<span class="stringliteral">&quot;SceneDepth&quot;</span>),</div><div class="line">  TEXT(<span class="stringliteral">&quot;SceneStencil&quot;</span>),</div><div class="line">  TEXT(<span class="stringliteral">&quot;GBufferA&quot;</span>),</div><div class="line">  TEXT(<span class="stringliteral">&quot;GBufferB&quot;</span>),</div><div class="line">  TEXT(<span class="stringliteral">&quot;GBufferC&quot;</span>),</div><div class="line">  TEXT(<span class="stringliteral">&quot;GBufferD&quot;</span>),</div><div class="line">  TEXT(<span class="stringliteral">&quot;GBufferE&quot;</span>),</div><div class="line">  TEXT(<span class="stringliteral">&quot;GBufferF&quot;</span>),</div><div class="line">  TEXT(<span class="stringliteral">&quot;Velocity&quot;</span>),</div><div class="line">  TEXT(<span class="stringliteral">&quot;SSAO&quot;</span>),</div><div class="line">  TEXT(<span class="stringliteral">&quot;CustomDepth&quot;</span>),</div><div class="line">  TEXT(<span class="stringliteral">&quot;CustomStencil&quot;</span>),</div><div class="line">}</div></div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp_source.html#l00455">455</a> of file <a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp_source.html">SceneCaptureSensor.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab753ae518a6486cd8ac6f001d0f6e359"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab753ae518a6486cd8ac6f001d0f6e359">&#9670;&nbsp;</a></span>Prior</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64 Prior = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp_source.html#l00480">480</a> of file <a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp_source.html">SceneCaptureSensor.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp_source.html#l00482">ASceneCaptureSensor::CaptureSceneExtended()</a>.</p>
+
+</div>
+</div>
 <a id="a1f9ecd27cb3513c8c91adf6644fbee8e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1f9ecd27cb3513c8c91adf6644fbee8e">&#9670;&nbsp;</a></span>SCENE_CAPTURE_COUNTER</h2>
 
@@ -144,9 +247,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp_source.html#l00024">24</a> of file <a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp_source.html">SceneCaptureSensor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp_source.html#l00015">15</a> of file <a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp_source.html">SceneCaptureSensor.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp_source.html#l00050">ASceneCaptureSensor::ASceneCaptureSensor()</a>, and <a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp_source.html#l00523">ASceneCaptureSensor::EndPlay()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp_source.html#l00041">ASceneCaptureSensor::ASceneCaptureSensor()</a>, and <a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp_source.html#l00603">ASceneCaptureSensor::EndPlay()</a>.</p>
 
 </div>
 </div>

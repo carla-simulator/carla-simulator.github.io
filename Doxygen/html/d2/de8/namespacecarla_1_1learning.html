@@ -98,8 +98,8 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:acb1cc42250ad84262af4f00862ba91ee"><td class="memItemLeft" align="right" valign="top">torch::jit::IValue&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de8/namespacecarla_1_1learning.html#acb1cc42250ad84262af4f00862ba91ee">GetWheelTensorInputs</a> (<a class="el" href="../../db/d80/structcarla_1_1learning_1_1WheelInput.html">WheelInput</a> &amp;wheel)</td></tr>
 <tr class="separator:acb1cc42250ad84262af4f00862ba91ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7d28eca6f8b1934d26116a384e18332"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dec/structcarla_1_1learning_1_1WheelOutput.html">WheelOutput</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de8/namespacecarla_1_1learning.html#ad7d28eca6f8b1934d26116a384e18332">GetWheelTensorOutput</a> (const at::Tensor &amp;particle_forces, const at::Tensor &amp;wheel_forces, const at::Tensor &amp;wheel_normal)</td></tr>
-<tr class="separator:ad7d28eca6f8b1934d26116a384e18332"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8943184d571f4aa35f77d509f22eea3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dec/structcarla_1_1learning_1_1WheelOutput.html">WheelOutput</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de8/namespacecarla_1_1learning.html#ab8943184d571f4aa35f77d509f22eea3">GetWheelTensorOutput</a> (const at::Tensor &amp;particle_forces, const at::Tensor &amp;wheel_forces)</td></tr>
+<tr class="separator:ab8943184d571f4aa35f77d509f22eea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f8544dcac7972fa1e23f29b45276302"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dec/structcarla_1_1learning_1_1WheelOutput.html">WheelOutput</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de8/namespacecarla_1_1learning.html#a9f8544dcac7972fa1e23f29b45276302">GetWheelTensorOutputDynamic</a> (const at::Tensor &amp;particle_forces, const at::Tensor &amp;wheel_forces)</td></tr>
 <tr class="separator:a9f8544dcac7972fa1e23f29b45276302"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77a7f8c35379ea020aa947d445517ea2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/de8/namespacecarla_1_1learning.html#a77a7f8c35379ea020aa947d445517ea2">test_learning</a> ()</td></tr>
@@ -126,7 +126,7 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00021">carla::learning::WheelInput::particles_positions</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00022">carla::learning::WheelInput::particles_velocities</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00026">carla::learning::WheelInput::wheel_angular_velocity</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00025">carla::learning::WheelInput::wheel_linear_velocity</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00024">carla::learning::WheelInput::wheel_oritentation</a>, and <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00023">carla::learning::WheelInput::wheel_positions</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html#l00187">carla::learning::NeuralModel::Forward()</a>, and <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html#l00219">carla::learning::NeuralModel::ForwardDynamic()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html#l00182">carla::learning::NeuralModel::Forward()</a>, and <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html#l00214">carla::learning::NeuralModel::ForwardDynamic()</a>.</p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -138,8 +138,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad7d28eca6f8b1934d26116a384e18332"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7d28eca6f8b1934d26116a384e18332">&#9670;&nbsp;</a></span>GetWheelTensorOutput()</h2>
+<a id="ab8943184d571f4aa35f77d509f22eea3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8943184d571f4aa35f77d509f22eea3">&#9670;&nbsp;</a></span>GetWheelTensorOutput()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154,13 +154,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const at::Tensor &amp;&#160;</td>
-          <td class="paramname"><em>wheel_forces</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const at::Tensor &amp;&#160;</td>
-          <td class="paramname"><em>wheel_normal</em>&#160;</td>
+          <td class="paramname"><em>wheel_forces</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -172,15 +166,15 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html#l00067">67</a> of file <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html">pytorch.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00053">carla::learning::WheelOutput::_particle_forces</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00044">carla::learning::WheelOutput::wheel_forces_x</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00045">carla::learning::WheelOutput::wheel_forces_y</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00046">carla::learning::WheelOutput::wheel_forces_z</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00050">carla::learning::WheelOutput::wheel_normal_x</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00051">carla::learning::WheelOutput::wheel_normal_y</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00052">carla::learning::WheelOutput::wheel_normal_z</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00047">carla::learning::WheelOutput::wheel_torque_x</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00048">carla::learning::WheelOutput::wheel_torque_y</a>, and <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00049">carla::learning::WheelOutput::wheel_torque_z</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00050">carla::learning::WheelOutput::_particle_forces</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00044">carla::learning::WheelOutput::wheel_forces_x</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00045">carla::learning::WheelOutput::wheel_forces_y</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00046">carla::learning::WheelOutput::wheel_forces_z</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00047">carla::learning::WheelOutput::wheel_torque_x</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00048">carla::learning::WheelOutput::wheel_torque_y</a>, and <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00049">carla::learning::WheelOutput::wheel_torque_z</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html#l00187">carla::learning::NeuralModel::Forward()</a>, and <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html#l00258">carla::learning::NeuralModel::ForwardCUDATensors()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html#l00182">carla::learning::NeuralModel::Forward()</a>, and <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html#l00253">carla::learning::NeuralModel::ForwardCUDATensors()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/de8/namespacecarla_1_1learning_ad7d28eca6f8b1934d26116a384e18332_icgraph.svg" width="451" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/de8/namespacecarla_1_1learning_ab8943184d571f4aa35f77d509f22eea3_icgraph.svg" width="451" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -212,11 +206,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html#l00098">98</a> of file <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html">pytorch.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html#l00093">93</a> of file <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html">pytorch.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00053">carla::learning::WheelOutput::_particle_forces</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00044">carla::learning::WheelOutput::wheel_forces_x</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00045">carla::learning::WheelOutput::wheel_forces_y</a>, and <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00046">carla::learning::WheelOutput::wheel_forces_z</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00050">carla::learning::WheelOutput::_particle_forces</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00044">carla::learning::WheelOutput::wheel_forces_x</a>, <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00045">carla::learning::WheelOutput::wheel_forces_y</a>, and <a class="el" href="../../db/dd0/pytorch_8h_source.html#l00046">carla::learning::WheelOutput::wheel_forces_z</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html#l00219">carla::learning::NeuralModel::ForwardDynamic()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html#l00214">carla::learning::NeuralModel::ForwardDynamic()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -245,7 +239,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html#l00027">27</a> of file <a class="el" href="../../dd/d8c/pytorch_8cpp_source.html">pytorch.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00883">FSparseHighDetailMap::SaveMap()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00880">FSparseHighDetailMap::SaveMap()</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
