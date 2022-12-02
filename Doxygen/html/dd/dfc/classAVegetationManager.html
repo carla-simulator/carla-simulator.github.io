@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d8f/classAVegetationManager__coll__graph.svg" width="619" height="444"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d8f/classAVegetationManager__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -100,10 +100,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a754a4ad1c9c4cbd269ba7f722ec9d775"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90fdf09875859fe520d1d48ca8b202ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a90fdf09875859fe520d1d48ca8b202ae">RemoveVehicle</a> (<a class="el" href="../../d5/d70/classACarlaWheeledVehicle.html">ACarlaWheeledVehicle</a> *<a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>)</td></tr>
 <tr class="separator:a90fdf09875859fe520d1d48ca8b202ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e208e71d0ca7a83b18d0e8024e89b8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a1e208e71d0ca7a83b18d0e8024e89b8d">UpdatePoolBasePosition</a> ()</td></tr>
+<tr class="separator:a1e208e71d0ca7a83b18d0e8024e89b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a03ad774cd22b037f9e5cc6aa739310cb"><td class="memItemLeft" align="right" valign="top">int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a03ad774cd22b037f9e5cc6aa739310cb">InitialPoolSize</a> {5}</td></tr>
+<tr class="memitem:a20558eb4e974b9b2e33d211930f3087b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a20558eb4e974b9b2e33d211930f3087b">ActiveActorDistance</a> {500.0f}</td></tr>
+<tr class="separator:a20558eb4e974b9b2e33d211930f3087b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad17f47da2ce84cb41f10564cd8eaf230"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#ad17f47da2ce84cb41f10564cd8eaf230">DebugMaterials</a> {false}</td></tr>
+<tr class="separator:ad17f47da2ce84cb41f10564cd8eaf230"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe0f20c833e3ad49782a0a6bced887c7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#afe0f20c833e3ad49782a0a6bced887c7">HideMaterialDistance</a> {500.0f}</td></tr>
+<tr class="separator:afe0f20c833e3ad49782a0a6bced887c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03ad774cd22b037f9e5cc6aa739310cb"><td class="memItemLeft" align="right" valign="top">int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a03ad774cd22b037f9e5cc6aa739310cb">InitialPoolSize</a> {10}</td></tr>
 <tr class="separator:a03ad774cd22b037f9e5cc6aa739310cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c637597fd3abb4838057e4521ac07ca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a9c637597fd3abb4838057e4521ac07ca">SpawnBushes</a> {true}</td></tr>
 <tr class="separator:a9c637597fd3abb4838057e4521ac07ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -118,57 +126,100 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Overriden from AActor</h2></td></tr>
-<tr class="memitem:a20b583e6ebf5c55bc9bbb9de4785182a"><td class="memItemLeft" align="right" valign="top">TArray&lt; <a class="el" href="../../d5/d70/classACarlaWheeledVehicle.html">ACarlaWheeledVehicle</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a20b583e6ebf5c55bc9bbb9de4785182a">VehiclesInLevel</a> {}</td></tr>
-<tr class="separator:a20b583e6ebf5c55bc9bbb9de4785182a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fce0976e08629d6433b8de6db9f77b1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a5fce0976e08629d6433b8de6db9f77b1">PoolTranslationTimer</a> {30.0f}</td></tr>
+<tr class="separator:a5fce0976e08629d6433b8de6db9f77b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01781d0e269ce79312a240d627d24d98"><td class="memItemLeft" align="right" valign="top">FTransform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a01781d0e269ce79312a240d627d24d98">InactivePoolTransform</a> { FQuat(1.0f, 1.0f, 1.0f, 1.0f), FVector(1.0f, 1.0f, 1.0f), FVector(1.0f, 1.0f, 1.0f)}</td></tr>
+<tr class="separator:a01781d0e269ce79312a240d627d24d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a756aeeecfcf2ae9b630c099601beef48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d4b/classALargeMapManager.html">ALargeMapManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a756aeeecfcf2ae9b630c099601beef48">LargeMap</a> {nullptr}</td></tr>
+<tr class="separator:a756aeeecfcf2ae9b630c099601beef48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1603b857ba9fddc0b64e6cfcd093cd11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d70/classACarlaWheeledVehicle.html">ACarlaWheeledVehicle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a1603b857ba9fddc0b64e6cfcd093cd11">HeroVehicle</a> {nullptr}</td></tr>
+<tr class="separator:a1603b857ba9fddc0b64e6cfcd093cd11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaea53caef38be9736f1a18f87f83c75"><td class="memItemLeft" align="right" valign="top">TMap&lt; FString, <a class="el" href="../../d5/d15/structFFoliageBlueprint.html">FFoliageBlueprint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#aaaea53caef38be9736f1a18f87f83c75">FoliageBlueprintCache</a> {}</td></tr>
 <tr class="separator:aaaea53caef38be9736f1a18f87f83c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00a20204191f566a07ee51dae9c790c7"><td class="memItemLeft" align="right" valign="top">TMap&lt; FString, <a class="el" href="../../df/d8b/structFTileData.html">FTileData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a00a20204191f566a07ee51dae9c790c7">TileCache</a> {}</td></tr>
+<tr class="separator:a00a20204191f566a07ee51dae9c790c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecb55b72b2ed9da1bf31ab9232763c8f"><td class="memItemLeft" align="right" valign="top">TMap&lt; FString, TArray&lt; <a class="el" href="../../d3/d03/structFPooledActor.html">FPooledActor</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#aecb55b72b2ed9da1bf31ab9232763c8f">ActorPool</a> {}</td></tr>
 <tr class="separator:aecb55b72b2ed9da1bf31ab9232763c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ffeca73743a1f5e22a2667d3767f6f8"><td class="memItemLeft" align="right" valign="top">TMap&lt; FString, <a class="el" href="../../df/d8b/structFTileData.html">FTileData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a8ffeca73743a1f5e22a2667d3767f6f8">TileDataCache</a> {}</td></tr>
-<tr class="separator:a8ffeca73743a1f5e22a2667d3767f6f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2d34d7261d40e98c9b645f63efb8b59"><td class="memItemLeft" align="right" valign="top">FTimerHandle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#ab2d34d7261d40e98c9b645f63efb8b59">UpdatePoolInactiveTransformTimer</a></td></tr>
+<tr class="separator:ab2d34d7261d40e98c9b645f63efb8b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8d1fb58c6f26e253d6466e8a240ead2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#ad8d1fb58c6f26e253d6466e8a240ead2">BeginPlay</a> () override</td></tr>
 <tr class="separator:ad8d1fb58c6f26e253d6466e8a240ead2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada74503c5ecccbf6bde2f4c065bca528"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#ada74503c5ecccbf6bde2f4c065bca528">Tick</a> (float DeltaTime) override</td></tr>
 <tr class="separator:ada74503c5ecccbf6bde2f4c065bca528"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a9e36f2815cae278cededced1b0f34d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a7a9e36f2815cae278cededced1b0f34d">IsFoliageTypeEnabled</a> (const FString &amp;Path) const</td></tr>
 <tr class="separator:a7a9e36f2815cae278cededced1b0f34d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a794e8614fa80fd07ca1298db76eb22eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a794e8614fa80fd07ca1298db76eb22eb">CheckIfAnyVehicleInLevel</a> () const</td></tr>
-<tr class="separator:a794e8614fa80fd07ca1298db76eb22eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19bd46f892ce65d008e4951d630f60a5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a19bd46f892ce65d008e4951d630f60a5">CheckForNewTiles</a> () const</td></tr>
 <tr class="separator:a19bd46f892ce65d008e4951d630f60a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af28528442b4fd8e977b39b5777d839d2"><td class="memItemLeft" align="right" valign="top">TArray&lt; FString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#af28528442b4fd8e977b39b5777d839d2">GetTilesInUse</a> ()</td></tr>
 <tr class="separator:af28528442b4fd8e977b39b5777d839d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a1fa906408eac95328657b2c6127fd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a0a1fa906408eac95328657b2c6127fd1">UpdateVehiclesDetectionBoxes</a> ()</td></tr>
-<tr class="separator:a0a1fa906408eac95328657b2c6127fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32038e0fa17ab1ec8c63ee1be292dcfe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a32038e0fa17ab1ec8c63ee1be292dcfe">UpdateMaterials</a> (TArray&lt; FString &gt; &amp;Tiles)</td></tr>
-<tr class="separator:a32038e0fa17ab1ec8c63ee1be292dcfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab142f888f37f0f9aeb6bf9be855eb376"><td class="memItemLeft" align="right" valign="top">TArray&lt; TPair&lt; <a class="el" href="../../d5/d15/structFFoliageBlueprint.html">FFoliageBlueprint</a>, TArray&lt; FTransform &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#ab142f888f37f0f9aeb6bf9be855eb376">GetElementsToSpawn</a> (const TArray&lt; FString &gt; &amp;Tiles)</td></tr>
-<tr class="separator:ab142f888f37f0f9aeb6bf9be855eb376"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae439004440975cef992c65b6d3d61f8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#ae439004440975cef992c65b6d3d61f8c">SpawnSkeletalFoliages</a> (TArray&lt; TPair&lt; <a class="el" href="../../d5/d15/structFFoliageBlueprint.html">FFoliageBlueprint</a>, TArray&lt; FTransform &gt;&gt;&gt; &amp;ElementsToSpawn)</td></tr>
-<tr class="separator:ae439004440975cef992c65b6d3d61f8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a984bc1d93b1193d377209ba1d951e04f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a984bc1d93b1193d377209ba1d951e04f">UpdateMaterials</a> (<a class="el" href="../../df/d8b/structFTileData.html">FTileData</a> *Tile)</td></tr>
+<tr class="separator:a984bc1d93b1193d377209ba1d951e04f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6375d88c23ddd984558ed42f0a312f63"><td class="memItemLeft" align="right" valign="top">TArray&lt; <a class="el" href="../../d2/d29/structFElementsToSpawn.html">FElementsToSpawn</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a6375d88c23ddd984558ed42f0a312f63">GetElementsToSpawn</a> (<a class="el" href="../../df/d8b/structFTileData.html">FTileData</a> *Tile)</td></tr>
+<tr class="separator:a6375d88c23ddd984558ed42f0a312f63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12dd465c5e5cbf21c78818bbee11b877"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a12dd465c5e5cbf21c78818bbee11b877">SpawnSkeletalFoliages</a> (TArray&lt; <a class="el" href="../../d2/d29/structFElementsToSpawn.html">FElementsToSpawn</a> &gt; &amp;ElementsToSpawn)</td></tr>
+<tr class="separator:a12dd465c5e5cbf21c78818bbee11b877"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a879b3c06f32946d1a19a4c397a94963f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a879b3c06f32946d1a19a4c397a94963f">DestroySkeletalFoliages</a> ()</td></tr>
 <tr class="separator:a879b3c06f32946d1a19a4c397a94963f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a469b7f34604264569300de3b9c6da097"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a469b7f34604264569300de3b9c6da097">EnableActorFromPool</a> (const FTransform &amp;Transform, TArray&lt; <a class="el" href="../../d3/d03/structFPooledActor.html">FPooledActor</a> &gt; &amp;Pool)</td></tr>
-<tr class="separator:a469b7f34604264569300de3b9c6da097"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38463a39618ace39ad82a80f1edf7e2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a38463a39618ace39ad82a80f1edf7e2a">UpdateTileDataCache</a> ()</td></tr>
-<tr class="separator:a38463a39618ace39ad82a80f1edf7e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5345edbf2372fc5593a21bb27b2845d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a5345edbf2372fc5593a21bb27b2845d0">UpdateFoliageBlueprintCache</a> ()</td></tr>
-<tr class="separator:a5345edbf2372fc5593a21bb27b2845d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cacdabd81359e49b1986b9c12967119"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a0cacdabd81359e49b1986b9c12967119">GenerateTileDataInternals</a> ()</td></tr>
-<tr class="separator:a0cacdabd81359e49b1986b9c12967119"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99ad29389749c036720c69c6a58ce404"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a99ad29389749c036720c69c6a58ce404">InitializeInstancedStaticMeshComponentCache</a> (<a class="el" href="../../df/d8b/structFTileData.html">FTileData</a> &amp;TileData)</td></tr>
-<tr class="separator:a99ad29389749c036720c69c6a58ce404"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a513a71939d4763387396cd9e867ddff3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a513a71939d4763387396cd9e867ddff3">InitializeMaterialCache</a> (<a class="el" href="../../df/d8b/structFTileData.html">FTileData</a> &amp;TileData)</td></tr>
-<tr class="separator:a513a71939d4763387396cd9e867ddff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e395aa1f18aecaf8f8257457ac02eb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a7e395aa1f18aecaf8f8257457ac02eb9">ActivePooledActors</a> ()</td></tr>
+<tr class="separator:a7e395aa1f18aecaf8f8257457ac02eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7512fa4413d8e066c757d901a36ae52f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a7512fa4413d8e066c757d901a36ae52f">EnableActorFromPool</a> (const FTransform &amp;Transform, int32 Index, std::shared_ptr&lt; <a class="el" href="../../df/d6a/structFTileMeshComponent.html">FTileMeshComponent</a> &gt; &amp;TileMeshComponent, TArray&lt; <a class="el" href="../../d3/d03/structFPooledActor.html">FPooledActor</a> &gt; &amp;Pool)</td></tr>
+<tr class="separator:a7512fa4413d8e066c757d901a36ae52f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9181debaeebfb82bc853ec5b9abc400d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a9181debaeebfb82bc853ec5b9abc400d">CreateOrUpdateTileCache</a> (ULevel *InLevel)</td></tr>
+<tr class="separator:a9181debaeebfb82bc853ec5b9abc400d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a634bf842e0f9c66dc96bae3a7dc0e5b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a634bf842e0f9c66dc96bae3a7dc0e5b4">UpdateFoliageBlueprintCache</a> (ULevel *InLevel)</td></tr>
+<tr class="separator:a634bf842e0f9c66dc96bae3a7dc0e5b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af46c33721883d7b9ad484f8a1b6f68c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#af46c33721883d7b9ad484f8a1b6f68c4">SetTileDataInternals</a> (<a class="el" href="../../df/d8b/structFTileData.html">FTileData</a> &amp;TileData)</td></tr>
+<tr class="separator:af46c33721883d7b9ad484f8a1b6f68c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25d35874d855f175831b073c099b6ce0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a25d35874d855f175831b073c099b6ce0">SetInstancedStaticMeshComponentCache</a> (<a class="el" href="../../df/d8b/structFTileData.html">FTileData</a> &amp;TileData)</td></tr>
+<tr class="separator:a25d35874d855f175831b073c099b6ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c109718ebfecaf396d9ab9365dc3334"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a6c109718ebfecaf396d9ab9365dc3334">SetMaterialCache</a> (<a class="el" href="../../df/d8b/structFTileData.html">FTileData</a> &amp;TileData)</td></tr>
+<tr class="separator:a6c109718ebfecaf396d9ab9365dc3334"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79e5771a17cde84828630b0950614708"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a79e5771a17cde84828630b0950614708">FreeTileCache</a> (ULevel *InLevel)</td></tr>
+<tr class="separator:a79e5771a17cde84828630b0950614708"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf2b61c9dc617c0968f75af789a3232c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#acf2b61c9dc617c0968f75af789a3232c">OnLevelAddedToWorld</a> (ULevel *InLevel, UWorld *InWorld)</td></tr>
+<tr class="separator:acf2b61c9dc617c0968f75af789a3232c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad14ab10f1fcb2061571fcc69adcbedfc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#ad14ab10f1fcb2061571fcc69adcbedfc">OnLevelRemovedFromWorld</a> (ULevel *InLevel, UWorld *InWorld)</td></tr>
+<tr class="separator:ad14ab10f1fcb2061571fcc69adcbedfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaafc726e7a2a97cc503cb52ef3af28eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#aaafc726e7a2a97cc503cb52ef3af28eb">PostWorldOriginOffset</a> (UWorld *, FIntVector, FIntVector InDstOrigin)</td></tr>
+<tr class="separator:aaafc726e7a2a97cc503cb52ef3af28eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3bcf28146717a16263fba4be85003d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#aa3bcf28146717a16263fba4be85003d4">CreatePoolForBPClass</a> (const <a class="el" href="../../d5/d15/structFFoliageBlueprint.html">FFoliageBlueprint</a> &amp;BP)</td></tr>
 <tr class="separator:aa3bcf28146717a16263fba4be85003d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04aeb674f7af939dd198e9ca06767427"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/da4/classAActor.html">AActor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a04aeb674f7af939dd198e9ca06767427">CreateFoliage</a> (const <a class="el" href="../../d5/d15/structFFoliageBlueprint.html">FFoliageBlueprint</a> &amp;BP, const FTransform &amp;Transform) const</td></tr>
 <tr class="separator:a04aeb674f7af939dd198e9ca06767427"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4df9b359890d0fc88c2e17a3810e3e81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dfc/classAVegetationManager.html#a4df9b359890d0fc88c2e17a3810e3e81">GetSketalTemplates</a> ()</td></tr>
+<tr class="separator:a4df9b359890d0fc88c2e17a3810e3e81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00067">67</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00088">88</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7e395aa1f18aecaf8f8257457ac02eb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e395aa1f18aecaf8f8257457ac02eb9">&#9670;&nbsp;</a></span>ActivePooledActors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AVegetationManager::ActivePooledActors </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00589">589</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+
+</div>
+</div>
 <a id="a754a4ad1c9c4cbd269ba7f722ec9d775"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a754a4ad1c9c4cbd269ba7f722ec9d775">&#9670;&nbsp;</a></span>AddVehicle()</h2>
 
@@ -185,11 +236,11 @@ Overriden from AActor</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00178">178</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00277">277</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, and <a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01058">ACarlaWheeledVehicle::AddReferenceToManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01071">ACarlaWheeledVehicle::AddReferenceToManager()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -232,7 +283,17 @@ Overriden from AActor</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00142">142</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00229">229</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00100">UCarlaStatics::GetLargeMapManager()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00728">OnLevelAddedToWorld()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00735">OnLevelRemovedFromWorld()</a>, and <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00741">PostWorldOriginOffset()</a>.</p>
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_ad8d1fb58c6f26e253d6466e8a240ead2_cgraph.svg" width="100%" height="503"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 
 </div>
 </div>
@@ -259,44 +320,17 @@ Overriden from AActor</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00602">602</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00769">769</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00059">FPooledActor::Actor</a>, and <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>.</p>
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00036">FTileData::InstancedFoliageActor</a>, and <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>.</p>
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_a19bd46f892ce65d008e4951d630f60a5_cgraph.svg" width="280" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-
-</div>
-</div>
-<a id="a794e8614fa80fd07ca1298db76eb22eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a794e8614fa80fd07ca1298db76eb22eb">&#9670;&nbsp;</a></span>CheckIfAnyVehicleInLevel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool AVegetationManager::CheckIfAnyVehicleInLevel </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00578">578</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
 
 </div>
 </div>
@@ -334,9 +368,47 @@ Overriden from AActor</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00562">562</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00689">689</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00059">FPooledActor::Actor</a>, and <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00047">FFoliageBlueprint::SpawnedClass</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00052">FFoliageBlueprint::SpawnedClass</a>.</p>
+
+</div>
+</div>
+<a id="a9181debaeebfb82bc853ec5b9abc400d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9181debaeebfb82bc853ec5b9abc400d">&#9670;&nbsp;</a></span>CreateOrUpdateTileCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AVegetationManager::CreateOrUpdateTileCache </td>
+          <td>(</td>
+          <td class="paramtype">ULevel *&#160;</td>
+          <td class="paramname"><em>InLevel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00298">298</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00036">FTileData::InstancedFoliageActor</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00039">FTileData::MaterialInstanceDynamicCache</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00037">FTileData::ProceduralFoliageVolume</a>, and <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00038">FTileData::TileMeshesCache</a>.</p>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_a9181debaeebfb82bc853ec5b9abc400d_cgraph.svg" width="323" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
@@ -364,14 +436,14 @@ Overriden from AActor</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00539">539</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00664">664</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00059">FPooledActor::Actor</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00045">FFoliageBlueprint::BPClassName</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00065">FPooledActor::DisableActor()</a>, and <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>.</p>
-<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00065">FPooledActor::Actor</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00051">FFoliageBlueprint::BPFullClassName</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00093">FPooledActor::DisableActor()</a>, and <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>.</p>
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_aa3bcf28146717a16263fba4be85003d4_cgraph.svg" width="431" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -401,22 +473,12 @@ Overriden from AActor</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00491">491</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00059">FPooledActor::Actor</a>, and <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00100">UCarlaStatics::GetLargeMapManager()</a>.</p>
-<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_a879b3c06f32946d1a19a4c397a94963f_cgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00615">615</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a469b7f34604264569300de3b9c6da097"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a469b7f34604264569300de3b9c6da097">&#9670;&nbsp;</a></span>EnableActorFromPool()</h2>
+<a id="a7512fa4413d8e066c757d901a36ae52f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7512fa4413d8e066c757d901a36ae52f">&#9670;&nbsp;</a></span>EnableActorFromPool()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -429,6 +491,18 @@ Overriden from AActor</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const FTransform &amp;&#160;</td>
           <td class="paramname"><em>Transform</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32&#160;</td>
+          <td class="paramname"><em>Index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="../../df/d6a/structFTileMeshComponent.html">FTileMeshComponent</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>TileMeshComponent</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -449,22 +523,12 @@ Overriden from AActor</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00514">514</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00100">UCarlaStatics::GetLargeMapManager()</a>, and <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00266">ALargeMapManager::GlobalToLocalTransform()</a>.</p>
-<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_a469b7f34604264569300de3b9c6da097_cgraph.svg" width="100%" height="424"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00639">639</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a0cacdabd81359e49b1986b9c12967119"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cacdabd81359e49b1986b9c12967119">&#9670;&nbsp;</a></span>GenerateTileDataInternals()</h2>
+<a id="a79e5771a17cde84828630b0950614708"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79e5771a17cde84828630b0950614708">&#9670;&nbsp;</a></span>FreeTileCache()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -473,7 +537,75 @@ Overriden from AActor</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AVegetationManager::GenerateTileDataInternals </td>
+          <td class="memname">void AVegetationManager::FreeTileCache </td>
+          <td>(</td>
+          <td class="paramtype">ULevel *&#160;</td>
+          <td class="paramname"><em>InLevel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00448">448</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00036">FTileData::InstancedFoliageActor</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00039">FTileData::MaterialInstanceDynamicCache</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00037">FTileData::ProceduralFoliageVolume</a>, and <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00038">FTileData::TileMeshesCache</a>.</p>
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_a79e5771a17cde84828630b0950614708_cgraph.svg" width="280" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a6375d88c23ddd984558ed42f0a312f63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6375d88c23ddd984558ed42f0a312f63">&#9670;&nbsp;</a></span>GetElementsToSpawn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TArray&lt; <a class="el" href="../../d2/d29/structFElementsToSpawn.html">FElementsToSpawn</a> &gt; AVegetationManager::GetElementsToSpawn </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d8b/structFTileData.html">FTileData</a> *&#160;</td>
+          <td class="paramname"><em>Tile</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00496">496</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00028">FTileMeshComponent::IndicesInUse</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00027">FTileMeshComponent::InstancedStaticMeshComponent</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00082">FElementsToSpawn::TileMeshComponent</a>, and <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00038">FTileData::TileMeshesCache</a>.</p>
+
+</div>
+</div>
+<a id="a4df9b359890d0fc88c2e17a3810e3e81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4df9b359890d0fc88c2e17a3810e3e81">&#9670;&nbsp;</a></span>GetSketalTemplates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AVegetationManager::GetSketalTemplates </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -485,46 +617,6 @@ Overriden from AActor</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00287">287</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
-
-</div>
-</div>
-<a id="ab142f888f37f0f9aeb6bf9be855eb376"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab142f888f37f0f9aeb6bf9be855eb376">&#9670;&nbsp;</a></span>GetElementsToSpawn()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">TArray&lt; TPair&lt; <a class="el" href="../../d5/d15/structFFoliageBlueprint.html">FFoliageBlueprint</a>, TArray&lt; FTransform &gt; &gt; &gt; AVegetationManager::GetElementsToSpawn </td>
-          <td>(</td>
-          <td class="paramtype">const TArray&lt; FString &gt; &amp;&#160;</td>
-          <td class="paramname"><em>Tiles</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00384">384</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00100">UCarlaStatics::GetLargeMapManager()</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00060">FPooledActor::GlobalTransform</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00026">FTileMeshComponent::IndicesInUse</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00025">FTileMeshComponent::InstancedStaticMeshComponent</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00082">FFoliageBlueprint::IsValid()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00279">ALargeMapManager::LocalToGlobalTransform()</a>, and <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00035">FTileData::TileMeshesCache</a>.</p>
-<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_ab142f888f37f0f9aeb6bf9be855eb376_cgraph.svg" width="100%" height="454"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -551,9 +643,9 @@ Overriden from AActor</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00620">620</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00787">787</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00033">FTileData::InstancedFoliageActor</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00034">FTileData::ProceduralFoliageVolume</a>, and <a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00036">FTileData::InstancedFoliageActor</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, and <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00037">FTileData::ProceduralFoliageVolume</a>.</p>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
@@ -562,74 +654,6 @@ Overriden from AActor</h2></td></tr>
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_af28528442b4fd8e977b39b5777d839d2_cgraph.svg" width="280" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-
-</div>
-</div>
-<a id="a99ad29389749c036720c69c6a58ce404"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99ad29389749c036720c69c6a58ce404">&#9670;&nbsp;</a></span>InitializeInstancedStaticMeshComponentCache()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AVegetationManager::InitializeInstancedStaticMeshComponentCache </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d8b/structFTileData.html">FTileData</a> &amp;&#160;</td>
-          <td class="paramname"><em>TileData</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00299">299</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00033">FTileData::InstancedFoliageActor</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00025">FTileMeshComponent::InstancedStaticMeshComponent</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00082">FFoliageBlueprint::IsValid()</a>, and <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00035">FTileData::TileMeshesCache</a>.</p>
-<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_a99ad29389749c036720c69c6a58ce404_cgraph.svg" width="388" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="a513a71939d4763387396cd9e867ddff3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a513a71939d4763387396cd9e867ddff3">&#9670;&nbsp;</a></span>InitializeMaterialCache()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AVegetationManager::InitializeMaterialCache </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d8b/structFTileData.html">FTileData</a> &amp;&#160;</td>
-          <td class="paramname"><em>TileData</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00331">331</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00025">FTileMeshComponent::InstancedStaticMeshComponent</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00036">FTileData::MaterialInstanceDynamicCache</a>, and <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00035">FTileData::TileMeshesCache</a>.</p>
 
 </div>
 </div>
@@ -657,7 +681,157 @@ Overriden from AActor</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00584">584</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00751">751</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+
+</div>
+</div>
+<a id="acf2b61c9dc617c0968f75af789a3232c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf2b61c9dc617c0968f75af789a3232c">&#9670;&nbsp;</a></span>OnLevelAddedToWorld()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AVegetationManager::OnLevelAddedToWorld </td>
+          <td>(</td>
+          <td class="paramtype">ULevel *&#160;</td>
+          <td class="paramname"><em>InLevel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UWorld *&#160;</td>
+          <td class="paramname"><em>InWorld</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00728">728</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00229">BeginPlay()</a>.</p>
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_acf2b61c9dc617c0968f75af789a3232c_icgraph.svg" width="390" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ad14ab10f1fcb2061571fcc69adcbedfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad14ab10f1fcb2061571fcc69adcbedfc">&#9670;&nbsp;</a></span>OnLevelRemovedFromWorld()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AVegetationManager::OnLevelRemovedFromWorld </td>
+          <td>(</td>
+          <td class="paramtype">ULevel *&#160;</td>
+          <td class="paramname"><em>InLevel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UWorld *&#160;</td>
+          <td class="paramname"><em>InWorld</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00735">735</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00229">BeginPlay()</a>.</p>
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_ad14ab10f1fcb2061571fcc69adcbedfc_icgraph.svg" width="428" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aaafc726e7a2a97cc503cb52ef3af28eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaafc726e7a2a97cc503cb52ef3af28eb">&#9670;&nbsp;</a></span>PostWorldOriginOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AVegetationManager::PostWorldOriginOffset </td>
+          <td>(</td>
+          <td class="paramtype">UWorld *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FIntVector&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FIntVector&#160;</td>
+          <td class="paramname"><em>InDstOrigin</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00741">741</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00229">BeginPlay()</a>.</p>
+<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_aaafc726e7a2a97cc503cb52ef3af28eb_icgraph.svg" width="388" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
@@ -677,32 +851,136 @@ Overriden from AActor</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00189">189</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00286">286</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01073">ACarlaWheeledVehicle::RemoveReferenceToManager()</a>.</p>
-<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01086">ACarlaWheeledVehicle::RemoveReferenceToManager()</a>.</p>
+<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_a90fdf09875859fe520d1d48ca8b202ae_cgraph.svg" width="280" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_a90fdf09875859fe520d1d48ca8b202ae_icgraph.svg" width="651" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="ae439004440975cef992c65b6d3d61f8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae439004440975cef992c65b6d3d61f8c">&#9670;&nbsp;</a></span>SpawnSkeletalFoliages()</h2>
+<a id="a25d35874d855f175831b073c099b6ce0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25d35874d855f175831b073c099b6ce0">&#9670;&nbsp;</a></span>SetInstancedStaticMeshComponentCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AVegetationManager::SetInstancedStaticMeshComponentCache </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d8b/structFTileData.html">FTileData</a> &amp;&#160;</td>
+          <td class="paramname"><em>TileData</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00348">348</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00201">FTileData::ContainsMesh()</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00036">FTileData::InstancedFoliageActor</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00038">FTileData::TileMeshesCache</a>, and <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00180">FTileData::UpdateTileMeshComponent()</a>.</p>
+<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_a25d35874d855f175831b073c099b6ce0_cgraph.svg" width="516" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a6c109718ebfecaf396d9ab9365dc3334"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c109718ebfecaf396d9ab9365dc3334">&#9670;&nbsp;</a></span>SetMaterialCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AVegetationManager::SetMaterialCache </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d8b/structFTileData.html">FTileData</a> &amp;&#160;</td>
+          <td class="paramname"><em>TileData</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00377">377</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00027">FTileMeshComponent::InstancedStaticMeshComponent</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00039">FTileData::MaterialInstanceDynamicCache</a>, and <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00038">FTileData::TileMeshesCache</a>.</p>
+<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_a6c109718ebfecaf396d9ab9365dc3334_cgraph.svg" width="280" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="af46c33721883d7b9ad484f8a1b6f68c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af46c33721883d7b9ad484f8a1b6f68c4">&#9670;&nbsp;</a></span>SetTileDataInternals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AVegetationManager::SetTileDataInternals </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d8b/structFTileData.html">FTileData</a> &amp;&#160;</td>
+          <td class="paramname"><em>TileData</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00341">341</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a12dd465c5e5cbf21c78818bbee11b877"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12dd465c5e5cbf21c78818bbee11b877">&#9670;&nbsp;</a></span>SpawnSkeletalFoliages()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -713,7 +991,7 @@ Overriden from AActor</h2></td></tr>
         <tr>
           <td class="memname">void AVegetationManager::SpawnSkeletalFoliages </td>
           <td>(</td>
-          <td class="paramtype">TArray&lt; TPair&lt; <a class="el" href="../../d5/d15/structFFoliageBlueprint.html">FFoliageBlueprint</a>, TArray&lt; FTransform &gt;&gt;&gt; &amp;&#160;</td>
+          <td class="paramtype">TArray&lt; <a class="el" href="../../d2/d29/structFElementsToSpawn.html">FElementsToSpawn</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>ElementsToSpawn</em></td><td>)</td>
           <td></td>
         </tr>
@@ -725,15 +1003,15 @@ Overriden from AActor</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00453">453</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00541">541</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00059">FPooledActor::Actor</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00045">FFoliageBlueprint::BPClassName</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00049">FPooledActor::EnableActor()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00100">UCarlaStatics::GetLargeMapManager()</a>, <a class="el" href="../../df/d6c/LargeMapManager_8cpp_source.html#l00266">ALargeMapManager::GlobalToLocalTransform()</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00060">FPooledActor::GlobalTransform</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, and <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00082">FFoliageBlueprint::IsValid()</a>.</p>
-<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00065">FPooledActor::Actor</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00053">FPooledActor::EnableActor()</a>, and <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>.</p>
+<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_ae439004440975cef992c65b6d3d61f8c_cgraph.svg" width="100%" height="515"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_a12dd465c5e5cbf21c78818bbee11b877_cgraph.svg" width="432" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -763,12 +1041,22 @@ Overriden from AActor</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00148">148</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00239">239</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>.</p>
+<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_ada74503c5ecccbf6bde2f4c065bca528_cgraph.svg" width="280" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
-<a id="a5345edbf2372fc5593a21bb27b2845d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5345edbf2372fc5593a21bb27b2845d0">&#9670;&nbsp;</a></span>UpdateFoliageBlueprintCache()</h2>
+<a id="a634bf842e0f9c66dc96bae3a7dc0e5b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a634bf842e0f9c66dc96bae3a7dc0e5b4">&#9670;&nbsp;</a></span>UpdateFoliageBlueprintCache()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -779,7 +1067,8 @@ Overriden from AActor</h2></td></tr>
         <tr>
           <td class="memname">void AVegetationManager::UpdateFoliageBlueprintCache </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">ULevel *&#160;</td>
+          <td class="paramname"><em>InLevel</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -790,22 +1079,22 @@ Overriden from AActor</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00247">247</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00410">410</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00059">FPooledActor::Actor</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00045">FFoliageBlueprint::BPClassName</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00082">FFoliageBlueprint::IsValid()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00087">FFoliageBlueprint::SetBPClassName()</a>, and <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00111">FFoliageBlueprint::SetSpawnedClass()</a>.</p>
-<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00051">FFoliageBlueprint::BPFullClassName</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00036">FTileData::InstancedFoliageActor</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00133">FFoliageBlueprint::IsValid()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00140">FFoliageBlueprint::SetBPClassName()</a>, and <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00164">FFoliageBlueprint::SetSpawnedClass()</a>.</p>
+<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_a5345edbf2372fc5593a21bb27b2845d0_cgraph.svg" width="643" height="235"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_a634bf842e0f9c66dc96bae3a7dc0e5b4_cgraph.svg" width="643" height="235"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a32038e0fa17ab1ec8c63ee1be292dcfe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32038e0fa17ab1ec8c63ee1be292dcfe">&#9670;&nbsp;</a></span>UpdateMaterials()</h2>
+<a id="a984bc1d93b1193d377209ba1d951e04f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a984bc1d93b1193d377209ba1d951e04f">&#9670;&nbsp;</a></span>UpdateMaterials()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -816,8 +1105,8 @@ Overriden from AActor</h2></td></tr>
         <tr>
           <td class="memname">void AVegetationManager::UpdateMaterials </td>
           <td>(</td>
-          <td class="paramtype">TArray&lt; FString &gt; &amp;&#160;</td>
-          <td class="paramname"><em>Tiles</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../df/d8b/structFTileData.html">FTileData</a> *&#160;</td>
+          <td class="paramname"><em>Tile</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -828,87 +1117,56 @@ Overriden from AActor</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00371">371</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00488">488</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, and <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00128">FTileData::UpdateMaterialCache()</a>.</p>
-<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, and <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00212">FTileData::UpdateMaterialCache()</a>.</p>
+<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_a32038e0fa17ab1ec8c63ee1be292dcfe_cgraph.svg" width="407" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_a984bc1d93b1193d377209ba1d951e04f_cgraph.svg" width="407" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a38463a39618ace39ad82a80f1edf7e2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38463a39618ace39ad82a80f1edf7e2a">&#9670;&nbsp;</a></span>UpdateTileDataCache()</h2>
+<a id="a1e208e71d0ca7a83b18d0e8024e89b8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e208e71d0ca7a83b18d0e8024e89b8d">&#9670;&nbsp;</a></span>UpdatePoolBasePosition()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void AVegetationManager::UpdateTileDataCache </td>
+          <td class="memname">void AVegetationManager::UpdatePoolBasePosition </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00203">203</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00059">FPooledActor::Actor</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00033">FTileData::InstancedFoliageActor</a>, <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, and <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00034">FTileData::ProceduralFoliageVolume</a>.</p>
-<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dfc/classAVegetationManager_a38463a39618ace39ad82a80f1edf7e2a_cgraph.svg" width="296" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="a0a1fa906408eac95328657b2c6127fd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a1fa906408eac95328657b2c6127fd1">&#9670;&nbsp;</a></span>UpdateVehiclesDetectionBoxes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AVegetationManager::UpdateVehiclesDetectionBoxes </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00364">364</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00710">710</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a20558eb4e974b9b2e33d211930f3087b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20558eb4e974b9b2e33d211930f3087b">&#9670;&nbsp;</a></span>ActiveActorDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float AVegetationManager::ActiveActorDistance {500.0f}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00107">107</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+
+</div>
+</div>
 <a id="aecb55b72b2ed9da1bf31ab9232763c8f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aecb55b72b2ed9da1bf31ab9232763c8f">&#9670;&nbsp;</a></span>ActorPool</h2>
 
@@ -929,7 +1187,23 @@ Overriden from AActor</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00130">130</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00181">181</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+
+</div>
+</div>
+<a id="ad17f47da2ce84cb41f10564cd8eaf230"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad17f47da2ce84cb41f10564cd8eaf230">&#9670;&nbsp;</a></span>DebugMaterials</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AVegetationManager::DebugMaterials {false}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00101">101</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
 
 </div>
 </div>
@@ -953,7 +1227,71 @@ Overriden from AActor</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00129">129</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00178">178</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+
+</div>
+</div>
+<a id="a1603b857ba9fddc0b64e6cfcd093cd11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1603b857ba9fddc0b64e6cfcd093cd11">&#9670;&nbsp;</a></span>HeroVehicle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d70/classACarlaWheeledVehicle.html">ACarlaWheeledVehicle</a>* AVegetationManager::HeroVehicle {nullptr}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00176">176</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+
+</div>
+</div>
+<a id="afe0f20c833e3ad49782a0a6bced887c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe0f20c833e3ad49782a0a6bced887c7">&#9670;&nbsp;</a></span>HideMaterialDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float AVegetationManager::HideMaterialDistance {500.0f}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00104">104</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+
+</div>
+</div>
+<a id="a01781d0e269ce79312a240d627d24d98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01781d0e269ce79312a240d627d24d98">&#9670;&nbsp;</a></span>InactivePoolTransform</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FTransform AVegetationManager::InactivePoolTransform { FQuat(1.0f, 1.0f, 1.0f, 1.0f), FVector(1.0f, 1.0f, 1.0f), FVector(1.0f, 1.0f, 1.0f)}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00173">173</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
 
 </div>
 </div>
@@ -964,12 +1302,60 @@ Overriden from AActor</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int32 AVegetationManager::InitialPoolSize {5}</td>
+          <td class="memname">int32 AVegetationManager::InitialPoolSize {10}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00094">94</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00126">126</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+
+</div>
+</div>
+<a id="a756aeeecfcf2ae9b630c099601beef48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a756aeeecfcf2ae9b630c099601beef48">&#9670;&nbsp;</a></span>LargeMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d4b/classALargeMapManager.html">ALargeMapManager</a>* AVegetationManager::LargeMap {nullptr}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00175">175</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+
+</div>
+</div>
+<a id="a5fce0976e08629d6433b8de6db9f77b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fce0976e08629d6433b8de6db9f77b1">&#9670;&nbsp;</a></span>PoolTranslationTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float AVegetationManager::PoolTranslationTimer {30.0f}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00172">172</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
 
 </div>
 </div>
@@ -985,7 +1371,7 @@ Overriden from AActor</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00079">79</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00111">111</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
 
 </div>
 </div>
@@ -1001,7 +1387,7 @@ Overriden from AActor</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00088">88</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00120">120</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
 
 </div>
 </div>
@@ -1017,7 +1403,7 @@ Overriden from AActor</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00085">85</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00117">117</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
 
 </div>
 </div>
@@ -1033,7 +1419,7 @@ Overriden from AActor</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00091">91</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00123">123</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
 
 </div>
 </div>
@@ -1049,12 +1435,12 @@ Overriden from AActor</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00082">82</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00114">114</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
 
 </div>
 </div>
-<a id="a8ffeca73743a1f5e22a2667d3767f6f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ffeca73743a1f5e22a2667d3767f6f8">&#9670;&nbsp;</a></span>TileDataCache</h2>
+<a id="a00a20204191f566a07ee51dae9c790c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00a20204191f566a07ee51dae9c790c7">&#9670;&nbsp;</a></span>TileCache</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1063,7 +1449,7 @@ Overriden from AActor</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">TMap&lt;FString, <a class="el" href="../../df/d8b/structFTileData.html">FTileData</a>&gt; AVegetationManager::TileDataCache {}</td>
+          <td class="memname">TMap&lt;FString, <a class="el" href="../../df/d8b/structFTileData.html">FTileData</a>&gt; AVegetationManager::TileCache {}</td>
         </tr>
       </table>
   </td>
@@ -1073,12 +1459,12 @@ Overriden from AActor</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00131">131</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00179">179</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
 
 </div>
 </div>
-<a id="a20b583e6ebf5c55bc9bbb9de4785182a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20b583e6ebf5c55bc9bbb9de4785182a">&#9670;&nbsp;</a></span>VehiclesInLevel</h2>
+<a id="ab2d34d7261d40e98c9b645f63efb8b59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2d34d7261d40e98c9b645f63efb8b59">&#9670;&nbsp;</a></span>UpdatePoolInactiveTransformTimer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1087,7 +1473,7 @@ Overriden from AActor</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">TArray&lt;<a class="el" href="../../d5/d70/classACarlaWheeledVehicle.html">ACarlaWheeledVehicle</a>*&gt; AVegetationManager::VehiclesInLevel {}</td>
+          <td class="memname">FTimerHandle AVegetationManager::UpdatePoolInactiveTransformTimer</td>
         </tr>
       </table>
   </td>
@@ -1097,7 +1483,7 @@ Overriden from AActor</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00128">128</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00183">183</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
 
 </div>
 </div>

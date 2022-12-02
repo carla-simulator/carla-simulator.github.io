@@ -98,10 +98,14 @@ Functions</h2></td></tr>
 <tr class="separator:af6751b841d21267b06b9c47a184884d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ed8dab34258bd6b98574ab6e4485d42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp.html#a4ed8dab34258bd6b98574ab6e4485d42">ReadFString</a> (std::istream &amp;InFile, FString &amp;OutObj)</td></tr>
 <tr class="separator:a4ed8dab34258bd6b98574ab6e4485d42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8136d84295eb9e3b1e524d67008642dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp.html#a8136d84295eb9e3b1e524d67008642dc">ReadFTransform</a> (std::ifstream &amp;InFile, FTransform &amp;OutObj)</td></tr>
+<tr class="separator:a8136d84295eb9e3b1e524d67008642dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae08e4aad382a9626efef6d44e45905d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp.html#ae08e4aad382a9626efef6d44e45905d2">ReadFVector</a> (std::istream &amp;InFile, FVector &amp;OutObj)</td></tr>
 <tr class="separator:ae08e4aad382a9626efef6d44e45905d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40ae2e78f27971b47934c69e98978397"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp.html#a40ae2e78f27971b47934c69e98978397">WriteFString</a> (std::ostream &amp;OutFile, const FString &amp;InObj)</td></tr>
 <tr class="separator:a40ae2e78f27971b47934c69e98978397"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39c6608218ac880fd681ba838f4094b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp.html#a39c6608218ac880fd681ba838f4094b8">WriteFTransform</a> (std::ofstream &amp;OutFile, const FTransform &amp;InObj)</td></tr>
+<tr class="separator:a39c6608218ac880fd681ba838f4094b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a8b4129260148573aa7e5301f0540f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp.html#a9a8b4129260148573aa7e5301f0540f7">WriteFVector</a> (std::ostream &amp;OutFile, const FVector &amp;InObj)</td></tr>
 <tr class="separator:a9a8b4129260148573aa7e5301f0540f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -129,7 +133,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00016">16</a> of file <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html">CarlaRecorderHelpers.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dc6/CarlaRecorderQuery_8cpp_source.html#l00744">CarlaRecorderQuery::QueryBlocked()</a>, <a class="el" href="../../de/dc6/CarlaRecorderQuery_8cpp_source.html#l00564">CarlaRecorderQuery::QueryCollisions()</a>, <a class="el" href="../../de/dc6/CarlaRecorderQuery_8cpp_source.html#l00059">CarlaRecorderQuery::QueryInfo()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">CarlaReplayer::ReplayFile()</a>, and <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00321">ACarlaRecorder::Start()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dc6/CarlaRecorderQuery_8cpp_source.html#l00772">CarlaRecorderQuery::QueryBlocked()</a>, <a class="el" href="../../de/dc6/CarlaRecorderQuery_8cpp_source.html#l00592">CarlaRecorderQuery::QueryCollisions()</a>, <a class="el" href="../../de/dc6/CarlaRecorderQuery_8cpp_source.html#l00059">CarlaRecorderQuery::QueryInfo()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">CarlaReplayer::ReplayFile()</a>, and <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00346">ACarlaRecorder::Start()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -167,17 +171,57 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00083">83</a> of file <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html">CarlaRecorderHelpers.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00085">85</a> of file <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html">CarlaRecorderHelpers.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00013">CarlaRecorderHelperBuffer</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/de9/CarlaRecorderInfo_8h_source.html#l00021">CarlaRecorderInfo::Read()</a>, <a class="el" href="../../d8/d05/CarlaRecorderEventAdd_8cpp_source.html#l00037">CarlaRecorderEventAdd::Read()</a>, and <a class="el" href="../../d6/dd1/CarlaRecorderHelpers_8h_source.html#l00080">ReadTArray()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/de9/CarlaRecorderInfo_8h_source.html#l00021">CarlaRecorderInfo::Read()</a>, <a class="el" href="../../d2/d85/CarlaRecorderWalkerBones_8cpp_source.html#l00027">CarlaRecorderWalkerBones::Read()</a>, <a class="el" href="../../d8/d05/CarlaRecorderEventAdd_8cpp_source.html#l00037">CarlaRecorderEventAdd::Read()</a>, and <a class="el" href="../../d6/dd1/CarlaRecorderHelpers_8h_source.html#l00080">ReadTArray()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d51/CarlaRecorderHelpers_8cpp_a4ed8dab34258bd6b98574ab6e4485d42_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a8136d84295eb9e3b1e524d67008642dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8136d84295eb9e3b1e524d67008642dc">&#9670;&nbsp;</a></span>ReadFTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ReadFTransform </td>
+          <td>(</td>
+          <td class="paramtype">std::ifstream &amp;&#160;</td>
+          <td class="paramname"><em>InFile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FTransform &amp;&#160;</td>
+          <td class="paramname"><em>OutObj</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00075">75</a> of file <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html">CarlaRecorderHelpers.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00067">ReadFVector()</a>.</p>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d51/CarlaRecorderHelpers_8cpp_a8136d84295eb9e3b1e524d67008642dc_cgraph.svg" width="288" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -209,14 +253,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00066">66</a> of file <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html">CarlaRecorderHelpers.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00067">67</a> of file <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html">CarlaRecorderHelpers.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00102">FDenseTile::InitializeTile()</a>, <a class="el" href="../../dc/daa/CarlaRecorderBoundingBox_8cpp_source.html#l00017">CarlaRecorderBoundingBox::Read()</a>, <a class="el" href="../../dd/d45/CarlaRecorderPosition_8cpp_source.html#l00019">CarlaRecorderPosition::Read()</a>, <a class="el" href="../../d1/d5d/CarlaRecorderKinematics_8cpp_source.html#l00018">CarlaRecorderKinematics::Read()</a>, <a class="el" href="../../d8/d05/CarlaRecorderEventAdd_8cpp_source.html#l00037">CarlaRecorderEventAdd::Read()</a>, and <a class="el" href="../../d6/dd1/CarlaRecorderHelpers_8h_source.html#l00080">ReadTArray()</a>.</p>
-<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00178">FDenseTile::InitializeTile()</a>, <a class="el" href="../../dc/daa/CarlaRecorderBoundingBox_8cpp_source.html#l00017">CarlaRecorderBoundingBox::Read()</a>, <a class="el" href="../../d1/d5d/CarlaRecorderKinematics_8cpp_source.html#l00018">CarlaRecorderKinematics::Read()</a>, <a class="el" href="../../dd/d45/CarlaRecorderPosition_8cpp_source.html#l00019">CarlaRecorderPosition::Read()</a>, <a class="el" href="../../d2/d85/CarlaRecorderWalkerBones_8cpp_source.html#l00027">CarlaRecorderWalkerBones::Read()</a>, <a class="el" href="../../d8/d05/CarlaRecorderEventAdd_8cpp_source.html#l00037">CarlaRecorderEventAdd::Read()</a>, <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00075">ReadFTransform()</a>, and <a class="el" href="../../d6/dd1/CarlaRecorderHelpers_8h_source.html#l00080">ReadTArray()</a>.</p>
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d51/CarlaRecorderHelpers_8cpp_ae08e4aad382a9626efef6d44e45905d2_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -249,15 +293,65 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00051">51</a> of file <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html">CarlaRecorderHelpers.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00052">52</a> of file <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html">CarlaRecorderHelpers.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/de9/CarlaRecorderInfo_8h_source.html#l00029">CarlaRecorderInfo::Write()</a>, <a class="el" href="../../d8/d05/CarlaRecorderEventAdd_8cpp_source.html#l00011">CarlaRecorderEventAdd::Write()</a>, and <a class="el" href="../../d6/dd1/CarlaRecorderHelpers_8h_source.html#l00037">WriteTArray()</a>.</p>
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../df/de9/CarlaRecorderInfo_8h_source.html#l00029">CarlaRecorderInfo::Write()</a>, <a class="el" href="../../d2/d85/CarlaRecorderWalkerBones_8cpp_source.html#l00011">CarlaRecorderWalkerBones::Write()</a>, <a class="el" href="../../d8/d05/CarlaRecorderEventAdd_8cpp_source.html#l00011">CarlaRecorderEventAdd::Write()</a>, and <a class="el" href="../../d6/dd1/CarlaRecorderHelpers_8h_source.html#l00037">WriteTArray()</a>.</p>
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d51/CarlaRecorderHelpers_8cpp_a40ae2e78f27971b47934c69e98978397_icgraph.svg" width="100%" height="427"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d51/CarlaRecorderHelpers_8cpp_a40ae2e78f27971b47934c69e98978397_icgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a39c6608218ac880fd681ba838f4094b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39c6608218ac880fd681ba838f4094b8">&#9670;&nbsp;</a></span>WriteFTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WriteFTransform </td>
+          <td>(</td>
+          <td class="paramtype">std::ofstream &amp;&#160;</td>
+          <td class="paramname"><em>OutFile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FTransform &amp;&#160;</td>
+          <td class="paramname"><em>InObj</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00045">45</a> of file <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html">CarlaRecorderHelpers.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00037">WriteFVector()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/dd1/CarlaRecorderHelpers_8h_source.html#l00037">WriteTArray()</a>.</p>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d51/CarlaRecorderHelpers_8cpp_a39c6608218ac880fd681ba838f4094b8_cgraph.svg" width="291" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d51/CarlaRecorderHelpers_8cpp_a39c6608218ac880fd681ba838f4094b8_icgraph.svg" width="286" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -291,12 +385,12 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00037">37</a> of file <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html">CarlaRecorderHelpers.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00299">FSparseHighDetailMap::LoadTilesAtPosition()</a>, <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00400">FSparseHighDetailMap::SaveMap()</a>, <a class="el" href="../../dc/daa/CarlaRecorderBoundingBox_8cpp_source.html#l00011">CarlaRecorderBoundingBox::Write()</a>, <a class="el" href="../../dd/d45/CarlaRecorderPosition_8cpp_source.html#l00011">CarlaRecorderPosition::Write()</a>, <a class="el" href="../../d1/d5d/CarlaRecorderKinematics_8cpp_source.html#l00011">CarlaRecorderKinematics::Write()</a>, <a class="el" href="../../d8/d05/CarlaRecorderEventAdd_8cpp_source.html#l00011">CarlaRecorderEventAdd::Write()</a>, and <a class="el" href="../../d6/dd1/CarlaRecorderHelpers_8h_source.html#l00037">WriteTArray()</a>.</p>
-<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00880">FSparseHighDetailMap::SaveMap()</a>, <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00746">FSparseHighDetailMap::UpdateMaps()</a>, <a class="el" href="../../dc/daa/CarlaRecorderBoundingBox_8cpp_source.html#l00011">CarlaRecorderBoundingBox::Write()</a>, <a class="el" href="../../d1/d5d/CarlaRecorderKinematics_8cpp_source.html#l00011">CarlaRecorderKinematics::Write()</a>, <a class="el" href="../../dd/d45/CarlaRecorderPosition_8cpp_source.html#l00011">CarlaRecorderPosition::Write()</a>, <a class="el" href="../../d2/d85/CarlaRecorderWalkerBones_8cpp_source.html#l00011">CarlaRecorderWalkerBones::Write()</a>, <a class="el" href="../../d8/d05/CarlaRecorderEventAdd_8cpp_source.html#l00011">CarlaRecorderEventAdd::Write()</a>, <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00045">WriteFTransform()</a>, and <a class="el" href="../../d6/dd1/CarlaRecorderHelpers_8h_source.html#l00037">WriteTArray()</a>.</p>
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d51/CarlaRecorderHelpers_8cpp_a9a8b4129260148573aa7e5301f0540f7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -326,7 +420,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00013">13</a> of file <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html">CarlaRecorderHelpers.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00083">ReadFString()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00085">ReadFString()</a>.</p>
 
 </div>
 </div>

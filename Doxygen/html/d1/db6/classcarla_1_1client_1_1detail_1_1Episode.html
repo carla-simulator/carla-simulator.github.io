@@ -126,6 +126,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acbda29a6ba9457c5ae1a99c8bd88387d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa2c9d4a111adf6575e39980cfc4b8c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db6/classcarla_1_1client_1_1detail_1_1Episode.html#afa2c9d4a111adf6575e39980cfc4b8c3">Listen</a> ()</td></tr>
 <tr class="separator:afa2c9d4a111adf6575e39980cfc4b8c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac34310c85f02dfeefac7cde08738b9d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db6/classcarla_1_1client_1_1detail_1_1Episode.html#ac34310c85f02dfeefac7cde08738b9d1">NavigationTick</a> ()</td></tr>
+<tr class="separator:ac34310c85f02dfeefac7cde08738b9d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48412e0fbcca34d9351784fb2ef9f664"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db6/classcarla_1_1client_1_1detail_1_1Episode.html#a48412e0fbcca34d9351784fb2ef9f664">RegisterActor</a> (<a class="el" href="../../db/dfd/classcarla_1_1rpc_1_1Actor.html">rpc::Actor</a> actor)</td></tr>
 <tr class="separator:a48412e0fbcca34d9351784fb2ef9f664"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d280a909ec51248f0a7d33033ce9552"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db6/classcarla_1_1client_1_1detail_1_1Episode.html#a1d280a909ec51248f0a7d33033ce9552">RegisterLightUpdateChangeEvent</a> (std::function&lt; void(<a class="el" href="../../d4/dc6/classcarla_1_1client_1_1WorldSnapshot.html">WorldSnapshot</a>)&gt; callback)</td></tr>
@@ -257,7 +259,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00045">45</a> of file <a class="el" href="../../d6/d12/Episode_8cpp_source.html">Episode.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00125">_client</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00143">_token</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00110">carla::log_error()</a>, and <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00583">carla::client::detail::Client::UnSubscribeFromStream()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00127">_client</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00145">_token</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00110">carla::log_error()</a>, and <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00585">carla::client::detail::Client::UnSubscribeFromStream()</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -334,13 +336,13 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00110">110</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00145">_pending_exceptions</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00131">_pending_exceptions_msg</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00037">Episode()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00161">HasMapChangedSinceLastCall()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00157">OnEpisodeChanged()</a>, and <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00150">OnEpisodeStarted()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00147">_pending_exceptions</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00133">_pending_exceptions_msg</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00037">Episode()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00155">HasMapChangedSinceLastCall()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00163">NavigationTick()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00151">OnEpisodeChanged()</a>, and <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00144">OnEpisodeStarted()</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/db6/classcarla_1_1client_1_1detail_1_1Episode_a42a3cebd98c0312528ce21a9e0902edc_cgraph.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/db6/classcarla_1_1client_1_1detail_1_1Episode_a42a3cebd98c0312528ce21a9e0902edc_cgraph.svg" width="100%" height="596"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -361,9 +363,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00130">130</a> of file <a class="el" href="../../d6/d12/Episode_8cpp_source.html">Episode.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00124">124</a> of file <a class="el" href="../../d6/d12/Episode_8cpp_source.html">Episode.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00125">_client</a>, and <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00129">_navigation</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00127">_client</a>, and <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00131">_navigation</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00048">GetState()</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -393,9 +395,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00118">118</a> of file <a class="el" href="../../d6/d12/Episode_8cpp_source.html">Episode.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00112">112</a> of file <a class="el" href="../../d6/d12/Episode_8cpp_source.html">Episode.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00133">_actors</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00125">_client</a>, <a class="el" href="../../d5/d81/CachedActorList_8h_source.html#l00096">carla::client::detail::CachedActorList::GetActorById()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00270">carla::client::detail::Client::GetActorsById()</a>, and <a class="el" href="../../d5/d81/CachedActorList_8h_source.html#l00066">carla::client::detail::CachedActorList::Insert()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00135">_actors</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00127">_client</a>, <a class="el" href="../../d5/d81/CachedActorList_8h_source.html#l00096">carla::client::detail::CachedActorList::GetActorById()</a>, <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00270">carla::client::detail::Client::GetActorsById()</a>, and <a class="el" href="../../d5/d81/CachedActorList_8h_source.html#l00066">carla::client::detail::CachedActorList::Insert()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00060">RegisterActor()</a>.</p>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -432,9 +434,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00146">146</a> of file <a class="el" href="../../d6/d12/Episode_8cpp_source.html">Episode.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00140">140</a> of file <a class="el" href="../../d6/d12/Episode_8cpp_source.html">Episode.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00133">_actors</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00125">_client</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00029">carla::client::detail::GetActorsById_Impl()</a>, and <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00048">GetState()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00135">_actors</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00127">_client</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00029">carla::client::detail::GetActorsById_Impl()</a>, and <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00048">GetState()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00060">RegisterActor()</a>.</p>
 <div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -472,9 +474,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00142">142</a> of file <a class="el" href="../../d6/d12/Episode_8cpp_source.html">Episode.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00136">136</a> of file <a class="el" href="../../d6/d12/Episode_8cpp_source.html">Episode.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00133">_actors</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00125">_client</a>, and <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00029">carla::client::detail::GetActorsById_Impl()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00135">_actors</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00127">_client</a>, and <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00029">carla::client::detail::GetActorsById_Impl()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00060">RegisterActor()</a>.</p>
 <div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -558,7 +560,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00054">54</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00129">_navigation</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00131">_navigation</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>.</p>
 
 </div>
 </div>
@@ -587,9 +589,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00048">48</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00127">_state</a>, and <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00130">CreateNavigationIfMissing()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00129">_state</a>, and <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00124">CreateNavigationIfMissing()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00146">GetActors()</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00044">GetId()</a>, and <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00048">carla::client::detail::SynchronizeFrame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00140">GetActors()</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00044">GetId()</a>, and <a class="el" href="../../d2/d0c/Simulator_8cpp_source.html#l00048">carla::client::detail::SynchronizeFrame()</a>.</p>
 <div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-13-summary" class="dynsummary" style="display:block;">
@@ -624,9 +626,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00161">161</a> of file <a class="el" href="../../d6/d12/Episode_8cpp_source.html">Episode.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00155">155</a> of file <a class="el" href="../../d6/d12/Episode_8cpp_source.html">Episode.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00147">_should_update_map</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00149">_should_update_map</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00110">AddPendingException()</a>.</p>
 <div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -662,13 +664,44 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00053">53</a> of file <a class="el" href="../../d6/d12/Episode_8cpp_source.html">Episode.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00125">_client</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00143">_token</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00023">carla::client::detail::CastData()</a>, <a class="el" href="../../d0/d1a/Deserializer_8cpp_source.html#l00014">carla::sensor::Deserializer::Deserialize()</a>, and <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00575">carla::client::detail::Client::SubscribeToStream()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00127">_client</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00145">_token</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00023">carla::client::detail::CastData()</a>, <a class="el" href="../../d0/d1a/Deserializer_8cpp_source.html#l00014">carla::sensor::Deserializer::Deserialize()</a>, and <a class="el" href="../../dc/d4a/client_2detail_2Client_8cpp_source.html#l00577">carla::client::detail::Client::SubscribeToStream()</a>.</p>
 <div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/db6/classcarla_1_1client_1_1detail_1_1Episode_afa2c9d4a111adf6575e39980cfc4b8c3_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ac34310c85f02dfeefac7cde08738b9d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac34310c85f02dfeefac7cde08738b9d1">&#9670;&nbsp;</a></span>NavigationTick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::client::detail::Episode::NavigationTick </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00163">163</a> of file <a class="el" href="../../d6/d12/Episode_8cpp_source.html">Episode.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00131">_navigation</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00110">AddPendingException()</a>.</p>
+<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/db6/classcarla_1_1client_1_1detail_1_1Episode_ac34310c85f02dfeefac7cde08738b9d1_icgraph.svg" width="476" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -697,24 +730,24 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00157">157</a> of file <a class="el" href="../../d6/d12/Episode_8cpp_source.html">Episode.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00151">151</a> of file <a class="el" href="../../d6/d12/Episode_8cpp_source.html">Episode.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../db/d04/TrafficManager_8cpp_source.html#l00055">carla::traffic_manager::TrafficManager::Reset()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00110">AddPendingException()</a>.</p>
-<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/db6/classcarla_1_1client_1_1detail_1_1Episode_a5c09238d091858b3c72c761764efabc9_cgraph.svg" width="443" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
 <div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/db6/classcarla_1_1client_1_1detail_1_1Episode_a5c09238d091858b3c72c761764efabc9_cgraph.svg" width="443" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/db6/classcarla_1_1client_1_1detail_1_1Episode_a5c09238d091858b3c72c761764efabc9_icgraph.svg" width="504" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -744,24 +777,24 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00150">150</a> of file <a class="el" href="../../d6/d12/Episode_8cpp_source.html">Episode.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00144">144</a> of file <a class="el" href="../../d6/d12/Episode_8cpp_source.html">Episode.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00133">_actors</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00129">_navigation</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00135">_on_tick_callbacks</a>, <a class="el" href="../../d5/d81/CachedActorList_8h_source.html#l00119">carla::client::detail::CachedActorList::Clear()</a>, and <a class="el" href="../../db/d04/TrafficManager_8cpp_source.html#l00045">carla::traffic_manager::TrafficManager::Release()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00135">_actors</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00131">_navigation</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00137">_on_tick_callbacks</a>, <a class="el" href="../../d5/d81/CachedActorList_8h_source.html#l00119">carla::client::detail::CachedActorList::Clear()</a>, and <a class="el" href="../../db/d04/TrafficManager_8cpp_source.html#l00045">carla::traffic_manager::TrafficManager::Release()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00110">AddPendingException()</a>.</p>
-<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/db6/classcarla_1_1client_1_1detail_1_1Episode_a953923f840afcfd19be46d816805f060_cgraph.svg" width="448" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
 <div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/db6/classcarla_1_1client_1_1detail_1_1Episode_a953923f840afcfd19be46d816805f060_cgraph.svg" width="448" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/db6/classcarla_1_1client_1_1detail_1_1Episode_a953923f840afcfd19be46d816805f060_icgraph.svg" width="495" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -794,12 +827,12 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00060">60</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00133">_actors</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00118">GetActorById()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00146">GetActors()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00142">GetActorsById()</a>, and <a class="el" href="../../d5/d81/CachedActorList_8h_source.html#l00066">carla::client::detail::CachedActorList::Insert()</a>.</p>
-<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00135">_actors</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00112">GetActorById()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00140">GetActors()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00136">GetActorsById()</a>, and <a class="el" href="../../d5/d81/CachedActorList_8h_source.html#l00066">carla::client::detail::CachedActorList::Insert()</a>.</p>
+<div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/db6/classcarla_1_1client_1_1detail_1_1Episode_a48412e0fbcca34d9351784fb2ef9f664_cgraph.svg" width="100%" height="589"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -832,7 +865,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00090">90</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00139">_on_light_update_callbacks</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00141">_on_light_update_callbacks</a>.</p>
 
 </div>
 </div>
@@ -862,7 +895,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00082">82</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00137">_on_map_change_callbacks</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00139">_on_map_change_callbacks</a>.</p>
 
 </div>
 </div>
@@ -892,7 +925,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00074">74</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00135">_on_tick_callbacks</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00137">_on_tick_callbacks</a>.</p>
 
 </div>
 </div>
@@ -922,7 +955,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00094">94</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00139">_on_light_update_callbacks</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00141">_on_light_update_callbacks</a>.</p>
 
 </div>
 </div>
@@ -952,7 +985,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00086">86</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00137">_on_map_change_callbacks</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00139">_on_map_change_callbacks</a>.</p>
 
 </div>
 </div>
@@ -982,7 +1015,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00078">78</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00135">_on_tick_callbacks</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00137">_on_tick_callbacks</a>.</p>
 
 </div>
 </div>
@@ -1012,7 +1045,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00098">98</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00129">_navigation</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00131">_navigation</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>.</p>
 
 </div>
 </div>
@@ -1042,7 +1075,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00104">104</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00129">_navigation</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00131">_navigation</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>.</p>
 
 </div>
 </div>
@@ -1072,7 +1105,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00070">70</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00141">_snapshot</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00143">_snapshot</a>.</p>
 
 </div>
 </div>
@@ -1097,9 +1130,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00133">133</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00135">135</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00118">GetActorById()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00146">GetActors()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00142">GetActorsById()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00150">OnEpisodeStarted()</a>, and <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00060">RegisterActor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00112">GetActorById()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00140">GetActors()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00136">GetActorsById()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00144">OnEpisodeStarted()</a>, and <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00060">RegisterActor()</a>.</p>
 
 </div>
 </div>
@@ -1123,9 +1156,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00125">125</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00127">127</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00130">CreateNavigationIfMissing()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00118">GetActorById()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00146">GetActors()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00142">GetActorsById()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00053">Listen()</a>, and <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00045">~Episode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00124">CreateNavigationIfMissing()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00112">GetActorById()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00140">GetActors()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00136">GetActorsById()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00053">Listen()</a>, and <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00045">~Episode()</a>.</p>
 
 </div>
 </div>
@@ -1149,9 +1182,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00129">129</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00131">131</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00130">CreateNavigationIfMissing()</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00054">GetNavigation()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00150">OnEpisodeStarted()</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00098">SetPedestriansCrossFactor()</a>, and <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00104">SetPedestriansSeed()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00124">CreateNavigationIfMissing()</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00054">GetNavigation()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00163">NavigationTick()</a>, <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00144">OnEpisodeStarted()</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00098">SetPedestriansCrossFactor()</a>, and <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00104">SetPedestriansSeed()</a>.</p>
 
 </div>
 </div>
@@ -1175,7 +1208,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00139">139</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00141">141</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00090">RegisterLightUpdateChangeEvent()</a>, and <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00094">RemoveLightUpdateChangeEvent()</a>.</p>
 
@@ -1201,7 +1234,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00137">137</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00139">139</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00082">RegisterOnMapChangeEvent()</a>, and <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00086">RemoveOnMapChangeEvent()</a>.</p>
 
@@ -1227,9 +1260,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00135">135</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00137">137</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00150">OnEpisodeStarted()</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00074">RegisterOnTickEvent()</a>, and <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00078">RemoveOnTickEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00144">OnEpisodeStarted()</a>, <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00074">RegisterOnTickEvent()</a>, and <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00078">RemoveOnTickEvent()</a>.</p>
 
 </div>
 </div>
@@ -1253,7 +1286,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00145">145</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00147">147</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00110">AddPendingException()</a>.</p>
 
@@ -1279,7 +1312,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00131">131</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00133">133</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00110">AddPendingException()</a>.</p>
 
@@ -1305,9 +1338,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00147">147</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00149">149</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00161">HasMapChangedSinceLastCall()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00155">HasMapChangedSinceLastCall()</a>.</p>
 
 </div>
 </div>
@@ -1331,7 +1364,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00141">141</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00143">143</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00070">WaitForState()</a>.</p>
 
@@ -1357,7 +1390,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00127">127</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00129">129</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00048">GetState()</a>.</p>
 
@@ -1383,7 +1416,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00143">143</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d9e/Episode_8h_source.html#l00145">145</a> of file <a class="el" href="../../d9/d9e/Episode_8h_source.html">Episode.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00053">Listen()</a>, and <a class="el" href="../../d6/d12/Episode_8cpp_source.html#l00045">~Episode()</a>.</p>
 

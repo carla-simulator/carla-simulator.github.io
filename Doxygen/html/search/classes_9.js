@@ -1,7 +1,7 @@
 var searchData=
 [
   ['imageconverter',['ImageConverter',['../d5/d0f/classcarla_1_1image_1_1ImageConverter.html',1,'carla::image']]],
-  ['imageheader',['ImageHeader',['../d2/d05/structcarla_1_1sensor_1_1s11n_1_1ImageSerializer_1_1ImageHeader.html',1,'carla::sensor::s11n::ImageSerializer::ImageHeader'],['../d0/dfc/structcarla_1_1sensor_1_1s11n_1_1NormalsImageSerializer_1_1ImageHeader.html',1,'carla::sensor::s11n::NormalsImageSerializer::ImageHeader'],['../de/d87/structcarla_1_1sensor_1_1s11n_1_1OpticalFlowImageSerializer_1_1ImageHeader.html',1,'carla::sensor::s11n::OpticalFlowImageSerializer::ImageHeader']]],
+  ['imageheader',['ImageHeader',['../d8/d4f/structcarla_1_1sensor_1_1s11n_1_1GBufferFloatSerializer_1_1ImageHeader.html',1,'carla::sensor::s11n::GBufferFloatSerializer::ImageHeader'],['../d2/d05/structcarla_1_1sensor_1_1s11n_1_1ImageSerializer_1_1ImageHeader.html',1,'carla::sensor::s11n::ImageSerializer::ImageHeader'],['../d0/dfc/structcarla_1_1sensor_1_1s11n_1_1NormalsImageSerializer_1_1ImageHeader.html',1,'carla::sensor::s11n::NormalsImageSerializer::ImageHeader'],['../de/d87/structcarla_1_1sensor_1_1s11n_1_1OpticalFlowImageSerializer_1_1ImageHeader.html',1,'carla::sensor::s11n::OpticalFlowImageSerializer::ImageHeader'],['../d3/da1/structcarla_1_1sensor_1_1s11n_1_1GBufferUint8Serializer_1_1ImageHeader.html',1,'carla::sensor::s11n::GBufferUint8Serializer::ImageHeader']]],
   ['imageio',['ImageIO',['../d3/d81/classcarla_1_1image_1_1ImageIO.html',1,'carla::image']]],
   ['imageserializer',['ImageSerializer',['../db/dba/classcarla_1_1sensor_1_1s11n_1_1ImageSerializer.html',1,'carla::sensor::s11n']]],
   ['imagetmpl',['ImageTmpl',['../df/d55/classcarla_1_1sensor_1_1data_1_1ImageTmpl.html',1,'carla::sensor::data']]],
@@ -15,6 +15,7 @@ var searchData=
   ['incomingmessage',['IncomingMessage',['../de/d76/classcarla_1_1streaming_1_1detail_1_1tcp_1_1IncomingMessage.html',1,'carla::streaming::detail::tcp::IncomingMessage'],['../d1/db1/classcarla_1_1multigpu_1_1IncomingMessage.html',1,'carla::multigpu::IncomingMessage']]],
   ['informationset',['InformationSet',['../d4/d28/classcarla_1_1road_1_1InformationSet.html',1,'carla::road']]],
   ['inmemorymap',['InMemoryMap',['../da/d07/classcarla_1_1traffic__manager_1_1InMemoryMap.html',1,'carla::traffic_manager']]],
+  ['inputs',['Inputs',['../dd/dd6/structcarla_1_1learning_1_1Inputs.html',1,'carla::learning']]],
   ['invalidattributevalue',['InvalidAttributeValue',['../dc/d59/classcarla_1_1client_1_1InvalidAttributeValue.html',1,'carla::client']]],
   ['io_5fany',['io_any',['../dd/d53/structcarla_1_1image_1_1io_1_1detail_1_1io__any.html',1,'carla::image::io::detail']]],
   ['io_5fany_3c_20detail_3a_3aio_5fjpeg_20_3e',['io_any&lt; detail::io_jpeg &gt;',['../dd/d53/structcarla_1_1image_1_1io_1_1detail_1_1io__any.html',1,'carla::image::io::detail']]],

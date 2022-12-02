@@ -82,14 +82,20 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dae/structFTileData__coll__graph.svg" width="588" height="206"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dae/structFTileData__coll__graph.svg" width="586" height="220"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2c36e24aacd285842db148833d3e31f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/structFTileData.html#a2c36e24aacd285842db148833d3e31f5">UpdateMaterialCache</a> (const FLinearColor &amp;Value)</td></tr>
-<tr class="separator:a2c36e24aacd285842db148833d3e31f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0450017579d8051e155216768952a06a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/structFTileData.html#a0450017579d8051e155216768952a06a">ContainsMesh</a> (const UInstancedStaticMeshComponent *) const</td></tr>
+<tr class="separator:a0450017579d8051e155216768952a06a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad73a1c0d8ba4bbb7ae6369f98c5d3c1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/structFTileData.html#ad73a1c0d8ba4bbb7ae6369f98c5d3c1e">UpdateMaterialCache</a> (const FLinearColor &amp;Value, bool DebugMaterials)</td></tr>
+<tr class="separator:ad73a1c0d8ba4bbb7ae6369f98c5d3c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc70f7876ec081f5d053f1e94a3aae37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/structFTileData.html#acc70f7876ec081f5d053f1e94a3aae37">UpdateTileMeshComponent</a> (UInstancedStaticMeshComponent *NewInstancedStaticMeshComponent)</td></tr>
+<tr class="separator:acc70f7876ec081f5d053f1e94a3aae37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2dd5982e251095fd5824453393deb77"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/structFTileData.html#ac2dd5982e251095fd5824453393deb77">~FTileData</a> ()</td></tr>
+<tr class="separator:ac2dd5982e251095fd5824453393deb77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -99,15 +105,67 @@ Public Attributes</h2></td></tr>
 <tr class="separator:afe8276a22381fff8da4c56174bdd1416"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabb84e17e91c05316396af40a5b56ae3"><td class="memItemLeft" align="right" valign="top">AProceduralFoliageVolume *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/structFTileData.html#aabb84e17e91c05316396af40a5b56ae3">ProceduralFoliageVolume</a> {nullptr}</td></tr>
 <tr class="separator:aabb84e17e91c05316396af40a5b56ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fe2d7f205b2c9fb8fade26b9370fb02"><td class="memItemLeft" align="right" valign="top">TArray&lt; <a class="el" href="../../df/d6a/structFTileMeshComponent.html">FTileMeshComponent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/structFTileData.html#a2fe2d7f205b2c9fb8fade26b9370fb02">TileMeshesCache</a> {}</td></tr>
-<tr class="separator:a2fe2d7f205b2c9fb8fade26b9370fb02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e5515c13ef8e1f889785d702e057f26"><td class="memItemLeft" align="right" valign="top">TArray&lt; std::shared_ptr&lt; <a class="el" href="../../df/d6a/structFTileMeshComponent.html">FTileMeshComponent</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/structFTileData.html#a0e5515c13ef8e1f889785d702e057f26">TileMeshesCache</a> {}</td></tr>
+<tr class="separator:a0e5515c13ef8e1f889785d702e057f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00030">30</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2c36e24aacd285842db148833d3e31f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c36e24aacd285842db148833d3e31f5">&#9670;&nbsp;</a></span>UpdateMaterialCache()</h2>
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00033">33</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ac2dd5982e251095fd5824453393deb77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2dd5982e251095fd5824453393deb77">&#9670;&nbsp;</a></span>~FTileData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FTileData::~FTileData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00046">46</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0450017579d8051e155216768952a06a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0450017579d8051e155216768952a06a">&#9670;&nbsp;</a></span>ContainsMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool FTileData::ContainsMesh </td>
+          <td>(</td>
+          <td class="paramtype">const UInstancedStaticMeshComponent *&#160;</td>
+          <td class="paramname"><em>Mesh</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00201">201</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00038">TileMeshesCache</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00348">AVegetationManager::SetInstancedStaticMeshComponentCache()</a>.</p>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d8b/structFTileData_a0450017579d8051e155216768952a06a_icgraph.svg" width="502" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ad73a1c0d8ba4bbb7ae6369f98c5d3c1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad73a1c0d8ba4bbb7ae6369f98c5d3c1e">&#9670;&nbsp;</a></span>UpdateMaterialCache()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -116,21 +174,65 @@ Public Attributes</h2></td></tr>
           <td class="memname">void FTileData::UpdateMaterialCache </td>
           <td>(</td>
           <td class="paramtype">const FLinearColor &amp;&#160;</td>
-          <td class="paramname"><em>Value</em></td><td>)</td>
+          <td class="paramname"><em>Value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>DebugMaterials</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00212">212</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00039">MaterialInstanceDynamicCache</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00488">AVegetationManager::UpdateMaterials()</a>.</p>
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d8b/structFTileData_ad73a1c0d8ba4bbb7ae6369f98c5d3c1e_icgraph.svg" width="407" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="acc70f7876ec081f5d053f1e94a3aae37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc70f7876ec081f5d053f1e94a3aae37">&#9670;&nbsp;</a></span>UpdateTileMeshComponent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void FTileData::UpdateTileMeshComponent </td>
+          <td>(</td>
+          <td class="paramtype">UInstancedStaticMeshComponent *&#160;</td>
+          <td class="paramname"><em>NewInstancedStaticMeshComponent</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00128">128</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00180">180</a> of file <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html">VegetationManager.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00371">AVegetationManager::UpdateMaterials()</a>.</p>
-<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00029">FTileMeshComponent::bIsAlive</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00028">FTileMeshComponent::IndicesInUse</a>, <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00027">FTileMeshComponent::InstancedStaticMeshComponent</a>, and <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00038">TileMeshesCache</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00348">AVegetationManager::SetInstancedStaticMeshComponentCache()</a>.</p>
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d8b/structFTileData_a2c36e24aacd285842db148833d3e31f5_icgraph.svg" width="407" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d8b/structFTileData_acc70f7876ec081f5d053f1e94a3aae37_icgraph.svg" width="516" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -149,9 +251,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00033">33</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00036">36</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00620">AVegetationManager::GetTilesInUse()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00299">AVegetationManager::InitializeInstancedStaticMeshComponentCache()</a>, and <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00203">AVegetationManager::UpdateTileDataCache()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00769">AVegetationManager::CheckForNewTiles()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00298">AVegetationManager::CreateOrUpdateTileCache()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00448">AVegetationManager::FreeTileCache()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00787">AVegetationManager::GetTilesInUse()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00348">AVegetationManager::SetInstancedStaticMeshComponentCache()</a>, and <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00410">AVegetationManager::UpdateFoliageBlueprintCache()</a>.</p>
 
 </div>
 </div>
@@ -167,9 +269,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00036">36</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00039">39</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00331">AVegetationManager::InitializeMaterialCache()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00298">AVegetationManager::CreateOrUpdateTileCache()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00448">AVegetationManager::FreeTileCache()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00377">AVegetationManager::SetMaterialCache()</a>, and <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00212">UpdateMaterialCache()</a>.</p>
 
 </div>
 </div>
@@ -185,27 +287,27 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00034">34</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00037">37</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00620">AVegetationManager::GetTilesInUse()</a>, and <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00203">AVegetationManager::UpdateTileDataCache()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00298">AVegetationManager::CreateOrUpdateTileCache()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00448">AVegetationManager::FreeTileCache()</a>, and <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00787">AVegetationManager::GetTilesInUse()</a>.</p>
 
 </div>
 </div>
-<a id="a2fe2d7f205b2c9fb8fade26b9370fb02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fe2d7f205b2c9fb8fade26b9370fb02">&#9670;&nbsp;</a></span>TileMeshesCache</h2>
+<a id="a0e5515c13ef8e1f889785d702e057f26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e5515c13ef8e1f889785d702e057f26">&#9670;&nbsp;</a></span>TileMeshesCache</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">TArray&lt;<a class="el" href="../../df/d6a/structFTileMeshComponent.html">FTileMeshComponent</a>&gt; FTileData::TileMeshesCache {}</td>
+          <td class="memname">TArray&lt;std::shared_ptr&lt;<a class="el" href="../../df/d6a/structFTileMeshComponent.html">FTileMeshComponent</a>&gt; &gt; FTileData::TileMeshesCache {}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00035">35</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d64/VegetationManager_8h_source.html#l00038">38</a> of file <a class="el" href="../../d9/d64/VegetationManager_8h_source.html">VegetationManager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00384">AVegetationManager::GetElementsToSpawn()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00299">AVegetationManager::InitializeInstancedStaticMeshComponentCache()</a>, and <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00331">AVegetationManager::InitializeMaterialCache()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00201">ContainsMesh()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00298">AVegetationManager::CreateOrUpdateTileCache()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00448">AVegetationManager::FreeTileCache()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00496">AVegetationManager::GetElementsToSpawn()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00348">AVegetationManager::SetInstancedStaticMeshComponentCache()</a>, <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00377">AVegetationManager::SetMaterialCache()</a>, and <a class="el" href="../../d7/da0/VegetationManager_8cpp_source.html#l00180">UpdateTileMeshComponent()</a>.</p>
 
 </div>
 </div>

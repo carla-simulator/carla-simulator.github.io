@@ -9,6 +9,7 @@ var searchData=
   ['fdetection',['FDetection',['../d5/de4/classARayCastLidar.html#ac846d253ff72293fb18b37bc435e2201',1,'ARayCastLidar']]],
   ['flag_5ftype',['flag_type',['../d3/d13/classcarla_1_1rpc_1_1LightState.html#aa7bf3d9ac5d2c220aa49abe4ab66f209',1,'carla::rpc::LightState::flag_type()'],['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html#a329829e09c163b4a5cdbecca7e9294bb',1,'carla::rpc::VehicleLightState::flag_type()']]],
   ['flidardata',['FLidarData',['../d5/de4/classARayCastLidar.html#a1f00393bbac9d5e614e48861f93928f6',1,'ARayCastLidar']]],
+  ['floatimage',['FloatImage',['../db/de4/namespacecarla_1_1sensor_1_1data.html#a837f6d654a412f3c42154dab7b4c9630',1,'carla::sensor::data']]],
   ['fradardata',['FRadarData',['../d9/d27/classARadar.html#a395592d6a208cd958d8a5ad3edd7001c',1,'ARadar']]],
   ['fsemanticdetection',['FSemanticDetection',['../d8/d15/classARayCastSemanticLidar.html#a765fae1d3a23520d2baa1fbd876b444a',1,'ARayCastSemanticLidar']]],
   ['fsemanticlidardata',['FSemanticLidarData',['../d8/d15/classARayCastSemanticLidar.html#a032b9cb887a683b9d79539362d5b5684',1,'ARayCastSemanticLidar']]]
