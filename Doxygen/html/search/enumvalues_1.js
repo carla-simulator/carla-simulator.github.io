@@ -1,6 +1,7 @@
 var searchData=
 [
   ['back_5fwheel',['Back_Wheel',['../d3/d00/CarlaWheeledVehicle_8h.html#a684ca62a282ad2588c5f8c4d8dedee0eaa000b1630f0eb468b6a2b0c1cc050fff',1,'Back_Wheel():&#160;CarlaWheeledVehicle.h'],['../de/d6c/namespacecarla_1_1rpc.html#ac246e8e8896e5580ccc625181d39e484aa000b1630f0eb468b6a2b0c1cc050fff',1,'carla::rpc::Back_Wheel()']]],
+  ['bicycle',['Bicycle',['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a78efcae683f1034caf6017ee6892be71',1,'carla::rpc']]],
   ['bidirectional',['Bidirectional',['../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247aabd4328c725637aabedbd02d3b7ffd40',1,'carla::road::Lane']]],
   ['biking',['Biking',['../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247a97cfeabbe80c04fd7465397ee3496588',1,'carla::road::Lane']]],
   ['bl_5fwheel',['BL_Wheel',['../d3/d00/CarlaWheeledVehicle_8h.html#a684ca62a282ad2588c5f8c4d8dedee0eaecedf8ef9257e81a48f3aec3c113a6f4',1,'BL_Wheel():&#160;CarlaWheeledVehicle.h'],['../de/d6c/namespacecarla_1_1rpc.html#ac246e8e8896e5580ccc625181d39e484aecedf8ef9257e81a48f3aec3c113a6f4',1,'carla::rpc::BL_Wheel()']]],
@@ -16,8 +17,9 @@ var searchData=
   ['broken',['Broken',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#ad5910e4c561a99cf13fbb61702060cf2ac98dbc22f49f1b4a644307551924f8da',1,'carla::road::element::LaneMarking']]],
   ['brokenbroken',['BrokenBroken',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#ad5910e4c561a99cf13fbb61702060cf2a28ce0c59dbccd53b284b4fcf59a63ed5',1,'carla::road::element::LaneMarking']]],
   ['brokensolid',['BrokenSolid',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#ad5910e4c561a99cf13fbb61702060cf2a8afcb6f7c5b3a2a6b5f6b1bb6018efe9',1,'carla::road::element::LaneMarking']]],
-  ['bufcapacity',['bufcapacity',['../db/dd3/classxml__buffered__writer.html#abc1932fc3d1b3f076be5f4d3c7e5b0f7ab8b49b73105796783607f1f1ddd382cd',1,'xml_buffered_writer']]],
-  ['bufcapacitybytes',['bufcapacitybytes',['../db/dd3/classxml__buffered__writer.html#abc1932fc3d1b3f076be5f4d3c7e5b0f7a9021e7b22ef17fba93b80380f0ffbbc8',1,'xml_buffered_writer']]],
+  ['bufcapacity',['bufcapacity',['../db/dd3/classxml__buffered__writer.html#afd8543a52db15e41be40f7bfcdec3e22ab8b49b73105796783607f1f1ddd382cd',1,'xml_buffered_writer']]],
+  ['bufcapacitybytes',['bufcapacitybytes',['../db/dd3/classxml__buffered__writer.html#afd8543a52db15e41be40f7bfcdec3e22a9021e7b22ef17fba93b80380f0ffbbc8',1,'xml_buffered_writer']]],
   ['building',['Building',['../d3/d13/classcarla_1_1rpc_1_1LightState.html#a0dd6e7e658f888d53b9f134359d03bffac39b56d4489fb2507289e7ae19567b80',1,'carla::rpc::LightState::Building()'],['../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ac39b56d4489fb2507289e7ae19567b80',1,'Building():&#160;CarlaLight.h']]],
-  ['buildings',['Buildings',['../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42ba9fdd5aad7ea528df6738692b788cee0a',1,'carla::rpc::Buildings()'],['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a9fdd5aad7ea528df6738692b788cee0a',1,'carla::rpc::Buildings()']]]
+  ['buildings',['Buildings',['../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42ba9fdd5aad7ea528df6738692b788cee0a',1,'carla::rpc::Buildings()'],['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a9fdd5aad7ea528df6738692b788cee0a',1,'carla::rpc::Buildings()']]],
+  ['bus',['Bus',['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a6e4b38bfd57741ac1597c440a1c98074',1,'carla::rpc']]]
 ];

@@ -79,7 +79,11 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../df/d2e/PixelReader_8h_source.html">Carla/Sensor/PixelReader.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Carla/Sensor/Sensor.h</a>&quot;</code><br />
-<code>#include &quot;Runtime/RenderCore/Public/RenderCommandFence.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d46/SceneCaptureComponent2D__CARLA_8h_source.html">Carla/Sensor/UE4_Overridden/SceneCaptureComponent2D_CARLA.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/daa/ImageUtil_8h_source.html">Carla/Sensor/ImageUtil.h</a>&quot;</code><br />
+<code>#include &quot;Async/Async.h&quot;</code><br />
+<code>#include &quot;Renderer/Public/GBufferView.h&quot;</code><br />
+<code>#include &lt;type_traits&gt;</code><br />
 <code>#include &quot;SceneCaptureSensor.generated.h&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for SceneCaptureSensor.h:</div>
@@ -103,7 +107,11 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d60/classASceneCaptureSensor.html">ASceneCaptureSensor</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for sensors using a USceneCaptureComponent2D for rendering the scene.  <a href="../../d4/d60/classASceneCaptureSensor.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for sensors using a <a class="el" href="../../d3/db8/classUSceneCaptureComponent2D.html">USceneCaptureComponent2D</a> for rendering the scene.  <a href="../../d4/d60/classASceneCaptureSensor.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d7d/structFCameraGBufferFloat.html">FCameraGBufferFloat</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df7/structFCameraGBufferUint8.html">FCameraGBufferUint8</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

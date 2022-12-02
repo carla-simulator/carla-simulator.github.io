@@ -18,6 +18,7 @@ var searchData=
   ['trafficsigns',['TrafficSigns',['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0aaa1de8b64f579514b72bc89e8cece1ae',1,'carla::rpc']]],
   ['tram',['Tram',['../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247a8f95e20d7297046ebf984ba8d54fcb91',1,'carla::road::Lane']]],
   ['triggervolume',['TriggerVolume',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a9a2da47823f71d0d70d5c78a53a71f7c',1,'CarlaRecorder.h']]],
+  ['truck',['Truck',['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a6f13850d3346c949c10c7bae79479ebd',1,'carla::rpc']]],
   ['trunk',['Trunk',['../d3/d00/CarlaWheeledVehicle_8h.html#aa720ea2031295cc8eab7bb5ce25b8c95afa4543063c32652d93dff5ff09898ab1',1,'Trunk():&#160;CarlaWheeledVehicle.h'],['../de/d6c/namespacecarla_1_1rpc.html#a3eb217a0533294546f189b832ad0ee04afa4543063c32652d93dff5ff09898ab1',1,'carla::rpc::Trunk()']]],
   ['turn90deg',['Turn90Deg',['../d2/de5/namespaceMapGen.html#a3dab4b218910e62b79f0d98c7895c92aa340d0b83567e3a159bfcb03c7a3ae615',1,'MapGen']]],
   ['type_5fsorted',['type_sorted',['../df/d06/classpugi_1_1xpath__node__set.html#a6c6899c8ecfbce9e42ec85540907080ea9d5ce5e6194ac2003da0d86d9af87437',1,'pugi::xpath_node_set']]],
