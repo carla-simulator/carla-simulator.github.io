@@ -4,7 +4,7 @@ comments: true
 summary: "Guardstrike releases CARLA-Apollo bridge"
 title:  "Guardstrike has released the CARLA-Apollo Bridge"
 subtitle: "The CARLA-Apollo bridge facilitates seamless integration between the CARLA simulator and the Apollo autonomous driving research platform"
-description: "The CARLA-Apollo bridge facilitates seamless integration between the CARLA simulator and the Apollo autonomous driving research platformt"
+description: "The CARLA-Apollo bridge facilitates seamless integration between the CARLA simulator and the Apollo autonomous driving research platform"
 author: "@MattRowe18"
 image: 'img/carla.jpg'
 background: '/img/posts/2022-11-28/apollo_interface.png'
