@@ -40,7 +40,7 @@ var searchData=
   ['hitted',['Hitted',['../d7/d1a/structARadar_1_1RayData.html#affc0616ad53b67749b5b6db4c31f2ddd',1,'ARadar::RayData']]],
   ['horizon_5frate',['HORIZON_RATE',['../de/d80/namespacecarla_1_1traffic__manager_1_1constants_1_1PathBufferUpdate.html#a7e54a5be85526f9b74aa858cd04f16ba',1,'carla::traffic_manager::constants::PathBufferUpdate']]],
   ['horizontalfallof',['HorizontalFallof',['../df/d87/structFSpringBasedVegetationParameters.html#ae288d50b0e54a5ce9578f4c7597427a4',1,'FSpringBasedVegetationParameters']]],
-  ['horizontalfov',['HorizontalFov',['../de/d6f/structFLidarDescription.html#a148afa39e2e9e5cff6b8105c6ccfff51',1,'FLidarDescription::HorizontalFov()'],['../d9/d27/classARadar.html#ac61afd5ce10bc41ae3789a1dd1240a6a',1,'ARadar::HorizontalFOV()']]],
+  ['horizontalfov',['HorizontalFOV',['../d9/d27/classARadar.html#ac61afd5ce10bc41ae3789a1dd1240a6a',1,'ARadar::HorizontalFOV()'],['../de/d6f/structFLidarDescription.html#a148afa39e2e9e5cff6b8105c6ccfff51',1,'FLidarDescription::HorizontalFov()']]],
   ['hybrid_5fend_5flocation',['hybrid_end_location',['../d8/de5/structcarla_1_1traffic__manager_1_1KinematicState.html#ac3d737ff24c446c3ba052fca48dab7bd',1,'carla::traffic_manager::KinematicState']]],
   ['hybrid_5fmode_5fdt',['HYBRID_MODE_DT',['../d4/dae/namespacecarla_1_1traffic__manager_1_1constants_1_1HybridMode.html#ac8ae829a592088bc27117c35dc9f9b43',1,'carla::traffic_manager::constants::HybridMode']]],
   ['hybrid_5fmode_5fdt_5ffl',['HYBRID_MODE_DT_FL',['../d4/dae/namespacecarla_1_1traffic__manager_1_1constants_1_1HybridMode.html#aea032f133713d8c4102390c4772b571f',1,'carla::traffic_manager::constants::HybridMode']]],
