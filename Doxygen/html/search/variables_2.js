@@ -52,6 +52,7 @@ var searchData=
   ['blocks',['blocks',['../df/de5/structxpath__stack__data.html#a6821cc444dd65d997467fd3f757f4aff',1,'xpath_stack_data']]],
   ['bmanualgearshift',['bManualGearShift',['../d1/d4b/structFVehicleControl.html#a81320bac1f7975f749915a62e24c54e3',1,'FVehicleControl']]],
   ['bmapchanged',['bMapChanged',['../dc/d49/classFCarlaEngine.html#a5aaf38076c42e97334210968ca9096fa',1,'FCarlaEngine']]],
+  ['bnewconnection',['bNewConnection',['../dc/d49/classFCarlaEngine.html#a8ca6d9c2273db3ece0187678c8d21682',1,'FCarlaEngine']]],
   ['bnorenderingmode',['bNoRenderingMode',['../da/d6e/structFEpisodeSettings.html#a4c720f5952ca7b4ffc7220f96d7d7d43',1,'FEpisodeSettings']]],
   ['bodybps',['BodyBPs',['../de/d3c/classAProceduralBuilding.html#a93548be5f41c793ade8893fb26662dad',1,'AProceduralBuilding']]],
   ['bodymeshes',['BodyMeshes',['../de/d3c/classAProceduralBuilding.html#ad2b2d28a593045f8ffa5215f8fa501c5',1,'AProceduralBuilding']]],
