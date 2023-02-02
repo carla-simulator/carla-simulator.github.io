@@ -16,6 +16,7 @@ var searchData=
   ['trafficlightyellow',['TrafficLightYellow',['../d5/dc5/TrafficSignBase_8h.html#a4057cf972679f3cd597a1e5cc94ee53aa1ab15fa75c45a78f8e574f14fbfb28d4',1,'TrafficSignBase.h']]],
   ['trafficsign',['TrafficSign',['../dc/dde/classFCarlaActor.html#a68463a6ebe4a8d0364996c5d84af4279acf2604c5e6922e73ffa77da5dc026d9d',1,'FCarlaActor']]],
   ['trafficsigns',['TrafficSigns',['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0aaa1de8b64f579514b72bc89e8cece1ae',1,'carla::rpc']]],
+  ['train',['Train',['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0ae41273f43af504714d85465294f1f369',1,'carla::rpc']]],
   ['tram',['Tram',['../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247a8f95e20d7297046ebf984ba8d54fcb91',1,'carla::road::Lane']]],
   ['triggervolume',['TriggerVolume',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a9a2da47823f71d0d70d5c78a53a71f7c',1,'CarlaRecorder.h']]],
   ['truck',['Truck',['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a6f13850d3346c949c10c7bae79479ebd',1,'carla::rpc']]],
