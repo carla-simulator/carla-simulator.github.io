@@ -1,8 +1,8 @@
 ---
 name_: Marti Ferragut Galtes
 description: Software Engineer
-portrait: img/team/developers/marti.jpeg
-from: CVC & Embodied AI Foundation
+portrait: img/team/former members/marti.jpeg
+from:
 page: 
 github: https://github.com/MartiFerragut
 ---
