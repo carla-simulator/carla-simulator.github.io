@@ -27,5 +27,6 @@ var searchData=
   ['trafficsign',['TrafficSign',['../dc/d5c/classcarla_1_1client_1_1TrafficSign.html',1,'carla::client']]],
   ['trafficsigndata',['TrafficSignData',['../d1/d33/structcarla_1_1sensor_1_1data_1_1detail_1_1TrafficSignData.html',1,'carla::sensor::data::detail']]],
   ['transform',['Transform',['../de/da4/classcarla_1_1geom_1_1Transform.html',1,'carla::geom']]],
+  ['triangle',['Triangle',['../dd/d2e/structSimplify_1_1Triangle.html',1,'Simplify']]],
   ['typedependentstate',['TypeDependentState',['../d0/d4a/unioncarla_1_1sensor_1_1data_1_1ActorDynamicState_1_1TypeDependentState.html',1,'carla::sensor::data::ActorDynamicState']]]
 ];

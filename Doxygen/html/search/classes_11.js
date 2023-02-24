@@ -12,6 +12,7 @@ var searchData=
   ['recurrentsharedfuture',['RecurrentSharedFuture',['../d0/df9/classcarla_1_1RecurrentSharedFuture.html',1,'carla']]],
   ['recurrentsharedfuture_3c_20carla_3a_3aclient_3a_3aworldsnapshot_20_3e',['RecurrentSharedFuture&lt; carla::client::WorldSnapshot &gt;',['../d0/df9/classcarla_1_1RecurrentSharedFuture.html',1,'carla']]],
   ['recursive',['Recursive',['../d6/d1f/structcarla_1_1Functional_1_1Recursive.html',1,'carla::Functional']]],
+  ['ref',['Ref',['../d1/d9c/structSimplify_1_1Ref.html',1,'Simplify']]],
   ['releasegil',['ReleaseGIL',['../d1/d0a/classcarla_1_1PythonUtil_1_1ReleaseGIL.html',1,'carla::PythonUtil']]],
   ['releasegildeleter',['ReleaseGILDeleter',['../de/d96/classcarla_1_1PythonUtil_1_1ReleaseGILDeleter.html',1,'carla::PythonUtil']]],
   ['repeatrecord',['RepeatRecord',['../df/d23/classcarla_1_1road_1_1object_1_1RepeatRecord.html',1,'carla::road::object']]],

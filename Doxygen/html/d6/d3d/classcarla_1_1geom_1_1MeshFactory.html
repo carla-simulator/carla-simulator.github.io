@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d6a/classcarla_1_1geom_1_1MeshFactory__coll__graph.svg" width="299" height="319"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d6a/classcarla_1_1geom_1_1MeshFactory__coll__graph.svg" width="299" height="334"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -114,15 +114,32 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a74986f0ff4c63da7c50b479dd2d0fc0e"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory.html#a74986f0ff4c63da7c50b479dd2d0fc0e">Generate</a> (const <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html">road::Lane</a> &amp;lane) const</td></tr>
 <tr class="memdesc:a74986f0ff4c63da7c50b479dd2d0fc0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a mesh that defines the whole lane.  <a href="#a74986f0ff4c63da7c50b479dd2d0fc0e">More...</a><br /></td></tr>
 <tr class="separator:a74986f0ff4c63da7c50b479dd2d0fc0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdcf31bae216e33143aa89133b78d60a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory.html#afdcf31bae216e33143aa89133b78d60a">GenerateAllOrderedWithMaxLen</a> (const <a class="el" href="../../dd/de6/classcarla_1_1road_1_1Road.html">road::Road</a> &amp;road, std::map&lt; <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247">road::Lane::LaneType</a>, std::vector&lt; std::unique_ptr&lt; <a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html">Mesh</a> &gt;&gt;&gt; &amp;roads) const</td></tr>
+<tr class="separator:afdcf31bae216e33143aa89133b78d60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae412b9c8efc0fbcf0166900f5c107433"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html">Mesh</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory.html#ae412b9c8efc0fbcf0166900f5c107433">GenerateAllWithMaxLen</a> (const <a class="el" href="../../dd/de6/classcarla_1_1road_1_1Road.html">road::Road</a> &amp;road) const</td></tr>
 <tr class="memdesc:ae412b9c8efc0fbcf0166900f5c107433"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a chunked road with all the features needed for simulation.  <a href="#ae412b9c8efc0fbcf0166900f5c107433">More...</a><br /></td></tr>
 <tr class="separator:ae412b9c8efc0fbcf0166900f5c107433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6e08fdf5e167445abc19afc3670cc4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory.html#ad6e08fdf5e167445abc19afc3670cc4a">GenerateLaneSectionOrdered</a> (const <a class="el" href="../../dd/d80/classcarla_1_1road_1_1LaneSection.html">road::LaneSection</a> &amp;lane_section, std::map&lt; <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247">carla::road::Lane::LaneType</a>, std::vector&lt; std::unique_ptr&lt; <a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html">Mesh</a> &gt;&gt;&gt; &amp;result) const</td></tr>
+<tr class="memdesc:ad6e08fdf5e167445abc19afc3670cc4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a mesh that defines a lane section.  <a href="#ad6e08fdf5e167445abc19afc3670cc4a">More...</a><br /></td></tr>
+<tr class="separator:ad6e08fdf5e167445abc19afc3670cc4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a202f9750d3be15d0af4b42b3a90f3662"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory.html#a202f9750d3be15d0af4b42b3a90f3662">GenerateLeftWall</a> (const <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html">road::Lane</a> &amp;lane, const double s_start, const double s_end) const</td></tr>
 <tr class="memdesc:a202f9750d3be15d0af4b42b3a90f3662"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a wall-like mesh at the left side of the lane.  <a href="#a202f9750d3be15d0af4b42b3a90f3662">More...</a><br /></td></tr>
 <tr class="separator:a202f9750d3be15d0af4b42b3a90f3662"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae664312708449aa9f126ac91cf44c6b6"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247">carla::road::Lane::LaneType</a>, std::vector&lt; std::unique_ptr&lt; <a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html">Mesh</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory.html#ae664312708449aa9f126ac91cf44c6b6">GenerateOrderedWithMaxLen</a> (const <a class="el" href="../../dd/de6/classcarla_1_1road_1_1Road.html">road::Road</a> &amp;road) const</td></tr>
+<tr class="memdesc:ae664312708449aa9f126ac91cf44c6b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a list of meshes that defines a road with a maximum length.  <a href="#ae664312708449aa9f126ac91cf44c6b6">More...</a><br /></td></tr>
+<tr class="separator:ae664312708449aa9f126ac91cf44c6b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acce620f6e7432999236d4dd2c7900e24"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247">carla::road::Lane::LaneType</a>, std::vector&lt; std::unique_ptr&lt; <a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html">Mesh</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory.html#acce620f6e7432999236d4dd2c7900e24">GenerateOrderedWithMaxLen</a> (const <a class="el" href="../../dd/d80/classcarla_1_1road_1_1LaneSection.html">road::LaneSection</a> &amp;lane_section) const</td></tr>
+<tr class="memdesc:acce620f6e7432999236d4dd2c7900e24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a list of meshes that defines a lane_section with a maximum length.  <a href="#acce620f6e7432999236d4dd2c7900e24">More...</a><br /></td></tr>
+<tr class="separator:acce620f6e7432999236d4dd2c7900e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11c673db2f69ad3c21ebba4d068b8c6c"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory.html#a11c673db2f69ad3c21ebba4d068b8c6c">GenerateRightWall</a> (const <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html">road::Lane</a> &amp;lane, const double s_start, const double s_end) const</td></tr>
 <tr class="memdesc:a11c673db2f69ad3c21ebba4d068b8c6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a wall-like mesh at the right side of the lane.  <a href="#a11c673db2f69ad3c21ebba4d068b8c6c">More...</a><br /></td></tr>
 <tr class="separator:a11c673db2f69ad3c21ebba4d068b8c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae26205cfd730254bb1a35302386b497f"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory.html#ae26205cfd730254bb1a35302386b497f">GenerateTesselated</a> (const <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html">road::Lane</a> &amp;lane, const double s_start, const double s_end) const</td></tr>
+<tr class="memdesc:ae26205cfd730254bb1a35302386b497f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a mesh that defines a lane from a given s start and end with bigger tesselation.  <a href="#ae26205cfd730254bb1a35302386b497f">More...</a><br /></td></tr>
+<tr class="separator:ae26205cfd730254bb1a35302386b497f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27fb4c904ccf5679a3888a511609495b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory.html#a27fb4c904ccf5679a3888a511609495b">GenerateTesselated</a> (const <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html">road::Lane</a> &amp;lane) const</td></tr>
+<tr class="memdesc:a27fb4c904ccf5679a3888a511609495b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a mesh that defines the whole lane with bigger tesselation.  <a href="#a27fb4c904ccf5679a3888a511609495b">More...</a><br /></td></tr>
+<tr class="separator:a27fb4c904ccf5679a3888a511609495b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec242ce8214cea646ba254c0cfc0176a"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory.html#aec242ce8214cea646ba254c0cfc0176a">GenerateWalls</a> (const <a class="el" href="../../dd/d80/classcarla_1_1road_1_1LaneSection.html">road::LaneSection</a> &amp;lane_section) const</td></tr>
 <tr class="memdesc:aec242ce8214cea646ba254c0cfc0176a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Genrates a mesh representing a wall on the road corners to avoid cars falling down.  <a href="#aec242ce8214cea646ba254c0cfc0176a">More...</a><br /></td></tr>
 <tr class="separator:aec242ce8214cea646ba254c0cfc0176a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,7 +188,7 @@ Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00017">17</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d3b/OpendriveGenerationParameters_8h_source.html#l00037">carla::rpc::OpendriveGenerationParameters::additional_width</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00095">carla::geom::MeshFactory::RoadParameters::extra_lane_width</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00094">carla::geom::MeshFactory::RoadParameters::max_road_len</a>, <a class="el" href="../../d9/d3b/OpendriveGenerationParameters_8h_source.html#l00035">carla::rpc::OpendriveGenerationParameters::max_road_length</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00093">carla::geom::MeshFactory::RoadParameters::resolution</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00103">road_param</a>, <a class="el" href="../../d9/d3b/OpendriveGenerationParameters_8h_source.html#l00034">carla::rpc::OpendriveGenerationParameters::vertex_distance</a>, <a class="el" href="../../d9/d3b/OpendriveGenerationParameters_8h_source.html#l00036">carla::rpc::OpendriveGenerationParameters::wall_height</a>, and <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00096">carla::geom::MeshFactory::RoadParameters::wall_height</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d3b/OpendriveGenerationParameters_8h_source.html#l00037">carla::rpc::OpendriveGenerationParameters::additional_width</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00117">carla::geom::MeshFactory::RoadParameters::extra_lane_width</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00116">carla::geom::MeshFactory::RoadParameters::max_road_len</a>, <a class="el" href="../../d9/d3b/OpendriveGenerationParameters_8h_source.html#l00035">carla::rpc::OpendriveGenerationParameters::max_road_length</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00115">carla::geom::MeshFactory::RoadParameters::resolution</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00126">road_param</a>, <a class="el" href="../../d9/d3b/OpendriveGenerationParameters_8h_source.html#l00034">carla::rpc::OpendriveGenerationParameters::vertex_distance</a>, <a class="el" href="../../d9/d3b/OpendriveGenerationParameters_8h_source.html#l00038">carla::rpc::OpendriveGenerationParameters::vertex_width_resolution</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00119">carla::geom::MeshFactory::RoadParameters::vertex_width_resolution</a>, <a class="el" href="../../d9/d3b/OpendriveGenerationParameters_8h_source.html#l00036">carla::rpc::OpendriveGenerationParameters::wall_height</a>, and <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00118">carla::geom::MeshFactory::RoadParameters::wall_height</a>.</p>
 
 </div>
 </div>
@@ -194,11 +211,11 @@ Public Attributes</h2></td></tr>
 
 <p>Generates a mesh that defines a road. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../db/d48/Road_8h_source.html#l00127">carla::road::Road::GetLaneSections()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00037">Generate()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01043">carla::road::Map::GenerateChunkedMesh()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00996">carla::road::Map::GenerateMesh()</a>, and <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00238">GenerateWithMaxLen()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00038">Generate()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01047">carla::road::Map::GenerateChunkedMesh()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00999">carla::road::Map::GenerateMesh()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01132">carla::road::Map::GenerateOrderedChunkedMesh()</a>, and <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00345">GenerateWithMaxLen()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -212,7 +229,7 @@ Public Attributes</h2></td></tr>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_a7d1496ea84aecdf1fd4fe405a2c4da6c_icgraph.svg" width="475" height="235"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_a7d1496ea84aecdf1fd4fe405a2c4da6c_icgraph.svg" width="475" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -236,9 +253,9 @@ Public Attributes</h2></td></tr>
 
 <p>Generates a mesh that defines a lane section. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00037">37</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00038">38</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00029">Generate()</a>, and <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00047">carla::road::LaneSection::GetLanes()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00030">Generate()</a>, and <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00047">carla::road::LaneSection::GetLanes()</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -284,9 +301,9 @@ Public Attributes</h2></td></tr>
 
 <p>Generates a mesh that defines a lane from a given s start and end. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00051">51</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00058">58</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00107">carla::geom::Mesh::AddMaterial()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00045">carla::geom::Mesh::AddTriangleStrip()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00123">carla::geom::Mesh::EndMaterial()</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00095">carla::geom::MeshFactory::RoadParameters::extra_lane_width</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00204">carla::road::Lane::GetCornerPositions()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00046">carla::road::Lane::GetDistance()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00034">carla::road::Lane::GetId()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00051">carla::road::Lane::GetLength()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00038">carla::road::Lane::GetType()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00065">carla::road::Lane::IsStraight()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00093">carla::geom::MeshFactory::RoadParameters::resolution</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00103">road_param</a>, and <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247ac68f4e6506520a1ae5f89c48dc2fcca1">carla::road::Lane::Sidewalk</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00109">carla::geom::Mesh::AddMaterial()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00047">carla::geom::Mesh::AddTriangleStrip()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00125">carla::geom::Mesh::EndMaterial()</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00117">carla::geom::MeshFactory::RoadParameters::extra_lane_width</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00204">carla::road::Lane::GetCornerPositions()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00046">carla::road::Lane::GetDistance()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00034">carla::road::Lane::GetId()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00051">carla::road::Lane::GetLength()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00038">carla::road::Lane::GetType()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00065">carla::road::Lane::IsStraight()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00115">carla::geom::MeshFactory::RoadParameters::resolution</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00126">road_param</a>, <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247ac68f4e6506520a1ae5f89c48dc2fcca1">carla::road::Lane::Sidewalk</a>, and <a class="el" href="../../d3/d33/Simplify_8h_source.html#l00406">Simplify::vertices</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
@@ -316,15 +333,75 @@ Public Attributes</h2></td></tr>
 
 <p>Generates a mesh that defines the whole lane. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00045">45</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00046">46</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00026">carla::geom::EPSILON</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00029">Generate()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00046">carla::road::Lane::GetDistance()</a>, and <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00051">carla::road::Lane::GetLength()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00027">carla::geom::EPSILON</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00046">Generate()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00046">carla::road::Lane::GetDistance()</a>, and <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00051">carla::road::Lane::GetLength()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00046">Generate()</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_a74986f0ff4c63da7c50b479dd2d0fc0e_cgraph.svg" width="100%" height="495"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_a74986f0ff4c63da7c50b479dd2d0fc0e_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_a74986f0ff4c63da7c50b479dd2d0fc0e_icgraph.svg" width="199" height="76"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="afdcf31bae216e33143aa89133b78d60a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdcf31bae216e33143aa89133b78d60a">&#9670;&nbsp;</a></span>GenerateAllOrderedWithMaxLen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::geom::MeshFactory::GenerateAllOrderedWithMaxLen </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dd/de6/classcarla_1_1road_1_1Road.html">road::Road</a> &amp;&#160;</td>
+          <td class="paramname"><em>road</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::map&lt; <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247">road::Lane::LaneType</a>, std::vector&lt; std::unique_ptr&lt; <a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html">Mesh</a> &gt;&gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>roads</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00518">518</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00373">GenerateOrderedWithMaxLen()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01132">carla::road::Map::GenerateOrderedChunkedMesh()</a>.</p>
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_afdcf31bae216e33143aa89133b78d60a_cgraph.svg" width="100%" height="397"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_afdcf31bae216e33143aa89133b78d60a_icgraph.svg" width="492" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -348,25 +425,77 @@ Public Attributes</h2></td></tr>
 
 <p>Generates a chunked road with all the features needed for simulation. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00325">325</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00488">488</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00266">GenerateWallsWithMaxLen()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00225">GenerateWithMaxLen()</a>, and <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00042">carla::road::Road::IsJunction()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00429">GenerateWallsWithMaxLen()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00332">GenerateWithMaxLen()</a>, and <a class="el" href="../../dc/d2f/Road_8cpp_source.html#l00042">carla::road::Road::IsJunction()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01043">carla::road::Map::GenerateChunkedMesh()</a>.</p>
-<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01047">carla::road::Map::GenerateChunkedMesh()</a>.</p>
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_ae412b9c8efc0fbcf0166900f5c107433_cgraph.svg" width="100%" height="448"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_ae412b9c8efc0fbcf0166900f5c107433_icgraph.svg" width="442" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ad6e08fdf5e167445abc19afc3670cc4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6e08fdf5e167445abc19afc3670cc4a">&#9670;&nbsp;</a></span>GenerateLaneSectionOrdered()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::geom::MeshFactory::GenerateLaneSectionOrdered </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dd/d80/classcarla_1_1road_1_1LaneSection.html">road::LaneSection</a> &amp;&#160;</td>
+          <td class="paramname"><em>lane_section</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::map&lt; <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247">carla::road::Lane::LaneType</a>, std::vector&lt; std::unique_ptr&lt; <a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html">Mesh</a> &gt;&gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generates a mesh that defines a lane section. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00188">188</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00111">GenerateTesselated()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00047">carla::road::LaneSection::GetLanes()</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00126">road_param</a>, and <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00119">carla::geom::MeshFactory::RoadParameters::vertex_width_resolution</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00385">GenerateOrderedWithMaxLen()</a>.</p>
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_ad6e08fdf5e167445abc19afc3670cc4a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_ad6e08fdf5e167445abc19afc3670cc4a_icgraph.svg" width="503" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -406,25 +535,99 @@ Public Attributes</h2></td></tr>
 
 <p>Generates a wall-like mesh at the left side of the lane. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00174">174</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00281">281</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00107">carla::geom::Mesh::AddMaterial()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00045">carla::geom::Mesh::AddTriangleStrip()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00123">carla::geom::Mesh::EndMaterial()</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00095">carla::geom::MeshFactory::RoadParameters::extra_lane_width</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00204">carla::road::Lane::GetCornerPositions()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00046">carla::road::Lane::GetDistance()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00034">carla::road::Lane::GetId()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00051">carla::road::Lane::GetLength()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00038">carla::road::Lane::GetType()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00065">carla::road::Lane::IsStraight()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00093">carla::geom::MeshFactory::RoadParameters::resolution</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00103">road_param</a>, <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247ac68f4e6506520a1ae5f89c48dc2fcca1">carla::road::Lane::Sidewalk</a>, and <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00096">carla::geom::MeshFactory::RoadParameters::wall_height</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00109">carla::geom::Mesh::AddMaterial()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00047">carla::geom::Mesh::AddTriangleStrip()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00125">carla::geom::Mesh::EndMaterial()</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00117">carla::geom::MeshFactory::RoadParameters::extra_lane_width</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00204">carla::road::Lane::GetCornerPositions()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00046">carla::road::Lane::GetDistance()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00034">carla::road::Lane::GetId()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00051">carla::road::Lane::GetLength()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00038">carla::road::Lane::GetType()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00065">carla::road::Lane::IsStraight()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00115">carla::geom::MeshFactory::RoadParameters::resolution</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00126">road_param</a>, <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247ac68f4e6506520a1ae5f89c48dc2fcca1">carla::road::Lane::Sidewalk</a>, and <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00118">carla::geom::MeshFactory::RoadParameters::wall_height</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00101">GenerateWalls()</a>, and <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00279">GenerateWallsWithMaxLen()</a>.</p>
-<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00208">GenerateWalls()</a>, and <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00442">GenerateWallsWithMaxLen()</a>.</p>
+<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_a202f9750d3be15d0af4b42b3a90f3662_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_a202f9750d3be15d0af4b42b3a90f3662_icgraph.svg" width="100%" height="361"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ae664312708449aa9f126ac91cf44c6b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae664312708449aa9f126ac91cf44c6b6">&#9670;&nbsp;</a></span>GenerateOrderedWithMaxLen() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt; <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247">road::Lane::LaneType</a>, std::vector&lt; std::unique_ptr&lt; <a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html">Mesh</a> &gt; &gt; &gt; carla::geom::MeshFactory::GenerateOrderedWithMaxLen </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dd/de6/classcarla_1_1road_1_1Road.html">road::Road</a> &amp;&#160;</td>
+          <td class="paramname"><em>road</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generates a list of meshes that defines a road with a maximum length. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00373">373</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../db/d48/Road_8h_source.html#l00127">carla::road::Road::GetLaneSections()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00518">GenerateAllOrderedWithMaxLen()</a>.</p>
+<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_ae664312708449aa9f126ac91cf44c6b6_cgraph.svg" width="100%" height="397"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_ae664312708449aa9f126ac91cf44c6b6_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="acce620f6e7432999236d4dd2c7900e24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acce620f6e7432999236d4dd2c7900e24">&#9670;&nbsp;</a></span>GenerateOrderedWithMaxLen() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt; <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247">road::Lane::LaneType</a>, std::vector&lt; std::unique_ptr&lt; <a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html">Mesh</a> &gt; &gt; &gt; carla::geom::MeshFactory::GenerateOrderedWithMaxLen </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dd/d80/classcarla_1_1road_1_1LaneSection.html">road::LaneSection</a> &amp;&#160;</td>
+          <td class="paramname"><em>lane_section</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generates a list of meshes that defines a lane_section with a maximum length. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00385">385</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00027">carla::geom::EPSILON</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00188">GenerateLaneSectionOrdered()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00111">GenerateTesselated()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00013">carla::road::LaneSection::GetDistance()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00047">carla::road::LaneSection::GetLanes()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00017">carla::road::LaneSection::GetLength()</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00116">carla::geom::MeshFactory::RoadParameters::max_road_len</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00126">road_param</a>, and <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00119">carla::geom::MeshFactory::RoadParameters::vertex_width_resolution</a>.</p>
+<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_acce620f6e7432999236d4dd2c7900e24_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -464,25 +667,115 @@ Public Attributes</h2></td></tr>
 
 <p>Generates a wall-like mesh at the right side of the lane. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00123">123</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00230">230</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00107">carla::geom::Mesh::AddMaterial()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00045">carla::geom::Mesh::AddTriangleStrip()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00123">carla::geom::Mesh::EndMaterial()</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00095">carla::geom::MeshFactory::RoadParameters::extra_lane_width</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00204">carla::road::Lane::GetCornerPositions()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00046">carla::road::Lane::GetDistance()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00034">carla::road::Lane::GetId()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00051">carla::road::Lane::GetLength()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00038">carla::road::Lane::GetType()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00065">carla::road::Lane::IsStraight()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00093">carla::geom::MeshFactory::RoadParameters::resolution</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00103">road_param</a>, <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247ac68f4e6506520a1ae5f89c48dc2fcca1">carla::road::Lane::Sidewalk</a>, and <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00096">carla::geom::MeshFactory::RoadParameters::wall_height</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00109">carla::geom::Mesh::AddMaterial()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00047">carla::geom::Mesh::AddTriangleStrip()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00125">carla::geom::Mesh::EndMaterial()</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00117">carla::geom::MeshFactory::RoadParameters::extra_lane_width</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00204">carla::road::Lane::GetCornerPositions()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00046">carla::road::Lane::GetDistance()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00034">carla::road::Lane::GetId()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00051">carla::road::Lane::GetLength()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00038">carla::road::Lane::GetType()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00065">carla::road::Lane::IsStraight()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00115">carla::geom::MeshFactory::RoadParameters::resolution</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00126">road_param</a>, <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247ac68f4e6506520a1ae5f89c48dc2fcca1">carla::road::Lane::Sidewalk</a>, and <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00118">carla::geom::MeshFactory::RoadParameters::wall_height</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00101">GenerateWalls()</a>, and <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00279">GenerateWallsWithMaxLen()</a>.</p>
-<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00208">GenerateWalls()</a>, and <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00442">GenerateWallsWithMaxLen()</a>.</p>
+<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_a11c673db2f69ad3c21ebba4d068b8c6c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_a11c673db2f69ad3c21ebba4d068b8c6c_icgraph.svg" width="100%" height="361"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ae26205cfd730254bb1a35302386b497f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae26205cfd730254bb1a35302386b497f">&#9670;&nbsp;</a></span>GenerateTesselated() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html">Mesh</a> &gt; carla::geom::MeshFactory::GenerateTesselated </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html">road::Lane</a> &amp;&#160;</td>
+          <td class="paramname"><em>lane</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>s_start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>s_end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generates a mesh that defines a lane from a given s start and end with bigger tesselation. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00111">111</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00101">carla::geom::Mesh::AddIndex()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00109">carla::geom::Mesh::AddMaterial()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00093">carla::geom::Mesh::AddVertices()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00125">carla::geom::Mesh::EndMaterial()</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00117">carla::geom::MeshFactory::RoadParameters::extra_lane_width</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00204">carla::road::Lane::GetCornerPositions()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00046">carla::road::Lane::GetDistance()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00034">carla::road::Lane::GetId()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00051">carla::road::Lane::GetLength()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00038">carla::road::Lane::GetType()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00084">RELEASE_ASSERT</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00115">carla::geom::MeshFactory::RoadParameters::resolution</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00126">road_param</a>, <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247ac68f4e6506520a1ae5f89c48dc2fcca1">carla::road::Lane::Sidewalk</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00119">carla::geom::MeshFactory::RoadParameters::vertex_width_resolution</a>, and <a class="el" href="../../d3/d33/Simplify_8h_source.html#l00406">Simplify::vertices</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00188">GenerateLaneSectionOrdered()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00385">GenerateOrderedWithMaxLen()</a>, and <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00052">GenerateTesselated()</a>.</p>
+<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_ae26205cfd730254bb1a35302386b497f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_ae26205cfd730254bb1a35302386b497f_icgraph.svg" width="100%" height="427"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a27fb4c904ccf5679a3888a511609495b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27fb4c904ccf5679a3888a511609495b">&#9670;&nbsp;</a></span>GenerateTesselated() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html">Mesh</a> &gt; carla::geom::MeshFactory::GenerateTesselated </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../df/d85/classcarla_1_1road_1_1Lane.html">road::Lane</a> &amp;&#160;</td>
+          <td class="paramname"><em>lane</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generates a mesh that defines the whole lane with bigger tesselation. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00052">52</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00027">carla::geom::EPSILON</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00111">GenerateTesselated()</a>, <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00046">carla::road::Lane::GetDistance()</a>, and <a class="el" href="../../dc/d13/Lane_8cpp_source.html#l00051">carla::road::Lane::GetLength()</a>.</p>
+<div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_a27fb4c904ccf5679a3888a511609495b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -506,24 +799,24 @@ Public Attributes</h2></td></tr>
 
 <p>Genrates a mesh representing a wall on the road corners to avoid cars falling down. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00101">101</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00208">208</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00026">carla::geom::EPSILON</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00174">GenerateLeftWall()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00123">GenerateRightWall()</a>, and <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00047">carla::road::LaneSection::GetLanes()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00027">carla::geom::EPSILON</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00281">GenerateLeftWall()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00230">GenerateRightWall()</a>, and <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00047">carla::road::LaneSection::GetLanes()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00279">GenerateWallsWithMaxLen()</a>.</p>
-<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00442">GenerateWallsWithMaxLen()</a>.</p>
+<div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_aec242ce8214cea646ba254c0cfc0176a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_aec242ce8214cea646ba254c0cfc0176a_icgraph.svg" width="452" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -548,24 +841,24 @@ Public Attributes</h2></td></tr>
 
 <p>Generates a list of meshes that defines a road safety wall with a maximum length. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00266">266</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00429">429</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../db/d48/Road_8h_source.html#l00127">carla::road::Road::GetLaneSections()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00325">GenerateAllWithMaxLen()</a>.</p>
-<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00488">GenerateAllWithMaxLen()</a>.</p>
+<div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_a5bb7825a0c5633404a348ccddcce20f7_cgraph.svg" width="100%" height="397"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_a5bb7825a0c5633404a348ccddcce20f7_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -590,14 +883,14 @@ Public Attributes</h2></td></tr>
 
 <p>Generates a list of meshes that defines a lane_section safety wall with a maximum length. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00279">279</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00442">442</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00026">carla::geom::EPSILON</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00174">GenerateLeftWall()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00123">GenerateRightWall()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00101">GenerateWalls()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00013">carla::road::LaneSection::GetDistance()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00047">carla::road::LaneSection::GetLanes()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00017">carla::road::LaneSection::GetLength()</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00094">carla::geom::MeshFactory::RoadParameters::max_road_len</a>, and <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00103">road_param</a>.</p>
-<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00027">carla::geom::EPSILON</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00281">GenerateLeftWall()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00230">GenerateRightWall()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00208">GenerateWalls()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00013">carla::road::LaneSection::GetDistance()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00047">carla::road::LaneSection::GetLanes()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00017">carla::road::LaneSection::GetLength()</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00116">carla::geom::MeshFactory::RoadParameters::max_road_len</a>, and <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00126">road_param</a>.</p>
+<div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_a5588f2f98ea42ade1082db0ef1c8ce7b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -622,24 +915,24 @@ Public Attributes</h2></td></tr>
 
 <p>Generates a list of meshes that defines a road with a maximum length. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00225">225</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00332">332</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../db/d48/Road_8h_source.html#l00127">carla::road::Road::GetLaneSections()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00325">GenerateAllWithMaxLen()</a>.</p>
-<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00488">GenerateAllWithMaxLen()</a>.</p>
+<div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_ae4ed344f3d9ed1020d78d720400bbc3a_cgraph.svg" width="100%" height="397"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_ae4ed344f3d9ed1020d78d720400bbc3a_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -664,14 +957,14 @@ Public Attributes</h2></td></tr>
 
 <p>Generates a list of meshes that defines a lane_section with a maximum length. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00238">238</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00345">345</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00026">carla::geom::EPSILON</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00029">Generate()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00013">carla::road::LaneSection::GetDistance()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00047">carla::road::LaneSection::GetLanes()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00017">carla::road::LaneSection::GetLength()</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00094">carla::geom::MeshFactory::RoadParameters::max_road_len</a>, and <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00103">road_param</a>.</p>
-<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00027">carla::geom::EPSILON</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00030">Generate()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00013">carla::road::LaneSection::GetDistance()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00047">carla::road::LaneSection::GetLanes()</a>, <a class="el" href="../../d6/d5d/LaneSection_8cpp_source.html#l00017">carla::road::LaneSection::GetLength()</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00116">carla::geom::MeshFactory::RoadParameters::max_road_len</a>, and <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00126">road_param</a>.</p>
+<div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_a4f08d64f46acd0e8a4e0ff9f2c20dde2_cgraph.svg" width="100%" height="522"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -694,25 +987,25 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00444">444</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00622">622</a> of file <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html">MeshFactory.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00396">carla::geom::GetVertexNeighborhoodAndWeights()</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00103">road_param</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00574">carla::geom::GetVertexNeighborhoodAndWeights()</a>, <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00126">road_param</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01043">carla::road::Map::GenerateChunkedMesh()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00996">carla::road::Map::GenerateMesh()</a>.</p>
-<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01047">carla::road::Map::GenerateChunkedMesh()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00999">carla::road::Map::GenerateMesh()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01132">carla::road::Map::GenerateOrderedChunkedMesh()</a>.</p>
+<div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_ac7c891b3eb9597cca2e928da5bce47c7_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_ac7c891b3eb9597cca2e928da5bce47c7_icgraph.svg" width="475" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d3d/classcarla_1_1geom_1_1MeshFactory_ac7c891b3eb9597cca2e928da5bce47c7_icgraph.svg" width="475" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -731,9 +1024,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00103">103</a> of file <a class="el" href="../../d9/d87/MeshFactory_8h_source.html">MeshFactory.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d87/MeshFactory_8h_source.html#l00126">126</a> of file <a class="el" href="../../d9/d87/MeshFactory_8h_source.html">MeshFactory.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00051">Generate()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00174">GenerateLeftWall()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00996">carla::road::Map::GenerateMesh()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00123">GenerateRightWall()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00279">GenerateWallsWithMaxLen()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00238">GenerateWithMaxLen()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00444">MergeAndSmooth()</a>, and <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00017">MeshFactory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00058">Generate()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00188">GenerateLaneSectionOrdered()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00281">GenerateLeftWall()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l00999">carla::road::Map::GenerateMesh()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00385">GenerateOrderedWithMaxLen()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00230">GenerateRightWall()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00111">GenerateTesselated()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00442">GenerateWallsWithMaxLen()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00345">GenerateWithMaxLen()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00622">MergeAndSmooth()</a>, and <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00017">MeshFactory()</a>.</p>
 
 </div>
 </div>

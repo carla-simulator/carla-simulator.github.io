@@ -87,6 +87,7 @@ var searchData=
   ['traverse',['traverse',['../db/d65/classpugi_1_1xml__node.html#a951d5d02987f75fabc4d575cfdeec8b4',1,'pugi::xml_node']]],
   ['trim',['Trim',['../de/d93/classcarla_1_1StringUtil.html#ab7d6383cea40cc8283c4725e6dc492fa',1,'carla::StringUtil']]],
   ['trimcopy',['TrimCopy',['../de/d93/classcarla_1_1StringUtil.html#aa247687fcd92820f5d930ca966a48e17',1,'carla::StringUtil']]],
+  ['trimwhitespace',['trimwhitespace',['../d7/d5b/namespaceSimplify.html#aa09ac02bec85fece121a9fc0521922f7',1,'Simplify']]],
   ['truncate',['truncate',['../d1/daf/classxpath__node__set__raw.html#aba48d228f554065702f3e6d5059f701d',1,'xpath_node_set_raw']]],
   ['truncate_5fzeros',['truncate_zeros',['../db/d20/pugixml_8cpp.html#ae4e5418ba6b9fb37fd27eb89a00de148',1,'pugixml.cpp']]],
   ['try_5fdequeue',['try_dequeue',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a1895c8a6120aef578fe01db53879517b',1,'moodycamel::ConcurrentQueue::try_dequeue(U &amp;item)'],['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#a67d5a2377539808015044acbb34216d1',1,'moodycamel::ConcurrentQueue::try_dequeue(consumer_token_t &amp;token, U &amp;item)']]],
