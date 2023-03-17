@@ -64,6 +64,7 @@ var searchData=
   ['loadsettingsfromconfig',['LoadSettingsFromConfig',['../dc/d42/CarlaSettings_8cpp.html#a602a9561bdae71fa20d601f6fbad6b33',1,'CarlaSettings.cpp']]],
   ['loadsettingsfromfile',['LoadSettingsFromFile',['../d7/d1e/classUCarlaSettings.html#aa20145a25cbf094c738d7177b3291f8e',1,'UCarlaSettings']]],
   ['loadsettingsfromstring',['LoadSettingsFromString',['../d7/d1e/classUCarlaSettings.html#afc4fa4bccd88bf1f33b73982d31170d5',1,'UCarlaSettings']]],
+  ['loadusdfile',['LoadUSDFile',['../da/dca/classAUSDImporterActor.html#a215364a7a37e5f5767bc06b4ffb77f89',1,'AUSDImporterActor']]],
   ['loadworld',['LoadWorld',['../d6/d8c/classcarla_1_1client_1_1Client.html#a16d6034a590083aed358faacd316412d',1,'carla::client::Client']]],
   ['loadxodr',['LoadXODR',['../d1/d1b/classUOpenDrive.html#a8b43e38d054303fd1353447a6514e228',1,'UOpenDrive']]],
   ['local_5fname',['local_name',['../db/d20/pugixml_8cpp.html#a4046fdbf867e469eb899a6a17cfaafa9',1,'pugixml.cpp']]],
