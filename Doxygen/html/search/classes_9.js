@@ -16,6 +16,7 @@ var searchData=
   ['informationset',['InformationSet',['../d4/d28/classcarla_1_1road_1_1InformationSet.html',1,'carla::road']]],
   ['inmemorymap',['InMemoryMap',['../da/d07/classcarla_1_1traffic__manager_1_1InMemoryMap.html',1,'carla::traffic_manager']]],
   ['inputs',['Inputs',['../dd/dd6/structcarla_1_1learning_1_1Inputs.html',1,'carla::learning']]],
+  ['intersectinfo',['IntersectInfo',['../d7/dfa/structMeshReconstruction_1_1IntersectInfo.html',1,'MeshReconstruction']]],
   ['invalidattributevalue',['InvalidAttributeValue',['../dc/d59/classcarla_1_1client_1_1InvalidAttributeValue.html',1,'carla::client']]],
   ['io_5fany',['io_any',['../dd/d53/structcarla_1_1image_1_1io_1_1detail_1_1io__any.html',1,'carla::image::io::detail']]],
   ['io_5fany_3c_20detail_3a_3aio_5fjpeg_20_3e',['io_any&lt; detail::io_jpeg &gt;',['../dd/d53/structcarla_1_1image_1_1io_1_1detail_1_1io__any.html',1,'carla::image::io::detail']]],

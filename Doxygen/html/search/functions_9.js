@@ -49,7 +49,7 @@ var searchData=
   ['internal_5fobject',['internal_object',['../de/d7c/classpugi_1_1xml__attribute.html#afb3c9c31c506e2e8bcaed4db5233fd68',1,'pugi::xml_attribute::internal_object()'],['../db/d65/classpugi_1_1xml__node.html#a43e02a850ab79bc392ad0987efabb8e8',1,'pugi::xml_node::internal_object()']]],
   ['interpolate',['interpolate',['../d3/d33/Simplify_8h.html#ac2c0b25a31124fc319fb116c78471be9',1,'Simplify.h']]],
   ['interpolateposition',['InterpolatePosition',['../dc/dc6/classCarlaReplayer.html#a38b36d848f1ae6b12ab802b3788a734b',1,'CarlaReplayer']]],
-  ['intersect',['Intersect',['../d5/db2/classURoadMap.html#ac40ce0534934a56138113b4991b530c1',1,'URoadMap']]],
+  ['intersect',['Intersect',['../d5/db2/classURoadMap.html#ac40ce0534934a56138113b4991b530c1',1,'URoadMap::Intersect()'],['../df/da6/classMeshReconstruction_1_1Cube.html#adae08927d184af972c39e4dacbd058a6',1,'MeshReconstruction::Cube::Intersect()']]],
   ['invalidattributevalue',['InvalidAttributeValue',['../dc/d59/classcarla_1_1client_1_1InvalidAttributeValue.html#a2ed4baba62e09089e8980f5576755419',1,'carla::client::InvalidAttributeValue']]],
   ['inverserotatevector',['InverseRotateVector',['../d8/dba/classcarla_1_1geom_1_1Rotation.html#ad4d8bc301fba5c24b1acdc190a848703',1,'carla::geom::Rotation']]],
   ['inversetransformpoint',['InverseTransformPoint',['../de/da4/classcarla_1_1geom_1_1Transform.html#a92a9a6fdd66eea2d1ec03b14378c7e50',1,'carla::geom::Transform']]],

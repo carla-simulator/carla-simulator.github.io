@@ -111,5 +111,6 @@ var searchData=
   ['controller',['Controller',['../dc/d62/classcarla_1_1road_1_1Controller.html',1,'carla::road']]],
   ['controllerparser',['ControllerParser',['../df/dbe/classcarla_1_1opendrive_1_1parser_1_1ControllerParser.html',1,'carla::opendrive::parser']]],
   ['crosswalkpoint',['CrosswalkPoint',['../d8/de6/structcarla_1_1road_1_1element_1_1CrosswalkPoint.html',1,'carla::road::element']]],
+  ['cube',['Cube',['../df/da6/classMeshReconstruction_1_1Cube.html',1,'MeshReconstruction']]],
   ['cubicpolynomial',['CubicPolynomial',['../d4/db7/classcarla_1_1geom_1_1CubicPolynomial.html',1,'carla::geom']]]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['vec3',['Vec3',['../df/d45/structMeshReconstruction_1_1Vec3.html',1,'MeshReconstruction']]],
   ['vec3f',['vec3f',['../da/d83/structvec3f.html',1,'']]],
   ['vector2d',['Vector2D',['../d4/d57/classcarla_1_1geom_1_1Vector2D.html',1,'carla::geom']]],
   ['vector3',['vector3',['../dd/d53/structvector3.html',1,'']]],
