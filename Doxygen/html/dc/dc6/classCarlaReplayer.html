@@ -114,6 +114,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a07a8e6e514ae92cce3538ba07f67d413"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47b21aa77b6cdedc32211364843a3173"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/classCarlaReplayer.html#a47b21aa77b6cdedc32211364843a3173">SetIgnoreHero</a> (bool InIgnoreHero)</td></tr>
 <tr class="separator:a47b21aa77b6cdedc32211364843a3173"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a0eee50ba486043d4b9fb99965a4719"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/classCarlaReplayer.html#a5a0eee50ba486043d4b9fb99965a4719">SetIgnoreSpectator</a> (bool InIgnoreSpectator)</td></tr>
+<tr class="separator:a5a0eee50ba486043d4b9fb99965a4719"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61e4b2ce6197fc94c888b722f79e808b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/classCarlaReplayer.html#a61e4b2ce6197fc94c888b722f79e808b">SetTimeFactor</a> (double NewTimeFactor)</td></tr>
 <tr class="separator:a61e4b2ce6197fc94c888b722f79e808b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af627917f2c95135fb11b59af4f65dbf7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/classCarlaReplayer.html#af627917f2c95135fb11b59af4f65dbf7">Stop</a> (bool KeepActors=false)</td></tr>
@@ -134,8 +136,12 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a324267de6b4818acf1d577d4e62f7a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38b36d848f1ae6b12ab802b3788a734b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/classCarlaReplayer.html#a38b36d848f1ae6b12ab802b3788a734b">InterpolatePosition</a> (const <a class="el" href="../../d3/d16/structCarlaRecorderPosition.html">CarlaRecorderPosition</a> &amp;Start, const <a class="el" href="../../d3/d16/structCarlaRecorderPosition.html">CarlaRecorderPosition</a> &amp;End, double Per, double DeltaTime)</td></tr>
 <tr class="separator:a38b36d848f1ae6b12ab802b3788a734b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8f3012d1c7810dedfaaedacd0e1e601"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/classCarlaReplayer.html#ab8f3012d1c7810dedfaaedacd0e1e601">ProcessAnimBiker</a> (void)</td></tr>
+<tr class="separator:ab8f3012d1c7810dedfaaedacd0e1e601"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e7f6d573e365e8286fff2d364508898"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/classCarlaReplayer.html#a3e7f6d573e365e8286fff2d364508898">ProcessAnimVehicle</a> (void)</td></tr>
 <tr class="separator:a3e7f6d573e365e8286fff2d364508898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36173bcde3a636cea162c3570c66b849"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/classCarlaReplayer.html#a36173bcde3a636cea162c3570c66b849">ProcessAnimVehicleWheels</a> (void)</td></tr>
+<tr class="separator:a36173bcde3a636cea162c3570c66b849"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaea1d59cb968cbf79045a141601195d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/classCarlaReplayer.html#aaea1d59cb968cbf79045a141601195d5">ProcessAnimWalker</a> (void)</td></tr>
 <tr class="separator:aaea1d59cb968cbf79045a141601195d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a929a7a4c79086339485caba9f6562c8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/classCarlaReplayer.html#a929a7a4c79086339485caba9f6562c8e">ProcessEventsAdd</a> (void)</td></tr>
@@ -191,6 +197,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ac39e2e5c4ad5152b9e1e98da3712b3b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a735ddad196fdf49fd281dc1f6b7546ae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/classCarlaReplayer.html#a735ddad196fdf49fd281dc1f6b7546ae">IgnoreHero</a> { false }</td></tr>
 <tr class="separator:a735ddad196fdf49fd281dc1f6b7546ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cb89dee2e0b8a2348f1e8115ff32c88"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/classCarlaReplayer.html#a2cb89dee2e0b8a2348f1e8115ff32c88">IgnoreSpectator</a> { true }</td></tr>
+<tr class="separator:a2cb89dee2e0b8a2348f1e8115ff32c88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf8576bf7cfea305962e1259bbbec1d7"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; uint32_t, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/classCarlaReplayer.html#adf8576bf7cfea305962e1259bbbec1d7">IsHeroMap</a></td></tr>
 <tr class="separator:adf8576bf7cfea305962e1259bbbec1d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aead1bf884a0235443da17e415b8a1321"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; uint32_t, uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc6/classCarlaReplayer.html#aead1bf884a0235443da17e415b8a1321">MappedId</a></td></tr>
@@ -262,7 +270,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00053">53</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/dc6/classCarlaReplayer.html#ae6727cff9c86a065e315a6af298a10ff">Disable()</a>, <a class="el" href="../../dc/dc6/classCarlaReplayer.html#a9958b6b0673689753db53f2beb6833b7">Enable()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00117">FollowId</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dc6/classCarlaReplayer.html#ae6727cff9c86a065e315a6af298a10ff">Disable()</a>, <a class="el" href="../../dc/dc6/classCarlaReplayer.html#a9958b6b0673689753db53f2beb6833b7">Enable()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00123">FollowId</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -291,11 +299,11 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00195">195</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00201">201</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00050">Autoplay</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00098">bReplaySensors</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00044">CarlaReplayer::PlayAfterLoadMap::Duration</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00040">CarlaReplayer::PlayAfterLoadMap::Enabled</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00097">Enabled</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00041">CarlaReplayer::PlayAfterLoadMap::Filename</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00045">CarlaReplayer::PlayAfterLoadMap::FollowId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00117">FollowId</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00075">GetTotalTime()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">Helper</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00516">CarlaReplayerHelper::RemoveStaticProps()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00047">CarlaReplayer::PlayAfterLoadMap::ReplaySensors</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">Rewind()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00046">CarlaReplayer::PlayAfterLoadMap::TimeFactor</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00119">TimeFactor</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00043">CarlaReplayer::PlayAfterLoadMap::TimeStart</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00112">TimeToStop</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00113">TotalTime</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00050">Autoplay</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00104">bReplaySensors</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00044">CarlaReplayer::PlayAfterLoadMap::Duration</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00040">CarlaReplayer::PlayAfterLoadMap::Enabled</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00103">Enabled</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00041">CarlaReplayer::PlayAfterLoadMap::Filename</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00045">CarlaReplayer::PlayAfterLoadMap::FollowId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00123">FollowId</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00075">GetTotalTime()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">Helper</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00559">CarlaReplayerHelper::RemoveStaticProps()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00047">CarlaReplayer::PlayAfterLoadMap::ReplaySensors</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">Rewind()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00046">CarlaReplayer::PlayAfterLoadMap::TimeFactor</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00125">TimeFactor</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00043">CarlaReplayer::PlayAfterLoadMap::TimeStart</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00118">TimeToStop</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00119">TotalTime</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00171">ACarlaGameModeBase::BeginPlay()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00184">FCarlaEngine::NotifyBeginEpisode()</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00084">SetIgnoreHero()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d2e/CarlaGameModeBase_8cpp_source.html#l00177">ACarlaGameModeBase::BeginPlay()</a>, <a class="el" href="../../d6/da1/CarlaEngine_8cpp_source.html#l00185">FCarlaEngine::NotifyBeginEpisode()</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00090">SetIgnoreSpectator()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -309,7 +317,7 @@ Private Attributes</h2></td></tr>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_ac70d3dbe1f79ffd25a695ec3bd2485e6_icgraph.svg" width="100%" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_ac70d3dbe1f79ffd25a695ec3bd2485e6_icgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -397,9 +405,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00075">75</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/dfc/CarlaRecorderFrames_8h_source.html#l00016">CarlaRecorderFrame::Elapsed</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00104">Frame</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a6136f03a358cd6af9c79d43eb3bccfc3">FrameStart</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00032">CarlaReplayer::Header::Id</a>, <a class="el" href="../../dd/dd3/CarlaRecorderFrames_8cpp_source.html#l00011">CarlaRecorderFrame::Read()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00036">ReadHeader()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00049">SkipPacket()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dfc/CarlaRecorderFrames_8h_source.html#l00016">CarlaRecorderFrame::Elapsed</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00110">Frame</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a6136f03a358cd6af9c79d43eb3bccfc3">FrameStart</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00032">CarlaReplayer::Header::Id</a>, <a class="el" href="../../dd/dd3/CarlaRecorderFrames_8cpp_source.html#l00011">CarlaRecorderFrame::Read()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00036">ReadHeader()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00049">SkipPacket()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00195">CheckPlayAfterMapLoaded()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00201">CheckPlayAfterMapLoaded()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>.</p>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
@@ -413,7 +421,7 @@ Private Attributes</h2></td></tr>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a324267de6b4818acf1d577d4e62f7a0e_icgraph.svg" width="100%" height="505"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a324267de6b4818acf1d577d4e62f7a0e_icgraph.svg" width="100%" height="514"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -465,11 +473,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00709">709</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00776">776</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">Helper</a>, and <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00285">CarlaReplayerHelper::ProcessReplayerPosition()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">Helper</a>, and <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00293">CarlaReplayerHelper::ProcessReplayerPosition()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00652">UpdatePositions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00718">UpdatePositions()</a>.</p>
 <div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-8-summary" class="dynsummary" style="display:block;">
@@ -515,15 +523,63 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00065">65</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00097">Enabled</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00103">Enabled</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00405">UCarlaEpisode::EndPlay()</a>, <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00346">ACarlaRecorder::Start()</a>, and <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00081">ACarlaRecorder::Ticking()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00405">UCarlaEpisode::EndPlay()</a>, <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00397">ACarlaRecorder::Start()</a>, and <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00086">ACarlaRecorder::Ticking()</a>.</p>
 <div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_abac623a720ac5295c2b395aa3cc0d1f1_icgraph.svg" width="100%" height="494"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ab8f3012d1c7810dedfaaedacd0e1e601"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8f3012d1c7810dedfaaedacd0e1e601">&#9670;&nbsp;</a></span>ProcessAnimBiker()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CarlaReplayer::ProcessAnimBiker </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00614">614</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d6/dda/CarlaRecorderAnimBiker_8h_source.html#l00015">CarlaRecorderAnimBiker::DatabaseId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00127">IgnoreHero</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00129">IsHeroMap</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">MappedId</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00453">CarlaReplayerHelper::ProcessReplayerAnimBiker()</a>, and <a class="el" href="../../d2/d93/CarlaRecorderAnimBiker_8cpp_source.html#l00018">CarlaRecorderAnimBiker::Read()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>.</p>
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_ab8f3012d1c7810dedfaaedacd0e1e601_cgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_ab8f3012d1c7810dedfaaedacd0e1e601_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -553,25 +609,73 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00526">526</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00555">555</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d44/CarlaRecorderAnimVehicle_8h_source.html#l00015">CarlaRecorderAnimVehicle::DatabaseId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">IgnoreHero</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00122">IsHeroMap</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00109">MappedId</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00364">CarlaReplayerHelper::ProcessReplayerAnimVehicle()</a>, <a class="el" href="../../d7/d3b/CarlaRecorderAnimVehicle_8cpp_source.html#l00021">CarlaRecorderAnimVehicle::Read()</a>, and <a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d44/CarlaRecorderAnimVehicle_8h_source.html#l00015">CarlaRecorderAnimVehicle::DatabaseId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00127">IgnoreHero</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00129">IsHeroMap</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">MappedId</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00395">CarlaReplayerHelper::ProcessReplayerAnimVehicle()</a>, <a class="el" href="../../d7/d3b/CarlaRecorderAnimVehicle_8cpp_source.html#l00021">CarlaRecorderAnimVehicle::Read()</a>, and <a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>.</p>
-<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>.</p>
+<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a3e7f6d573e365e8286fff2d364508898_cgraph.svg" width="100%" height="412"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a3e7f6d573e365e8286fff2d364508898_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a36173bcde3a636cea162c3570c66b849"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36173bcde3a636cea162c3570c66b849">&#9670;&nbsp;</a></span>ProcessAnimVehicleWheels()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CarlaReplayer::ProcessAnimVehicleWheels </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00575">575</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d0/d5c/CarlaRecorderAnimVehicleWheels_8h_source.html#l00028">CarlaRecorderAnimWheels::DatabaseId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00127">IgnoreHero</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00129">IsHeroMap</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">MappedId</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00322">CarlaReplayerHelper::ProcessReplayerAnimVehicleWheels()</a>, <a class="el" href="../../dc/d7d/CarlaRecorderAnimVehicleWheels_8cpp_source.html#l00035">CarlaRecorderAnimWheels::Read()</a>, and <a class="el" href="../../dc/d8e/CarlaLight_8h.html#a33bcb1a8751d904034d5c3e43e6f8959ad6af9c1eaff2a89ebd3f8d0c542be12b">Vehicle</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>.</p>
+<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a36173bcde3a636cea162c3570c66b849_cgraph.svg" width="100%" height="454"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a36173bcde3a636cea162c3570c66b849_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -601,24 +705,24 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00546">546</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00594">594</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d60/CarlaRecorderAnimWalker_8h_source.html#l00015">CarlaRecorderAnimWalker::DatabaseId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">IgnoreHero</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00122">IsHeroMap</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00109">MappedId</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00417">CarlaReplayerHelper::ProcessReplayerAnimWalker()</a>, and <a class="el" href="../../db/d94/CarlaRecorderAnimWalker_8cpp_source.html#l00017">CarlaRecorderAnimWalker::Read()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d60/CarlaRecorderAnimWalker_8h_source.html#l00015">CarlaRecorderAnimWalker::DatabaseId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00127">IgnoreHero</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00129">IsHeroMap</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">MappedId</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00448">CarlaReplayerHelper::ProcessReplayerAnimWalker()</a>, and <a class="el" href="../../db/d94/CarlaRecorderAnimWalker_8cpp_source.html#l00017">CarlaRecorderAnimWalker::Read()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>.</p>
-<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>.</p>
+<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_aaea1d59cb968cbf79045a141601195d5_cgraph.svg" width="100%" height="413"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_aaea1d59cb968cbf79045a141601195d5_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -649,24 +753,24 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00415">415</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00437">437</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d0e/CarlaRecorderEventAdd_8h_source.html#l00023">CarlaRecorderActorDescription::Attributes</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00098">bReplaySensors</a>, <a class="el" href="../../d0/d0e/CarlaRecorderEventAdd_8h_source.html#l00028">CarlaRecorderEventAdd::DatabaseId</a>, <a class="el" href="../../d0/d0e/CarlaRecorderEventAdd_8h_source.html#l00032">CarlaRecorderEventAdd::Description</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613afe62766cc4edfcd86b758411e918f68a">EventAdd</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">IgnoreHero</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00122">IsHeroMap</a>, <a class="el" href="../../d0/d0e/CarlaRecorderEventAdd_8h_source.html#l00030">CarlaRecorderEventAdd::Location</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00109">MappedId</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00176">CarlaReplayerHelper::ProcessReplayerEventAdd()</a>, <a class="el" href="../../d8/d05/CarlaRecorderEventAdd_8cpp_source.html#l00037">CarlaRecorderEventAdd::Read()</a>, and <a class="el" href="../../d0/d0e/CarlaRecorderEventAdd_8h_source.html#l00031">CarlaRecorderEventAdd::Rotation</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0e/CarlaRecorderEventAdd_8h_source.html#l00023">CarlaRecorderActorDescription::Attributes</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00104">bReplaySensors</a>, <a class="el" href="../../d0/d0e/CarlaRecorderEventAdd_8h_source.html#l00028">CarlaRecorderEventAdd::DatabaseId</a>, <a class="el" href="../../d0/d0e/CarlaRecorderEventAdd_8h_source.html#l00032">CarlaRecorderEventAdd::Description</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613afe62766cc4edfcd86b758411e918f68a">EventAdd</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00127">IgnoreHero</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00128">IgnoreSpectator</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00129">IsHeroMap</a>, <a class="el" href="../../d0/d0e/CarlaRecorderEventAdd_8h_source.html#l00030">CarlaRecorderEventAdd::Location</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">MappedId</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00176">CarlaReplayerHelper::ProcessReplayerEventAdd()</a>, <a class="el" href="../../d8/d05/CarlaRecorderEventAdd_8cpp_source.html#l00037">CarlaRecorderEventAdd::Read()</a>, and <a class="el" href="../../d0/d0e/CarlaRecorderEventAdd_8h_source.html#l00031">CarlaRecorderEventAdd::Rotation</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>.</p>
-<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>.</p>
+<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a929a7a4c79086339485caba9f6562c8e_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a929a7a4c79086339485caba9f6562c8e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -697,24 +801,24 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00473">473</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00502">502</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/d4c/CarlaRecorderEventDel_8h_source.html#l00014">CarlaRecorderEventDel::DatabaseId</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a372eadc9974c32dd0acd21dca7a978d0">EventDel</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00109">MappedId</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00235">CarlaReplayerHelper::ProcessReplayerEventDel()</a>, and <a class="el" href="../../de/d25/CarlaRecorderEventDel_8cpp_source.html#l00011">CarlaRecorderEventDel::Read()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d4c/CarlaRecorderEventDel_8h_source.html#l00014">CarlaRecorderEventDel::DatabaseId</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a372eadc9974c32dd0acd21dca7a978d0">EventDel</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">MappedId</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00243">CarlaReplayerHelper::ProcessReplayerEventDel()</a>, and <a class="el" href="../../de/d25/CarlaRecorderEventDel_8cpp_source.html#l00011">CarlaRecorderEventDel::Read()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>.</p>
-<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>.</p>
+<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a0281a0aff5b8977886de1709482309f9_cgraph.svg" width="100%" height="432"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a0281a0aff5b8977886de1709482309f9_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -745,24 +849,24 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00488">488</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00517">517</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/dc2/CarlaRecorderEventParent_8h_source.html#l00014">CarlaRecorderEventParent::DatabaseId</a>, <a class="el" href="../../d0/dc2/CarlaRecorderEventParent_8h_source.html#l00015">CarlaRecorderEventParent::DatabaseIdParent</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a0a27c124f34e33ae107d82722e8df9f5">EventParent</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00109">MappedId</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00249">CarlaReplayerHelper::ProcessReplayerEventParent()</a>, and <a class="el" href="../../d8/d3b/CarlaRecorderEventParent_8cpp_source.html#l00012">CarlaRecorderEventParent::Read()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dc2/CarlaRecorderEventParent_8h_source.html#l00014">CarlaRecorderEventParent::DatabaseId</a>, <a class="el" href="../../d0/dc2/CarlaRecorderEventParent_8h_source.html#l00015">CarlaRecorderEventParent::DatabaseIdParent</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a0a27c124f34e33ae107d82722e8df9f5">EventParent</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">MappedId</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00257">CarlaReplayerHelper::ProcessReplayerEventParent()</a>, and <a class="el" href="../../d8/d3b/CarlaRecorderEventParent_8cpp_source.html#l00012">CarlaRecorderEventParent::Read()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>.</p>
-<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>.</p>
+<div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a5ed2b19174f18dd9bcd55c289f106719_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a5ed2b19174f18dd9bcd55c289f106719_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -793,24 +897,24 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00585">585</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00651">651</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">Helper</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00394">CarlaReplayerHelper::ProcessReplayerLightScene()</a>, and <a class="el" href="../../dd/d20/CarlaRecorderLightScene_8cpp_source.html#l00020">CarlaRecorderLightScene::Read()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">Helper</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00425">CarlaReplayerHelper::ProcessReplayerLightScene()</a>, and <a class="el" href="../../dd/d20/CarlaRecorderLightScene_8cpp_source.html#l00020">CarlaRecorderLightScene::Read()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>.</p>
-<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>.</p>
+<div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_ac49243de822059c6b5560d438882a171_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_ac49243de822059c6b5560d438882a171_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -841,24 +945,24 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00566">566</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00632">632</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/da8/CarlaRecorderLightVehicle_8h_source.html#l00019">CarlaRecorderLightVehicle::DatabaseId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">IgnoreHero</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00122">IsHeroMap</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00109">MappedId</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00383">CarlaReplayerHelper::ProcessReplayerLightVehicle()</a>, and <a class="el" href="../../d2/d63/CarlaRecorderLightVehicle_8cpp_source.html#l00018">CarlaRecorderLightVehicle::Read()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da8/CarlaRecorderLightVehicle_8h_source.html#l00019">CarlaRecorderLightVehicle::DatabaseId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00127">IgnoreHero</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00129">IsHeroMap</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">MappedId</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00414">CarlaReplayerHelper::ProcessReplayerLightVehicle()</a>, and <a class="el" href="../../d2/d63/CarlaRecorderLightVehicle_8cpp_source.html#l00018">CarlaRecorderLightVehicle::Read()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>.</p>
-<div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>.</p>
+<div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a2c4b8d27ebb7bbb0b5e9582182868f71_cgraph.svg" width="100%" height="412"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a2c4b8d27ebb7bbb0b5e9582182868f71_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -889,24 +993,24 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00599">599</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00665">665</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00106">CurrPos</a>, <a class="el" href="../../dc/d20/CarlaRecorderPosition_8h_source.html#l00015">CarlaRecorderPosition::DatabaseId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00109">MappedId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">PrevPos</a>, and <a class="el" href="../../dd/d45/CarlaRecorderPosition_8cpp_source.html#l00019">CarlaRecorderPosition::Read()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00112">CurrPos</a>, <a class="el" href="../../dc/d20/CarlaRecorderPosition_8h_source.html#l00015">CarlaRecorderPosition::DatabaseId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">MappedId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00113">PrevPos</a>, and <a class="el" href="../../dd/d45/CarlaRecorderPosition_8cpp_source.html#l00019">CarlaRecorderPosition::Read()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>.</p>
-<div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>.</p>
+<div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a5541e07e46c1aa34571834f7bcceb243_cgraph.svg" width="606" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a5541e07e46c1aa34571834f7bcceb243_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -937,24 +1041,24 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00503">503</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00532">532</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/d32/CarlaRecorderState_8h_source.html#l00015">CarlaRecorderStateTrafficLight::DatabaseId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00109">MappedId</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00341">CarlaReplayerHelper::ProcessReplayerStateTrafficLight()</a>, and <a class="el" href="../../d6/d0d/CarlaRecorderState_8cpp_source.html#l00019">CarlaRecorderStateTrafficLight::Read()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d32/CarlaRecorderState_8h_source.html#l00015">CarlaRecorderStateTrafficLight::DatabaseId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">MappedId</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00372">CarlaReplayerHelper::ProcessReplayerStateTrafficLight()</a>, and <a class="el" href="../../d6/d0d/CarlaRecorderState_8cpp_source.html#l00019">CarlaRecorderStateTrafficLight::Read()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>.</p>
-<div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>.</p>
+<div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_ab08c55b108e85bf05346d2154bc0d0f2_cgraph.svg" width="100%" height="584"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div id="dynsection-32-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_ab08c55b108e85bf05346d2154bc0d0f2_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -995,24 +1099,24 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">256</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">262</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613af4c4d9aa57150b461e1329a65aba0d7b">AnimVehicle</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a07d283fbd8836bf95d25faee43d7f28f">AnimWalker</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a15fb6ccbd11ebebcea2b48dc477f3561">Collision</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00111">CurrentTime</a>, <a class="el" href="../../dc/dfc/CarlaRecorderFrames_8h_source.html#l00015">CarlaRecorderFrame::DurationThis</a>, <a class="el" href="../../dc/dfc/CarlaRecorderFrames_8h_source.html#l00016">CarlaRecorderFrame::Elapsed</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00097">Enabled</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613afe62766cc4edfcd86b758411e918f68a">EventAdd</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a372eadc9974c32dd0acd21dca7a978d0">EventDel</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a0a27c124f34e33ae107d82722e8df9f5">EventParent</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00104">Frame</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613af32dfac7bfae19e243e9e6d180228666">FrameEnd</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a6136f03a358cd6af9c79d43eb3bccfc3">FrameStart</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00032">CarlaReplayer::Header::Id</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00526">ProcessAnimVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00546">ProcessAnimWalker()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00415">ProcessEventsAdd()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00473">ProcessEventsDel()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00488">ProcessEventsParent()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00585">ProcessLightScene()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00566">ProcessLightVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00599">ProcessPositions()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00503">ProcessStates()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00406">ProcessVisualTime()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00632">ProcessWalkerBones()</a>, <a class="el" href="../../dd/dd3/CarlaRecorderFrames_8cpp_source.html#l00011">CarlaRecorderFrame::Read()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00036">ReadHeader()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a43f526c402051273b186b8f6069073a6">SceneLight</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00049">SkipPacket()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a46a2a41cc6e552044816a2d04634545d">State</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00112">TimeToStop</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00652">UpdatePositions()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ad8f1d33230a8b5d44f35faa268344d6d">VehicleLight</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ae7497d26116d0a24d56ff7868d373f59">VisualTime</a>, and <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a5e51de1bac463c81ee7d3ed6adcb3156">WalkerBones</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ae7ad1388ad753ca35917172b7b5ec742">AnimBiker</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613af4c4d9aa57150b461e1329a65aba0d7b">AnimVehicle</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a510f4b64505e9015adeaaf466e2262a3">AnimVehicleWheels</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a07d283fbd8836bf95d25faee43d7f28f">AnimWalker</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a15fb6ccbd11ebebcea2b48dc477f3561">Collision</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00117">CurrentTime</a>, <a class="el" href="../../dc/dfc/CarlaRecorderFrames_8h_source.html#l00015">CarlaRecorderFrame::DurationThis</a>, <a class="el" href="../../dc/dfc/CarlaRecorderFrames_8h_source.html#l00016">CarlaRecorderFrame::Elapsed</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00103">Enabled</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613afe62766cc4edfcd86b758411e918f68a">EventAdd</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a372eadc9974c32dd0acd21dca7a978d0">EventDel</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a0a27c124f34e33ae107d82722e8df9f5">EventParent</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00110">Frame</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613af32dfac7bfae19e243e9e6d180228666">FrameEnd</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a6136f03a358cd6af9c79d43eb3bccfc3">FrameStart</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00032">CarlaReplayer::Header::Id</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a52f5e0bc3859bc5f5e25130b6c7e8881">Position</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00614">ProcessAnimBiker()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00555">ProcessAnimVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00575">ProcessAnimVehicleWheels()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00594">ProcessAnimWalker()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00437">ProcessEventsAdd()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00502">ProcessEventsDel()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00517">ProcessEventsParent()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00651">ProcessLightScene()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00632">ProcessLightVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00665">ProcessPositions()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00532">ProcessStates()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00428">ProcessVisualTime()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00698">ProcessWalkerBones()</a>, <a class="el" href="../../dd/dd3/CarlaRecorderFrames_8cpp_source.html#l00011">CarlaRecorderFrame::Read()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00036">ReadHeader()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a43f526c402051273b186b8f6069073a6">SceneLight</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00049">SkipPacket()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a46a2a41cc6e552044816a2d04634545d">State</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00118">TimeToStop</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00718">UpdatePositions()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ad8f1d33230a8b5d44f35faa268344d6d">VehicleLight</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ae7497d26116d0a24d56ff7868d373f59">VisualTime</a>, and <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a5e51de1bac463c81ee7d3ed6adcb3156">WalkerBones</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00195">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00720">Tick()</a>.</p>
-<div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00201">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00787">Tick()</a>.</p>
+<div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-29-content" class="dyncontent" style="display:none;">
+<div id="dynsection-33-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_ae0a5643d88257bdceb9e12d5c33194cb_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-30-content" class="dyncontent" style="display:none;">
+<div id="dynsection-34-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_ae0a5643d88257bdceb9e12d5c33194cb_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1043,24 +1147,24 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00406">406</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00428">428</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00099">Episode</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">File</a>, <a class="el" href="../../dd/dc4/CarlaRecorderVisualTime_8cpp_source.html#l00016">CarlaRecorderVisualTime::Read()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00109">UCarlaEpisode::SetVisualGameTime()</a>, <a class="el" href="../../d3/db8/CarlaRecorderVisualTime_8h_source.html#l00015">CarlaRecorderVisualTime::Time</a>, and <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ae7497d26116d0a24d56ff7868d373f59">VisualTime</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00105">Episode</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../dd/dc4/CarlaRecorderVisualTime_8cpp_source.html#l00016">CarlaRecorderVisualTime::Read()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00109">UCarlaEpisode::SetVisualGameTime()</a>, <a class="el" href="../../d3/db8/CarlaRecorderVisualTime_8h_source.html#l00015">CarlaRecorderVisualTime::Time</a>, and <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613ae7497d26116d0a24d56ff7868d373f59">VisualTime</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>.</p>
-<div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>.</p>
+<div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-31-content" class="dyncontent" style="display:none;">
+<div id="dynsection-35-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a1fb8c12c1bfb107498e893b9ed61de29_cgraph.svg" width="490" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div id="dynsection-36-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a1fb8c12c1bfb107498e893b9ed61de29_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1091,24 +1195,24 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00632">632</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00698">698</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/dfe/CarlaRecorderWalkerBones_8h_source.html#l00025">CarlaRecorderWalkerBones::DatabaseId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">IgnoreHero</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00122">IsHeroMap</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00109">MappedId</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00423">CarlaReplayerHelper::ProcessReplayerWalkerBones()</a>, and <a class="el" href="../../d2/d85/CarlaRecorderWalkerBones_8cpp_source.html#l00027">CarlaRecorderWalkerBones::Read()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/dfe/CarlaRecorderWalkerBones_8h_source.html#l00025">CarlaRecorderWalkerBones::DatabaseId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00127">IgnoreHero</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00129">IsHeroMap</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">MappedId</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00466">CarlaReplayerHelper::ProcessReplayerWalkerBones()</a>, and <a class="el" href="../../d2/d85/CarlaRecorderWalkerBones_8cpp_source.html#l00027">CarlaRecorderWalkerBones::Read()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>.</p>
-<div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>.</p>
+<div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-33-content" class="dyncontent" style="display:none;">
+<div id="dynsection-37-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a48bd30916caba300077a56841523ac9c_cgraph.svg" width="100%" height="553"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-34-content" class="dyncontent" style="display:none;">
+<div id="dynsection-38-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a48bd30916caba300077a56841523ac9c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1141,14 +1245,14 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00032">CarlaReplayer::Header::Id</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00033">CarlaReplayer::Header::Size</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00032">CarlaReplayer::Header::Id</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00033">CarlaReplayer::Header::Size</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00075">GetTotalTime()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>.</p>
-<div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00075">GetTotalTime()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>.</p>
+<div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-35-content" class="dyncontent" style="display:none;">
+<div id="dynsection-39-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a6aff6b42446e61dd5ea2efcd7fa93fb1_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1201,22 +1305,22 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">105</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00050">Autoplay</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00098">bReplaySensors</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00044">CarlaReplayer::PlayAfterLoadMap::Duration</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00040">CarlaReplayer::PlayAfterLoadMap::Enabled</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00097">Enabled</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00099">Episode</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00041">CarlaReplayer::PlayAfterLoadMap::Filename</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00045">CarlaReplayer::PlayAfterLoadMap::FollowId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00117">FollowId</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00092">UCarlaEpisode::GetMapName()</a>, <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00016">GetRecorderFilename()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00075">GetTotalTime()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">Helper</a>, <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00062">UCarlaEpisode::LoadNewEpisode()</a>, <a class="el" href="../../df/de9/CarlaRecorderInfo_8h_source.html#l00019">CarlaRecorderInfo::Mapfile</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00042">CarlaReplayer::PlayAfterLoadMap::Mapfile</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00103">RecInfo</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00516">CarlaReplayerHelper::RemoveStaticProps()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00047">CarlaReplayer::PlayAfterLoadMap::ReplaySensors</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">Rewind()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00046">CarlaReplayer::PlayAfterLoadMap::TimeFactor</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00119">TimeFactor</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00043">CarlaReplayer::PlayAfterLoadMap::TimeStart</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00112">TimeToStop</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00113">TotalTime</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00050">Autoplay</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00104">bReplaySensors</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00044">CarlaReplayer::PlayAfterLoadMap::Duration</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00040">CarlaReplayer::PlayAfterLoadMap::Enabled</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00103">Enabled</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00105">Episode</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00041">CarlaReplayer::PlayAfterLoadMap::Filename</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00045">CarlaReplayer::PlayAfterLoadMap::FollowId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00123">FollowId</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00092">UCarlaEpisode::GetMapName()</a>, <a class="el" href="../../d6/d51/CarlaRecorderHelpers_8cpp_source.html#l00017">GetRecorderFilename()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00075">GetTotalTime()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00127">IgnoreHero</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00128">IgnoreSpectator</a>, <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00064">UCarlaEpisode::LoadNewEpisode()</a>, <a class="el" href="../../df/de9/CarlaRecorderInfo_8h_source.html#l00019">CarlaRecorderInfo::Mapfile</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00042">CarlaReplayer::PlayAfterLoadMap::Mapfile</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00109">RecInfo</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00559">CarlaReplayerHelper::RemoveStaticProps()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00047">CarlaReplayer::PlayAfterLoadMap::ReplaySensors</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">Rewind()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00046">CarlaReplayer::PlayAfterLoadMap::TimeFactor</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00125">TimeFactor</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00043">CarlaReplayer::PlayAfterLoadMap::TimeStart</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00118">TimeToStop</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00119">TotalTime</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00059">ACarlaRecorder::ReplayFile()</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00053">~CarlaReplayer()</a>.</p>
-<div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-36-content" class="dyncontent" style="display:none;">
+<div id="dynsection-40-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a480fd94fedc2367d7f7f58f17f3cd5a4_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-41-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-37-content" class="dyncontent" style="display:none;">
+<div id="dynsection-41-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a480fd94fedc2367d7f7f58f17f3cd5a4_icgraph.svg" width="100%" height="372"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1249,23 +1353,23 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">54</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00111">CurrentTime</a>, <a class="el" href="../../dc/dfc/CarlaRecorderFrames_8h_source.html#l00015">CarlaRecorderFrame::DurationThis</a>, <a class="el" href="../../dc/dfc/CarlaRecorderFrames_8h_source.html#l00016">CarlaRecorderFrame::Elapsed</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00104">Frame</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00122">IsHeroMap</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00109">MappedId</a>, <a class="el" href="../../df/de9/CarlaRecorderInfo_8h_source.html#l00021">CarlaRecorderInfo::Read()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00103">RecInfo</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00112">TimeToStop</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00113">TotalTime</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00117">CurrentTime</a>, <a class="el" href="../../dc/dfc/CarlaRecorderFrames_8h_source.html#l00015">CarlaRecorderFrame::DurationThis</a>, <a class="el" href="../../dc/dfc/CarlaRecorderFrames_8h_source.html#l00016">CarlaRecorderFrame::Elapsed</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00110">Frame</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00129">IsHeroMap</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">MappedId</a>, <a class="el" href="../../df/de9/CarlaRecorderInfo_8h_source.html#l00021">CarlaRecorderInfo::Read()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00109">RecInfo</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00118">TimeToStop</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00119">TotalTime</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00195">CheckPlayAfterMapLoaded()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>.</p>
-<div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00201">CheckPlayAfterMapLoaded()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>.</p>
+<div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-42-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-42-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-38-content" class="dyncontent" style="display:none;">
+<div id="dynsection-42-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a0db4e34019631504494ef277f9a54402_cgraph.svg" width="552" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-43-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-43-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-39-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a0db4e34019631504494ef277f9a54402_icgraph.svg" width="100%" height="505"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-43-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a0db4e34019631504494ef277f9a54402_icgraph.svg" width="100%" height="514"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -1297,12 +1401,12 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00071">71</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00099">Episode</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">Helper</a>, and <a class="el" href="../../d1/d62/CarlaReplayerHelper_8h_source.html#l00029">CarlaReplayerHelper::SetEpisode()</a>.</p>
-<div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00105">Episode</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">Helper</a>, and <a class="el" href="../../d1/d62/CarlaReplayerHelper_8h_source.html#l00032">CarlaReplayerHelper::SetEpisode()</a>.</p>
+<div id="dynsection-44" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-44-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-44-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-40-content" class="dyncontent" style="display:none;">
+<div id="dynsection-44-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a07a8e6e514ae92cce3538ba07f67d413_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1335,23 +1439,63 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00084">84</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00195">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">IgnoreHero</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00720">Tick()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00127">IgnoreHero</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00071">ACarlaRecorder::SetReplayerIgnoreHero()</a>.</p>
-<div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-41-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-45" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-45-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-45-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-41-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a47b21aa77b6cdedc32211364843a3173_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-42-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-42-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-42-content" class="dyncontent" style="display:none;">
+<div id="dynsection-45-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a47b21aa77b6cdedc32211364843a3173_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a5a0eee50ba486043d4b9fb99965a4719"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a0eee50ba486043d4b9fb99965a4719">&#9670;&nbsp;</a></span>SetIgnoreSpectator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CarlaReplayer::SetIgnoreSpectator </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>InIgnoreSpectator</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00090">90</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00201">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00128">IgnoreSpectator</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00787">Tick()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00076">ACarlaRecorder::SetReplayerIgnoreSpectator()</a>.</p>
+<div id="dynsection-46" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-46-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-46-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-46-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a5a0eee50ba486043d4b9fb99965a4719_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div id="dynsection-47" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-47-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-47-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-47-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a5a0eee50ba486043d4b9fb99965a4719_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -1383,14 +1527,14 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00078">78</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00119">TimeFactor</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00125">TimeFactor</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00066">ACarlaRecorder::SetReplayerTimeFactor()</a>.</p>
-<div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-43-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-43-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-48" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-48-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-48-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-43-content" class="dyncontent" style="display:none;">
+<div id="dynsection-48-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a61e4b2ce6197fc94c888b722f79e808b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1423,14 +1567,14 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00049">49</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">File</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00033">CarlaReplayer::Header::Size</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00033">CarlaReplayer::Header::Size</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00075">GetTotalTime()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>.</p>
-<div id="dynsection-44" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-44-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-44-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00075">GetTotalTime()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>.</p>
+<div id="dynsection-49" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-49-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-49-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-44-content" class="dyncontent" style="display:none;">
+<div id="dynsection-49-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a02e158d388f249b418bf4935bfd831b4_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1455,22 +1599,22 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">17</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00097">Enabled</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">IgnoreHero</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00122">IsHeroMap</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00451">CarlaReplayerHelper::ProcessReplayerFinish()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00113">TotalTime</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00103">Enabled</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">File</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00127">IgnoreHero</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00129">IsHeroMap</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00494">CarlaReplayerHelper::ProcessReplayerFinish()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00119">TotalTime</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00195">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00405">UCarlaEpisode::EndPlay()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00346">ACarlaRecorder::Start()</a>, <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00076">ACarlaRecorder::StopReplayer()</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00053">~CarlaReplayer()</a>.</p>
-<div id="dynsection-45" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-45-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-45-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00201">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00405">UCarlaEpisode::EndPlay()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00397">ACarlaRecorder::Start()</a>, <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00081">ACarlaRecorder::StopReplayer()</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00053">~CarlaReplayer()</a>.</p>
+<div id="dynsection-50" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-50-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-50-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-45-content" class="dyncontent" style="display:none;">
+<div id="dynsection-50-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_af627917f2c95135fb11b59af4f65dbf7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-46" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-46-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-46-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-51" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-51-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-51-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-46-content" class="dyncontent" style="display:none;">
+<div id="dynsection-51-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_af627917f2c95135fb11b59af4f65dbf7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1493,25 +1637,25 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00720">720</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00787">787</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00097">Enabled</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00119">TimeFactor</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00103">Enabled</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00125">TimeFactor</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00084">SetIgnoreHero()</a>, and <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00081">ACarlaRecorder::Ticking()</a>.</p>
-<div id="dynsection-47" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-47-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-47-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00090">SetIgnoreSpectator()</a>, and <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00086">ACarlaRecorder::Ticking()</a>.</p>
+<div id="dynsection-52" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-52-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-52-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-47-content" class="dyncontent" style="display:none;">
+<div id="dynsection-52-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a4aeceb13aaa5dfcbf3ee42d7582262a4_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-48" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-48-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-48-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-53" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-53-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-53-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-48-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a4aeceb13aaa5dfcbf3ee42d7582262a4_icgraph.svg" width="100%" height="449"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-53-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a4aeceb13aaa5dfcbf3ee42d7582262a4_icgraph.svg" width="100%" height="450"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -1551,24 +1695,24 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00652">652</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00718">718</a> of file <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html">CarlaReplayer.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00106">CurrPos</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00117">FollowId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">IgnoreHero</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00709">InterpolatePosition()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00122">IsHeroMap</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00109">MappedId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">PrevPos</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00315">CarlaReplayerHelper::SetCameraPosition()</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00119">TimeFactor</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00112">CurrPos</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00123">FollowId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">Helper</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00127">IgnoreHero</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00128">IgnoreSpectator</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00776">InterpolatePosition()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00129">IsHeroMap</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">MappedId</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00113">PrevPos</a>, <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00346">CarlaReplayerHelper::SetCameraPosition()</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00125">TimeFactor</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>.</p>
-<div id="dynsection-49" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-49-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-49-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>.</p>
+<div id="dynsection-54" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-54-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-54-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-49-content" class="dyncontent" style="display:none;">
+<div id="dynsection-54-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a90bb49a890e2a2cd8b85152f17ca8fed_cgraph.svg" width="100%" height="530"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-50" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-50-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-50-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-55" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-55-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-55-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-50-content" class="dyncontent" style="display:none;">
+<div id="dynsection-55-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/classCarlaReplayer_a90bb49a890e2a2cd8b85152f17ca8fed_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1598,7 +1742,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00050">50</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00195">CheckPlayAfterMapLoaded()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00201">CheckPlayAfterMapLoaded()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>.</p>
 
 </div>
 </div>
@@ -1622,9 +1766,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00098">98</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00104">104</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00195">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00415">ProcessEventsAdd()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00201">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00437">ProcessEventsAdd()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>.</p>
 
 </div>
 </div>
@@ -1648,9 +1792,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00111">111</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00117">117</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">Rewind()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">Rewind()</a>.</p>
 
 </div>
 </div>
@@ -1674,9 +1818,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00106">106</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00112">112</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00599">ProcessPositions()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00652">UpdatePositions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00665">ProcessPositions()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00718">UpdatePositions()</a>.</p>
 
 </div>
 </div>
@@ -1700,9 +1844,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00097">97</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00103">103</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00195">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00065">IsEnabled()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00720">Tick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00201">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00065">IsEnabled()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00787">Tick()</a>.</p>
 
 </div>
 </div>
@@ -1726,9 +1870,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00099">99</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00105">105</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00406">ProcessVisualTime()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00071">SetEpisode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00428">ProcessVisualTime()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00071">SetEpisode()</a>.</p>
 
 </div>
 </div>
@@ -1752,9 +1896,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00101">101</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">107</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00195">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00075">GetTotalTime()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00526">ProcessAnimVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00546">ProcessAnimWalker()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00415">ProcessEventsAdd()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00473">ProcessEventsDel()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00488">ProcessEventsParent()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00585">ProcessLightScene()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00566">ProcessLightVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00599">ProcessPositions()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00503">ProcessStates()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00406">ProcessVisualTime()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00632">ProcessWalkerBones()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00036">ReadHeader()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">Rewind()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00049">SkipPacket()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00201">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00075">GetTotalTime()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00614">ProcessAnimBiker()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00555">ProcessAnimVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00575">ProcessAnimVehicleWheels()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00594">ProcessAnimWalker()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00437">ProcessEventsAdd()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00502">ProcessEventsDel()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00517">ProcessEventsParent()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00651">ProcessLightScene()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00632">ProcessLightVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00665">ProcessPositions()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00532">ProcessStates()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00428">ProcessVisualTime()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00698">ProcessWalkerBones()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00036">ReadHeader()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">Rewind()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00049">SkipPacket()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>.</p>
 
 </div>
 </div>
@@ -1778,9 +1922,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00117">117</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00123">123</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00195">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00652">UpdatePositions()</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00053">~CarlaReplayer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00201">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00718">UpdatePositions()</a>, and <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00053">~CarlaReplayer()</a>.</p>
 
 </div>
 </div>
@@ -1804,9 +1948,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00104">104</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00110">110</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00075">GetTotalTime()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">Rewind()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00075">GetTotalTime()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">Rewind()</a>.</p>
 
 </div>
 </div>
@@ -1830,7 +1974,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00102">102</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00108">108</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
 </div>
 </div>
@@ -1854,9 +1998,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">115</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">121</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00195">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00709">InterpolatePosition()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00526">ProcessAnimVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00546">ProcessAnimWalker()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00415">ProcessEventsAdd()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00473">ProcessEventsDel()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00488">ProcessEventsParent()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00585">ProcessLightScene()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00566">ProcessLightVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00503">ProcessStates()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00632">ProcessWalkerBones()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00071">SetEpisode()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00652">UpdatePositions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00201">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00776">InterpolatePosition()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00614">ProcessAnimBiker()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00555">ProcessAnimVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00575">ProcessAnimVehicleWheels()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00594">ProcessAnimWalker()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00437">ProcessEventsAdd()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00502">ProcessEventsDel()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00517">ProcessEventsParent()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00651">ProcessLightScene()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00632">ProcessLightVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00532">ProcessStates()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00698">ProcessWalkerBones()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00071">SetEpisode()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00718">UpdatePositions()</a>.</p>
 
 </div>
 </div>
@@ -1880,9 +2024,35 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00121">121</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00127">127</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00526">ProcessAnimVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00546">ProcessAnimWalker()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00415">ProcessEventsAdd()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00566">ProcessLightVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00632">ProcessWalkerBones()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00084">SetIgnoreHero()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00652">UpdatePositions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00614">ProcessAnimBiker()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00555">ProcessAnimVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00575">ProcessAnimVehicleWheels()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00594">ProcessAnimWalker()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00437">ProcessEventsAdd()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00632">ProcessLightVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00698">ProcessWalkerBones()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00084">SetIgnoreHero()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00718">UpdatePositions()</a>.</p>
+
+</div>
+</div>
+<a id="a2cb89dee2e0b8a2348f1e8115ff32c88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cb89dee2e0b8a2348f1e8115ff32c88">&#9670;&nbsp;</a></span>IgnoreSpectator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CarlaReplayer::IgnoreSpectator { true }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00128">128</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00437">ProcessEventsAdd()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00090">SetIgnoreSpectator()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00718">UpdatePositions()</a>.</p>
 
 </div>
 </div>
@@ -1906,9 +2076,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00122">122</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00129">129</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00526">ProcessAnimVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00546">ProcessAnimWalker()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00415">ProcessEventsAdd()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00566">ProcessLightVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00632">ProcessWalkerBones()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">Rewind()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00652">UpdatePositions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00614">ProcessAnimBiker()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00555">ProcessAnimVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00575">ProcessAnimVehicleWheels()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00594">ProcessAnimWalker()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00437">ProcessEventsAdd()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00632">ProcessLightVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00698">ProcessWalkerBones()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">Rewind()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00718">UpdatePositions()</a>.</p>
 
 </div>
 </div>
@@ -1932,9 +2102,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00109">109</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00115">115</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00526">ProcessAnimVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00546">ProcessAnimWalker()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00415">ProcessEventsAdd()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00473">ProcessEventsDel()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00488">ProcessEventsParent()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00566">ProcessLightVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00599">ProcessPositions()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00503">ProcessStates()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00632">ProcessWalkerBones()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">Rewind()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00652">UpdatePositions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00614">ProcessAnimBiker()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00555">ProcessAnimVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00575">ProcessAnimVehicleWheels()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00594">ProcessAnimWalker()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00437">ProcessEventsAdd()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00502">ProcessEventsDel()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00517">ProcessEventsParent()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00632">ProcessLightVehicle()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00665">ProcessPositions()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00532">ProcessStates()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00698">ProcessWalkerBones()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">Rewind()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00718">UpdatePositions()</a>.</p>
 
 </div>
 </div>
@@ -1958,9 +2128,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00107">107</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00113">113</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00599">ProcessPositions()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00652">UpdatePositions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00665">ProcessPositions()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00718">UpdatePositions()</a>.</p>
 
 </div>
 </div>
@@ -1984,7 +2154,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00103">103</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00109">109</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">Rewind()</a>.</p>
 
@@ -2010,9 +2180,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00119">119</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00125">125</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00195">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00078">SetTimeFactor()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00720">Tick()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00652">UpdatePositions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00201">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00078">SetTimeFactor()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00787">Tick()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00718">UpdatePositions()</a>.</p>
 
 </div>
 </div>
@@ -2036,9 +2206,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00112">112</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00118">118</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00195">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00256">ProcessToTime()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">Rewind()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00201">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00262">ProcessToTime()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">Rewind()</a>.</p>
 
 </div>
 </div>
@@ -2062,9 +2232,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00113">113</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html#l00119">119</a> of file <a class="el" href="../../de/dea/CarlaReplayer_8h_source.html">CarlaReplayer.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00195">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">Rewind()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00201">CheckPlayAfterMapLoaded()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00105">ReplayFile()</a>, <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00054">Rewind()</a>, and <a class="el" href="../../db/dba/CarlaReplayer_8cpp_source.html#l00017">Stop()</a>.</p>
 
 </div>
 </div>

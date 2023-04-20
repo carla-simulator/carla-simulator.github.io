@@ -215,7 +215,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="d1/d74/classCarlaRecorderActorBoundingBoxes.html#a883727e9688d402abd55d900ef1bc1e9">CarlaRecorderActorBoundingBoxes</a>
 , <a class="el" href="dc/ded/classCarlaRecorderActorsKinematics.html#abce0033ef83222c43c6790416f449c9e">CarlaRecorderActorsKinematics</a>
 , <a class="el" href="d8/d4c/classCarlaRecorderActorTriggerVolumes.html#ac8c759f0255da8cda4d5841bde3cf6f5">CarlaRecorderActorTriggerVolumes</a>
+, <a class="el" href="da/d46/classCarlaRecorderAnimBikers.html#aaad7c1465ee9023ecb31287d2db3a31e">CarlaRecorderAnimBikers</a>
 , <a class="el" href="da/dd4/classCarlaRecorderAnimVehicles.html#ad99fb49da3ef3cfb504d08728d4e910b">CarlaRecorderAnimVehicles</a>
+, <a class="el" href="d6/dd8/classCarlaRecorderAnimVehicleWheels.html#a5d0edd58d70c80f36a433e29cf6f12d6">CarlaRecorderAnimVehicleWheels</a>
 , <a class="el" href="de/d09/classCarlaRecorderAnimWalkers.html#a1cc0ded3cf1207ce7e047b06184731c1">CarlaRecorderAnimWalkers</a>
 , <a class="el" href="da/d6e/classCarlaRecorderCollisions.html#a52c30eabdc9136f3abd5a5a3bf8bbd0f">CarlaRecorderCollisions</a>
 , <a class="el" href="dd/dd4/classCarlaRecorderEventsAdd.html#a17e9f29ed1774b7cdde873ba76f72a13">CarlaRecorderEventsAdd</a>
@@ -301,13 +303,25 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>AddAngularImpulse()
 : <a class="el" href="d6/da5/classcarla_1_1client_1_1Actor.html#a2cb940746bae4bc06029b14a23d0dfad">carla::client::Actor</a>
 </li>
+<li>AddAnimBiker()
+: <a class="el" href="dd/db9/classACarlaRecorder.html#aa931707cf25383858ed41c56764c7e5d">ACarlaRecorder</a>
+, <a class="el" href="de/db4/classFFrameData.html#a3298f337e68ddd4be6a2e9a38263230c">FFrameData</a>
+</li>
 <li>AddAnimVehicle()
 : <a class="el" href="dd/db9/classACarlaRecorder.html#aad147b3215cc84832562392e8e29c142">ACarlaRecorder</a>
 , <a class="el" href="de/db4/classFFrameData.html#a0968375c2cbc8c3c287f2d33e7e57de4">FFrameData</a>
 </li>
+<li>AddAnimVehicleWheels()
+: <a class="el" href="dd/db9/classACarlaRecorder.html#a0d2ceccf0e02007b378089d65ac33463">ACarlaRecorder</a>
+, <a class="el" href="de/db4/classFFrameData.html#ab2f6c1ae16eb1d43c54346c993a3fba4">FFrameData</a>
+</li>
 <li>AddAnimWalker()
 : <a class="el" href="dd/db9/classACarlaRecorder.html#ae61848641a71331a371cd661726625b3">ACarlaRecorder</a>
 , <a class="el" href="de/db4/classFFrameData.html#aeb827f2d7c71b58ff89540cb12062bf9">FFrameData</a>
+</li>
+<li>AddBikerAnimation()
+: <a class="el" href="dd/db9/classACarlaRecorder.html#a3427bce15552ea85bae49aa717c157b0">ACarlaRecorder</a>
+, <a class="el" href="de/db4/classFFrameData.html#a1cc874d263447b708eec775940e33a5f">FFrameData</a>
 </li>
 <li>AddBoundingBox()
 : <a class="el" href="dd/db9/classACarlaRecorder.html#ad5038981aedd911c87ed0110dedebf1f">ACarlaRecorder</a>
@@ -557,6 +571,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="dd/db9/classACarlaRecorder.html#a511755aea1e16b3ae0b71d078bdf574e">ACarlaRecorder</a>
 , <a class="el" href="de/db4/classFFrameData.html#a6647f23cd64de2599ed5e31d2c04235b">FFrameData</a>
 </li>
+<li>AddVehicleWheelsAnimation()
+: <a class="el" href="dd/db9/classACarlaRecorder.html#a1addd4df329443d82bf3e1f9e2dbcc07">ACarlaRecorder</a>
+, <a class="el" href="de/db4/classFFrameData.html#a4b746433bc48707916f2dd4424fa5adb">FFrameData</a>
+</li>
 <li>AddVertex()
 : <a class="el" href="d0/d02/classcarla_1_1geom_1_1Mesh.html#a10cbc49c3739b84c368b761ab29770f0">carla::geom::Mesh</a>
 </li>
@@ -606,7 +624,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="d9/d4b/classALargeMapManager.html#aff68deb8647b0c680f1dea87a100d467">ALargeMapManager</a>
 </li>
 <li>alloc_node()
-: <a class="el" href="dc/dea/structxpath__parser.html#af720dabc23d15f42e9432d041fbb08ca">xpath_parser</a>
+: <a class="el" href="dc/dea/structxpath__parser.html#ae33adcc8eb125124967d95297daff351">xpath_parser</a>
 </li>
 <li>alloc_string()
 : <a class="el" href="dc/dea/structxpath__parser.html#a109e4c472bb76911a2b49ee741d400af">xpath_parser</a>
@@ -634,6 +652,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>AnalyseCheckResults()
 : <a class="el" href="dc/d07/classcarla_1_1rss_1_1RssCheck.html#a73d96c9761c90f072d74f1a36bb6292d">carla::rss::RssCheck</a>
+</li>
+<li>angle()
+: <a class="el" href="da/d83/structvec3f.html#acfdc69a0bb87ec748ff8b9b26d0b4741">vec3f</a>
+</li>
+<li>angle2()
+: <a class="el" href="da/d83/structvec3f.html#a9415f7dcd645928ff8c52cfb94a3e2e0">vec3f</a>
 </li>
 <li>ANormalsCamera()
 : <a class="el" href="d3/d49/classANormalsCamera.html#aa79d941cc6433ced8e000ec76f722fa2">ANormalsCamera</a>
@@ -666,7 +690,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="db/d65/classpugi_1_1xml__node.html#a7e0126c503dcfba5111121ec4a94c11e">pugi::xml_node</a>
 </li>
 <li>append_child()
-: <a class="el" href="db/d65/classpugi_1_1xml__node.html#a448342425806a4ad8068bf98fd4ff462">pugi::xml_node</a>
+: <a class="el" href="db/d65/classpugi_1_1xml__node.html#a190f4851bb4bc4bb61c89fffb663a9af">pugi::xml_node</a>
 </li>
 <li>append_copy()
 : <a class="el" href="db/d65/classpugi_1_1xml__node.html#a4c151e6665c6bfa614fe80d177fd5396">pugi::xml_node</a>
@@ -734,7 +758,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>ApplyColorTextureToObjects()
 : <a class="el" href="dd/ddd/classcarla_1_1client_1_1detail_1_1Client.html#a36169f24589925aa55450f8c784a6bfe">carla::client::detail::Client</a>
-, <a class="el" href="df/df3/classcarla_1_1client_1_1detail_1_1Simulator.html#a8d6707252b3f9cfa6b4d2667943a3899">carla::client::detail::Simulator</a>
+, <a class="el" href="df/df3/classcarla_1_1client_1_1detail_1_1Simulator.html#a0dcefcd89d197b39d26b3c5ea4f2ec1c">carla::client::detail::Simulator</a>
 , <a class="el" href="db/d1f/classcarla_1_1client_1_1World.html#a9a0545ffdff682b9c3f75c4cc5046039">carla::client::World</a>
 </li>
 <li>ApplyControl()
@@ -829,10 +853,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>ApplyWalkerControl()
 : <a class="el" href="de/d2e/classAWalkerController.html#a7620478c70246c4cd40c621f5776c8c6">AWalkerController</a>
-, <a class="el" href="d5/d0e/structcarla_1_1rpc_1_1Command_1_1ApplyWalkerControl.html#ad3707ae2c09e5dfc954e957c658cfc15">carla::rpc::Command::ApplyWalkerControl</a>
+, <a class="el" href="d5/d0e/structcarla_1_1rpc_1_1Command_1_1ApplyWalkerControl.html#aa8a3d69107cf3f5aa4cde209a447f58d">carla::rpc::Command::ApplyWalkerControl</a>
 </li>
 <li>ApplyWalkerState()
-: <a class="el" href="d6/da8/structcarla_1_1rpc_1_1Command_1_1ApplyWalkerState.html#aaa762814e05fe3f5d0f6a68c5dde3d3d">carla::rpc::Command::ApplyWalkerState</a>
+: <a class="el" href="d6/da8/structcarla_1_1rpc_1_1Command_1_1ApplyWalkerState.html#a5223308b9ee339a7f69f980da62e1713">carla::rpc::Command::ApplyWalkerState</a>
 </li>
 <li>ApplyWeather()
 : <a class="el" href="de/d75/classAWeather.html#a68bfc749cd33e48219c3d7839cc8ddee">AWeather</a>
@@ -864,7 +888,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="dd/d10/classFActorDefinitionValidator.html#a1d4e5831f504c76f576349f3f15ce6dd">FActorDefinitionValidator</a>
 </li>
 <li>AreValid()
-: <a class="el" href="dd/d10/classFActorDefinitionValidator.html#a4de1f34cc0d38d1b7a37c956870f219b">FActorDefinitionValidator</a>
+: <a class="el" href="dd/d10/classFActorDefinitionValidator.html#a4b422342112f95727e4a3ec2624a8f4f">FActorDefinitionValidator</a>
 </li>
 <li>ARoadPainterWrapper()
 : <a class="el" href="d0/d35/classARoadPainterWrapper.html#a006cb99b600f2c8fba7d02de2906a709">ARoadPainterWrapper</a>
@@ -873,13 +897,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="dc/d0f/classARoutePlanner.html#a49817687625aa82877d76aaf7bea6d99">ARoutePlanner</a>
 </li>
 <li>Array()
-: <a class="el" href="d2/dcc/classcarla_1_1sensor_1_1data_1_1Array.html#aa655d51d43c6b57ff530cbb0be3dd604">carla::sensor::data::Array&lt; T &gt;</a>
+: <a class="el" href="d2/dcc/classcarla_1_1sensor_1_1data_1_1Array.html#a0bbb02616c862c8969d94feac57dc8fd">carla::sensor::data::Array&lt; T &gt;</a>
 </li>
 <li>ARssSensor()
 : <a class="el" href="d3/ded/classARssSensor.html#a15d174bee8862feeb5621591ca71ca1b">ARssSensor</a>
 </li>
 <li>As()
-: <a class="el" href="df/d8a/classcarla_1_1client_1_1ActorAttributeValueAccess.html#a5f830f6b0c00180cbce01a2d7702a430">carla::client::ActorAttributeValueAccess</a>
+: <a class="el" href="df/d8a/classcarla_1_1client_1_1ActorAttributeValueAccess.html#a7ab0978b00a614e56f57536e5791d26d">carla::client::ActorAttributeValueAccess</a>
 </li>
 <li>as_bool()
 : <a class="el" href="de/d7c/classpugi_1_1xml__attribute.html#a2aed9b899fbbac710ec57aba2b93bb5b">pugi::xml_attribute</a>
@@ -952,7 +976,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="df/dcc/classcarla_1_1client_1_1BlueprintLibrary.html#a43b94a47c1061debb6acb17635f651a0">carla::client::BlueprintLibrary</a>
 </li>
 <li>At()
-: <a class="el" href="da/d1c/classcarla_1_1rpc_1_1Texture.html#a405bd632dca5e88a9ba0385d34cb60ec">carla::rpc::Texture&lt; T &gt;</a>
+: <a class="el" href="da/d1c/classcarla_1_1rpc_1_1Texture.html#acd35bdb054fa6ce29f765a8c988dbb38">carla::rpc::Texture&lt; T &gt;</a>
 </li>
 <li>at()
 : <a class="el" href="d2/dcc/classcarla_1_1sensor_1_1data_1_1Array.html#a1c2868d24003355938fa4b905568c990">carla::sensor::data::Array&lt; T &gt;</a>
@@ -970,7 +994,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="d7/d02/classcarla_1_1traffic__manager_1_1AtomicMap.html#aa8c2938cc18f56df27dfd4eb8c7f2e89">carla::traffic_manager::AtomicMap&lt; Key, Value &gt;</a>
 </li>
 <li>AtomicSharedPtr()
-: <a class="el" href="d2/dcf/classcarla_1_1AtomicSharedPtr.html#a04cd84dd2d0e8c8e9ae75a8409ce40fd">carla::AtomicSharedPtr&lt; T &gt;</a>
+: <a class="el" href="d2/dcf/classcarla_1_1AtomicSharedPtr.html#afc007e9f379bdc466451af1f101effc1">carla::AtomicSharedPtr&lt; T &gt;</a>
 </li>
 <li>ATrafficLightBase()
 : <a class="el" href="d2/d23/classATrafficLightBase.html#a3d3a09c087cb9c9c0e7be275856323c2">ATrafficLightBase</a>
@@ -1003,6 +1027,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>AUncenteredPivotPointMesh()
 : <a class="el" href="db/dd8/classAUncenteredPivotPointMesh.html#a19e52a9a1cac754bd21da169e74e0551">AUncenteredPivotPointMesh</a>
+</li>
+<li>AUSDImporterActor()
+: <a class="el" href="da/dca/classAUSDImporterActor.html#a822ca93a6e1c43febfbf63e61342cfcd">AUSDImporterActor</a>
 </li>
 <li>auto_deleter()
 : <a class="el" href="d6/d78/structauto__deleter.html#a2740bca25a73f65af24cc99b07da0370">auto_deleter&lt; T &gt;</a>

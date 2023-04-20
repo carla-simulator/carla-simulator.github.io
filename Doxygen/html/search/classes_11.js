@@ -9,9 +9,11 @@ var searchData=
   ['rawdata',['RawData',['../d3/da0/classcarla_1_1sensor_1_1RawData.html',1,'carla::sensor']]],
   ['rawepisodestate',['RawEpisodeState',['../d4/d68/classcarla_1_1sensor_1_1data_1_1RawEpisodeState.html',1,'carla::sensor::data']]],
   ['raydata',['RayData',['../d7/d1a/structARadar_1_1RayData.html',1,'ARadar']]],
+  ['rect3',['Rect3',['../db/d5b/structMeshReconstruction_1_1Rect3.html',1,'MeshReconstruction']]],
   ['recurrentsharedfuture',['RecurrentSharedFuture',['../d0/df9/classcarla_1_1RecurrentSharedFuture.html',1,'carla']]],
   ['recurrentsharedfuture_3c_20carla_3a_3aclient_3a_3aworldsnapshot_20_3e',['RecurrentSharedFuture&lt; carla::client::WorldSnapshot &gt;',['../d0/df9/classcarla_1_1RecurrentSharedFuture.html',1,'carla']]],
   ['recursive',['Recursive',['../d6/d1f/structcarla_1_1Functional_1_1Recursive.html',1,'carla::Functional']]],
+  ['ref',['Ref',['../d1/d9c/structSimplify_1_1Ref.html',1,'Simplify']]],
   ['releasegil',['ReleaseGIL',['../d1/d0a/classcarla_1_1PythonUtil_1_1ReleaseGIL.html',1,'carla::PythonUtil']]],
   ['releasegildeleter',['ReleaseGILDeleter',['../de/d96/classcarla_1_1PythonUtil_1_1ReleaseGILDeleter.html',1,'carla::PythonUtil']]],
   ['repeatrecord',['RepeatRecord',['../df/d23/classcarla_1_1road_1_1object_1_1RepeatRecord.html',1,'carla::road::object']]],
@@ -51,5 +53,5 @@ var searchData=
   ['rssresponse',['RssResponse',['../da/d3a/classcarla_1_1sensor_1_1data_1_1RssResponse.html',1,'carla::sensor::data']]],
   ['rssrestrictor',['RssRestrictor',['../d9/deb/classcarla_1_1rss_1_1RssRestrictor.html',1,'carla::rss']]],
   ['rsssensor',['RssSensor',['../d7/db6/classcarla_1_1client_1_1RssSensor.html',1,'carla::client']]],
-  ['rtreevalue',['RtreeValue',['../d9/de2/structcarla_1_1road_1_1element_1_1GeometryPoly3_1_1RtreeValue.html',1,'carla::road::element::GeometryPoly3::RtreeValue'],['../d8/d18/structcarla_1_1road_1_1element_1_1GeometryParamPoly3_1_1RtreeValue.html',1,'carla::road::element::GeometryParamPoly3::RtreeValue']]]
+  ['rtreevalue',['RtreeValue',['../d8/d18/structcarla_1_1road_1_1element_1_1GeometryParamPoly3_1_1RtreeValue.html',1,'carla::road::element::GeometryParamPoly3::RtreeValue'],['../d9/de2/structcarla_1_1road_1_1element_1_1GeometryPoly3_1_1RtreeValue.html',1,'carla::road::element::GeometryPoly3::RtreeValue']]]
 ];

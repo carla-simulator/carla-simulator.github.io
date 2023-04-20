@@ -1,6 +1,9 @@
 var searchData=
 [
+  ['vec3',['Vec3',['../df/d45/structMeshReconstruction_1_1Vec3.html',1,'MeshReconstruction']]],
+  ['vec3f',['vec3f',['../da/d83/structvec3f.html',1,'']]],
   ['vector2d',['Vector2D',['../d4/d57/classcarla_1_1geom_1_1Vector2D.html',1,'carla::geom']]],
+  ['vector3',['vector3',['../dd/d53/structvector3.html',1,'']]],
   ['vector3d',['Vector3D',['../d9/dfe/classcarla_1_1geom_1_1Vector3D.html',1,'carla::geom']]],
   ['vector3dint',['Vector3DInt',['../dc/d9d/classcarla_1_1geom_1_1Vector3DInt.html',1,'carla::geom']]],
   ['vehicle',['Vehicle',['../d9/dc6/classcarla_1_1client_1_1Vehicle.html',1,'carla::client']]],
@@ -11,6 +14,7 @@ var searchData=
   ['vehiclelightstage',['VehicleLightStage',['../dd/de2/classcarla_1_1traffic__manager_1_1VehicleLightStage.html',1,'carla::traffic_manager']]],
   ['vehiclelightstate',['VehicleLightState',['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html',1,'carla::rpc']]],
   ['vehiclephysicscontrol',['VehiclePhysicsControl',['../da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html',1,'carla::rpc']]],
+  ['vertex',['Vertex',['../d8/dea/structSimplify_1_1Vertex.html',1,'Simplify']]],
   ['vertexinfo',['VertexInfo',['../de/d74/structcarla_1_1geom_1_1VertexInfo.html',1,'carla::geom']]],
   ['vertexneighbors',['VertexNeighbors',['../dd/d2c/structcarla_1_1geom_1_1VertexNeighbors.html',1,'carla::geom']]],
   ['vertexweight',['VertexWeight',['../d4/de7/structcarla_1_1geom_1_1VertexWeight.html',1,'carla::geom']]],

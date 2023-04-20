@@ -21,6 +21,7 @@ var searchData=
   ['channelcount',['ChannelCount',['../d9/d27/classcarla_1_1sensor_1_1data_1_1SemanticLidarData.html#a0d0554efb807f37afef58001b1d575dba14ecc4a048ab2c5103d743f84e02de5b',1,'carla::sensor::data::SemanticLidarData']]],
   ['character',['Character',['../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h.html#a81be2176b5cc416c3b47dda8af29a6a8a0b8efba6b691115f12604f2afe5cdcb5',1,'EnvironmentObject.h']]],
   ['collision',['Collision',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a15fb6ccbd11ebebcea2b48dc477f3561',1,'CarlaRecorder.h']]],
+  ['color',['COLOR',['../d7/d5b/namespaceSimplify.html#ad9a354c5b39caa435df8177d79026d0cabc28cefd52e625d7c0630c817949b299',1,'Simplify']]],
   ['continue',['Continue',['../db/dcc/namespacecarla_1_1nav.html#aaeb50f35d060ef52e7e3973ffad0fa5daa0bfb8e59e6c13fc8d990781f77694fe',1,'carla::nav']]],
   ['ct_5fparse_5fattr',['ct_parse_attr',['../db/d20/pugixml_8cpp.html#ae83a55e5947d28c62625b690b1484108a884462ea84ab1e7745a2bf69fc2edf75',1,'pugixml.cpp']]],
   ['ct_5fparse_5fattr_5fws',['ct_parse_attr_ws',['../db/d20/pugixml_8cpp.html#ae83a55e5947d28c62625b690b1484108a8ac9b7ded4827803524b87f772f17c51',1,'pugixml.cpp']]],

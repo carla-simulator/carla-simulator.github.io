@@ -6,6 +6,7 @@ var searchData=
   ['tex_5fdiffuse',['Tex_Diffuse',['../de/d6c/namespacecarla_1_1rpc.html#a160748bfd5bfdb5310f4c0d60dc3158da5f04a658374c1d8bb51aeed2e1152481',1,'carla::rpc']]],
   ['tex_5femissive',['Tex_Emissive',['../de/d6c/namespacecarla_1_1rpc.html#a160748bfd5bfdb5310f4c0d60dc3158dab526879a8652395bca2eaa5dd97e23d5',1,'carla::rpc']]],
   ['tex_5fnormal',['Tex_Normal',['../de/d6c/namespacecarla_1_1rpc.html#a160748bfd5bfdb5310f4c0d60dc3158daa6ba40bb00b8f41314f0afe751b9f90f',1,'carla::rpc']]],
+  ['texcoord',['TEXCOORD',['../d7/d5b/namespaceSimplify.html#ad9a354c5b39caa435df8177d79026d0ca7dfc396d0011c08dd93f8196e963e28e',1,'Simplify']]],
   ['timeout',['TimeOut',['../db/dcc/namespacecarla_1_1nav.html#aaeb50f35d060ef52e7e3973ffad0fa5da5c642867bcd564f28fbb79aec4501efa',1,'carla::nav']]],
   ['tintersection',['TIntersection',['../d2/de5/namespaceMapGen.html#a3dab4b218910e62b79f0d98c7895c92aa242e02f7fff0062f4737226822aca92a',1,'MapGen']]],
   ['tirepuncture',['TirePuncture',['../de/d6c/namespacecarla_1_1rpc.html#ae24acdb5a620582353443f8b547a52bcab3dc445c5b470f4bb68b3afa16406b30',1,'carla::rpc']]],
