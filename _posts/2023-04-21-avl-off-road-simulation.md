@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+summary: "Let's go off-road with AVL!"
 title:  "Let's go off-road!"
 subtitle: "AVL has integrated CARLA into their simulation toolchain for autonomous driving use cases in unpaved terrain"
 description: "AVL has integrated CARLA into their simulation toolchain for autonomous driving use cases in unpaved terrain"
