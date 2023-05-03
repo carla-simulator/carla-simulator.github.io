@@ -7,6 +7,7 @@ var searchData=
   ['commonattributes',['CommonAttributes',['../d8/d91/namespaceCommonAttributes.html',1,'']]],
   ['constants',['constants',['../d1/d50/namespacecarla_1_1traffic__manager_1_1constants.html',1,'carla::traffic_manager']]],
   ['data',['data',['../db/de4/namespacecarla_1_1sensor_1_1data.html',1,'carla::sensor']]],
+  ['deformation',['deformation',['../d4/dd7/namespacecarla_1_1geom_1_1deformation.html',1,'carla::geom']]],
   ['detail',['detail',['../d8/dcd/namespacecarla_1_1client_1_1detail.html',1,'carla::client::detail'],['../d0/d58/namespacecarla_1_1detail.html',1,'carla::detail'],['../d2/d8f/namespacecarla_1_1image_1_1detail.html',1,'carla::image::detail'],['../d8/d2e/namespacecarla_1_1image_1_1io_1_1detail.html',1,'carla::image::io::detail'],['../d9/df6/namespacecarla_1_1profiler_1_1detail.html',1,'carla::profiler::detail'],['../d5/d6b/namespacecarla_1_1rpc_1_1detail.html',1,'carla::rpc::detail'],['../dc/dd9/namespacecarla_1_1sensor_1_1data_1_1detail.html',1,'carla::sensor::data::detail'],['../db/de4/namespacecarla_1_1sensor_1_1detail.html',1,'carla::sensor::detail'],['../dd/dcc/namespacecarla_1_1streaming_1_1detail.html',1,'carla::streaming::detail']]],
   ['element',['element',['../df/dc1/namespacecarla_1_1road_1_1element.html',1,'carla::road']]],
   ['framememory',['FrameMemory',['../d7/d2f/namespacecarla_1_1traffic__manager_1_1constants_1_1FrameMemory.html',1,'carla::traffic_manager::constants']]],
