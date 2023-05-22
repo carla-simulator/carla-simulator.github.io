@@ -323,6 +323,10 @@ Overriden from AActor</h2></td></tr>
 <tr class="separator:ac8fa1689b9f10db16ba5365432b83a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80344597cc1f76c5759bf9b813bb346f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d70/classACarlaWheeledVehicle.html#a80344597cc1f76c5759bf9b813bb346f">ResetConstraints</a> ()</td></tr>
 <tr class="separator:a80344597cc1f76c5759bf9b813bb346f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64d73c9dd9b6b828b8fee0174d728f34"><td class="memItemLeft" align="right" valign="top">static FRotator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d70/classACarlaWheeledVehicle.html#a64d73c9dd9b6b828b8fee0174d728f34">GetPhysicsConstraintAngle</a> (UPhysicsConstraintComponent *Component)</td></tr>
+<tr class="separator:a64d73c9dd9b6b828b8fee0174d728f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47e525bb1f9e8135a880b0b124dbdd3a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d70/classACarlaWheeledVehicle.html#a47e525bb1f9e8135a880b0b124dbdd3a">SetPhysicsConstraintAngle</a> (UPhysicsConstraintComponent *Component, const FRotator &amp;NewAngle)</td></tr>
+<tr class="separator:a47e525bb1f9e8135a880b0b124dbdd3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa350745c9019189fcdf267e4eb9a895b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d70/classACarlaWheeledVehicle.html#aa350745c9019189fcdf267e4eb9a895b">ApplyRolloverBehavior</a> ()</td></tr>
 <tr class="memdesc:aa350745c9019189fcdf267e4eb9a895b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rollovers tend to have too much angular velocity, resulting in the vehicle doing a full 360º flip.  <a href="#aa350745c9019189fcdf267e4eb9a895b">More...</a><br /></td></tr>
 <tr class="separator:aa350745c9019189fcdf267e4eb9a895b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -356,7 +360,7 @@ Overriden from AActor</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00035">35</a> of file <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html">CarlaWheeledVehicle.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00430">BaseMovementComponent</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00365">VehicleBounds</a>, and <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00334">VelocityControl</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00436">BaseMovementComponent</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00365">VehicleBounds</a>, and <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00334">VelocityControl</a>.</p>
 
 </div>
 </div>
@@ -552,7 +556,7 @@ Overriden from AActor</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01024">1024</a> of file <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html">CarlaWheeledVehicle.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01051">CheckRollover()</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00355">FailureState</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00110">GetVehicleTransform()</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#ae24acdb5a620582353443f8b547a52bca6adf97f83acf6453d4a6a4b1070f3754">carla::rpc::None</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00352">RolloverBehaviorTracker</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00353">RolloverFlagTime</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01060">SetRolloverFlag()</a>, and <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00456">TimerHandler</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01051">CheckRollover()</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00355">FailureState</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00110">GetVehicleTransform()</a>, <a class="el" href="../../de/d6c/namespacecarla_1_1rpc.html#ae24acdb5a620582353443f8b547a52bca6adf97f83acf6453d4a6a4b1070f3754">carla::rpc::None</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00352">RolloverBehaviorTracker</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00353">RolloverFlagTime</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01060">SetRolloverFlag()</a>, and <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00462">TimerHandler</a>.</p>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
@@ -725,7 +729,7 @@ Overriden from AActor</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00098">98</a> of file <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html">CarlaWheeledVehicle.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00349">AckermannController</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01071">AddReferenceToManager()</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00443">CollisionDisableConstraints</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00319">ConstraintComponentNames</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00436">ConstraintDoor</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00433">ConstraintsComponents</a>, <a class="el" href="../../d1/d60/DefaultMovementComponent_8cpp_source.html#l00011">UDefaultMovementComponent::CreateDefaultMovementComponent()</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00440">DoorComponentsTransform</a>, <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html#l00073">AFrictionTrigger::Friction</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00401">GetVehiclePhysicsControl()</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00346">LastPhysicsControl</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00922">ResetConstraints()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00385">SetWheelsFrictionScale()</a>, and <a class="el" href="../../d1/d47/AckermannController_8cpp_source.html#l00217">FAckermannController::UpdateVehiclePhysics()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00349">AckermannController</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01071">AddReferenceToManager()</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00449">CollisionDisableConstraints</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00319">ConstraintComponentNames</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00442">ConstraintDoor</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00439">ConstraintsComponents</a>, <a class="el" href="../../d1/d60/DefaultMovementComponent_8cpp_source.html#l00011">UDefaultMovementComponent::CreateDefaultMovementComponent()</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00446">DoorComponentsTransform</a>, <a class="el" href="../../d4/d30/FrictionTrigger_8h_source.html#l00073">AFrictionTrigger::Friction</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00401">GetVehiclePhysicsControl()</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00346">LastPhysicsControl</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00922">ResetConstraints()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00385">SetWheelsFrictionScale()</a>, and <a class="el" href="../../d1/d47/AckermannController_8cpp_source.html#l00217">FAckermannController::UpdateVehiclePhysics()</a>.</p>
 <div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
@@ -805,7 +809,7 @@ Overriden from AActor</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00963">963</a> of file <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html">CarlaWheeledVehicle.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h.html#aa720ea2031295cc8eab7bb5ce25b8c95ab1c94ca2fbc3e78fc30069c8d0f01680">All</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01011">CloseDoorPhys()</a>, and <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00433">ConstraintsComponents</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h.html#aa720ea2031295cc8eab7bb5ce25b8c95ab1c94ca2fbc3e78fc30069c8d0f01680">All</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01011">CloseDoorPhys()</a>, and <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00439">ConstraintsComponents</a>.</p>
 <div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-13-summary" class="dynsummary" style="display:block;">
@@ -835,7 +839,7 @@ Overriden from AActor</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01011">1011</a> of file <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html">CarlaWheeledVehicle.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00436">ConstraintDoor</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00433">ConstraintsComponents</a>, and <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00440">DoorComponentsTransform</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00442">ConstraintDoor</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00439">ConstraintsComponents</a>, and <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00446">DoorComponentsTransform</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00963">CloseDoor()</a>, and <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00922">ResetConstraints()</a>.</p>
 <div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -947,7 +951,7 @@ Overriden from AActor</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00320">320</a> of file <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html">CarlaWheeledVehicle.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00349">AckermannController</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00348">bAckermannControlActive</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00430">BaseMovementComponent</a>, <a class="el" href="../../d5/d70/classACarlaWheeledVehicle.html#ad89550cc874f5ca759379633f86f5f60">InputControl</a>, <a class="el" href="../../db/d8b/VehicleInputPriority_8h.html#a7cae2f0aefb5d59c8eb67164a6c13620accc0377a8afbf50e7094f5c23a8af223">INVALID</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00344">LastAppliedControl</a>, <a class="el" href="../../da/da6/BaseCarlaMovementComponent_8cpp_source.html#l00029">UBaseCarlaMovementComponent::ProcessControl()</a>, <a class="el" href="../../d1/d47/AckermannController_8cpp_source.html#l00080">FAckermannController::RunLoop()</a>, and <a class="el" href="../../d1/d47/AckermannController_8cpp_source.html#l00200">FAckermannController::UpdateVehicleState()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00349">AckermannController</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00348">bAckermannControlActive</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00436">BaseMovementComponent</a>, <a class="el" href="../../d5/d70/classACarlaWheeledVehicle.html#ad89550cc874f5ca759379633f86f5f60">InputControl</a>, <a class="el" href="../../db/d8b/VehicleInputPriority_8h.html#a7cae2f0aefb5d59c8eb67164a6c13620accc0377a8afbf50e7094f5c23a8af223">INVALID</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00344">LastAppliedControl</a>, <a class="el" href="../../da/da6/BaseCarlaMovementComponent_8cpp_source.html#l00029">UBaseCarlaMovementComponent::ProcessControl()</a>, <a class="el" href="../../d1/d47/AckermannController_8cpp_source.html#l00080">FAckermannController::RunLoop()</a>, and <a class="el" href="../../d1/d47/AckermannController_8cpp_source.html#l00200">FAckermannController::UpdateVehicleState()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/de0/WheeledVehicleAIController_8cpp_source.html#l00131">AWheeledVehicleAIController::Tick()</a>.</p>
 <div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1221,6 +1225,34 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 
 </div>
 </div>
+<a id="a64d73c9dd9b6b828b8fee0174d728f34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64d73c9dd9b6b828b8fee0174d728f34">&#9670;&nbsp;</a></span>GetPhysicsConstraintAngle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FRotator ACarlaWheeledVehicle::GetPhysicsConstraintAngle </td>
+          <td>(</td>
+          <td class="paramtype">UPhysicsConstraintComponent *&#160;</td>
+          <td class="paramname"><em>Component</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01101">1101</a> of file <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html">CarlaWheeledVehicle.cpp</a>.</p>
+
+</div>
+</div>
 <a id="acc1595e2300cb6e54466b7799ffddab6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acc1595e2300cb6e54466b7799ffddab6">&#9670;&nbsp;</a></span>GetRotationAnim()</h2>
 
@@ -1244,7 +1276,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00468">468</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00474">474</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
 
 </div>
 </div>
@@ -1271,7 +1303,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00462">462</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00468">468</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
 
 </div>
 </div>
@@ -1457,7 +1489,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00292">292</a> of file <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html">CarlaWheeledVehicle.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00430">BaseMovementComponent</a>, and <a class="el" href="../../da/da6/BaseCarlaMovementComponent_8cpp_source.html#l00043">UBaseCarlaMovementComponent::GetVehicleCurrentGear()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00436">BaseMovementComponent</a>, and <a class="el" href="../../da/da6/BaseCarlaMovementComponent_8cpp_source.html#l00043">UBaseCarlaMovementComponent::GetVehicleCurrentGear()</a>.</p>
 <div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-25-summary" class="dynsummary" style="display:block;">
@@ -1488,7 +1520,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00282">282</a> of file <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html">CarlaWheeledVehicle.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00430">BaseMovementComponent</a>, and <a class="el" href="../../da/da6/BaseCarlaMovementComponent_8cpp_source.html#l00048">UBaseCarlaMovementComponent::GetVehicleForwardSpeed()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00436">BaseMovementComponent</a>, and <a class="el" href="../../da/da6/BaseCarlaMovementComponent_8cpp_source.html#l00048">UBaseCarlaMovementComponent::GetVehicleForwardSpeed()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d47/AckermannController_8cpp_source.html#l00200">FAckermannController::UpdateVehicleState()</a>.</p>
 <div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1601,7 +1633,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 
 <p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00417">bIsNWVehicle</a>, <a class="el" href="../../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h_source.html#l00055">FVehiclePhysicsControl::bUseGearAutoBox</a>, <a class="el" href="../../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h_source.html#l00081">FVehiclePhysicsControl::CenterOfMass</a>, <a class="el" href="../../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h_source.html#l00061">FVehiclePhysicsControl::ClutchStrength</a>, <a class="el" href="../../dd/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2WheelPhysicsControl_8h_source.html#l00020">FWheelPhysicsControl::DampingRate</a>, <a class="el" href="../../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h_source.html#l00045">FVehiclePhysicsControl::DampingRateFullThrottle</a>, <a class="el" href="../../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h_source.html#l00051">FVehiclePhysicsControl::DampingRateZeroThrottleClutchDisengaged</a>, <a class="el" href="../../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h_source.html#l00048">FVehiclePhysicsControl::DampingRateZeroThrottleClutchEngaged</a>, <a class="el" href="../../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h_source.html#l00022">FGearPhysicsControl::DownRatio</a>, <a class="el" href="../../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h_source.html#l00074">FVehiclePhysicsControl::DragCoefficient</a>, <a class="el" href="../../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h_source.html#l00064">FVehiclePhysicsControl::FinalRatio</a>, <a class="el" href="../../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h_source.html#l00067">FVehiclePhysicsControl::ForwardGears</a>, <a class="el" href="../../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h_source.html#l00058">FVehiclePhysicsControl::GearSwitchTime</a>, <a class="el" href="../../dd/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2WheelPhysicsControl_8h_source.html#l00035">FWheelPhysicsControl::LatStiffMaxLoad</a>, <a class="el" href="../../dd/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2WheelPhysicsControl_8h_source.html#l00038">FWheelPhysicsControl::LatStiffValue</a>, <a class="el" href="../../dd/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2WheelPhysicsControl_8h_source.html#l00041">FWheelPhysicsControl::LongStiffValue</a>, <a class="el" href="../../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h_source.html#l00071">FVehiclePhysicsControl::Mass</a>, <a class="el" href="../../dd/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2WheelPhysicsControl_8h_source.html#l00029">FWheelPhysicsControl::MaxBrakeTorque</a>, <a class="el" href="../../dd/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2WheelPhysicsControl_8h_source.html#l00032">FWheelPhysicsControl::MaxHandBrakeTorque</a>, <a class="el" href="../../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h_source.html#l00039">FVehiclePhysicsControl::MaxRPM</a>, <a class="el" href="../../dd/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2WheelPhysicsControl_8h_source.html#l00023">FWheelPhysicsControl::MaxSteerAngle</a>, <a class="el" href="../../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h_source.html#l00042">FVehiclePhysicsControl::MOI</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a2f38c7f957dcaf2a91ab6282af975f04">PhysicsControl</a>, <a class="el" href="../../dd/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2WheelPhysicsControl_8h_source.html#l00044">FWheelPhysicsControl::Position</a>, <a class="el" href="../../dd/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2WheelPhysicsControl_8h_source.html#l00026">FWheelPhysicsControl::Radius</a>, <a class="el" href="../../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h_source.html#l00019">FGearPhysicsControl::Ratio</a>, <a class="el" href="../../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h_source.html#l00077">FVehiclePhysicsControl::SteeringCurve</a>, <a class="el" href="../../dd/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2WheelPhysicsControl_8h_source.html#l00017">FWheelPhysicsControl::TireFriction</a>, <a class="el" href="../../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h_source.html#l00036">FVehiclePhysicsControl::TorqueCurve</a>, <a class="el" href="../../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h_source.html#l00025">FGearPhysicsControl::UpRatio</a>, and <a class="el" href="../../d3/d90/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehiclePhysicsControl_8h_source.html#l00084">FVehiclePhysicsControl::Wheels</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d8a/FrameData_8cpp_source.html#l00573">FFrameData::AddPhysicsControl()</a>, <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00349">ACarlaRecorder::AddPhysicsControl()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00098">BeginPlay()</a>, and <a class="el" href="../../da/d7f/ActorData_8cpp_source.html#l00089">FVehicleData::RecordActorData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d8a/FrameData_8cpp_source.html#l00573">FFrameData::AddPhysicsControl()</a>, <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00359">ACarlaRecorder::AddPhysicsControl()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00098">BeginPlay()</a>, and <a class="el" href="../../da/d7f/ActorData_8cpp_source.html#l00089">FVehicleData::RecordActorData()</a>.</p>
 <div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-31-summary" class="dynsummary" style="display:block;">
@@ -1678,7 +1710,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00934">934</a> of file <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html">CarlaWheeledVehicle.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00430">BaseMovementComponent</a>, and <a class="el" href="../../da/da6/BaseCarlaMovementComponent_8cpp_source.html#l00034">UBaseCarlaMovementComponent::GetVelocity()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00436">BaseMovementComponent</a>, and <a class="el" href="../../da/da6/BaseCarlaMovementComponent_8cpp_source.html#l00034">UBaseCarlaMovementComponent::GetVelocity()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d59/CustomTerrainPhysicsComponent_8cpp_source.html#l00889">FSparseHighDetailMap::SaveMap()</a>.</p>
 <div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1747,9 +1779,9 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00863">863</a> of file <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html">CarlaWheeledVehicle.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00426">bPhysicsEnabled</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00432">bPhysicsEnabled</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d8a/FrameData_8cpp_source.html#l00416">FFrameData::AddVehicleWheelsAnimation()</a>, and <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00203">ACarlaRecorder::AddVehicleWheelsAnimation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d8a/FrameData_8cpp_source.html#l00416">FFrameData::AddVehicleWheelsAnimation()</a>, and <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00205">ACarlaRecorder::AddVehicleWheelsAnimation()</a>.</p>
 <div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-36-summary" class="dynsummary" style="display:block;">
@@ -1862,7 +1894,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../df/d8a/FrameData_8cpp_source.html#l00416">FFrameData::AddVehicleWheelsAnimation()</a>, <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00203">ACarlaRecorder::AddVehicleWheelsAnimation()</a>, and <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00052">SetWheelCollision()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d8a/FrameData_8cpp_source.html#l00416">FFrameData::AddVehicleWheelsAnimation()</a>, <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00205">ACarlaRecorder::AddVehicleWheelsAnimation()</a>, and <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00052">SetWheelCollision()</a>.</p>
 <div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-38-summary" class="dynsummary" style="display:block;">
@@ -1919,7 +1951,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00946">946</a> of file <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html">CarlaWheeledVehicle.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h.html#aa720ea2031295cc8eab7bb5ce25b8c95ab1c94ca2fbc3e78fc30069c8d0f01680">All</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00433">ConstraintsComponents</a>, and <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00980">OpenDoorPhys()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h.html#aa720ea2031295cc8eab7bb5ce25b8c95ab1c94ca2fbc3e78fc30069c8d0f01680">All</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00439">ConstraintsComponents</a>, and <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00980">OpenDoorPhys()</a>.</p>
 <div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-39-summary" class="dynsummary" style="display:block;">
@@ -1949,7 +1981,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00980">980</a> of file <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html">CarlaWheeledVehicle.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00443">CollisionDisableConstraints</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00436">ConstraintDoor</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00433">ConstraintsComponents</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00440">DoorComponentsTransform</a>, and <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00322">DoorOpenStrength</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00449">CollisionDisableConstraints</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00442">ConstraintDoor</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00439">ConstraintsComponents</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00446">DoorComponentsTransform</a>, and <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00322">DoorOpenStrength</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00946">OpenDoor()</a>, and <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00922">ResetConstraints()</a>.</p>
 <div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -2098,7 +2130,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00922">922</a> of file <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html">CarlaWheeledVehicle.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01011">CloseDoorPhys()</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00433">ConstraintsComponents</a>, and <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00980">OpenDoorPhys()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01011">CloseDoorPhys()</a>, <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00439">ConstraintsComponents</a>, and <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00980">OpenDoorPhys()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00574">ApplyVehiclePhysicsControl()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00098">BeginPlay()</a>, and <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00880">SetSimulatePhysics()</a>.</p>
 <div id="dynsection-44" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -2258,7 +2290,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00839">839</a> of file <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html">CarlaWheeledVehicle.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00430">BaseMovementComponent</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00436">BaseMovementComponent</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/d56/CarSimManagerComponent_8cpp_source.html#l00018">UCarSimManagerComponent::CreateCarsimComponent()</a>, <a class="el" href="../../db/d1c/ChronoMovementComponent_8cpp_source.html#l00021">UChronoMovementComponent::CreateChronoMovementComponent()</a>, and <a class="el" href="../../d1/d60/DefaultMovementComponent_8cpp_source.html#l00011">UDefaultMovementComponent::CreateDefaultMovementComponent()</a>.</p>
 <div id="dynsection-51" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -2341,6 +2373,44 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d70/classACarlaWheeledVehicle_aedb75d26bc16fded274847e17b2fc2e0_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
+
+</div>
+</div>
+<a id="a47e525bb1f9e8135a880b0b124dbdd3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47e525bb1f9e8135a880b0b124dbdd3a">&#9670;&nbsp;</a></span>SetPhysicsConstraintAngle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ACarlaWheeledVehicle::SetPhysicsConstraintAngle </td>
+          <td>(</td>
+          <td class="paramtype">UPhysicsConstraintComponent *&#160;</td>
+          <td class="paramname"><em>Component</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FRotator &amp;&#160;</td>
+          <td class="paramname"><em>NewAngle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01107">1107</a> of file <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html">CarlaWheeledVehicle.cpp</a>.</p>
 
 </div>
 </div>
@@ -2439,7 +2509,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00471">471</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00477">477</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00453">CarlaReplayerHelper::ProcessReplayerAnimBiker()</a>, and <a class="el" href="../../df/d8a/FrameData_8cpp_source.html#l01076">FFrameData::ProcessReplayerAnimBiker()</a>.</p>
 <div id="dynsection-58" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -2471,7 +2541,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00880">880</a> of file <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html">CarlaWheeledVehicle.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00426">bPhysicsEnabled</a>, and <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00922">ResetConstraints()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00432">bPhysicsEnabled</a>, and <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00922">ResetConstraints()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d7f/ActorData_8cpp_source.html#l00111">FVehicleData::RestoreActorData()</a>.</p>
 <div id="dynsection-59" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -2517,7 +2587,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00465">465</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00471">471</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/d32/CarlaReplayerHelper_8cpp_source.html#l00453">CarlaReplayerHelper::ProcessReplayerAnimBiker()</a>, and <a class="el" href="../../df/d8a/FrameData_8cpp_source.html#l01076">FFrameData::ProcessReplayerAnimBiker()</a>.</p>
 <div id="dynsection-61" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -2804,7 +2874,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00848">848</a> of file <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html">CarlaWheeledVehicle.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00426">bPhysicsEnabled</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00432">bPhysicsEnabled</a>.</p>
 
 </div>
 </div>
@@ -2969,7 +3039,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00430">430</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00436">436</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00035">ACarlaWheeledVehicle()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00320">FlushVehicleControl()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00292">GetVehicleCurrentGear()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00282">GetVehicleForwardSpeed()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00934">GetVelocity()</a>, and <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00839">SetCarlaMovementComponent()</a>.</p>
 
@@ -3013,7 +3083,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00426">426</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00432">432</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00863">GetWheelSteerAngle()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00880">SetSimulatePhysics()</a>, and <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00848">SetWheelSteerDirection()</a>.</p>
 
@@ -3057,7 +3127,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00443">443</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00449">449</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00098">BeginPlay()</a>, and <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00980">OpenDoorPhys()</a>.</p>
 
@@ -3109,7 +3179,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00436">436</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00442">442</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00098">BeginPlay()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01011">CloseDoorPhys()</a>, and <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00980">OpenDoorPhys()</a>.</p>
 
@@ -3135,7 +3205,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00433">433</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00439">439</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00098">BeginPlay()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00963">CloseDoor()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01011">CloseDoorPhys()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00946">OpenDoor()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00980">OpenDoorPhys()</a>, and <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00922">ResetConstraints()</a>.</p>
 
@@ -3197,7 +3267,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00440">440</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00446">446</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00098">BeginPlay()</a>, <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01011">CloseDoorPhys()</a>, and <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l00980">OpenDoorPhys()</a>.</p>
 
@@ -3490,7 +3560,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00459">459</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00465">465</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
 
 </div>
 </div>
@@ -3506,7 +3576,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00458">458</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00464">464</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
 
 </div>
 </div>
@@ -3556,7 +3626,7 @@ template&lt;typename T  = UBaseCarlaMovementComponent&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00456">456</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00462">462</a> of file <a class="el" href="../../d3/d00/CarlaWheeledVehicle_8h_source.html">CarlaWheeledVehicle.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d65/CarlaWheeledVehicle_8cpp_source.html#l01024">ApplyRolloverBehavior()</a>.</p>
 
