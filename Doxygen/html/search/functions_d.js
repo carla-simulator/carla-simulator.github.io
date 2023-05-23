@@ -6,7 +6,7 @@ var searchData=
   ['namespace_5furi_5fpredicate',['namespace_uri_predicate',['../d8/d77/structnamespace__uri__predicate.html#a25bef9c1e12b0fdc908275ae7ab7c202',1,'namespace_uri_predicate']]],
   ['nanosectosectrunc',['nanosecToSecTrunc',['../da/db4/namespacedvs.html#ac54b5bb06427e16dc43ab116b1bfa5a7',1,'dvs']]],
   ['navigation',['Navigation',['../d9/dc2/classcarla_1_1nav_1_1Navigation.html#a87692a703f6ba85c54cf1a32d52cfb4e',1,'carla::nav::Navigation']]],
-  ['navigationtick',['NavigationTick',['../d1/db6/classcarla_1_1client_1_1detail_1_1Episode.html#ac34310c85f02dfeefac7cde08738b9d1',1,'carla::client::detail::Episode']]],
+  ['navigationtick',['NavigationTick',['../df/df3/classcarla_1_1client_1_1detail_1_1Simulator.html#a11e83fc493dc1c68258f1d66e8a384df',1,'carla::client::detail::Simulator']]],
   ['negotiatecollision',['NegotiateCollision',['../d1/d26/classcarla_1_1traffic__manager_1_1CollisionStage.html#af9c0740908fbcb2f077fb513224b2b4e',1,'carla::traffic_manager::CollisionStage']]],
   ['neuralmodel',['NeuralModel',['../da/d9e/classcarla_1_1learning_1_1NeuralModel.html#ab77e29dd674784e00a1e3dedcae364ee',1,'carla::learning::NeuralModel']]],
   ['neuralmodelimpl',['NeuralModelImpl',['../d3/d13/structcarla_1_1learning_1_1NeuralModelImpl.html#ab0c7961044c9dd1569cfc7aeda6e3ea7',1,'carla::learning::NeuralModelImpl']]],
