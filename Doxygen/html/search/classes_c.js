@@ -31,7 +31,7 @@ var searchData=
   ['lifetimeprofiler',['LifetimeProfiler',['../d6/df2/classcarla_1_1profiler_1_1LifetimeProfiler.html',1,'carla::profiler']]],
   ['light',['Light',['../de/d11/classcarla_1_1client_1_1Light.html',1,'carla::client']]],
   ['lightmanager',['LightManager',['../d8/d26/classcarla_1_1client_1_1LightManager.html',1,'carla::client']]],
-  ['lightstate',['LightState',['../d9/d19/structcarla_1_1client_1_1LightState.html',1,'carla::client::LightState'],['../d3/d13/classcarla_1_1rpc_1_1LightState.html',1,'carla::rpc::LightState']]],
+  ['lightstate',['LightState',['../d3/d13/classcarla_1_1rpc_1_1LightState.html',1,'carla::rpc::LightState'],['../d9/d19/structcarla_1_1client_1_1LightState.html',1,'carla::client::LightState']]],
   ['line',['Line',['../d4/de4/structcarla_1_1rpc_1_1DebugShape_1_1Line.html',1,'carla::rpc::DebugShape']]],
   ['listener',['Listener',['../d8/d50/classcarla_1_1multigpu_1_1Listener.html',1,'carla::multigpu']]],
   ['listview',['ListView',['../d2/d97/classcarla_1_1ListView.html',1,'carla::ListView&lt; IT &gt;'],['../d5/d90/classListView.html',1,'ListView&lt; IT &gt;']]],

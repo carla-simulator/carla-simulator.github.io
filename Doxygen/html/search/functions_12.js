@@ -366,6 +366,8 @@ var searchData=
   ['signconfig',['SignConfig',['../df/da6/classMeshReconstruction_1_1Cube.html#a3db9b7c9f27ea9fd6823fc781731718e',1,'MeshReconstruction::Cube']]],
   ['signof',['signOf',['../d2/de5/namespaceMapGen.html#ae9fe02eda53642295d1af13c10653844',1,'MapGen']]],
   ['simplewaypoint',['SimpleWaypoint',['../dc/d04/classcarla_1_1traffic__manager_1_1SimpleWaypoint.html#ab77494c17b839c5334bd2fd3468eaacf',1,'carla::traffic_manager::SimpleWaypoint']]],
+  ['simplificate',['Simplificate',['../d7/dba/classcarla_1_1geom_1_1Simplification.html#a7dfc6656a3fbb39b0fb1aa90eaeddc71',1,'carla::geom::Simplification']]],
+  ['simplification',['Simplification',['../d7/dba/classcarla_1_1geom_1_1Simplification.html#ac55d55ce8955ad01a551b1a941440264',1,'carla::geom::Simplification::Simplification()=default'],['../d7/dba/classcarla_1_1geom_1_1Simplification.html#a5f217b715654dce763966d860a3ccc21',1,'carla::geom::Simplification::Simplification(float simplificationrate)']]],
   ['simplify_5fmesh',['simplify_mesh',['../dd/dcf/classSimplify_1_1SimplificationObject.html#ac7c6c15b545db21899dea2390c0caa53',1,'Simplify::SimplificationObject']]],
   ['simplify_5fmesh_5flossless',['simplify_mesh_lossless',['../dd/dcf/classSimplify_1_1SimplificationObject.html#a03f17e525c617e393a3d95270f25ef61',1,'Simplify::SimplificationObject']]],
   ['simulatelidar',['SimulateLidar',['../d8/d15/classARayCastSemanticLidar.html#a2ce1c9dce8ad65372bc7f4e2a19e0c28',1,'ARayCastSemanticLidar']]],

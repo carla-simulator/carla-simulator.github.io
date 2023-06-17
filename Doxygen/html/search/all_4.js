@@ -83,7 +83,6 @@ var searchData=
   ['defaultmovementcomponent_2eh',['DefaultMovementComponent.h',['../dd/d9e/DefaultMovementComponent_8h.html',1,'']]],
   ['define_5flog_5fcategory',['DEFINE_LOG_CATEGORY',['../d9/d4f/Carla_8cpp.html#a7ba8691e3037436b49318c7847241c1a',1,'DEFINE_LOG_CATEGORY(LogCarla):&#160;Carla.cpp'],['../d9/d4f/Carla_8cpp.html#a2728661b04240cdd03f6a44b464d16e1',1,'DEFINE_LOG_CATEGORY(LogCarlaServer):&#160;Carla.cpp']]],
   ['definitions',['Definitions',['../d7/d90/classUActorDispatcher.html#ac472842b6456bbfd80bb47162d14bbba',1,'UActorDispatcher::Definitions()'],['../d8/d91/namespaceCommonAttributes.html#a60bb163e1b00d7401fdec1a29fc98043',1,'CommonAttributes::DEFINITIONS()']]],
-  ['deformateroadsmultithreaded',['DeformateRoadsMultithreaded',['../d0/d34/classcarla_1_1road_1_1Map.html#a341090fbe0627379e0027b0faf1046f4',1,'carla::road::Map']]],
   ['deformation_2eh',['Deformation.h',['../dd/d04/Deformation_8h.html',1,'']]],
   ['deinitialize',['Deinitialize',['../db/df0/classUCarlaLightSubsystem.html#a55d880a75a21784161549dbb6493b746',1,'UCarlaLightSubsystem']]],
   ['delegatetocall',['DelegateToCall',['../de/dee/classFHttpDownloader.html#a7c0c246fd3a4ba3a3ab268baab02c2b3',1,'FHttpDownloader']]],
