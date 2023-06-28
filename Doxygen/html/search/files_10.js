@@ -51,6 +51,8 @@ var searchData=
   ['signcomponent_2eh',['SignComponent.h',['../de/d8e/SignComponent_8h.html',1,'']]],
   ['simplewaypoint_2ecpp',['SimpleWaypoint.cpp',['../da/d46/SimpleWaypoint_8cpp.html',1,'']]],
   ['simplewaypoint_2eh',['SimpleWaypoint.h',['../d7/dd3/SimpleWaypoint_8h.html',1,'']]],
+  ['simplification_2ecpp',['Simplification.cpp',['../d3/d72/Simplification_8cpp.html',1,'']]],
+  ['simplification_2eh',['Simplification.h',['../dc/db2/Simplification_8h.html',1,'']]],
   ['simplify_2eh',['Simplify.h',['../d3/d33/Simplify_8h.html',1,'']]],
   ['simulationstate_2ecpp',['SimulationState.cpp',['../d3/d9c/SimulationState_8cpp.html',1,'']]],
   ['simulationstate_2eh',['SimulationState.h',['../d5/d3b/SimulationState_8h.html',1,'']]],

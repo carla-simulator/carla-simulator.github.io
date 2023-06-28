@@ -140,6 +140,7 @@ var searchData=
   ['addtrianglestrip',['AddTriangleStrip',['../d0/d02/classcarla_1_1geom_1_1Mesh.html#afc814a912c427b43363289e6765a5ba3',1,'carla::geom::Mesh']]],
   ['addtriggervolume',['AddTriggerVolume',['../de/db4/classFFrameData.html#a6a8c3c38cf8e1417396def349c991e23',1,'FFrameData::AddTriggerVolume()'],['../dd/db9/classACarlaRecorder.html#a439f1a30a4599beede582f9a0297d7d0',1,'ACarlaRecorder::AddTriggerVolume()']]],
   ['adduv',['AddUV',['../d0/d02/classcarla_1_1geom_1_1Mesh.html#a1fb7b6479d6997a75efeede9ddb72ec9',1,'carla::geom::Mesh']]],
+  ['adduvs',['AddUVs',['../d0/d02/classcarla_1_1geom_1_1Mesh.html#a5860ad4aae3291192acaae868ce9768d',1,'carla::geom::Mesh']]],
   ['addvalidity',['AddValidity',['../db/dd5/namespacecarla_1_1opendrive_1_1parser.html#ac719010c922c4e3f796175a17442beb2',1,'carla::opendrive::parser']]],
   ['addvaliditytosignalreference',['AddValidityToSignalReference',['../de/d16/classcarla_1_1road_1_1MapBuilder.html#a687e51ee805d2daecf80de5523f8ee79',1,'carla::road::MapBuilder']]],
   ['addvariationsforsensor',['AddVariationsForSensor',['../dd/d08/ActorBlueprintFunctionLibrary_8cpp.html#ab63cdd1c0da771aef517d53a2d73eae2',1,'ActorBlueprintFunctionLibrary.cpp']]],

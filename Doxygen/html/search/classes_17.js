@@ -42,7 +42,7 @@ var searchData=
   ['xpath_5fstack',['xpath_stack',['../dc/d7f/structxpath__stack.html',1,'']]],
   ['xpath_5fstack_5fdata',['xpath_stack_data',['../df/de5/structxpath__stack__data.html',1,'']]],
   ['xpath_5fstring',['xpath_string',['../dd/d5c/classxpath__string.html',1,'']]],
-  ['xpath_5fvariable',['xpath_variable',['../dd/d2a/classpugi_1_1xpath__variable.html',1,'pugi::xpath_variable'],['../d6/d0c/classxpath__variable.html',1,'xpath_variable']]],
+  ['xpath_5fvariable',['xpath_variable',['../d6/d0c/classxpath__variable.html',1,'xpath_variable'],['../dd/d2a/classpugi_1_1xpath__variable.html',1,'pugi::xpath_variable']]],
   ['xpath_5fvariable_5fboolean',['xpath_variable_boolean',['../d0/d57/structxpath__variable__boolean.html',1,'']]],
   ['xpath_5fvariable_5fnode_5fset',['xpath_variable_node_set',['../db/dcb/structxpath__variable__node__set.html',1,'']]],
   ['xpath_5fvariable_5fnumber',['xpath_variable_number',['../df/db8/structxpath__variable__number.html',1,'']]],

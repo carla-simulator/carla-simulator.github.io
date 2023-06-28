@@ -138,6 +138,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a897f061cbddafd59ccedd41c70edb915"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc2/classcarla_1_1nav_1_1Navigation.html#a897f061cbddafd59ccedd41c70edb915">HasVehicleNear</a> (<a class="el" href="../../d9/d36/namespacecarla.html#a624ab69c9ebee0e2fb8fda9a12bc061b">ActorId</a> id, float distance, <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">carla::geom::Location</a> direction)</td></tr>
 <tr class="memdesc:a897f061cbddafd59ccedd41c70edb915"><td class="mdescLeft">&#160;</td><td class="mdescRight">return if the agent has a vehicle near (as neighbour)  <a href="#a897f061cbddafd59ccedd41c70edb915">More...</a><br /></td></tr>
 <tr class="separator:a897f061cbddafd59ccedd41c70edb915"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9acf1f53d9b10e17a1a733e9906bf788"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc2/classcarla_1_1nav_1_1Navigation.html#a9acf1f53d9b10e17a1a733e9906bf788">IsWalkerAlive</a> (<a class="el" href="../../d9/d36/namespacecarla.html#a624ab69c9ebee0e2fb8fda9a12bc061b">ActorId</a> id, bool &amp;alive)</td></tr>
+<tr class="memdesc:a9acf1f53d9b10e17a1a733e9906bf788"><td class="mdescLeft">&#160;</td><td class="mdescRight">return if the agent has been killed by a vehicle  <a href="#a9acf1f53d9b10e17a1a733e9906bf788">More...</a><br /></td></tr>
+<tr class="separator:a9acf1f53d9b10e17a1a733e9906bf788"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ecc15f086fa09804d5b7edff58b8de8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc2/classcarla_1_1nav_1_1Navigation.html#a4ecc15f086fa09804d5b7edff58b8de8">Load</a> (const std::string &amp;filename)</td></tr>
 <tr class="memdesc:a4ecc15f086fa09804d5b7edff58b8de8"><td class="mdescLeft">&#160;</td><td class="mdescRight">load navigation data  <a href="#a4ecc15f086fa09804d5b7edff58b8de8">More...</a><br /></td></tr>
 <tr class="separator:a4ecc15f086fa09804d5b7edff58b8de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -158,6 +161,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a65223961b5513512e8e77bc8eb916e07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc2/classcarla_1_1nav_1_1Navigation.html#a65223961b5513512e8e77bc8eb916e07">SetSeed</a> (unsigned int seed)</td></tr>
 <tr class="memdesc:a65223961b5513512e8e77bc8eb916e07"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the seed to use with random numbers  <a href="#a65223961b5513512e8e77bc8eb916e07">More...</a><br /></td></tr>
 <tr class="separator:a65223961b5513512e8e77bc8eb916e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2deb4c21530d4feafb7f4da45920ece"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc2/classcarla_1_1nav_1_1Navigation.html#ae2deb4c21530d4feafb7f4da45920ece">SetSimulator</a> (std::weak_ptr&lt; <a class="el" href="../../df/df3/classcarla_1_1client_1_1detail_1_1Simulator.html">carla::client::detail::Simulator</a> &gt; simulator)</td></tr>
+<tr class="memdesc:ae2deb4c21530d4feafb7f4da45920ece"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference to the simulator to access API functions  <a href="#ae2deb4c21530d4feafb7f4da45920ece">More...</a><br /></td></tr>
+<tr class="separator:ae2deb4c21530d4feafb7f4da45920ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72b64873269d3f1e837d2451d22de294"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc2/classcarla_1_1nav_1_1Navigation.html#a72b64873269d3f1e837d2451d22de294">SetWalkerDirectTarget</a> (<a class="el" href="../../d9/d36/namespacecarla.html#a624ab69c9ebee0e2fb8fda9a12bc061b">ActorId</a> id, <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">carla::geom::Location</a> to)</td></tr>
 <tr class="separator:a72b64873269d3f1e837d2451d22de294"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae139233b47920386d4b63dd4df452a95"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc2/classcarla_1_1nav_1_1Navigation.html#ae139233b47920386d4b63dd4df452a95">SetWalkerDirectTargetIndex</a> (int index, <a class="el" href="../../de/d23/classcarla_1_1geom_1_1Location.html">carla::geom::Location</a> to)</td></tr>
@@ -224,6 +230,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:af9cb08e1fdc6ba4093a50293f45cfefa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab36487bb69e5198f69b587a533b124c7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc2/classcarla_1_1nav_1_1Navigation.html#ab36487bb69e5198f69b587a533b124c7">_ready</a> { false }</td></tr>
 <tr class="separator:ab36487bb69e5198f69b587a533b124c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32e8ebf247fe1d39a113828c73f3d991"><td class="memItemLeft" align="right" valign="top">std::weak_ptr&lt; <a class="el" href="../../df/df3/classcarla_1_1client_1_1detail_1_1Simulator.html">carla::client::detail::Simulator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc2/classcarla_1_1nav_1_1Navigation.html#a32e8ebf247fe1d39a113828c73f3d991">_simulator</a></td></tr>
+<tr class="separator:a32e8ebf247fe1d39a113828c73f3d991"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6c23ffb866b0c0487f25eeb93ebb1b7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc2/classcarla_1_1nav_1_1Navigation.html#ad6c23ffb866b0c0487f25eeb93ebb1b7">_time_to_unblock</a> { 0.0 }</td></tr>
 <tr class="separator:ad6c23ffb866b0c0487f25eeb93ebb1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3937e582d76175d8b23b012f5463c9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d5b/classcarla_1_1nav_1_1WalkerManager.html">WalkerManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc2/classcarla_1_1nav_1_1Navigation.html#aa3937e582d76175d8b23b012f5463c9c">_walker_manager</a></td></tr>
@@ -259,7 +267,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00051">51</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00139">_walker_manager</a>, and <a class="el" href="../../df/d64/WalkerManager_8h_source.html#l00050">carla::nav::WalkerManager::SetNav()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00143">_walker_manager</a>, and <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00027">carla::nav::WalkerManager::SetNav()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -288,7 +296,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">56</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00120">_binary_mesh</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00126">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00131">_mapped_by_index</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00129">_mapped_vehicles_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_nav_mesh</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00124">_nav_query</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">_ready</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00136">_time_to_unblock</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00135">_walkers_blocked_position</a>, and <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00133">_yaw_walkers</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00124">_binary_mesh</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00130">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00135">_mapped_by_index</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00133">_mapped_vehicles_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00132">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00127">_nav_mesh</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">_nav_query</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_ready</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00140">_time_to_unblock</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00139">_walkers_blocked_position</a>, and <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00137">_yaw_walkers</a>.</p>
 
 </div>
 </div>
@@ -311,11 +319,11 @@ Private Attributes</h2></td></tr>
 
 <p>create a new vehicle in crowd to be avoided by walkers </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00527">527</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00534">534</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00126">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00131">_mapped_by_index</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00129">_mapped_vehicles_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00141">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">_ready</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00036">carla::nav::AGENT_HEIGHT</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00050">carla::nav::VehicleCollisionInfo::bounding</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00026">carla::nav::DT_CROWD_SEPARATION</a>, <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00051">carla::geom::BoundingBox::extent</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00048">carla::nav::VehicleCollisionInfo::id</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00030">carla::geom::Transform::location</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00059">carla::logging::log()</a>, <a class="el" href="../../d6/d09/Math_8cpp_source.html#l00111">carla::geom::Math::RotatePointOnOrigin2D()</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00032">carla::geom::Transform::rotation</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00043">carla::geom::Math::ToRadians()</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00049">carla::nav::VehicleCollisionInfo::transform</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00031">carla::geom::Rotation::yaw</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00130">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00135">_mapped_by_index</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00133">_mapped_vehicles_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00147">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_ready</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00036">carla::nav::AGENT_HEIGHT</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00050">carla::nav::VehicleCollisionInfo::bounding</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00026">carla::nav::DT_CROWD_SEPARATION</a>, <a class="el" href="../../d2/dfe/LibCarla_2source_2carla_2geom_2BoundingBox_8h_source.html#l00051">carla::geom::BoundingBox::extent</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00048">carla::nav::VehicleCollisionInfo::id</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00030">carla::geom::Transform::location</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00059">carla::logging::log()</a>, <a class="el" href="../../d6/d09/Math_8cpp_source.html#l00111">carla::geom::Math::RotatePointOnOrigin2D()</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00032">carla::geom::Transform::rotation</a>, <a class="el" href="../../db/d8a/Math_8h_source.html#l00043">carla::geom::Math::ToRadians()</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00049">carla::nav::VehicleCollisionInfo::transform</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00031">carla::geom::Rotation::yaw</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00702">UpdateVehicles()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00709">UpdateVehicles()</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -363,17 +371,17 @@ Private Attributes</h2></td></tr>
 
 <p>create a new walker </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00466">466</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00473">473</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00126">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00131">_mapped_by_index</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00141">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00143">_probability_crossing</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">_ready</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00139">_walker_manager</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00133">_yaw_walkers</a>, <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00021">carla::nav::WalkerManager::AddWalker()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00036">carla::nav::AGENT_HEIGHT</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00037">carla::nav::AGENT_RADIUS</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00024">carla::nav::DT_CROWD_ANTICIPATE_TURNS</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00025">carla::nav::DT_CROWD_OBSTACLE_AVOIDANCE</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00026">carla::nav::DT_CROWD_SEPARATION</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00047">carla::nav::frand()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00130">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00135">_mapped_by_index</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00132">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00147">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00149">_probability_crossing</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_ready</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00143">_walker_manager</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00137">_yaw_walkers</a>, <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00037">carla::nav::WalkerManager::AddWalker()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00036">carla::nav::AGENT_HEIGHT</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00037">carla::nav::AGENT_RADIUS</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00024">carla::nav::DT_CROWD_ANTICIPATE_TURNS</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00025">carla::nav::DT_CROWD_OBSTACLE_AVOIDANCE</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00026">carla::nav::DT_CROWD_SEPARATION</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00047">carla::nav::frand()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d09/WalkerNavigation_8h_source.html#l00057">carla::client::detail::WalkerNavigation::AddWalker()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d09/WalkerNavigation_8h_source.html#l00056">carla::client::detail::WalkerNavigation::AddWalker()</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_ade1fb877d94268b4c21bf2b865e94883_cgraph.svg" width="418" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_ade1fb877d94268b4c21bf2b865e94883_cgraph.svg" width="100%" height="571"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -405,11 +413,11 @@ Private Attributes</h2></td></tr>
 
 <p>create the crowd object </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00194">194</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00201">201</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00126">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_nav_mesh</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">_ready</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00031">carla::nav::CARLA_AREA_GRASS</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00030">carla::nav::CARLA_AREA_ROAD</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00036">carla::nav::CARLA_TYPE_NONE</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00039">carla::nav::CARLA_TYPE_ROAD</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00043">carla::nav::CARLA_TYPE_WALKABLE</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, and <a class="el" href="../../de/d87/Logging_8h_source.html#l00059">carla::logging::log()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00130">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00127">_nav_mesh</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_ready</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00031">carla::nav::CARLA_AREA_GRASS</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00030">carla::nav::CARLA_AREA_ROAD</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00036">carla::nav::CARLA_TYPE_NONE</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00039">carla::nav::CARLA_TYPE_ROAD</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00043">carla::nav::CARLA_TYPE_WALKABLE</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, and <a class="el" href="../../de/d87/Logging_8h_source.html#l00059">carla::logging::log()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00093">Load()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00100">Load()</a>.</p>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
@@ -473,11 +481,11 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00365">365</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00372">372</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00126">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00141">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_nav_mesh</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00124">_nav_query</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">_ready</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00033">carla::nav::MAX_POLYS</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00130">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00132">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00147">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00127">_nav_mesh</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">_nav_query</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_ready</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00033">carla::nav::MAX_POLYS</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00110">carla::nav::WalkerManager::SetWalkerRoute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00128">carla::nav::WalkerManager::SetWalkerRoute()</a>.</p>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
@@ -512,9 +520,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00112">112</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00116">116</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00085">carla::client::detail::WalkerNavigation::UpdateVehiclesInCrowd()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00104">carla::client::detail::WalkerNavigation::UpdateVehiclesInCrowd()</a>.</p>
 <div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
@@ -551,7 +559,7 @@ Private Attributes</h2></td></tr>
 
 <p>return the last delta seconds </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00115">115</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">119</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
 
 </div>
 </div>
@@ -601,9 +609,9 @@ Private Attributes</h2></td></tr>
 
 <p>return the path points to go from one position to another </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00260">260</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00267">267</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00141">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_nav_mesh</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00124">_nav_query</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">_ready</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00031">carla::nav::CARLA_AREA_GRASS</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00030">carla::nav::CARLA_AREA_ROAD</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00036">carla::nav::CARLA_TYPE_NONE</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00043">carla::nav::CARLA_TYPE_WALKABLE</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00033">carla::nav::MAX_POLYS</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00147">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00127">_nav_mesh</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">_nav_query</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_ready</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00031">carla::nav::CARLA_AREA_GRASS</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00030">carla::nav::CARLA_AREA_ROAD</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00036">carla::nav::CARLA_TYPE_NONE</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00043">carla::nav::CARLA_TYPE_WALKABLE</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00033">carla::nav::MAX_POLYS</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
 </div>
 </div>
@@ -635,11 +643,11 @@ Private Attributes</h2></td></tr>
 
 <p>get a random location for navigation </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01054">1054</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01062">1062</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00141">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00124">_nav_query</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">_ready</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00036">carla::nav::CARLA_TYPE_NONE</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00037">carla::nav::CARLA_TYPE_SIDEWALK</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00047">carla::nav::frand()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00147">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">_nav_query</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_ready</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00036">carla::nav::CARLA_TYPE_NONE</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00037">carla::nav::CARLA_TYPE_SIDEWALK</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00047">carla::nav::frand()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d09/WalkerNavigation_8h_source.html#l00065">carla::client::detail::WalkerNavigation::GetRandomLocation()</a>, <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00096">carla::nav::WalkerManager::SetWalkerRoute()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00827">UpdateCrowd()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d09/WalkerNavigation_8h_source.html#l00064">carla::client::detail::WalkerNavigation::GetRandomLocation()</a>, <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00114">carla::nav::WalkerManager::SetWalkerRoute()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00834">UpdateCrowd()</a>.</p>
 <div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
@@ -687,11 +695,11 @@ Private Attributes</h2></td></tr>
 
 <p>get the walker current location </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00979">979</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00987">987</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00126">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00141">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">_ready</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00130">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00132">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00147">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_ready</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/db9/WalkerEvent_8cpp_source.html#l00028">carla::nav::WalkerEventVisitor::operator()()</a>, <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00110">carla::nav::WalkerManager::SetWalkerRoute()</a>, and <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00043">carla::nav::WalkerManager::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/db9/WalkerEvent_8cpp_source.html#l00028">carla::nav::WalkerEventVisitor::operator()()</a>, <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00128">carla::nav::WalkerManager::SetWalkerRoute()</a>, and <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00061">carla::nav::WalkerManager::Update()</a>.</p>
 <div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-13-summary" class="dynsummary" style="display:block;">
@@ -721,11 +729,11 @@ Private Attributes</h2></td></tr>
 
 <p>get the walker current transform </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01020">1020</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01028">1028</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00126">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00141">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">_ready</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00130">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00132">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00147">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_ready</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00031">carla::client::detail::WalkerNavigation::Tick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00033">carla::client::detail::WalkerNavigation::Tick()</a>.</p>
 <div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-14-summary" class="dynsummary" style="display:block;">
@@ -765,11 +773,11 @@ Private Attributes</h2></td></tr>
 
 <p>get the walker current transform </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00915">915</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00923">923</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00126">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00121">_delta_seconds</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00141">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">_ready</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00133">_yaw_walkers</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00030">carla::geom::Transform::location</a>, <a class="el" href="../../d3/d33/Simplify_8h_source.html#l00294">min()</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00032">carla::geom::Transform::rotation</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00031">carla::geom::Rotation::yaw</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00130">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00125">_delta_seconds</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00132">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00147">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_ready</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00137">_yaw_walkers</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00030">carla::geom::Transform::location</a>, <a class="el" href="../../d3/d33/Simplify_8h_source.html#l00294">min()</a>, <a class="el" href="../../de/d17/geom_2Transform_8h_source.html#l00032">carla::geom::Transform::rotation</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, <a class="el" href="../../d0/d8f/Rotation_8h_source.html#l00031">carla::geom::Rotation::yaw</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00031">carla::client::detail::WalkerNavigation::Tick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00033">carla::client::detail::WalkerNavigation::Tick()</a>.</p>
 <div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-15-summary" class="dynsummary" style="display:block;">
@@ -823,9 +831,9 @@ Private Attributes</h2></td></tr>
 
 <p>return if the agent has a vehicle near (as neighbour) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01149">1149</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01157">1157</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00126">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00129">_mapped_vehicles_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00141">_mutex</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00130">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00133">_mapped_vehicles_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00132">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00147">_mutex</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/db9/WalkerEvent_8cpp_source.html#l00028">carla::nav::WalkerEventVisitor::operator()()</a>.</p>
 <div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -834,6 +842,50 @@ Private Attributes</h2></td></tr>
 </div>
 <div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a897f061cbddafd59ccedd41c70edb915_icgraph.svg" width="440" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a9acf1f53d9b10e17a1a733e9906bf788"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9acf1f53d9b10e17a1a733e9906bf788">&#9670;&nbsp;</a></span>IsWalkerAlive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool carla::nav::Navigation::IsWalkerAlive </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d36/namespacecarla.html#a624ab69c9ebee0e2fb8fda9a12bc061b">ActorId</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>alive</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>return if the agent has been killed by a vehicle </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01214">1214</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00130">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00132">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00147">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_ready</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00033">carla::client::detail::WalkerNavigation::Tick()</a>.</p>
+<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a9acf1f53d9b10e17a1a733e9906bf788_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -857,14 +909,14 @@ Private Attributes</h2></td></tr>
 
 <p>load navigation data </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00076">76</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00083">83</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00023">carla::client::detail::WalkerNavigation::WalkerNavigation()</a>.</p>
-<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00024">carla::client::detail::WalkerNavigation::WalkerNavigation()</a>.</p>
+<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a4ecc15f086fa09804d5b7edff58b8de8_icgraph.svg" width="494" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -889,14 +941,14 @@ Private Attributes</h2></td></tr>
 
 <p>load navigation data from memory </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00093">93</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00100">100</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00120">_binary_mesh</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_nav_mesh</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00124">_nav_query</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">_ready</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00194">CreateCrowd()</a>, and <a class="el" href="../../de/d87/Logging_8h_source.html#l00059">carla::logging::log()</a>.</p>
-<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00124">_binary_mesh</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00127">_nav_mesh</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">_nav_query</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_ready</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00201">CreateCrowd()</a>, and <a class="el" href="../../de/d87/Logging_8h_source.html#l00059">carla::logging::log()</a>.</p>
+<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_ae637d6ba7789ff580f760ca5cdc7e559_cgraph.svg" width="100%" height="383"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -931,17 +983,17 @@ Private Attributes</h2></td></tr>
 
 <p>set an agent as paused for the crowd </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01117">1117</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01125">1125</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00126">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00141">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">_ready</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00130">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00132">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00147">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_ready</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00166">carla::nav::WalkerManager::SetWalkerNextPoint()</a>.</p>
-<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../de/db9/WalkerEvent_8cpp_source.html#l00028">carla::nav::WalkerEventVisitor::operator()()</a>, and <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00184">carla::nav::WalkerManager::SetWalkerNextPoint()</a>.</p>
+<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a854f9b2a9fe9abfb4941b7bca8e13202_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a854f9b2a9fe9abfb4941b7bca8e13202_icgraph.svg" width="100%" height="412"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -965,25 +1017,25 @@ Private Attributes</h2></td></tr>
 
 <p>remove an agent </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00656">656</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00663">663</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00126">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00131">_mapped_by_index</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00129">_mapped_vehicles_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00141">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">_ready</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00139">_walker_manager</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, and <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00032">carla::nav::WalkerManager::RemoveWalker()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00130">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00135">_mapped_by_index</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00133">_mapped_vehicles_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00132">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00147">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_ready</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00143">_walker_manager</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, and <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00050">carla::nav::WalkerManager::RemoveWalker()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00064">carla::client::detail::WalkerNavigation::CheckIfWalkerExist()</a>, <a class="el" href="../../d5/d09/WalkerNavigation_8h_source.html#l00052">carla::client::detail::WalkerNavigation::RemoveWalker()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00702">UpdateVehicles()</a>.</p>
-<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a273cfd565ff7a8376f165105a192e2e1_cgraph.svg" width="418" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
+<p class="reference">Referenced by <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00083">carla::client::detail::WalkerNavigation::CheckIfWalkerExist()</a>, <a class="el" href="../../d5/d09/WalkerNavigation_8h_source.html#l00051">carla::client::detail::WalkerNavigation::RemoveWalker()</a>, <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00033">carla::client::detail::WalkerNavigation::Tick()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00709">UpdateVehicles()</a>.</p>
 <div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-22-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a273cfd565ff7a8376f165105a192e2e1_icgraph.svg" width="100%" height="429"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a273cfd565ff7a8376f165105a192e2e1_cgraph.svg" width="418" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a273cfd565ff7a8376f165105a192e2e1_icgraph.svg" width="100%" height="487"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -1025,16 +1077,16 @@ Private Attributes</h2></td></tr>
 
 <p>assign a filter index to an agent </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01095">1095</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01103">1103</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00126">_crowd</a>, and <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00141">_mutex</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00130">_crowd</a>, and <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00147">_mutex</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00827">UpdateCrowd()</a>.</p>
-<div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00834">UpdateCrowd()</a>.</p>
+<div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a0a04bcd0a2e4aea78c11eb21cb9ba5a3_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1059,16 +1111,16 @@ Private Attributes</h2></td></tr>
 
 <p>set the probability that an agent could cross the roads in its path following </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01111">1111</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01119">1119</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00143">_probability_crossing</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00149">_probability_crossing</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d09/WalkerNavigation_8h_source.html#l00084">carla::client::detail::WalkerNavigation::SetPedestriansCrossFactor()</a>.</p>
-<div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d5/d09/WalkerNavigation_8h_source.html#l00083">carla::client::detail::WalkerNavigation::SetPedestriansCrossFactor()</a>.</p>
+<div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_ab34cc28dc0db9feeccecc9b758f1f2d6_icgraph.svg" width="512" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1093,15 +1145,57 @@ Private Attributes</h2></td></tr>
 
 <p>set the seed to use with random numbers </p>
 
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00078">78</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d5/d09/WalkerNavigation_8h_source.html#l00087">carla::client::detail::WalkerNavigation::SetPedestriansSeed()</a>.</p>
+<div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a65223961b5513512e8e77bc8eb916e07_icgraph.svg" width="506" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ae2deb4c21530d4feafb7f4da45920ece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2deb4c21530d4feafb7f4da45920ece">&#9670;&nbsp;</a></span>SetSimulator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::nav::Navigation::SetSimulator </td>
+          <td>(</td>
+          <td class="paramtype">std::weak_ptr&lt; <a class="el" href="../../df/df3/classcarla_1_1client_1_1detail_1_1Simulator.html">carla::client::detail::Simulator</a> &gt;&#160;</td>
+          <td class="paramname"><em>simulator</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>reference to the simulator to access API functions </p>
+
 <p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00071">71</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d09/WalkerNavigation_8h_source.html#l00088">carla::client::detail::WalkerNavigation::SetPedestriansSeed()</a>.</p>
-<div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00145">_simulator</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00143">_walker_manager</a>, and <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00032">carla::nav::WalkerManager::SetSimulator()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00024">carla::client::detail::WalkerNavigation::WalkerNavigation()</a>.</p>
+<div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a65223961b5513512e8e77bc8eb916e07_icgraph.svg" width="506" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_ae2deb4c21530d4feafb7f4da45920ece_cgraph.svg" width="418" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_ae2deb4c21530d4feafb7f4da45920ece_icgraph.svg" width="494" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1133,24 +1227,24 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00775">775</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00782">782</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">_ready</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00792">SetWalkerDirectTargetIndex()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00132">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_ready</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00799">SetWalkerDirectTargetIndex()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00166">carla::nav::WalkerManager::SetWalkerNextPoint()</a>.</p>
-<div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00184">carla::nav::WalkerManager::SetWalkerNextPoint()</a>.</p>
+<div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a72b64873269d3f1e837d2451d22de294_cgraph.svg" width="444" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a72b64873269d3f1e837d2451d22de294_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1183,16 +1277,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00792">792</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00799">799</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00126">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00141">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00124">_nav_query</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">_ready</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00130">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00147">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">_nav_query</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_ready</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00775">SetWalkerDirectTarget()</a>.</p>
-<div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00782">SetWalkerDirectTarget()</a>.</p>
+<div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_ae139233b47920386d4b63dd4df452a95_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1227,9 +1321,9 @@ Private Attributes</h2></td></tr>
 
 <p>make agent look at some location </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01170">1170</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01178">1178</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00126">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00129">_mapped_vehicles_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00141">_mutex</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00130">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00133">_mapped_vehicles_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00132">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00147">_mutex</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00024">carla::geom::Vector3D::x</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00026">carla::geom::Vector3D::y</a>, and <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00028">carla::geom::Vector3D::z</a>.</p>
 
 </div>
 </div>
@@ -1261,16 +1355,16 @@ Private Attributes</h2></td></tr>
 
 <p>set new max speed </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00728">728</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00735">735</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00126">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00141">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">_ready</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00130">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00132">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00147">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_ready</a>, and <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d09/WalkerNavigation_8h_source.html#l00079">carla::client::detail::WalkerNavigation::SetWalkerMaxSpeed()</a>.</p>
-<div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d5/d09/WalkerNavigation_8h_source.html#l00078">carla::client::detail::WalkerNavigation::SetWalkerMaxSpeed()</a>.</p>
+<div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-29-content" class="dyncontent" style="display:none;">
+<div id="dynsection-32-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a046b54b9f272bf46c0f1b7b8f770dd87_icgraph.svg" width="443" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1305,24 +1399,24 @@ Private Attributes</h2></td></tr>
 
 <p>set a new target point to go through a route with events </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00758">758</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00765">765</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">_ready</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00139">_walker_manager</a>, and <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00096">carla::nav::WalkerManager::SetWalkerRoute()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00132">_mapped_walkers_id</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_ready</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00143">_walker_manager</a>, and <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00114">carla::nav::WalkerManager::SetWalkerRoute()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d09/WalkerNavigation_8h_source.html#l00074">carla::client::detail::WalkerNavigation::SetWalkerTarget()</a>.</p>
-<div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d5/d09/WalkerNavigation_8h_source.html#l00073">carla::client::detail::WalkerNavigation::SetWalkerTarget()</a>.</p>
+<div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-30-content" class="dyncontent" style="display:none;">
+<div id="dynsection-33-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a50ef321f7e1fe5de2b33c851788fdce6_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-31-content" class="dyncontent" style="display:none;">
+<div id="dynsection-34-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a50ef321f7e1fe5de2b33c851788fdce6_icgraph.svg" width="443" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1347,24 +1441,24 @@ Private Attributes</h2></td></tr>
 
 <p>update all walkers in crowd </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00827">827</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00834">834</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00126">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00121">_delta_seconds</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00131">_mapped_by_index</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00141">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00143">_probability_crossing</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">_ready</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00136">_time_to_unblock</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00139">_walker_manager</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00135">_walkers_blocked_position</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00047">carla::nav::frand()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01054">GetRandomLocation()</a>, <a class="el" href="../../d7/df2/EpisodeState_8h_source.html#l00047">carla::client::detail::EpisodeState::GetTimestamp()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01095">SetAgentFilter()</a>, <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00096">carla::nav::WalkerManager::SetWalkerRoute()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00045">carla::geom::Vector3D::SquaredLength()</a>, and <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00043">carla::nav::WalkerManager::Update()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00130">_crowd</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00125">_delta_seconds</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00135">_mapped_by_index</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00147">_mutex</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00149">_probability_crossing</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">_ready</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00140">_time_to_unblock</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00143">_walker_manager</a>, <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00139">_walkers_blocked_position</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00047">carla::nav::frand()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01062">GetRandomLocation()</a>, <a class="el" href="../../d7/df2/EpisodeState_8h_source.html#l00047">carla::client::detail::EpisodeState::GetTimestamp()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01103">SetAgentFilter()</a>, <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00114">carla::nav::WalkerManager::SetWalkerRoute()</a>, <a class="el" href="../../de/d70/geom_2Vector3D_8h_source.html#l00045">carla::geom::Vector3D::SquaredLength()</a>, and <a class="el" href="../../d2/dbb/WalkerManager_8cpp_source.html#l00061">carla::nav::WalkerManager::Update()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00031">carla::client::detail::WalkerNavigation::Tick()</a>.</p>
-<div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00033">carla::client::detail::WalkerNavigation::Tick()</a>.</p>
+<div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div id="dynsection-35-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a080cc11c843ef94c29a1537b2af62091_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-33-content" class="dyncontent" style="display:none;">
+<div id="dynsection-36-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a080cc11c843ef94c29a1537b2af62091_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1389,24 +1483,24 @@ Private Attributes</h2></td></tr>
 
 <p>add/update/delete vehicles in crowd </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00702">702</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00709">709</a> of file <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html">Navigation.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00129">_mapped_vehicles_id</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00527">AddOrUpdateVehicle()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00656">RemoveAgent()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00133">_mapped_vehicles_id</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00534">AddOrUpdateVehicle()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00663">RemoveAgent()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00085">carla::client::detail::WalkerNavigation::UpdateVehiclesInCrowd()</a>.</p>
-<div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../de/d84/WalkerNavigation_8cpp_source.html#l00104">carla::client::detail::WalkerNavigation::UpdateVehiclesInCrowd()</a>.</p>
+<div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-34-content" class="dyncontent" style="display:none;">
+<div id="dynsection-37-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a6b7d72d6c0d11bd88a5b9fae3e230ed2_cgraph.svg" width="100%" height="498"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-35-content" class="dyncontent" style="display:none;">
+<div id="dynsection-38-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d9/dc2/classcarla_1_1nav_1_1Navigation_a6b7d72d6c0d11bd88a5b9fae3e230ed2_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1434,9 +1528,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00120">120</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00124">124</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00093">Load()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00100">Load()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
 
 </div>
 </div>
@@ -1462,9 +1556,9 @@ Private Attributes</h2></td></tr>
 
 <p>crowd </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00126">126</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00130">130</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00527">AddOrUpdateVehicle()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00466">AddWalker()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00194">CreateCrowd()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00365">GetAgentRoute()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00979">GetWalkerPosition()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01020">GetWalkerSpeed()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00915">GetWalkerTransform()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01149">HasVehicleNear()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01117">PauseAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00656">RemoveAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01095">SetAgentFilter()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00792">SetWalkerDirectTargetIndex()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01170">SetWalkerLookAt()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00728">SetWalkerMaxSpeed()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00827">UpdateCrowd()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00534">AddOrUpdateVehicle()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00473">AddWalker()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00201">CreateCrowd()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00372">GetAgentRoute()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00987">GetWalkerPosition()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01028">GetWalkerSpeed()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00923">GetWalkerTransform()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01157">HasVehicleNear()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01214">IsWalkerAlive()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01125">PauseAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00663">RemoveAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01103">SetAgentFilter()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00799">SetWalkerDirectTargetIndex()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01178">SetWalkerLookAt()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00735">SetWalkerMaxSpeed()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00834">UpdateCrowd()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
 
 </div>
 </div>
@@ -1488,9 +1582,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00121">121</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00125">125</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00915">GetWalkerTransform()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00827">UpdateCrowd()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00923">GetWalkerTransform()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00834">UpdateCrowd()</a>.</p>
 
 </div>
 </div>
@@ -1514,9 +1608,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00131">131</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00135">135</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00527">AddOrUpdateVehicle()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00466">AddWalker()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00656">RemoveAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00827">UpdateCrowd()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00534">AddOrUpdateVehicle()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00473">AddWalker()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00663">RemoveAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00834">UpdateCrowd()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
 
 </div>
 </div>
@@ -1540,9 +1634,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00129">129</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00133">133</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00527">AddOrUpdateVehicle()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01149">HasVehicleNear()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00656">RemoveAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01170">SetWalkerLookAt()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00702">UpdateVehicles()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00534">AddOrUpdateVehicle()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01157">HasVehicleNear()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00663">RemoveAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01178">SetWalkerLookAt()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00709">UpdateVehicles()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
 
 </div>
 </div>
@@ -1568,9 +1662,9 @@ Private Attributes</h2></td></tr>
 
 <p>mapping Id </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">128</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00132">132</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00466">AddWalker()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00365">GetAgentRoute()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00979">GetWalkerPosition()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01020">GetWalkerSpeed()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00915">GetWalkerTransform()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01149">HasVehicleNear()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01117">PauseAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00656">RemoveAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00775">SetWalkerDirectTarget()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01170">SetWalkerLookAt()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00728">SetWalkerMaxSpeed()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00758">SetWalkerTarget()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00473">AddWalker()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00372">GetAgentRoute()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00987">GetWalkerPosition()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01028">GetWalkerSpeed()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00923">GetWalkerTransform()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01157">HasVehicleNear()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01214">IsWalkerAlive()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01125">PauseAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00663">RemoveAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00782">SetWalkerDirectTarget()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01178">SetWalkerLookAt()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00735">SetWalkerMaxSpeed()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00765">SetWalkerTarget()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
 
 </div>
 </div>
@@ -1594,9 +1688,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00141">141</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00147">147</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00527">AddOrUpdateVehicle()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00466">AddWalker()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00365">GetAgentRoute()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00260">GetPath()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01054">GetRandomLocation()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00979">GetWalkerPosition()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01020">GetWalkerSpeed()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00915">GetWalkerTransform()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01149">HasVehicleNear()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01117">PauseAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00656">RemoveAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01095">SetAgentFilter()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00792">SetWalkerDirectTargetIndex()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01170">SetWalkerLookAt()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00728">SetWalkerMaxSpeed()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00827">UpdateCrowd()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00534">AddOrUpdateVehicle()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00473">AddWalker()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00372">GetAgentRoute()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00267">GetPath()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01062">GetRandomLocation()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00987">GetWalkerPosition()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01028">GetWalkerSpeed()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00923">GetWalkerTransform()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01157">HasVehicleNear()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01214">IsWalkerAlive()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01125">PauseAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00663">RemoveAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01103">SetAgentFilter()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00799">SetWalkerDirectTargetIndex()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01178">SetWalkerLookAt()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00735">SetWalkerMaxSpeed()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00834">UpdateCrowd()</a>.</p>
 
 </div>
 </div>
@@ -1622,9 +1716,9 @@ Private Attributes</h2></td></tr>
 
 <p>meshes </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">123</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00127">127</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00194">CreateCrowd()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00365">GetAgentRoute()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00260">GetPath()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00093">Load()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00201">CreateCrowd()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00372">GetAgentRoute()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00267">GetPath()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00100">Load()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
 
 </div>
 </div>
@@ -1648,9 +1742,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00124">124</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00128">128</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00365">GetAgentRoute()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00260">GetPath()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01054">GetRandomLocation()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00093">Load()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00792">SetWalkerDirectTargetIndex()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00372">GetAgentRoute()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00267">GetPath()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01062">GetRandomLocation()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00100">Load()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00799">SetWalkerDirectTargetIndex()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
 
 </div>
 </div>
@@ -1674,9 +1768,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00143">143</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00149">149</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00466">AddWalker()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01111">SetPedestriansCrossFactor()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00827">UpdateCrowd()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00473">AddWalker()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01119">SetPedestriansCrossFactor()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00834">UpdateCrowd()</a>.</p>
 
 </div>
 </div>
@@ -1700,9 +1794,35 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00119">119</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00123">123</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00527">AddOrUpdateVehicle()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00466">AddWalker()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00194">CreateCrowd()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00365">GetAgentRoute()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00260">GetPath()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01054">GetRandomLocation()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00979">GetWalkerPosition()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01020">GetWalkerSpeed()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00915">GetWalkerTransform()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00093">Load()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01117">PauseAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00656">RemoveAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00775">SetWalkerDirectTarget()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00792">SetWalkerDirectTargetIndex()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00728">SetWalkerMaxSpeed()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00758">SetWalkerTarget()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00827">UpdateCrowd()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00534">AddOrUpdateVehicle()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00473">AddWalker()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00201">CreateCrowd()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00372">GetAgentRoute()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00267">GetPath()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01062">GetRandomLocation()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00987">GetWalkerPosition()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01028">GetWalkerSpeed()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00923">GetWalkerTransform()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01214">IsWalkerAlive()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00100">Load()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l01125">PauseAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00663">RemoveAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00782">SetWalkerDirectTarget()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00799">SetWalkerDirectTargetIndex()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00735">SetWalkerMaxSpeed()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00765">SetWalkerTarget()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00834">UpdateCrowd()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
+
+</div>
+</div>
+<a id="a32e8ebf247fe1d39a113828c73f3d991"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32e8ebf247fe1d39a113828c73f3d991">&#9670;&nbsp;</a></span>_simulator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::weak_ptr&lt;<a class="el" href="../../df/df3/classcarla_1_1client_1_1detail_1_1Simulator.html">carla::client::detail::Simulator</a>&gt; carla::nav::Navigation::_simulator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00145">145</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00071">SetSimulator()</a>.</p>
 
 </div>
 </div>
@@ -1726,9 +1846,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00136">136</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00140">140</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00827">UpdateCrowd()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00834">UpdateCrowd()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
 
 </div>
 </div>
@@ -1754,9 +1874,9 @@ Private Attributes</h2></td></tr>
 
 <p>walker manager for the route planning with events </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00139">139</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00143">143</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00466">AddWalker()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00051">Navigation()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00656">RemoveAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00758">SetWalkerTarget()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00827">UpdateCrowd()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00473">AddWalker()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00051">Navigation()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00663">RemoveAgent()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00071">SetSimulator()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00765">SetWalkerTarget()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00834">UpdateCrowd()</a>.</p>
 
 </div>
 </div>
@@ -1782,9 +1902,9 @@ Private Attributes</h2></td></tr>
 
 <p>saves the position of each actor at intervals and check if any is blocked </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00135">135</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00139">139</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00827">UpdateCrowd()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00834">UpdateCrowd()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
 
 </div>
 </div>
@@ -1810,9 +1930,9 @@ Private Attributes</h2></td></tr>
 
 <p>store walkers yaw angle from previous tick </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00133">133</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/Navigation_8h_source.html#l00137">137</a> of file <a class="el" href="../../d0/d36/Navigation_8h_source.html">Navigation.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00466">AddWalker()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00915">GetWalkerTransform()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00473">AddWalker()</a>, <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00923">GetWalkerTransform()</a>, and <a class="el" href="../../d5/d9c/Navigation_8cpp_source.html#l00056">~Navigation()</a>.</p>
 
 </div>
 </div>
