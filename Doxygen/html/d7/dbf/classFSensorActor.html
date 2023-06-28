@@ -226,6 +226,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a29a4ce3bf27e296995a137de347d209c inherit pub_methods_classFCarlaActor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e4569904ca2768a52f295c4bff629da inherit pub_methods_classFCarlaActor"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9d">ECarlaServerResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dde/classFCarlaActor.html#a3e4569904ca2768a52f295c4bff629da">SetActorAutopilot</a> (bool, bool bKeepState=false)</td></tr>
 <tr class="separator:a3e4569904ca2768a52f295c4bff629da inherit pub_methods_classFCarlaActor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a592fd4c9a975b98a1f3290f207e67514 inherit pub_methods_classFCarlaActor"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9d">ECarlaServerResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dde/classFCarlaActor.html#a592fd4c9a975b98a1f3290f207e67514">SetActorCollisions</a> (bool bEnabled)</td></tr>
+<tr class="separator:a592fd4c9a975b98a1f3290f207e67514 inherit pub_methods_classFCarlaActor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ee316c23457fd43926197fc4bd3866d inherit pub_methods_classFCarlaActor"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9d">ECarlaServerResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dde/classFCarlaActor.html#a4ee316c23457fd43926197fc4bd3866d">SetActorDead</a> ()</td></tr>
+<tr class="separator:a4ee316c23457fd43926197fc4bd3866d inherit pub_methods_classFCarlaActor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a212186a1624e04d978a8186f81902ec8 inherit pub_methods_classFCarlaActor"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9d">ECarlaServerResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dde/classFCarlaActor.html#a212186a1624e04d978a8186f81902ec8">SetActorEnableGravity</a> (bool bEnabled)</td></tr>
 <tr class="separator:a212186a1624e04d978a8186f81902ec8 inherit pub_methods_classFCarlaActor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90dbf3af126409f9dee3bfca219f4c1d inherit pub_methods_classFCarlaActor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dde/classFCarlaActor.html#a90dbf3af126409f9dee3bfca219f4c1d">SetActorGlobalLocation</a> (const FVector &amp;Location, ETeleportType Teleport=ETeleportType::TeleportPhysics)</td></tr>
@@ -303,7 +307,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00530">530</a> of file <a class="el" href="../../de/d36/CarlaActor_8h_source.html">CarlaActor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00537">537</a> of file <a class="el" href="../../de/d36/CarlaActor_8h_source.html">CarlaActor.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a46ecbf822d65cbf987b1540cdd74f45e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a46ecbf822d65cbf987b1540cdd74f45e">&#9670;&nbsp;</a></span>FSensorActor()</h2>
@@ -349,9 +353,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l00064">64</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l00065">65</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00458">FCarlaActor::ActorData</a>, <a class="el" href="../../dc/dde/classFCarlaActor.html#a68463a6ebe4a8d0364996c5d84af4279a06b185256c71c1aec263c6e22bf8ef6b">FCarlaActor::Sensor</a>, and <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00456">FCarlaActor::Type</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00465">FCarlaActor::ActorData</a>, <a class="el" href="../../dc/dde/classFCarlaActor.html#a68463a6ebe4a8d0364996c5d84af4279a06b185256c71c1aec263c6e22bf8ef6b">FCarlaActor::Sensor</a>, and <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00463">FCarlaActor::Type</a>.</p>
 
 </div>
 </div>

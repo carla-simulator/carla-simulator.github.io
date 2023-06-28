@@ -128,6 +128,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1fb7b6479d6997a75efeede9ddb72ec9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html#a1fb7b6479d6997a75efeede9ddb72ec9">AddUV</a> (<a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html#af19d40dfd23df79bd7bc596ed959685d">uv_type</a> uv)</td></tr>
 <tr class="memdesc:a1fb7b6479d6997a75efeede9ddb72ec9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a vertex to the vertices list, they will be read 3 in 3.  <a href="#a1fb7b6479d6997a75efeede9ddb72ec9">More...</a><br /></td></tr>
 <tr class="separator:a1fb7b6479d6997a75efeede9ddb72ec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5860ad4aae3291192acaae868ce9768d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html#a5860ad4aae3291192acaae868ce9768d">AddUVs</a> (const std::vector&lt; <a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html#af19d40dfd23df79bd7bc596ed959685d">uv_type</a> &gt; &amp;uv)</td></tr>
+<tr class="memdesc:a5860ad4aae3291192acaae868ce9768d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends uvs.  <a href="#a5860ad4aae3291192acaae868ce9768d">More...</a><br /></td></tr>
+<tr class="separator:a5860ad4aae3291192acaae868ce9768d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10cbc49c3739b84c368b761ab29770f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html#a10cbc49c3739b84c368b761ab29770f0">AddVertex</a> (<a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html#ab9efe73f8aa2c990f94d612d94b3f429">vertex_type</a> vertex)</td></tr>
 <tr class="memdesc:a10cbc49c3739b84c368b761ab29770f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a vertex to the vertices list.  <a href="#a10cbc49c3739b84c368b761ab29770f0">More...</a><br /></td></tr>
 <tr class="separator:a10cbc49c3739b84c368b761ab29770f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -331,7 +334,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00057">57</a> of file <a class="el" href="../../d9/d31/Mesh_8h_source.html">Mesh.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, <a class="el" href="../../d5/d30/ProceduralCustomMesh_8h_source.html#l00024">FProceduralCustomMesh::Normals</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00382">carla::geom::operator+()</a>, <a class="el" href="../../d5/d30/ProceduralCustomMesh_8h_source.html#l00021">FProceduralCustomMesh::Triangles</a>, and <a class="el" href="../../d5/d30/ProceduralCustomMesh_8h_source.html#l00018">FProceduralCustomMesh::Vertices</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d40/TrafficLightBase_8cpp_source.html#l00017">IsValid()</a>, <a class="el" href="../../d5/d30/ProceduralCustomMesh_8h_source.html#l00024">FProceduralCustomMesh::Normals</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00385">carla::geom::operator+()</a>, <a class="el" href="../../d5/d30/ProceduralCustomMesh_8h_source.html#l00021">FProceduralCustomMesh::Triangles</a>, <a class="el" href="../../d5/d30/ProceduralCustomMesh_8h_source.html#l00027">FProceduralCustomMesh::UV0</a>, and <a class="el" href="../../d5/d30/ProceduralCustomMesh_8h_source.html#l00018">FProceduralCustomMesh::Vertices</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -364,9 +367,9 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00101">101</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00230">_indexes</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00239">_indexes</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00076">AddTriangleFan()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00047">AddTriangleStrip()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00830">carla::geom::MeshFactory::GenerateLaneMarksForCenterLine()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00693">carla::geom::MeshFactory::GenerateLaneMarksForNotCenterLine()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00238">carla::geom::MeshFactory::GenerateSidewalk()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00112">carla::geom::MeshFactory::GenerateTesselated()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01526">carla::road::Map::SDFToMesh()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00076">AddTriangleFan()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00047">AddTriangleStrip()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00879">carla::geom::MeshFactory::GenerateLaneMarksForCenterLine()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00742">carla::geom::MeshFactory::GenerateLaneMarksForNotCenterLine()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00246">carla::geom::MeshFactory::GenerateSidewalk()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00112">carla::geom::MeshFactory::GenerateTesselated()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01396">carla::road::Map::SDFToMesh()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -396,11 +399,11 @@ Friends</h2></td></tr>
 
 <p>Starts applying a new material to the new added triangles. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00109">109</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00113">113</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00230">_indexes</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00234">_materials</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00125">EndMaterial()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00239">_indexes</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00243">_materials</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00129">EndMaterial()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00062">carla::geom::MeshFactory::Generate()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00388">carla::geom::MeshFactory::GenerateLeftWall()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00337">carla::geom::MeshFactory::GenerateRightWall()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00238">carla::geom::MeshFactory::GenerateSidewalk()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00112">carla::geom::MeshFactory::GenerateTesselated()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01225">carla::road::Map::GetAllCrosswalkMesh()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00062">carla::geom::MeshFactory::Generate()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00431">carla::geom::MeshFactory::GenerateLeftWall()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00380">carla::geom::MeshFactory::GenerateRightWall()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00246">carla::geom::MeshFactory::GenerateSidewalk()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00112">carla::geom::MeshFactory::GenerateTesselated()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01239">carla::road::Map::GetAllCrosswalkMesh()</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -440,7 +443,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00097">97</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00228">_normals</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00237">_normals</a>.</p>
 
 </div>
 </div>
@@ -464,9 +467,9 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00076">76</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00101">AddIndex()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00093">AddVertices()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00259">GetVerticesNum()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00101">AddIndex()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00093">AddVertices()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00263">GetVerticesNum()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01225">carla::road::Map::GetAllCrosswalkMesh()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01239">carla::road::Map::GetAllCrosswalkMesh()</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
@@ -506,9 +509,9 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00101">AddIndex()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00093">AddVertices()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00259">GetVerticesNum()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00101">AddIndex()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00093">AddVertices()</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00263">GetVerticesNum()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00062">carla::geom::MeshFactory::Generate()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00388">carla::geom::MeshFactory::GenerateLeftWall()</a>, and <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00337">carla::geom::MeshFactory::GenerateRightWall()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00062">carla::geom::MeshFactory::Generate()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00431">carla::geom::MeshFactory::GenerateLeftWall()</a>, and <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00380">carla::geom::MeshFactory::GenerateRightWall()</a>.</p>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
@@ -548,7 +551,41 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00105">105</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00232">_uvs</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00241">_uvs</a>.</p>
+
+</div>
+</div>
+<a id="a5860ad4aae3291192acaae868ce9768d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5860ad4aae3291192acaae868ce9768d">&#9670;&nbsp;</a></span>AddUVs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void carla::geom::Mesh::AddUVs </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="../../d0/d02/classcarla_1_1geom_1_1Mesh.html#af19d40dfd23df79bd7bc596ed959685d">uv_type</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>uv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Appends uvs. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00109">109</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00241">_uvs</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00246">carla::geom::MeshFactory::GenerateSidewalk()</a>, and <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00112">carla::geom::MeshFactory::GenerateTesselated()</a>.</p>
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_a5860ad4aae3291192acaae868ce9768d_icgraph.svg" width="100%" height="459"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 
 </div>
 </div>
@@ -572,15 +609,15 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00089">89</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00226">_vertices</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00235">_vertices</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01466">carla::road::Map::DeformateRoadsMultithreaded()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00830">carla::geom::MeshFactory::GenerateLaneMarksForCenterLine()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00693">carla::geom::MeshFactory::GenerateLaneMarksForNotCenterLine()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01526">carla::road::Map::SDFToMesh()</a>.</p>
-<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00879">carla::geom::MeshFactory::GenerateLaneMarksForCenterLine()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00742">carla::geom::MeshFactory::GenerateLaneMarksForNotCenterLine()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01396">carla::road::Map::SDFToMesh()</a>.</p>
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_a10cbc49c3739b84c368b761ab29770f0_icgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_a10cbc49c3739b84c368b761ab29770f0_icgraph.svg" width="100%" height="427"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -606,14 +643,14 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00093">93</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00226">_vertices</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00235">_vertices</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00076">AddTriangleFan()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00047">AddTriangleStrip()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00238">carla::geom::MeshFactory::GenerateSidewalk()</a>, and <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00112">carla::geom::MeshFactory::GenerateTesselated()</a>.</p>
-<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00076">AddTriangleFan()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00047">AddTriangleStrip()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00246">carla::geom::MeshFactory::GenerateSidewalk()</a>, and <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00112">carla::geom::MeshFactory::GenerateTesselated()</a>.</p>
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_a17ebc0f75528a6ccf9d1c818b12415fa_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -648,14 +685,14 @@ Friends</h2></td></tr>
 
 <p>Merges two meshes into a single mesh. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00290">290</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00294">294</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00230">_indexes</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00234">_materials</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00228">_normals</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00232">_uvs</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00226">_vertices</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00267">GetIndexes()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00274">GetIndexesNum()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00282">GetMaterials()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00263">GetNormals()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00278">GetUVs()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00251">GetVertices()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00259">GetVerticesNum()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00020">IsValid()</a>.</p>
-<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00239">_indexes</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00243">_materials</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00237">_normals</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00241">_uvs</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00235">_vertices</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00271">GetIndexes()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00278">GetIndexesNum()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00286">GetMaterials()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00267">GetNormals()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00282">GetUVs()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00255">GetVertices()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00263">GetVerticesNum()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00020">IsValid()</a>.</p>
+<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_a233c4f4f48c88e6ac2afc79155dca87c_cgraph.svg" width="358" height="510"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -679,16 +716,16 @@ Friends</h2></td></tr>
 
 <p>Stops applying the material to the new added triangles. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00125">125</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00129">129</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00230">_indexes</a>, and <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00234">_materials</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00239">_indexes</a>, and <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00243">_materials</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00109">AddMaterial()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00062">carla::geom::MeshFactory::Generate()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00388">carla::geom::MeshFactory::GenerateLeftWall()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00337">carla::geom::MeshFactory::GenerateRightWall()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00238">carla::geom::MeshFactory::GenerateSidewalk()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00112">carla::geom::MeshFactory::GenerateTesselated()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01225">carla::road::Map::GetAllCrosswalkMesh()</a>.</p>
-<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00113">AddMaterial()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00062">carla::geom::MeshFactory::Generate()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00431">carla::geom::MeshFactory::GenerateLeftWall()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00380">carla::geom::MeshFactory::GenerateRightWall()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00246">carla::geom::MeshFactory::GenerateSidewalk()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00112">carla::geom::MeshFactory::GenerateTesselated()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01239">carla::road::Map::GetAllCrosswalkMesh()</a>.</p>
+<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_aa51f24b8ab582d1ad828c2561b9ca153_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -713,14 +750,14 @@ Friends</h2></td></tr>
 <p>Returns a string containing the mesh encoded in OBJ. </p>
 <p>Units are in meters. It is in Unreal space. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00142">142</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00146">146</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00230">_indexes</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00234">_materials</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00228">_normals</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00232">_uvs</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00226">_vertices</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00020">IsValid()</a>.</p>
-<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00239">_indexes</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00243">_materials</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00237">_normals</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00241">_uvs</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00235">_vertices</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00020">IsValid()</a>.</p>
+<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_a1e84afee1b87e881ced8e8e6b19a3749_cgraph.svg" width="358" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -745,14 +782,14 @@ Friends</h2></td></tr>
 <p>Returns a string containing the mesh encoded in OBJ. </p>
 <p>Units are in meters. This function exports the OBJ file specifically to be consumed by Recast library. Changes the build face direction and the coordinate space. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00198">198</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00202">202</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00230">_indexes</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00234">_materials</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00226">_vertices</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00020">IsValid()</a>.</p>
-<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00239">_indexes</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00243">_materials</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00235">_vertices</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00020">IsValid()</a>.</p>
+<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_a8949815059008e05cd22747265421b27_cgraph.svg" width="376" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -777,14 +814,14 @@ Friends</h2></td></tr>
 <p>Returns a string containing the mesh encoded in PLY. </p>
 <p>Units are in meters. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00242">242</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00246">246</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00020">IsValid()</a>.</p>
-<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_a3d337881b9d8e2e322eef9efe4580247_cgraph.svg" width="358" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -806,17 +843,17 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00267">267</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00271">271</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00230">_indexes</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00239">_indexes</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00290">ConcatMesh()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01466">carla::road::Map::DeformateRoadsMultithreaded()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00344">operator+=()</a>.</p>
-<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00294">ConcatMesh()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00347">operator+=()</a>.</p>
+<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_a3a7eab35db9a43b97e0e1ab09a864462_icgraph.svg" width="655" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_a3a7eab35db9a43b97e0e1ab09a864462_icgraph.svg" width="358" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -837,9 +874,9 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00271">271</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00275">275</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00230">_indexes</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00239">_indexes</a>.</p>
 
 </div>
 </div>
@@ -858,16 +895,16 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00274">274</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00278">278</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00230">_indexes</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00239">_indexes</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00290">ConcatMesh()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00344">operator+=()</a>.</p>
-<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00294">ConcatMesh()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00347">operator+=()</a>.</p>
+<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_ae888a6a9a3b1cc42bc0cc64c2b2b023f_icgraph.svg" width="358" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -891,9 +928,9 @@ Friends</h2></td></tr>
 
 <p>Returns the index of the last added vertex (number of vertices). </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00286">286</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00290">290</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00226">_vertices</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00235">_vertices</a>.</p>
 
 </div>
 </div>
@@ -912,16 +949,16 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00282">282</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00286">286</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00234">_materials</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00243">_materials</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00290">ConcatMesh()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00344">operator+=()</a>.</p>
-<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00294">ConcatMesh()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00347">operator+=()</a>.</p>
+<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_aacd991927797da7e759b68d503c145ef_icgraph.svg" width="358" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -943,16 +980,16 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00263">263</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00267">267</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00228">_normals</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00237">_normals</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00290">ConcatMesh()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00344">operator+=()</a>.</p>
-<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00294">ConcatMesh()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00347">operator+=()</a>.</p>
+<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_ab199ce86333f9f27cc4dbf631884f5b4_icgraph.svg" width="358" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -974,16 +1011,16 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00278">278</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00282">282</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00232">_uvs</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00241">_uvs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00290">ConcatMesh()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00344">operator+=()</a>.</p>
-<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00294">ConcatMesh()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00347">operator+=()</a>.</p>
+<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_a36e6aeba7505cf8b4e7ee4d0eedd0857_icgraph.svg" width="358" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1005,17 +1042,17 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00251">251</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00255">255</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00226">_vertices</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00235">_vertices</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00290">ConcatMesh()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01466">carla::road::Map::DeformateRoadsMultithreaded()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00830">carla::geom::MeshFactory::GenerateLaneMarksForCenterLine()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00693">carla::geom::MeshFactory::GenerateLaneMarksForNotCenterLine()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00344">operator+=()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01526">carla::road::Map::SDFToMesh()</a>.</p>
-<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00294">ConcatMesh()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00879">carla::geom::MeshFactory::GenerateLaneMarksForCenterLine()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00742">carla::geom::MeshFactory::GenerateLaneMarksForNotCenterLine()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00347">operator+=()</a>, and <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01396">carla::road::Map::SDFToMesh()</a>.</p>
+<div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_afc91cfec4029e092f008404f366aaa45_icgraph.svg" width="100%" height="574"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_afc91cfec4029e092f008404f366aaa45_icgraph.svg" width="100%" height="525"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -1036,9 +1073,9 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00255">255</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00259">259</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00226">_vertices</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00235">_vertices</a>.</p>
 
 </div>
 </div>
@@ -1057,16 +1094,16 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00259">259</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00263">263</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00226">_vertices</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00235">_vertices</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00076">AddTriangleFan()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00047">AddTriangleStrip()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00290">ConcatMesh()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00344">operator+=()</a>.</p>
-<div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00076">AddTriangleFan()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00047">AddTriangleStrip()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00294">ConcatMesh()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00347">operator+=()</a>.</p>
+<div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_a8a26943588ebd1b9bbce817b039b1410_icgraph.svg" width="100%" height="523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1092,15 +1129,15 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00020">20</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00230">_indexes</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00234">_materials</a>, and <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00226">_vertices</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00239">_indexes</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00243">_materials</a>, and <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00235">_vertices</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00290">ConcatMesh()</a>, <a class="el" href="../../d9/d5a/road_2Map_8cpp_source.html#l01466">carla::road::Map::DeformateRoadsMultithreaded()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00830">carla::geom::MeshFactory::GenerateLaneMarksForCenterLine()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00693">carla::geom::MeshFactory::GenerateLaneMarksForNotCenterLine()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00142">GenerateOBJ()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00198">GenerateOBJForRecast()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00242">GeneratePLY()</a>.</p>
-<div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00294">ConcatMesh()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00879">carla::geom::MeshFactory::GenerateLaneMarksForCenterLine()</a>, <a class="el" href="../../dd/d9c/MeshFactory_8cpp_source.html#l00742">carla::geom::MeshFactory::GenerateLaneMarksForNotCenterLine()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00146">GenerateOBJ()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00202">GenerateOBJForRecast()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00246">GeneratePLY()</a>.</p>
+<div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_a4aa083b7a417ca5e2fb8dc70796a19a5_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_a4aa083b7a417ca5e2fb8dc70796a19a5_icgraph.svg" width="100%" height="584"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -1124,14 +1161,14 @@ Friends</h2></td></tr>
 
 <p>Merges two meshes into a single mesh. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00344">344</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00347">347</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00230">_indexes</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00234">_materials</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00228">_normals</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00232">_uvs</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00226">_vertices</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00267">GetIndexes()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00274">GetIndexesNum()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00282">GetMaterials()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00263">GetNormals()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00278">GetUVs()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00251">GetVertices()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00259">GetVerticesNum()</a>.</p>
-<div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00239">_indexes</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00243">_materials</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00237">_normals</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00241">_uvs</a>, <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00235">_vertices</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00271">GetIndexes()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00278">GetIndexesNum()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00286">GetMaterials()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00267">GetNormals()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00282">GetUVs()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00255">GetVertices()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00263">GetVerticesNum()</a>.</p>
+<div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d02/classcarla_1_1geom_1_1Mesh_aab7276862b2080e538f87aa682229f16_cgraph.svg" width="358" height="444"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1173,7 +1210,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00382">382</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00385">385</a> of file <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html">Mesh.cpp</a>.</p>
 
 </div>
 </div>
@@ -1198,9 +1235,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00230">230</a> of file <a class="el" href="../../d9/d31/Mesh_8h_source.html">Mesh.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00239">239</a> of file <a class="el" href="../../d9/d31/Mesh_8h_source.html">Mesh.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00101">AddIndex()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00109">AddMaterial()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00290">ConcatMesh()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00125">EndMaterial()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00142">GenerateOBJ()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00198">GenerateOBJForRecast()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00267">GetIndexes()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00274">GetIndexesNum()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00020">IsValid()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00344">operator+=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00101">AddIndex()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00113">AddMaterial()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00294">ConcatMesh()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00129">EndMaterial()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00146">GenerateOBJ()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00202">GenerateOBJForRecast()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00271">GetIndexes()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00278">GetIndexesNum()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00020">IsValid()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00347">operator+=()</a>.</p>
 
 </div>
 </div>
@@ -1224,9 +1261,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00234">234</a> of file <a class="el" href="../../d9/d31/Mesh_8h_source.html">Mesh.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00243">243</a> of file <a class="el" href="../../d9/d31/Mesh_8h_source.html">Mesh.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00109">AddMaterial()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00290">ConcatMesh()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00125">EndMaterial()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00142">GenerateOBJ()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00198">GenerateOBJForRecast()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00282">GetMaterials()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00020">IsValid()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00344">operator+=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00113">AddMaterial()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00294">ConcatMesh()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00129">EndMaterial()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00146">GenerateOBJ()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00202">GenerateOBJForRecast()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00286">GetMaterials()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00020">IsValid()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00347">operator+=()</a>.</p>
 
 </div>
 </div>
@@ -1250,9 +1287,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00228">228</a> of file <a class="el" href="../../d9/d31/Mesh_8h_source.html">Mesh.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00237">237</a> of file <a class="el" href="../../d9/d31/Mesh_8h_source.html">Mesh.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00097">AddNormal()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00290">ConcatMesh()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00142">GenerateOBJ()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00263">GetNormals()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00344">operator+=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00097">AddNormal()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00294">ConcatMesh()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00146">GenerateOBJ()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00267">GetNormals()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00347">operator+=()</a>.</p>
 
 </div>
 </div>
@@ -1276,9 +1313,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00232">232</a> of file <a class="el" href="../../d9/d31/Mesh_8h_source.html">Mesh.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00241">241</a> of file <a class="el" href="../../d9/d31/Mesh_8h_source.html">Mesh.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00105">AddUV()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00290">ConcatMesh()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00142">GenerateOBJ()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00278">GetUVs()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00344">operator+=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00105">AddUV()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00109">AddUVs()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00294">ConcatMesh()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00146">GenerateOBJ()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00282">GetUVs()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00347">operator+=()</a>.</p>
 
 </div>
 </div>
@@ -1302,9 +1339,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00226">226</a> of file <a class="el" href="../../d9/d31/Mesh_8h_source.html">Mesh.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d31/Mesh_8h_source.html#l00235">235</a> of file <a class="el" href="../../d9/d31/Mesh_8h_source.html">Mesh.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00089">AddVertex()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00093">AddVertices()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00290">ConcatMesh()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00142">GenerateOBJ()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00198">GenerateOBJForRecast()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00286">GetLastVertexIndex()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00251">GetVertices()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00259">GetVerticesNum()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00020">IsValid()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00344">operator+=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00089">AddVertex()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00093">AddVertices()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00294">ConcatMesh()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00146">GenerateOBJ()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00202">GenerateOBJForRecast()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00290">GetLastVertexIndex()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00255">GetVertices()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00263">GetVerticesNum()</a>, <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00020">IsValid()</a>, and <a class="el" href="../../d2/dcc/Mesh_8cpp_source.html#l00347">operator+=()</a>.</p>
 
 </div>
 </div>

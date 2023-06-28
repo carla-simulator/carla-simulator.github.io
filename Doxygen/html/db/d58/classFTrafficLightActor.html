@@ -234,6 +234,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1e3222f3c4b9e4f2036bbffe550a1f8f inherit pub_methods_classFCarlaActor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e4569904ca2768a52f295c4bff629da inherit pub_methods_classFCarlaActor"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9d">ECarlaServerResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dde/classFCarlaActor.html#a3e4569904ca2768a52f295c4bff629da">SetActorAutopilot</a> (bool, bool bKeepState=false)</td></tr>
 <tr class="separator:a3e4569904ca2768a52f295c4bff629da inherit pub_methods_classFCarlaActor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a592fd4c9a975b98a1f3290f207e67514 inherit pub_methods_classFCarlaActor"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9d">ECarlaServerResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dde/classFCarlaActor.html#a592fd4c9a975b98a1f3290f207e67514">SetActorCollisions</a> (bool bEnabled)</td></tr>
+<tr class="separator:a592fd4c9a975b98a1f3290f207e67514 inherit pub_methods_classFCarlaActor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ee316c23457fd43926197fc4bd3866d inherit pub_methods_classFCarlaActor"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9d">ECarlaServerResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dde/classFCarlaActor.html#a4ee316c23457fd43926197fc4bd3866d">SetActorDead</a> ()</td></tr>
+<tr class="separator:a4ee316c23457fd43926197fc4bd3866d inherit pub_methods_classFCarlaActor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a212186a1624e04d978a8186f81902ec8 inherit pub_methods_classFCarlaActor"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9d">ECarlaServerResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dde/classFCarlaActor.html#a212186a1624e04d978a8186f81902ec8">SetActorEnableGravity</a> (bool bEnabled)</td></tr>
 <tr class="separator:a212186a1624e04d978a8186f81902ec8 inherit pub_methods_classFCarlaActor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90dbf3af126409f9dee3bfca219f4c1d inherit pub_methods_classFCarlaActor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dde/classFCarlaActor.html#a90dbf3af126409f9dee3bfca219f4c1d">SetActorGlobalLocation</a> (const FVector &amp;Location, ETeleportType Teleport=ETeleportType::TeleportPhysics)</td></tr>
@@ -303,7 +307,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00553">553</a> of file <a class="el" href="../../de/d36/CarlaActor_8h_source.html">CarlaActor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00560">560</a> of file <a class="el" href="../../de/d36/CarlaActor_8h_source.html">CarlaActor.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4ffa230f6544e98f7debc015e5114847"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ffa230f6544e98f7debc015e5114847">&#9670;&nbsp;</a></span>FTrafficLightActor()</h2>
@@ -349,9 +353,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l00086">86</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l00087">87</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00458">FCarlaActor::ActorData</a>, <a class="el" href="../../dc/dde/classFCarlaActor.html#a68463a6ebe4a8d0364996c5d84af4279a63d457eeae119cb7c5618ff7b770a9c3">FCarlaActor::TrafficLight</a>, and <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00456">FCarlaActor::Type</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00465">FCarlaActor::ActorData</a>, <a class="el" href="../../dc/dde/classFCarlaActor.html#a68463a6ebe4a8d0364996c5d84af4279a63d457eeae119cb7c5618ff7b770a9c3">FCarlaActor::TrafficLight</a>, and <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00463">FCarlaActor::Type</a>.</p>
 
 </div>
 </div>
@@ -382,7 +386,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../dc/dde/classFCarlaActor.html#a8a81dbb4f9929b66084d1491d89aeebc">FCarlaActor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l01160">1160</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l01173">1173</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00070">FCarlaActor::IsDormant()</a>, <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9dae4bd55506e9b0cc88a9bceace1f9dc18">NotATrafficLight</a>, <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da505a83f220c02df2f85c3810cd9ceb38">Success</a>, and <a class="el" href="../../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h_source.html#l00024">TrafficLight</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -421,9 +425,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../dc/dde/classFCarlaActor.html#a3dc5438143f090cdbafbdeec4370513b">FCarlaActor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l01088">1088</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l01101">1101</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00458">FCarlaActor::ActorData</a>, <a class="el" href="../../de/d7d/ActorData_8h_source.html#l00113">FTrafficLightData::Controller</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00070">FCarlaActor::IsDormant()</a>, and <a class="el" href="../../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h_source.html#l00024">TrafficLight</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00465">FCarlaActor::ActorData</a>, <a class="el" href="../../de/d7d/ActorData_8h_source.html#l00113">FTrafficLightData::Controller</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00070">FCarlaActor::IsDormant()</a>, and <a class="el" href="../../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h_source.html#l00024">TrafficLight</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -460,9 +464,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../dc/dde/classFCarlaActor.html#aac4f3790efd7d33850ecfbcb8cbc0baf">FCarlaActor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l01070">1070</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l01083">1083</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00458">FCarlaActor::ActorData</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00070">FCarlaActor::IsDormant()</a>, <a class="el" href="../../de/d7d/ActorData_8h_source.html#l00115">FTrafficLightData::LightState</a>, and <a class="el" href="../../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h_source.html#l00024">TrafficLight</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00465">FCarlaActor::ActorData</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00070">FCarlaActor::IsDormant()</a>, <a class="el" href="../../de/d7d/ActorData_8h_source.html#l00115">FTrafficLightData::LightState</a>, and <a class="el" href="../../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h_source.html#l00024">TrafficLight</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
@@ -499,7 +503,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../dc/dde/classFCarlaActor.html#a29a4ce3bf27e296995a137de347d209c">FCarlaActor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l01178">1178</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l01191">1191</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00070">FCarlaActor::IsDormant()</a>, <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9dae4bd55506e9b0cc88a9bceace1f9dc18">NotATrafficLight</a>, <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da505a83f220c02df2f85c3810cd9ceb38">Success</a>, and <a class="el" href="../../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h_source.html#l00024">TrafficLight</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -539,7 +543,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../dc/dde/classFCarlaActor.html#aa3ee1366886a847546c4d728be16b841">FCarlaActor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l01106">1106</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l01119">1119</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00070">FCarlaActor::IsDormant()</a>, <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9dae4bd55506e9b0cc88a9bceace1f9dc18">NotATrafficLight</a>, <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da505a83f220c02df2f85c3810cd9ceb38">Success</a>, and <a class="el" href="../../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h_source.html#l00024">TrafficLight</a>.</p>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -579,7 +583,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../dc/dde/classFCarlaActor.html#a27828d626e7f03dbbc291068e5f2172f">FCarlaActor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l01142">1142</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l01155">1155</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00070">FCarlaActor::IsDormant()</a>, <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9dae4bd55506e9b0cc88a9bceace1f9dc18">NotATrafficLight</a>, <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da505a83f220c02df2f85c3810cd9ceb38">Success</a>, and <a class="el" href="../../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h_source.html#l00024">TrafficLight</a>.</p>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -619,7 +623,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../dc/dde/classFCarlaActor.html#a3c4310af49bdc7997110a1e2b44c1e6f">FCarlaActor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l01124">1124</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l01137">1137</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00070">FCarlaActor::IsDormant()</a>, <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9dae4bd55506e9b0cc88a9bceace1f9dc18">NotATrafficLight</a>, <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da505a83f220c02df2f85c3810cd9ceb38">Success</a>, and <a class="el" href="../../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h_source.html#l00024">TrafficLight</a>.</p>
 <div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -659,9 +663,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../dc/dde/classFCarlaActor.html#af5d4499d84149cbe9fcaad1d2fea2613">FCarlaActor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l01051">1051</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html#l01064">1064</a> of file <a class="el" href="../../d3/d43/CarlaActor_8cpp_source.html">CarlaActor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00458">FCarlaActor::ActorData</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00070">FCarlaActor::IsDormant()</a>, <a class="el" href="../../de/d7d/ActorData_8h_source.html#l00115">FTrafficLightData::LightState</a>, <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9dae4bd55506e9b0cc88a9bceace1f9dc18">NotATrafficLight</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00448">FCarlaActor::State</a>, <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da505a83f220c02df2f85c3810cd9ceb38">Success</a>, and <a class="el" href="../../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h_source.html#l00024">TrafficLight</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00465">FCarlaActor::ActorData</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00070">FCarlaActor::IsDormant()</a>, <a class="el" href="../../de/d7d/ActorData_8h_source.html#l00115">FTrafficLightData::LightState</a>, <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9dae4bd55506e9b0cc88a9bceace1f9dc18">NotATrafficLight</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00455">FCarlaActor::State</a>, <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da505a83f220c02df2f85c3810cd9ceb38">Success</a>, and <a class="el" href="../../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h_source.html#l00024">TrafficLight</a>.</p>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
