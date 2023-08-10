@@ -2,7 +2,7 @@
 layout: post
 comments: true
 summary: "CARLA Autonomous Driving Challenge 2023 announcements!"
-title:  "CARLA Autonomous Driving Challenge 2023 online event and announcements"
+title:  "CARLA Autonomous Driving Challenge 2023, online event and announcements"
 subtitle: "The CARLA AD Challenge 2023 is now open and brings new tools to the Leaderboard ecosystem"
 description: "The CARLA AD Challenge 2023 is now open and brings new tools to the Leaderboard ecosystem"
 author: "@MattRoweEAIF"
