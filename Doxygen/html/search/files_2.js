@@ -138,8 +138,6 @@ var searchData=
   ['controllerparser_2eh',['ControllerParser.h',['../d7/dfc/ControllerParser_8h.html',1,'']]],
   ['cube_2eh',['Cube.h',['../df/d81/Cube_8h.html',1,'']]],
   ['cubicpolynomial_2eh',['CubicPolynomial.h',['../db/dee/CubicPolynomial_8h.html',1,'']]],
-  ['customfiledownloader_2ecpp',['CustomFileDownloader.cpp',['../dc/d0c/CustomFileDownloader_8cpp.html',1,'']]],
-  ['customfiledownloader_2eh',['CustomFileDownloader.h',['../d8/df1/CustomFileDownloader_8h.html',1,'']]],
   ['customterrainphysicscomponent_2ecpp',['CustomTerrainPhysicsComponent.cpp',['../d1/d59/CustomTerrainPhysicsComponent_8cpp.html',1,'']]],
   ['customterrainphysicscomponent_2eh',['CustomTerrainPhysicsComponent.h',['../d1/d4f/CustomTerrainPhysicsComponent_8h.html',1,'']]],
   ['junction_2eh',['Junction.h',['../dd/d55/client_2Junction_8h.html',1,'']]],
