@@ -32,6 +32,7 @@ var searchData=
   ['actorfactory',['ActorFactory',['../d8/d4b/classcarla_1_1client_1_1detail_1_1ActorFactory.html',1,'carla::client::detail']]],
   ['actorinitializer',['ActorInitializer',['../d9/dea/classcarla_1_1client_1_1ActorInitializer.html',1,'carla::client']]],
   ['actorlist',['ActorList',['../da/d51/classcarla_1_1client_1_1ActorList.html',1,'carla::client']]],
+  ['actorros2handler',['ActorROS2Handler',['../db/d0a/classActorROS2Handler.html',1,'']]],
   ['actorsnapshot',['ActorSnapshot',['../d5/d67/structcarla_1_1client_1_1ActorSnapshot.html',1,'carla::client']]],
   ['actorstate',['ActorState',['../d2/d06/classcarla_1_1client_1_1detail_1_1ActorState.html',1,'carla::client::detail']]],
   ['actorvariant',['ActorVariant',['../d4/dad/classcarla_1_1client_1_1detail_1_1ActorVariant.html',1,'carla::client::detail']]],

@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['cameragbufferfloat',['CameraGBufferFloat',['../d1/d4b/namespacecarla_1_1ros2.html#aadec52f2a609176e3429b83f492bdebda80f0e0365017f47df99fad312a3ecd6c',1,'carla::ros2']]],
+  ['cameragbufferuint8',['CameraGBufferUint8',['../d1/d4b/namespacecarla_1_1ros2.html#aadec52f2a609176e3429b83f492bdebda41ef39ad66a07293218c808f9b031bdf',1,'carla::ros2']]],
   ['canalloc',['CanAlloc',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#ad59a292a76c2276b4d1c2b1bcd5904a9acda4d931ae1de06621b36aa194699f02',1,'moodycamel::ConcurrentQueue']]],
   ['cannotalloc',['CannotAlloc',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#ad59a292a76c2276b4d1c2b1bcd5904a9a29feb32c1113d549e7bce98c9dd5e208',1,'moodycamel::ConcurrentQueue']]],
   ['car',['Car',['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0ae9989db5dabeea617f40c8dbfd07f5fb',1,'carla::rpc']]],
@@ -21,6 +23,7 @@ var searchData=
   ['channelcount',['ChannelCount',['../d9/d27/classcarla_1_1sensor_1_1data_1_1SemanticLidarData.html#a0d0554efb807f37afef58001b1d575dba14ecc4a048ab2c5103d743f84e02de5b',1,'carla::sensor::data::SemanticLidarData']]],
   ['character',['Character',['../d0/d01/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Util_2EnvironmentObject_8h.html#a81be2176b5cc416c3b47dda8af29a6a8a0b8efba6b691115f12604f2afe5cdcb5',1,'EnvironmentObject.h']]],
   ['collision',['Collision',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a15fb6ccbd11ebebcea2b48dc477f3561',1,'CarlaRecorder.h']]],
+  ['collisionsensor',['CollisionSensor',['../d1/d4b/namespacecarla_1_1ros2.html#aadec52f2a609176e3429b83f492bdebdabad319a9cde21c466982187c05125d6a',1,'carla::ros2']]],
   ['color',['COLOR',['../d7/d5b/namespaceSimplify.html#ad9a354c5b39caa435df8177d79026d0cabc28cefd52e625d7c0630c817949b299',1,'Simplify']]],
   ['continue',['Continue',['../db/dcc/namespacecarla_1_1nav.html#aaeb50f35d060ef52e7e3973ffad0fa5daa0bfb8e59e6c13fc8d990781f77694fe',1,'carla::nav']]],
   ['ct_5fparse_5fattr',['ct_parse_attr',['../db/d20/pugixml_8cpp.html#ae83a55e5947d28c62625b690b1484108a884462ea84ab1e7745a2bf69fc2edf75',1,'pugixml.cpp']]],

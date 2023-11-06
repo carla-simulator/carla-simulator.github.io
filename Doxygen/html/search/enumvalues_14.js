@@ -10,5 +10,6 @@ var searchData=
   ['walkerincompatiblecontroller',['WalkerIncompatibleController',['../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da36c7119294334477a21948a963912fd7',1,'CarlaServerResponse.h']]],
   ['walls',['Walls',['../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42ba1f5c5ce5cdbea723378e6db882a732ec',1,'carla::rpc::Walls()'],['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a1f5c5ce5cdbea723378e6db882a732ec',1,'carla::rpc::Walls()']]],
   ['water',['Water',['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a27634ff8002b12e75d98e07ccd005d18',1,'carla::rpc']]],
-  ['white',['White',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#adcc9f0cd0b5b4be0cc07be4bf5df30aca25a81701fbfa4a1efdf660a950c1d006',1,'carla::road::element::LaneMarking']]]
+  ['white',['White',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#adcc9f0cd0b5b4be0cc07be4bf5df30aca25a81701fbfa4a1efdf660a950c1d006',1,'carla::road::element::LaneMarking']]],
+  ['worldobserver',['WorldObserver',['../d1/d4b/namespacecarla_1_1ros2.html#aadec52f2a609176e3429b83f492bdebda9983ac34fba02581197d32a13b6b120b',1,'carla::ros2']]]
 ];

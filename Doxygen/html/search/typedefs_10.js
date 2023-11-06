@@ -9,6 +9,7 @@ var searchData=
   ['reverse_5fiterator',['reverse_iterator',['../d2/dcc/classcarla_1_1sensor_1_1data_1_1Array.html#a5d5d392a8b42d6db94c916149d90c04d',1,'carla::sensor::data::Array']]],
   ['roadid',['RoadId',['../db/dd5/namespacecarla_1_1opendrive_1_1parser.html#a7e4dd291a47b9fd3093b029dcf4c4ddb',1,'carla::opendrive::parser::RoadId()'],['../de/d26/namespacecarla_1_1road.html#a9fa6f293e66647bffc1d64d59084eed7',1,'carla::road::RoadId()']]],
   ['roadsegmentlist',['RoadSegmentList',['../d0/d95/classMapGen_1_1GraphParser.html#aa7a0b090456234e2a4271c568fe08912',1,'MapGen::GraphParser']]],
+  ['ros2callbackdata',['ROS2CallbackData',['../d1/d4b/namespacecarla_1_1ros2.html#aa5edc5266e352969e17929fe079f3e9a',1,'carla::ros2']]],
   ['rotation',['Rotation',['../de/d6c/namespacecarla_1_1rpc.html#ac29515d4a0553d0467c01974de63bbe3',1,'carla::rpc']]],
   ['route',['Route',['../d0/db7/namespacecarla_1_1traffic__manager.html#a58761158ed79d767d06d0d36bf373bd1',1,'carla::traffic_manager']]],
   ['rtree',['Rtree',['../da/dee/classcarla_1_1road_1_1element_1_1GeometryPoly3.html#a310419f2bed07c211eb9598e9c3489f1',1,'carla::road::element::GeometryPoly3::Rtree()'],['../da/dfa/classcarla_1_1road_1_1element_1_1GeometryParamPoly3.html#ab604d1e542bb5dcdeea250e7d5d2c180',1,'carla::road::element::GeometryParamPoly3::Rtree()'],['../d0/d34/classcarla_1_1road_1_1Map.html#a74c287dd6450b09d5b6b5423591838ee',1,'carla::road::Map::Rtree()'],['../d0/db7/namespacecarla_1_1traffic__manager.html#a8ac394a02ba149e5aa70c5fea9e2a4d2',1,'carla::traffic_manager::Rtree()']]]
