@@ -7,6 +7,8 @@ var searchData=
   ['tf2error_5fdllapi',['TF2Error_DllAPI',['../d0/dc6/TF2Error_8h.html#ab0724557e8543b41c7c8072690e1a1d7',1,'TF2Error.h']]],
   ['tfmessage_5fdllapi',['TFMessage_DllAPI',['../d4/d74/TFMessage_8h.html#af6d866c0b1d74dfce20a4d3e70da6abd',1,'TFMessage.h']]],
   ['time_5fdllapi',['Time_DllAPI',['../d9/d3d/ros2_2types_2Time_8h.html#a75c26516bc7fe47a476312506a8f2c3a',1,'Time.h']]],
+  ['time_5fmax_5fcdr_5ftypesize',['Time_max_cdr_typesize',['../d0/d6a/Clock_8cpp.html#a2da12b7d9c5a099cc8660e3e81b3b154',1,'Clock.cpp']]],
+  ['time_5fmax_5fkey_5fcdr_5ftypesize',['Time_max_key_cdr_typesize',['../d0/d6a/Clock_8cpp.html#a64f887f0d3acd2b2d72715ddaf4d854e',1,'Clock.cpp']]],
   ['transform_5fdllapi',['Transform_DllAPI',['../df/d02/ros2_2types_2Transform_8h.html#a668ddb660cb0084d8759589768e4199e',1,'Transform.h']]],
   ['transformstamped_5fdllapi',['TransformStamped_DllAPI',['../da/dfe/TransformStamped_8h.html#ac86a20df5b8bcd1ff910129afec07c96',1,'TransformStamped.h']]],
   ['twist_5fdllapi',['Twist_DllAPI',['../d0/d95/Twist_8h.html#a57b2566f6b65ab0e42822f249df2521a',1,'Twist.h']]],

@@ -12,7 +12,7 @@ var searchData=
   ['vehicle',['Vehicle',['../d9/dc6/classcarla_1_1client_1_1Vehicle.html',1,'carla::client']]],
   ['vehicleackermanncontrol',['VehicleAckermannControl',['../d1/d73/classcarla_1_1rpc_1_1VehicleAckermannControl.html',1,'carla::rpc']]],
   ['vehiclecollisioninfo',['VehicleCollisionInfo',['../d4/d66/structcarla_1_1nav_1_1VehicleCollisionInfo.html',1,'carla::nav']]],
-  ['vehiclecontrol',['VehicleControl',['../d3/d9c/classcarla_1_1rpc_1_1VehicleControl.html',1,'carla::rpc::VehicleControl'],['../de/d61/structcarla_1_1ros2_1_1VehicleControl.html',1,'carla::ros2::VehicleControl']]],
+  ['vehiclecontrol',['VehicleControl',['../de/d61/structcarla_1_1ros2_1_1VehicleControl.html',1,'carla::ros2::VehicleControl'],['../d3/d9c/classcarla_1_1rpc_1_1VehicleControl.html',1,'carla::rpc::VehicleControl']]],
   ['vehicledata',['VehicleData',['../da/dc7/structcarla_1_1sensor_1_1data_1_1detail_1_1VehicleData.html',1,'carla::sensor::data::detail']]],
   ['vehiclelightstage',['VehicleLightStage',['../dd/de2/classcarla_1_1traffic__manager_1_1VehicleLightStage.html',1,'carla::traffic_manager']]],
   ['vehiclelightstate',['VehicleLightState',['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html',1,'carla::rpc']]],

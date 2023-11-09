@@ -14,7 +14,7 @@ var searchData=
   ['walkermanager',['WalkerManager',['../dd/d5b/classcarla_1_1nav_1_1WalkerManager.html',1,'carla::nav']]],
   ['walkernavigation',['WalkerNavigation',['../d1/d83/classcarla_1_1client_1_1detail_1_1WalkerNavigation.html',1,'carla::client::detail']]],
   ['walkerroutepoint',['WalkerRoutePoint',['../d3/d94/structcarla_1_1nav_1_1WalkerRoutePoint.html',1,'carla::nav']]],
-  ['waypoint',['Waypoint',['../d8/de8/structcarla_1_1road_1_1element_1_1Waypoint.html',1,'carla::road::element::Waypoint'],['../dd/dff/classcarla_1_1client_1_1Waypoint.html',1,'carla::client::Waypoint']]],
+  ['waypoint',['Waypoint',['../dd/dff/classcarla_1_1client_1_1Waypoint.html',1,'carla::client::Waypoint'],['../d8/de8/structcarla_1_1road_1_1element_1_1Waypoint.html',1,'carla::road::element::Waypoint']]],
   ['wchar_5fdecoder',['wchar_decoder',['../d4/d9e/structwchar__decoder.html',1,'']]],
   ['wchar_5fselector',['wchar_selector',['../d2/d68/structwchar__selector.html',1,'']]],
   ['wchar_5fselector_3c_202_20_3e',['wchar_selector&lt; 2 &gt;',['../dc/d20/structwchar__selector_3_012_01_4.html',1,'']]],
