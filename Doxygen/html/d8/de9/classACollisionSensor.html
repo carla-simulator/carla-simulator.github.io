@@ -71,6 +71,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d6/d38/classACollisionSensor-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ACollisionSensor Class Reference</div>  </div>
@@ -109,6 +110,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae942ab9b7fc691c3c46c3deb87aeaad5 inherit pub_methods_classASensor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae63f0e969a04a2c3e9b4c1e7c9d04415 inherit pub_methods_classASensor"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#ae63f0e969a04a2c3e9b4c1e7c9d04415">BeginPlay</a> ()</td></tr>
 <tr class="separator:ae63f0e969a04a2c3e9b4c1e7c9d04415 inherit pub_methods_classASensor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a5ffb398a9916d3cedd1f1e3f0e1ed4 inherit pub_methods_classASensor"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="../../dd/d1d/structFActorAttribute.html">FActorAttribute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a3a5ffb398a9916d3cedd1f1e3f0e1ed4">GetAttribute</a> (const FString Name)</td></tr>
+<tr class="separator:a3a5ffb398a9916d3cedd1f1e3f0e1ed4 inherit pub_methods_classASensor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20ab55bcdde93c4e8683678934d86a66 inherit pub_methods_classASensor"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dc/d84/classUCarlaEpisode.html">UCarlaEpisode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a20ab55bcdde93c4e8683678934d86a66">GetEpisode</a> () const</td></tr>
 <tr class="separator:a20ab55bcdde93c4e8683678934d86a66 inherit pub_methods_classASensor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28605e6c6449122211471a5eb639fc82 inherit pub_methods_classASensor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d4b/classURandomEngine.html">URandomEngine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a28605e6c6449122211471a5eb639fc82">GetRandomEngine</a> ()</td></tr>
@@ -118,6 +121,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a66fce49debf0145d15f810fd78775e9d inherit pub_methods_classASensor"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a66fce49debf0145d15f810fd78775e9d">GetToken</a> () const</td></tr>
 <tr class="memdesc:a66fce49debf0145d15f810fd78775e9d inherit pub_methods_classASensor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the token that allows subscribing to this sensor's stream.  <a href="../../d3/d01/classASensor.html#a66fce49debf0145d15f810fd78775e9d">More...</a><br /></td></tr>
 <tr class="separator:a66fce49debf0145d15f810fd78775e9d inherit pub_methods_classASensor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13a798c094b844a8d208a6c16dd5c47b inherit pub_methods_classASensor"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a13a798c094b844a8d208a6c16dd5c47b">IsStreamReady</a> ()</td></tr>
+<tr class="separator:a13a798c094b844a8d208a6c16dd5c47b inherit pub_methods_classASensor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e9466335d5838dc21e90ecd99c9d873 inherit pub_methods_classASensor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dd9/DataStream_8h.html#aa80bad1d32fa7a360e7e9664f07cb551">FDataStream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a7e9466335d5838dc21e90ecd99c9d873">MoveDataStream</a> ()</td></tr>
 <tr class="separator:a7e9466335d5838dc21e90ecd99c9d873 inherit pub_methods_classASensor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2395225b2012e8571a3d59e4704a280b inherit pub_methods_classASensor"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a2395225b2012e8571a3d59e4704a280b">OnFirstClientConnected</a> ()</td></tr>
@@ -151,6 +156,12 @@ Static Public Member Functions</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:ab4fa46f2abc1fbc290f967bb18e7e13e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de9/classACollisionSensor.html#ab4fa46f2abc1fbc290f967bb18e7e13e">OnCollisionEvent</a> (<a class="el" href="../../d1/da4/classAActor.html">AActor</a> *Actor, <a class="el" href="../../d1/da4/classAActor.html">AActor</a> *OtherActor, FVector NormalImpulse, const FHitResult &amp;Hit)</td></tr>
 <tr class="separator:ab4fa46f2abc1fbc290f967bb18e7e13e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a46135057bb8344d34b83c9d508689d31"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::tuple&lt; uint64_t, <a class="el" href="../../d1/da4/classAActor.html">AActor</a> *, <a class="el" href="../../d1/da4/classAActor.html">AActor</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de9/classACollisionSensor.html#a46135057bb8344d34b83c9d508689d31">CollisionRegistry</a></td></tr>
+<tr class="memdesc:a46135057bb8344d34b83c9d508689d31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registry that saves all collisions.  <a href="#a46135057bb8344d34b83c9d508689d31">More...</a><br /></td></tr>
+<tr class="separator:a46135057bb8344d34b83c9d508689d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -194,7 +205,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00016">16</a> of file <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html">CollisionSensor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00017">17</a> of file <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html">CollisionSensor.cpp</a>.</p>
 
 </div>
 </div>
@@ -222,9 +233,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00022">22</a> of file <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html">CollisionSensor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html">CollisionSensor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l00276">UActorBlueprintFunctionLibrary::MakeGenericSensorDefinition()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l00285">UActorBlueprintFunctionLibrary::MakeGenericSensorDefinition()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -282,11 +293,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00041">41</a> of file <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html">CollisionSensor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html">CollisionSensor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00552">ACarlaRecorder::AddCollision()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00125">ASensor::Episode</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00103">ASensor::GetDataStream()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00086">ASensor::GetEpisode()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00304">UCarlaEpisode::GetRecorder()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h_source.html#l00086">ACarlaRecorder::IsEnabled()</a>, <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00105">FAsyncDataStreamTmpl&lt; T &gt;::Send()</a>, and <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00248">UCarlaEpisode::SerializeActor()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d49/CarlaRecorder_8cpp_source.html#l00562">ACarlaRecorder::AddCollision()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a15fb6ccbd11ebebcea2b48dc477f3561">Collision</a>, <a class="el" href="../../d3/dd6/CollisionSensor_8h_source.html#l00042">CollisionRegistry</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00134">ASensor::Episode</a>, <a class="el" href="../../d9/d9d/detail_2Token_8h_source.html#l00116">carla::streaming::detail::token_type::get_stream_id()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00110">ASensor::GetDataStream()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00093">ASensor::GetEpisode()</a>, <a class="el" href="../../d0/d11/CarlaEngine_8h_source.html#l00065">FCarlaEngine::GetFrameCounter()</a>, <a class="el" href="../../da/db8/ROS2_8h_source.html#l00051">carla::ros2::ROS2::GetInstance()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00305">UCarlaEpisode::GetRecorder()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00056">ASensor::GetToken()</a>, <a class="el" href="../../d9/d6a/CarlaRecorder_8h_source.html#l00086">ACarlaRecorder::IsEnabled()</a>, <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00248">UCarlaEpisode::SerializeActor()</a>, and <a class="el" href="../../d9/d4d/AsyncDataStream_8h_source.html#l00145">FAsyncDataStreamTmpl&lt; T &gt;::SerializeAndSend()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00029">SetOwner()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00030">SetOwner()</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -331,9 +342,9 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000018">Todo:</a></b></dt><dd>Deregister previous owner if there was one. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html">CollisionSensor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html">CollisionSensor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00041">OnCollisionEvent()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00042">OnCollisionEvent()</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
@@ -342,6 +353,36 @@ Additional Inherited Members</h2></td></tr>
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/de9/classACollisionSensor_a182d28935eb0b680bf28bf2a85e21355_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a46135057bb8344d34b83c9d508689d31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46135057bb8344d34b83c9d508689d31">&#9670;&nbsp;</a></span>CollisionRegistry</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::tuple&lt;uint64_t, <a class="el" href="../../d1/da4/classAActor.html">AActor</a>*, <a class="el" href="../../d1/da4/classAActor.html">AActor</a>*&gt; &gt; ACollisionSensor::CollisionRegistry</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Registry that saves all collisions. </p>
+<p>Used to avoid sending the same collision more than once per frame, as the collision sensor uses the PhysX substepping tick. Helps with sensor usage and stream overload. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/dd6/CollisionSensor_8h_source.html#l00042">42</a> of file <a class="el" href="../../d3/dd6/CollisionSensor_8h_source.html">CollisionSensor.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00042">OnCollisionEvent()</a>.</p>
 
 </div>
 </div>

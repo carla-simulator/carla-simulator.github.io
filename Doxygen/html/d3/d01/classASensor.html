@@ -105,6 +105,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae942ab9b7fc691c3c46c3deb87aeaad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae63f0e969a04a2c3e9b4c1e7c9d04415"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#ae63f0e969a04a2c3e9b4c1e7c9d04415">BeginPlay</a> ()</td></tr>
 <tr class="separator:ae63f0e969a04a2c3e9b4c1e7c9d04415"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a5ffb398a9916d3cedd1f1e3f0e1ed4"><td class="memItemLeft" align="right" valign="top">boost::optional&lt; <a class="el" href="../../dd/d1d/structFActorAttribute.html">FActorAttribute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a3a5ffb398a9916d3cedd1f1e3f0e1ed4">GetAttribute</a> (const FString Name)</td></tr>
+<tr class="separator:a3a5ffb398a9916d3cedd1f1e3f0e1ed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20ab55bcdde93c4e8683678934d86a66"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../dc/d84/classUCarlaEpisode.html">UCarlaEpisode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a20ab55bcdde93c4e8683678934d86a66">GetEpisode</a> () const</td></tr>
 <tr class="separator:a20ab55bcdde93c4e8683678934d86a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28605e6c6449122211471a5eb639fc82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d4b/classURandomEngine.html">URandomEngine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a28605e6c6449122211471a5eb639fc82">GetRandomEngine</a> ()</td></tr>
@@ -114,6 +116,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a66fce49debf0145d15f810fd78775e9d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a66fce49debf0145d15f810fd78775e9d">GetToken</a> () const</td></tr>
 <tr class="memdesc:a66fce49debf0145d15f810fd78775e9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the token that allows subscribing to this sensor's stream.  <a href="#a66fce49debf0145d15f810fd78775e9d">More...</a><br /></td></tr>
 <tr class="separator:a66fce49debf0145d15f810fd78775e9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13a798c094b844a8d208a6c16dd5c47b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a13a798c094b844a8d208a6c16dd5c47b">IsStreamReady</a> ()</td></tr>
+<tr class="separator:a13a798c094b844a8d208a6c16dd5c47b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e9466335d5838dc21e90ecd99c9d873"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dd9/DataStream_8h.html#aa80bad1d32fa7a360e7e9664f07cb551">FDataStream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a7e9466335d5838dc21e90ecd99c9d873">MoveDataStream</a> ()</td></tr>
 <tr class="separator:a7e9466335d5838dc21e90ecd99c9d873"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2395225b2012e8571a3d59e4704a280b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a2395225b2012e8571a3d59e4704a280b">OnFirstClientConnected</a> ()</td></tr>
@@ -171,6 +175,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a402dd1b59d57463eee355b436fc876e2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a402dd1b59d57463eee355b436fc876e2">ReadyToTick</a> = false</td></tr>
 <tr class="memdesc:a402dd1b59d57463eee355b436fc876e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows the sensor to tick with the tick rate from UE4.  <a href="#a402dd1b59d57463eee355b436fc876e2">More...</a><br /></td></tr>
 <tr class="separator:a402dd1b59d57463eee355b436fc876e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21c9d3547fe5a16e72d1ebafae67655f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df6/structFActorDescription.html">FActorDescription</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a21c9d3547fe5a16e72d1ebafae67655f">SensorDescription</a></td></tr>
+<tr class="separator:a21c9d3547fe5a16e72d1ebafae67655f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a052cf677d9ea111c8cccdf3f7dbc5a1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dd9/DataStream_8h.html#aa80bad1d32fa7a360e7e9664f07cb551">FDataStream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d01/classASensor.html#a052cf677d9ea111c8cccdf3f7dbc5a1e">Stream</a></td></tr>
 <tr class="separator:a052cf677d9ea111c8cccdf3f7dbc5a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -227,7 +233,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00027">27</a> of file <a class="el" href="../../d7/d16/Sensor_8cpp_source.html">Sensor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00125">Episode</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00068">UCarlaStatics::GetCurrentEpisode()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00327">UCarlaEpisode::GetSensorManager()</a>, and <a class="el" href="../../d2/d0d/SensorManager_8cpp_source.html#l00010">FSensorManager::RegisterSensor()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00134">Episode</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00068">UCarlaStatics::GetCurrentEpisode()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00328">UCarlaEpisode::GetSensorManager()</a>, and <a class="el" href="../../d2/d0d/SensorManager_8cpp_source.html#l00010">FSensorManager::RegisterSensor()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -263,15 +269,47 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00100">100</a> of file <a class="el" href="../../d7/d16/Sensor_8cpp_source.html">Sensor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00113">113</a> of file <a class="el" href="../../d7/d16/Sensor_8cpp_source.html">Sensor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d2/d0d/SensorManager_8cpp_source.html#l00015">FSensorManager::DeRegisterSensor()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00125">Episode</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00068">UCarlaStatics::GetCurrentEpisode()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00086">GetEpisode()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00063">UCarlaStatics::GetGameInstance()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00327">UCarlaEpisode::GetSensorManager()</a>, <a class="el" href="../../da/dd9/DataStream_8h_source.html#l00047">FDataStreamTmpl&lt; T &gt;::GetToken()</a>, and <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00121">Stream</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d0d/SensorManager_8cpp_source.html#l00015">FSensorManager::DeRegisterSensor()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00134">Episode</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00068">UCarlaStatics::GetCurrentEpisode()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00093">GetEpisode()</a>, <a class="el" href="../../d9/dc8/CarlaStatics_8h_source.html#l00063">UCarlaStatics::GetGameInstance()</a>, <a class="el" href="../../de/db8/CarlaEpisode_8h_source.html#l00328">UCarlaEpisode::GetSensorManager()</a>, <a class="el" href="../../da/dd9/DataStream_8h_source.html#l00052">FDataStreamTmpl&lt; T &gt;::GetToken()</a>, and <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00128">Stream</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_a1c9f916c2383430fb6a125a3d2725c76_cgraph.svg" width="100%" height="553"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a3a5ffb398a9916d3cedd1f1e3f0e1ed4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a5ffb398a9916d3cedd1f1e3f0e1ed4">&#9670;&nbsp;</a></span>GetAttribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::optional&lt; <a class="el" href="../../dd/d1d/structFActorAttribute.html">FActorAttribute</a> &gt; ASensor::GetAttribute </td>
+          <td>(</td>
+          <td class="paramtype">const FString&#160;</td>
+          <td class="paramname"><em>Name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00049">49</a> of file <a class="el" href="../../d7/d16/Sensor_8cpp_source.html">Sensor.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00132">SensorDescription</a>, and <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00036">FActorDescription::Variations</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d9/d6e/DVSCamera_8cpp_source.html#l00130">ADVSCamera::PostPhysTick()</a>.</p>
+<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_a3a5ffb398a9916d3cedd1f1e3f0e1ed4_icgraph.svg" width="424" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -306,14 +344,14 @@ template&lt;typename SensorT &gt; </div>
 <p>Return the FDataStream associated with this sensor. </p>
 <p>You need to provide a reference to self, this is necessary for template deduction. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00103">103</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00110">110</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00041">ACollisionSensor::OnCollisionEvent()</a>, <a class="el" href="../../d2/d70/ObstacleDetectionSensor_8cpp_source.html#l00129">AObstacleDetectionSensor::OnObstacleDetectionEvent()</a>, <a class="el" href="../../d7/d22/GnssSensor_8cpp_source.html#l00036">AGnssSensor::PostPhysTick()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00184">AInertialMeasurementUnit::PostPhysTick()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00057">ARayCastLidar::PostPhysTick()</a>, <a class="el" href="../../d8/ddc/RayCastSemanticLidar_8cpp_source.html#l00067">ARayCastSemanticLidar::PostPhysTick()</a>, <a class="el" href="../../d5/d99/Radar_8cpp_source.html#l00069">ARadar::PostPhysTick()</a>, and <a class="el" href="../../d9/d6e/DVSCamera_8cpp_source.html#l00124">ADVSCamera::PostPhysTick()</a>.</p>
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00042">ACollisionSensor::OnCollisionEvent()</a>, <a class="el" href="../../d2/d70/ObstacleDetectionSensor_8cpp_source.html#l00133">AObstacleDetectionSensor::OnObstacleDetectionEvent()</a>, <a class="el" href="../../d7/d22/GnssSensor_8cpp_source.html#l00037">AGnssSensor::PostPhysTick()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00185">AInertialMeasurementUnit::PostPhysTick()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00058">ARayCastLidar::PostPhysTick()</a>, <a class="el" href="../../d8/ddc/RayCastSemanticLidar_8cpp_source.html#l00068">ARayCastSemanticLidar::PostPhysTick()</a>, <a class="el" href="../../d5/d99/Radar_8cpp_source.html#l00072">ARadar::PostPhysTick()</a>, and <a class="el" href="../../d9/d6e/DVSCamera_8cpp_source.html#l00130">ADVSCamera::PostPhysTick()</a>.</p>
+<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_a8fa217c0d68d5c774510d5e941ae0ade_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -343,14 +381,14 @@ template&lt;typename SensorT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00086">86</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00093">93</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp_source.html#l00544">ASceneCaptureSensor::BeginPlay()</a>, <a class="el" href="../../d8/ddc/RayCastSemanticLidar_8cpp_source.html#l00183">ARayCastSemanticLidar::ComputeRawDetection()</a>, <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00100">EndPlay()</a>, <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00041">ACollisionSensor::OnCollisionEvent()</a>, <a class="el" href="../../d2/d70/ObstacleDetectionSensor_8cpp_source.html#l00129">AObstacleDetectionSensor::OnObstacleDetectionEvent()</a>, and <a class="el" href="../../d9/d6e/DVSCamera_8cpp_source.html#l00197">ADVSCamera::Simulation()</a>.</p>
-<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../db/d2d/SceneCaptureSensor_8cpp_source.html#l00547">ASceneCaptureSensor::BeginPlay()</a>, <a class="el" href="../../d8/ddc/RayCastSemanticLidar_8cpp_source.html#l00204">ARayCastSemanticLidar::ComputeRawDetection()</a>, <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00113">EndPlay()</a>, <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00042">ACollisionSensor::OnCollisionEvent()</a>, <a class="el" href="../../d2/d70/ObstacleDetectionSensor_8cpp_source.html#l00133">AObstacleDetectionSensor::OnObstacleDetectionEvent()</a>, and <a class="el" href="../../d9/d6e/DVSCamera_8cpp_source.html#l00241">ADVSCamera::Simulation()</a>.</p>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_a20ab55bcdde93c4e8683678934d86a66_icgraph.svg" width="100%" height="564"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -380,14 +418,14 @@ template&lt;typename SensorT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00072">72</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00079">79</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01670">UActorBlueprintFunctionLibrary::SetGnss()</a>, <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01699">UActorBlueprintFunctionLibrary::SetIMU()</a>, and <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01730">UActorBlueprintFunctionLibrary::SetRadar()</a>.</p>
-<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01679">UActorBlueprintFunctionLibrary::SetGnss()</a>, <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01708">UActorBlueprintFunctionLibrary::SetIMU()</a>, and <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01739">UActorBlueprintFunctionLibrary::SetRadar()</a>.</p>
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_a28605e6c6449122211471a5eb639fc82_icgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -417,7 +455,7 @@ template&lt;typename SensorT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00078">78</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00085">85</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
 </div>
 </div>
@@ -446,15 +484,52 @@ template&lt;typename SensorT &gt; </div>
 
 <p>Return the token that allows subscribing to this sensor's stream. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00054">54</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00056">56</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/df3/ActorRegistry_8cpp_source.html#l00240">FActorRegistry::GetDescriptionFromStream()</a>.</p>
-<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d3/df3/ActorRegistry_8cpp_source.html#l00240">FActorRegistry::GetDescriptionFromStream()</a>, <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00042">ACollisionSensor::OnCollisionEvent()</a>, <a class="el" href="../../d2/d70/ObstacleDetectionSensor_8cpp_source.html#l00133">AObstacleDetectionSensor::OnObstacleDetectionEvent()</a>, <a class="el" href="../../d7/d22/GnssSensor_8cpp_source.html#l00037">AGnssSensor::PostPhysTick()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00185">AInertialMeasurementUnit::PostPhysTick()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00058">ARayCastLidar::PostPhysTick()</a>, <a class="el" href="../../d8/ddc/RayCastSemanticLidar_8cpp_source.html#l00068">ARayCastSemanticLidar::PostPhysTick()</a>, <a class="el" href="../../d5/d99/Radar_8cpp_source.html#l00072">ARadar::PostPhysTick()</a>, and <a class="el" href="../../d9/d6e/DVSCamera_8cpp_source.html#l00130">ADVSCamera::PostPhysTick()</a>.</p>
+<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_a66fce49debf0145d15f810fd78775e9d_icgraph.svg" width="652" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_a66fce49debf0145d15f810fd78775e9d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a13a798c094b844a8d208a6c16dd5c47b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13a798c094b844a8d208a6c16dd5c47b">&#9670;&nbsp;</a></span>IsStreamReady()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ASensor::IsStreamReady </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00061">61</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d2/d70/ObstacleDetectionSensor_8cpp_source.html#l00133">AObstacleDetectionSensor::OnObstacleDetectionEvent()</a>.</p>
+<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_a13a798c094b844a8d208a6c16dd5c47b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -483,14 +558,14 @@ template&lt;typename SensorT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00048">48</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00050">50</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d7f/ActorData_8cpp_source.html#l00252">FActorSensorData::RecordActorData()</a>.</p>
-<div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_a7e9466335d5838dc21e90ecd99c9d873_icgraph.svg" width="444" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -522,14 +597,14 @@ template&lt;typename SensorT &gt; </div>
 
 <p>Reimplemented in <a class="el" href="../../d8/d68/classASceneCaptureCamera.html#a93b277175ef4ab4a6575ba162bea2f1c">ASceneCaptureCamera</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00064">64</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00071">71</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00046">Tick()</a>.</p>
-<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00059">Tick()</a>.</p>
+<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_a2395225b2012e8571a3d59e4704a280b_icgraph.svg" width="404" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -561,14 +636,14 @@ template&lt;typename SensorT &gt; </div>
 
 <p>Reimplemented in <a class="el" href="../../d8/d68/classASceneCaptureCamera.html#a3e469535d87735470e92979f2ee3afbf">ASceneCaptureCamera</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00066">66</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00073">73</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00046">Tick()</a>.</p>
-<div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00059">Tick()</a>.</p>
+<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_ae36465452ef3121fec4a61d583aeb134_icgraph.svg" width="424" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -598,7 +673,7 @@ template&lt;typename SensorT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00081">81</a> of file <a class="el" href="../../d7/d16/Sensor_8cpp_source.html">Sensor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00094">94</a> of file <a class="el" href="../../d7/d16/Sensor_8cpp_source.html">Sensor.cpp</a>.</p>
 
 </div>
 </div>
@@ -644,14 +719,14 @@ template&lt;typename SensorT &gt; </div>
 
 <p>Reimplemented in <a class="el" href="../../d4/d60/classASceneCaptureSensor.html#aed5d34797452c2e567e5ed31afc152d1">ASceneCaptureSensor</a>, <a class="el" href="../../d2/daf/classADVSCamera.html#af5bed25bbeaa4669ea0576fdff9ea5e3">ADVSCamera</a>, <a class="el" href="../../d9/d27/classARadar.html#a74d20d2ceebe97b11e8fc12aa8d20d0b">ARadar</a>, <a class="el" href="../../d8/d15/classARayCastSemanticLidar.html#a74775c31724f8cf3467765ae3583be5b">ARayCastSemanticLidar</a>, <a class="el" href="../../d5/de4/classARayCastLidar.html#abfd04fd0fb58051afae805f0b94f5923">ARayCastLidar</a>, <a class="el" href="../../d5/de0/classAInertialMeasurementUnit.html#aa86507b1b877834ae72c1034486b7d90">AInertialMeasurementUnit</a>, <a class="el" href="../../d0/dc3/classAGnssSensor.html#a319d23bd045d2c1451f03bfacf666758">AGnssSensor</a>, <a class="el" href="../../d8/d68/classASceneCaptureCamera.html#a36b0678ac00948cd83033804022123c4">ASceneCaptureCamera</a>, <a class="el" href="../../d9/d25/classAInstanceSegmentationCamera.html#aca0256b23dfc2b60b577ecfba9c67ad4">AInstanceSegmentationCamera</a>, <a class="el" href="../../d3/d93/classAObstacleDetectionSensor.html#ab978d30f92a01a9f29c8d54947380f25">AObstacleDetectionSensor</a>, <a class="el" href="../../db/d36/classADepthCamera.html#ab0d0412ac66bfbcb85c9e78dfb1086f1">ADepthCamera</a>, <a class="el" href="../../d3/d49/classANormalsCamera.html#a64a66d4e2dee424a6586e1424b4656a6">ANormalsCamera</a>, <a class="el" href="../../d6/dad/classASemanticSegmentationCamera.html#a318d628daec5be04db946111fbba88d8">ASemanticSegmentationCamera</a>, and <a class="el" href="../../d0/d61/classAOpticalFlowCamera.html#afa390c039b8f28f8a9f4089c003df797">AOpticalFlowCamera</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00062">62</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00069">69</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00120">PostPhysTickInternal()</a>.</p>
-<div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00131">PostPhysTickInternal()</a>.</p>
+<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_ad7def45d2fa41e8aef4db2acea6f72d0_icgraph.svg" width="447" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -690,14 +765,14 @@ template&lt;typename SensorT &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00120">120</a> of file <a class="el" href="../../d7/d16/Sensor_8cpp_source.html">Sensor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00131">131</a> of file <a class="el" href="../../d7/d16/Sensor_8cpp_source.html">Sensor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00062">PostPhysTick()</a>, and <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00128">ReadyToTick</a>.</p>
-<div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00069">PostPhysTick()</a>, and <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00137">ReadyToTick</a>.</p>
+<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_ac771c41b0631c12d3c5dc8fdaef370bf_cgraph.svg" width="447" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -730,14 +805,14 @@ template&lt;typename SensorT &gt; </div>
 
 <p>Reimplemented in <a class="el" href="../../d4/d60/classASceneCaptureSensor.html#a020e5b8c3c43e9e8552f0dc8d79d5c8a">ASceneCaptureSensor</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00061">61</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00068">68</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00046">Tick()</a>.</p>
-<div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00059">Tick()</a>.</p>
+<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_afd91096546acf20dfd503395d9a133a9_icgraph.svg" width="332" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -772,22 +847,22 @@ template&lt;typename SensorT &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00035">35</a> of file <a class="el" href="../../d7/d16/Sensor_8cpp_source.html">Sensor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01393">UActorBlueprintFunctionLibrary::ActorAttributeToFloat()</a>, and <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00036">FActorDescription::Variations</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01402">UActorBlueprintFunctionLibrary::ActorAttributeToFloat()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00132">SensorDescription</a>, and <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00036">FActorDescription::Variations</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00036">ARayCastLidar::Set()</a>.</p>
-<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00037">ARayCastLidar::Set()</a>.</p>
+<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_a4d1a4a116e9d55b9bdb383de90062059_cgraph.svg" width="387" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_a4d1a4a116e9d55b9bdb383de90062059_icgraph.svg" width="310" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -821,14 +896,14 @@ template&lt;typename SensorT &gt; </div>
 <p>Replace the FDataStream associated with this sensor. </p>
 <dl class="section warning"><dt>Warning</dt><dd>Do not change the stream after BeginPlay. It is not thread-safe. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00043">43</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00045">45</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d7f/ActorData_8cpp_source.html#l00260">FActorSensorData::RestoreActorData()</a>.</p>
-<div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_a6ee2e98fd5918a9d2affde92ed19150d_icgraph.svg" width="436" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -879,24 +954,24 @@ template&lt;typename SensorT &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00074">74</a> of file <a class="el" href="../../d7/d16/Sensor_8cpp_source.html">Sensor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00087">87</a> of file <a class="el" href="../../d7/d16/Sensor_8cpp_source.html">Sensor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00114">RandomEngine</a>, <a class="el" href="../../d6/daa/RandomEngine_8h_source.html#l00044">URandomEngine::Seed()</a>, and <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00110">Seed</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00121">RandomEngine</a>, <a class="el" href="../../d6/daa/RandomEngine_8h_source.html#l00044">URandomEngine::Seed()</a>, and <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00117">Seed</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00029">ARayCastLidar::ARayCastLidar()</a>, <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01670">UActorBlueprintFunctionLibrary::SetGnss()</a>, <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01699">UActorBlueprintFunctionLibrary::SetIMU()</a>, and <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01730">UActorBlueprintFunctionLibrary::SetRadar()</a>.</p>
-<div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p class="reference">Referenced by <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00030">ARayCastLidar::ARayCastLidar()</a>, <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01679">UActorBlueprintFunctionLibrary::SetGnss()</a>, <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01708">UActorBlueprintFunctionLibrary::SetIMU()</a>, and <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l01739">UActorBlueprintFunctionLibrary::SetRadar()</a>.</p>
+<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_afced2ac412dc1ef1a5c99e65e14f7340_cgraph.svg" width="366" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
-<div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_afced2ac412dc1ef1a5c99e65e14f7340_icgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -927,14 +1002,14 @@ template&lt;typename SensorT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00046">46</a> of file <a class="el" href="../../d7/d16/Sensor_8cpp_source.html">Sensor.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00059">59</a> of file <a class="el" href="../../d7/d16/Sensor_8cpp_source.html">Sensor.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/dd9/DataStream_8h_source.html#l00053">FDataStreamTmpl&lt; T &gt;::AreClientsListening()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00130">bClientsListening</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00064">OnFirstClientConnected()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00066">OnLastClientDisconnected()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00061">PrePhysTick()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00128">ReadyToTick</a>, and <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00121">Stream</a>.</p>
-<div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p class="reference">References <a class="el" href="../../da/dd9/DataStream_8h_source.html#l00064">FDataStreamTmpl&lt; T &gt;::AreClientsListening()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00139">bClientsListening</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00071">OnFirstClientConnected()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00073">OnLastClientDisconnected()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00068">PrePhysTick()</a>, <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00137">ReadyToTick</a>, and <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00128">Stream</a>.</p>
+<div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d01/classASensor_a355a3cbfa4189981845020658c1435c9_cgraph.svg" width="424" height="206"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -962,9 +1037,9 @@ template&lt;typename SensorT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00130">130</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00139">139</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00046">Tick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00059">Tick()</a>.</p>
 
 </div>
 </div>
@@ -988,7 +1063,7 @@ template&lt;typename SensorT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00117">117</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00124">124</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
 </div>
 </div>
@@ -1012,9 +1087,9 @@ template&lt;typename SensorT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00125">125</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00134">134</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00027">BeginPlay()</a>, <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00100">EndPlay()</a>, <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00041">ACollisionSensor::OnCollisionEvent()</a>, and <a class="el" href="../../d2/d70/ObstacleDetectionSensor_8cpp_source.html#l00129">AObstacleDetectionSensor::OnObstacleDetectionEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00027">BeginPlay()</a>, <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00113">EndPlay()</a>, <a class="el" href="../../da/df0/CollisionSensor_8cpp_source.html#l00042">ACollisionSensor::OnCollisionEvent()</a>, and <a class="el" href="../../d2/d70/ObstacleDetectionSensor_8cpp_source.html#l00133">AObstacleDetectionSensor::OnObstacleDetectionEvent()</a>.</p>
 
 </div>
 </div>
@@ -1038,7 +1113,7 @@ template&lt;typename SensorT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00123">123</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00130">130</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
 </div>
 </div>
@@ -1064,9 +1139,9 @@ template&lt;typename SensorT &gt; </div>
 
 <p>Random Engine used to provide noise for sensor output. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00114">114</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00121">121</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d6e/DVSCamera_8cpp_source.html#l00022">ADVSCamera::ADVSCamera()</a>, <a class="el" href="../../d7/d22/GnssSensor_8cpp_source.html#l00018">AGnssSensor::AGnssSensor()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00024">AInertialMeasurementUnit::AInertialMeasurementUnit()</a>, <a class="el" href="../../d5/d99/Radar_8cpp_source.html#l00022">ARadar::ARadar()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00029">ARayCastLidar::ARayCastLidar()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00072">AInertialMeasurementUnit::ComputeAccelerometerNoise()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00086">AInertialMeasurementUnit::ComputeGyroscopeNoise()</a>, <a class="el" href="../../d7/d22/GnssSensor_8cpp_source.html#l00036">AGnssSensor::PostPhysTick()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00110">ARayCastLidar::PostprocessDetection()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00100">ARayCastLidar::PreprocessRays()</a>, <a class="el" href="../../d5/d99/Radar_8cpp_source.html#l00091">ARadar::SendLineTraces()</a>, <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00074">SetSeed()</a>, and <a class="el" href="../../d9/d6e/DVSCamera_8cpp_source.html#l00197">ADVSCamera::Simulation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d6e/DVSCamera_8cpp_source.html#l00028">ADVSCamera::ADVSCamera()</a>, <a class="el" href="../../d7/d22/GnssSensor_8cpp_source.html#l00019">AGnssSensor::AGnssSensor()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00025">AInertialMeasurementUnit::AInertialMeasurementUnit()</a>, <a class="el" href="../../d5/d99/Radar_8cpp_source.html#l00025">ARadar::ARadar()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00030">ARayCastLidar::ARayCastLidar()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00073">AInertialMeasurementUnit::ComputeAccelerometerNoise()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00087">AInertialMeasurementUnit::ComputeGyroscopeNoise()</a>, <a class="el" href="../../d7/d22/GnssSensor_8cpp_source.html#l00037">AGnssSensor::PostPhysTick()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00134">ARayCastLidar::PostprocessDetection()</a>, <a class="el" href="../../df/dec/RayCastLidar_8cpp_source.html#l00124">ARayCastLidar::PreprocessRays()</a>, <a class="el" href="../../d5/d99/Radar_8cpp_source.html#l00115">ARadar::SendLineTraces()</a>, <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00087">SetSeed()</a>, and <a class="el" href="../../d9/d6e/DVSCamera_8cpp_source.html#l00241">ADVSCamera::Simulation()</a>.</p>
 
 </div>
 </div>
@@ -1092,9 +1167,9 @@ template&lt;typename SensorT &gt; </div>
 
 <p>Allows the sensor to tick with the tick rate from UE4. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00128">128</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00137">137</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00120">PostPhysTickInternal()</a>, and <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00046">Tick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00131">PostPhysTickInternal()</a>, and <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00059">Tick()</a>.</p>
 
 </div>
 </div>
@@ -1120,9 +1195,35 @@ template&lt;typename SensorT &gt; </div>
 
 <p>Seed of the pseudo-random engine. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00110">110</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00117">117</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00074">SetSeed()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00087">SetSeed()</a>.</p>
+
+</div>
+</div>
+<a id="a21c9d3547fe5a16e72d1ebafae67655f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21c9d3547fe5a16e72d1ebafae67655f">&#9670;&nbsp;</a></span>SensorDescription</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df6/structFActorDescription.html">FActorDescription</a> ASensor::SensorDescription</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00132">132</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00049">GetAttribute()</a>, and <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00035">Set()</a>.</p>
 
 </div>
 </div>
@@ -1146,9 +1247,9 @@ template&lt;typename SensorT &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00121">121</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html#l00128">128</a> of file <a class="el" href="../../d7/d7d/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Sensor_2Sensor_8h_source.html">Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00100">EndPlay()</a>, <a class="el" href="../../d7/d22/GnssSensor_8cpp_source.html#l00036">AGnssSensor::PostPhysTick()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00184">AInertialMeasurementUnit::PostPhysTick()</a>, <a class="el" href="../../d9/d6e/DVSCamera_8cpp_source.html#l00124">ADVSCamera::PostPhysTick()</a>, and <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00046">Tick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00113">EndPlay()</a>, <a class="el" href="../../d7/d22/GnssSensor_8cpp_source.html#l00037">AGnssSensor::PostPhysTick()</a>, <a class="el" href="../../d7/d78/InertialMeasurementUnit_8cpp_source.html#l00185">AInertialMeasurementUnit::PostPhysTick()</a>, <a class="el" href="../../d9/d6e/DVSCamera_8cpp_source.html#l00130">ADVSCamera::PostPhysTick()</a>, and <a class="el" href="../../d7/d16/Sensor_8cpp_source.html#l00059">Tick()</a>.</p>
 
 </div>
 </div>

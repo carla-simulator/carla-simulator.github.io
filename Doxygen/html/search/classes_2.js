@@ -13,5 +13,6 @@ var searchData=
   ['bounds',['Bounds',['../d0/d4d/structcarla_1_1client_1_1LaneInvasionCallback_1_1Bounds.html',1,'carla::client::LaneInvasionCallback']]],
   ['box',['Box',['../d8/d2c/structcarla_1_1rpc_1_1DebugShape_1_1Box.html',1,'carla::rpc::DebugShape']]],
   ['buffer',['Buffer',['../d0/d0a/classcarla_1_1Buffer.html',1,'carla']]],
-  ['bufferpool',['BufferPool',['../d7/d3c/classcarla_1_1BufferPool.html',1,'carla']]]
+  ['bufferpool',['BufferPool',['../d7/d3c/classcarla_1_1BufferPool.html',1,'carla']]],
+  ['bufferview',['BufferView',['../db/db8/classcarla_1_1BufferView.html',1,'carla']]]
 ];

@@ -6,13 +6,7 @@
     <div class="row">
       <div class="col-lg-12 mx-auto">
         <ul class="list-inline text-center">
-          {% if site.cvc_page %}
-          <li class="list-inline-item">
-            <a target="_blank" href="{{ site.cvc_page }}" style="width:200px;height:100px;display:inline-block;overflow:hidden;">
-              <img width="100%" src="/img/logo/compvisioncenter.png" alt="Computer Vision Center">
-            </a>
-          </li>
-          {% endif %}
+          
           <!-- <li class="list-inline-item"><span style="display:inline-block; width:30px;"></span></li> -->
           {% if site.intel_page %}
           <li class="list-inline-item" style="text-align: left">
@@ -43,7 +37,23 @@
             </a>
           </li>
           {% endif %}
+          {% if site.synkrotron_page %}
+          <li class="list-inline-item" style="text-align: left">
+            <a target="_blank" href="{{ site.synkrotron_page }}" style="width:180px;height:90px;display:inline-block;overflow:hidden;">
+              <img width="100%" src="/img/logo/synkrotron.jpg" alt="SYNKROTRON" style="margin-top: 15px">
+            </a>
+          </li>
+          {% endif %}
         </ul>
+        <br>
+        <ul>
+        {% if site.cvc_page %}
+            <a target="_blank" href="{{ site.cvc_page }}" style="width:200px;height:100px;display:block;overflow:hidden;margin-left:auto;margin-right:auto;">
+              <img width="100%" src="/img/logo/compvisioncenter.png" alt="Computer Vision Center">
+            </a>
+          {% endif %}
+        </ul>
+        
       </div>
     </div>
 

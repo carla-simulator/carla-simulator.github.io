@@ -1,7 +1,10 @@
 var searchData=
 [
+  ['radar',['Radar',['../d1/d4b/namespacecarla_1_1ros2.html#aadec52f2a609176e3429b83f492bdebda8a21a2dcb34796ac0ffbb9f8fccc85cf',1,'carla::ros2']]],
   ['rail',['Rail',['../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247a569cfa311dfdfa035b1e7d4b38dc9ca0',1,'carla::road::Lane']]],
   ['railtrack',['RailTrack',['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a2932f43ae085869fc79084cf9766dcc7',1,'carla::rpc']]],
+  ['raycastlidar',['RayCastLidar',['../d1/d4b/namespacecarla_1_1ros2.html#aadec52f2a609176e3429b83f492bdebda465a37d89956645efa7849ac8ad52b61',1,'carla::ros2']]],
+  ['raycastsemanticlidar',['RayCastSemanticLidar',['../d1/d4b/namespacecarla_1_1ros2.html#aadec52f2a609176e3429b83f492bdebda175eff354a36396ee63e748b5c780ab5',1,'carla::ros2']]],
   ['red',['Red',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#adcc9f0cd0b5b4be0cc07be4bf5df30acaee38e4d5dd68c4e440825018d549cb47',1,'carla::road::element::LaneMarking::Red()'],['../de/d6c/namespacecarla_1_1rpc.html#a46c3995219197dcef2980adce8d1cfbaaee38e4d5dd68c4e440825018d549cb47',1,'carla::rpc::Red()']]],
   ['restricted',['Restricted',['../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247aecdee5de15af6876cfab0801bb36f445',1,'carla::road::Lane']]],
   ['reverse',['Reverse',['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html#a6372a8be47dbe5cd2b9c19730e5d1dc5a67f115c1fddc4ce1aeb1c754001585bc',1,'carla::rpc::VehicleLightState']]],
@@ -16,5 +19,6 @@ var searchData=
   ['roads',['Roads',['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a8eb4008d5f09ee682da558b18419cde7',1,'carla::rpc']]],
   ['roadworks',['RoadWorks',['../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247a3f126480eb5f964a14b4d074378ca176',1,'carla::road::Lane']]],
   ['rollover',['Rollover',['../de/d6c/namespacecarla_1_1rpc.html#ae24acdb5a620582353443f8b547a52bcac598d83d76b2228eadaa9ca5853420cb',1,'carla::rpc']]],
-  ['rr',['RR',['../d3/d00/CarlaWheeledVehicle_8h.html#aa720ea2031295cc8eab7bb5ce25b8c95acb95449a94688af33f6e9bb090cf2936',1,'RR():&#160;CarlaWheeledVehicle.h'],['../de/d6c/namespacecarla_1_1rpc.html#a3eb217a0533294546f189b832ad0ee04acb95449a94688af33f6e9bb090cf2936',1,'carla::rpc::RR()']]]
+  ['rr',['RR',['../d3/d00/CarlaWheeledVehicle_8h.html#aa720ea2031295cc8eab7bb5ce25b8c95acb95449a94688af33f6e9bb090cf2936',1,'RR():&#160;CarlaWheeledVehicle.h'],['../de/d6c/namespacecarla_1_1rpc.html#a3eb217a0533294546f189b832ad0ee04acb95449a94688af33f6e9bb090cf2936',1,'carla::rpc::RR()']]],
+  ['rsssensor',['RssSensor',['../d1/d4b/namespacecarla_1_1ros2.html#aadec52f2a609176e3429b83f492bdebda0db4a8cbbf8e4956cb3874c90af56518',1,'carla::ros2']]]
 ];

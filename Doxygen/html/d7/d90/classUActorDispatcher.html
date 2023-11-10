@@ -203,11 +203,11 @@ Private Attributes</h2></td></tr>
 <p>When SpawnActor is called with a matching description <em>Functor</em> is called.</p>
 <dl class="section warning"><dt>Warning</dt><dd>Invalid definitions are ignored. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00017">17</a> of file <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html">ActorDispatcher.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html">ActorDispatcher.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dd/d08/ActorBlueprintFunctionLibrary_8cpp_source.html#l00177">UActorBlueprintFunctionLibrary::CheckActorDefinition()</a>, <a class="el" href="../../d0/d65/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDefinition_8h_source.html#l00033">FActorDefinition::Class</a>, <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00106">Classes</a>, <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00102">Definitions</a>, <a class="el" href="../../d0/d65/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDefinition_8h_source.html#l00026">FActorDefinition::Id</a>, <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00104">SpawnFunctions</a>, and <a class="el" href="../../d0/d65/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDefinition_8h_source.html#l00022">FActorDefinition::UId</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00032">Bind()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00038">Bind()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -246,9 +246,9 @@ Private Attributes</h2></td></tr>
 <p>Bind all the definitions of <em>ActorFactory</em> to its spawn function. </p>
 <dl class="section warning"><dt>Warning</dt><dd>Invalid definitions are ignored. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00032">32</a> of file <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html">ActorDispatcher.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00038">38</a> of file <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html">ActorDispatcher.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00017">Bind()</a>, <a class="el" href="../../d4/d24/CarlaActorFactory_8h_source.html#l00033">ACarlaActorFactory::GetDefinitions()</a>, and <a class="el" href="../../d4/d24/CarlaActorFactory_8h_source.html#l00042">ACarlaActorFactory::SpawnActor()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00023">Bind()</a>, <a class="el" href="../../d4/d24/CarlaActorFactory_8h_source.html#l00033">ACarlaActorFactory::GetDefinitions()</a>, and <a class="el" href="../../d4/d24/CarlaActorFactory_8h_source.html#l00042">ACarlaActorFactory::SpawnActor()</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
@@ -279,7 +279,7 @@ Private Attributes</h2></td></tr>
 <p>Destroys an actor, properly removing it from the registry. </p>
 <p>Return true if the <em>Actor</em> is destroyed or already marked for destruction, false if indestructible or nullptr. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00111">111</a> of file <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html">ActorDispatcher.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00117">117</a> of file <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html">ActorDispatcher.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d3/df3/ActorRegistry_8cpp_source.html#l00118">FActorRegistry::Deregister()</a>, <a class="el" href="../../d0/d4e/ActorInfo_8h_source.html#l00026">FActorInfo::Description</a>, <a class="el" href="../../da/de4/ActorRegistry_8h_source.html#l00069">FActorRegistry::FindCarlaActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00100">FCarlaActor::GetActorInfo()</a>, <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00024">FActorDescription::Id</a>, <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00108">Registry</a>, and <a class="el" href="../../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da505a83f220c02df2f85c3810cd9ceb38">Success</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -398,17 +398,17 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00179">179</a> of file <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html">ActorDispatcher.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00234">234</a> of file <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html">ActorDispatcher.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d3/df3/ActorRegistry_8cpp_source.html#l00118">FActorRegistry::Deregister()</a>, <a class="el" href="../../da/de4/ActorRegistry_8h_source.html#l00069">FActorRegistry::FindCarlaActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00080">FCarlaActor::GetActorId()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00065">FCarlaActor::IsActive()</a>, and <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00108">Registry</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/df3/ActorRegistry_8cpp_source.html#l00118">FActorRegistry::Deregister()</a>, <a class="el" href="../../da/de4/ActorRegistry_8h_source.html#l00069">FActorRegistry::FindCarlaActor()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00080">FCarlaActor::GetActorId()</a>, <a class="el" href="../../da/db8/ROS2_8h_source.html#l00051">carla::ros2::ROS2::GetInstance()</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00065">FCarlaActor::IsActive()</a>, and <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00108">Registry</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00156">RegisterActor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00162">RegisterActor()</a>.</p>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/d90/classUActorDispatcher_a03e325e791dd0449c82c264aa223d67a_cgraph.svg" width="100%" height="448"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/d90/classUActorDispatcher_a03e325e791dd0449c82c264aa223d67a_cgraph.svg" width="100%" height="498"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -448,7 +448,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00169">169</a> of file <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html">ActorDispatcher.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00224">224</a> of file <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html">ActorDispatcher.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d3/df3/ActorRegistry_8cpp_source.html#l00186">FActorRegistry::PutActorToSleep()</a>, and <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00108">Registry</a>.</p>
 <div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -496,11 +496,11 @@ Private Attributes</h2></td></tr>
 
 <p>Register an actor that was not created using "SpawnActor" function but that should be kept in the registry. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00156">156</a> of file <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html">ActorDispatcher.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00162">162</a> of file <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html">ActorDispatcher.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00179">OnActorDestroyed()</a>, <a class="el" href="../../d3/df3/ActorRegistry_8cpp_source.html#l00072">FActorRegistry::Register()</a>, and <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00108">Registry</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00080">FCarlaActor::GetActorId()</a>, <a class="el" href="../../da/db8/ROS2_8h_source.html#l00051">carla::ros2::ROS2::GetInstance()</a>, <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00024">FActorDescription::Id</a>, <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00234">OnActorDestroyed()</a>, <a class="el" href="../../d3/df3/ActorRegistry_8cpp_source.html#l00072">FActorRegistry::Register()</a>, <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00108">Registry</a>, and <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00036">FActorDescription::Variations</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00322">UCarlaEpisode::InitializeAtBeginPlay()</a>, and <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00042">SpawnActor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00322">UCarlaEpisode::InitializeAtBeginPlay()</a>, and <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00048">SpawnActor()</a>.</p>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
@@ -550,7 +550,7 @@ Private Attributes</h2></td></tr>
 <p>To properly despawn an actor created with this function call DestroyActor. Used to respawn dormant actors.</p>
 <dl class="section return"><dt>Returns</dt><dd>The actor to be respawned </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00080">80</a> of file <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html">ActorDispatcher.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00086">86</a> of file <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html">ActorDispatcher.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../df/d9f/ActorSpawnResult_8h_source.html#l00045">FActorSpawnResult::Actor</a>, <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00028">FActorDescription::Class</a>, <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00106">Classes</a>, <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00024">FActorDescription::Id</a>, <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00104">SpawnFunctions</a>, <a class="el" href="../../df/d9f/ActorSpawnResult_8h_source.html#l00048">FActorSpawnResult::Status</a>, and <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00020">FActorDescription::UId</a>.</p>
 
@@ -592,9 +592,9 @@ Private Attributes</h2></td></tr>
 <p>To properly despawn an actor created with this function call DestroyActor.</p>
 <dl class="section return"><dt>Returns</dt><dd>A pair containing the result of the spawn function and a view over the actor and its properties. If the status is different of Success the view is invalid. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html">ActorDispatcher.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00048">48</a> of file <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html">ActorDispatcher.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/d9f/ActorSpawnResult_8h_source.html#l00045">FActorSpawnResult::Actor</a>, <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00028">FActorDescription::Class</a>, <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00106">Classes</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00024">FActorDescription::Id</a>, <a class="el" href="../../df/d9f/ActorSpawnResult_8h_source.html#l00039">FActorSpawnResult::IsValid()</a>, <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00156">RegisterActor()</a>, <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00104">SpawnFunctions</a>, <a class="el" href="../../df/d9f/ActorSpawnResult_8h_source.html#l00048">FActorSpawnResult::Status</a>, <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00103">ATagger::TagActor()</a>, and <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00020">FActorDescription::UId</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d9f/ActorSpawnResult_8h_source.html#l00045">FActorSpawnResult::Actor</a>, <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00028">FActorDescription::Class</a>, <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00106">Classes</a>, <a class="el" href="../../de/d36/CarlaActor_8h_source.html#l00090">FCarlaActor::GetActor()</a>, <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00024">FActorDescription::Id</a>, <a class="el" href="../../df/d9f/ActorSpawnResult_8h_source.html#l00039">FActorSpawnResult::IsValid()</a>, <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00162">RegisterActor()</a>, <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00104">SpawnFunctions</a>, <a class="el" href="../../df/d9f/ActorSpawnResult_8h_source.html#l00048">FActorSpawnResult::Status</a>, <a class="el" href="../../d2/d35/Tagger_8cpp_source.html#l00103">ATagger::TagActor()</a>, and <a class="el" href="../../d4/de6/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Actor_2ActorDescription_8h_source.html#l00020">FActorDescription::UId</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/dd9/CarlaEpisode_8cpp_source.html#l00434">UCarlaEpisode::SpawnActorWithInfo()</a>.</p>
 <div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -642,7 +642,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00174">174</a> of file <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html">ActorDispatcher.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00229">229</a> of file <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html">ActorDispatcher.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00108">Registry</a>, and <a class="el" href="../../d3/df3/ActorRegistry_8cpp_source.html#l00206">FActorRegistry::WakeActorUp()</a>.</p>
 <div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -679,7 +679,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00106">106</a> of file <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html">ActorDispatcher.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00017">Bind()</a>, <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00080">ReSpawnActor()</a>, and <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00042">SpawnActor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00023">Bind()</a>, <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00086">ReSpawnActor()</a>, and <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00048">SpawnActor()</a>.</p>
 
 </div>
 </div>
@@ -705,7 +705,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00102">102</a> of file <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html">ActorDispatcher.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00017">Bind()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00023">Bind()</a>.</p>
 
 </div>
 </div>
@@ -731,7 +731,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00108">108</a> of file <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html">ActorDispatcher.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00111">DestroyActor()</a>, <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00179">OnActorDestroyed()</a>, <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00169">PutActorToSleep()</a>, <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00156">RegisterActor()</a>, and <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00174">WakeActorUp()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00117">DestroyActor()</a>, <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00234">OnActorDestroyed()</a>, <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00224">PutActorToSleep()</a>, <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00162">RegisterActor()</a>, and <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00229">WakeActorUp()</a>.</p>
 
 </div>
 </div>
@@ -757,7 +757,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html#l00104">104</a> of file <a class="el" href="../../dc/ddc/ActorDispatcher_8h_source.html">ActorDispatcher.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00017">Bind()</a>, <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00080">ReSpawnActor()</a>, and <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00042">SpawnActor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00023">Bind()</a>, <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00086">ReSpawnActor()</a>, and <a class="el" href="../../d0/d6a/ActorDispatcher_8cpp_source.html#l00048">SpawnActor()</a>.</p>
 
 </div>
 </div>

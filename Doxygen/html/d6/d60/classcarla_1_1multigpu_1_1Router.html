@@ -107,6 +107,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a52e0a8e67aa10ca6f20551646bbb8d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d5dc6a52572216867bc100e7cdf536a"><td class="memItemLeft" align="right" valign="top">boost::asio::ip::tcp::endpoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d60/classcarla_1_1multigpu_1_1Router.html#a0d5dc6a52572216867bc100e7cdf536a">GetLocalEndpoint</a> () const</td></tr>
 <tr class="separator:a0d5dc6a52572216867bc100e7cdf536a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6db9a9a2b8d96c8550d91c887cbafe1"><td class="memItemLeft" align="right" valign="top">std::weak_ptr&lt; <a class="el" href="../../da/dda/classcarla_1_1multigpu_1_1Primary.html">Primary</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d60/classcarla_1_1multigpu_1_1Router.html#af6db9a9a2b8d96c8550d91c887cbafe1">GetNextServer</a> ()</td></tr>
+<tr class="separator:af6db9a9a2b8d96c8550d91c887cbafe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6fab98c5266ddbf4dfbd7a69d70f752"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d60/classcarla_1_1multigpu_1_1Router.html#aa6fab98c5266ddbf4dfbd7a69d70f752">HasClientsConnected</a> ()</td></tr>
 <tr class="separator:aa6fab98c5266ddbf4dfbd7a69d70f752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa641e7d151b00014a38e4b4593b77989"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d60/classcarla_1_1multigpu_1_1Router.html#aa641e7d151b00014a38e4b4593b77989">Router</a> (void)</td></tr>
@@ -123,6 +125,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a15474d5ce12e45ee3b1de9a2ae203206"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28522766c610ee1de8d55f9171ead325"><td class="memItemLeft" align="right" valign="top">std::future&lt; <a class="el" href="../../d3/d5b/structcarla_1_1multigpu_1_1SessionInfo.html">SessionInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d60/classcarla_1_1multigpu_1_1Router.html#a28522766c610ee1de8d55f9171ead325">WriteToNext</a> (<a class="el" href="../../dd/d17/namespacecarla_1_1multigpu.html#afab8f1e900d0fb4a762ef7c24afd5a59">MultiGPUCommand</a> id, <a class="el" href="../../d0/d0a/classcarla_1_1Buffer.html">Buffer</a> &amp;&amp;buffer)</td></tr>
 <tr class="separator:a28522766c610ee1de8d55f9171ead325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7654ba1b578c782cc136ff386c2a6e2a"><td class="memItemLeft" align="right" valign="top">std::future&lt; <a class="el" href="../../d3/d5b/structcarla_1_1multigpu_1_1SessionInfo.html">SessionInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d60/classcarla_1_1multigpu_1_1Router.html#a7654ba1b578c782cc136ff386c2a6e2a">WriteToOne</a> (std::weak_ptr&lt; <a class="el" href="../../da/dda/classcarla_1_1multigpu_1_1Primary.html">Primary</a> &gt; server, <a class="el" href="../../dd/d17/namespacecarla_1_1multigpu.html#afab8f1e900d0fb4a762ef7c24afd5a59">MultiGPUCommand</a> id, <a class="el" href="../../d0/d0a/classcarla_1_1Buffer.html">Buffer</a> &amp;&amp;buffer)</td></tr>
+<tr class="separator:a7654ba1b578c782cc136ff386c2a6e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad88b546f5f057952e14e6fd6903657f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d60/classcarla_1_1multigpu_1_1Router.html#ad88b546f5f057952e14e6fd6903657f4">~Router</a> ()</td></tr>
 <tr class="separator:ad88b546f5f057952e14e6fd6903657f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -206,7 +210,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/da3/router_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../d9/da3/router_8cpp_source.html">router.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00069">_endpoint</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00071">_listener</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00068">_pool</a>, and <a class="el" href="../../d3/d43/ThreadPool_8h_source.html#l00035">carla::ThreadPool::io_context()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00072">_endpoint</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00074">_listener</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00071">_pool</a>, and <a class="el" href="../../d3/d43/ThreadPool_8h_source.html#l00035">carla::ThreadPool::io_context()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -266,7 +270,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/da3/router_8cpp_source.html#l00078">78</a> of file <a class="el" href="../../d9/da3/router_8cpp_source.html">router.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00068">_pool</a>, and <a class="el" href="../../d3/d43/ThreadPool_8h_source.html#l00051">carla::ThreadPool::AsyncRun()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00071">_pool</a>, and <a class="el" href="../../d3/d43/ThreadPool_8h_source.html#l00051">carla::ThreadPool::AsyncRun()</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
@@ -303,7 +307,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/da3/router_8cpp_source.html#l00106">106</a> of file <a class="el" href="../../d9/da3/router_8cpp_source.html">router.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00067">_mutex</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00070">_sessions</a>, and <a class="el" href="../../de/d87/Logging_8h_source.html#l00082">carla::log_info()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00070">_mutex</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00073">_sessions</a>, and <a class="el" href="../../de/d87/Logging_8h_source.html#l00082">carla::log_info()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/da3/router_8cpp_source.html#l00022">Stop()</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -351,7 +355,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/da3/router_8cpp_source.html#l00086">86</a> of file <a class="el" href="../../d9/da3/router_8cpp_source.html">router.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00075">_callback</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00067">_mutex</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00070">_sessions</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, and <a class="el" href="../../de/d87/Logging_8h_source.html#l00082">carla::log_info()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00078">_callback</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00070">_mutex</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00073">_sessions</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, and <a class="el" href="../../de/d87/Logging_8h_source.html#l00082">carla::log_info()</a>.</p>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
@@ -389,7 +393,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/da3/router_8cpp_source.html#l00096">96</a> of file <a class="el" href="../../d9/da3/router_8cpp_source.html">router.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00067">_mutex</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00070">_sessions</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, and <a class="el" href="../../de/d87/Logging_8h_source.html#l00082">carla::log_info()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00070">_mutex</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00073">_sessions</a>, <a class="el" href="../../d4/deb/Debug_8h_source.html#l00066">DEBUG_ASSERT</a>, and <a class="el" href="../../de/d87/Logging_8h_source.html#l00082">carla::log_info()</a>.</p>
 <div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-8-summary" class="dynsummary" style="display:block;">
@@ -424,7 +428,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00057">57</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00058">58</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00031">carla::multigpu::SessionInfo::session</a>.</p>
 
@@ -447,7 +451,28 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/da3/router_8cpp_source.html#l00082">82</a> of file <a class="el" href="../../d9/da3/router_8cpp_source.html">router.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00069">_endpoint</a>.</p>
+<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00072">_endpoint</a>.</p>
+
+</div>
+</div>
+<a id="af6db9a9a2b8d96c8550d91c887cbafe1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6db9a9a2b8d96c8550d91c887cbafe1">&#9670;&nbsp;</a></span>GetNextServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::weak_ptr&lt; <a class="el" href="../../da/dda/classcarla_1_1multigpu_1_1Primary.html">Primary</a> &gt; carla::multigpu::Router::GetNextServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/da3/router_8cpp_source.html#l00188">188</a> of file <a class="el" href="../../d9/da3/router_8cpp_source.html">router.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00070">_mutex</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00075">_next</a>, and <a class="el" href="../../da/db7/router_8h_source.html#l00073">_sessions</a>.</p>
 
 </div>
 </div>
@@ -474,7 +499,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00053">53</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00054">54</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
 
 </div>
 </div>
@@ -495,7 +520,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/da3/router_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../d9/da3/router_8cpp_source.html">router.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00074">_commander</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00069">_endpoint</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00071">_listener</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00073">_promises</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00082">carla::log_info()</a>, and <a class="el" href="../../d6/da8/primaryCommands_8cpp_source.html#l00062">carla::multigpu::PrimaryCommands::set_router()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00077">_commander</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00072">_endpoint</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00074">_listener</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00076">_promises</a>, <a class="el" href="../../de/d87/Logging_8h_source.html#l00082">carla::log_info()</a>, and <a class="el" href="../../d6/da8/primaryCommands_8cpp_source.html#l00027">carla::multigpu::PrimaryCommands::set_router()</a>.</p>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
@@ -525,7 +550,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/da3/router_8cpp_source.html#l00073">73</a> of file <a class="el" href="../../d9/da3/router_8cpp_source.html">router.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00075">_callback</a>.</p>
+<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00078">_callback</a>.</p>
 
 </div>
 </div>
@@ -547,7 +572,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/da3/router_8cpp_source.html#l00022">22</a> of file <a class="el" href="../../d9/da3/router_8cpp_source.html">router.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00071">_listener</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00068">_pool</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00106">ClearSessions()</a>, and <a class="el" href="../../d3/d43/ThreadPool_8h_source.html#l00076">carla::ThreadPool::Stop()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00074">_listener</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00071">_pool</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00106">ClearSessions()</a>, and <a class="el" href="../../d3/d43/ThreadPool_8h_source.html#l00076">carla::ThreadPool::Stop()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/da3/router_8cpp_source.html#l00018">~Router()</a>.</p>
 <div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -597,13 +622,13 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/da3/router_8cpp_source.html#l00112">112</a> of file <a class="el" href="../../d9/da3/router_8cpp_source.html">router.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00067">_mutex</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00070">_sessions</a>, <a class="el" href="../../d5/d90/commands_8h_source.html#l00022">carla::multigpu::CommandHeader::id</a>, <a class="el" href="../../d8/d15/primary_8h_source.html#l00054">carla::multigpu::Primary::MakeMessage()</a>, and <a class="el" href="../../d5/d90/commands_8h_source.html#l00023">carla::multigpu::CommandHeader::size</a>.</p>
+<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00070">_mutex</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00073">_sessions</a>, <a class="el" href="../../d8/dee/BufferView_8h_source.html#l00056">carla::BufferView::CreateFrom()</a>, <a class="el" href="../../d5/d90/commands_8h_source.html#l00025">carla::multigpu::CommandHeader::id</a>, <a class="el" href="../../d8/d15/primary_8h_source.html#l00054">carla::multigpu::Primary::MakeMessage()</a>, and <a class="el" href="../../d5/d90/commands_8h_source.html#l00026">carla::multigpu::CommandHeader::size</a>.</p>
 <div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-12-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d60/classcarla_1_1multigpu_1_1Router_a15474d5ce12e45ee3b1de9a2ae203206_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d60/classcarla_1_1multigpu_1_1Router_a15474d5ce12e45ee3b1de9a2ae203206_cgraph.svg" width="100%" height="500"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -635,15 +660,61 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/da3/router_8cpp_source.html#l00130">130</a> of file <a class="el" href="../../d9/da3/router_8cpp_source.html">router.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/da3/router_8cpp_source.html#l00132">132</a> of file <a class="el" href="../../d9/da3/router_8cpp_source.html">router.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00067">_mutex</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00072">_next</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00073">_promises</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00070">_sessions</a>, <a class="el" href="../../d5/d90/commands_8h_source.html#l00022">carla::multigpu::CommandHeader::id</a>, <a class="el" href="../../d8/d15/primary_8h_source.html#l00054">carla::multigpu::Primary::MakeMessage()</a>, and <a class="el" href="../../d5/d90/commands_8h_source.html#l00023">carla::multigpu::CommandHeader::size</a>.</p>
+<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00070">_mutex</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00075">_next</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00076">_promises</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00073">_sessions</a>, <a class="el" href="../../d8/dee/BufferView_8h_source.html#l00056">carla::BufferView::CreateFrom()</a>, <a class="el" href="../../d5/d90/commands_8h_source.html#l00025">carla::multigpu::CommandHeader::id</a>, <a class="el" href="../../d8/d15/primary_8h_source.html#l00054">carla::multigpu::Primary::MakeMessage()</a>, and <a class="el" href="../../d5/d90/commands_8h_source.html#l00026">carla::multigpu::CommandHeader::size</a>.</p>
 <div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-13-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d60/classcarla_1_1multigpu_1_1Router_a28522766c610ee1de8d55f9171ead325_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d60/classcarla_1_1multigpu_1_1Router_a28522766c610ee1de8d55f9171ead325_cgraph.svg" width="100%" height="500"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a7654ba1b578c782cc136ff386c2a6e2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7654ba1b578c782cc136ff386c2a6e2a">&#9670;&nbsp;</a></span>WriteToOne()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::future&lt; <a class="el" href="../../d3/d5b/structcarla_1_1multigpu_1_1SessionInfo.html">SessionInfo</a> &gt; carla::multigpu::Router::WriteToOne </td>
+          <td>(</td>
+          <td class="paramtype">std::weak_ptr&lt; <a class="el" href="../../da/dda/classcarla_1_1multigpu_1_1Primary.html">Primary</a> &gt;&#160;</td>
+          <td class="paramname"><em>server</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/d17/namespacecarla_1_1multigpu.html#afab8f1e900d0fb4a762ef7c24afd5a59">MultiGPUCommand</a>&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d0a/classcarla_1_1Buffer.html">Buffer</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>buffer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/da3/router_8cpp_source.html#l00164">164</a> of file <a class="el" href="../../d9/da3/router_8cpp_source.html">router.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../da/db7/router_8h_source.html#l00070">_mutex</a>, <a class="el" href="../../da/db7/router_8h_source.html#l00076">_promises</a>, <a class="el" href="../../d8/dee/BufferView_8h_source.html#l00056">carla::BufferView::CreateFrom()</a>, <a class="el" href="../../d5/d90/commands_8h_source.html#l00025">carla::multigpu::CommandHeader::id</a>, <a class="el" href="../../d8/d15/primary_8h_source.html#l00054">carla::multigpu::Primary::MakeMessage()</a>, and <a class="el" href="../../d5/d90/commands_8h_source.html#l00026">carla::multigpu::CommandHeader::size</a>.</p>
+<div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d60/classcarla_1_1multigpu_1_1Router_a7654ba1b578c782cc136ff386c2a6e2a_cgraph.svg" width="100%" height="500"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -670,7 +741,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00075">75</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00078">78</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/da3/router_8cpp_source.html#l00086">ConnectSession()</a>, and <a class="el" href="../../d9/da3/router_8cpp_source.html#l00073">SetNewConnectionCallback()</a>.</p>
 
@@ -696,7 +767,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00074">74</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00077">77</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/da3/router_8cpp_source.html#l00036">SetCallbacks()</a>.</p>
 
@@ -722,7 +793,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00069">69</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00072">72</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/da3/router_8cpp_source.html#l00082">GetLocalEndpoint()</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00029">Router()</a>, and <a class="el" href="../../d9/da3/router_8cpp_source.html#l00036">SetCallbacks()</a>.</p>
 
@@ -748,7 +819,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00071">71</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00074">74</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/da3/router_8cpp_source.html#l00029">Router()</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00036">SetCallbacks()</a>, and <a class="el" href="../../d9/da3/router_8cpp_source.html#l00022">Stop()</a>.</p>
 
@@ -774,9 +845,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00067">67</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00070">70</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/da3/router_8cpp_source.html#l00106">ClearSessions()</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00086">ConnectSession()</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00096">DisconnectSession()</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00112">Write()</a>, and <a class="el" href="../../d9/da3/router_8cpp_source.html#l00130">WriteToNext()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/da3/router_8cpp_source.html#l00106">ClearSessions()</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00086">ConnectSession()</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00096">DisconnectSession()</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00188">GetNextServer()</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00112">Write()</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00132">WriteToNext()</a>, and <a class="el" href="../../d9/da3/router_8cpp_source.html#l00164">WriteToOne()</a>.</p>
 
 </div>
 </div>
@@ -800,9 +871,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00072">72</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00075">75</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/da3/router_8cpp_source.html#l00130">WriteToNext()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/da3/router_8cpp_source.html#l00188">GetNextServer()</a>, and <a class="el" href="../../d9/da3/router_8cpp_source.html#l00132">WriteToNext()</a>.</p>
 
 </div>
 </div>
@@ -826,7 +897,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00068">68</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00071">71</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/da3/router_8cpp_source.html#l00078">AsyncRun()</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00029">Router()</a>, and <a class="el" href="../../d9/da3/router_8cpp_source.html#l00022">Stop()</a>.</p>
 
@@ -852,9 +923,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00073">73</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00076">76</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/da3/router_8cpp_source.html#l00036">SetCallbacks()</a>, and <a class="el" href="../../d9/da3/router_8cpp_source.html#l00130">WriteToNext()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/da3/router_8cpp_source.html#l00036">SetCallbacks()</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00132">WriteToNext()</a>, and <a class="el" href="../../d9/da3/router_8cpp_source.html#l00164">WriteToOne()</a>.</p>
 
 </div>
 </div>
@@ -878,9 +949,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00070">70</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/db7/router_8h_source.html#l00073">73</a> of file <a class="el" href="../../da/db7/router_8h_source.html">router.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/da3/router_8cpp_source.html#l00106">ClearSessions()</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00086">ConnectSession()</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00096">DisconnectSession()</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00112">Write()</a>, and <a class="el" href="../../d9/da3/router_8cpp_source.html#l00130">WriteToNext()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/da3/router_8cpp_source.html#l00106">ClearSessions()</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00086">ConnectSession()</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00096">DisconnectSession()</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00188">GetNextServer()</a>, <a class="el" href="../../d9/da3/router_8cpp_source.html#l00112">Write()</a>, and <a class="el" href="../../d9/da3/router_8cpp_source.html#l00132">WriteToNext()</a>.</p>
 
 </div>
 </div>
