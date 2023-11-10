@@ -11,5 +11,6 @@ var searchData=
   ['boostgil_2eh',['BoostGil.h',['../d6/d17/BoostGil_8h.html',1,'']]],
   ['boundingboxcalculator_2ecpp',['BoundingBoxCalculator.cpp',['../dd/dd8/BoundingBoxCalculator_8cpp.html',1,'']]],
   ['boundingboxcalculator_2eh',['BoundingBoxCalculator.h',['../d8/dca/BoundingBoxCalculator_8h.html',1,'']]],
-  ['bufferpool_2eh',['BufferPool.h',['../de/d1a/BufferPool_8h.html',1,'']]]
+  ['bufferpool_2eh',['BufferPool.h',['../de/d1a/BufferPool_8h.html',1,'']]],
+  ['bufferview_2eh',['BufferView.h',['../d8/dee/BufferView_8h.html',1,'']]]
 ];

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['lanefollow',['LaneFollow',['../d0/db7/namespacecarla_1_1traffic__manager.html#a5734807dba08623eeca046a963ade360a22fcc0e97323f6110c5dcb5afbbee7b4',1,'carla::traffic_manager']]],
+  ['laneinvasionsensor',['LaneInvasionSensor',['../d1/d4b/namespacecarla_1_1ros2.html#aadec52f2a609176e3429b83f492bdebdae2eb64c49b2c944b645b1456023add8d',1,'carla::ros2']]],
   ['left',['Left',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#a1ae031503b72620fa5c60d0b8bc7b71fa945d5e233cf7d6240f6b783b36a374ff',1,'carla::road::element::LaneMarking::Left()'],['../d0/db7/namespacecarla_1_1traffic__manager.html#a5734807dba08623eeca046a963ade360a945d5e233cf7d6240f6b783b36a374ff',1,'carla::traffic_manager::Left()']]],
   ['leftblinker',['LeftBlinker',['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html#a6372a8be47dbe5cd2b9c19730e5d1dc5ace099de14a5e174834d0eceedb5a3839',1,'carla::rpc::VehicleLightState']]],
   ['lex_5faxis_5fattribute',['lex_axis_attribute',['../db/d20/pugixml_8cpp.html#a1fdd6d0a63acbba1491ab331ddce4ac9a408fe857bc6c9b3a148ab798d0ad34e7',1,'pugixml.cpp']]],
