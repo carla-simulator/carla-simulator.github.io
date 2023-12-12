@@ -11,7 +11,6 @@ background: '/img/posts/2023-12-12/sensor_config.png'
 
 <br>
 
-
 **Ever wanted to set up complex CARLA simulations and scenarios without writing a line of code?** - This is the power of Synkrotron’s [__OASIS Simulation Platform__](https://www.synkrotron.ai/sim.html).
 
 <br>
