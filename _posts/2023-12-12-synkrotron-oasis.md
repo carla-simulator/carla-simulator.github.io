@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "OASIS Sim from Synktrotron"
+title:  "OASIS Sim from Synkrotron"
 subtitle: "GUI based CARLA simulation management, visual scenario authoring and cloud job management in the OASIS Sim platform"
 description: "GUI based CARLA simulation management, visual scenario authoring and cloud job management in the OASIS Sim platform"
 author: "@MattRoweEAIF"
@@ -12,7 +12,7 @@ background: '/img/posts/2023-12-12/sensor_config.png'
 <br>
 
 
-**Ever wanted to set up complex CARLA simulations and scenarios without writing a line of code?** - This is the power of Synktrotron’s [__OASIS Simulation Platform__](https://www.synkrotron.ai/sim.html).
+**Ever wanted to set up complex CARLA simulations and scenarios without writing a line of code?** - This is the power of Synkrotron’s [__OASIS Simulation Platform__](https://www.synkrotron.ai/sim.html).
 
 <br>
 
@@ -20,7 +20,7 @@ background: '/img/posts/2023-12-12/sensor_config.png'
 
 <br>
 
- OASIS Sim facilitates the development and execution of complex scenarios through an intuitive, web-based, graphical user interface. The vast configurability of the CARLA simulator is exposed through the OASIS Sim’s multiple views for __Scenario Authoring__, __Vehicle Configuration__, __Diagnosis__ and __Job management__. The simulation workload can be distributed and __parallelised on the cloud__, leveraging the power of distributed cloud computing such as Amazon Web Services with the latest GPU technology. In the following, we introduce you to the OASIS Sim’s principal views to explain how they can help you set up and run your simulations! Please visit the [Synktrotron website](http://www.synkrotron.ai/) and [request a trial](https://synkrotron.ai/contact.html).
+ OASIS Sim facilitates the development and execution of complex scenarios through an intuitive, web-based, graphical user interface. The vast configurability of the CARLA simulator is exposed through the OASIS Sim’s multiple views for __Scenario Authoring__, __Vehicle Configuration__, __Diagnosis__ and __Job management__. The simulation workload can be distributed and __parallelised on the cloud__, leveraging the power of distributed cloud computing such as Amazon Web Services with the latest GPU technology. In the following, we introduce you to the OASIS Sim’s principal views to explain how they can help you set up and run your simulations! Please visit the [Synkrotron website](http://www.synkrotron.ai/) and [request a trial](https://synkrotron.ai/contact.html).
 
 {% include youtube.html id="YRI67aar3S0" %}
 
@@ -53,7 +53,7 @@ Completed simulations can be analyzed in detail through the Diagnosis view to sc
 
 # Deployment and integration
 
-Both cloud and local deployments of Oasis Sim are available through containers. A comprehensive API exposes OASIS Sim’s features for seamless DevOps integration in your R&D workflow. Please visit the [Synktrotron website](http://www.synkrotron.ai/) and [request a trial](https://synkrotron.ai/contact.html).
+Both cloud and local deployments of Oasis Sim are available through containers. A comprehensive API exposes OASIS Sim’s features for seamless DevOps integration in your R&D workflow. Please visit the [Synkrotron website](http://www.synkrotron.ai/) and [request a trial](https://synkrotron.ai/contact.html).
 
 <br>
 
