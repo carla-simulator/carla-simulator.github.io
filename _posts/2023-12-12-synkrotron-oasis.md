@@ -9,17 +9,22 @@ image: 'img/carla.jpg'
 background: '/img/posts/2023-12-12/sensor_config.png'
 ---
 
-*This is the first of a series of articles covering the different tools in the CARLA Ecosystem. CARLA provides integration with numerous other tools from the community, partners and sponsors to augment capabilities and address a wide array of simulation use cases.*
+<br>
+
+
+**Ever wanted to set up complex CARLA simulations and scenarios without writing a line of code?** - This is the power of Synktrotron’s [__OASIS Simulation Platform__](https://www.synkrotron.ai/sim.html).
+
+<br>
 
 ![OASIS logo](/img/posts/2023-12-12/oasis_logo.png){:class="img-fluid rounded mx-auto d-block"}
 
-**Ever wanted to set up complex CARLA simulations and scenarios without writing a line of code?**
+<br>
 
-This is the power of Synktrotron’s [__OASIS Simulation Platform__](https://www.synkrotron.ai/sim.html). OASIS Sim facilitates the development and execution of complex scenarios through an intuitive, web-based, graphical user interface. The vast configurability of the CARLA simulator is exposed through the OASIS Sim’s multiple views for __Scenario Authoring__, __Vehicle Configuration__, __Diagnosis__ and __Job management__. The simulation workload can be distributed and __parallelised on the cloud__, leveraging the power of distributed cloud computing such as Amazon Web Services with the latest GPU technology. In the following, we introduce you to the OASIS Sim’s principal views to explain how they can help you set up and run your simulations! Please visit the [Synktrotron website](http://www.synkrotron.ai/) and [request a trial](https://synkrotron.ai/contact.html).
+ OASIS Sim facilitates the development and execution of complex scenarios through an intuitive, web-based, graphical user interface. The vast configurability of the CARLA simulator is exposed through the OASIS Sim’s multiple views for __Scenario Authoring__, __Vehicle Configuration__, __Diagnosis__ and __Job management__. The simulation workload can be distributed and __parallelised on the cloud__, leveraging the power of distributed cloud computing such as Amazon Web Services with the latest GPU technology. In the following, we introduce you to the OASIS Sim’s principal views to explain how they can help you set up and run your simulations! Please visit the [Synktrotron website](http://www.synkrotron.ai/) and [request a trial](https://synkrotron.ai/contact.html).
 
 {% include youtube.html id="YRI67aar3S0" %}
 
-# Scenario Authoring and Editing
+# Visual scenario authoring
 
 ![OASIS scenario authoring](/img/posts/2023-12-12/scenario_authoring.png){:class="img-fluid rounded mx-auto d-block"}
 
@@ -36,7 +41,7 @@ In the Vehicle Configuration panel users can equip the ego vehicle with pre-defi
 
 ![OASIS job management](/img/posts/2023-12-12/job_management.png){:class="img-fluid rounded mx-auto d-block"}
 
-OASIS Sim works on the cloud, leveraging the scalability of AWS and the latest GPU technology to accelerate your simulation workflow. Each simulation is managed as a cloud processing job in the task management view. For each job you can see progress status and key outcome indicators such as collisions or traffic infractions. Multiple jobs will be parallelised using cloud computing resources to accelerate the R&D workflow. 
+OASIS Sim works on the cloud, leveraging the scalability of cloud computing and the latest GPU technology to accelerate your simulation workflow. Each simulation is managed as a cloud processing job in the task management view. For each job you can see progress status and key outcome indicators such as collisions or traffic infractions. Multiple jobs will be parallelised using cloud computing resources to accelerate the R&D workflow. 
 
 # Diagnosis 
 
@@ -49,3 +54,7 @@ Completed simulations can be analyzed in detail through the Diagnosis view to sc
 # Deployment and integration
 
 Both cloud and local deployments of Oasis Sim are available through containers. A comprehensive API exposes OASIS Sim’s features for seamless DevOps integration in your R&D workflow. Please visit the [Synktrotron website](http://www.synkrotron.ai/) and [request a trial](https://synkrotron.ai/contact.html).
+
+<br>
+
+*This is the first of a series of articles covering different tools in the CARLA Ecosystem. CARLA provides integration with numerous other tools from the community, partners and sponsors to augment its capabilities and address a wide array of simulation use cases.*
