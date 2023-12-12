@@ -19,7 +19,7 @@ background: '/img/posts/2023-12-12/sensor_config.png'
 
 <br>
 
- OASIS Sim facilitates the development and execution of complex scenarios through an intuitive, web-based, graphical user interface. The vast configurability of the CARLA simulator is exposed through the OASIS Sim’s multiple views for __Scenario Authoring__, __Vehicle Configuration__, __Diagnosis__ and __Job management__. The simulation workload can be distributed and __parallelised on the cloud__, leveraging the power of distributed cloud computing such as Amazon Web Services with the latest GPU technology. In the following, we introduce you to the OASIS Sim’s principal views to explain how they can help you set up and run your simulations! Please visit the [Synkrotron website](http://www.synkrotron.ai/) and [request a trial](https://synkrotron.ai/contact.html).
+ OASIS Sim facilitates the development and execution of complex scenarios through an intuitive, web-based, graphical user interface. The vast configurability of the CARLA simulator is exposed through OASIS Sim’s multiple views for __Scenario Authoring__, __Vehicle Configuration__, __Diagnosis__ and __Cloud Job Management__. The simulation workload can be distributed and __parallelised on the cloud__, leveraging the power of distributed cloud computing such as Amazon Web Services with the latest GPU technology. In the following, we introduce you to OASIS Sim’s principal views to explain how they can help you set up and run your simulations! Please visit the [Synkrotron website](http://www.synkrotron.ai/) and [request a trial](https://synkrotron.ai/contact.html).
 
 {% include youtube.html id="YRI67aar3S0" %}
 
@@ -27,7 +27,7 @@ background: '/img/posts/2023-12-12/sensor_config.png'
 
 ![OASIS scenario authoring](/img/posts/2023-12-12/scenario_authoring.png){:class="img-fluid rounded mx-auto d-block"}
 
-OASIS Sim provides a Scenario Editor GUI that enables users to design and edit traffic scenarios visually and intuitively. Specify the environment condition, the driving task of the ego vehicle and the behaviors of other traffic participants. The definition of these elements is compatible with OpenScenario 1.0 and can be imported from external sources or exported. Background traffic can also be managed in this view to add diversity and complexity to each scenario.
+OASIS Sim provides a Scenario Editor GUI that enables users to design and edit traffic scenarios visually and intuitively. Users can specify the environment condition, the driving task of the ego vehicle and the behaviors of other traffic participants. The definition of these elements is compatible with OpenScenario 1.0 and can be imported from external sources or exported. Background traffic can also be managed in this view to add diversity and complexity to each scenario.
 
 # Sensor and vehicle configuration
 
@@ -56,4 +56,5 @@ Both cloud and local deployments of Oasis Sim are available through containers. 
 
 <br>
 
-*This is the first of a series of articles covering different tools in the CARLA Ecosystem. CARLA provides integration with numerous other tools from the community, partners and sponsors to augment its capabilities and address a wide array of simulation use cases.*
+*This is the first of a series of articles covering different tools within the CARLA Ecosystem. CARLA provides integration with numerous tools from the community, partners and sponsors to augment its capabilities and address a wide array of simulation use cases.*
+
