@@ -11,7 +11,6 @@ background: '/img/posts/2023-12-12/sensor_config.png'
 
 <br>
 
-
 **Ever wanted to set up complex CARLA simulations and scenarios without writing a line of code?** - This is the power of Synkrotron’s [__OASIS Simulation Platform__](https://www.synkrotron.ai/sim.html).
 
 <br>
@@ -58,3 +57,4 @@ Both cloud and local deployments of Oasis Sim are available through containers. 
 <br>
 
 *This is the first of a series of articles covering different tools within the CARLA Ecosystem. CARLA provides integration with numerous tools from the community, partners and sponsors to augment its capabilities and address a wide array of simulation use cases.*
+
