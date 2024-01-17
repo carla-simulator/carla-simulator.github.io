@@ -5,11 +5,13 @@ background: '/img/bg-about.jpg'
 ---
 
 <div class="team text-center">
-  {% assign teams = "founders,developers,artists,former members" | split: ',' %}
+  {% assign teams = "founders,board members" | split: ',' %}
   {% for team in teams%}
     <h2 class="text-center">
       {{ team | capitalize }}
     </h2>
+    <br>
+    <br>
     {% for member in site.team %}
       {% assign member_team = member | relative_url | replace: '%20', ' ' | split:'/'%}
       {% if member_team[2] == team %}
@@ -18,12 +20,14 @@ background: '/img/bg-about.jpg'
         {% else if member.github %}
           {% assign url = member.github %}
         {% endif %}  
+        <div style="width: 25%; margin: 10px; display: inline-block; vertical-align: top;">
         <a href="{{url}}">  
             <img src="/{{ member.portrait }}" alt="{{ member.name_ }}">
             <p class="text-center team_name">{{ member.name_ }}</p>
+          </a>
             <p class="text-center team_description">{{ member.description }}</p>
             <p class="text-center team_from">{{ member.from }}</p>
-        </a>
+      </div>
       {% endif %}
     {% endfor %}
   {% endfor %}
