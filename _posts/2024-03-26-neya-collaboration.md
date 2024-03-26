@@ -13,7 +13,6 @@ background: '/img/posts/2024-03-26/carla_ue5_teaser.png'
 
 We are thrilled to announce today our collaboration with [__Neya Systems__](www.neyarobotics.com ) and its parent company [__Applied Research Associates (ARA)__](https://www.ara.com/), in which the CARLA team and Neya Systems are working together to __upgrade the CARLA simulator to Unreal Engine 5__. The long awaited upgrade is motivated by ARA's requirements in developing a Virtual Testbed for [__DARPA's Triage Challenge__](https://triagechallenge.darpa.mil/). The DARPA Triage Challenge involves a series of competitive events aimed at promoting innovation for medical triage. Neya Systems leverages the CARLA framework for stress testing the autonomy and control of its off-road vehicles in a virtual environment before moving to field tests.
 
-
 "*CARLA’s advanced features and flexibility align perfectly with our commitment to pushing the boundaries of innovation in the field of autonomy,*” said __Kurt Bruck, division manager, Neya Systems__. “*In addition, CARLA’s capability to simulate off-road environments allows us to explore and develop autonomous solutions that go beyond conventional paved road scenarios. Updating CARLA to Unreal Engine 5 will be a significant accomplishment for open-source simulation developers everywhere.*" 
 
 <div style="width: 100%;border-bottom:1px solid grey;"></div>
