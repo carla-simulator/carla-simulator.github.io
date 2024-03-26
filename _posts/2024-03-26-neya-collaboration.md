@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "CARLA teams up with Neya Systems to upgrade to the Unreal Engine 5"
+title:  "CARLA teams up with Neya Systems to upgrade to Unreal Engine 5"
 subtitle: "Upgrading to Unreal Engine 5 brings incredible new graphics capabilities to level up simulation realism in CARLA"
 description: "Upgrading to Unreal Engine 5 brings incredible new graphics capabilities to level up simulation realism in CARLA"
 author: "@MattRoweEAIF"
@@ -17,11 +17,11 @@ We are thrilled to announce today our collaboration with [__Neya Systems__](www.
 
 ## What does this mean for CARLA? 
 
-[__Unreal Engine 5__](https://www.unrealengine.com/en-US/unreal-engine-5) brings a comprehensive suite of upgrades that promise to __dramatically improve modeling, simulation realism and performance in CARLA__. First and foremost, Unreal Engine 5 looks incredible! If you haven't already, check out the teaser video above. More specifically, UE5 brings a number of important innovations that promise to supercharge your autonomy simulations:
+[__Unreal Engine 5__](https://www.unrealengine.com/en-US/unreal-engine-5) brings a comprehensive suite of upgrades that promise to __dramatically improve modeling, simulation realism and performance in CARLA__. First and foremost, Unreal Engine 5 looks incredible! If you haven't already, check out the teaser video above. More specifically, Unreal Engine 5 brings a number of important innovations that promise to supercharge your autonomy simulations:
 
 ### Nanite
 
-Nanite is the new virtualized geometry system at the core of UE5. It allows an __unprecedented level of geometry detail__ and high object counts without compromising performance. Meshes can be used with a far higher level of geometric detail while still achieving real-time performance due to Nanite's intelligent geometry management. Nanite only works on the level of detail that can be perceived, distant objects in the scene are rendered using less polygons while Nanite continuously adjusts the number of polygons used for an object as its distance from the camera changes. Level Of Detail meshes (LODs) are no longer needed, eliminating the artefacts associated with LODs and reducing modelling time. 
+Nanite is the new virtualized geometry system at the core of Unreal Engine 5. It allows an __unprecedented level of geometry detail__ and high object counts without compromising performance. Meshes can be used with a far higher level of geometric detail while still achieving real-time performance due to Nanite's intelligent geometry management. Nanite only works on the level of detail that can be perceived, distant objects in the scene are rendered using less polygons while Nanite continuously adjusts the number of polygons used for an object as its distance from the camera changes. Level Of Detail meshes (LODs) are no longer needed, eliminating the artefacts associated with LODs and reducing modelling time. 
 
 ![nanite](/img/posts/2024-03-26/nanite_geom.png){:class="img-fluid"}
 
