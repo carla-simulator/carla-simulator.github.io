@@ -35,7 +35,7 @@ Lumen is Unreal Engine 5's new global illumination and reflections system that i
 
 ### Metahumans
 
-The upgrade to Unreal Engine 5 opens up the possibility to __bring Metahumans into CARLA__! [MetaHumans](https://www.unrealengine.com/en-US/metahuman) is a technology framework that facilitates modeling and animation of hyper-realistic human characters in video games. Alongside the improved rendering of skin, clothes and hair come a suite of tools to help you create Metahumans efficiently in UE5. The MetaHumans framework provides UIs for modeling and animating hyper-realistic depictions of humans. This has big implications for robotic applications of CARLA involving facial recognition, such as security drones or search and rescue applications. 
+The upgrade to Unreal Engine 5 opens up the possibility to __bring MetaHumans into CARLA__! [MetaHumans](https://www.unrealengine.com/en-US/metahuman) is a technology framework that facilitates modeling and animation of hyper-realistic human characters in video games. Alongside the improved rendering of skin, clothes and hair come a suite of tools to help you create MetaHumans efficiently in UE5. The MetaHumans framework provides UIs for modeling and animating hyper-realistic depictions of humans. This has big implications for robotic applications of CARLA involving facial recognition, such as security drones or search and rescue applications. 
 
 ## Coming soon!
 
