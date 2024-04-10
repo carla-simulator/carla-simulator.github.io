@@ -50,3 +50,4 @@ Neya Systems, a division of Applied Research Associates, is committed to advanci
 #### About ARA
 
 Applied Research Associates, Inc. (ARA) was founded in 1979, in Albuquerque, New Mexico, to offer science and engineering research to solve problems of national importance. ARA delivers leading-edge products and innovative solutions for national defense, energy, homeland security, aerospace, healthcare, transportation, and manufacturing. With over 2,000 employee-owners at locations in the U.S. and Canada, ARA offers a broad range of technical expertise in defense technologies, civil engineering, computer software and simulation, systems analysis, biomedical engineering, environmental technologies, and blast testing and measurement.
+
