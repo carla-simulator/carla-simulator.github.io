@@ -193,86 +193,91 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  TArray&lt;FString&gt; GetNamesOfAllActors();</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  <span class="keywordtype">void</span> InitGame(<span class="keyword">const</span> FString &amp;MapName, <span class="keyword">const</span> FString &amp;Options, FString &amp;ErrorMessage) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  <span class="comment">// Gravitational acceleration. Default is earth one, which is approximately 9.81 m/s^2</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;  UPROPERTY(BlueprintReadOnly, EditAnywhere, Category=<span class="stringliteral">&quot;Sensor Gravity&quot;</span>)</div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#aef242aab90ba74932de0dfbef71af312">  117</a></span>&#160;  float IMUISensorGravity = 9.81f;</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  <span class="keywordtype">void</span> RestartPlayer(<a class="code" href="../../df/d0f/classAController.html">AController</a> *NewPlayer) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;protected:</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  <span class="keywordtype">void</span> BeginPlay() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  <span class="keywordtype">void</span> InitGame(const FString &amp;MapName, const FString &amp;Options, FString &amp;ErrorMessage) override;</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160; </div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  <span class="keywordtype">void</span> EndPlay(<span class="keyword">const</span> EEndPlayReason::Type EndPlayReason) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  <span class="keywordtype">void</span> RestartPlayer(<a class="code" href="../../df/d0f/classAController.html">AController</a> *NewPlayer) override;</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  <span class="keywordtype">void</span> Tick(<span class="keywordtype">float</span> DeltaSeconds) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  <span class="keywordtype">void</span> BeginPlay() override;</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  <span class="keywordtype">void</span> EndPlay(const EEndPlayReason::Type EndPlayReason) override;</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160; </div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  <span class="keywordtype">void</span> SpawnActorFactories();</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  <span class="keywordtype">void</span> Tick(<span class="keywordtype">float</span> DeltaSeconds) override;</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  <span class="keywordtype">void</span> StoreSpawnPoints();</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;private:</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  <span class="keywordtype">void</span> GenerateSpawnPoints();</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  <span class="keywordtype">void</span> SpawnActorFactories();</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160; </div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  <span class="keywordtype">void</span> ParseOpenDrive();</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  <span class="keywordtype">void</span> StoreSpawnPoints();</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160; </div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;  <span class="keywordtype">void</span> RegisterEnvironmentObjects();</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;  <span class="keywordtype">void</span> GenerateSpawnPoints();</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160; </div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  <span class="keywordtype">void</span> ConvertMapLayerMaskToMapNames(int32 <a class="code" href="../../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42b">MapLayer</a>, TArray&lt;FName&gt;&amp; OutLevelNames);</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  <span class="keywordtype">void</span> ParseOpenDrive();</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160; </div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;  <span class="keywordtype">void</span> OnEpisodeSettingsChanged(<span class="keyword">const</span> <a class="code" href="../../da/d6e/structFEpisodeSettings.html">FEpisodeSettings</a> &amp;Settings);</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;  <span class="keywordtype">void</span> RegisterEnvironmentObjects();</div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160; </div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;  UPROPERTY()</div>
-<div class="line"><a name="l00144"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a4053246b6c6e52f1c10ee5994a8d6a7c">  144</a></span>&#160;  <a class="code" href="../../da/d55/classUCarlaGameInstance.html">UCarlaGameInstance</a> *GameInstance = <span class="keywordtype">nullptr</span>;</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160; </div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;  UPROPERTY()</div>
-<div class="line"><a name="l00147"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#aad2e0525280c7af26c6ddd79a9f2d619">  147</a></span>&#160;  <a class="code" href="../../df/dad/classUTaggerDelegate.html">UTaggerDelegate</a> *TaggerDelegate = <span class="keywordtype">nullptr</span>;</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160; </div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  UPROPERTY()</div>
-<div class="line"><a name="l00150"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a4a0af44c0502edf2aff14d6252d8562e">  150</a></span>&#160;  <a class="code" href="../../d4/d74/classUCarlaSettingsDelegate.html">UCarlaSettingsDelegate</a> *CarlaSettingsDelegate = <span class="keywordtype">nullptr</span>;</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160; </div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  UPROPERTY()</div>
-<div class="line"><a name="l00153"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#ad0ef4febe3ee6b2a4a1771a34c2e17f4">  153</a></span>&#160;  <a class="code" href="../../dc/d84/classUCarlaEpisode.html">UCarlaEpisode</a> *Episode = <span class="keywordtype">nullptr</span>;</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160; </div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  UPROPERTY()</div>
-<div class="line"><a name="l00156"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a6d5633dbba9d4a461f976cb6ea91c23c">  156</a></span>&#160;  <a class="code" href="../../dd/db9/classACarlaRecorder.html">ACarlaRecorder</a> *Recorder = <span class="keywordtype">nullptr</span>;</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160; </div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;  UPROPERTY()</div>
-<div class="line"><a name="l00159"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#ac515a67c500ea194bef5b651df0c79d2">  159</a></span>&#160;  <a class="code" href="../../d2/d5b/classUObjectRegister.html">UObjectRegister</a>* ObjectRegister = <span class="keywordtype">nullptr</span>;</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="comment">  /// The class of Weather to spawn.</span></div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="comment"></span>  UPROPERTY(Category = &quot;CARLA Game Mode&quot;, EditAnywhere)</div>
-<div class="line"><a name="l00163"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a07d449d2c413d33950f2d25b0d3535d6">  163</a></span>&#160;  TSubclassOf&lt;<a class="code" href="../../de/d75/classAWeather.html">AWeather</a>&gt; WeatherClass;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;  <span class="keywordtype">void</span> ConvertMapLayerMaskToMapNames(int32 <a class="code" href="../../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42b">MapLayer</a>, TArray&lt;FName&gt;&amp; OutLevelNames);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160; </div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;  <span class="keywordtype">void</span> OnEpisodeSettingsChanged(const <a class="code" href="../../da/d6e/structFEpisodeSettings.html">FEpisodeSettings</a> &amp;Settings);</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160; </div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;  UPROPERTY()</div>
+<div class="line"><a name="l00148"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a4053246b6c6e52f1c10ee5994a8d6a7c">  148</a></span>&#160;  <a class="code" href="../../da/d55/classUCarlaGameInstance.html">UCarlaGameInstance</a> *GameInstance = <span class="keywordtype">nullptr</span>;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160; </div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;  UPROPERTY()</div>
+<div class="line"><a name="l00151"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#aad2e0525280c7af26c6ddd79a9f2d619">  151</a></span>&#160;  <a class="code" href="../../df/dad/classUTaggerDelegate.html">UTaggerDelegate</a> *TaggerDelegate = <span class="keywordtype">nullptr</span>;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160; </div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  UPROPERTY()</div>
+<div class="line"><a name="l00154"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a4a0af44c0502edf2aff14d6252d8562e">  154</a></span>&#160;  <a class="code" href="../../d4/d74/classUCarlaSettingsDelegate.html">UCarlaSettingsDelegate</a> *CarlaSettingsDelegate = <span class="keywordtype">nullptr</span>;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160; </div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  UPROPERTY()</div>
+<div class="line"><a name="l00157"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#ad0ef4febe3ee6b2a4a1771a34c2e17f4">  157</a></span>&#160;  <a class="code" href="../../dc/d84/classUCarlaEpisode.html">UCarlaEpisode</a> *Episode = <span class="keywordtype">nullptr</span>;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160; </div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;  UPROPERTY()</div>
+<div class="line"><a name="l00160"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a6d5633dbba9d4a461f976cb6ea91c23c">  160</a></span>&#160;  <a class="code" href="../../dd/db9/classACarlaRecorder.html">ACarlaRecorder</a> *Recorder = <span class="keywordtype">nullptr</span>;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  UPROPERTY()</div>
+<div class="line"><a name="l00163"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#ac515a67c500ea194bef5b651df0c79d2">  163</a></span>&#160;  <a class="code" href="../../d2/d5b/classUObjectRegister.html">UObjectRegister</a>* ObjectRegister = <span class="keywordtype">nullptr</span>;</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="comment">  /// List of actor spawners that will be used to define and spawn the actors</span></div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="comment">  /// available in game.</span></div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="comment"></span>  UPROPERTY(Category = &quot;CARLA Game Mode&quot;, EditAnywhere)</div>
-<div class="line"><a name="l00168"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#aebc402ffc6203cd7073aeb293ab49c6d">  168</a></span>&#160;  TSet&lt;TSubclassOf&lt;<a class="code" href="../../d8/d84/classACarlaActorFactory.html">ACarlaActorFactory</a>&gt;&gt; ActorFactories;</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160; </div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;  UPROPERTY()</div>
-<div class="line"><a name="l00171"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a25e4a1f2ab58ab7d1d5ae9235539a8ad">  171</a></span>&#160;  TArray&lt;FTransform&gt; SpawnPointsTransforms;</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160; </div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;  UPROPERTY()</div>
-<div class="line"><a name="l00174"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a333db93d448c91d5b83b2f45224fe9a1">  174</a></span>&#160;  TArray&lt;<a class="code" href="../../d8/d84/classACarlaActorFactory.html">ACarlaActorFactory</a> *&gt; ActorFactoryInstances;</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160; </div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;  UPROPERTY()</div>
-<div class="line"><a name="l00177"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#ac2a4e6ec2ec0e42c37bd49248b8f0dfb">  177</a></span>&#160;  <a class="code" href="../../df/da5/classATrafficLightManager.html">ATrafficLightManager</a>* TrafficLightManager = <span class="keywordtype">nullptr</span>;</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160; </div>
-<div class="line"><a name="l00179"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a63e9d6a35421e60c7e028903560700e9">  179</a></span>&#160;  <a class="code" href="../../d9/d4b/classALargeMapManager.html">ALargeMapManager</a>* LMManager = <span class="keywordtype">nullptr</span>;</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160; </div>
-<div class="line"><a name="l00181"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a9726b0242b264110e5b535d4e0d1a042">  181</a></span>&#160;  FDelegateHandle OnEpisodeSettingsChangeHandle;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="comment">  /// The class of Weather to spawn.</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="comment"></span>  UPROPERTY(Category = &quot;CARLA Game Mode&quot;, EditAnywhere)</div>
+<div class="line"><a name="l00167"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a07d449d2c413d33950f2d25b0d3535d6">  167</a></span>&#160;  TSubclassOf&lt;<a class="code" href="../../de/d75/classAWeather.html">AWeather</a>&gt; WeatherClass;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="comment">  /// List of actor spawners that will be used to define and spawn the actors</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="comment">  /// available in game.</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<span class="comment"></span>  UPROPERTY(Category = &quot;CARLA Game Mode&quot;, EditAnywhere)</div>
+<div class="line"><a name="l00172"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#aebc402ffc6203cd7073aeb293ab49c6d">  172</a></span>&#160;  TSet&lt;TSubclassOf&lt;<a class="code" href="../../d8/d84/classACarlaActorFactory.html">ACarlaActorFactory</a>&gt;&gt; ActorFactories;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160; </div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;  UPROPERTY()</div>
+<div class="line"><a name="l00175"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a25e4a1f2ab58ab7d1d5ae9235539a8ad">  175</a></span>&#160;  TArray&lt;FTransform&gt; SpawnPointsTransforms;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160; </div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  UPROPERTY()</div>
+<div class="line"><a name="l00178"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a333db93d448c91d5b83b2f45224fe9a1">  178</a></span>&#160;  TArray&lt;<a class="code" href="../../d8/d84/classACarlaActorFactory.html">ACarlaActorFactory</a> *&gt; ActorFactoryInstances;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160; </div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  UPROPERTY()</div>
+<div class="line"><a name="l00181"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#ac2a4e6ec2ec0e42c37bd49248b8f0dfb">  181</a></span>&#160;  <a class="code" href="../../df/da5/classATrafficLightManager.html">ATrafficLightManager</a>* TrafficLightManager = <span class="keywordtype">nullptr</span>;</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160; </div>
-<div class="line"><a name="l00183"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a12539910fc2253b6496c0f8ce1e505ea">  183</a></span>&#160;  boost::optional&lt;<a class="code" href="../../d9/d36/namespacecarla.html">carla</a>::road::Map&gt; Map;</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160; </div>
-<div class="line"><a name="l00185"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a59c2e7c9005a53436fb5a82041aa07fd">  185</a></span>&#160;  <span class="keywordtype">int</span> PendingLevelsToLoad = 0;</div>
-<div class="line"><a name="l00186"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#aa2ddb2831d7a8ff2092f4420af51c203">  186</a></span>&#160;  <span class="keywordtype">int</span> PendingLevelsToUnLoad = 0;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  UPROPERTY()</div>
+<div class="line"><a name="l00184"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a63e9d6a35421e60c7e028903560700e9">  184</a></span>&#160;  <a class="code" href="../../d9/d4b/classALargeMapManager.html">ALargeMapManager</a>* LMManager = <span class="keywordtype">nullptr</span>;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160; </div>
+<div class="line"><a name="l00186"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a9726b0242b264110e5b535d4e0d1a042">  186</a></span>&#160;  FDelegateHandle OnEpisodeSettingsChangeHandle;</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160; </div>
-<div class="line"><a name="l00188"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#aeeb5e28af2d1184b0a9309b4d21f80a2">  188</a></span>&#160;  <span class="keywordtype">bool</span> ReadyToRegisterObjects = false;</div>
+<div class="line"><a name="l00188"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a12539910fc2253b6496c0f8ce1e505ea">  188</a></span>&#160;  boost::optional&lt;<a class="code" href="../../d9/d36/namespacecarla.html">carla</a>::road::Map&gt; Map;</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160; </div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  <span class="comment">// We keep a global uuid to allow the load/unload layer methods to be called</span></div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  <span class="comment">// in the same tick</span></div>
-<div class="line"><a name="l00192"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a4bb6b2cc3f55515b8d544b5dba96ae57">  192</a></span>&#160;  int32 LatentInfoUUID = 0;</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160; </div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;};</div>
+<div class="line"><a name="l00190"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a59c2e7c9005a53436fb5a82041aa07fd">  190</a></span>&#160;  <span class="keywordtype">int</span> PendingLevelsToLoad = 0;</div>
+<div class="line"><a name="l00191"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#aa2ddb2831d7a8ff2092f4420af51c203">  191</a></span>&#160;  <span class="keywordtype">int</span> PendingLevelsToUnLoad = 0;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160; </div>
+<div class="line"><a name="l00193"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#aeeb5e28af2d1184b0a9309b4d21f80a2">  193</a></span>&#160;  <span class="keywordtype">bool</span> ReadyToRegisterObjects = false;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160; </div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;  <span class="comment">// We keep a global uuid to allow the load/unload layer methods to be called</span></div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;  <span class="comment">// in the same tick</span></div>
+<div class="line"><a name="l00197"></a><span class="lineno"><a class="line" href="../../db/de5/classACarlaGameModeBase.html#a4bb6b2cc3f55515b8d544b5dba96ae57">  197</a></span>&#160;  int32 LatentInfoUUID = 0;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160; </div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;};</div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aTexture_8h_html"><div class="ttname"><a href="../../d9/dbf/Texture_8h.html">Texture.h</a></div></div>
 <div class="ttc" id="aLargeMapManager_8h_html"><div class="ttname"><a href="../../d3/d30/LargeMapManager_8h.html">LargeMapManager.h</a></div></div>

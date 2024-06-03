@@ -182,30 +182,32 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> EndPlay(<span class="keyword">const</span> EEndPlayReason::Type EndPlayReason) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">  #endif</span></div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> DisableSpecialPhysics() <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  <span class="keywordtype">void</span> DisableChronoPhysics();</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="keyword">private</span>:</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  UFUNCTION()</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  void OnVehicleHit(<a class="code" href="../../d1/da4/classAActor.html">AActor</a> *<a class="code" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a31344dba146ce930f774cbd2f8dab022">Actor</a>,</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;      <a class="code" href="../../d1/da4/classAActor.html">AActor</a> *OtherActor,</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;      FVector NormalImpulse,</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;      const FHitResult &amp;Hit);</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160; </div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  <span class="comment">// On car mesh overlap, only works when carsim is enabled</span></div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  <span class="comment">// (this event triggers when overlapping with static environment)</span></div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;  UFUNCTION()</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  <span class="keywordtype">void</span> OnVehicleOverlap(<a class="code" href="../../d9/d6d/classUPrimitiveComponent.html">UPrimitiveComponent</a>* OverlappedComponent,</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;      <a class="code" href="../../d1/da4/classAActor.html">AActor</a>* OtherActor,</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      <a class="code" href="../../d9/d6d/classUPrimitiveComponent.html">UPrimitiveComponent</a>* OtherComp,</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;      int32 OtherBodyIndex,</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;      <span class="keywordtype">bool</span> bFromSweep,</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      const FHitResult &amp; SweepResult);</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;};</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  <span class="keywordtype">void</span> DisableChronoPhysics();</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  UFUNCTION()</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  void OnVehicleHit(<a class="code" href="../../d1/da4/classAActor.html">AActor</a> *<a class="code" href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a31344dba146ce930f774cbd2f8dab022">Actor</a>,</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;      <a class="code" href="../../d1/da4/classAActor.html">AActor</a> *OtherActor,</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;      FVector NormalImpulse,</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;      const FHitResult &amp;Hit);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;  <span class="comment">// On car mesh overlap, only works when carsim is enabled</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  <span class="comment">// (this event triggers when overlapping with static environment)</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;  UFUNCTION()</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  <span class="keywordtype">void</span> OnVehicleOverlap(<a class="code" href="../../d9/d6d/classUPrimitiveComponent.html">UPrimitiveComponent</a>* OverlappedComponent,</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;      <a class="code" href="../../d1/da4/classAActor.html">AActor</a>* OtherActor,</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;      <a class="code" href="../../d9/d6d/classUPrimitiveComponent.html">UPrimitiveComponent</a>* OtherComp,</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      int32 OtherBodyIndex,</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;      <span class="keywordtype">bool</span> bFromSweep,</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;      const FHitResult &amp; SweepResult);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;};</div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="adisable-ue4-macros_8h_html"><div class="ttname"><a href="../../d2/d02/disable-ue4-macros_8h.html">disable-ue4-macros.h</a></div></div>
 <div class="ttc" id="aclassUBaseCarlaMovementComponent_html"><div class="ttname"><a href="../../d2/d48/classUBaseCarlaMovementComponent.html">UBaseCarlaMovementComponent</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d10/BaseCarlaMovementComponent_8h_source.html#l00017">BaseCarlaMovementComponent.h:17</a></div></div>
-<div class="ttc" id="aclassACarlaWheeledVehicle_html"><div class="ttname"><a href="../../d5/d70/classACarlaWheeledVehicle.html">ACarlaWheeledVehicle</a></div><div class="ttdoc">Base class for CARLA wheeled vehicles.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00072">CarlaWheeledVehicle.h:72</a></div></div>
+<div class="ttc" id="aclassACarlaWheeledVehicle_html"><div class="ttname"><a href="../../d5/d70/classACarlaWheeledVehicle.html">ACarlaWheeledVehicle</a></div><div class="ttdoc">Base class for CARLA wheeled vehicles.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d00/CarlaWheeledVehicle_8h_source.html#l00073">CarlaWheeledVehicle.h:73</a></div></div>
 <div class="ttc" id="aUnreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehicleControl_8h_html"><div class="ttname"><a href="../../d4/dbd/Unreal_2CarlaUE4_2Plugins_2Carla_2Source_2Carla_2Vehicle_2VehicleControl_8h.html">VehicleControl.h</a></div></div>
 <div class="ttc" id="aclassUPrimitiveComponent_html"><div class="ttname"><a href="../../d9/d6d/classUPrimitiveComponent.html">UPrimitiveComponent</a></div></div>
 <div class="ttc" id="anamespacecarla_1_1traffic__manager_html_a31344dba146ce930f774cbd2f8dab022"><div class="ttname"><a href="../../d0/db7/namespacecarla_1_1traffic__manager.html#a31344dba146ce930f774cbd2f8dab022">carla::traffic_manager::Actor</a></div><div class="ttdeci">carla::SharedPtr&lt; cc::Actor &gt; Actor</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d84/LocalizationUtils_8h_source.html#l00026">LocalizationUtils.h:26</a></div></div>

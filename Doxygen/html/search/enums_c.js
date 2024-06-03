@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['trafficlightstate_16263',['TrafficLightState',['../de/d6c/namespacecarla_1_1rpc.html#a46c3995219197dcef2980adce8d1cfba',1,'carla::rpc']]],
-  ['type_16264',['Type',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#ad5910e4c561a99cf13fbb61702060cf2',1,'carla::road::element::LaneMarking']]],
-  ['type_5ft_16265',['type_t',['../df/d06/classpugi_1_1xpath__node__set.html#a6c6899c8ecfbce9e42ec85540907080e',1,'pugi::xpath_node_set']]]
+  ['roadboundariesmode_17341',['RoadBoundariesMode',['../db/d85/namespacecarla_1_1rss.html#a28d7e06be0ca33af00c6e19c5c36a671',1,'carla::rss']]],
+  ['roadoption_17342',['RoadOption',['../d0/db7/namespacecarla_1_1traffic__manager.html#a5734807dba08623eeca046a963ade360',1,'carla::traffic_manager']]]
 ];

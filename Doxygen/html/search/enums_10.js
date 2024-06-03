@@ -1,7 +1,11 @@
 var searchData=
 [
-  ['xml_5fencoding_16271',['xml_encoding',['../d3/d68/namespacepugi.html#a03f708f86abeff5fce6842ffd6a0951e',1,'pugi']]],
-  ['xml_5fnode_5ftype_16272',['xml_node_type',['../d3/d68/namespacepugi.html#a137e94a038e4ab0ada6477cf7f6153a9',1,'pugi']]],
-  ['xml_5fparse_5fstatus_16273',['xml_parse_status',['../d3/d68/namespacepugi.html#a9054ca609e12afb8f3e5892fc6c0b555',1,'pugi']]],
-  ['xpath_5fvalue_5ftype_16274',['xpath_value_type',['../d3/d68/namespacepugi.html#ae3820874caf240e9f311bfd2790a84d6',1,'pugi']]]
+  ['vehicledoor_17357',['VehicleDoor',['../de/d6c/namespacecarla_1_1rpc.html#a3eb217a0533294546f189b832ad0ee04',1,'carla::rpc']]],
+  ['vehiclefailurestate_17358',['VehicleFailureState',['../de/d6c/namespacecarla_1_1rpc.html#ae24acdb5a620582353443f8b547a52bc',1,'carla::rpc']]],
+  ['vehiclelengthconfidenceindication_17359',['VehicleLengthConfidenceIndication',['../dc/de0/classITSContainer.html#acad0c7e205d75cb4895829b0f817e044',1,'ITSContainer']]],
+  ['vehiclelengthvalue_17360',['VehicleLengthValue',['../dc/de0/classITSContainer.html#a3ee3217e148704be53b2d08b8fd41a98',1,'ITSContainer']]],
+  ['vehiclerole_17361',['VehicleRole',['../dc/de0/classITSContainer.html#aa17ad9e0ae02b960694bfea5e1977a25',1,'ITSContainer']]],
+  ['vehiclewheellocation_17362',['VehicleWheelLocation',['../de/d6c/namespacecarla_1_1rpc.html#ac246e8e8896e5580ccc625181d39e484',1,'carla::rpc']]],
+  ['vehiclewidth_17363',['VehicleWidth',['../dc/de0/classITSContainer.html#a5985a2df36398ee7db90d52c77fc706c',1,'ITSContainer']]],
+  ['verticalaccelerationvalue_17364',['VerticalAccelerationValue',['../dc/de0/classITSContainer.html#abc60323b8debd6cd4003995944ec2d40',1,'ITSContainer']]]
 ];

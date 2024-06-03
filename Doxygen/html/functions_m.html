@@ -148,6 +148,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>m_frame_id
 : <a class="el" href="d8/d15/classstd__msgs_1_1msg_1_1Header.html#a13dd40af62ac6d22c2f4db89fedb1820">std_msgs::msg::Header</a>
 </li>
+<li>m_fspl_d0
+: <a class="el" href="d8/d25/classPathLossModel.html#a08609c28cfd6ffe8d48c65becde50aa0">PathLossModel</a>
+</li>
 <li>m_gear
 : <a class="el" href="dd/d4d/classcarla__msgs_1_1msg_1_1CarlaEgoVehicleControl.html#aaa3a49f04cb0fb2f9be3263163222829">carla_msgs::msg::CarlaEgoVehicleControl</a>
 </li>
@@ -386,6 +389,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="d5/de9/classgeometry__msgs_1_1msg_1_1Quaternion.html#aebbdcc04062f233b875814928dc9edae">geometry_msgs::msg::Quaternion</a>
 , <a class="el" href="df/d66/classgeometry__msgs_1_1msg_1_1Vector3.html#a60da7cc4e604a25baea6d300d917fa86">geometry_msgs::msg::Vector3</a>
 </li>
+<li>mActorOwner
+: <a class="el" href="dc/d72/classCaService.html#ad51577c3d1a3da59e11cd722d4dfc1b5">CaService</a>
+, <a class="el" href="d8/d25/classPathLossModel.html#a9930e004cf93a532e0fd371b836b0f17">PathLossModel</a>
+</li>
+<li>mActorV2XDataMap
+: <a class="el" href="de/d1f/classACustomV2XSensor.html#afae669dc38ad1138bfc208a6dfb4b58c">ACustomV2XSensor</a>
+, <a class="el" href="d3/dd4/classAV2XSensor.html#a541b6846bd622a3357fec4f1874955dd">AV2XSensor</a>
+</li>
 <li>Magic
 : <a class="el" href="da/dab/structCarlaRecorderInfo.html#abe6b0af97466c52aa8810bf925f1985b">CarlaRecorderInfo</a>
 </li>
@@ -430,6 +441,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>MakeColorConvertedView()
 : <a class="el" href="d3/dcd/classcarla_1_1image_1_1ImageView.html#a8a298b661be31497eca9336b5bf60221">carla::image::ImageView</a>
+</li>
+<li>MakeCustomV2XDefinition()
+: <a class="el" href="dd/da3/classUActorBlueprintFunctionLibrary.html#a43e718e1315f87e4cf556a5994e774c0">UActorBlueprintFunctionLibrary</a>
 </li>
 <li>MakeDebugHelper()
 : <a class="el" href="db/d1f/classcarla_1_1client_1_1World.html#a2779e7d1c5b363b848db67f7d3fc8caa">carla::client::World</a>
@@ -511,6 +525,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="d4/d57/classcarla_1_1geom_1_1Vector2D.html#a9ae11180577317abb68e94293388cad2">carla::geom::Vector2D</a>
 , <a class="el" href="d9/dfe/classcarla_1_1geom_1_1Vector3D.html#a15ae9cc36cd1e3fd34c1398acc897f68">carla::geom::Vector3D</a>
 </li>
+<li>MakeV2XDefinition()
+: <a class="el" href="dd/da3/classUActorBlueprintFunctionLibrary.html#ad8b6e7f68d88556a2db3305b4d80cab2">UActorBlueprintFunctionLibrary</a>
+</li>
+<li>MakeVehicleBlockageLoss()
+: <a class="el" href="d8/d25/classPathLossModel.html#a8ed499a66d4c4e0ba2274dfa0f3ed580">PathLossModel</a>
+</li>
 <li>MakeVehicleDefinition()
 : <a class="el" href="dd/da3/classUActorBlueprintFunctionLibrary.html#a5e83afa97bb195943c3a8a3b9a897c87">UActorBlueprintFunctionLibrary</a>
 </li>
@@ -536,7 +556,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="de/d61/structcarla_1_1ros2_1_1VehicleControl.html#a2fd186c1a2c999947e98f85e6bf1e850">carla::ros2::VehicleControl</a>
 , <a class="el" href="d3/d9c/classcarla_1_1rpc_1_1VehicleControl.html#a393096801c5e89514ab10950ac73dbc2">carla::rpc::VehicleControl</a>
 , <a class="el" href="d9/d06/classcarla_1_1sensor_1_1data_1_1detail_1_1PackedVehicleControl.html#abe7820a86ff5fe88992947a4f0d820ea">carla::sensor::data::detail::PackedVehicleControl</a>
-, <a class="el" href="dd/d4d/classcarla__msgs_1_1msg_1_1CarlaEgoVehicleControl.html#a8adde66c2903ef2717ec2cf18013af72">carla_msgs::msg::CarlaEgoVehicleControl</a>
+, <a class="el" href="dd/d4d/classcarla__msgs_1_1msg_1_1CarlaEgoVehicleControl.html#ad43aaff1b64b1c3d903e54ac4a1d4a2f">carla_msgs::msg::CarlaEgoVehicleControl</a>
 </li>
 <li>Map
 : <a class="el" href="db/de5/classACarlaGameModeBase.html#a12539910fc2253b6496c0f8ce1e505ea">ACarlaGameModeBase</a>
@@ -774,8 +794,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>MaxTilesDistMsgIndex
 : <a class="el" href="d9/d4b/classALargeMapManager.html#adf50c9495fb837140f4e54ae4f709bf5">ALargeMapManager</a>
 </li>
+<li>mCAMMessage
+: <a class="el" href="dc/d72/classCaService.html#a5d4f6a1d6e8fb9387f06b2ffb7503cd9">CaService</a>
+</li>
+<li>mCarlaActor
+: <a class="el" href="dc/d72/classCaService.html#a90e5277031280baa479ce444ec96d5f5">CaService</a>
+</li>
+<li>mCarlaEpisode
+: <a class="el" href="dc/d72/classCaService.html#a2c67cc763c4b21a672e4e58eb2b87239">CaService</a>
+, <a class="el" href="d8/d25/classPathLossModel.html#a2edff1d7b63c01fa3701e5cbbf41ada4">PathLossModel</a>
+</li>
+<li>mDccRestriction
+: <a class="el" href="dc/d72/classCaService.html#a34afcd577737852ff2a52de325e5138f">CaService</a>
+</li>
 <li>MeasureExecutionTime()
 : <a class="el" href="d1/d84/classcarla_1_1traffic__manager_1_1SnippetProfiler.html#a05aaba9c826cc2fc55e1dc3fbf97cf4f">carla::traffic_manager::SnippetProfiler</a>
+</li>
+<li>mElapsedTime
+: <a class="el" href="dc/d72/classCaService.html#a7ff3abfd320a908828ad2e65c0e8bd9a">CaService</a>
 </li>
 <li>MergeAndSmooth()
 : <a class="el" href="d6/d3d/classcarla_1_1geom_1_1MeshFactory.html#ac7c891b3eb9597cca2e928da5bce47c7">carla::geom::MeshFactory</a>
@@ -799,11 +835,77 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>MeshMaterial()
 : <a class="el" href="dc/d90/structcarla_1_1geom_1_1MeshMaterial.html#a73c01e26dc62fb3a038e4c834c289310">carla::geom::MeshMaterial</a>
 </li>
+<li>Message
+: <a class="el" href="d7/dd4/classcarla_1_1sensor_1_1data_1_1CAMData.html#ae2a2fb34f9888c5e577aa486e4808492">carla::sensor::data::CAMData</a>
+, <a class="el" href="d8/daf/classcarla_1_1sensor_1_1data_1_1CustomV2XData.html#a21a8a0f8180623329a40975acd1fe999">carla::sensor::data::CustomV2XData</a>
+</li>
+<li>message
+: <a class="el" href="d4/d88/structCustomV2XM.html#ad52b29d28188ada49d66e3fd33db4a75">CustomV2XM</a>
+</li>
+<li>messageID
+: <a class="el" href="d0/d65/structITSContainer_1_1ItsPduHeader.html#a2101625151b4a07ecb30b9593b72f7ef">ITSContainer::ItsPduHeader</a>
+, <a class="el" href="dc/de0/classITSContainer.html#ab26b4bbf3b55222243dbc48f58c3ba58">ITSContainer</a>
+</li>
+<li>messageID_cam
+: <a class="el" href="dc/de0/classITSContainer.html#ab26b4bbf3b55222243dbc48f58c3ba58a18f1dc17d7280d5c09aca350b66cc4ea">ITSContainer</a>
+</li>
+<li>messageID_custom
+: <a class="el" href="dc/de0/classITSContainer.html#ab26b4bbf3b55222243dbc48f58c3ba58a9463151cb58e9a939b8737431df38a61">ITSContainer</a>
+</li>
+<li>messageID_denm
+: <a class="el" href="dc/de0/classITSContainer.html#ab26b4bbf3b55222243dbc48f58c3ba58a83e39d1a024b5852152d75debd879e25">ITSContainer</a>
+</li>
+<li>messageID_ev_rsr
+: <a class="el" href="dc/de0/classITSContainer.html#ab26b4bbf3b55222243dbc48f58c3ba58a40e429c3c47fa8d2a76448d58c527d50">ITSContainer</a>
+</li>
+<li>messageID_ivi
+: <a class="el" href="dc/de0/classITSContainer.html#ab26b4bbf3b55222243dbc48f58c3ba58a5981dc810cfea48625266a611131b545">ITSContainer</a>
+</li>
+<li>messageID_map
+: <a class="el" href="dc/de0/classITSContainer.html#ab26b4bbf3b55222243dbc48f58c3ba58a7dcbf82c9b27a6b04c96dae5a1661d39">ITSContainer</a>
+</li>
+<li>messageID_poi
+: <a class="el" href="dc/de0/classITSContainer.html#ab26b4bbf3b55222243dbc48f58c3ba58a819eb109b90f41938cb19611c5ad7c79">ITSContainer</a>
+</li>
+<li>messageID_spat
+: <a class="el" href="dc/de0/classITSContainer.html#ab26b4bbf3b55222243dbc48f58c3ba58a8b36d7a8b87b790ee3cfdd0e205f9659">ITSContainer</a>
+</li>
+<li>MessageList
+: <a class="el" href="d6/d97/classcarla_1_1sensor_1_1data_1_1CAMDataS.html#aee71a63e36aa31c980035773391cff23">carla::sensor::data::CAMDataS</a>
+, <a class="el" href="d2/d28/classcarla_1_1sensor_1_1data_1_1CustomV2XDataS.html#ac94d189542c1a7d4664fd9736c8ffcf7">carla::sensor::data::CustomV2XDataS</a>
+</li>
 <li>MessageTmpl()
 : <a class="el" href="db/df7/classcarla_1_1streaming_1_1detail_1_1tcp_1_1MessageTmpl.html#aac23ea19dbb30fc60c3c787018812da7">carla::streaming::detail::tcp::MessageTmpl&lt; MaxNumberOfBuffers &gt;</a>
 </li>
 <li>Metadata()
-: <a class="el" href="db/dc6/classcarla_1_1rpc_1_1Metadata.html#a105c04fee29c2bc10b2350d43fa13831">carla::rpc::Metadata</a>
+: <a class="el" href="db/dc6/classcarla_1_1rpc_1_1Metadata.html#a3c9a337413e9215830ac7cac19ad0890">carla::rpc::Metadata</a>
+</li>
+<li>mFixedRate
+: <a class="el" href="dc/d72/classCaService.html#a6484c8ed44c9e473fe59f8706b83824b">CaService</a>
+</li>
+<li>mGenCam
+: <a class="el" href="dc/d72/classCaService.html#a6b69f526691d16edcb6ef33421de62fe">CaService</a>
+</li>
+<li>mGenCamLowDynamicsCounter
+: <a class="el" href="dc/d72/classCaService.html#a640a878ee5e36312ecf0942495c08fcd">CaService</a>
+</li>
+<li>mGenCamLowDynamicsLimit
+: <a class="el" href="dc/d72/classCaService.html#a91207fa436ad641dac784d56da404636">CaService</a>
+</li>
+<li>mGenCamMax
+: <a class="el" href="dc/d72/classCaService.html#aafb8f03efad3188150c8b5de734b14e6">CaService</a>
+</li>
+<li>mGenCamMin
+: <a class="el" href="dc/d72/classCaService.html#a5bc8ee665592f8cdb5174e8160d1eb3f">CaService</a>
+</li>
+<li>mGenDeltaTimeMod
+: <a class="el" href="dc/d72/classCaService.html#ab369309148f43e135949aa7e7010acfe">CaService</a>
+</li>
+<li>mGenerationDelta0
+: <a class="el" href="dc/d72/classCaService.html#a89aa7091cdf1db8bb56ff89501ce3070">CaService</a>
+</li>
+<li>mGenerationInterval
+: <a class="el" href="dc/d72/classCaService.html#a381f1e4f2fdfc9c949a64bec8d841426">CaService</a>
 </li>
 <li>MidRainSunset
 : <a class="el" href="db/ddb/classcarla_1_1rpc_1_1WeatherParameters.html#a01d43158144414a140c6a85f1ae51e7e">carla::rpc::WeatherParameters</a>
@@ -821,7 +923,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="dd/d9b/structFWeatherParameters.html#ad30708beda221ba9d4e24a7e6d89f26f">FWeatherParameters</a>
 </li>
 <li>milliseconds()
-: <a class="el" href="d2/d2e/classcarla_1_1time__duration.html#ab6435c6f89dc71d1e33f4ac384c007ad">carla::time_duration</a>
+: <a class="el" href="d2/d2e/classcarla_1_1time__duration.html#a8e0c0126e3072904d82743915e85a322">carla::time_duration</a>
 </li>
 <li>min
 : <a class="el" href="db/d5b/structMeshReconstruction_1_1Rect3.html#a3f4ec9567d5a1e43de1068eee4348526">MeshReconstruction::Rect3</a>
@@ -847,11 +949,39 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>MinSpringStrength
 : <a class="el" href="df/d87/structFSpringBasedVegetationParameters.html#a45e7c3133b7bb5429ae8c04dea417c42">FSpringBasedVegetationParameters</a>
 </li>
+<li>mLastCamHeading
+: <a class="el" href="dc/d72/classCaService.html#a6f0041bb5e5de4d34c5b81c5c15f0899">CaService</a>
+</li>
+<li>mLastCamPosition
+: <a class="el" href="dc/d72/classCaService.html#a508cd2459c923b9c984673e879000c0a">CaService</a>
+</li>
+<li>mLastCamSpeed
+: <a class="el" href="dc/d72/classCaService.html#a8aa961705f479dd846bf150023e3d29c">CaService</a>
+</li>
+<li>mLastCamTimeStamp
+: <a class="el" href="dc/d72/classCaService.html#a55a47d41ba9bd06d32ecfc76514d28c0">CaService</a>
+</li>
+<li>mLastLowCamTimeStamp
+: <a class="el" href="dc/d72/classCaService.html#af649acb21c6a3523e9c132016836b0ef">CaService</a>
+</li>
+<li>mMessageData
+: <a class="el" href="de/d1f/classACustomV2XSensor.html#a34360cdf9059e7d74b203bbbc95255ac">ACustomV2XSensor</a>
+</li>
+<li>mMessageDataChanged
+: <a class="el" href="de/d1f/classACustomV2XSensor.html#a409f0794ac8c1a1fba342fde08005d53">ACustomV2XSensor</a>
+</li>
+<li>mMessageId
+: <a class="el" href="de/d1f/classACustomV2XSensor.html#a0758c9ca15ea4853ae14d684ea056cc5">ACustomV2XSensor</a>
+, <a class="el" href="dc/d72/classCaService.html#a28ecefadd3b13f4798d9c201d898686f">CaService</a>
+</li>
 <li>Model
 : <a class="el" href="da/d9e/classcarla_1_1learning_1_1NeuralModel.html#a96d446bef6d69d1e460b00f3f7f4723d">carla::learning::NeuralModel</a>
 , <a class="el" href="d5/d59/classFTrafficLightData.html#aedcf673f8015ead9c6d602f7503a6676">FTrafficLightData</a>
 , <a class="el" href="dc/d36/classFTrafficSignData.html#aeb9d52eca711f3315dd5f8b3a0a569bf">FTrafficSignData</a>
 , <a class="el" href="d0/db7/structFVehicleParameters.html#a2c2b7d67eb95b4bd15ae0e273718eaa1">FVehicleParameters</a>
+</li>
+<li>model
+: <a class="el" href="d8/d25/classPathLossModel.html#a2eda9629541dc9d6ad5e2c9d93e55e98">PathLossModel</a>
 </li>
 <li>modification_mutex
 : <a class="el" href="d6/d8c/classcarla_1_1traffic__manager_1_1AtomicActorSet.html#a5d419c62ead3da42b59936767c25429d">carla::traffic_manager::AtomicActorSet</a>
@@ -877,13 +1007,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 : <a class="el" href="dd/df9/classcarla_1_1traffic__manager_1_1MotionPlanStage.html#a918529ac3b9c0e1d19d586bae8040009">carla::traffic_manager::MotionPlanStage</a>
 </li>
 <li>MovableNonCopyable()
-: <a class="el" href="d7/d55/classcarla_1_1MovableNonCopyable.html#a15f074d2bf62b83a5a81ec3eec5fd2e1">carla::MovableNonCopyable</a>
+: <a class="el" href="d7/d55/classcarla_1_1MovableNonCopyable.html#a81858515e85e7d38a314f4eef98147dd">carla::MovableNonCopyable</a>
 </li>
 <li>MoveDataStream()
 : <a class="el" href="d3/d01/classASensor.html#a7e9466335d5838dc21e90ecd99c9d873">ASensor</a>
 </li>
 <li>MoveWrapper()
 : <a class="el" href="d6/d37/structcarla_1_1detail_1_1MoveWrapper.html#a8ff30d320d64ebf77ccc81229bbea996">carla::detail::MoveWrapper&lt; FunctorT &gt;</a>
+</li>
+<li>mProtocolVersion
+: <a class="el" href="de/d1f/classACustomV2XSensor.html#ab6cd02ca841f9e12053dd04f88fe36ec">ACustomV2XSensor</a>
+, <a class="el" href="dc/d72/classCaService.html#a3934a45c7f4a68d8aa38d145f35c8690">CaService</a>
+</li>
+<li>mRandomEngine
+: <a class="el" href="dc/d72/classCaService.html#ab3bb23fa1fd6c217e75164960761de60">CaService</a>
+, <a class="el" href="d8/d25/classPathLossModel.html#a4a47350f9a83ea097f959c475eb7f285">PathLossModel</a>
+</li>
+<li>mReceiveActorPowerList
+: <a class="el" href="d8/d25/classPathLossModel.html#a9f590eca9bdaca43984e9f60cf691cb3">PathLossModel</a>
 </li>
 <li>MSGPACK_DEFINE_ARRAY()
 : <a class="el" href="d8/d68/classcarla_1_1geom_1_1BoundingBox.html#aa80a7a5bb2abfd845723d45ce7227d69">carla::geom::BoundingBox</a>
@@ -923,6 +1064,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="df/d6d/structcarla_1_1rpc_1_1Command_1_1SpawnActor.html#a321da57a6528ed031639f349bdcc5f05">carla::rpc::Command::SpawnActor</a>
 , <a class="el" href="d1/d06/structcarla_1_1rpc_1_1DebugShape_1_1Arrow.html#a582e9e9281596eab8460250b14e78267">carla::rpc::DebugShape::Arrow</a>
 , <a class="el" href="d8/d2c/structcarla_1_1rpc_1_1DebugShape_1_1Box.html#a07bd1a1ff5bcc0d4f38807898563b801">carla::rpc::DebugShape::Box</a>
+, <a class="el" href="db/d4c/structcarla_1_1rpc_1_1DebugShape_1_1HUDArrow.html#a81920f7f74f3b2c7b1b1b2833a40eaa1">carla::rpc::DebugShape::HUDArrow</a>
+, <a class="el" href="d2/da2/structcarla_1_1rpc_1_1DebugShape_1_1HUDBox.html#a7bf4a05bb4a708c544c8120b02f46ed0">carla::rpc::DebugShape::HUDBox</a>
+, <a class="el" href="d7/d90/structcarla_1_1rpc_1_1DebugShape_1_1HUDLine.html#af3f379fe6e5604b4f2815a38c4b62eb4">carla::rpc::DebugShape::HUDLine</a>
+, <a class="el" href="db/d10/structcarla_1_1rpc_1_1DebugShape_1_1HUDPoint.html#af417206d232531c4ecd37082d3573080">carla::rpc::DebugShape::HUDPoint</a>
 , <a class="el" href="d4/de4/structcarla_1_1rpc_1_1DebugShape_1_1Line.html#a1f876b9a55f076fe35a22e4cf2856f27">carla::rpc::DebugShape::Line</a>
 , <a class="el" href="d1/d38/classcarla_1_1rpc_1_1DebugShape.html#aa65d43d68f37a59f6440d80cc61d7739">carla::rpc::DebugShape</a>
 , <a class="el" href="d4/d40/structcarla_1_1rpc_1_1DebugShape_1_1Point.html#a2060e2974e5d98994be86c06a5672334">carla::rpc::DebugShape::Point</a>
@@ -940,6 +1085,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 , <a class="el" href="d1/d73/classcarla_1_1rpc_1_1VehicleAckermannControl.html#abee0a98ffeb6ff48bc92386db14feb58">carla::rpc::VehicleAckermannControl</a>
 , <a class="el" href="d3/d9c/classcarla_1_1rpc_1_1VehicleControl.html#a5b208827cd0c310c11f649ee187d94ad">carla::rpc::VehicleControl</a>
 , <a class="el" href="da/d3f/classcarla_1_1rpc_1_1VehiclePhysicsControl.html#a1cb33b23e13be1c7ee70e7fa9650862f">carla::rpc::VehiclePhysicsControl</a>
+, <a class="el" href="d1/d26/classcarla_1_1rpc_1_1VehicleTelemetryData.html#a3acf38c9f4107d38cc34d295af8df5fd">carla::rpc::VehicleTelemetryData</a>
 , <a class="el" href="d0/d62/classcarla_1_1rpc_1_1WalkerBoneControlIn.html#ae67f563f9bcf4ae0cae9574791fabfcc">carla::rpc::WalkerBoneControlIn</a>
 , <a class="el" href="d2/ddc/classcarla_1_1rpc_1_1WalkerBoneControlOut.html#a06d764b4cf6d1e97b719da04a6c0d67e">carla::rpc::WalkerBoneControlOut</a>
 , <a class="el" href="d7/d1b/classcarla_1_1rpc_1_1WalkerControl.html#ae2141b571ac4ef37376cf20e35da6380">carla::rpc::WalkerControl</a>
@@ -963,6 +1109,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>MsgTime
 : <a class="el" href="d9/d4b/classALargeMapManager.html#a9761760c598094ad6a8a6841e254641b">ALargeMapManager</a>
 </li>
+<li>mStationId
+: <a class="el" href="de/d1f/classACustomV2XSensor.html#a0beb5a58578271150b796cb1d05530a4">ACustomV2XSensor</a>
+, <a class="el" href="dc/d72/classCaService.html#a7eff8682fc369bca189c986717f811ae">CaService</a>
+</li>
+<li>mStationType
+: <a class="el" href="dc/d72/classCaService.html#a8f25649a7ac2024d831553027770fca8">CaService</a>
+</li>
 <li>mt
 : <a class="el" href="d2/df0/classcarla_1_1traffic__manager_1_1RandomGenerator.html#ad27d9cd726f0e86c0ab1e66a6d9ede53">carla::traffic_manager::RandomGenerator</a>
 </li>
@@ -971,6 +1124,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </li>
 <li>MultiStreamState()
 : <a class="el" href="d1/d43/classcarla_1_1streaming_1_1detail_1_1MultiStreamState.html#af12b58a5f82da35983ca4c4739a8252f">carla::streaming::detail::MultiStreamState</a>
+</li>
+<li>mV2XActorContainer
+: <a class="el" href="de/d1f/classACustomV2XSensor.html#add6e2531fee028c7e077d33427c3516e">ACustomV2XSensor</a>
+, <a class="el" href="d3/dd4/classAV2XSensor.html#a689c03d119a2de1f1f374a4fb36fc719">AV2XSensor</a>
+</li>
+<li>mV2XData
+: <a class="el" href="de/d1f/classACustomV2XSensor.html#a731da65d1c997060c7693e74679147e0">ACustomV2XSensor</a>
+, <a class="el" href="d3/dd4/classAV2XSensor.html#ac6ca127d978f8c77fe45a6c9313dd614">AV2XSensor</a>
+</li>
+<li>mVehicle
+: <a class="el" href="dc/d72/classCaService.html#ace447b08a6ff0fd90463f073af14e11f">CaService</a>
+</li>
+<li>mWorld
+: <a class="el" href="dc/d72/classCaService.html#a0d95f35c2be38eadb6e40e633ebf1fee">CaService</a>
+, <a class="el" href="d8/d25/classPathLossModel.html#a14dba7729fbfc9fee3c51355dc094d3b">PathLossModel</a>
 </li>
 </ul>
 </div><!-- contents -->
