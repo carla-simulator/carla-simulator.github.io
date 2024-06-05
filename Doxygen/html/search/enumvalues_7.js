@@ -1,6 +1,19 @@
 var searchData=
 [
-  ['highbeam',['HighBeam',['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html#a6372a8be47dbe5cd2b9c19730e5d1dc5a1994c4159c94ab14c62a580d81c6461f',1,'carla::rpc::VehicleLightState']]],
-  ['hood',['Hood',['../d3/d00/CarlaWheeledVehicle_8h.html#aa720ea2031295cc8eab7bb5ce25b8c95a09ebc54f7e013cc9ad2ec79daf8d44b0',1,'Hood():&#160;CarlaWheeledVehicle.h'],['../de/d6c/namespacecarla_1_1rpc.html#a3eb217a0533294546f189b832ad0ee04a09ebc54f7e013cc9ad2ec79daf8d44b0',1,'carla::rpc::Hood()']]],
-  ['horizontalangle',['HorizontalAngle',['../d9/d27/classcarla_1_1sensor_1_1data_1_1SemanticLidarData.html#a0d0554efb807f37afef58001b1d575dbaaa55108e2fb49fbea1410ffe2201472e',1,'carla::sensor::data::SemanticLidarData']]]
+  ['headingconfidence_5fequalorwithinonedegree_17646',['HeadingConfidence_equalOrWithinOneDegree',['../dc/de0/classITSContainer.html#ada108f62cd832b5b2a62e76ffc1c84c4abdac6c2962e88e2b64bc3f6e9a5a63ad',1,'ITSContainer']]],
+  ['headingconfidence_5fequalorwithinzeropointonedegree_17647',['HeadingConfidence_equalOrWithinZeroPointOneDegree',['../dc/de0/classITSContainer.html#ada108f62cd832b5b2a62e76ffc1c84c4a3b530ba667cb67feba7be06789a476f7',1,'ITSContainer']]],
+  ['headingconfidence_5foutofrange_17648',['HeadingConfidence_outOfRange',['../dc/de0/classITSContainer.html#ada108f62cd832b5b2a62e76ffc1c84c4a2af6d1d6f243346e59a334a8b57dc592',1,'ITSContainer']]],
+  ['headingconfidence_5funavailable_17649',['HeadingConfidence_unavailable',['../dc/de0/classITSContainer.html#ada108f62cd832b5b2a62e76ffc1c84c4a35a3b425d8253be80d219f3ec10b68b3',1,'ITSContainer']]],
+  ['headingvalue_5funavailable_17650',['HeadingValue_unavailable',['../dc/de0/classITSContainer.html#ad96d0b4067761569290b6c9d49326cfcacf264a7be76ce85885c0b677455be1c1',1,'ITSContainer']]],
+  ['headingvalue_5fwgs84east_17651',['HeadingValue_wgs84East',['../dc/de0/classITSContainer.html#ad96d0b4067761569290b6c9d49326cfcad79d75fe6d384751aadd568bec02ecc6',1,'ITSContainer']]],
+  ['headingvalue_5fwgs84north_17652',['HeadingValue_wgs84North',['../dc/de0/classITSContainer.html#ad96d0b4067761569290b6c9d49326cfcad60c6e137509eb51fbaea84270c3f94e',1,'ITSContainer']]],
+  ['headingvalue_5fwgs84south_17653',['HeadingValue_wgs84South',['../dc/de0/classITSContainer.html#ad96d0b4067761569290b6c9d49326cfca309fac6620d8531cf94db453659eee88',1,'ITSContainer']]],
+  ['headingvalue_5fwgs84west_17654',['HeadingValue_wgs84West',['../dc/de0/classITSContainer.html#ad96d0b4067761569290b6c9d49326cfca55994b42435a5792447e8154822e6b63',1,'ITSContainer']]],
+  ['highbeam_17655',['HighBeam',['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html#a6372a8be47dbe5cd2b9c19730e5d1dc5a1994c4159c94ab14c62a580d81c6461f',1,'carla::rpc::VehicleLightState']]],
+  ['highfrequencycontainer_5fpr_5fbasicvehiclecontainerhighfrequency_17656',['HighFrequencyContainer_PR_basicVehicleContainerHighFrequency',['../d3/d4b/classCAMContainer.html#a2e44b19d446775bb656cbf5af850c5b9a2ed3758068e8606481249cfedbb4f6a1',1,'CAMContainer']]],
+  ['highfrequencycontainer_5fpr_5fnothing_17657',['HighFrequencyContainer_PR_NOTHING',['../d3/d4b/classCAMContainer.html#a2e44b19d446775bb656cbf5af850c5b9ade637c48f2fed2d4ceeab4e1550e5463',1,'CAMContainer']]],
+  ['highfrequencycontainer_5fpr_5frsucontainerhighfrequency_17658',['HighFrequencyContainer_PR_rsuContainerHighFrequency',['../d3/d4b/classCAMContainer.html#a2e44b19d446775bb656cbf5af850c5b9ad3db10a48e277e6ce07c27d1506a8750',1,'CAMContainer']]],
+  ['highway_17659',['Highway',['../dd/dc7/PathLossModel_8h.html#a9eb70545fc2d96c873583b473cfcfc36af4f33e9f89d3ba6307a13dc045f40301',1,'PathLossModel.h']]],
+  ['hood_17660',['Hood',['../d3/d00/CarlaWheeledVehicle_8h.html#aa720ea2031295cc8eab7bb5ce25b8c95a09ebc54f7e013cc9ad2ec79daf8d44b0',1,'Hood():&#160;CarlaWheeledVehicle.h'],['../de/d6c/namespacecarla_1_1rpc.html#a3eb217a0533294546f189b832ad0ee04a09ebc54f7e013cc9ad2ec79daf8d44b0',1,'carla::rpc::Hood()']]],
+  ['horizontalangle_17661',['HorizontalAngle',['../d9/d27/classcarla_1_1sensor_1_1data_1_1SemanticLidarData.html#a0d0554efb807f37afef58001b1d575dbaaa55108e2fb49fbea1410ffe2201472e',1,'carla::sensor::data::SemanticLidarData']]]
 ];
