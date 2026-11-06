@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['samplepolyflags',['SamplePolyFlags',['../db/dcc/namespacecarla_1_1nav.html#a329b61ddc44132187482ca1d90d47742',1,'carla::nav']]],
-  ['signalorientation',['SignalOrientation',['../de/d26/namespacecarla_1_1road.html#a819c473e6007333e3a037a76220707d8',1,'carla::road']]],
-  ['simulationstate',['SimulationState',['../da/d5d/classcarla_1_1sensor_1_1s11n_1_1EpisodeStateSerializer.html#a168a331cd795ab383f2a228241bd74aa',1,'carla::sensor::s11n::EpisodeStateSerializer']]]
+  ['navareas_0',['NavAreas',['../db/dcc/namespacecarla_1_1nav.html#a114f5d6847e336bbd3651f1e0f564d6d',1,'carla::nav']]],
+  ['nodeset_5feval_5ft_1',['nodeset_eval_t',['../db/d20/pugixml_8cpp.html#a3fdf699d01d8a3da77187c401c12e4b0',1,'pugixml.cpp']]],
+  ['nodetest_5ft_2',['nodetest_t',['../db/d20/pugixml_8cpp.html#ab268b4264276130baeb17ab629015275',1,'pugixml.cpp']]]
 ];

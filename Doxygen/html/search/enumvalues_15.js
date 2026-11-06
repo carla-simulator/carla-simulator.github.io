@@ -1,9 +1,24 @@
 var searchData=
 [
-  ['xintersection',['XIntersection',['../d2/de5/namespaceMapGen.html#a3dab4b218910e62b79f0d98c7895c92aa05ff87bdcb632a1f2b9b1243d507f00f',1,'MapGen']]],
-  ['xpath_5ftype_5fboolean',['xpath_type_boolean',['../d3/d68/namespacepugi.html#ae3820874caf240e9f311bfd2790a84d6a049dd1494237a55f8aba3392d12a0164',1,'pugi']]],
-  ['xpath_5ftype_5fnode_5fset',['xpath_type_node_set',['../d3/d68/namespacepugi.html#ae3820874caf240e9f311bfd2790a84d6af5613748204e2e4861524e7d63a699c9',1,'pugi']]],
-  ['xpath_5ftype_5fnone',['xpath_type_none',['../d3/d68/namespacepugi.html#ae3820874caf240e9f311bfd2790a84d6aaa768b8302ccc893f3cc9ba799360a77',1,'pugi']]],
-  ['xpath_5ftype_5fnumber',['xpath_type_number',['../d3/d68/namespacepugi.html#ae3820874caf240e9f311bfd2790a84d6a02959f74f4fe93d71a1e109a45f23825',1,'pugi']]],
-  ['xpath_5ftype_5fstring',['xpath_type_string',['../d3/d68/namespacepugi.html#ae3820874caf240e9f311bfd2790a84d6ade2b17f4d9fad5bfb1617bf5012cf5ad',1,'pugi']]]
+  ['wait_0',['Wait',['../dd/d17/namespacecarla_1_1multigpu.html#a61dbc23dda7990571135bfcb21a46390a0f68101772bd5397ef8eb1b632798652',1,'carla::multigpu']]],
+  ['wal_5fshader_5fflags_5fequirectangular_1',['WAL_SHADER_FLAGS_EQUIRECTANGULAR',['../d6/dd9/CameraModelUtil_8cpp.html#a0cedd5b09bf803a91ad942521d9fa9c7a2502672c02bc384284114e91a71edb91',1,'CameraModelUtil.cpp']]],
+  ['wal_5fshader_5fflags_5ffov_5fmask_2',['WAL_SHADER_FLAGS_FOV_MASK',['../d6/dd9/CameraModelUtil_8cpp.html#a0cedd5b09bf803a91ad942521d9fa9c7a8031a3ef1edbe82128a7d61c1fe73a4d',1,'CameraModelUtil.cpp']]],
+  ['walker_3',['Walker',['../dc/dde/classFCarlaActor.html#a68463a6ebe4a8d0364996c5d84af4279ad719083f59856e34a37e2137e2241d80',1,'FCarlaActor']]],
+  ['walker_5fidle_4',['WALKER_IDLE',['../db/dcc/namespacecarla_1_1nav.html#a728644a62154379cde64f6fda094bb26ad3c3ce9d18f1b8dc6869816a77b62f15',1,'carla::nav']]],
+  ['walker_5fin_5fevent_5',['WALKER_IN_EVENT',['../db/dcc/namespacecarla_1_1nav.html#a728644a62154379cde64f6fda094bb26ac5129ffebbc898fb0a798f6a3ab07a1c',1,'carla::nav']]],
+  ['walker_5fstop_6',['WALKER_STOP',['../db/dcc/namespacecarla_1_1nav.html#a728644a62154379cde64f6fda094bb26a0898307dae9998567216494e925409d6',1,'carla::nav']]],
+  ['walker_5fwalking_7',['WALKER_WALKING',['../db/dcc/namespacecarla_1_1nav.html#a728644a62154379cde64f6fda094bb26ada0ae36906a8ecc79950ac56800e3ada',1,'carla::nav']]],
+  ['walkerbones_8',['WalkerBones',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a5e51de1bac463c81ee7d3ed6adcb3156',1,'CarlaRecorder.h']]],
+  ['walkerdead_9',['WalkerDead',['../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da09eaa716dcb6c3965ffc601074fecf91',1,'CarlaServerResponse.h']]],
+  ['walkerincompatiblecontroller_10',['WalkerIncompatibleController',['../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da36c7119294334477a21948a963912fd7',1,'CarlaServerResponse.h']]],
+  ['walls_11',['walls',['../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42ba1f5c5ce5cdbea723378e6db882a732ec',1,'carla::rpc::Walls'],['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a1f5c5ce5cdbea723378e6db882a732ec',1,'carla::rpc::Walls']]],
+  ['water_12',['Water',['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a27634ff8002b12e75d98e07ccd005d18',1,'carla::rpc']]],
+  ['weather_13',['Weather',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a1441df6b1c10f910ccdc400e40b5fce9',1,'CarlaRecorder.h']]],
+  ['webmercator_14',['WebMercator',['../dc/dda/namespacecarla_1_1geom.html#aaf03fbc03395f06416c458d9a6eb6139a237a1ca3efabeb827ba61363ce1df6c7',1,'carla::geom']]],
+  ['wheelanimationnotsupported_15',['WheelAnimationNotSupported',['../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da9016ae7f807d12fe5b27e0a1c0c7d1a7',1,'CarlaServerResponse.h']]],
+  ['wheelanimationoverridedisabled_16',['WheelAnimationOverrideDisabled',['../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da49f8a45cad7d03bb574c7793821a8a33',1,'CarlaServerResponse.h']]],
+  ['wheelnotfound_17',['WheelNotFound',['../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da4aac9628b186cb2e518f8f3ad6d2dc5a',1,'CarlaServerResponse.h']]],
+  ['white_18',['white',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#adcc9f0cd0b5b4be0cc07be4bf5df30aca25a81701fbfa4a1efdf660a950c1d006',1,'carla::road::element::LaneMarking::White'],['../dd/d29/namespacetwinmodel.html#a3add9420e1b3d92983a3c0e477c1057da25a81701fbfa4a1efdf660a950c1d006',1,'twinmodel::White']]],
+  ['winner_19',['Winner',['../dd/dc7/PathLossModel_8h.html#aa876d1a2160aa7c743418434d7132688a25c11942165f512a48a069c466c79741',1,'PathLossModel.h']]],
+  ['worldobserver_20',['WorldObserver',['../d1/d4b/namespacecarla_1_1ros2.html#aadec52f2a609176e3429b83f492bdebda9983ac34fba02581197d32a13b6b120b',1,'carla::ros2']]]
 ];

@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['lanechange',['LaneChange',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#a1ae031503b72620fa5c60d0b8bc7b71f',1,'carla::road::element::LaneMarking::LaneChange()'],['../d1/df9/classcarla_1_1road_1_1element_1_1RoadInfoMarkRecord.html#a7ab9501c5086223a821a827e77edf7ec',1,'carla::road::element::RoadInfoMarkRecord::LaneChange()']]],
-  ['lanetype',['LaneType',['../df/d85/classcarla_1_1road_1_1Lane.html#a7b84fedfe3ac06e2568d31de758a9247',1,'carla::road::Lane']]],
-  ['lexeme_5ft',['lexeme_t',['../db/d20/pugixml_8cpp.html#a1fdd6d0a63acbba1491ab331ddce4ac9',1,'pugixml.cpp']]],
-  ['lightgroup',['LightGroup',['../d3/d13/classcarla_1_1rpc_1_1LightState.html#a0dd6e7e658f888d53b9f134359d03bff',1,'carla::rpc::LightState']]],
-  ['lightstate',['LightState',['../db/d60/classcarla_1_1rpc_1_1VehicleLightState.html#a6372a8be47dbe5cd2b9c19730e5d1dc5',1,'carla::rpc::VehicleLightState']]]
+  ['field_0',['field',['../d8/df3/structcarla_1_1multigpu_1_1MirroredVehicleParts.html#a61bcbaffc4b64836e98408c0c504f77e',1,'carla::multigpu::MirroredVehicleParts::Field'],['../d6/d30/structcarla_1_1multigpu_1_1SensorStates.html#ab55b53a03396eff440b74c3a1bb21190',1,'carla::multigpu::SensorStates::Field'],['../da/d21/structcarla_1_1multigpu_1_1WorldObjects.html#ac0905c509d2dc6c896fdeed86b9ac636',1,'carla::multigpu::WorldObjects::Field'],['../d8/dfc/structcarla_1_1multigpu_1_1ActorAppearances.html#ab10c4e5b80ec0e144a91ad7640885587',1,'carla::multigpu::ActorAppearances::Field']]],
+  ['flag_1',['Flag',['../d0/d07/structcarla_1_1multigpu_1_1FrameTime.html#a569ca4aedf79699f06486154fe7e2b9d',1,'carla::multigpu::FrameTime']]],
+  ['framedatastatus_2',['FrameDataStatus',['../dd/d17/namespacecarla_1_1multigpu.html#a0fd81d6cb987296164cb0ae8d561aded',1,'carla::multigpu']]]
 ];

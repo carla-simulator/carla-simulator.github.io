@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kinematics',['Kinematics',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a8d5c850b41bbada5ddded68548c3c19f',1,'CarlaRecorder.h']]]
+  ['junction_0',['Junction',['../dd/d29/namespacetwinmodel.html#a7347c4d34858db5484ec8eafabe862d4a4fdd42cf46bfe3e21da13ee6e0f7d308',1,'twinmodel']]]
 ];
