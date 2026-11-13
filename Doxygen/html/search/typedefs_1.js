@@ -3,15 +3,15 @@ var searchData=
   ['basiccontainer_5ft_0',['BasicContainer_t',['../d3/d4b/classCAMContainer.html#ac6e57672eed34f24a6bdf88e851a069f',1,'CAMContainer']]],
   ['basicvehiclecontainerhighfrequency_5ft_1',['BasicVehicleContainerHighFrequency_t',['../d3/d4b/classCAMContainer.html#a7f9761a509e273c0be0ee4de42e53d18',1,'CAMContainer']]],
   ['basicvehiclecontainerlowfrequency_5ft_2',['BasicVehicleContainerLowFrequency_t',['../d3/d4b/classCAMContainer.html#a1d5e2283e1fb771e154329dd15cc05a4',1,'CAMContainer']]],
-  ['bgpoint_3',['BgPoint',['../d7/d39/namespacecarla_1_1agents_1_1navigation.html#a5da049c917bc922c2593f50377aad653',1,'carla::agents::navigation']]],
-  ['bgpolygon_4',['BgPolygon',['../d7/d39/namespacecarla_1_1agents_1_1navigation.html#afb7038ca2816cb719893da6d2a26e75d',1,'carla::agents::navigation']]],
+  ['bgpoint_3',['BgPoint',['../d7/d39/namespacecarla_1_1agents_1_1navigation.html#a5da6f8f2aac74806ac1e75e32fc57633',1,'carla::agents::navigation']]],
+  ['bgpolygon_4',['BgPolygon',['../d7/d39/namespacecarla_1_1agents_1_1navigation.html#a860864a794299d165fa383b69bd5263b',1,'carla::agents::navigation']]],
   ['bonecontrolin_5',['BoneControlIn',['../de/d2b/classcarla_1_1client_1_1Walker.html#a827530920545c8d279edb3415d9ccedc',1,'carla::client::Walker']]],
   ['bonecontrolout_6',['BoneControlOut',['../de/d2b/classcarla_1_1client_1_1Walker.html#abc461f1d14cb9a9dd9ff5226409ddaac',1,'carla::client::Walker']]],
-  ['bonetransformdatain_7',['BoneTransformDataIn',['../de/d6c/namespacecarla_1_1rpc.html#ad19ea0444a605692be73ea4bbac0bfd8',1,'carla::rpc']]],
-  ['box_8',['box',['../d0/db7/namespacecarla_1_1traffic__manager.html#a08d48e54fc36f6cc0c9f589533ae7cf7',1,'carla::traffic_manager::Box'],['../d9/d02/namespacetwinmodel_1_1geom.html#ace14ae9995663f67671b003d614fbab5',1,'twinmodel::geom::Box']]],
+  ['bonetransformdatain_7',['BoneTransformDataIn',['../de/d6c/namespacecarla_1_1rpc.html#a4a117371faa1c361a2997e07e5bd8cc2',1,'carla::rpc']]],
+  ['box_8',['Box',['../d0/db7/namespacecarla_1_1traffic__manager.html#a316c26ebc62829188bcfae888f27f640',1,'carla::traffic_manager::Box'],['../d9/d02/namespacetwinmodel_1_1geom.html#a30067556264beb040ae08a6a444d955d',1,'twinmodel::geom::Box']]],
   ['box2d_9',['Box2D',['../dc/dce/test__boost__rtree_8cpp.html#a21b97d32393c3a8be0a8daf14ba06864',1,'test_boost_rtree.cpp']]],
-  ['bpoint_10',['bpoint',['../d0/d0f/classcarla_1_1geom_1_1PointCloudRtree.html#aa2ca1b823ea67fd0fddb76d5173ffae0',1,'carla::geom::PointCloudRtree::BPoint'],['../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#a053d289f7e1bf71ec19c80ec38ddc614',1,'carla::geom::SegmentCloudRtree::BPoint']]],
+  ['bpoint_10',['BPoint',['../d0/d0f/classcarla_1_1geom_1_1PointCloudRtree.html#aa2ca1b823ea67fd0fddb76d5173ffae0',1,'carla::geom::PointCloudRtree::BPoint'],['../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#a053d289f7e1bf71ec19c80ec38ddc614',1,'carla::geom::SegmentCloudRtree::BPoint']]],
   ['bsegment_11',['BSegment',['../d0/d6f/classcarla_1_1geom_1_1SegmentCloudRtree.html#a431e6cfc82539de6b7b743c983b1d6ba',1,'carla::geom::SegmentCloudRtree']]],
-  ['buffer_12',['Buffer',['../d0/db7/namespacecarla_1_1traffic__manager.html#a1d6b4dc3a00ae57d565e9382690490bd',1,'carla::traffic_manager']]],
-  ['buffermap_13',['BufferMap',['../d0/db7/namespacecarla_1_1traffic__manager.html#a5be0dafc09e8417fe252af0d8be01835',1,'carla::traffic_manager']]]
+  ['buffer_12',['Buffer',['../d0/db7/namespacecarla_1_1traffic__manager.html#a7426642a5bf1e62022a281a5c1588e7b',1,'carla::traffic_manager']]],
+  ['buffermap_13',['BufferMap',['../d0/db7/namespacecarla_1_1traffic__manager.html#ae4c7328481a2a008686cc108d2719040',1,'carla::traffic_manager']]]
 ];

@@ -4,7 +4,7 @@ var searchData=
   ['accelerationcontrol_1',['AccelerationControl',['../dc/de0/classITSContainer.html#a39afe2910784be877c0e63bda4fbbc08',1,'ITSContainer']]],
   ['actorattributetype_2',['ActorAttributeType',['../de/d6c/namespacecarla_1_1rpc.html#a39167440b1fcbce5d286268530a54c54',1,'carla::rpc']]],
   ['actorstate_3',['ActorState',['../de/d6c/namespacecarla_1_1rpc.html#a05a30f3aa05ff2c5d120170d22c0fbf3',1,'carla::rpc']]],
-  ['actortype_4',['actortype',['../dc/dde/classFCarlaActor.html#a68463a6ebe4a8d0364996c5d84af4279',1,'FCarlaActor::ActorType'],['../d0/db7/namespacecarla_1_1traffic__manager.html#a50f39917151d60f6feafd15ea11a3d30',1,'carla::traffic_manager::ActorType']]],
+  ['actortype_4',['ActorType',['../dc/dde/classFCarlaActor.html#a68463a6ebe4a8d0364996c5d84af4279',1,'FCarlaActor::ActorType'],['../d0/db7/namespacecarla_1_1traffic__manager.html#a50f39917151d60f6feafd15ea11a3d30',1,'carla::traffic_manager::ActorType']]],
   ['address_5',['address',['../d9/da8/structcarla_1_1streaming_1_1detail_1_1token__data.html#a5463fd2ac7f09af9e49bf5bfc2048d1e',1,'carla::streaming::detail::token_data']]],
   ['allocationmode_6',['AllocationMode',['../d8/dc8/classmoodycamel_1_1ConcurrentQueue.html#ad59a292a76c2276b4d1c2b1bcd5904a9',1,'moodycamel::ConcurrentQueue']]],
   ['altitudeconfidence_7',['AltitudeConfidence',['../dc/de0/classITSContainer.html#a1769a21e8a3a4a37f524a564288050e4',1,'ITSContainer']]],

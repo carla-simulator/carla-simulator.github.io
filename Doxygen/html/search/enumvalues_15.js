@@ -11,14 +11,14 @@ var searchData=
   ['walkerbones_8',['WalkerBones',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a5e51de1bac463c81ee7d3ed6adcb3156',1,'CarlaRecorder.h']]],
   ['walkerdead_9',['WalkerDead',['../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da09eaa716dcb6c3965ffc601074fecf91',1,'CarlaServerResponse.h']]],
   ['walkerincompatiblecontroller_10',['WalkerIncompatibleController',['../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da36c7119294334477a21948a963912fd7',1,'CarlaServerResponse.h']]],
-  ['walls_11',['walls',['../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42ba1f5c5ce5cdbea723378e6db882a732ec',1,'carla::rpc::Walls'],['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a1f5c5ce5cdbea723378e6db882a732ec',1,'carla::rpc::Walls']]],
+  ['walls_11',['Walls',['../de/d6c/namespacecarla_1_1rpc.html#a64d9aac1c2a1d8e7ff5056054f80b42ba1f5c5ce5cdbea723378e6db882a732ec',1,'carla::rpc::Walls'],['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a1f5c5ce5cdbea723378e6db882a732ec',1,'carla::rpc::Walls']]],
   ['water_12',['Water',['../de/d6c/namespacecarla_1_1rpc.html#a5bba5b393ad6b235e35ae620025f47e0a27634ff8002b12e75d98e07ccd005d18',1,'carla::rpc']]],
   ['weather_13',['Weather',['../d9/d6a/CarlaRecorder_8h.html#a4c56233e0004f5c9ac481a933ab6b613a1441df6b1c10f910ccdc400e40b5fce9',1,'CarlaRecorder.h']]],
   ['webmercator_14',['WebMercator',['../dc/dda/namespacecarla_1_1geom.html#aaf03fbc03395f06416c458d9a6eb6139a237a1ca3efabeb827ba61363ce1df6c7',1,'carla::geom']]],
   ['wheelanimationnotsupported_15',['WheelAnimationNotSupported',['../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da9016ae7f807d12fe5b27e0a1c0c7d1a7',1,'CarlaServerResponse.h']]],
   ['wheelanimationoverridedisabled_16',['WheelAnimationOverrideDisabled',['../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da49f8a45cad7d03bb574c7793821a8a33',1,'CarlaServerResponse.h']]],
   ['wheelnotfound_17',['WheelNotFound',['../dd/d3e/CarlaServerResponse_8h.html#ad15b7df4d328256d9ad3cc9b79ffbf9da4aac9628b186cb2e518f8f3ad6d2dc5a',1,'CarlaServerResponse.h']]],
-  ['white_18',['white',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#adcc9f0cd0b5b4be0cc07be4bf5df30aca25a81701fbfa4a1efdf660a950c1d006',1,'carla::road::element::LaneMarking::White'],['../dd/d29/namespacetwinmodel.html#a3add9420e1b3d92983a3c0e477c1057da25a81701fbfa4a1efdf660a950c1d006',1,'twinmodel::White']]],
+  ['white_18',['White',['../d6/dd3/structcarla_1_1road_1_1element_1_1LaneMarking.html#adcc9f0cd0b5b4be0cc07be4bf5df30aca25a81701fbfa4a1efdf660a950c1d006',1,'carla::road::element::LaneMarking::White'],['../dd/d29/namespacetwinmodel.html#a3add9420e1b3d92983a3c0e477c1057da25a81701fbfa4a1efdf660a950c1d006',1,'twinmodel::White']]],
   ['winner_19',['Winner',['../dd/dc7/PathLossModel_8h.html#aa876d1a2160aa7c743418434d7132688a25c11942165f512a48a069c466c79741',1,'PathLossModel.h']]],
   ['worldobserver_20',['WorldObserver',['../d1/d4b/namespacecarla_1_1ros2.html#aadec52f2a609176e3429b83f492bdebda9983ac34fba02581197d32a13b6b120b',1,'carla::ros2']]]
 ];
