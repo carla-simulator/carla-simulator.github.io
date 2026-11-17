@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 18 1200 362" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5f6b73"/></marker>
+  </defs>
+  <rect y="18" width="1200" height="362" fill="#ffffff"/>
+
+  <!-- lane A: RoadRunner to content pack -->
+  <rect x="20" y="58" width="1160" height="150" rx="10" fill="#f4f7fa" stroke="#cfd8df"/>
+  <text x="36" y="82" font-size="17" font-weight="bold" fill="#333">A full map, in a source build, shared as a content pack</text>
+  <g font-size="14" text-anchor="middle">
+    <rect x="36" y="98" width="200" height="90" rx="8" fill="#efe8f6" stroke="#8a5cc2" stroke-width="2"/>
+    <text x="136" y="132" font-size="17" font-weight="bold" fill="#222">RoadRunner</text>
+    <text x="136" y="154" fill="#555">road network exported</text><text x="136" y="170" fill="#555">as FBX + OpenDRIVE</text>
+    <rect x="266" y="98" width="200" height="90" rx="8" fill="#e3eef8" stroke="#3a7fc1" stroke-width="2"/>
+    <text x="366" y="132" font-size="17" font-weight="bold" fill="#222">Util/Tools/Import.py</text>
+    <text x="366" y="154" fill="#555">a drivable map</text><text x="366" y="170" fill="#555">in the source build</text>
+    <rect x="496" y="98" width="200" height="90" rx="8" fill="#e3eef8" stroke="#3a7fc1" stroke-width="2"/>
+    <text x="596" y="132" font-size="17" font-weight="bold" fill="#222">Unreal Editor</text>
+    <text x="596" y="154" fill="#555">decorate the map, add</text><text x="596" y="170" fill="#555">props and vehicles</text>
+    <rect x="726" y="98" width="200" height="90" rx="8" fill="#e3f3e6" stroke="#3c9a5f" stroke-width="2"/>
+    <text x="826" y="132" font-size="17" font-weight="bold" fill="#222">carla-pack build</text>
+    <text x="826" y="154" fill="#555">a content pack cooked</text><text x="826" y="170" fill="#555">against a CARLA release</text>
+    <rect x="956" y="98" width="208" height="90" rx="8" fill="#fdf0e2" stroke="#e08a2e" stroke-width="2"/>
+    <text x="1060" y="132" font-size="17" font-weight="bold" fill="#222">CARLA package</text>
+    <text x="1060" y="154" fill="#555">carla-pack install, then</text><text x="1060" y="170" fill="#555">load_world('MyMap')</text>
+  </g>
+  <g stroke="#5f6b73" stroke-width="2" marker-end="url(#a)">
+    <line x1="236" y1="143" x2="264" y2="143"/><line x1="466" y1="143" x2="494" y2="143"/>
+    <line x1="696" y1="143" x2="724" y2="143"/><line x1="926" y1="143" x2="954" y2="143"/>
+  </g>
+
+  <!-- lane B: OpenDRIVE only -->
+  <rect x="20" y="226" width="1160" height="150" rx="10" fill="#f4f7fa" stroke="#cfd8df"/>
+  <text x="36" y="250" font-size="17" font-weight="bold" fill="#333">Roads only, at runtime, on any CARLA</text>
+  <g font-size="14" text-anchor="middle">
+    <rect x="36" y="266" width="200" height="90" rx="8" fill="#efe8f6" stroke="#8a5cc2" stroke-width="2"/>
+    <text x="136" y="300" font-size="17" font-weight="bold" fill="#222">OpenStreetMap</text>
+    <text x="136" y="322" fill="#555">an .osm export</text><text x="136" y="338" fill="#555">of a real place</text>
+    <rect x="266" y="266" width="200" height="90" rx="8" fill="#e3eef8" stroke="#3a7fc1" stroke-width="2"/>
+    <text x="366" y="300" font-size="17" font-weight="bold" fill="#222">carla.Osm2Odr</text>
+    <text x="366" y="322" fill="#555">converts it</text><text x="366" y="338" fill="#555">to OpenDRIVE</text>
+    <rect x="496" y="266" width="200" height="90" rx="8" fill="#efe8f6" stroke="#8a5cc2" stroke-width="2"/>
+    <text x="596" y="300" font-size="17" font-weight="bold" fill="#222">OpenDRIVE</text>
+    <text x="596" y="322" fill="#555">any .xodr file, from</text><text x="596" y="338" fill="#555">OSM or your own tool</text>
+    <rect x="956" y="266" width="208" height="90" rx="8" fill="#fdf0e2" stroke="#e08a2e" stroke-width="2"/>
+    <text x="1060" y="300" font-size="17" font-weight="bold" fill="#222">CARLA server</text>
+    <text x="1060" y="322" fill="#555">generate_opendrive_world()</text><text x="1060" y="338" fill="#555">roads and ground, no build</text>
+  </g>
+  <g stroke="#5f6b73" stroke-width="2" marker-end="url(#a)">
+    <line x1="236" y1="311" x2="264" y2="311"/><line x1="466" y1="311" x2="494" y2="311"/>
+    <line x1="696" y1="311" x2="954" y2="311"/>
+  </g>
+</svg>
